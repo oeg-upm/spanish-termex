@@ -127,20 +127,20 @@ def translate_keyword(key,text,translation_list):
     print(res)
 
 
-translation_list= []
-#for key in keys:
-#    translate_keyword(key,doc,translation_list)
+# translation_list= []
+# #for key in keys:
+# #    translate_keyword(key,doc,translation_list)
 
 
-len(translation_list)
+# len(translation_list)
 
-translation_list
-dictionary = dict(enumerate(set(translation_list)))
-#print(dictionary)
-length = len(dictionary)
+# translation_list
+# dictionary = dict(enumerate(set(translation_list)))
+# #print(dictionary)
+# length = len(dictionary)
 
-source_language = "en"  # English
-target_language = "es"  # French
+# source_language = "en"  # English
+# target_language = "es"  # French
 '''
 
 def main():
@@ -171,41 +171,41 @@ PathDocs= 'datasets/source/SemEval2017/docsutf8'
 PathKeys= 'datasets/source/SemEval2017/keys'
 PathTrans= 'datasets/doc_translations/Helsinki/SemEval2017'
 
-sourcefiles = os.listdir(PathDocs)
-keys = os.listdir(PathKeys)
-transfiles = os.listdir(PathTrans)
-notrans=[]
+# sourcefiles = os.listdir(PathDocs)
+# keys = os.listdir(PathKeys)
+# transfiles = os.listdir(PathTrans)
+# notrans=[]
 
 
 
-for s in sourcefiles:
-    pos=s.find('.')
-    subs=s[:pos]
-    trans=subs+'.keytrans.json'
-    if trans not in transfiles:
-        notrans.append(s)
-print(notrans)
+# for s in sourcefiles:
+#     pos=s.find('.')
+#     subs=s[:pos]
+#     trans=subs+'.keytrans.json'
+#     if trans not in transfiles:
+#         notrans.append(s)
+# print(notrans)
 
 
-#TRANSLATE ALL KEYS AND SAVE IN DICTIONARIES
-keys = os.listdir(PathKeys)
-#if it stops use notrans instead of keys to continue with the pending files not translated
+# #TRANSLATE ALL KEYS AND SAVE IN DICTIONARIES
+# keys = os.listdir(PathKeys)
+# #if it stops use notrans instead of keys to continue with the pending files not translated
 
-for key in notrans:
-  readkey=read_lines(PathDocs+'/'+key)
-  print(key)
-  trans_dict={}
-  dict_file=key+'trans.json'
-  dict_path=os.path.join(PathTrans, dict_file)
-  for k in readkey:
-    try:
-        translated=translate_text_helsinki(k, source_language, target_language)
-        #print(translated)
-        trans_dict[k]=translated
-    except TypeError:
-          print("TypeError: None")
-  #print(trans_dict)
-  with open(dict_path, 'w', encoding='utf-8') as file:
-    json.dump(trans_dict, file, ensure_ascii=False)
+# for key in notrans:
+#   readkey=read_lines(PathDocs+'/'+key)
+#   print(key)
+#   trans_dict={}
+#   dict_file=key+'trans.json'
+#   dict_path=os.path.join(PathTrans, dict_file)
+#   for k in readkey:
+#     try:
+#         translated=translate_text_helsinki(k, source_language, target_language)
+#         #print(translated)
+#         trans_dict[k]=translated
+#     except TypeError:
+#           print("TypeError: None")
+#   #print(trans_dict)
+#   with open(dict_path, 'w', encoding='utf-8') as file:
+#     json.dump(trans_dict, file, ensure_ascii=False)
     
 
