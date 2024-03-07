@@ -12,6 +12,7 @@ import httpx
 from googletrans import Translator
 import json
 from transformers import MarianMTModel, MarianTokenizer
+import os
 
 def translate_text_mariaNMT(text):
     model_name = "Helsinki-NLP/opus-mt-en-es"
@@ -52,6 +53,18 @@ def read_term_list_file(filepath):
             k = k.strip()
             lst.append(k)
     return lst
+def read_lines(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+             lines = [line.strip() for line in file.readlines()]
+
+        return lines
+    except FileNotFoundError:
+        print(f"El archivo '{file_path}' no fue encontrado.")
+        return None
+    except Exception as e:
+        print(f"Ocurrió un error al intentar leer el archivo '{file_path}': {e}")
+        return None
 
 def read_file_content(path):
     with open(path, 'r') as file:
@@ -93,6 +106,7 @@ class Translation():
         self.translated_keywords=[] #después 
         self.errors=[] #si alguna traducción es diferente
         self.error_count=0
+        self.id=""
     def generate_annotated_sentences(self):
         self.annotated_sentence=[]
         for key in self.original_keys:
@@ -111,50 +125,73 @@ class Translation():
                 self.errors.append('error in ' + str(extracted))
                 self.error_count+=1
                 self.translated_keywords.append(get_best_match(extracted))
+    def write_json(self): 
+        data = {
+            "original_text" : translation.original_text ,
+            "original_translation": translation.original_translation , 
+            "error_count": translation.error_count ,
+            "errors":translation.errors ,
+            "keys":{}
+            }
+        counter=0
+        for key in translation.original_keys:
+            data['keys'][key]={
+                    "translated_key": translation.translated_keywords[counter],
+                    "translated_annotated_text": translation.translated_annotated_text[counter],
+                   }
+            counter+=1
+
+            
+        file_path = "datasets/doc_translations/GTranslate/"+self.id+".json"
+
+        # Write data to the JSON file
+        with open(file_path, "w") as json_file:
+            json.dump(data, json_file, indent=4)
+        
             
 
 
-PathDocs= 'datasets/source/SemEval2017/docsutf8/S030193221400144X.txt'
-PathKeys= 'datasets/source/SemEval2017/keys/S030193221400144X.key'
+# PathDocs= 'datasets/source/SemEval2017/docsutf8/S030193221400144X.txt'
+# PathKeys= 'datasets/source/SemEval2017/keys/S030193221400144X.key'
 
-text=read_file_content(PathDocs)
-keys=read_term_list_file(PathKeys)
+# text=read_file_content(PathDocs)
+# keys=read_term_list_file(PathKeys)
 
-translation=Translation(text, keys)
-list_annotations=translation.generate_annotated_sentences()
+
+PathDocs= 'datasets/source/SemEval2017/docsutf8/test'
+PathKeys= 'datasets/source/SemEval2017/keys/test'
+
+sourcedocs = os.listdir(PathDocs)
+sourcekeys = os.listdir(PathKeys)
+
+
 
 source_language = "en"  # English
 target_language = "es"
 
-for annotated in list_annotations: 
-    tr=translate_text_google(annotated, src_lang='en', dest_lang='es')
-    print(tr)
-    translation.translated_annotated_text.append(tr)
-   
-translation.compare_annotated_keywords()    
+
+#ALGO PASA CON LA COMPARACION DE ERRORES
+
+for t in sourcedocs:
+    pos=t.find('.')
+    subs=t[:pos]
+    key=subs+'.key'
+    readdoc=read_lines(PathDocs+'/'+t)
+    if key in sourcekeys:
+        readkey=read_lines(PathKeys+'/'+key)
+        translation=Translation(readdoc[0], readkey)
+        translation.id=subs
+        list_annotations=translation.generate_annotated_sentences()
+        translation.original_translation=translate_text_google(readdoc[0], src_lang='en', dest_lang='es')
+        for annotated in list_annotations: 
+            tr=translate_text_google(annotated, src_lang='en', dest_lang='es')
+            print(tr)
+            translation.translated_annotated_text.append(tr)
+           
+        translation.compare_annotated_keywords()    
+        translation.write_json()
 
 
-data = {
-    "original_text" : translation.original_text ,
-    "original_translation": translation.original_translation , 
-    "error_count": translation.error_count ,
-    "errors":translation.errors ,
-    
-    }
-counter=0
-for key in translation.original_keys:
-    data[key]={
-            "translated_key": translation.translated_keywords[counter],
-            "translated_annotated_text": translation.translated_annotated_text[counter],
-           }
-    counter+=1
-
-    
-file_path = "datasets/source/data.json"
-
-# Write data to the JSON file
-with open(file_path, "w") as json_file:
-    json.dump(data, json_file, indent=4)
 
 
 
