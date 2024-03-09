@@ -13,6 +13,8 @@ from googletrans import Translator
 import json
 from transformers import MarianMTModel, MarianTokenizer
 import os
+from collections import Counter
+
 
 def translate_text_mariaNMT(text):
     model_name = "Helsinki-NLP/opus-mt-en-es"
@@ -83,18 +85,28 @@ def detect_different_translations(lista):
     # Compara todos los elementos de la lista con el primero
     return all(elemento == lista[0] for elemento in lista)
 #de las traducciones diferentes, coge las que mayor número presenten. si son diferentes, coge el primero
-def get_best_match(lista):
-
-    matches = {}
+def most_repeated_element(lst):
+    # Count occurrences of each element in the list
+    counts = Counter(lst)
     
-    # Iterar sobre cada elemento de la lista
-    for item in lista:
-        # Si el elemento ya está en el diccionario, significa que hemos encontrado una coincidencia
-        if item in matches:
-            return item
-        else:
-            return lista[0]
-            
+    # Find the most common element(s)
+    most_common = counts.most_common(1)
+    
+    # If there are ties for the most common element, return all of them
+    max_count = most_common[0][1]
+    most_repeated=[]
+
+    #most_repeated = [element for element, count in counts.items() if count == max_count]
+    for element, count in counts.items():
+    # Check if the count of the current element is equal to the maximum count
+      if count == max_count:
+          # If yes, add the element to the most_repeated list
+          most_repeated.append(element)
+          
+          return most_repeated
+          if not most_repeated: 
+              return lst[0]
+                
 
 
 class Translation():
@@ -115,7 +127,7 @@ class Translation():
     def compare_annotated_keywords(self):
         for k in self.translated_annotated_text:
             extracted=extract_quoted_terms(k)
-            print(extracted)
+            #print(extracted)
             if detect_different_translations(extracted): 
                 print('ok')
                 self.translated_keywords.append(extracted[0])
@@ -124,7 +136,7 @@ class Translation():
                 print('error', extracted)
                 self.errors.append('error in ' + str(extracted))
                 self.error_count+=1
-                self.translated_keywords.append(get_best_match(extracted))
+                self.translated_keywords.append(extracted)
     def write_json(self): 
         data = {
             "original_text" : translation.original_text ,
@@ -145,8 +157,9 @@ class Translation():
         file_path = "datasets/doc_translations/GTranslate/"+self.id+".json"
 
         # Write data to the JSON file
-        with open(file_path, "w") as json_file:
-            json.dump(data, json_file, indent=4)
+        with open(file_path, "w", encoding='utf-8') as json_file:
+            json.dump(data, json_file, ensure_ascii=False, indent=4)
+
         
             
 
@@ -158,21 +171,28 @@ class Translation():
 # keys=read_term_list_file(PathKeys)
 
 
-PathDocs= 'datasets/source/SemEval2017/docsutf8/test'
-PathKeys= 'datasets/source/SemEval2017/keys/test'
+PathDocs= 'datasets/source/SemEval2017/docsutf8'
+PathKeys= 'datasets/source/SemEval2017/keys'
+PathTrans= 'datasets/doc_translations/GTranslate'
 
 sourcedocs = os.listdir(PathDocs)
 sourcekeys = os.listdir(PathKeys)
+transdocs = os.listdir(PathTrans)
 
-
+notrans = []
 
 source_language = "en"  # English
 target_language = "es"
 
+for s in sourcedocs:
+    pos=s.find('.')
+    subs=s[:pos]
+    trans=subs+'.keytrans.json'
+    if trans not in transdocs:
+        notrans.append(s)
 
-#ALGO PASA CON LA COMPARACION DE ERRORES
 
-for t in sourcedocs:
+for t in notrans:
     pos=t.find('.')
     subs=t[:pos]
     key=subs+'.key'
@@ -185,7 +205,7 @@ for t in sourcedocs:
         translation.original_translation=translate_text_google(readdoc[0], src_lang='en', dest_lang='es')
         for annotated in list_annotations: 
             tr=translate_text_google(annotated, src_lang='en', dest_lang='es')
-            print(tr)
+            #print(tr)
             translation.translated_annotated_text.append(tr)
            
         translation.compare_annotated_keywords()    
