@@ -29,7 +29,6 @@ def translate_text_google(text, src_lang='en', dest_lang='es'):
     timeout = httpx.Timeout(20) # 5 seconds timeout
     translator = Translator(timeout=timeout)
     translator.raise_Exception = True
-    #translator = Translator()
     translated_text = translator.translate(text, src=src_lang, dest=dest_lang)
     return translated_text.text
 
@@ -55,6 +54,8 @@ def read_term_list_file(filepath):
             k = k.strip()
             lst.append(k)
     return lst
+
+
 def read_lines(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
