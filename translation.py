@@ -7,14 +7,54 @@ Created on Thu Feb 29 19:51:02 2024
 """
 
 import os
+from translation_class import read_lines,read_file_content,Translation,translate_text_google
 from googletrans import Translator
 import re
 import json
 import httpx
 
+PathDocs = 'datasets/source/SemEval2017/docsutf8'
+PathKeys = 'datasets/source/SemEval2017/keys'
+PathTrans = 'datasets/doc_translations/GTranslateTest'
 
+sourcedocs = os.listdir(PathDocs)
+sourcekeys = os.listdir(PathKeys)
+transdocs = os.listdir(PathTrans)
+
+notrans = []
+
+source_language = "en"  # English
+target_language = "es"
+
+for s in sourcedocs:
+    pos = s.find('.')
+    subs = s[:pos]
+    trans = subs + '.keytrans.json'
+    if trans not in transdocs:
+        notrans.append(s)
+
+for t in notrans:
+    pos = t.find('.')
+    subs = t[:pos]
+    key = subs + '.key'
+    readdoc = read_file_content(PathDocs + '/' + t)
+
+    if key in sourcekeys:
+        readkey = read_lines(PathKeys + '/' + key)
+        translation = Translation(readdoc, readkey)
+        translation.id = subs
+        list_annotations = translation.generate_annotated_sentences()
+        translation.original_translation = translate_text_google(readdoc[0], src_lang='en', dest_lang='es')
+        for annotated in list_annotations:
+            tr = translate_text_google(annotated, src_lang='en', dest_lang='es')
+            # print(tr)
+            translation.translated_annotated_text.append(tr)
+
+        translation.compare_annotated_keywords()
+        translation.write_json()
 
 #READ FILE
+'''
 
 def read_lines(file_path):
     try:
@@ -161,5 +201,5 @@ for key in notrans:
   with open(dict_path, 'w', encoding='utf-8') as file:
     json.dump(trans_dict, file, ensure_ascii=False)
     
-
+'''
 

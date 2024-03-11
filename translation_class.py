@@ -119,8 +119,10 @@ class Translation():
         self.errors=[] #si alguna traducción es diferente
         self.error_count=0
         self.id=""
+        self.annotated_sentence = []
+
     def generate_annotated_sentences(self):
-        self.annotated_sentence=[]
+        self.annotated_sentence = []
         for key in self.original_keys:
             self.annotated_sentence.append(replace_with_quotes(self.original_text, key))
         return self.annotated_sentence
@@ -137,19 +139,20 @@ class Translation():
                 self.errors.append('error in ' + str(extracted))
                 self.error_count+=1
                 self.translated_keywords.append(extracted)
-    def write_json(self): 
+    def write_json(self):
         data = {
-            "original_text" : translation.original_text ,
-            "original_translation": translation.original_translation , 
-            "error_count": translation.error_count ,
-            "errors":translation.errors ,
+            "original_text" : self.original_text ,
+            "original_translation": self.original_translation ,
+            "error_count": self.error_count ,
+            "errors":self.errors ,
             "keys":{}
             }
         counter=0
-        for key in translation.original_keys:
+        for key in self.original_keys:
             data['keys'][key]={
-                    "translated_key": translation.translated_keywords[counter],
-                    "translated_annotated_text": translation.translated_annotated_text[counter],
+                    "translated_key": self.translated_keywords[counter],
+                    "translated_annotated_text": self.translated_annotated_text[counter],
+                    "error":self.errors
                    }
             counter+=1
 
@@ -170,46 +173,6 @@ class Translation():
 # text=read_file_content(PathDocs)
 # keys=read_term_list_file(PathKeys)
 
-
-PathDocs= 'datasets/source/SemEval2017/docsutf8'
-PathKeys= 'datasets/source/SemEval2017/keys'
-PathTrans= 'datasets/doc_translations/GTranslate'
-
-sourcedocs = os.listdir(PathDocs)
-sourcekeys = os.listdir(PathKeys)
-transdocs = os.listdir(PathTrans)
-
-notrans = []
-
-source_language = "en"  # English
-target_language = "es"
-
-for s in sourcedocs:
-    pos=s.find('.')
-    subs=s[:pos]
-    trans=subs+'.keytrans.json'
-    if trans not in transdocs:
-        notrans.append(s)
-
-
-for t in notrans:
-    pos=t.find('.')
-    subs=t[:pos]
-    key=subs+'.key'
-    readdoc=read_lines(PathDocs+'/'+t)
-    if key in sourcekeys:
-        readkey=read_lines(PathKeys+'/'+key)
-        translation=Translation(readdoc[0], readkey)
-        translation.id=subs
-        list_annotations=translation.generate_annotated_sentences()
-        translation.original_translation=translate_text_google(readdoc[0], src_lang='en', dest_lang='es')
-        for annotated in list_annotations: 
-            tr=translate_text_google(annotated, src_lang='en', dest_lang='es')
-            #print(tr)
-            translation.translated_annotated_text.append(tr)
-           
-        translation.compare_annotated_keywords()    
-        translation.write_json()
 
 
 
