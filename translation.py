@@ -13,9 +13,10 @@ import re
 import json
 import httpx
 
-PathDocs = 'datasets/source/SemEval2017/docsutf8'
+# PathDocs = 'datasets/source/SemEval2017/docsutf8'
+PathDocs='datasets/doc_translations/problematico'
 PathKeys = 'datasets/source/SemEval2017/keys'
-PathTrans = 'datasets/doc_translations/GTranslate'
+PathTrans = 'datasets/doc_translations/testingproblematico'
 
 # PathDocs='datasets/translation_test/docsutf8'
 # PathKeys='datasets/translation_test/keys'
@@ -48,15 +49,17 @@ for t in notrans:
     key = subs + '.key'
     print(t)
     readdoc = read_file_content(PathDocs + '/' + t)
+    cleandoc = re.sub(r'[\'"‘’]', '', readdoc)
     
 
     if key in sourcekeys:
         readkey = read_lines(PathKeys + '/' + key)
-        translation = Translation(readdoc, readkey)
-        readdoc=translation.original_text
+        translation = Translation(cleandoc, readkey)
+        cleandoc=translation.original_text
         translation.id = subs
         list_annotations = translation.generate_annotated_sentences()
-        translation.original_translation = translate_text_google(readdoc, src_lang='en', dest_lang='es')
+        print(list_annotations)
+        translation.original_translation = translate_text_google(cleandoc, src_lang='en', dest_lang='es')
         for annotated in list_annotations:
             tr = translate_text_google(annotated, src_lang='en', dest_lang='es')
             # print(tr)
