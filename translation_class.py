@@ -75,7 +75,7 @@ def read_lines(file_path):
 
 def read_file_content(path):
     with open(path, 'r') as file:
-        text = file.read().replace('\n', '')
+        text = file.read().replace('\n', ' ')
     return text
 
 def extract_quoted_terms(text):

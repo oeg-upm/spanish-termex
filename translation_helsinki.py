@@ -24,6 +24,49 @@ from transformers import pipeline
 
 #READ FILE
 
+import nltk
+from transformers import MarianMTModel, MarianTokenizer
+
+def separate_sentences(text):
+
+    sentences = nltk.sent_tokenize(text)
+
+    return sentences
+
+def translate_text(text, source_lang="en", target_lang="es"):
+    # Cargar el modelo y el tokenizador
+    model_name = f'Helsinki-NLP/opus-mt-{source_lang}-{target_lang}'
+    model = MarianMTModel.from_pretrained(model_name)
+    tokenizer = MarianTokenizer.from_pretrained(model_name)
+
+    # Tokenizar el texto en frases
+    sentences = separate_sentences(text)
+
+    # Traducir cada frase y reconstruir el texto traducido
+    translated_text = ""
+    for sentence in sentences:
+        # Agregar punto al final de la oración para tokenización
+        sentence = sentence.strip()
+        # Tokenizar y traducir la oración
+        input_ids = tokenizer.encode(sentence, return_tensors="pt")
+        translated_ids = model.generate(input_ids, max_length=100, num_beams=4, early_stopping=True)
+        translated_sentence = tokenizer.decode(translated_ids[0], skip_special_tokens=True)
+        # Agregar la oración traducida al texto traducido
+        translated_text += translated_sentence + " "
+    #print(translated_text)
+    return translated_text
+
+# Ejemplo de uso
+#input_text = "This is a test. How are you? I hope you're doing well."
+#translated_text = translate_text(input_text, source_lang="en", target_lang="es")
+#print(translated_text)
+
+
+
+
+
+
+
 def read_lines(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -48,24 +91,8 @@ def read_file(file_path):
         print(f"Ocurrió un error al intentar leer el archivo '{file_path}': {e}")
         return None
 
-PathDocs= 'datasets/source/SemEval2010/docsutf8'
-PathKeys= 'datasets/source/SemEval2010/keys'
-PathTrans= 'datasets/helsinki_translations'
-id= 'S0003491613001516'
-
-#CHECK REMAINING TRANSLATED FILES
 
 
-sourcefiles = os.listdir(PathKeys)
-transfiles = os.listdir(PathTrans)
-notrans=[]
-for s in sourcefiles:
-    pos=s.find('.')
-    subs=s[:pos]
-    trans=subs+'.keytrans.json'
-    if trans not in transfiles:
-        notrans.append(s)
-print(notrans)
 
 #IMPORT HELSINKI TRANSLATE
 
@@ -104,24 +131,10 @@ def translate_text_google(text, src_lang='en', dest_lang='es'):
     #translator = Translator()
     translated_text = translator.translate(text, src=src_lang, dest=dest_lang)
     return translated_text.text
-'''
-def main():
-    # Texto en inglés
-    text_to_translate = "Hello, how are you? This is an example text."
 
-    # Traducir el texto de inglés a español
-    translated_text = translate_text_google(text_to_translate)
-    print("Texto traducido al español:")
-    print(translated_text)
 
-    # Término específico para comprobar la traducción
-    term_to_check = "example"
-    translation_of_term = translate_text_google(term_to_check)
-    print(f"La traducción de '{term_to_check}' al español es: {translation_of_term}")
 
-if __name__ == "__main__":
-    main()
-   ''' 
+
     
 #ADD TERM MARKER
     
@@ -142,6 +155,7 @@ def remove_quotes_from_term(text):
     return text_without_quotes
 
 
+'''
 def translate_keyword(key,text,translation_list):
   replaced_text= replace_with_quotes(text,key)
 
@@ -160,7 +174,6 @@ def translate_keyword(key,text,translation_list):
     print('fatal error')
     print(translated)
     print(res)
-
 
 translation_list= []
 #for key in keys:
@@ -246,3 +259,4 @@ for key in notrans:
   with open(dict_path, 'w', encoding='utf-8') as file:
     json.dump(trans_dict, file, ensure_ascii=False)
     
+'''
