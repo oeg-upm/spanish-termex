@@ -14,7 +14,6 @@ transdocs = os.listdir(PathTrans)
 
 file_no_ds = [archivo for archivo in transdocs if not archivo.endswith('.DS_Store')]
 
-'''
 #borrar archivos con errores
 for t in file_no_ds:
 # Abre el archivo JSON
@@ -25,7 +24,10 @@ for t in file_no_ds:
         data_dict = json.load(file)
         if data_dict['error_count'] != 0: 
             os.remove(filepath)
- '''
+
+
+'''
+#corregir estructura json (el primer draft que hice)
 
 NewPath='datasets/doc_translations/nuevos'
      
@@ -45,4 +47,4 @@ for t in file_no_ds:
             json.dump(data_dict, archivo,ensure_ascii=False, indent=4)
 
 
-
+'''
