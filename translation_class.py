@@ -43,7 +43,11 @@ def translate_text_helsinki(text, source_language, target_language):
     return translated_text
 
 def replace_with_quotes(text, term):
-    replaced_text = text.replace(term, f'"{term}"')
+    #\b Matches the empty string, but only at the beginning or end of a word. A word is defined as a sequence of word characters. Note that formally, \b is defined as the boundary between a \w and a \W character (or vice versa), or between \w and the beginning or end of the string. This means that r'\bat\b' matches 'at', 'at.', '(at)', and 'as at ay' but not 'attempt' or 'atlas'.
+
+    pattern = r'\b' + re.escape(term) + r'\b'
+    newterm=f'"{term}"'
+    replaced_text = re.sub(pattern, newterm, text)
     return replaced_text        
 
 def read_term_list_file(filepath):
@@ -85,6 +89,9 @@ def detect_different_translations(lista):
         return False
     # Compara todos los elementos de la lista con el primero
     return all(elemento == lista[0] for elemento in lista)
+
+
+
 #de las traducciones diferentes, coge las que mayor número presenten. si son diferentes, coge el primero
 def most_repeated_element(lst):
     # Count occurrences of each element in the list
@@ -126,26 +133,26 @@ class Translation():
         self.annotated_sentence = []
         for key in self.original_keys:
             self.annotated_sentence.append(replace_with_quotes(self.original_text, key))
+            
         return self.annotated_sentence
     def compare_annotated_keywords(self):
         for k in self.translated_annotated_text:
             extracted=extract_quoted_terms(k)
-            #print(extracted)
+            print(extracted)
             if detect_different_translations(extracted): 
                 print('ok')
-                self.translated_keywords.append(extracted[0])
-                
+                self.translated_keywords.append(extracted[0])  
+                self.errors.append("")
             else:
                 print('error', extracted)
-                self.errors.append('error in ' + str(extracted))
+                self.errors.append((extracted))
                 self.error_count+=1
                 self.translated_keywords.append(extracted)
-    def write_json(self):
+    def write_json(self, PathTrans):
         data = {
             "original_text" : self.original_text ,
             "original_translation": self.original_translation ,
             "error_count": self.error_count ,
-            "errors":self.errors ,
             "keys":{}
             }
         counter=0
@@ -153,16 +160,17 @@ class Translation():
             data['keys'][key]={
                     "translated_key": self.translated_keywords[counter],
                     "translated_annotated_text": self.translated_annotated_text[counter],
-                    "error":self.errors
+                    "error":self.errors[counter]
                    }
             counter+=1
 
             
-        file_path = "datasets/doc_translations/GTranslate/"+self.id+".json"
+        file_path = PathTrans+"/"+self.id+".json"
 
         # Write data to the JSON file
         with open(file_path, "w", encoding='utf-8') as json_file:
             json.dump(data, json_file, ensure_ascii=False, indent=4)
+        print(self.id + '.json saved')
 
         
             

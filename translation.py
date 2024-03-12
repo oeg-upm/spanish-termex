@@ -15,7 +15,12 @@ import httpx
 
 PathDocs = 'datasets/source/SemEval2017/docsutf8'
 PathKeys = 'datasets/source/SemEval2017/keys'
-PathTrans = 'datasets/doc_translations/GTranslateTest'
+PathTrans = 'datasets/doc_translations/GTranslate'
+
+# PathDocs='datasets/translation_test/docsutf8'
+# PathKeys='datasets/translation_test/keys'
+# PathTrans='datasets/translation_test/trans'
+
 
 sourcedocs = os.listdir(PathDocs)
 sourcekeys = os.listdir(PathKeys)
@@ -26,10 +31,14 @@ notrans = []
 source_language = "en"  # English
 target_language = "es"
 
-for s in sourcedocs:
+file_no_ds = [archivo for archivo in sourcedocs if not archivo.endswith('.DS_Store')]
+
+
+for s in file_no_ds:
+    #print(s)
     pos = s.find('.')
     subs = s[:pos]
-    trans = subs + '.keytrans.json'
+    trans = subs + '.json'
     if trans not in transdocs:
         notrans.append(s)
 
@@ -37,21 +46,24 @@ for t in notrans:
     pos = t.find('.')
     subs = t[:pos]
     key = subs + '.key'
+    print(t)
     readdoc = read_file_content(PathDocs + '/' + t)
+    
 
     if key in sourcekeys:
         readkey = read_lines(PathKeys + '/' + key)
         translation = Translation(readdoc, readkey)
+        readdoc=translation.original_text
         translation.id = subs
         list_annotations = translation.generate_annotated_sentences()
-        translation.original_translation = translate_text_google(readdoc[0], src_lang='en', dest_lang='es')
+        translation.original_translation = translate_text_google(readdoc, src_lang='en', dest_lang='es')
         for annotated in list_annotations:
             tr = translate_text_google(annotated, src_lang='en', dest_lang='es')
             # print(tr)
             translation.translated_annotated_text.append(tr)
 
         translation.compare_annotated_keywords()
-        translation.write_json()
+        translation.write_json(PathTrans)
 
 #READ FILE
 '''
