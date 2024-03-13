@@ -13,10 +13,10 @@ import re
 import json
 import httpx
 
-PathDocs = 'datasets/source/SemEval2017/docsutf8'
+PathDocs = 'datasets/source/SemEval2010/docsutf8'
 #PathDocs='datasets/doc_translations/problematico'
-PathKeys = 'datasets/source/SemEval2017/keys'
-PathTrans = 'datasets/doc_translations/GTranslate'
+PathKeys = 'datasets/source/SemEval2010/keys'
+PathTrans = 'datasets/doc_translations/SemEval2010_GTranslate'
 #PathTrans = 'datasets/doc_translations/testingproblematico'
 # PathDocs='datasets/translation_test/docsutf8'
 # PathKeys='datasets/translation_test/keys'
