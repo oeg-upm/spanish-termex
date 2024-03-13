@@ -55,10 +55,12 @@ def replace_with_quotes(text, term):
     newterm=f'"{term}"'
 
     replaced_text = re.sub(pattern, newterm, text)
+    '''
     print(pattern)
     print(newterm)
     print("original term quoted")
     print(replaced_text)
+    '''
     return replaced_text        
 
 def read_term_list_file(filepath):
@@ -107,8 +109,7 @@ def clean_text(text):
 def extract_quoted_terms(text):
     # Usamos una expresión regular para encontrar los términos entre comillas
     quoted_terms = re.findall(r'"([^"]+)"', text)
-    print('quted terms ')
-    print(quoted_terms)
+
     return quoted_terms
 #son todos iguales
 def detect_different_translations(lista):
@@ -169,21 +170,23 @@ class Translation():
         self.annotated_sentence = []
         self.original_text_sentences= separate_sentences(self.original_text)
         for key in self.original_keys:
-
+            annotated_text_sentences = self.original_text_sentences.copy()
             #cleankey = re.sub(r'[\'"‘’]', '', key)
-            self.annotated_sentence.append(replace_with_quotes(self.original_text, key))
+            #output_list = list(map(double, annotated_text_sentences))
+            output_list = [replace_with_quotes(i, key) for i in annotated_text_sentences]
+            self.annotated_sentence.append(output_list)
 
         return self.annotated_sentence
     def compare_annotated_keywords(self):
         for k in self.translated_annotated_text:
             extracted=extract_quoted_terms(k)
-            print(extracted)
+            #print(extracted)
             if detect_different_translations(extracted): 
-                print('ok')
+                #print('ok')
                 self.translated_keywords.append(extracted[0])  
                 self.errors.append([""])
             else:
-                print('error', extracted)
+                #print('error', extracted)
                 self.errors.append((extracted))
                 self.error_count+=1
                 self.translated_keywords.append(extracted)

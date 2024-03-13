@@ -24,17 +24,17 @@ from transformers import pipeline
 
 #READ FILE
 
-import nltk
 from transformers import MarianMTModel, MarianTokenizer
 
-nltk.download('punkt')
 model_name = f'Helsinki-NLP/opus-mt-en-es'
 model = MarianMTModel.from_pretrained(model_name)
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 
 
 def is_sentence_to_translate(sentence):
-    if ''
+    if '"' in sentence:
+        return True
+    return False
 
 
 
@@ -47,6 +47,7 @@ def translate_texts(sentences, translated_sentences):
 
         if not is_sentence_to_translate(sentence):
             translated_text += t_sentence + " "
+            continue
 
         # Agregar punto al final de la oración para tokenización
         sentence = sentence.strip()
@@ -64,7 +65,7 @@ def translate_text_original(sentences):
 
 
     # Traducir cada frase y reconstruir el texto traducido
-    translated_text = ""
+    translated_text = []
     for sentence in sentences:
 
 
@@ -75,7 +76,7 @@ def translate_text_original(sentences):
         translated_ids = model.generate(input_ids, max_length=100, num_beams=4, early_stopping=True)
         translated_sentence = tokenizer.decode(translated_ids[0], skip_special_tokens=True)
         # Agregar la oración traducida al texto traducido
-        translated_text += translated_sentence + " "
+        translated_text.append(translated_sentence)
 
 
     return translated_text
