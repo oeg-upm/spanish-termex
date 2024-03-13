@@ -49,17 +49,17 @@ for t in notrans:
     key = subs + '.key'
     print(t)
     readdoc = read_file_content(PathDocs + '/' + t)
-    cleandoc = re.sub(r'[\'"‘’“”]', '', readdoc)
+    #cleandoc = re.sub(r'[\'"‘’“”]', '', readdoc)
     
 
     if key in sourcekeys:
         readkey = read_lines(PathKeys + '/' + key)
-        translation = Translation(cleandoc, readkey)
-        cleandoc=translation.original_text
+        translation = Translation(readdoc, readkey)
+
         translation.id = subs
         list_annotations = translation.generate_annotated_sentences()
         print(list_annotations)
-        translation.original_translation = translate_text_google(cleandoc, src_lang='en', dest_lang='es')
+        translation.original_translation = translate_text_google(readdoc, src_lang='en', dest_lang='es')
         for annotated in list_annotations:
             tr = translate_text_google(annotated, src_lang='en', dest_lang='es')
             print(tr)

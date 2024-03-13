@@ -8,6 +8,8 @@ def get_source_identifiers(file_list):
     for file_ in file_list:
         if file_.endswith('.txt'):
             identifiers.append(file_.replace('.txt',''))
+        if file_.endswith('.json'):
+            identifiers.append(file_.replace('.json',''))
 
     return identifiers
 
@@ -18,8 +20,8 @@ ONLY INPUT
 '''
 
 
-InputPath= 'datasets/Inspec/'
-OutputPath = 'datasets/doc_translations/Helsinki/Inspec/'
+InputPath=   'datasets/translation_test/'
+OutputPath = 'datasets/translation_test/trans'#'datasets/doc_translations/Helsinki/Inspec/'
 
 
 '''
@@ -35,6 +37,8 @@ targetdocs = os.listdir(OutputPath)
 source_identifiers = get_source_identifiers(sourcedocs)
 target_identifiers = get_source_identifiers(targetdocs) # for filter
 
+print(source_identifiers)
+print(target_identifiers)
 
 
 for identifier in source_identifiers:
@@ -44,20 +48,28 @@ for identifier in source_identifiers:
 
     textdoc = read_file_content(PathDocs + '/' + identifier+'.txt')
     textkeys = read_lines(PathKeys + '/' + identifier + '.key')
-    print(textkeys)
+
+
     # el objeto
     translation = Translation(textdoc, textkeys)
 
     translation.id = identifier
+
+
     list_annotations = translation.generate_annotated_sentences()
-    print(len(list_annotations))
+    '''HELSINKI
+    translation.original_translation = translate_text_google(textdoc, src_lang='en', dest_lang='es')
+    for annotated in list_annotations:
+        tr = translate_text_google(annotated, src_lang='en', dest_lang='es')
+        print(tr)
+        translation.translated_annotated_text.append(tr)
+    '''
     translation.original_translation = translate_text(textdoc)
     for annotated in list_annotations:
         tr = translate_text(annotated)
-        # print(tr)
         translation.translated_annotated_text.append(tr)
-
 
     translation.compare_annotated_keywords()
     translation.write_json(OutputPath)
+
 

@@ -27,24 +27,27 @@ from transformers import pipeline
 import nltk
 from transformers import MarianMTModel, MarianTokenizer
 
-def separate_sentences(text):
+nltk.download('punkt')
+model_name = f'Helsinki-NLP/opus-mt-en-es'
+model = MarianMTModel.from_pretrained(model_name)
+tokenizer = MarianTokenizer.from_pretrained(model_name)
 
-    sentences = nltk.sent_tokenize(text)
 
-    return sentences
+def is_sentence_to_translate(sentence):
+    if ''
 
-def translate_text(text, source_lang="en", target_lang="es"):
-    # Cargar el modelo y el tokenizador
-    model_name = f'Helsinki-NLP/opus-mt-{source_lang}-{target_lang}'
-    model = MarianMTModel.from_pretrained(model_name)
-    tokenizer = MarianTokenizer.from_pretrained(model_name)
 
-    # Tokenizar el texto en frases
-    sentences = separate_sentences(text)
+
+def translate_texts(sentences, translated_sentences):
+
 
     # Traducir cada frase y reconstruir el texto traducido
     translated_text = ""
-    for sentence in sentences:
+    for sentence, t_sentence in zip(sentences,translated_sentences):
+
+        if not is_sentence_to_translate(sentence):
+            translated_text += t_sentence + " "
+
         # Agregar punto al final de la oración para tokenización
         sentence = sentence.strip()
         # Tokenizar y traducir la oración
@@ -53,7 +56,28 @@ def translate_text(text, source_lang="en", target_lang="es"):
         translated_sentence = tokenizer.decode(translated_ids[0], skip_special_tokens=True)
         # Agregar la oración traducida al texto traducido
         translated_text += translated_sentence + " "
-    #print(translated_text)
+
+
+    return translated_text
+
+def translate_text_original(sentences):
+
+
+    # Traducir cada frase y reconstruir el texto traducido
+    translated_text = ""
+    for sentence in sentences:
+
+
+        # Agregar punto al final de la oración para tokenización
+        sentence = sentence.strip()
+        # Tokenizar y traducir la oración
+        input_ids = tokenizer.encode(sentence, return_tensors="pt")
+        translated_ids = model.generate(input_ids, max_length=100, num_beams=4, early_stopping=True)
+        translated_sentence = tokenizer.decode(translated_ids[0], skip_special_tokens=True)
+        # Agregar la oración traducida al texto traducido
+        translated_text += translated_sentence + " "
+
+
     return translated_text
 
 # Ejemplo de uso

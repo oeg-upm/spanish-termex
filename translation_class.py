@@ -14,7 +14,13 @@ import json
 from transformers import MarianMTModel, MarianTokenizer
 import os
 from collections import Counter
+import nltk
+nltk.download('punkt')
+def separate_sentences(text):
 
+    sentences = nltk.sent_tokenize(text)
+
+    return sentences
 
 def translate_text_mariaNMT(text):
     model_name = "Helsinki-NLP/opus-mt-en-es"
@@ -67,8 +73,12 @@ def read_term_list_file(filepath):
 
 def read_lines(file_path):
     try:
+        lines=[]
         with open(file_path, 'r', encoding='utf-8') as file:
-             lines = [line.strip() for line in file.readlines()]
+             for line in file.readlines():
+                text= clean_text(line)
+                lines.append(text)
+
 
         return lines
     except FileNotFoundError:
@@ -80,8 +90,19 @@ def read_lines(file_path):
 
 def read_file_content(path):
     with open(path, 'r') as file:
-        text = file.read().replace('\n', ' ')
+        text = file.read()
+        text= clean_text(text)
     return text
+
+def clean_text(text):
+    text=  re.sub(r'[\'"‘’“”]', '', text)
+    text=  text.replace('\n', ' ')
+    text = text.replace('\t', ' ')
+    text = text.replace('  ', ' ')
+
+
+    return text.strip()
+
 
 def extract_quoted_terms(text):
     # Usamos una expresión regular para encontrar los términos entre comillas
@@ -139,9 +160,19 @@ class Translation():
     def generate_annotated_sentences(self):
         self.annotated_sentence = []
         for key in self.original_keys:
-            cleankey = re.sub(r'[\'"‘’]', '', key)
-            self.annotated_sentence.append(replace_with_quotes(self.original_text, cleankey))
+            #cleankey = re.sub(r'[\'"‘’]', '', key)
+            self.annotated_sentence.append(replace_with_quotes(self.original_text, key))
             
+        return self.annotated_sentence
+
+    def generate_annotated_sentences_helsinki(self):
+        self.annotated_sentence = []
+        self.original_text_sentences= separate_sentences(self.original_text)
+        for key in self.original_keys:
+
+            #cleankey = re.sub(r'[\'"‘’]', '', key)
+            self.annotated_sentence.append(replace_with_quotes(self.original_text, key))
+
         return self.annotated_sentence
     def compare_annotated_keywords(self):
         for k in self.translated_annotated_text:
@@ -150,7 +181,7 @@ class Translation():
             if detect_different_translations(extracted): 
                 print('ok')
                 self.translated_keywords.append(extracted[0])  
-                self.errors.append("")
+                self.errors.append([""])
             else:
                 print('error', extracted)
                 self.errors.append((extracted))
@@ -165,8 +196,8 @@ class Translation():
             }
         counter=0
         for key in self.original_keys:
-            cleankey = re.sub(r'[\'"‘’“”]', '', key)
-            data['keys'][cleankey]={
+            #cleankey = re.sub(r'[\'"‘’“”]', '', key)
+            data['keys'][key]={
                     "translated_key": self.translated_keywords[counter],
                     "translated_annotated_text": self.translated_annotated_text[counter],
                     "error":self.errors[counter]
