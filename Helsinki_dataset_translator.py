@@ -20,8 +20,12 @@ ONLY INPUT
 '''
 
 
-InputPath=   'datasets/source/SemEval2017/'
-OutputPath = 'datasets/doc_translations/Helsinki/SemEval2017/' #'datasets/translation_test/trans'
+InputPath=   'datasets/Inspec/'
+OutputPath = 'datasets/doc_translations/Helsinki/Inspec/' #'datasets/translation_test/trans'
+
+
+#InputPath=   'datasets/source/SemEval2017/'
+#OutputPath = 'datasets/doc_translations/Helsinki/SemEval2017/' #'datasets/translation_test/trans'
 
 
 '''

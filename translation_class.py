@@ -151,23 +151,13 @@ def remove_quotes(sentence):
     sentence=sentence.replace('<br>','').replace('</br>','')
     return sentence
 
-# Test the functions
-text = "Table 1 shows the original oxide thicknesses after 111 days oxidation, the modified oxide thicknesses based on the ​surface profile​ length and the percentage difference."
-text = "Table 1 shows the original oxide thicknesses after 111 days oxidation, the modified oxide thicknesses based on the surface profile length and the percentage difference."
 
-annotated_text = replace_with_quotes(text, "surface profile")
-print("Annotated text:", annotated_text)
-
-extracted_terms = extract_quoted_terms(annotated_text)
-print("Extracted terms:", extracted_terms)
-print(is_sentence_to_translate(annotated_text))
 
 # Output: example
 
 # Test the functions
-
-
 '''
+######## PATRI FUCTIONS
 def replace_with_quotes(text, term):
     # \b Matches the empty string, but only at the beginning or end of a word. A word is defined as a sequence of word characters. Note that formally, \b is defined as the boundary between a \w and a \W character (or vice versa), or between \w and the beginning or end of the string. This means that r'\bat\b' matches 'at', 'at.', '(at)', and 'as at ay' but not 'attempt' or 'atlas'.
 
@@ -184,16 +174,7 @@ def extract_quoted_terms(text):
 
     return quoted_terms
 '''
-#son todos iguales
 
-text='Table 1 shows the original oxide thicknesses after 111 days oxidation} the modified oxide thicknesses based on the surface profile length and the percentage difference. (current analysis)'
-new_text= replace_with_quotes(text,'surface profile')
-#print(new_text)
-#print(extract_quoted_terms(new_text))
-
-print(find_term(text, '111 days oxidation'))
-print(find_term(text, 'surface profile'))
-print(find_term(text, 'current analysis'))
 
 
 def detect_different_translations(lista):

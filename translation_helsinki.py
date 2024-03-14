@@ -38,7 +38,7 @@ def model_translation(sentence):
     sentence = sentence.strip()
     # Tokenizar y traducir la oración
     input_ids = tokenizer.encode(sentence, return_tensors="pt")
-    translated_ids = model.generate(input_ids, max_length=250, num_beams=4, early_stopping=True)
+    translated_ids = model.generate(input_ids, max_length=250, num_beams=3, early_stopping=False)
     translated_sentence = tokenizer.decode(translated_ids[0], skip_special_tokens=True)
 
     return translated_sentence
@@ -92,14 +92,13 @@ def error_handler(sentence):
 
 
 
-    output= replace_with_quotes(translation_new, term_translated)
+    output= replace_with_quotes(translation_new, term_translated.lower())
 
     new_ter= extract_quoted_terms(output)
     if len(new_ter)==0:
         print('>>>>>>>>>>>>>BAD')
-        print('trcute', output)
-
-        print(output)
+        print('Salida', output)
+        print('termino',term_translated)
 
 
 
