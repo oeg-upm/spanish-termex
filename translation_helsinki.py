@@ -5,6 +5,7 @@ Created on Mon Mar  4 17:16:08 2024
 
 @author: pmchozas
 """
+from translation_class import is_sentence_to_translate,extract_quoted_terms,replace_with_quotes,remove_quotes
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -31,10 +32,79 @@ model = MarianMTModel.from_pretrained(model_name)
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 
 
-def is_sentence_to_translate(sentence):
-    if '"' in sentence:
-        return True
-    return False
+
+
+def model_translation(sentence):
+    sentence = sentence.strip()
+    # Tokenizar y traducir la oración
+    input_ids = tokenizer.encode(sentence, return_tensors="pt")
+    translated_ids = model.generate(input_ids, max_length=250, num_beams=4, early_stopping=True)
+    translated_sentence = tokenizer.decode(translated_ids[0], skip_special_tokens=True)
+
+    return translated_sentence
+
+
+def substring_from_last_point(text):
+    """
+    Returns the substring from the last period ('.') in the input text.
+
+    Args:
+    - text (str): The input text.
+
+    Returns:
+    - result (str): The substring starting from the last period ('.') in the input text.
+    """
+    # Find the index of the last period
+    last_period_index = text.rfind('.')
+
+    # If a period is found, return the substring starting from the character after the period
+    if last_period_index != -1:
+        result = text[last_period_index + 1:].strip()
+    else:
+        # If no period is found, return the entire input text
+        result = text
+
+    return result
+
+
+def error_handler(sentence):
+    #print('sent',sentence)
+    term= extract_quoted_terms(sentence)[0] # at least 1, and always will be the same
+    #print('term',term)
+    sentence = remove_quotes(sentence)
+    if not sentence[-1] == '.':
+        sentence= sentence+'.'
+    sentence= sentence +' '+term
+    #print('->',sentence)
+
+    translation= model_translation(sentence)
+    #print('tr', translation)
+    term_translated= substring_from_last_point(translation)
+    #print('term', term_translated)
+    if term_translated == '':
+        #print('again')
+        term_translated = model_translation(term)
+
+
+        translation_new = translation
+    else:
+        translation_new = translation[:-len(term_translated)]
+
+
+
+    output= replace_with_quotes(translation_new, term_translated)
+
+    new_ter= extract_quoted_terms(output)
+    if len(new_ter)==0:
+        print('>>>>>>>>>>>>>BAD')
+        print('trcute', output)
+
+        print(output)
+
+
+
+    return output
+
 
 
 
@@ -50,13 +120,16 @@ def translate_texts(sentences, translated_sentences):
             continue
 
         # Agregar punto al final de la oración para tokenización
-        sentence = sentence.strip()
-        # Tokenizar y traducir la oración
-        input_ids = tokenizer.encode(sentence, return_tensors="pt")
-        translated_ids = model.generate(input_ids, max_length=100, num_beams=4, early_stopping=True)
-        translated_sentence = tokenizer.decode(translated_ids[0], skip_special_tokens=True)
+
+        translated_sentence= model_translation(sentence)
+
+        ## SE PRODUCE EL FALLO, NO HAY MARCADOR
+        if not is_sentence_to_translate(translated_sentence):
+            #print('bad:',translated_sentence)
+            translated_sentence= error_handler(sentence)
         # Agregar la oración traducida al texto traducido
         translated_text += translated_sentence + " "
+
 
 
     return translated_text
@@ -67,221 +140,11 @@ def translate_text_original(sentences):
     # Traducir cada frase y reconstruir el texto traducido
     translated_text = []
     for sentence in sentences:
+        translated_sentence= model_translation(sentence)
 
 
-        # Agregar punto al final de la oración para tokenización
-        sentence = sentence.strip()
-        # Tokenizar y traducir la oración
-        input_ids = tokenizer.encode(sentence, return_tensors="pt")
-        translated_ids = model.generate(input_ids, max_length=100, num_beams=4, early_stopping=True)
-        translated_sentence = tokenizer.decode(translated_ids[0], skip_special_tokens=True)
         # Agregar la oración traducida al texto traducido
         translated_text.append(translated_sentence)
 
 
     return translated_text
-
-# Ejemplo de uso
-#input_text = "This is a test. How are you? I hope you're doing well."
-#translated_text = translate_text(input_text, source_lang="en", target_lang="es")
-#print(translated_text)
-
-
-
-
-
-
-
-def read_lines(file_path):
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-             lines = [line.strip() for line in file.readlines()]
-
-        return lines
-    except FileNotFoundError:
-        print(f"El archivo '{file_path}' no fue encontrado.")
-        return None
-    except Exception as e:
-        print(f"Ocurrió un error al intentar leer el archivo '{file_path}': {e}")
-        return None
-def read_file(file_path):
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
-        return content
-    except FileNotFoundError:
-        print(f"El archivo '{file_path}' no fue encontrado.")
-        return None
-    except Exception as e:
-        print(f"Ocurrió un error al intentar leer el archivo '{file_path}': {e}")
-        return None
-
-
-
-
-#IMPORT HELSINKI TRANSLATE
-
-def translate_text_helsinki(text, source_language, target_language):
-    """
-    Translates text from source language to target language using Helsinki's translation pipeline.
-
-    Args:
-    - text: The text to be translated.
-    - source_language: The source language of the text.
-    - target_language: The target language for translation.
-
-    Returns:
-    - translated_text: The translated text.
-    """
-    # Load translation pipeline
-    translation_pipeline = pipeline(task="translation", model=f"Helsinki-NLP/opus-mt-{source_language}-{target_language}")
-
-    # Translate text
-    translated_text = translation_pipeline(text)[0]['translation_text']
-    return translated_text
-
-# Example usage
-#source_text = "Hello, how are you?"
-
-
-#translated_text = translate_text(source_text, source_language, target_language)
-#print(f"Translated text: {translated_text}")
-
-#IMPORT GOOGLE TRANSLATE
-#timeout = httpx.Timeout(5) # 5 seconds timeout
-def translate_text_google(text, src_lang='en', dest_lang='es'):
-    timeout = httpx.Timeout(20) # 5 seconds timeout
-    translator = Translator(timeout=timeout)
-    translator.raise_Exception = True
-    #translator = Translator()
-    translated_text = translator.translate(text, src=src_lang, dest=dest_lang)
-    return translated_text.text
-
-
-
-
-    
-#ADD TERM MARKER
-    
-def replace_with_quotes(text, term):
-    replaced_text = text.replace(term, f'"{term}"')
-    return replaced_text
-
-
-def extract_quoted_terms(text):
-    # Usamos una expresión regular para encontrar los términos entre comillas
-    quoted_terms = re.findall(r'"([^"]*)"', text)
-    return quoted_terms
-def remove_quotes_from_term(text):
-    # Usamos una expresión regular para encontrar términos entre comillas y los quitamos
-
-    text_without_quotes = text.replace('"', '')
-    #text_without_quotes = re.sub(r'<span>([^"]*)<span>', r'\1', text)
-    return text_without_quotes
-
-
-'''
-def translate_keyword(key,text,translation_list):
-  replaced_text= replace_with_quotes(text,key)
-
-  print(replaced_text)
-  #translated=translate_text_google(replaced_text)
-  translated=translate_text_helsinki(replaced_text, source_language, target_language)
-  #translated=translate_text_mariaNMT(text)
-  translation_list.append(remove_quotes_from_term(translated))
-  #print(translated)
-  res= extract_quoted_terms(translated)
-  #print(res)
-  dictionary = dict(enumerate(set(res)))
-  #print(dictionary)
-  length = len(dictionary)
-  if length>1:
-    print('fatal error')
-    print(translated)
-    print(res)
-
-translation_list= []
-#for key in keys:
-#    translate_keyword(key,doc,translation_list)
-
-
-len(translation_list)
-
-translation_list
-dictionary = dict(enumerate(set(translation_list)))
-#print(dictionary)
-length = len(dictionary)
-
-source_language = "en"  # English
-target_language = "es"  # French
-
-#TRANSLATE ALL KEYS AND SAVE IN DICTIONARIES
-keys = os.listdir(PathKeys)
-#if it stops use notrans instead of keys to continue with the pending files not translated
-# folder_path='datasets/helsinki_translations/'
-# for key in notrans:
-#   readkey=read_lines(PathKeys+'/'+key)
-#   print(key)
-#   trans_dict={}
-#   dict_file=key+'trans.json'
-#   dict_path=os.path.join(folder_path, dict_file)
-#   for k in readkey:
-#     try:
-#       print(k)
-#       if '.' in k:
-#           trans_dict[k]=k
-#       else:
-#           translated=translate_text_helsinki(k, source_language, target_language)
-#           print(translated)
-#           trans_dict[k]=translated
-#     except TypeError:
-#           print("TypeError: None")
-#   #print(trans_dict)
-#   with open(dict_path, 'w', encoding='utf-8') as file:
-#     json.dump(trans_dict, file, ensure_ascii=False)
-    
-
-
-
-PathDocs= 'datasets/source/SemEval2010/docsutf8'
-PathKeys= 'datasets/source/SemEval2010/keys'
-PathTrans= 'datasets/doc_translations/Helsinki/SemEval2010'
-
-sourcefiles = os.listdir(PathDocs)
-keys = os.listdir(PathKeys)
-transfiles = os.listdir(PathTrans)
-notrans=[]
-
-
-
-for s in sourcefiles:
-    pos=s.find('.')
-    subs=s[:pos]
-    trans=subs+'.keytrans.json'
-    if trans not in transfiles:
-        notrans.append(s)
-print(notrans)
-
-
-#TRANSLATE ALL KEYS AND SAVE IN DICTIONARIES
-keys = os.listdir(PathKeys)
-#if it stops use notrans instead of keys to continue with the pending files not translated
-
-for key in notrans:
-  readkey=read_lines(PathDocs+'/'+key)
-  print(key)
-  trans_dict={}
-  dict_file=key+'trans.json'
-  dict_path=os.path.join(PathTrans, dict_file)
-  for k in readkey:
-    try:
-        translated=translate_text_helsinki(k, source_language, target_language)
-        #print(translated)
-        trans_dict[k]=translated
-    except TypeError:
-          print("TypeError: None")
-  #print(trans_dict)
-  with open(dict_path, 'w', encoding='utf-8') as file:
-    json.dump(trans_dict, file, ensure_ascii=False)
-    
-'''

@@ -20,8 +20,8 @@ ONLY INPUT
 '''
 
 
-InputPath=   'datasets/Inspec/'
-OutputPath = 'datasets/doc_translations/Helsinki/Inspec/' #'datasets/translation_test/trans'
+InputPath=   'datasets/source/SemEval2017/'
+OutputPath = 'datasets/doc_translations/Helsinki/SemEval2017/' #'datasets/translation_test/trans'
 
 
 '''
@@ -68,7 +68,10 @@ for identifier in source_identifiers:
 
         translation.compare_annotated_keywords()
         translation.write_json(OutputPath)
+        print("ERRORS:",translation.error_count)
 
     except Exception as e:
         print("FATAL ERROR IN "+ str(identifier))
+        print(e)
+        break
 

@@ -16,20 +16,14 @@ import os
 from collections import Counter
 import nltk
 nltk.download('punkt')
+
+
 def separate_sentences(text):
 
     sentences = nltk.sent_tokenize(text)
 
     return sentences
 
-def translate_text_mariaNMT(text):
-    model_name = "Helsinki-NLP/opus-mt-en-es"
-    tokenizer = MarianTokenizer.from_pretrained(model_name)
-    #print(tokenizer.supported_language_codes)
-    model = MarianMTModel.from_pretrained(model_name)
-    translated = model.generate(**tokenizer(text, return_tensors="pt", padding=True))
-    result=[tokenizer.decode(t, skip_special_tokens=True) for t in translated]
-    return(result[0])
 
 def translate_text_google(text, src_lang='en', dest_lang='es'):
     timeout = httpx.Timeout(20) # 5 seconds timeout
@@ -39,29 +33,9 @@ def translate_text_google(text, src_lang='en', dest_lang='es'):
     return translated_text.text
 
 
-def translate_text_helsinki(text, source_language, target_language):
 
-    # Load translation pipeline
-    translation_pipeline = pipeline(task="translation", model=f"Helsinki-NLP/opus-mt-{source_language}-{target_language}")
 
-    # Translate text
-    translated_text = translation_pipeline(text)[0]['translation_text']
-    return translated_text
 
-def replace_with_quotes(text, term):
-    #\b Matches the empty string, but only at the beginning or end of a word. A word is defined as a sequence of word characters. Note that formally, \b is defined as the boundary between a \w and a \W character (or vice versa), or between \w and the beginning or end of the string. This means that r'\bat\b' matches 'at', 'at.', '(at)', and 'as at ay' but not 'attempt' or 'atlas'.
-
-    pattern = r'\b' + re.escape(term) + r'\b'
-    newterm=f'"{term}"'
-
-    replaced_text = re.sub(pattern, newterm, text)
-    '''
-    print(pattern)
-    print(newterm)
-    print("original term quoted")
-    print(replaced_text)
-    '''
-    return replaced_text        
 
 def read_term_list_file(filepath):
     lst = []
@@ -105,13 +79,123 @@ def clean_text(text):
 
     return text.strip()
 
+def is_sentence_to_translate(sentence):
+
+    #if re.search(r'\uFFFC', sentence):
+    if '<br>' in sentence:
+        return True
+    return False
+
+import re
+
+import re
+
+
+def find_term(text, term):
+    """
+    Find occurrences of the term in the text, ensuring it's not part of a larger word and can appear with punctuation.
+
+    Args:
+    - text (str): The input text.
+    - term (str): The term to search for.
+
+    Returns:
+    - matches (list): List of matches found in the text.
+    """
+    # Construct the regex pattern with word boundaries and optional punctuation
+    pattern = re.compile(rf'\b{re.escape(term)}[.,]?\b')
+
+    # Find all matches in the text
+    matches = pattern.findall(text)
+    return matches
+
+
+def replace_with_quotes(text, term):
+    """
+    Annotate a term within a text with Zero Width Space characters.
+
+    Args:
+    - text (str): The input text.
+    - term (str): The term to be annotated.
+
+    Returns:
+    - annotated_text (str): The text with the term annotated.
+    """
+    # Insert Zero Width Space characters before and after the term
+    pattern = re.compile(rf'\b{re.escape(term)}[.,]?\b')
+    newterm = "<br>" + term + "</br>"  # f'"{term}"'
+    replaced_text = re.sub(pattern, newterm, text)
+    #replaced_text = text.replace(term, "<br>" + term + "</br>")
+
+
+    return replaced_text
+
 
 def extract_quoted_terms(text):
+    """
+    Extract terms annotated with Zero Width Space characters from a text using regular expressions.
+
+    Args:
+    - text (str): The input text with annotated terms.
+
+    Returns:
+    - annotated_terms (list): List of terms extracted from the text.
+    """
+    # Define regular expression pattern to match terms between Zero Width Space characters
+    pattern = re.compile(r'<br>(.+?)</br>')
+    # Find all matches in the text
+    annotated_terms = pattern.findall(text)
+    return annotated_terms
+
+def remove_quotes(sentence):
+    sentence=sentence.replace('<br>','').replace('</br>','')
+    return sentence
+
+# Test the functions
+text = "Table 1 shows the original oxide thicknesses after 111 days oxidation, the modified oxide thicknesses based on the ​surface profile​ length and the percentage difference."
+text = "Table 1 shows the original oxide thicknesses after 111 days oxidation, the modified oxide thicknesses based on the surface profile length and the percentage difference."
+
+annotated_text = replace_with_quotes(text, "surface profile")
+print("Annotated text:", annotated_text)
+
+extracted_terms = extract_quoted_terms(annotated_text)
+print("Extracted terms:", extracted_terms)
+print(is_sentence_to_translate(annotated_text))
+
+# Output: example
+
+# Test the functions
+
+
+'''
+def replace_with_quotes(text, term):
+    # \b Matches the empty string, but only at the beginning or end of a word. A word is defined as a sequence of word characters. Note that formally, \b is defined as the boundary between a \w and a \W character (or vice versa), or between \w and the beginning or end of the string. This means that r'\bat\b' matches 'at', 'at.', '(at)', and 'as at ay' but not 'attempt' or 'atlas'.
+
+    pattern = r'\b' + re.escape(term) + r'\b'
+    newterm = "\u200B" +term+ "\u200B"   #f'"{term}"'
+
+    replaced_text = re.sub(pattern, newterm, text)
+
+    return replaced_text
+def extract_quoted_terms(text):
     # Usamos una expresión regular para encontrar los términos entre comillas
-    quoted_terms = re.findall(r'"([^"]+)"', text)
+    pattern = re.compile(r'\u200B(\w+)\u200B')
+    quoted_terms = re.findall(pattern,text)     #"([^"]+)"
 
     return quoted_terms
+'''
 #son todos iguales
+
+text='Table 1 shows the original oxide thicknesses after 111 days oxidation} the modified oxide thicknesses based on the surface profile length and the percentage difference. (current analysis)'
+new_text= replace_with_quotes(text,'surface profile')
+#print(new_text)
+#print(extract_quoted_terms(new_text))
+
+print(find_term(text, '111 days oxidation'))
+print(find_term(text, 'surface profile'))
+print(find_term(text, 'current analysis'))
+
+
 def detect_different_translations(lista):
     # Verifica si la lista está vacía
     if len(lista) == 0:
@@ -161,7 +245,6 @@ class Translation():
     def generate_annotated_sentences(self):
         self.annotated_sentence = []
         for key in self.original_keys:
-            #cleankey = re.sub(r'[\'"‘’]', '', key)
             self.annotated_sentence.append(replace_with_quotes(self.original_text, key))
             
         return self.annotated_sentence
@@ -171,8 +254,7 @@ class Translation():
         self.original_text_sentences= separate_sentences(self.original_text)
         for key in self.original_keys:
             annotated_text_sentences = self.original_text_sentences.copy()
-            #cleankey = re.sub(r'[\'"‘’]', '', key)
-            #output_list = list(map(double, annotated_text_sentences))
+
             output_list = [replace_with_quotes(i, key) for i in annotated_text_sentences]
             self.annotated_sentence.append(output_list)
 
@@ -217,18 +299,3 @@ class Translation():
 
         
             
-
-
-# PathDocs= 'datasets/source/SemEval2017/docsutf8/S030193221400144X.txt'
-# PathKeys= 'datasets/source/SemEval2017/keys/S030193221400144X.key'
-
-# text=read_file_content(PathDocs)
-# keys=read_term_list_file(PathKeys)
-
-
-
-
-
-
-# extract=extract_quoted_terms("hola mundo qué tal \"mundo\"")
-# print(extract)

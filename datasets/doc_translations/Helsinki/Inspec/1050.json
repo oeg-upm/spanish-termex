@@ -1,0 +1,72 @@
+{
+    "original_text": "Secrets of the Glasgow Haskell compiler inliner Higher-order languages such as Haskell encourage the programmer to build abstractions by composing functions. A good compiler must inline many of these calls to recover an efficiently executable program. In principle, inlining is dead simple: just replace the call of a function by an instance of its body. But any compiler-writer will tell you that inlining is a black art, full of delicate compromises that work together to give good performance without unnecessary code bloat. The purpose of this paper is, therefore, to articulate the key lessons we learned from a full-scale production inliner, the one used in the Glasgow Haskell compiler. We focus mainly on the algorithmic aspects, but we also provide some indicative measurements to substantiate the importance of various aspects of the inliner",
+    "original_translation": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la",
+    "error_count": 7,
+    "keys": {
+        "Glasgow Haskell compiler inliner": {
+            "translated_key": "Glasgow Haskell inliner",
+            "translated_annotated_text": "Secretos del compilador \"Glasgow Haskell inliner\" Lenguas de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": [
+                ""
+            ]
+        },
+        "higher-order languages": {
+            "translated_key": [],
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": []
+        },
+        "functional programming": {
+            "translated_key": [],
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": []
+        },
+        "abstractions": {
+            "translated_key": "abstractions",
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir \"abstractions\" componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": [
+                ""
+            ]
+        },
+        "executable program": {
+            "translated_key": "programa ejecutable",
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un \"programa ejecutable\" eficientemente. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": [
+                ""
+            ]
+        },
+        "performance": {
+            "translated_key": "rendimiento",
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen \"rendimiento\" sin bloat de código innecesario. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": [
+                ""
+            ]
+        },
+        "algorithmic aspects": {
+            "translated_key": "aspectos algorítmicos",
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los \"aspectos algorítmicos\", pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": [
+                ""
+            ]
+        },
+        "functional language": {
+            "translated_key": [],
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": []
+        },
+        "optimising compiler": {
+            "translated_key": [],
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": []
+        },
+        "functional languages": {
+            "translated_key": [],
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": []
+        },
+        "optimising compilers": {
+            "translated_key": [],
+            "translated_annotated_text": "Los secretos del compilador de Glasgow Haskell inliner Los lenguajes de orden superior como Haskell animan al programador a construir abstracciones componiendo funciones. Un buen compilador debe inline muchas de estas llamadas para recuperar un programa eficientemente ejecutable. En principio, el inlining es muy simple: simplemente reemplace la llamada de una función por una instancia de su cuerpo. Pero cualquier compilador-escritor le dirá que el inlining es un arte negro, lleno de delicados compromisos que trabajan juntos para dar un buen rendimiento sin innecesaria hinchazón de código. El propósito de este trabajo es, por lo tanto, articular las lecciones clave que aprendimos de un inliner de producción a gran escala, el utilizado en el compilador de Glasgow Haskell. Nos centramos principalmente en los aspectos algorítmicos, pero también proporcionamos algunas mediciones indicativas para fundamentar la importancia de varios aspectos de la ",
+            "error": []
+        }
+    }
+}
