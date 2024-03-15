@@ -1,0 +1,106 @@
+{
+    "original_text": "An efficient parallel algorithm for the calculation of canonical MP2 energies We present the parallel version of a previous serial algorithm for the efficient calculation of canonical MP2 energies. It is based on the Saebo-Almlof direct-integral transformation, coupled with an efficient prescreening of the AO integrals. The parallel algorithm avoids synchronization delays by spawning a second set of slaves during the bin-sort prior to the second half-transformation. Results are presented for systems with up to 2000 basis functions. MP2 energies for molecules with 400-500 basis functions can be routinely calculated to microhartree accuracy on a small number of processors (6-8) in a matter of minutes with modern PC-based parallel computers",
+    "original_translation": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC",
+    "error_count": 6,
+    "keys": {
+        "parallel algorithm": {
+            "translated_key": [
+                "paralelo eficiente",
+                "parallel"
+            ],
+            "translated_annotated_text": "Un algoritmo <br>paralelo eficiente</br> para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo <br>parallel</br> evita retrasos en la sincronización al desovar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": [
+                "paralelo eficiente",
+                "parallel"
+            ]
+        },
+        "canonical MP2 energies": {
+            "translated_key": "canónicas MP2",
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías <br>canónicas MP2</br> Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías <br>canónicas MP2</br>. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": [
+                ""
+            ]
+        },
+        "Saebo-Almlof direct-integral transformation": {
+            "translated_key": "Saebo-Alml de transformación integradora directa",
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en el <br>Saebo-Alml de transformación integradora directa</br>, junto con un prescreening eficiente de las integrales de AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": [
+                ""
+            ]
+        },
+        "AO integrals": {
+            "translated_key": "AO",
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en el Saebo-Alml de transformación integradora directa, junto con un prescreening eficiente de las integrales <br>AO</br>. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": [
+                ""
+            ]
+        },
+        "synchronization delays": {
+            "translated_key": "retrasos de sincronización",
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita los <br>retrasos de sincronización</br> al generar un segundo conjunto de esclavos durante la especie bin antes de la segunda semitransformación.  Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": [
+                ""
+            ]
+        },
+        "second half-transformation": {
+            "translated_key": "segundo",
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo conjunto de esclavos durante la especie bin antes de la semitransformación <br>segundo</br>. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": [
+                ""
+            ]
+        },
+        "basis functions": {
+            "translated_key": "basis",
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones <br>basis</br>. Las energías MP2 para moléculas con funciones de 400-500 <br>basis</br> pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": [
+                ""
+            ]
+        },
+        "MP2 energies": {
+            "translated_key": "MP2",
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas <br>MP2</br> Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas <br>MP2</br>. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías <br>MP2</br> para moléculas con funciones de base 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": [
+                ""
+            ]
+        },
+        "microhartree accuracy": {
+            "translated_key": "microartiuro de precisión",
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones basadas en 400-500 pueden calcularse rutinariamente para <br>microartiuro de precisión</br> en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": [
+                ""
+            ]
+        },
+        "PC-based parallel computers": {
+            "translated_key": "PC",
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en <br>PC</br> ",
+            "error": [
+                ""
+            ]
+        },
+        "chemistry computing": {
+            "translated_key": [],
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": []
+        },
+        "orbital calculations": {
+            "translated_key": [],
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": []
+        },
+        "parallel algorithms": {
+            "translated_key": [],
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": []
+        },
+        "physics computing": {
+            "translated_key": [],
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": []
+        },
+        "transforms": {
+            "translated_key": [],
+            "translated_annotated_text": "Un algoritmo paralelo eficiente para el cálculo de energías canónicas MP2 Presentamos la versión paralela de un algoritmo serie anterior para el cálculo eficiente de energías canónicas MP2. Se basa en la transformación integral directa Saebo-Alml, junto con una preselección eficiente de las integrales AO. El algoritmo paralelo evita retrasos en la sincronización al generar un segundo grupo de esclavos durante la especie bin antes de la segunda mitad de la transformación. Los resultados se presentan para los sistemas con hasta 2000 funciones básicas. Las energías MP2 para moléculas con funciones de base de 400-500 pueden calcularse rutinariamente a precisión de microárboles en un pequeño número de procesadores (6-8) en cuestión de minutos con ordenadores paralelos modernos basados en PC ",
+            "error": []
+        }
+    }
+}

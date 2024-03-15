@@ -77,5 +77,5 @@ for identifier in source_identifiers:
     except Exception as e:
         print("FATAL ERROR IN "+ str(identifier))
         print(e)
-        break
+        #break
 

@@ -1,0 +1,59 @@
+{
+    "original_text": "Summarization beyond sentence extraction: A probabilistic approach to sentence compression When humans produce summaries of documents, they do not simply extract sentences and concatenate them. Rather, they create new sentences that are grammatical, that cohere with one another, and that capture the most salient pieces of information in the original document. Given that large collections of text/abstract pairs are available online, it is now possible to envision algorithms that are trained to mimic this process. In this paper, we focus on sentence compression, a simpler version of this larger challenge. We aim to achieve two goals simultaneously: our compressions should be grammatical, and they should retain the most important pieces of information. These two goals can conflict. We devise both a noisy-channel and a decision-tree approach to the problem, and we evaluate results against manual compressions and a simple baseline",
+    "original_translation": "Resumiendo más allá de la extracción de oraciones: Un enfoque probabilístico a la compresión de oraciones Cuando los humanos producen resúmenes de documentos, no se limitan a extraer oraciones y concatenarlas. Por el contrario, crean nuevas frases gramaticales, que se combinan entre sí, y que capturan las piezas de información más destacadas en el documento original. Dado que grandes colecciones de pares texto/abstracto están disponibles en línea, ahora es posible imaginar algoritmos que están entrenados para imitar este proceso. En este artículo, nos centramos en la compresión de oraciones, una versión más simple de este desafío más grande. Nuestro objetivo es lograr dos objetivos simultáneamente: nuestras compresiones deben ser gramaticales, y deben retener las piezas de información más importantes. Estos dos objetivos pueden entrar en conflicto. Diseñamos tanto un canal ruidoso como un enfoque de árbol de decisiones para el problema, y evaluamos los resultados contra compresiones manuales y una base de referencia simple",
+    "error_count": 5,
+    "keys": {
+        "sentence compression": {
+            "translated_key": [
+                "sensence",
+                "sentence"
+            ],
+            "translated_annotated_text": "Resumiendo más allá de la extracción de oraciones: Un enfoque probabilístico para la compresión de <br>sensence</br> Cuando los seres humanos producen resúmenes de documentos, no simplemente extraen oraciones y las concatenan. Por el contrario, crean nuevas frases gramaticales, que se combinan entre sí, y que capturan las piezas de información más destacadas en el documento original. Dado que grandes colecciones de pares texto/abstracto están disponibles en línea, ahora es posible imaginar algoritmos que están entrenados para imitar este proceso. En este artículo, nos centramos en la compresión de <br>sentence</br>, una versión más simple de este desafío más grande. Nuestro objetivo es lograr dos objetivos simultáneamente: nuestras compresiones deben ser gramaticales, y deben retener las piezas de información más importantes. Estos dos objetivos pueden entrar en conflicto. Diseñamos tanto un canal ruidoso como un enfoque de árbol de decisiones para el problema, y evaluamos los resultados contra compresiones manuales y una base de referencia simple ",
+            "error": [
+                "sensence",
+                "sentence"
+            ]
+        },
+        "grammatical": {
+            "translated_key": "gramáticas",
+            "translated_annotated_text": "Resumiendo más allá de la extracción de oraciones: Un enfoque probabilístico a la compresión de oraciones Cuando los humanos producen resúmenes de documentos, no se limitan a extraer oraciones y concatenarlas. Por el contrario, crean nuevas frases que son <br>gramáticas</br>, que se unen entre sí, y que capturan las piezas de información más destacadas en el documento original. Dado que grandes colecciones de pares texto/abstracto están disponibles en línea, ahora es posible imaginar algoritmos que están entrenados para imitar este proceso. En este artículo, nos centramos en la compresión de oraciones, una versión más simple de este desafío más grande. Nuestro objetivo es lograr dos objetivos simultáneamente: nuestras compresiones deben ser <br>gramáticas</br> y deben retener las piezas de información más importantes. Estos dos objetivos pueden entrar en conflicto. Diseñamos tanto un canal ruidoso como un enfoque de árbol de decisiones para el problema, y evaluamos los resultados contra compresiones manuales y una base de referencia simple ",
+            "error": [
+                ""
+            ]
+        },
+        "noisy-channel": {
+            "translated_key": "noisy-canal",
+            "translated_annotated_text": "Resumiendo más allá de la extracción de oraciones: Un enfoque probabilístico a la compresión de oraciones Cuando los humanos producen resúmenes de documentos, no se limitan a extraer oraciones y concatenarlas. Por el contrario, crean nuevas frases gramaticales, que se combinan entre sí, y que capturan las piezas de información más destacadas en el documento original. Dado que grandes colecciones de pares texto/abstracto están disponibles en línea, ahora es posible imaginar algoritmos que están entrenados para imitar este proceso. En este artículo, nos centramos en la compresión de oraciones, una versión más simple de este desafío más grande. Nuestro objetivo es lograr dos objetivos simultáneamente: nuestras compresiones deben ser gramaticales, y deben retener las piezas de información más importantes. Estos dos objetivos pueden entrar en conflicto. Diseñamos tanto un <br>noisy-canal</br> como un enfoque de árbol de decisión para el problema, y evaluamos los resultados contra compresiones manuales y una base de referencia simple ",
+            "error": [
+                ""
+            ]
+        },
+        "decision-tree": {
+            "translated_key": "decision-tree",
+            "translated_annotated_text": "Resumiendo más allá de la extracción de oraciones: Un enfoque probabilístico a la compresión de oraciones Cuando los humanos producen resúmenes de documentos, no se limitan a extraer oraciones y concatenarlas. Por el contrario, crean nuevas frases gramaticales, que se combinan entre sí, y que capturan las piezas de información más destacadas en el documento original. Dado que grandes colecciones de pares texto/abstracto están disponibles en línea, ahora es posible imaginar algoritmos que están entrenados para imitar este proceso. En este artículo, nos centramos en la compresión de oraciones, una versión más simple de este desafío más grande. Nuestro objetivo es lograr dos objetivos simultáneamente: nuestras compresiones deben ser gramaticales, y deben retener las piezas de información más importantes. Estos dos objetivos pueden entrar en conflicto. Diseñamos tanto un canal ruidoso como un enfoque <br>decision-tree</br> para el problema, y evaluamos los resultados contra compresiones manuales y una base de referencia simple ",
+            "error": [
+                ""
+            ]
+        },
+        "document summarization": {
+            "translated_key": [],
+            "translated_annotated_text": "Resumiendo más allá de la extracción de oraciones: Un enfoque probabilístico a la compresión de oraciones Cuando los humanos producen resúmenes de documentos, no se limitan a extraer oraciones y concatenarlas. Por el contrario, crean nuevas frases gramaticales, que se combinan entre sí, y que capturan las piezas de información más destacadas en el documento original. Dado que grandes colecciones de pares texto/abstracto están disponibles en línea, ahora es posible imaginar algoritmos que están entrenados para imitar este proceso. En este artículo, nos centramos en la compresión de oraciones, una versión más simple de este desafío más grande. Nuestro objetivo es lograr dos objetivos simultáneamente: nuestras compresiones deben ser gramaticales, y deben retener las piezas de información más importantes. Estos dos objetivos pueden entrar en conflicto. Diseñamos tanto un canal ruidoso como un enfoque de árbol de decisiones para el problema, y evaluamos los resultados contra compresiones manuales y una base de referencia simple ",
+            "error": []
+        },
+        "abstracting": {
+            "translated_key": [],
+            "translated_annotated_text": "Resumiendo más allá de la extracción de oraciones: Un enfoque probabilístico a la compresión de oraciones Cuando los humanos producen resúmenes de documentos, no se limitan a extraer oraciones y concatenarlas. Por el contrario, crean nuevas frases gramaticales, que se combinan entre sí, y que capturan las piezas de información más destacadas en el documento original. Dado que grandes colecciones de pares texto/abstracto están disponibles en línea, ahora es posible imaginar algoritmos que están entrenados para imitar este proceso. En este artículo, nos centramos en la compresión de oraciones, una versión más simple de este desafío más grande. Nuestro objetivo es lograr dos objetivos simultáneamente: nuestras compresiones deben ser gramaticales, y deben retener las piezas de información más importantes. Estos dos objetivos pueden entrar en conflicto. Diseñamos tanto un canal ruidoso como un enfoque de árbol de decisiones para el problema, y evaluamos los resultados contra compresiones manuales y una base de referencia simple ",
+            "error": []
+        },
+        "computational linguistics": {
+            "translated_key": [],
+            "translated_annotated_text": "Resumiendo más allá de la extracción de oraciones: Un enfoque probabilístico a la compresión de oraciones Cuando los humanos producen resúmenes de documentos, no se limitan a extraer oraciones y concatenarlas. Por el contrario, crean nuevas frases gramaticales, que se combinan entre sí, y que capturan las piezas de información más destacadas en el documento original. Dado que grandes colecciones de pares texto/abstracto están disponibles en línea, ahora es posible imaginar algoritmos que están entrenados para imitar este proceso. En este artículo, nos centramos en la compresión de oraciones, una versión más simple de este desafío más grande. Nuestro objetivo es lograr dos objetivos simultáneamente: nuestras compresiones deben ser gramaticales, y deben retener las piezas de información más importantes. Estos dos objetivos pueden entrar en conflicto. Diseñamos tanto un canal ruidoso como un enfoque de árbol de decisiones para el problema, y evaluamos los resultados contra compresiones manuales y una base de referencia simple ",
+            "error": []
+        },
+        "document handling": {
+            "translated_key": [],
+            "translated_annotated_text": "Resumiendo más allá de la extracción de oraciones: Un enfoque probabilístico a la compresión de oraciones Cuando los humanos producen resúmenes de documentos, no se limitan a extraer oraciones y concatenarlas. Por el contrario, crean nuevas frases gramaticales, que se combinan entre sí, y que capturan las piezas de información más destacadas en el documento original. Dado que grandes colecciones de pares texto/abstracto están disponibles en línea, ahora es posible imaginar algoritmos que están entrenados para imitar este proceso. En este artículo, nos centramos en la compresión de oraciones, una versión más simple de este desafío más grande. Nuestro objetivo es lograr dos objetivos simultáneamente: nuestras compresiones deben ser gramaticales, y deben retener las piezas de información más importantes. Estos dos objetivos pueden entrar en conflicto. Diseñamos tanto un canal ruidoso como un enfoque de árbol de decisiones para el problema, y evaluamos los resultados contra compresiones manuales y una base de referencia simple ",
+            "error": []
+        }
+    }
+}

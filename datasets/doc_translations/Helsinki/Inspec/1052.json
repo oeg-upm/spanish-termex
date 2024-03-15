@@ -1,0 +1,88 @@
+{
+    "original_text": "Developing a high-performance web server in Concurrent Haskell Server applications, and in particular network-based server applications, place a unique combination of demands on a programming language: lightweight concurrency, high I/O throughput, and fault tolerance are all important. This paper describes a prototype Web server written in Concurrent Haskell (with extensions), and presents two useful results: firstly, a conforming server could be written with minimal effort, leading to an implementation in less than 1500 lines of code, and secondly the naive implementation produced reasonable performance. Furthermore, making minor modifications to a few time-critical components improved performance to a level acceptable for anything but the most heavily loaded Web servers",
+    "original_translation": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, coloca una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados",
+    "error_count": 8,
+    "keys": {
+        "high-performance Web server": {
+            "translated_key": [],
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, coloca una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": []
+        },
+        "Concurrent Haskell": {
+            "translated_key": [
+                "Concursive Haskell",
+                "Concurrente Haskell"
+            ],
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en <br>Concursive Haskell</br> Las aplicaciones de servidor, y en particular las aplicaciones de servidor basadas en la red, colocan una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en <br>Concurrente Haskell</br> (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría escribirse con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": [
+                "Concursive Haskell",
+                "Concurrente Haskell"
+            ]
+        },
+        "network-based server applications": {
+            "translated_key": [],
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones de Concurrent Haskell Server, y en particular en las aplicaciones basadas en la red, supone una combinación única de demandas en un lenguaje de programación: la condición ligera, el alto rendimiento de E/S y la tolerancia a fallos son importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": []
+        },
+        "lightweight concurrency": {
+            "translated_key": "lightweight condition",
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones de Concurrent Haskell Server, y en particular en las aplicaciones de servidores basados en la red, coloca una combinación única de demandas en un lenguaje de programación: <br>lightweight condition</br>, alto rendimiento de E/S y tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": [
+                ""
+            ]
+        },
+        "high I/O throughput": {
+            "translated_key": "high E/O",
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones de Concurrent Haskell Server, y en particular en las aplicaciones de servidores basados en la red, supone una combinación única de demandas en un lenguaje de programación: condimentos ligeros, rendimiento <br>high E/O</br>, y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": [
+                ""
+            ]
+        },
+        "fault tolerance": {
+            "translated_key": "tolerancia a fallos",
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones de Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, hacen que una combinación única de demandas en un lenguaje de programación: condicional ligero, alto rendimiento de E/S y <br>tolerancia a fallos</br> sean todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": [
+                ""
+            ]
+        },
+        "conforming server": {
+            "translated_key": "conformado",
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, coloca una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor <br>conformado</br> podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": [
+                ""
+            ]
+        },
+        "time-critical components": {
+            "translated_key": "time",
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, coloca una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones en algunos componentes críticos <br>time</br> mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": [
+                ""
+            ]
+        },
+        "concurrency control": {
+            "translated_key": [],
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, coloca una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": []
+        },
+        "fault tolerant computing": {
+            "translated_key": [],
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, coloca una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": []
+        },
+        "file servers": {
+            "translated_key": [],
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, coloca una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": []
+        },
+        "functional programming": {
+            "translated_key": [],
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, coloca una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": []
+        },
+        "Internet": {
+            "translated_key": [],
+            "translated_annotated_text": "El desarrollo de un servidor web de alto rendimiento en las aplicaciones Concurrente Haskell Server, y en particular en las aplicaciones basadas en la red, coloca una combinación única de demandas en un lenguaje de programación: la concurrencia ligera, el alto rendimiento de E/S y la tolerancia a fallos son todos importantes. Este artículo describe un prototipo de servidor Web escrito en Concurrent Haskell (con extensiones), y presenta dos resultados útiles: en primer lugar, un servidor conforme podría ser escrito con un mínimo esfuerzo, lo que conduciría a una implementación en menos de 1500 líneas de código, y en segundo lugar, la implementación ingenua produjo un rendimiento razonable. Además, hacer pequeñas modificaciones a unos pocos componentes críticos del tiempo mejoró el rendimiento a un nivel aceptable para cualquier cosa excepto los servidores web más cargados ",
+            "error": []
+        }
+    }
+}

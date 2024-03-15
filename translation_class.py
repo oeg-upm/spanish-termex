@@ -110,7 +110,7 @@ def find_term(text, term):
     return matches
 
 
-def replace_with_quotes(text, term):
+def replace_with_quotes_h(text, term):
     """
     Annotate a term within a text with Zero Width Space characters.
 
@@ -131,7 +131,7 @@ def replace_with_quotes(text, term):
     return replaced_text
 
 
-def extract_quoted_terms(text):
+def extract_quoted_terms_h(text):
     """
     Extract terms annotated with Zero Width Space characters from a text using regular expressions.
 
@@ -156,7 +156,7 @@ def remove_quotes(sentence):
 # Output: example
 
 # Test the functions
-'''
+
 ######## PATRI FUCTIONS
 def replace_with_quotes(text, term):
     # \b Matches the empty string, but only at the beginning or end of a word. A word is defined as a sequence of word characters. Note that formally, \b is defined as the boundary between a \w and a \W character (or vice versa), or between \w and the beginning or end of the string. This means that r'\bat\b' matches 'at', 'at.', '(at)', and 'as at ay' but not 'attempt' or 'atlas'.
@@ -173,7 +173,7 @@ def extract_quoted_terms(text):
     quoted_terms = re.findall(pattern,text)     #"([^"]+)"
 
     return quoted_terms
-'''
+
 
 
 
@@ -278,5 +278,79 @@ class Translation():
             json.dump(data, json_file, ensure_ascii=False, indent=4)
         print(self.id + '.json saved')
 
-        
-            
+
+
+class Key():
+    def __init__(self,term):
+        self.key=term
+        self.tranlated_term=''
+        self.candidates=[]
+        self.examples=[]
+
+class TranslationH():
+    def __init__(self, text, keys):
+        self.original_text = text  # original text
+        self.original_keys = keys  # original keywords
+        self.original_translation = ""
+        self.translated_annotated_text = []  # lista con tantos textos como keywords haya
+        self.translated_keywords = []  # después
+        self.errors = []  # si alguna traducción es diferente
+        self.error_count = 0
+        self.id = ""
+        self.annotated_sentence = []
+
+    def generate_annotated_sentences(self):
+        self.annotated_sentence = []
+        for key in self.original_keys:
+            self.annotated_sentence.append(replace_with_quotes(self.original_text, key))
+
+        return self.annotated_sentence
+
+    def generate_annotated_sentences_helsinki(self):
+        self.annotated_sentence = []
+        self.original_text_sentences = separate_sentences(self.original_text)
+        for key in self.original_keys:
+            annotated_text_sentences = self.original_text_sentences.copy()
+
+            output_list = [replace_with_quotes(i, key) for i in annotated_text_sentences]
+            self.annotated_sentence.append(output_list)
+
+        return self.annotated_sentence
+
+    def compare_annotated_keywords(self):
+        for k in self.translated_annotated_text:
+            extracted = extract_quoted_terms(k)
+            # print(extracted)
+            if detect_different_translations(extracted):
+                # print('ok')
+                self.translated_keywords.append(extracted[0])
+                self.errors.append([""])
+            else:
+                # print('error', extracted)
+                self.errors.append((extracted))
+                self.error_count += 1
+                self.translated_keywords.append(extracted)
+
+    def write_json(self, PathTrans):
+        data = {
+            "original_text": self.original_text,
+            "original_translation": self.original_translation,
+            "error_count": self.error_count,
+            "keys": {}
+        }
+        counter = 0
+        for key in self.original_keys:
+            # cleankey = re.sub(r'[\'"‘’“”]', '', key)
+            data['keys'][key] = {
+                "translated_key": self.translated_keywords[counter],
+                "translated_annotated_text": self.translated_annotated_text[counter],
+                "error": self.errors[counter]
+            }
+            counter += 1
+
+        file_path = PathTrans + "/" + self.id + ".json"
+
+        # Write data to the JSON file
+        with open(file_path, "w", encoding='utf-8') as json_file:
+            json.dump(data, json_file, ensure_ascii=False, indent=4)
+        print(self.id + '.json saved')
