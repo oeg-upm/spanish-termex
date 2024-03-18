@@ -315,7 +315,7 @@ class Translation():
         # Write data to the JSON file
         with open(file_path, "w", encoding='utf-8') as json_file:
             json.dump(data, json_file, ensure_ascii=False, indent=4)
-        print(self.id + '.json saved')
+        #print(self.id + '.json saved')
 
 
 
@@ -330,9 +330,13 @@ class Key():
         self.original_annotated_sentences=[]
         self.translated_annotated_samples = []
         self.original_annotated_samples = []
+
+        self.is_in_text = False
+
     def get_json(self):
         val= {
             "translated_key": self.translated_term,
+            "is_in_text": self.is_in_text,
             "original_annotated_sentences":self.original_annotated_sentences,
             "original_annotated_samples": self.original_annotated_samples,
             "translated_annotated_samples": self.translated_annotated_samples,
@@ -345,12 +349,13 @@ class Key():
     def check_annotations(self):
         for annot_sent in self.original_annotated_sentences:
             if is_sentence_to_translate(annot_sent):
+                self.is_in_text = True
                 return True
 
         return False
 
 
-
+MAX_COUNTER=0
 
 class TranslationH():
     def __init__(self, _id, text_, keys_):
@@ -358,6 +363,7 @@ class TranslationH():
         self.original_keys = keys_  # original keywords
         self.id = _id
         self.keys = []  # original keywords
+
         for k in self.original_keys:
             self.keys.append(Key(k))
 
@@ -375,13 +381,16 @@ class TranslationH():
 
 
 
+
     def generate_annotated_sentences(self):
 
+        error=0
         for key in self.keys:#self.original_keys:
             annotated_text_sentences = self.original_text_sentences.copy()
             output_list = [replace_with_quotes_h(i, key.key) for i in annotated_text_sentences]
             key.original_annotated_sentences=output_list
             val= key.check_annotations()
+
             ## Validamos una primera vez y si no string matching
             if not val:
                 output_list = [replace_with_quotes_hard(i, key.key) for i in annotated_text_sentences]
@@ -389,12 +398,35 @@ class TranslationH():
                 val=key.check_annotations()
 
 
+            ## Validamos una segunda vez pasar a plural. SemEval2010
             if not val:
-                print("Error in>>> ",self.id,key.key)
-                print(output_list)
+                plural_key= pluralize(key.key)
+
+                output_list = [replace_with_quotes_hard(i, plural_key) for i in annotated_text_sentences]
+                key.original_annotated_sentences = output_list
+                val = key.check_annotations()
+                if val:
+                    print(self.id, key.key, '->', plural_key)
+                    key.key = plural_key
 
 
-        return
+            if not val:
+                start, end, original_term = find_term_position(key.key, self.original_text)
+                if original_term !=None:
+                    output_list = [replace_with_quotes_h(i, original_term) for i in annotated_text_sentences]
+                    key.original_annotated_sentences = output_list
+                    val = key.check_annotations()
+
+                    key.key = original_term
+
+
+            if not val:
+                #print("Error in>>> ",self.id,key.key)
+                error=error+1
+
+
+
+        return error
 
     def compare_annotated_keywords(self):
         for k in self.keys: #translated_annotated_text:
@@ -431,7 +463,7 @@ class TranslationH():
         # Write data to the JSON file
         with open(file_path, "w", encoding='utf-8') as json_file:
             json.dump(data, json_file, ensure_ascii=False, indent=4)
-        print(self.id + '.json saved')
+        #print(self.id + '.json saved')
 
 
 
@@ -444,3 +476,51 @@ def get_source_identifiers(file_list):
             identifiers.append(file_.replace('.json',''))
 
     return identifiers
+
+
+def pluralize(word):
+
+    # Reglas generales para la mayoría de las palabras
+    if word.endswith('s') or word.endswith('sh') or word.endswith('ch') or word.endswith('x') or word.endswith('z'):
+        return word + 'es'
+    elif word.endswith('y') and word[-2] not in 'aeiou':
+        return word[:-1] + 'ies'
+    else:
+        return word + 's'
+
+
+
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+
+nltk.download('punkt')
+nltk.download('wordnet')
+
+
+def find_term_position(term, text):
+    """
+    Encuentra la posición del término en el texto lematizado y recupera el término original.
+    Devuelve la posición del término en el texto original y el término original.
+    """
+    # Tokenizar y lematizar el texto
+    lemmatizer = WordNetLemmatizer()
+    tokens = word_tokenize(text)
+    lemmatized_tokens = [lemmatizer.lemmatize(token) for token in tokens]
+
+    # Lematizar el término
+    term_tokens = word_tokenize(term)
+    lemmatized_term = " ".join([lemmatizer.lemmatize(token) for token in term_tokens])
+
+    # Buscar el término lematizado en el texto lematizado
+    try:
+        start_index = lemmatized_tokens.index(lemmatized_term.split()[0])
+        end_index = start_index + len(term_tokens) - 1
+        if lemmatized_tokens[start_index:end_index + 1] == lemmatized_term.split():
+            original_term = " ".join(tokens[start_index:end_index + 1])
+            return start_index, end_index, original_term
+        else:
+            return -1, -1, None  # Término no encontrado en el texto
+    except ValueError:
+        return -1, -1, None  # Término no encontrado en el texto
+

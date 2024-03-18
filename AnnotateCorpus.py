@@ -1,15 +1,21 @@
 import os
-from translation_class import read_lines, read_file_content, Translation, TranslationH, get_source_identifiers
+from translation_class import read_lines, read_file_content, Translation, TranslationH, get_source_identifiers,MAX_COUNTER
 
 # from translation_helsinki import translate_keyword,translate_text_original
 
 
-# InputPath=   'datasets/Inspec/'
-# OutputPath = 'datasets/doc_translations/Helsinki/Inspec/' #'datasets/translation_test/trans'
 
+
+
+
+InputPath=   'datasets/source/Inspec/'
+OutputPath = 'datasets/doc_translations/Helsinki/Inspec/' #'datasets/translation_test/trans'
 
 InputPath = 'datasets/source/SemEval2017/'
 OutputPath = 'datasets/annotated/SemEval2017/'  # 'datasets/translation_test/trans'
+
+InputPath = 'datasets/source/SemEval2010/'
+OutputPath = 'datasets/annotated/SemEval2010/'  # 'datasets/translation_test/trans'
 
 PathKeys = InputPath + 'keys'
 PathDocs = InputPath + 'docsutf8'
@@ -20,8 +26,10 @@ targetdocs = os.listdir(OutputPath)
 source_identifiers = get_source_identifiers(sourcedocs)
 target_identifiers = get_source_identifiers(targetdocs)  # for filter
 
-target_identifiers=['S037026930400930X','S0038092X14004770','S1361841516300822']
+target_identifiers=[] #['S037026930400930X','S0038092X14004770','S1361841516300822']
 
+
+error=0
 
 for identifier in source_identifiers:
 
@@ -37,7 +45,7 @@ for identifier in source_identifiers:
         translation = TranslationH(identifier, textdoc, textkeys)
 
         ## annotation and first translation
-        translation.generate_annotated_sentences()
+        error= error+ translation.generate_annotated_sentences()
 
 
         translation.write_json(OutputPath)
@@ -48,4 +56,5 @@ for identifier in source_identifiers:
         print("FATAL ERROR IN " + str(identifier))
         print(e)
         # break
+print('Total Annotation Errors:',error)
 

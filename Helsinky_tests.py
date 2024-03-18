@@ -16,15 +16,47 @@ Output1: "Un segundo objetivo es describir cómo este tema se relaciona con el c
 Output2: "métodos multigrid"
 Now. For this text:
 """
-def check_start_with_capital(string):
-    if string[0].isupper():
-        print("The string starts with a capital letter.")
-    else:
-        print("The string does not start with a capital letter.")
 
-# Test the function
-test_string1 = "9Hello"
-test_string2 = "[world"
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
 
-check_start_with_capital(test_string1)
-check_start_with_capital(test_string2)
+nltk.download('punkt')
+nltk.download('wordnet')
+
+
+def find_term_position(term, text):
+    """
+    Encuentra la posición del término en el texto lematizado y recupera el término original.
+    Devuelve la posición del término en el texto original y el término original.
+    """
+    # Tokenizar y lematizar el texto
+    lemmatizer = WordNetLemmatizer()
+    tokens = word_tokenize(text)
+    lemmatized_tokens = [lemmatizer.lemmatize(token) for token in tokens]
+
+    # Lematizar el término
+    term_tokens = word_tokenize(term)
+    lemmatized_term = " ".join([lemmatizer.lemmatize(token) for token in term_tokens])
+
+    # Buscar el término lematizado en el texto lematizado
+    try:
+        start_index = lemmatized_tokens.index(lemmatized_term.split()[0])
+        end_index = start_index + len(term_tokens) - 1
+        if lemmatized_tokens[start_index:end_index + 1] == lemmatized_term.split():
+            original_term = " ".join(tokens[start_index:end_index + 1])
+            return start_index, end_index, original_term
+        else:
+            return -1, -1, None  # Término no encontrado en el texto
+    except ValueError:
+        return -1, -1, None  # Término no encontrado en el texto
+
+
+# Ejemplo de uso
+term = "lazy dog"
+text = "The quick brown fox jumps over the lazy dogs."
+start, end, original_term = find_term_position(term, text)
+if start != -1:
+    print(f"The term '{original_term}' is found starting at position {start} and ending at position {end} in the text.")
+else:
+    print(f"The term '{term}' is not found in the text.")
