@@ -1,0 +1,336 @@
+{
+    "id": "S0098300413002124",
+    "original_text": "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method. Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources. The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary. Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data. In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution. The data covers the land area, nearly global from 56S to 60N latitudes. We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled. The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system. When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3). Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface. The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008).",
+    "original_translation": "",
+    "original_sentences": [
+        "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+        "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+        "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+        "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+        "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+        "The data covers the land area, nearly global from 56S to 60N latitudes.",
+        "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+        "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+        "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+        "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+        "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+    ],
+    "error_count": 0,
+    "keys": {
+        "3DWF": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since <br>3DWF</br> is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the <br>3DWF</br> model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the <br>3DWF</br> is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Cartesian coordinate system": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this <br>Cartesian coordinate system</br> is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "DEM": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs <br>DEM</br> (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "describe the geodetic data transformation method": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to <br>describe the geodetic data transformation method</br>.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Digital Elevation Model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (<br>Digital Elevation Model</br>) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "East, North and Up": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local <br>East, North and Up</br> (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "ENU": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (<br>ENU</br>) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the <br>ENU</br> coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "fine-resolution (3″ or finer) terrain data bases": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The <br>fine-resolution (3″ or finer) terrain data bases</br> such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "fine-scale (meters up to 100m) atmospheric flow": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the <br>fine-scale (meters up to 100m) atmospheric flow</br>, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Shuttle Radar Topographical Mission": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (<br>Shuttle Radar Topographical Mission</br>) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "SRTM": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as <br>SRTM</br> (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from <br>SRTM</br> (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 <br>SRTM</br> data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "terrain data processing": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the <br>terrain data processing</br> as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "terrain digital data": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get <br>terrain digital data</br> from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "WGS84": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in <br>WGS84</br> (World Geodetic System 84) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the <br>WGS84</br> data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "World Geodetic System 84": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this section, we use the terrain data processing as an example to describe the geodetic data transformation method.",
+                "Since Google Maps/Earth server only gives the terrain data in graphical display, we have to get terrain digital data from other sources.",
+                "The fine-resolution (3″ or finer) terrain data bases such as SRTM (Shuttle Radar Topographical Mission) or USGSs DEM (Digital Elevation Model) data are necessary.",
+                "Moreover, since 3DWF is used to model the fine-scale (meters up to 100m) atmospheric flow, it needs fine resolution terrain data.",
+                "In this project, we use the terrain elevation data set from SRTM (Farr et al. 2007) with 3-arcsecond (~90m resolution at the equator) resolution.",
+                "The data covers the land area, nearly global from 56S to 60N latitudes.",
+                "We use the processed version 4 SRTM data set as described in Gamache (2005) in which some of the missing data holes were filled.",
+                "The original data is organized in WGS84 (<br>World Geodetic System 84</br>) geodetic coordinate system.",
+                "When the data are applied to the 3DWF model, they are transformed to the local East, North and Up (ENU) coordinate (see Fig. 3).",
+                "Since the 3DWF is a fine scale wind model and its entire model domain is not intended to be larger than 20×20km, this Cartesian coordinate system is a good choice with very little distortion due to the curvature of the Earths surface.",
+                "The transformation from the WGS84 data to the ENU coordinate is performed as follows (Fukushima, 2006; Featherstone and Claessens, 2008)."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

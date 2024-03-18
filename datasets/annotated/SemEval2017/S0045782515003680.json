@@ -1,0 +1,432 @@
+{
+    "id": "S0045782515003680",
+    "original_text": "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements. As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1]. This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation. The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques. In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein. Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes. Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model. Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15].",
+    "original_translation": "",
+    "original_sentences": [
+        "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+        "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+        "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+        "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+        "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+        "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+        "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+        "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+    ],
+    "error_count": 0,
+    "keys": {
+        "analysis mesh": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the <br>analysis mesh</br>  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or <br>analysis mesh</br> back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "CAD": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (<br>CAD</br>) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given <br>CAD</br> geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true <br>CAD</br> model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original <br>CAD</br> model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the <br>CAD</br> model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the <br>CAD</br> geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "CAD geometry model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given <br>CAD geometry model</br> is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the <br>CAD geometry model</br>  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "CAD model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true <br>CAD model</br> is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original <br>CAD model</br>, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the <br>CAD model</br> and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "combining multiresolution subdivision surfaces": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by <br>combining multiresolution subdivision surfaces</br> with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "computer aided design": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays <br>computer aided design</br> (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "directly optimising": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through <br>directly optimising</br> the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "FEA": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (<br>FEA</br>) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "finite element analysis": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and <br>finite element analysis</br> (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "finite element computation": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a <br>finite element computation</br>.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "geometry and analysis representations": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present <br>geometry and analysis representations</br> have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "geometry representations": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the <br>geometry representations</br> used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "immersed finite elements": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with <br>immersed finite elements</br>.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "isogeometric analysis": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in <br>isogeometric analysis</br> literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using <br>isogeometric analysis</br> has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "isogeometric analysis literature": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in <br>isogeometric analysis literature</br>, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "optimised surrogate geometry model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the <br>optimised surrogate geometry model</br> or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "shape optimisation": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the <br>shape optimisation</br> of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in <br>shape optimisation</br> during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various <br>shape optimisation</br> techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the <br>shape optimisation</br> of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "shape optimisation techniques": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various <br>shape optimisation techniques</br>.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "shells": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of <br>shells</br>, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "solids": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional <br>solids</br> by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, <br>solids</br> and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "surrogate geometry model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a <br>surrogate geometry model</br>  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised <br>surrogate geometry model</br> or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "surrogate model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of two- and three-dimensional solids by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the <br>surrogate model</br>.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "two- and three-dimensional solids": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "We consider the shape optimisation of <br>two- and three-dimensional solids</br> by combining multiresolution subdivision surfaces with immersed finite elements.",
+                "As widely discussed in isogeometric analysis literature, the geometry representations used in todays computer aided design (CAD) and finite element analysis (FEA) software are inherently incompatible  [1].",
+                "This is particularly limiting in shape optimisation during which a given CAD geometry model is to be iteratively updated based on the results of a finite element computation.",
+                "The inherent shortcomings of present geometry and analysis representations have motivated the proliferation of various shape optimisation techniques.",
+                "In the most prevalent approaches a surrogate geometry model  [2–8] or the analysis mesh  [9,10] instead of the true CAD model is optimised, see also  [11] and references therein.",
+                "Generally, it is tedious or impossible to map the optimised surrogate geometry model or analysis mesh back to the original CAD model, which is essential for continuing with the design process and later for manufacturing purposes.",
+                "Moreover, geometric design features are usually defined with respect to the CAD model and cannot be easily enforced on the surrogate model.",
+                "Recently, the shape optimisation of shells, solids and other applications using isogeometric analysis has been explored; that is, through directly optimising the CAD geometry model  [12–15]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

@@ -1,0 +1,391 @@
+{
+    "id": "S002199911200068X",
+    "original_text": "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6]. Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation. Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources. This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12]. In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19]. For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version. In the work presented here, we work with schemes which keep p fixed.",
+    "original_translation": "",
+    "original_sentences": [
+        "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+        "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+        "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+        "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+        "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+        "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+        "In the work presented here, we work with schemes which keep p fixed."
+    ],
+    "error_count": 0,
+    "keys": {
+        "adaptivity in space and time": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and <br>adaptivity in space and time</br> [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "cardiac geometry meshes": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic <br>cardiac geometry meshes</br>; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "developing efficient solution techniques": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in <br>developing efficient solution techniques</br>, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "FEM": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (<br>FEM</br>) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial <br>FEM</br> [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear <br>FEM</br> approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "finite element method": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the <br>finite element method</br> (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "finite element p-version": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the <br>finite element p-version</br>.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "geometries": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex <br>geometries</br> with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart <br>geometries</br>) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "high-end supercomputing resources": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to <br>high-end supercomputing resources</br>.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "high-order polynomial FEM": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a <br>high-order polynomial FEM</br> [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "human heart geometries": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for <br>human heart geometries</br>) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "investigate the potential of reducing the number of DOF": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we <br>investigate the potential of reducing the number of DOF</br> by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "monodomain or bidomain PDEs": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the <br>monodomain or bidomain PDEs</br> [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "monodomain PDE": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the <br>monodomain PDE</br> in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Myocardial electrical propagation": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "<br>Myocardial electrical propagation</br> can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "parallelisation": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, <br>parallelisation</br> and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "PDEs": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain <br>PDEs</br> [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the <br>PDEs</br> in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "piecewise-linear FEM": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the <br>piecewise-linear FEM</br> approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "preconditioning": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on <br>preconditioning</br>, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "significantly improving simulation efficiency": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of <br>significantly improving simulation efficiency</br> over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "simulation": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short <br>simulation</br>.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving <br>simulation</br> efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "simulation efficiency": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) systems of linear equations which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving <br>simulation efficiency</br> over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "systems of linear equations": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Myocardial electrical propagation can be simulated using the monodomain or bidomain PDEs [5,6].",
+                "Due to its capacity to represent complex geometries with ease, approximations are often obtained using the finite element method (FEM) to discretise the PDEs in space on realistic cardiac geometry meshes; this results in very large (up to forty-million degrees of freedom (DOF) for human heart geometries) <br>systems of linear equations</br> which must be solved many thousands of times over the course of even a short simulation.",
+                "Thus, they are extremely computationally demanding, presenting taxing problems even to high-end supercomputing resources.",
+                "This computational demand means that effort has been invested in developing efficient solution techniques, including work on preconditioning, parallelisation and adaptivity in space and time [7–12].",
+                "In this study, we investigate the potential of reducing the number of DOF by using a high-order polynomial FEM [13–15] to approximate the monodomain PDE in space, with the goal of significantly improving simulation efficiency over the piecewise-linear FEM approach commonly used in the field [16–19].",
+                "For schemes where the polynomial degree p of the elements is adjusted according to the error in the approximation, this is known as the finite element p-version.",
+                "In the work presented here, we work with schemes which keep p fixed."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

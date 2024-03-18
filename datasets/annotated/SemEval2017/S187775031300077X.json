@@ -1,0 +1,288 @@
+{
+    "id": "S187775031300077X",
+    "original_text": "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems. In part, this is due to their staggering complexity. The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs. The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein). In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex. We also need efficient, iterative solvers for linear problems with large, sparse matrices. In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17]. Our implementation consists of a number of functions in C that are available publicly [18].",
+    "original_translation": "",
+    "original_sentences": [
+        "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+        "In part, this is due to their staggering complexity.",
+        "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+        "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+        "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+        "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+        "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+        "Our implementation consists of a number of functions in C that are available publicly [18]."
+    ],
+    "error_count": 0,
+    "keys": {
+        "efficient, iterative solvers": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need <br>efficient, iterative solvers</br> for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "efficient, iterative solvers for linear problems with large, sparse matrices": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need <br>efficient, iterative solvers for linear problems with large, sparse matrices</br>.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "large, sparse matrices": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with <br>large, sparse matrices</br>.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Liley model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The <br>Liley model</br> [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "mean-field models": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although <br>mean-field models</br> have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "membrane potentials": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean <br>membrane potentials</br> and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "numerical bifurcation analysis": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using <br>numerical bifurcation analysis</br> (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "ODEs": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (<br>ODEs</br>) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Ordinary Differential Equations": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of <br>Ordinary Differential Equations</br> (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Partial Differential Equations": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled <br>Partial Differential Equations</br> (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "PDE model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the <br>PDE model</br>, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "PDEs": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (<br>PDEs</br>) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "PETSc": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package <br>PETSc</br> [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "spatially extended dynamical systems": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as <br>spatially extended dynamical systems</br>.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "synaptic inputs": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean <br>synaptic inputs</br>.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

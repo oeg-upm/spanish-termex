@@ -1,0 +1,380 @@
+{
+    "id": "S0045782512003428",
+    "original_text": "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation. For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes. They need non-physical penalty energy functions that stabilize them. The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients. For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I. The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials. The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior. Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate. It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly. Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations.",
+    "original_translation": "",
+    "original_sentences": [
+        "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+        "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+        "They need non-physical penalty energy functions that stabilize them.",
+        "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+        "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+        "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+        "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+        "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+        "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+        "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+    ],
+    "error_count": 0,
+    "keys": {
+        "C3D_8N_27C": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types <br>C3D_8N_27C</br> and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "C3D_8N_8I": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and <br>C3D_8N_8I</br>.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "CAG and SFEM formulations": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various <br>CAG and SFEM formulations</br>."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "computing time in explicit analysis": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to <br>computing time in explicit analysis</br> [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "continuous deformation gradients": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed <br>continuous deformation gradients</br>.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "element types": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the <br>element types</br> C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "first order hexahedral elements": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For <br>first order hexahedral elements</br>, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "first order tetrahedra": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested <br>first order tetrahedra</br>, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "interpolation functions": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the <br>interpolation functions</br> and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "nodal integration and NS-FEM": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, <br>nodal integration and NS-FEM</br> are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "nodally integrated tetrahedron": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the <br>nodally integrated tetrahedron</br> with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "non-physical penalty energy functions": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need <br>non-physical penalty energy functions</br> that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "numerically verify the stability, convergence and accuracy of several W2 variants": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] <br>numerically verify the stability, convergence and accuracy of several W2 variants</br> including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "second order tensor-product interpolation": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a <br>second order tensor-product interpolation</br> of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "stability and accuracy of the formulation": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure <br>stability and accuracy of the formulation</br>.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "stabilize them": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that <br>stabilize them</br>.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "support point coordinates for the gradient field": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and <br>support point coordinates for the gradient field</br> is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several W2 variants including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "W2 variants": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The choice of the interpolation functions and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation.",
+                "For example, nodal integration and NS-FEM are unstable involving the appearance of spurious low-energy modes.",
+                "They need non-physical penalty energy functions that stabilize them.",
+                "The articles [2,28] numerically verify the stability, convergence and accuracy of several <br>W2 variants</br> including new elements which can be constructed based on the idea of assumed continuous deformation gradients.",
+                "For first order hexahedral elements, [2,28] found good results for the element types C3D_8N_27C and C3D_8N_8I.",
+                "The first is defined by 27 support points and a second order tensor-product interpolation of the deformation gradient by Lagrange polynomials.",
+                "The latter element type is defined by 16 support points with 8 points being coincident with the nodes and 8 additional points in the element interior.",
+                "Among the tested first order tetrahedra, the nodally integrated tetrahedron with an additional bubble mode in the gradients was found to be most accurate.",
+                "It turned out to be even the most efficient with respect to computing time in explicit analysis [28] because the enlarged critical time step compensates the slightly increased numerical cost per restoring force assembly.",
+                "Fig. 1 illustrates the positions of support points for various CAG and SFEM formulations."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

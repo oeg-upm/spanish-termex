@@ -1,0 +1,580 @@
+{
+    "id": "S0927025614006181",
+    "original_text": "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al. [8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary. It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep. The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy. Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres. Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied. Particle cohesion can also be modelled but is assumed to be negligible in the current study. The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities. Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones. Full details are given in Asmar et al. [8].",
+    "original_translation": "",
+    "original_sentences": [
+        "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+        "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+        "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+        "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+        "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+        "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+        "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+        "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+        "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+        "Full details are given in Asmar et al. [8]."
+    ],
+    "error_count": 0,
+    "keys": {
+        "contact damping": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate <br>contact damping</br> is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Contact forces": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "<br>Contact forces</br> are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "contacting particles": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential <br>contacting particles</br> are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Discrete Element Method": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The <br>Discrete Element Method</br> applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "explicit time stepping approach": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an <br>explicit time stepping approach</br> to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "forces": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting <br>forces</br> and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact <br>forces</br> are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "granular materials": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of <br>granular materials</br>; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "half step leap-frog Verlet numerical integration scheme": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a <br>half step leap-frog Verlet numerical integration scheme</br> to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "inter-particle and particle wall contacts": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The <br>inter-particle and particle wall contacts</br> are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "linear spring–dashpot–slider analogy": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the <br>linear spring–dashpot–slider analogy</br>.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "modelling packing and flow of granular materials": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for <br>modelling packing and flow of granular materials</br>; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "moments": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and <br>moments</br> acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Near-neighbour lists": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "<br>Near-neighbour lists</br> are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "numerically integrate": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to <br>numerically integrate</br> the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "particle": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each <br>particle</br> from the resulting forces and moments acting on them at each timestep.",
+                "The inter-<br>particle</br> and <br>particle</br> wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "<br>particle</br> elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "<br>particle</br> cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each <br>particle</br> is modelled using a half step leap-frog Verlet numerical integration scheme to update <br>particle</br> positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining <br>particle</br> contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each <br>particle</br> centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "particle centre": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each <br>particle centre</br> is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Particle cohesion": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "<br>Particle cohesion</br> can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "particle contacts": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining <br>particle contacts</br> and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Particle elastic": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "<br>Particle elastic</br> stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Particle elastic stiffness": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "<br>Particle elastic stiffness</br> is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "particle positions": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update <br>particle positions</br> and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "particles centres": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the <br>particles centres</br>.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "sphere": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so <br>sphere</br> overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "sphere overlap": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so <br>sphere overlap</br> is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "spheres": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to <br>spheres</br> is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "translational and rotational motion": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the <br>translational and rotational motion</br> of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The <br>translational and rotational motion</br> of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "velocities": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and <br>velocities</br>.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a zoning method is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "zoning method": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "The Discrete Element Method applied to spheres is well established as a reasonably realistic tool, in a wide range of engineering disciplines, for modelling packing and flow of granular materials; Asmar et al.",
+                "[8] describes the fundamentals of this method as applied by code developed in-house at Nottingham; since these are widely documented the details are not reproduced here, simply a summary.",
+                "It applies an explicit time stepping approach to numerically integrate the translational and rotational motion of each particle from the resulting forces and moments acting on them at each timestep.",
+                "The inter-particle and particle wall contacts are modelled using the linear spring–dashpot–slider analogy.",
+                "Contact forces are modelled in the normal and tangential directions with respect to the line connecting the particles centres.",
+                "Particle elastic stiffness is set so sphere overlap is not significant and moderate contact damping is applied.",
+                "Particle cohesion can also be modelled but is assumed to be negligible in the current study.",
+                "The translational and rotational motion of each particle is modelled using a half step leap-frog Verlet numerical integration scheme to update particle positions and velocities.",
+                "Near-neighbour lists are used to increase the computational efficiency of determining particle contacts and a <br>zoning method</br> is used each time the list is composed; that is the system is divided into cubic regions, each particle centre is within one zone, and potential contacting particles are within the same or next-door neighbour zones.",
+                "Full details are given in Asmar et al. [8]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

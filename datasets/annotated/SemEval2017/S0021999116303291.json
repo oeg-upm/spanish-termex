@@ -1,0 +1,513 @@
+{
+    "id": "S0021999116303291",
+    "original_text": "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5]. In DPD, each body is regarded as a coarse-grained particle. These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required. As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle. However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum. The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8]. The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9]. Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13]. DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter.",
+    "original_translation": "",
+    "original_sentences": [
+        "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+        "In DPD, each body is regarded as a coarse-grained particle.",
+        "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+        "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+        "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+        "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+        "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+        "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+        "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+    ],
+    "error_count": 0,
+    "keys": {
+        "angular momentum": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the <br>angular momentum</br> and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "biological systems": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and <br>biological systems</br> [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "coarse-grained particle": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a <br>coarse-grained particle</br>.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "colloidal suspensions": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], <br>colloidal suspensions</br> [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "complex fluids": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of <br>complex fluids</br>, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "dependence on the relative velocity": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the <br>dependence on the relative velocity</br>) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "DPD": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "<br>DPD</br> was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In <br>DPD</br>, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes <br>DPD</br> a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in <br>DPD</br> [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, <br>DPD</br> has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "<br>DPD</br> has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "dynamic fluctuations": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct <br>dynamic fluctuations</br> of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Galilean invariance": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and <br>Galilean invariance</br>) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of <br>Galilean invariance</br> (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "isotropy": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of <br>isotropy</br> (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Langevin dynamics": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in <br>Langevin dynamics</br>, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in <br>Langevin dynamics</br>, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with <br>Langevin dynamics</br> for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "lattice-gas automata": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called <br>lattice-gas automata</br> method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "linear momentum": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the <br>linear momentum</br>.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "MD": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in <br>MD</br>, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "multiphase flows": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], <br>multiphase flows</br> [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "NEMD": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (<br>NEMD</br>) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "nonequilibrium molecular dynamics": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for <br>nonequilibrium molecular dynamics</br> (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "nonequilibrium molecular dynamics (NEMD)": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for <br>nonequilibrium molecular dynamics (NEMD)</br> [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "particles": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These <br>particles</br> interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "polymeric systems": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of <br>polymeric systems</br> in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "polymers": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the <br>polymers</br> were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "polymer solutions": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in <br>polymer solutions</br> [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "profile-unbiased thermostat": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a <br>profile-unbiased thermostat</br> (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "PUT": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (<br>PUT</br>) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "recover thermodynamic, dynamical, and rheological properties": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a thermostat consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased thermostat (PUT) [6,7] by construction and thus it is an ideal thermostat for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to <br>recover thermodynamic, dynamical, and rheological properties</br> of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "thermostat": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "DPD was first proposed in order to recover the properties of isotropy (and Galilean invariance) that were broken in the so-called lattice-gas automata method [5].",
+                "In DPD, each body is regarded as a coarse-grained particle.",
+                "These particles interact in a soft (and short-ranged) potential, allowing larger integration timesteps than would be possible in MD, while simultaneously decreasing the number of degrees of freedom required.",
+                "As in Langevin dynamics, a <br>thermostat</br> consisting of well-balanced damping and stochastic terms is applied to each particle.",
+                "However, unlike in Langevin dynamics, both terms are pairwise and the damping term is based on relative velocities, leading to the conservation of both the angular momentum and the linear momentum.",
+                "The property of Galilean invariance (i.e., the dependence on the relative velocity) makes DPD a profile-unbiased <br>thermostat</br> (PUT) [6,7] by construction and thus it is an ideal <br>thermostat</br> for nonequilibrium molecular dynamics (NEMD) [8].",
+                "The momentum is expected to propagate locally (while global momentum is conserved) and thus the correct hydrodynamics is expected in DPD [8], as demonstrated previously in [9].",
+                "Due to the aforementioned properties, DPD has been widely used to recover thermodynamic, dynamical, and rheological properties of complex fluids, with applications in polymer solutions [10], colloidal suspensions [11], multiphase flows [12], and biological systems [13].",
+                "DPD has been compared with Langevin dynamics for out-of-equilibrium simulations of polymeric systems in [14], where as expected the correct dynamic fluctuations of the polymers were obtained with the former but not with the latter."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

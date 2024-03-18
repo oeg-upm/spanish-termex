@@ -1,0 +1,360 @@
+{
+    "id": "S0038092X15000559",
+    "original_text": "Progressive photon mapping was first proposed by Hachisuka et al. (2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension. It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach. Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them. At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001). The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found. In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias. As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit.",
+    "original_translation": "",
+    "original_sentences": [
+        "Progressive photon mapping was first proposed by Hachisuka et al.",
+        "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+        "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+        "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+        "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+        "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+        "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+        "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+    ],
+    "error_count": 0,
+    "keys": {
+        "combining successive results and averaging": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by <br>combining successive results and averaging</br> them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "density estimate bandwidth1Bandwidth": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the <br>density estimate bandwidth1Bandwidth</br> describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "describe either the radius or the number of nearest neighbours for a density estimate": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to <br>describe either the radius or the number of nearest neighbours for a density estimate</br>, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "irradiance": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting <br>irradiance</br> is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "iterative extension of the standard static photon mapping": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an <br>iterative extension of the standard static photon mapping</br> approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "mitigate bias": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to <br>mitigate bias</br>.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "mitigates the noise": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process <br>mitigates the noise</br> inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Monte Carlo raytracing": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in <br>Monte Carlo raytracing</br> by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "nearest neighbour lookup": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a <br>nearest neighbour lookup</br> on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "photon": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive <br>photon</br> mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static <br>photon</br> mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller <br>photon</br> maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the <br>photon</br> map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the <br>photon</br> density, and the bandwidth is defined by the distance (radius) to the furthest <br>photon</br> found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "photon map": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the <br>photon map</br> during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "photon maps": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller <br>photon maps</br> to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "photons": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the <br>photons</br> retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest <br>photons</br>) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Progressive photon mapping": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "<br>Progressive photon mapping</br> was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Radiance extension": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the <br>Radiance extension</br>.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "support, or area of influence, of a filter": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the <br>support, or area of influence, of a filter</br> used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "surface": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a <br>surface</br> (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "traditional approach": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the <br>traditional approach</br>.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to weight the photons retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "weight the photons": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "Progressive photon mapping was first proposed by Hachisuka et al.",
+                "(2008) as an iterative extension of the standard static photon mapping approach as implemented in the Radiance extension.",
+                "It combines multiple smaller photon maps to approximate a much larger one which may not fit into memory using the traditional approach.",
+                "Through iteration, the process mitigates the noise inherent in Monte Carlo raytracing by combining successive results and averaging them.",
+                "At the same time, the density estimate bandwidth1Bandwidth describes the support, or area of influence, of a filter used to <br>weight the photons</br> retrieved from the photon map during a nearest neighbour lookup on a surface (Jensen, 2001).",
+                "The resulting irradiance is proportional to the photon density, and the bandwidth is defined by the distance (radius) to the furthest photon found.",
+                "In this paper, we generalise the term to describe either the radius or the number of nearest neighbours for a density estimate, depending on the implementation.1 (radius or number of nearest photons) is gradually reduced to mitigate bias.",
+                "As Hachisuka points out, the accumulated density estimates converge to an unbiased solution in the limit."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

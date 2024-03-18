@@ -16,7 +16,6 @@ Created on Thu Feb 29 19:51:02 2024
 """
 
 import os
-from googletrans import Translator
 import re
 import json
 import httpx
@@ -96,6 +95,7 @@ def error_handler(sentence):
 
     new_ter= extract_quoted_terms(output)
     if len(new_ter)==0:
+
         print('>>>>>>>>>>>>>BAD')
         print('Salida', output)
         print('termino',term_translated)
@@ -104,34 +104,46 @@ def error_handler(sentence):
 
     return output
 
+import ollama
 
 
-
-def translate_texts(sentences, translated_sentences):
+def translate_keyword(key, translated_sentences):
 
 
     # Traducir cada frase y reconstruir el texto traducido
     translated_text = ""
-    for sentence, t_sentence in zip(sentences,translated_sentences):
+
+    for sentence, t_sentence in zip(key.original_annotated_sentences,translated_sentences):
+
 
         if not is_sentence_to_translate(sentence):
             translated_text += t_sentence + " "
             continue
 
         # Agregar punto al final de la oración para tokenización
-
+        #print('vooy')
         translated_sentence= model_translation(sentence)
+
 
         ## SE PRODUCE EL FALLO, NO HAY MARCADOR
         if not is_sentence_to_translate(translated_sentence):
-            #print('bad:',translated_sentence)
-            translated_sentence= error_handler(sentence)
+            print('bad:',sentence)
+
+            input_ = "Input: \" "+sentence+"\""
+            print(ollama.generate(model='translator', prompt=input_)['response'])
+
+            # print(ollama.generate(model='translator', prompt=prompt))
+
+            #translated_sentence= error_handler(sentence)
         # Agregar la oración traducida al texto traducido
         translated_text += translated_sentence + " "
+        key.original_annotated_samples.append(sentence)
+        key.translated_annotated_samples.append(translated_sentence)
+
+    key.translated_annotated_text = translated_text
 
 
-
-    return translated_text
+    return
 
 def translate_text_original(sentences):
 
@@ -147,3 +159,51 @@ def translate_text_original(sentences):
 
 
     return translated_text
+
+
+import ollama
+
+
+prompt="""You are a translator of English to Spanish specialized in terms. You will recieve a text in English with a term marked between the XML tag <br> and </br>. Then you translate the text to Spanish. Then yo send again the translated term that was between the XML tag. Some examples:
+Input: "The University of Florida, in partnership with Motorola, has held two <br>mobile computing</br> design competitions."
+Output1: "La Universidad de Florida, en asociación con Motorola, ha celebrado dos concursos de diseño de computación móvil."
+Output2: "computación móvil".
+Input: "Where have all the <br>PC makers</br> gone?".
+Output1: "¿Dónde se han ido todos los fabricantes de PC?".
+Output2: "fabricantes de PC?".
+Input: "The role of quantum entanglement of the <br>initial state</br> is discussed in detail".
+Output1: "El papel del enredo cuántico del estado inicial se discute en detalle".
+Output2: "estado inicial".
+Now translate this one:
+"""
+
+input_="Input: \"A conferences impact on <br>undergraduate female students</br> in September of 2000, the 3rd Grace Hopper Celebration of Women in Computing was held in Cape Cod, Massachusetts.\""
+#print(ollama.generate(model='translator', prompt=prompt))
+
+input_= 'Input: \"A second goal is to describe how this topic fits into the even larger field of MR methods and concepts-in particular, making ties to topics such as wavelets and <br>multigrid methods</br>.\"'
+
+import ollama
+response = ollama.chat(model='translator', messages=[
+  {
+    'role': 'user',
+    'content': input_,
+  },
+])
+print(response['message']['content'])
+
+"""
+  
+    You are a term translator. I give you a sentence with a term marked between the XML <br> and </br>. Give me just the translation into Spanish with the translation of the term marked between the same code. Here are some examples:
+    Input: "The University of Florida, in partnership with Motorola, has held two <br>mobile computing</br> design competitions."
+    Output: "La Universidad de Florida, en asociación con Motorola, ha celebrado dos concursos de diseño de <br>computación móvil</br>."
+    Input: "Where have all the <br>PC makers</br> gone?"
+    Output: "¿Dónde se han ido todos los <br>fabricantes de PC</br>?"
+    Input: "The role of quantum entanglement of the <br>initial state</br> is discussed in detail"
+    Output: "El papel del enredo cuántico del <br>estado inicial</br> se discute en detalle".
+    Now translate this one:
+    Input: "A conferences impact on <br>undergraduate female students</br> In September of 2000, the 3rd Grace Hopper Celebration of Women in Computing was held in Cape Cod, Massachusetts."
+
+"""
+
+#print(response['message']['content'])
+

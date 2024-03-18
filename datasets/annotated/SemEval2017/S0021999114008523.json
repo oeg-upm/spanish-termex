@@ -1,0 +1,304 @@
+{
+    "id": "S0021999114008523",
+    "original_text": "A multi-physics description of a multiscale system is often referred to as a hybrid model. In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4]. The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable. If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy. E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]). In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models.",
+    "original_translation": "",
+    "original_sentences": [
+        "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+        "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+        "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+        "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+        "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+        "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+    ],
+    "error_count": 0,
+    "keys": {
+        "CA": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (<br>CA</br>) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "continuous asynchronous": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a <br>continuous asynchronous</br> (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "continuum-fluid one": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a <br>continuum-fluid one</br> (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "coupled models": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the <br>coupled models</br> to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of <br>coupled models</br>."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "fluid": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In <br>fluid</br> dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-<br>fluid</br> one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "fluid dynamics": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In <br>fluid dynamics</br>, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "hybrid": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a <br>hybrid</br> model.",
+                "In fluid dynamics, a typical <br>hybrid</br> combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "hybrid model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a <br>hybrid model</br>.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "macro model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a <br>macro model</br>), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "micro and macro models": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The <br>micro and macro models</br> generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the <br>micro and macro models</br> advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "micro model": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a <br>micro model</br>) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the <br>micro model</br> stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "molecular treatment": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a <br>molecular treatment</br> (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "multi-physics description of a multiscale system": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A <br>multi-physics description of a multiscale system</br> is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "multiscale systems comprising an arbitrary number of coupled models": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to <br>multiscale systems comprising an arbitrary number of coupled models</br>."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "obtaining the accuracy of the former with the efficiency of the latter": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of <br>obtaining the accuracy of the former with the efficiency of the latter</br> [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "physical (as distinct from numerical) approximation": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a <br>physical (as distinct from numerical) approximation</br> can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "scale-separated": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is <br>scale-separated</br>, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a time-stepping method for coupled systems, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "time-stepping method for coupled systems": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "A multi-physics description of a multiscale system is often referred to as a hybrid model.",
+                "In fluid dynamics, a typical hybrid combines a molecular treatment (a micro model) with a continuum-fluid one (a macro model), with the aim of obtaining the accuracy of the former with the efficiency of the latter [1–4].",
+                "The micro and macro models generally have characteristic timescales that are very different, which means that time-accurate simulations can be extremely challenging: the size of the timestep required to make the micro model stable and accurate is so small that simulations over significant macro-scale time periods are intractable.",
+                "If the system is scale-separated, a physical (as distinct from numerical) approximation can be made that enables the coupled models to advance at different rates (asynchronously) with negligible penalty on macro-scale accuracy.",
+                "E et al. [5] were the first to introduce and implement this concept in a <br>time-stepping method for coupled systems</br>, referred to in the classification of Lockerby et al. [6] as a continuous asynchronous (CA) scheme (continuous since the micro and macro models advance without interruption [5]).",
+                "In this paper we extend this idea to multiscale systems comprising an arbitrary number of coupled models."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

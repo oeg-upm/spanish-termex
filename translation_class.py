@@ -9,7 +9,7 @@ import transformers
 from transformers import pipeline
 import re
 import httpx
-from googletrans import Translator
+#from googletrans import Translator
 import json
 from transformers import MarianMTModel, MarianTokenizer
 import os
@@ -22,8 +22,34 @@ def separate_sentences(text):
 
     sentences = nltk.sent_tokenize(text)
 
-    return sentences
+    ## VERIFIER
+    '''
+    S1:"This method has been since extended by Conrad et al.",
+    S2: "[34] to incorporate uncertainties in detector sensitivity and the background estimate based on an approach described by Cousins and Highland [35].",
+    HAY QUE UNIR           
+    '''
+    new_sentences=[]
+    var=''
+    for i,sentence in enumerate(sentences):
+        if i ==0:
+            new_sentences.append(sentence)
+            continue
+        if sentence[0].isupper():
+            if var !='':
+                new_sentences.append(var.strip())
+            var= sentence
+            continue
+        else:
+            var=var+' '+sentence
+    if var != '':
+        new_sentences.append(var.strip())
 
+
+
+
+    return new_sentences
+
+'''
 
 def translate_text_google(text, src_lang='en', dest_lang='es'):
     timeout = httpx.Timeout(20) # 5 seconds timeout
@@ -31,7 +57,7 @@ def translate_text_google(text, src_lang='en', dest_lang='es'):
     translator.raise_Exception = True
     translated_text = translator.translate(text, src=src_lang, dest=dest_lang)
     return translated_text.text
-
+'''
 
 
 
@@ -75,6 +101,7 @@ def clean_text(text):
     text=  text.replace('\n', ' ')
     text = text.replace('\t', ' ')
     text = text.replace('  ', ' ')
+    text = text.replace("\u00A0", " ")
 
 
     return text.strip()
@@ -122,11 +149,21 @@ def replace_with_quotes_h(text, term):
     - annotated_text (str): The text with the term annotated.
     """
     # Insert Zero Width Space characters before and after the term
-    pattern = re.compile(rf'\b{re.escape(term)}[.,]?\b')
+    pattern = re.compile(rf'\b{re.escape(term)}[.,]?\b',re.IGNORECASE)
     newterm = "<br>" + term + "</br>"  # f'"{term}"'
-    replaced_text = re.sub(pattern, newterm, text)
+    replaced_text = re.sub(pattern, newterm, text,re.IGNORECASE)
     #replaced_text = text.replace(term, "<br>" + term + "</br>")
 
+
+    return replaced_text
+
+def replace_with_quotes_hard(text, term):
+    escaped_substring = re.escape(term)
+    # Construct the regex pattern to find the substring
+    pattern = '(' + escaped_substring + ')'
+    newterm = "<br>" + term + "</br>"  # f'"{term}"'
+    # Use re.sub() to replace the matched substring with annotated version
+    replaced_text = re.sub(pattern, newterm, text,re.IGNORECASE)
 
     return replaced_text
 
@@ -151,7 +188,9 @@ def remove_quotes(sentence):
     sentence=sentence.replace('<br>','').replace('</br>','')
     return sentence
 
+#text=                "<br>X-Rite</br>: más que una empresa de artes gráficas Aunque es bien conocido como fabricante de densitometros y espectrofotómetros, <br>X-Rite</br> está activo en la medición de luz y forma en muchas industrias."
 
+#print(extract_quoted_terms_h(text))
 
 # Output: example
 
@@ -162,14 +201,14 @@ def replace_with_quotes(text, term):
     # \b Matches the empty string, but only at the beginning or end of a word. A word is defined as a sequence of word characters. Note that formally, \b is defined as the boundary between a \w and a \W character (or vice versa), or between \w and the beginning or end of the string. This means that r'\bat\b' matches 'at', 'at.', '(at)', and 'as at ay' but not 'attempt' or 'atlas'.
 
     pattern = r'\b' + re.escape(term) + r'\b'
-    newterm = "\u200B" +term+ "\u200B"   #f'"{term}"'
+    newterm = f'"{term}"'
 
     replaced_text = re.sub(pattern, newterm, text)
 
     return replaced_text
 def extract_quoted_terms(text):
     # Usamos una expresión regular para encontrar los términos entre comillas
-    pattern = re.compile(r'\u200B(\w+)\u200B')
+    pattern = re.compile(r'"([^"]+)"')
     quoted_terms = re.findall(pattern,text)     #"([^"]+)"
 
     return quoted_terms
@@ -283,70 +322,109 @@ class Translation():
 class Key():
     def __init__(self,term):
         self.key=term
-        self.tranlated_term=''
+        self.translated_term=''
         self.candidates=[]
-        self.examples=[]
+
+        self.translated_annotated_text=''
+        self.errors=[]
+        self.original_annotated_sentences=[]
+        self.translated_annotated_samples = []
+        self.original_annotated_samples = []
+    def get_json(self):
+        val= {
+            "translated_key": self.translated_term,
+            "original_annotated_sentences":self.original_annotated_sentences,
+            "original_annotated_samples": self.original_annotated_samples,
+            "translated_annotated_samples": self.translated_annotated_samples,
+            "translated_text": self.translated_annotated_text,
+            "candidates":self.candidates,
+            "error": self.errors
+        }
+        return val
+
+    def check_annotations(self):
+        for annot_sent in self.original_annotated_sentences:
+            if is_sentence_to_translate(annot_sent):
+                return True
+
+        return False
+
+
+
 
 class TranslationH():
-    def __init__(self, text, keys):
-        self.original_text = text  # original text
-        self.original_keys = keys  # original keywords
-        self.original_translation = ""
-        self.translated_annotated_text = []  # lista con tantos textos como keywords haya
-        self.translated_keywords = []  # después
-        self.errors = []  # si alguna traducción es diferente
+    def __init__(self, _id, text_, keys_):
+        self.original_text = text_  # original text
+        self.original_keys = keys_  # original keywords
+        self.id = _id
+        self.keys = []  # original keywords
+        for k in self.original_keys:
+            self.keys.append(Key(k))
+
+        self.original_text_sentences = separate_sentences(self.original_text)
+
+
+
+        self.translated_text = ""
+        self.translated_text_sentences=[]
+
+        #self.translated_annotated_text = []  # lista con tantos textos como keywords haya
+        #self.translated_keywords = []  # después
+        #self.errors = []  # si alguna traducción es diferente
         self.error_count = 0
-        self.id = ""
-        self.annotated_sentence = []
+
+
 
     def generate_annotated_sentences(self):
-        self.annotated_sentence = []
-        for key in self.original_keys:
-            self.annotated_sentence.append(replace_with_quotes(self.original_text, key))
 
-        return self.annotated_sentence
-
-    def generate_annotated_sentences_helsinki(self):
-        self.annotated_sentence = []
-        self.original_text_sentences = separate_sentences(self.original_text)
-        for key in self.original_keys:
+        for key in self.keys:#self.original_keys:
             annotated_text_sentences = self.original_text_sentences.copy()
+            output_list = [replace_with_quotes_h(i, key.key) for i in annotated_text_sentences]
+            key.original_annotated_sentences=output_list
+            val= key.check_annotations()
+            ## Validamos una primera vez y si no string matching
+            if not val:
+                output_list = [replace_with_quotes_hard(i, key.key) for i in annotated_text_sentences]
+                key.original_annotated_sentences = output_list
+                val=key.check_annotations()
 
-            output_list = [replace_with_quotes(i, key) for i in annotated_text_sentences]
-            self.annotated_sentence.append(output_list)
 
-        return self.annotated_sentence
+            if not val:
+                print("Error in>>> ",self.id,key.key)
+                print(output_list)
+
+
+        return
 
     def compare_annotated_keywords(self):
-        for k in self.translated_annotated_text:
-            extracted = extract_quoted_terms(k)
-            # print(extracted)
+        for k in self.keys: #translated_annotated_text:
+            extracted = extract_quoted_terms_h(k.translated_annotated_text)
+            #print('>>>>',extracted)
             if detect_different_translations(extracted):
-                # print('ok')
-                self.translated_keywords.append(extracted[0])
-                self.errors.append([""])
+                #print('ok')
+                k.translated_term= extracted[0]#elf.translated_keywords.append(extracted[0])
+                k.errors.append([""])
             else:
-                # print('error', extracted)
-                self.errors.append((extracted))
+                #print('error', extracted)
+                k.errors.append(extracted)
                 self.error_count += 1
-                self.translated_keywords.append(extracted)
+                k.errors.append(extracted)
+
+
 
     def write_json(self, PathTrans):
         data = {
+            "id":self.id,
             "original_text": self.original_text,
-            "original_translation": self.original_translation,
+            "original_translation": self.translated_text,
+            "original_sentences": self.original_text_sentences,
             "error_count": self.error_count,
             "keys": {}
         }
-        counter = 0
-        for key in self.original_keys:
-            # cleankey = re.sub(r'[\'"‘’“”]', '', key)
-            data['keys'][key] = {
-                "translated_key": self.translated_keywords[counter],
-                "translated_annotated_text": self.translated_annotated_text[counter],
-                "error": self.errors[counter]
-            }
-            counter += 1
+
+        for key in self.keys:
+            data['keys'][key.key] = key.get_json()
+
 
         file_path = PathTrans + "/" + self.id + ".json"
 
@@ -354,3 +432,15 @@ class TranslationH():
         with open(file_path, "w", encoding='utf-8') as json_file:
             json.dump(data, json_file, ensure_ascii=False, indent=4)
         print(self.id + '.json saved')
+
+
+
+def get_source_identifiers(file_list):
+    identifiers=[]
+    for file_ in file_list:
+        if file_.endswith('.txt'):
+            identifiers.append(file_.replace('.txt',''))
+        if file_.endswith('.json'):
+            identifiers.append(file_.replace('.json',''))
+
+    return identifiers

@@ -1,0 +1,324 @@
+{
+    "id": "S0045782513000546",
+    "original_text": "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium. The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid). Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization. We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it. Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step. The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact. This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new. Lagging in numerical schemes is discussed more widely by Lowrie in [14].",
+    "original_translation": "",
+    "original_sentences": [
+        "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+        "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+        "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+        "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+        "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+        "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+        "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+        "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+    ],
+    "error_count": 0,
+    "keys": {
+        "assembly engines": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and <br>assembly engines</br> remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "constitutive equations": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The <br>constitutive equations</br> therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "coupling": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the <br>coupling</br> between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "extension to the equations of poroelasticity": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an <br>extension to the equations of poroelasticity</br> by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "flow equations": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and <br>flow equations</br> is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "fluid": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase <br>fluid</br> in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the <br>fluid</br>).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "Fully discrete numerical schemes": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "<br>Fully discrete numerical schemes</br> are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "lagged and non-lagged backward Euler time stepping method": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a <br>lagged and non-lagged backward Euler time stepping method</br> applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "mixed and Galerkin finite element spatial discretization": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a <br>mixed and Galerkin finite element spatial discretization</br>.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by <br>modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium</br>.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "nonlinearly viscoelastic diffusion problems": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for <br>nonlinearly viscoelastic diffusion problems</br> in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "numerical schemes": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete <br>numerical schemes</br> are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in <br>numerical schemes</br> is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "porous media": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the <br>porous media</br> (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "single phase fluid": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible <br>single phase fluid</br> in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "updating subroutines": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some <br>updating subroutines</br> for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "viscoelastic porous medium": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a <br>viscoelastic porous medium</br>.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        },
+        "viscoelastic relaxation effects": {
+            "translated_key": "",
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of <br>viscoelastic relaxation effects</br> in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "",
+            "candidates": [],
+            "error": []
+        }
+    }
+}

@@ -1,36 +1,21 @@
 
 import os
-from translation_class import read_lines,read_file_content,Translation,translate_text_google
-from translation_helsinki import translate_texts,translate_text_original
+from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers
+#from translation_helsinki import translate_keyword,translate_text_original
 
-def get_source_identifiers(file_list):
-    identifiers=[]
-    for file_ in file_list:
-        if file_.endswith('.txt'):
-            identifiers.append(file_.replace('.txt',''))
-        if file_.endswith('.json'):
-            identifiers.append(file_.replace('.json',''))
 
-    return identifiers
+#InputPath=   'datasets/Inspec/'
+#OutputPath = 'datasets/doc_translations/Helsinki/Inspec/' #'datasets/translation_test/trans'
+
+
+InputPath=   'datasets/source/SemEval2017/'
+OutputPath = 'datasets/doc_translations/Helsinki/SemEval2017/' #'datasets/translation_test/trans'
 
 
 
-'''
-ONLY INPUT
-'''
 
 
-InputPath=   'datasets/Inspec/'
-OutputPath = 'datasets/doc_translations/Helsinki/Inspec/' #'datasets/translation_test/trans'
 
-
-#InputPath=   'datasets/source/SemEval2017/'
-#OutputPath = 'datasets/doc_translations/Helsinki/SemEval2017/' #'datasets/translation_test/trans'
-
-
-'''
-REST
-'''
 
 PathKeys= InputPath+'keys'
 PathDocs= InputPath+'docsutf8'
@@ -40,8 +25,6 @@ targetdocs = os.listdir(OutputPath)
 
 source_identifiers = get_source_identifiers(sourcedocs)
 target_identifiers = get_source_identifiers(targetdocs) # for filter
-
-
 
 
 for identifier in source_identifiers:
@@ -56,23 +39,30 @@ for identifier in source_identifiers:
 
 
         # el objeto
-        translation = Translation(textdoc, textkeys)
+        translation = TranslationH(identifier,textdoc, textkeys)
 
-        translation.id = identifier
+        ## annotation and first translation
+        translation.generate_annotated_sentences()
 
+        '''
+        translation.translated_text_sentences= translate_text_original(translation.original_text_sentences)
 
-        list_annotations = translation.generate_annotated_sentences_helsinki()
-        translations= translate_text_original(translation.original_text_sentences)
-        translation.original_translation = " ".join(translations)
-        for annotated in list_annotations:
+        translation.translated_text = " ".join(translation.translated_text_sentences)
+
+        for key in translation.keys:
+
             #tr = translate_text_google(annotated, src_lang='en', dest_lang='es')
-            tr= translate_texts(annotated,translations)
-            translation.translated_annotated_text.append(tr)
+            tr= translate_keyword(key,translation.translated_text_sentences)
+            #translation.translated_annotated_text.append(tr)
+
 
 
         translation.compare_annotated_keywords()
+        
+        '''
         translation.write_json(OutputPath)
-        print("ERRORS:",translation.error_count)
+        #print("ERRORS:",translation.error_count)
+        break
 
     except Exception as e:
         print("FATAL ERROR IN "+ str(identifier))
