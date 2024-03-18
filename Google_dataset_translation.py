@@ -1,0 +1,87 @@
+
+import os
+from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers,MAX_COUNTER, translate_text_google, separate_sentences, is_sentence_to_translate
+import json
+#from translation_helsinki import translate_keyword,translate_text_original
+
+
+#InputPath=   'datasets/Inspec/'
+#OutputPath = 'datasets/doc_translations/Helsinki/Inspec/' #'datasets/translation_test/trans'
+
+
+InputPath=   'datasets/annotated/SemEval2010_test'
+OutputPath = 'datasets/doc_translations/SemEval2010_GTranslate_Annotated' #'datasets/translation_test/trans'
+
+
+sourcedocs = os.listdir(InputPath)
+targetdocs = os.listdir(OutputPath)
+
+source_identifiers = get_source_identifiers(sourcedocs)
+target_identifiers = get_source_identifiers(targetdocs) # for filter
+
+translated_br=[]
+
+for identifier in source_identifiers:
+
+    if identifier in target_identifiers:
+        continue # si está en los ya traducidos pasamos
+
+    try:
+        print(identifier)
+        translation = Translation()
+        file_path = InputPath + '/' + identifier+'.json'
+        with open(file_path, "r") as json_file:
+            source_data = json.load(json_file)   
+            if 'original_text' in source_data:
+                text=source_data['original_text']
+                translated_sentences=[]
+                sentences=separate_sentences(text)
+                for sentence in sentences:
+                    tr_sentence=translate_text_google(sentence, src_lang='en', dest_lang='es')
+                    translated_sentences.append(tr_sentence)
+                translation.original_translation=' '.join(translated_sentences)
+                if 'keys' in source_data:
+                    for key in source_data['keys']:
+                        if 'original_annotated_sentences' in source_data['keys'][key]:
+                            print('yes')
+                            for sentence in source_data['keys'][key]['original_annotated_sentences']:
+                                br=is_sentence_to_translate(sentence)
+                                if br==True:
+                                    print("true")
+                                    tr_sentence=translate_text_google(sentence, src_lang='en', dest_lang='es')
+                                    translated_br.append(tr_sentence)
+                                    print('--------------FINISH---------------')
+                                    
+                                    
+
+        # el objeto
+        #translation = TranslationH(identifier,textdoc, textkeys)
+
+        ## annotation and first translation
+        translation.generate_annotated_sentences()
+
+        '''
+        translation.translated_text_sentences= translate_text_original(translation.original_text_sentences)
+
+        translation.translated_text = " ".join(translation.translated_text_sentences)
+
+        for key in translation.keys:
+
+            #tr = translate_text_google(annotated, src_lang='en', dest_lang='es')
+            tr= translate_keyword(key,translation.translated_text_sentences)
+            #translation.translated_annotated_text.append(tr)
+
+
+
+        translation.compare_annotated_keywords()
+        
+        '''
+        #translation.write_json(OutputPath)
+        #print("ERRORS:",translation.error_count)
+        break
+
+    except Exception as e:
+        print("FATAL ERROR IN "+ str(identifier))
+        print(e)
+        #break
+

@@ -16,6 +16,7 @@ import os
 from collections import Counter
 import nltk
 nltk.download('punkt')
+from googletrans import Translator
 
 
 def separate_sentences(text):
@@ -49,7 +50,34 @@ def separate_sentences(text):
 
     return new_sentences
 
-'''
+
+
+def translate_texts_google(sentences, translated_sentences):
+
+
+    # Traducir cada frase y reconstruir el texto traducido
+    translated_text = ""
+    for sentence, t_sentence in zip(sentences,translated_sentences):
+
+        if not is_sentence_to_translate(sentence):
+            translated_text += t_sentence + " "
+            continue
+
+        # Agregar punto al final de la oración para tokenización
+        sentence = sentence.strip()
+        # Tokenizar y traducir la oración
+        timeout = httpx.Timeout(20) # 5 seconds timeout
+        translator = Translator(timeout=timeout)
+        translator.raise_Exception = True
+        translated_sentence = translator.translate(sentence, src='en', dest='es')
+
+        # Agregar la oración traducida al texto traducido
+        translated_text += translated_sentence.text + " "
+
+
+    return translated_text
+
+
 
 def translate_text_google(text, src_lang='en', dest_lang='es'):
     timeout = httpx.Timeout(20) # 5 seconds timeout
@@ -57,7 +85,7 @@ def translate_text_google(text, src_lang='en', dest_lang='es'):
     translator.raise_Exception = True
     translated_text = translator.translate(text, src=src_lang, dest=dest_lang)
     return translated_text.text
-'''
+
 
 
 
@@ -251,9 +279,9 @@ def most_repeated_element(lst):
 
 
 class Translation():
-    def __init__(self, text, keys):
-        self.original_text=text #original text
-        self.original_keys=keys #original keywords
+    def __init__(self):
+        self.original_text="" #original text
+        self.original_keys=[] #original keywords
         self.original_translation="" 
         self.translated_annotated_text=[]# lista con tantos textos como keywords haya
         self.translated_keywords=[] #después 
