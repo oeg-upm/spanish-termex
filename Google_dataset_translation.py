@@ -20,7 +20,7 @@ targetdocs = os.listdir(OutputPath)
 source_identifiers = get_source_identifiers(sourcedocs)
 target_identifiers = get_source_identifiers(targetdocs) # for filter
 
-translated_br=[]
+
 
 for identifier in source_identifiers:
 
@@ -30,6 +30,7 @@ for identifier in source_identifiers:
     try:
         print(identifier)
         translation = Translation()
+        
         file_path = InputPath + '/' + identifier+'.json'
         output_file= OutputPath + '/' + identifier+'.json'
         shutil.copy(file_path, output_file)
@@ -51,12 +52,13 @@ for identifier in source_identifiers:
                      
                 if 'keys' in source_data:
                     for key in source_data['keys']:
+                        translated_br=[]
                         if 'original_annotated_sentences' in source_data['keys'][key]:
                             print('yes')
                             for sentence in source_data['keys'][key]['original_annotated_sentences']:
                                 br=is_sentence_to_translate(sentence)
                                 if br==True:
-                                    print("true")
+                                    #print("true")
                                     replaced_sentence=sentence.replace("<br>", "\"")
                                     replaced_sentence2=replaced_sentence.replace("</br>", "\"")
                                     new_sentence=replaced_sentence2 + " " + key
@@ -71,7 +73,7 @@ for identifier in source_identifiers:
                                 with open(output_file, 'w', encoding='utf-8') as out_json_file:
                                     json.dump(output_data, out_json_file, ensure_ascii=False, indent=4)
                                     print('--------------FINISH---------------')                
-                                      
+                                  
                                     
                                     
 
@@ -79,7 +81,7 @@ for identifier in source_identifiers:
         #translation = TranslationH(identifier,textdoc, textkeys)
 
         ## annotation and first translation
-        translation.generate_annotated_sentences()
+        #translation.generate_annotated_sentences()
 
         '''
         translation.translated_text_sentences= translate_text_original(translation.original_text_sentences)

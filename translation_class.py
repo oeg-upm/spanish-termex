@@ -66,7 +66,7 @@ def translate_texts_google(sentences, translated_sentences):
         # Agregar punto al final de la oración para tokenización
         sentence = sentence.strip()
         # Tokenizar y traducir la oración
-        timeout = httpx.Timeout(20) # 5 seconds timeout
+        timeout = httpx.Timeout(50) # 5 seconds timeout
         translator = Translator(timeout=timeout)
         translator.raise_Exception = True
         translated_sentence = translator.translate(sentence, src='en', dest='es')
