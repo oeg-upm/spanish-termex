@@ -1,7 +1,8 @@
 
 import os
-from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers,MAX_COUNTER, translate_text_google, separate_sentences, is_sentence_to_translate
+from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers, translate_text_google, separate_sentences, is_sentence_to_translate
 import json
+import shutil
 #from translation_helsinki import translate_keyword,translate_text_original
 
 
@@ -30,6 +31,8 @@ for identifier in source_identifiers:
         print(identifier)
         translation = Translation()
         file_path = InputPath + '/' + identifier+'.json'
+        output_file= OutputPath + '/' + identifier+'.json'
+        shutil.copy(file_path, output_file)
         with open(file_path, "r") as json_file:
             source_data = json.load(json_file)   
             if 'original_text' in source_data:
@@ -40,6 +43,12 @@ for identifier in source_identifiers:
                     tr_sentence=translate_text_google(sentence, src_lang='en', dest_lang='es')
                     translated_sentences.append(tr_sentence)
                 translation.original_translation=' '.join(translated_sentences)
+                with open(output_file, "r", encoding="utf-8") as out_json_file:
+                    output_data = json.load(out_json_file)
+                    output_data['original_translation'] = translation.original_translation
+                with open(output_file, "w", encoding="utf-8") as out_json_file:
+                    json.dump(output_data, out_json_file, ensure_ascii=False, indent=4)
+                     
                 if 'keys' in source_data:
                     for key in source_data['keys']:
                         if 'original_annotated_sentences' in source_data['keys'][key]:
@@ -48,9 +57,21 @@ for identifier in source_identifiers:
                                 br=is_sentence_to_translate(sentence)
                                 if br==True:
                                     print("true")
-                                    tr_sentence=translate_text_google(sentence, src_lang='en', dest_lang='es')
+                                    replaced_sentence=sentence.replace("<br>", "\"")
+                                    replaced_sentence2=replaced_sentence.replace("</br>", "\"")
+                                    new_sentence=replaced_sentence2 + " " + key
+                                    tr_sentence=translate_text_google(new_sentence, src_lang='en', dest_lang='es')
                                     translated_br.append(tr_sentence)
-                                    print('--------------FINISH---------------')
+                                    
+    
+                            # with open(output_file, "r") as out_json_file:
+                            #     output_data = json.load(out_json_file)
+                            for b in translated_br:
+                                output_data['keys'][key]['translated_annotated_samples'].append(b)
+                                with open(output_file, 'w', encoding='utf-8') as out_json_file:
+                                    json.dump(output_data, out_json_file, ensure_ascii=False, indent=4)
+                                    print('--------------FINISH---------------')                
+                                      
                                     
                                     
 
