@@ -382,8 +382,23 @@ class Key():
 
         return False
 
+    def construct_from_json(self,json):
+        self.translated_term= json["translated_key"]
+        self.is_in_text = json["is_in_text"]
+        self.original_annotated_sentences = json["original_annotated_sentences"]
+        self.original_annotated_samples = json["original_annotated_samples"]
 
-MAX_COUNTER=0
+        self.translated_annotated_samples = json["translated_annotated_samples"]
+        self.translated_annotated_text = json["translated_annotated_text"]
+        self.translated_annotated_text = json["translated_text"]
+        self.candidates = json["candidates"]
+        self.error = json["error"]
+
+        
+
+
+
+
 
 class TranslationH():
     def __init__(self, _id, text_, keys_):
@@ -407,7 +422,23 @@ class TranslationH():
         #self.errors = []  # si alguna traducción es diferente
         self.error_count = 0
 
+    def construct_from_json(self,jsonfile):
+        # Open the JSON file for reading
+        with open(jsonfile, 'r') as file:
+            # Load the JSON data into a Python dictionary
+            data = json.load(file)
 
+
+        self.id= data['id']
+        self.original_text = data['original_text']
+        self.translated_text = data['original_translation']
+        self.original_text_sentences = data['original_sentences']
+        self.error_count = data['error_count']
+        keys = data['keys']
+        for key in keys.keys():
+            newkey = Key(key)
+            newkey.construct_from_json(keys[key])
+            self.keys.append(newkey)
 
 
     def generate_annotated_sentences(self):
