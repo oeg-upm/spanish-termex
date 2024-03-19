@@ -141,7 +141,7 @@ def is_sentence_to_translate(sentence):
         return True
     return False
 
-import re
+
 
 import re
 
@@ -394,7 +394,7 @@ class Key():
         self.candidates = json["candidates"]
         self.error = json["error"]
 
-        
+
 
 
 
@@ -427,7 +427,6 @@ class TranslationH():
         with open(jsonfile, 'r') as file:
             # Load the JSON data into a Python dictionary
             data = json.load(file)
-
 
         self.id= data['id']
         self.original_text = data['original_text']
