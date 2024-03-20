@@ -5,8 +5,8 @@ Created on Tue Mar  5 14:48:38 2024
 
 @author: pmchozas
 """
-import transformers
-from transformers import pipeline
+#import transformers
+#from transformers import pipeline
 import re
 import httpx
 #from googletrans import Translator
