@@ -3,6 +3,7 @@ import os
 from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers, translate_text_google, separate_sentences, is_sentence_to_translate
 import json
 import shutil
+import traceback
 #from translation_helsinki import translate_keyword,translate_text_original
 
 
@@ -106,5 +107,6 @@ for identifier in source_identifiers:
     except Exception as e:
         print("FATAL ERROR IN "+ str(identifier))
         print(e)
+        print(traceback.format_exc())
         #break
 
