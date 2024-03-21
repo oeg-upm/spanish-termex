@@ -1,0 +1,421 @@
+{
+    "id": "S187775031300077X",
+    "original_text": "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems. In part, this is due to their staggering complexity. The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs. The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein). In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex. We also need efficient, iterative solvers for linear problems with large, sparse matrices. In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17]. Our implementation consists of a number of functions in C that are available publicly [18].",
+    "original_translation": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18].",
+    "original_sentences": [
+        "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+        "In part, this is due to their staggering complexity.",
+        "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+        "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+        "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+        "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+        "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+        "Our implementation consists of a number of functions in C that are available publicly [18]."
+    ],
+    "error_count": 2,
+    "keys": {
+        "efficient, iterative solvers": {
+            "translated_key": "solucionadores eficientes e iterativos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need <br>efficient, iterative solvers</br> for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "We also need <br>efficient, iterative solvers</br> for linear problems with large, sparse matrices."
+            ],
+            "translated_annotated_samples": [
+                "Output: También necesitamos <br>solucionadores eficientes e iterativos</br> para problemas lineales con matrices grandes y dispersas."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. Output: También necesitamos <br>solucionadores eficientes e iterativos</br> para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "efficient, iterative solvers for linear problems with large, sparse matrices": {
+            "translated_key": "solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need <br>efficient, iterative solvers for linear problems with large, sparse matrices</br>.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "We also need <br>efficient, iterative solvers for linear problems with large, sparse matrices</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: También necesitamos <br>solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas</br>."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. Output: También necesitamos <br>solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas</br>. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "large, sparse matrices": {
+            "translated_key": "matrices grandes y dispersas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with <br>large, sparse matrices</br>.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "We also need efficient, iterative solvers for linear problems with <br>large, sparse matrices</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: También necesitamos solucionadores eficientes e iterativos para problemas lineales con <br>matrices grandes y dispersas</br>."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. Output: También necesitamos solucionadores eficientes e iterativos para problemas lineales con <br>matrices grandes y dispersas</br>. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Liley model": {
+            "translated_key": "de Liley",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The <br>Liley model</br> [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "The <br>Liley model</br> [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs."
+            ],
+            "translated_annotated_samples": [
+                "Output: El modelo <br>de Liley</br> [15] considerado aquí, por ejemplo, consiste en catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. Output: El modelo <br>de Liley</br> [15] considerado aquí, por ejemplo, consiste en catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mean-field models": {
+            "translated_key": "modelos de campo medio",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although <br>mean-field models</br> have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "Although <br>mean-field models</br> have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aunque los <br>modelos de campo medio</br> se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos."
+            ],
+            "translated_text": "Output: Aunque los <br>modelos de campo medio</br> se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "membrane potentials": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean <br>membrane potentials</br> and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean <br>membrane potentials</br> and the mean synaptic inputs."
+            ],
+            "translated_annotated_samples": [
+                "Output: El modelo de Liley [15] considerado aquí, por ejemplo, consiste en catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. Output: El modelo de Liley [15] considerado aquí, por ejemplo, consiste en catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [],
+                []
+            ]
+        },
+        "numerical bifurcation analysis": {
+            "translated_key": "análisis de bifurcación numérica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using <br>numerical bifurcation analysis</br> (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using <br>numerical bifurcation analysis</br> (see [16] and references therein)."
+            ],
+            "translated_annotated_samples": [
+                "Output: El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) considerando solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando <br>análisis de bifurcación numérica</br> (ver [16] y referencias allí)."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. Output: El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) considerando solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando <br>análisis de bifurcación numérica</br> (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "ODEs": {
+            "translated_key": "ODEs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (<br>ODEs</br>) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "The model can be reduced to a system of Ordinary Differential Equations (<br>ODEs</br>) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein)."
+            ],
+            "translated_annotated_samples": [
+                "Output: El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (<br>ODEs</br>) considerando solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí)."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. Output: El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (<br>ODEs</br>) considerando solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Ordinary Differential Equations": {
+            "translated_key": "Ecuaciones Diferenciales Ordinarias",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of <br>Ordinary Differential Equations</br> (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "The model can be reduced to a system of <br>Ordinary Differential Equations</br> (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein)."
+            ],
+            "translated_annotated_samples": [
+                "Output: El modelo se puede reducir a un sistema de <br>Ecuaciones Diferenciales Ordinarias</br> (ODEs) considerando solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis numérico de bifurcación (ver [16] y referencias allí)."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. Output: El modelo se puede reducir a un sistema de <br>Ecuaciones Diferenciales Ordinarias</br> (ODEs) considerando solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis numérico de bifurcación (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Partial Differential Equations": {
+            "translated_key": "Ecuaciones en Derivadas Parciales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled <br>Partial Differential Equations</br> (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled <br>Partial Differential Equations</br> (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs."
+            ],
+            "translated_annotated_samples": [
+                "Output: El modelo Liley [15] considerado aquí, por ejemplo, consiste en catorce <br>Ecuaciones en Derivadas Parciales</br> (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. Output: El modelo Liley [15] considerado aquí, por ejemplo, consiste en catorce <br>Ecuaciones en Derivadas Parciales</br> (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PDE model": {
+            "translated_key": "modelo de EDP",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the <br>PDE model</br>, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "In order to compute equilibria, periodic orbits and such objects for the <br>PDE model</br>, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para calcular equilibrios, órbitas periódicas y objetos similares para el <br>modelo de EDP</br>, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500cm2, el tamaño de una corteza humana completamente desarrollada."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Output: Para calcular equilibrios, órbitas periódicas y objetos similares para el <br>modelo de EDP</br>, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500cm2, el tamaño de una corteza humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PDEs": {
+            "translated_key": "PDEs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (<br>PDEs</br>) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (<br>PDEs</br>) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs."
+            ],
+            "translated_annotated_samples": [
+                "Output: El modelo de Liley [15] considerado aquí, por ejemplo, consiste en catorce Ecuaciones en Derivadas Parciales acopladas (<br>PDEs</br>) con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. Output: El modelo de Liley [15] considerado aquí, por ejemplo, consiste en catorce Ecuaciones en Derivadas Parciales acopladas (<br>PDEs</br>) con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PETSc": {
+            "translated_key": "PETSc",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package <br>PETSc</br> [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "In this paper, we will show that all this can be accomplished in the open-source software package <br>PETSc</br> [17]."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este documento, mostraremos que todo esto se puede lograr en el paquete de software de código abierto <br>PETSc</br> [17]."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. Output: En este documento, mostraremos que todo esto se puede lograr en el paquete de software de código abierto <br>PETSc</br> [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "spatially extended dynamical systems": {
+            "translated_key": "sistemas dinámicos espacialmente extendidos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as <br>spatially extended dynamical systems</br>.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean synaptic inputs.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as <br>spatially extended dynamical systems</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aunque se han utilizado modelos de campo medio en todos estos escenarios, se ha hecho poco análisis sobre su comportamiento como <br>sistemas dinámicos espacialmente extendidos</br>."
+            ],
+            "translated_text": "Output: Aunque se han utilizado modelos de campo medio en todos estos escenarios, se ha hecho poco análisis sobre su comportamiento como <br>sistemas dinámicos espacialmente extendidos</br>. En parte, esto se debe a su complejidad abrumadora. El modelo de Liley [15] considerado aquí, por ejemplo, consta de catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "synaptic inputs": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Although mean-field models have been used in all these settings, little analysis has been done on their behaviour as spatially extended dynamical systems.",
+                "In part, this is due to their staggering complexity.",
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean <br>synaptic inputs</br>.",
+                "The model can be reduced to a system of Ordinary Differential Equations (ODEs) by considering only spatially homogeneous solutions, and the resulting system has been examined in detail using numerical bifurcation analysis (see [16] and references therein).",
+                "In order to compute equilibria, periodic orbits and such objects for the PDE model, we need a flexible, stable simulation code for the model and its linearization that can run in parallel to scale up to a domain size of about 2500cm2, the size of a full-grown human cortex.",
+                "We also need efficient, iterative solvers for linear problems with large, sparse matrices.",
+                "In this paper, we will show that all this can be accomplished in the open-source software package PETSc [17].",
+                "Our implementation consists of a number of functions in C that are available publicly [18]."
+            ],
+            "original_annotated_samples": [
+                "The Liley model [15] considered here, for instance, consists of fourteen coupled Partial Differential Equations (PDEs) with strong nonlinearities, imposed by coupling between the mean membrane potentials and the mean <br>synaptic inputs</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El modelo de Liley [15] considerado aquí, por ejemplo, consiste en catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias."
+            ],
+            "translated_text": "Aunque los modelos de campo medio se han utilizado en todos estos contextos, se ha realizado poco análisis sobre su comportamiento como sistemas dinámicos espacialmente extendidos. En parte, esto se debe a su complejidad abrumadora. Output: El modelo de Liley [15] considerado aquí, por ejemplo, consiste en catorce Ecuaciones en Derivadas Parciales (EDPs) acopladas con fuertes no linealidades, impuestas por el acoplamiento entre los potenciales de membrana medios y las entradas sinápticas medias. El modelo se puede reducir a un sistema de Ecuaciones Diferenciales Ordinarias (ODEs) al considerar solo soluciones espacialmente homogéneas, y el sistema resultante ha sido examinado en detalle utilizando análisis de bifurcación numérica (ver [16] y referencias allí). Para calcular los equilibrios, órbitas periódicas y objetos similares para el modelo de EDP, necesitamos un código de simulación flexible y estable para el modelo y su linealización que pueda ejecutarse en paralelo para escalar a un tamaño de dominio de aproximadamente 2500 cm2, el tamaño de una corteza cerebral humana completamente desarrollada. También necesitamos solucionadores eficientes e iterativos para problemas lineales con matrices grandes y dispersas. En este documento, demostraremos que todo esto se puede lograr en el paquete de software de código abierto PETSc [17]. Nuestra implementación consiste en una serie de funciones en C que están disponibles públicamente [18]. ",
+            "candidates": [],
+            "error": [
+                [],
+                []
+            ]
+        }
+    }
+}

@@ -1,0 +1,374 @@
+{
+    "id": "S1877750311000676",
+    "original_text": "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy. VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes. This is a piecewise technique that can be reapplied at various locations around a simulation. While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations. So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities. It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7). One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour. Fig. 7 shows the congestion at the decision point for 2 different runs. Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness.",
+    "original_translation": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación.",
+    "original_sentences": [
+        "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+        "VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+        "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+        "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+        "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+        "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+        "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+        "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+        "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+    ],
+    "translated_text_sentences": [
+        "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta.",
+        "VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas.",
+        "Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación.",
+        "Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas.",
+        "Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas.",
+        "Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7).",
+        "Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales.",
+        "La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes.",
+        "Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación."
+    ],
+    "error_count": 0,
+    "keys": {
+        "2D and 3D simulations": {
+            "translated_key": "simulaciones en 2D y 3D",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the <br>2D and 3D simulations</br> help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "One of the benefits of graphical microsimulation is that the <br>2D and 3D simulations</br> help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour."
+            ],
+            "translated_annotated_samples": [
+                "Uno de los beneficios de la microsimulación gráfica es que las <br>simulaciones en 2D y 3D</br> ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las <br>simulaciones en 2D y 3D</br> ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "drivers": {
+            "translated_key": "conductores",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that <br>drivers</br> make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that <br>drivers</br> make probabilistic decisions at precise locations."
+            ],
+            "translated_annotated_samples": [
+                "Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los <br>conductores</br> toman decisiones probabilísticas en ubicaciones precisas."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los <br>conductores</br> toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "graphical microsimulation": {
+            "translated_key": "microsimulación gráfica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of <br>graphical microsimulation</br> is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "One of the benefits of <br>graphical microsimulation</br> is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour."
+            ],
+            "translated_annotated_samples": [
+                "Uno de los beneficios de la <br>microsimulación gráfica</br> es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la <br>microsimulación gráfica</br> es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "lane selection policy": {
+            "translated_key": "política de selección de carril",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style <br>lane selection policy</br>.",
+                "VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style <br>lane selection policy</br>."
+            ],
+            "translated_annotated_samples": [
+                "Una forma de hacer cumplir esta proporción es utilizar una <br>política de selección de carril</br> probabilística estilo ruleta."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una <br>política de selección de carril</br> probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "piecewise technique": {
+            "translated_key": "técnica por partes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a <br>piecewise technique</br> that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "This is a <br>piecewise technique</br> that can be reapplied at various locations around a simulation."
+            ],
+            "translated_annotated_samples": [
+                "Esta es una <br>técnica por partes</br> que se puede volver a aplicar en varias ubicaciones alrededor de una simulación."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una <br>técnica por partes</br> que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "probabilistic, roulette wheel style": {
+            "translated_key": "estilo ruleta",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a <br>probabilistic, roulette wheel style</br> lane selection policy.",
+                "VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "One way to enforce this ratio is to use a <br>probabilistic, roulette wheel style</br> lane selection policy."
+            ],
+            "translated_annotated_samples": [
+                "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística <br>estilo ruleta</br>."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística <br>estilo ruleta</br>. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "probabilistic routing": {
+            "translated_key": "enrutamiento probabilístico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "VISSIM, along with most simulation toolkits, offers methods to specify <br>probabilistic routing</br> whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using <br>probabilistic routing</br> to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "VISSIM, along with most simulation toolkits, offers methods to specify <br>probabilistic routing</br> whereby a defined percentage of vehicles are sent down unique routes.",
+                "Using <br>probabilistic routing</br> to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "translated_annotated_samples": [
+                "VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar <br>enrutamiento probabilístico</br>, donde un porcentaje definido de vehículos se envía por rutas únicas.",
+                "Utilizar el <br>enrutamiento probabilístico</br> para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar <br>enrutamiento probabilístico</br>, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el <br>enrutamiento probabilístico</br> para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "simulation": {
+            "translated_key": "simulación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "VISSIM, along with most <br>simulation</br> toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a <br>simulation</br>.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the <br>simulation</br> for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting <br>simulation</br> brittleness."
+            ],
+            "original_annotated_samples": [
+                "VISSIM, along with most <br>simulation</br> toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a <br>simulation</br>.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the <br>simulation</br> for the 2 different runs (Fig. 7).",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting <br>simulation</br> brittleness."
+            ],
+            "translated_annotated_samples": [
+                "VISSIM, al igual que la mayoría de las herramientas de <br>simulación</br>, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas.",
+                "Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una <br>simulación</br>.",
+                "Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la <br>simulación</br> para las 2 ejecuciones diferentes (Fig. 7).",
+                "Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la <br>simulación</br>."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de <br>simulación</br>, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una <br>simulación</br>. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la <br>simulación</br> para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la <br>simulación</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "simulation toolkits": {
+            "translated_key": "herramientas de simulación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "VISSIM, along with most <br>simulation toolkits</br>, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "VISSIM, along with most <br>simulation toolkits</br>, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes."
+            ],
+            "translated_annotated_samples": [
+                "VISSIM, al igual que la mayoría de las <br>herramientas de simulación</br>, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las <br>herramientas de simulación</br>, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "vehicle": {
+            "translated_key": "vehículo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a <br>vehicle</br> arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "So in this case when a <br>vehicle</br> arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities."
+            ],
+            "translated_annotated_samples": [
+                "Entonces, en este caso, cuando un <br>vehículo</br> llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un <br>vehículo</br> llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "VISSIM": {
+            "translated_key": "VISSIM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "<br>VISSIM</br>, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the weighbridges it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "<br>VISSIM</br>, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes."
+            ],
+            "translated_annotated_samples": [
+                "<br>VISSIM</br>, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. <br>VISSIM</br>, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las básculas, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "weighbridges": {
+            "translated_key": "básculas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "One way to enforce this ratio is to use a probabilistic, roulette wheel style lane selection policy.",
+                "VISSIM, along with most simulation toolkits, offers methods to specify probabilistic routing whereby a defined percentage of vehicles are sent down unique routes.",
+                "This is a piecewise technique that can be reapplied at various locations around a simulation.",
+                "While these methods are attractive from a calibration perspective as exact representations of existing statistics can be ensured, the process is an unrealistic one as it assumes that drivers make probabilistic decisions at precise locations.",
+                "So in this case when a vehicle arrives at a point prior to the <br>weighbridges</br> it is allocated one of the lanes based on the respective probabilities.",
+                "It turns out that this method leads to significant variations in trip times depending on the initial random number seed, this can be seen in a graphic of the key areas of the simulation for the 2 different runs (Fig. 7).",
+                "One of the benefits of graphical microsimulation is that the 2D and 3D simulations help the researcher to visualise a new scheme and its potential benefits but also to highlight unrealistic behaviour.",
+                "Fig. 7 shows the congestion at the decision point for 2 different runs.",
+                "Using probabilistic routing to enforce correct routing percentages is a clear case of overcalibration affecting simulation brittleness."
+            ],
+            "original_annotated_samples": [
+                "So in this case when a vehicle arrives at a point prior to the <br>weighbridges</br> it is allocated one of the lanes based on the respective probabilities."
+            ],
+            "translated_annotated_samples": [
+                "Entonces, en este caso, cuando un vehículo llega a un punto antes de las <br>básculas</br>, se le asigna uno de los carriles en función de las probabilidades respectivas."
+            ],
+            "translated_text": "Una forma de hacer cumplir esta proporción es utilizar una política de selección de carril probabilística estilo ruleta. VISSIM, al igual que la mayoría de las herramientas de simulación, ofrece métodos para especificar enrutamiento probabilístico, donde un porcentaje definido de vehículos se envía por rutas únicas. Esta es una técnica por partes que se puede volver a aplicar en varias ubicaciones alrededor de una simulación. Si bien estos métodos son atractivos desde una perspectiva de calibración, ya que se pueden garantizar representaciones exactas de las estadísticas existentes, el proceso es irreal ya que asume que los conductores toman decisiones probabilísticas en ubicaciones precisas. Entonces, en este caso, cuando un vehículo llega a un punto antes de las <br>básculas</br>, se le asigna uno de los carriles en función de las probabilidades respectivas. Resulta que este método conduce a variaciones significativas en los tiempos de viaje dependiendo de la semilla inicial del número aleatorio, lo cual se puede observar en un gráfico de las áreas clave de la simulación para las 2 ejecuciones diferentes (Fig. 7). Uno de los beneficios de la microsimulación gráfica es que las simulaciones en 2D y 3D ayudan al investigador a visualizar un nuevo esquema y sus posibles beneficios, pero también a resaltar comportamientos irreales. La Fig. 7 muestra la congestión en el punto de decisión para 2 ejecuciones diferentes. Utilizar el enrutamiento probabilístico para hacer cumplir los porcentajes de enrutamiento correctos es un claro caso de sobreajuste que afecta la fragilidad de la simulación. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,384 @@
+{
+    "id": "S0888613X16301062",
+    "original_text": "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9]. While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program. Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF). These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations. However, in future work, PB could benefit from the use of more compact decision diagrams.",
+    "original_translation": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos.",
+    "original_sentences": [
+        "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+        "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+        "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+        "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+        "However, in future work, PB could benefit from the use of more compact decision diagrams."
+    ],
+    "translated_text_sentences": [
+        "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9].",
+        "Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico.",
+        "Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF).",
+        "Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones.",
+        "Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos."
+    ],
+    "error_count": 1,
+    "keys": {
+        "d-DNNF": {
+            "translated_key": "d-DNNF",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (<br>d-DNNF</br>).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (<br>d-DNNF</br>)."
+            ],
+            "translated_annotated_samples": [
+                "Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (<br>d-DNNF</br>)."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (<br>d-DNNF</br>). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "decision diagrams": {
+            "translated_key": "diagramas de decisión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of <br>decision diagrams</br>, e.g. sentential <br>decision diagrams</br> (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the <br>decision diagrams</br>, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact <br>decision diagrams</br>."
+            ],
+            "original_annotated_samples": [
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of <br>decision diagrams</br>, e.g. sentential <br>decision diagrams</br> (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the <br>decision diagrams</br>, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact <br>decision diagrams</br>."
+            ],
+            "translated_annotated_samples": [
+                "Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de <br>diagramas de decisión</br>, por ejemplo, <br>diagramas de decisión</br> sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF).",
+                "Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los <br>diagramas de decisión</br>, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones.",
+                "Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de <br>diagramas de decisión</br> más compactos."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de <br>diagramas de decisión</br>, por ejemplo, <br>diagramas de decisión</br> sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los <br>diagramas de decisión</br>, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de <br>diagramas de decisión</br> más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "deterministic, decomposable negation normal form": {
+            "translated_key": "forma normal de negación determinista y descomponible",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), <br>deterministic, decomposable negation normal form</br> (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), <br>deterministic, decomposable negation normal form</br> (d-DNNF)."
+            ],
+            "translated_annotated_samples": [
+                "Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), <br>forma normal de negación determinista y descomponible</br> (d-DNNF)."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), <br>forma normal de negación determinista y descomponible</br> (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "enumeration of the conditional sample space": {
+            "translated_key": "programación lógica abductiva",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the <br>enumeration of the conditional sample space</br> through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "The first step of PB, the <br>enumeration of the conditional sample space</br> through abductive logic programming, could be compared to logical inference in ProbLog [9]."
+            ],
+            "translated_annotated_samples": [
+                "El primer paso de PB, la enumeración del espacio muestral condicional a través de la <br>programación lógica abductiva</br>, podría compararse con la inferencia lógica en ProbLog [9]."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la <br>programación lógica abductiva</br>, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "logical inference": {
+            "translated_key": "inferencia lógica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to <br>logical inference</br> in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, <br>logical inference</br> in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where <br>logical inference</br> needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where <br>logical inference</br> is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to <br>logical inference</br> in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, <br>logical inference</br> in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where <br>logical inference</br> needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where <br>logical inference</br> is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations."
+            ],
+            "translated_annotated_samples": [
+                "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la <br>inferencia lógica</br> en ProbLog [9].",
+                "Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la <br>inferencia lógica</br> en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico.",
+                "Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la <br>inferencia lógica</br> debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la <br>inferencia lógica</br> suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la <br>inferencia lógica</br> en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la <br>inferencia lógica</br> en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la <br>inferencia lógica</br> debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la <br>inferencia lógica</br> suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "logical inference in PB": {
+            "translated_key": "programación lógica abductiva",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, <br>logical inference in PB</br> is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, <br>logical inference in PB</br> is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program."
+            ],
+            "translated_annotated_samples": [
+                "Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la <br>programación lógica abductiva</br>, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la <br>programación lógica abductiva</br>, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PB": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of <br>PB</br>, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in <br>PB</br> is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in <br>PB</br> compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while <br>PB</br> focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, <br>PB</br> could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "The first step of <br>PB</br>, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in <br>PB</br> is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in <br>PB</br> compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while <br>PB</br> focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, <br>PB</br> could benefit from the use of more compact decision diagrams."
+            ],
+            "translated_annotated_samples": [
+                "El primer paso de PB, la enumeración del espacio muestral condicional a través de la <br>programación lógica abductiva</br>, podría compararse con la inferencia lógica en ProbLog [9].",
+                "Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la <br>programación lógica abductiva</br>, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico.",
+                "Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)<br>BDDs</br>, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF).",
+                "Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que <br>PB</br> se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones.",
+                "Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de <br>diagramas de decisión</br> más compactos."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la <br>programación lógica abductiva</br>, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la <br>programación lógica abductiva</br>, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)<br>BDDs</br>, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que <br>PB</br> se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de <br>diagramas de decisión</br> más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    "programación lógica abductiva",
+                    "programación lógica abductiva",
+                    "BDDs",
+                    "PB",
+                    "diagramas de decisión"
+                ]
+            ]
+        },
+        "PB compilation": {
+            "translated_key": "compilación de las fórmulas booleanas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in <br>PB compilation</br> of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "Moreover, in <br>PB compilation</br> of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF)."
+            ],
+            "translated_annotated_samples": [
+                "Además, en PB la <br>compilación de las fórmulas booleanas</br> se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF)."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la <br>compilación de las fórmulas booleanas</br> se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PPLs": {
+            "translated_key": "LPP",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two <br>PPLs</br>: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "These differences reflect the different aims of the two <br>PPLs</br>: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations."
+            ],
+            "translated_annotated_samples": [
+                "Estas diferencias reflejan los diferentes objetivos de los dos <br>LPP</br>: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos <br>LPP</br>: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "ProbLog": {
+            "translated_key": "ProbLog",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in <br>ProbLog</br> [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while <br>ProbLog</br> grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while <br>ProbLog</br> can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: <br>ProbLog</br> focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in <br>ProbLog</br> [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while <br>ProbLog</br> grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while <br>ProbLog</br> can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: <br>ProbLog</br> focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations."
+            ],
+            "translated_annotated_samples": [
+                "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en <br>ProbLog</br> [9].",
+                "Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que <br>ProbLog</br> fundamenta las partes relevantes del programa probabilístico.",
+                "Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que <br>ProbLog</br> puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF).",
+                "Estas diferencias reflejan los diferentes objetivos de los dos LPP: <br>ProbLog</br> se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en <br>ProbLog</br> [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que <br>ProbLog</br> fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que <br>ProbLog</br> puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: <br>ProbLog</br> se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "(RO)BDDs": {
+            "translated_key": "(RO)BDDs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using <br>(RO)BDDs</br>, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "Moreover, in PB compilation of the boolean formulas is performed using <br>(RO)BDDs</br>, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF)."
+            ],
+            "translated_annotated_samples": [
+                "Además, en PB la compilación de las fórmulas booleanas se realiza utilizando <br>(RO)BDDs</br>, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF)."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando <br>(RO)BDDs</br>, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SDD": {
+            "translated_key": "diagramas de decisión sentenciales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (<br>SDD</br>), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (<br>SDD</br>), deterministic, decomposable negation normal form (d-DNNF)."
+            ],
+            "translated_annotated_samples": [
+                "Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, <br>diagramas de decisión sentenciales</br> (SDD), forma normal de negación determinista y descomponible (d-DNNF)."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, <br>diagramas de decisión sentenciales</br> (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "sentential decision diagrams": {
+            "translated_key": "diagramas de decisión sentenciales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. <br>sentential decision diagrams</br> (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the use of more compact decision diagrams."
+            ],
+            "original_annotated_samples": [
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. <br>sentential decision diagrams</br> (SDD), deterministic, decomposable negation normal form (d-DNNF)."
+            ],
+            "translated_annotated_samples": [
+                "Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, <br>diagramas de decisión sentenciales</br> (SDD), forma normal de negación determinista y descomponible (d-DNNF)."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, <br>diagramas de decisión sentenciales</br> (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del uso de diagramas de decisión más compactos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "use of more compact decision diagrams": {
+            "translated_key": "uso de diagramas de decisión más compactos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The first step of PB, the enumeration of the conditional sample space through abductive logic programming, could be compared to logical inference in ProbLog [9].",
+                "While both languages aim to generate a propositional formula and compile it into a decision diagram, logical inference in PB is based on abductive logic programming, while ProbLog grounds the relevant parts of the probabilistic program.",
+                "Moreover, in PB compilation of the boolean formulas is performed using (RO)BDDs, while ProbLog can use a wider range of decision diagrams, e.g. sentential decision diagrams (SDD), deterministic, decomposable negation normal form (d-DNNF).",
+                "These differences reflect the different aims of the two PPLs: ProbLog focuses on models where logical inference needs to be efficient, and the resulting representation, the decision diagrams, need to be compact, while PB focuses on models where logical inference is typically easy, however it must be applied repeatedly, according to the nature and the number of the observations.",
+                "However, in future work, PB could benefit from the <br>use of more compact decision diagrams</br>."
+            ],
+            "original_annotated_samples": [
+                "However, in future work, PB could benefit from the <br>use of more compact decision diagrams</br>."
+            ],
+            "translated_annotated_samples": [
+                "Sin embargo, en trabajos futuros, PB podría beneficiarse del <br>uso de diagramas de decisión más compactos</br>."
+            ],
+            "translated_text": "El primer paso de PB, la enumeración del espacio muestral condicional a través de la programación lógica abductiva, podría compararse con la inferencia lógica en ProbLog [9]. Si bien ambos lenguajes tienen como objetivo generar una fórmula proposicional y compilarla en un diagrama de decisión, la inferencia lógica en PB se basa en la programación lógica abductiva, mientras que ProbLog fundamenta las partes relevantes del programa probabilístico. Además, en PB la compilación de las fórmulas booleanas se realiza utilizando (RO)BDDs, mientras que ProbLog puede utilizar una gama más amplia de diagramas de decisión, por ejemplo, diagramas de decisión sentenciales (SDD), forma normal de negación determinista y descomponible (d-DNNF). Estas diferencias reflejan los diferentes objetivos de los dos LPP: ProbLog se centra en modelos donde la inferencia lógica debe ser eficiente y la representación resultante, los diagramas de decisión, debe ser compacta, mientras que PB se centra en modelos donde la inferencia lógica suele ser fácil, sin embargo, debe aplicarse repetidamente, según la naturaleza y el número de observaciones. Sin embargo, en trabajos futuros, PB podría beneficiarse del <br>uso de diagramas de decisión más compactos</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

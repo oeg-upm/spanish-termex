@@ -1,0 +1,472 @@
+{
+    "id": "S0011227515000648",
+    "original_text": "The product change between batches #1/#2 and the others is the most influential on the test results. The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half. This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors. The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed. This means different tolerances in base materials and production process, which are more pronounced the lower the temperature. Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7].",
+    "original_translation": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7].",
+    "original_sentences": [
+        "The product change between batches #1/#2 and the others is the most influential on the test results.",
+        "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+        "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+        "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+        "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+        "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+    ],
+    "error_count": 2,
+    "keys": {
+        "110-nm process technology": {
+            "translated_key": "110 nm",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to <br>110-nm process technology</br> reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "The redesign and upgrade to <br>110-nm process technology</br> reduces the pass rate at LNT by approximately half."
+            ],
+            "translated_annotated_samples": [
+                "Output: La rediseño y actualización a la tecnología de proceso de <br>110 nm</br> reduce la tasa de aprobación en LNT aproximadamente a la mitad."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. Output: La rediseño y actualización a la tecnología de proceso de <br>110 nm</br> reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "#5/#6": {
+            "translated_key": "#5/#6",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and <br>#5/#6</br>, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "The difference in pass rates at 88K between batches #3/#4 and <br>#5/#6</br>, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed."
+            ],
+            "translated_annotated_samples": [
+                "Output: La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y <br>#5/#6</br>, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en líneas de ensamblaje diferentes, donde otros procesos o materiales base pueden haber sido modificados."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. Output: La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y <br>#5/#6</br>, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en líneas de ensamblaje diferentes, donde otros procesos o materiales base pueden haber sido modificados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "assembly lines": {
+            "translated_key": "líneas de ensamblaje",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different <br>assembly lines</br>, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different <br>assembly lines</br>, where other processes or base materials may have been changed."
+            ],
+            "translated_annotated_samples": [
+                "Output: La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes <br>líneas de ensamblaje</br>, donde otros procesos o materiales base pueden haber sido cambiados."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. Output: La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes <br>líneas de ensamblaje</br>, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "batches #1/#2": {
+            "translated_key": "lotes #1/#2",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between <br>batches #1/#2</br> and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "The product change between <br>batches #1/#2</br> and the others is the most influential on the test results."
+            ],
+            "translated_annotated_samples": [
+                "Output: El cambio de producto entre <br>lotes #1/#2</br> y los demás es el más influyente en los resultados de la prueba."
+            ],
+            "translated_text": "Output: El cambio de producto entre <br>lotes #1/#2</br> y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "batches #3/#4": {
+            "translated_key": "lotes #3/#4",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between <br>batches #3/#4</br> and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "The difference in pass rates at 88K between <br>batches #3/#4</br> and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed."
+            ],
+            "translated_annotated_samples": [
+                "Output: La diferencia en las tasas de aprobación en 88K entre <br>lotes #3/#4</br> y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en líneas de ensamblaje diferentes, donde otros procesos o materiales base pueden haber sido modificados."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. Output: La diferencia en las tasas de aprobación en 88K entre <br>lotes #3/#4</br> y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en líneas de ensamblaje diferentes, donde otros procesos o materiales base pueden haber sido modificados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "bit errors": {
+            "translated_key": "errores de bits",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and <br>bit errors</br>.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and <br>bit errors</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación con alguna contribución de los largos tiempos de borrado y programación y <br>errores de bits</br>."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Output: Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación con alguna contribución de los largos tiempos de borrado y programación y <br>errores de bits</br>. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "erase and program timeouts": {
+            "translated_key": "tiempos de borrado y programación agotados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of <br>erase and program timeouts</br> with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "This is mainly caused by the increased incidence of <br>erase and program timeouts</br> with some contribution from long erase and program times and bit errors."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto se debe principalmente al aumento de la incidencia de <br>tiempos de borrado y programación agotados</br> con alguna contribución de los largos tiempos de borrado y programación y errores de bits."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Output: Esto se debe principalmente al aumento de la incidencia de <br>tiempos de borrado y programación agotados</br> con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "LNT": {
+            "translated_key": "LNT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at <br>LNT</br> by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at <br>LNT</br> by approximately half."
+            ],
+            "translated_annotated_samples": [
+                "Output: La rediseño y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en <br>LNT</br> aproximadamente a la mitad."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. Output: La rediseño y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en <br>LNT</br> aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "long erase": {
+            "translated_key": "tiempos de borrado largos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from <br>long erase</br> and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from <br>long erase</br> and program times and bit errors."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación con alguna contribución de <br>tiempos de borrado largos</br> y errores de bits."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Output: Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación con alguna contribución de <br>tiempos de borrado largos</br> y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "pass rates": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in <br>pass rates</br> at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "The difference in <br>pass rates</br> at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed."
+            ],
+            "translated_annotated_samples": [
+                "Output: La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. Output: La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [],
+                []
+            ]
+        },
+        "process technology": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm <br>process technology</br> reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same <br>process technology</br> with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "The redesign and upgrade to 110-nm <br>process technology</br> reduces the pass rate at LNT by approximately half.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same <br>process technology</br> with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed."
+            ],
+            "translated_annotated_samples": [
+                "Output: La rediseño y actualización a la tecnología de <br>proceso de 110 nm</br> reduce la tasa de aprobación en LNT aproximadamente a la mitad.",
+                "Output: La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma <br>tecnología de proceso</br> con las mismas dimensiones, puede explicarse por la fabricación en líneas de ensamblaje diferentes, donde otros procesos o materiales base pueden haber sido modificados."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. Output: La rediseño y actualización a la tecnología de <br>proceso de 110 nm</br> reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. Output: La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma <br>tecnología de proceso</br> con las mismas dimensiones, puede explicarse por la fabricación en líneas de ensamblaje diferentes, donde otros procesos o materiales base pueden haber sido modificados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    "proceso de 110 nm",
+                    "tecnología de proceso"
+                ],
+                [
+                    "proceso de 110 nm",
+                    "tecnología de proceso"
+                ]
+            ]
+        },
+        "product change": {
+            "translated_key": "producto",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The <br>product change</br> between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "The <br>product change</br> between batches #1/#2 and the others is the most influential on the test results."
+            ],
+            "translated_annotated_samples": [
+                "Output: El cambio de <br>producto</br> entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba."
+            ],
+            "translated_text": "Output: El cambio de <br>producto</br> entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "program times": {
+            "translated_key": "tiempos de programación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and <br>program times</br> and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and <br>program times</br> and bit errors."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación con alguna contribución de los largos tiempos de borrado y <br>tiempos de programación</br> y errores de bits."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Output: Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación con alguna contribución de los largos tiempos de borrado y <br>tiempos de programación</br> y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "threshold slope": {
+            "translated_key": "pendiente del umbral",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and <br>threshold slope</br> [7]."
+            ],
+            "original_annotated_samples": [
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and <br>threshold slope</br> [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunas de las diferencias de escala tecnológica pueden reflejar cambios en los parámetros del transistor como la transconductancia/ganancia, el voltaje umbral y la <br>pendiente del umbral</br> [7]."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Output: Algunas de las diferencias de escala tecnológica pueden reflejar cambios en los parámetros del transistor como la transconductancia/ganancia, el voltaje umbral y la <br>pendiente del umbral</br> [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "threshold voltage": {
+            "translated_key": "voltaje umbral",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, <br>threshold voltage</br>, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, <br>threshold voltage</br>, and threshold slope [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunas de las diferencias de escala tecnológica pueden reflejar cambios en los parámetros del transistor como la transconductancia/ganancia, el <br>voltaje umbral</br> y la pendiente de umbral [7]."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Output: Algunas de las diferencias de escala tecnológica pueden reflejar cambios en los parámetros del transistor como la transconductancia/ganancia, el <br>voltaje umbral</br> y la pendiente de umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "tolerances": {
+            "translated_key": "tolerancias",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different <br>tolerances</br> in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "This means different <br>tolerances</br> in base materials and production process, which are more pronounced the lower the temperature."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto significa diferentes <br>tolerancias</br> en los materiales base y el proceso de producción, que son más pronunciadas a medida que disminuye la temperatura."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Output: Esto significa diferentes <br>tolerancias</br> en los materiales base y el proceso de producción, que son más pronunciadas a medida que disminuye la temperatura. Algunas de las diferencias en la escala de la tecnología pueden reflejar cambios en los parámetros del transistor, como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "transconductance/gain": {
+            "translated_key": "transconductancia/ganancia",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as <br>transconductance/gain</br>, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "Some of the differences of technology scale may reflect shifts in transistor parameters such as <br>transconductance/gain</br>, threshold voltage, and threshold slope [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunas de las diferencias de escala tecnológica pueden reflejar cambios en parámetros de transistor como <br>transconductancia/ganancia</br>, voltaje umbral y pendiente de umbral [7]."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Output: Algunas de las diferencias de escala tecnológica pueden reflejar cambios en parámetros de transistor como <br>transconductancia/ganancia</br>, voltaje umbral y pendiente de umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "transistor parameters": {
+            "translated_key": "parámetros del transistor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The product change between batches #1/#2 and the others is the most influential on the test results.",
+                "The redesign and upgrade to 110-nm process technology reduces the pass rate at LNT by approximately half.",
+                "This is mainly caused by the increased incidence of erase and program timeouts with some contribution from long erase and program times and bit errors.",
+                "The difference in pass rates at 88K between batches #3/#4 and #5/#6, which use the same process technology with the same dimensions, can be explained by the fabrication in different assembly lines, where other processes or base materials may have been changed.",
+                "This means different tolerances in base materials and production process, which are more pronounced the lower the temperature.",
+                "Some of the differences of technology scale may reflect shifts in <br>transistor parameters</br> such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "original_annotated_samples": [
+                "Some of the differences of technology scale may reflect shifts in <br>transistor parameters</br> such as transconductance/gain, threshold voltage, and threshold slope [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunas de las diferencias de escala tecnológica pueden reflejar cambios en los <br>parámetros del transistor</br> como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]."
+            ],
+            "translated_text": "El cambio del producto entre los lotes #1/#2 y los demás es el más influyente en los resultados de la prueba. La reconfiguración y actualización a la tecnología de proceso de 110 nm reduce la tasa de aprobación en LNT aproximadamente a la mitad. Esto se debe principalmente al aumento de la incidencia de tiempos de borrado y programación agotados, con alguna contribución de los largos tiempos de borrado y programación y errores de bits. La diferencia en las tasas de aprobación en 88K entre los lotes #3/#4 y #5/#6, que utilizan la misma tecnología de proceso con las mismas dimensiones, puede explicarse por la fabricación en diferentes líneas de ensamblaje, donde otros procesos o materiales base pueden haber sido cambiados. Esto significa diferentes tolerancias en los materiales base y en el proceso de producción, que son más pronunciadas a temperaturas más bajas. Output: Algunas de las diferencias de escala tecnológica pueden reflejar cambios en los <br>parámetros del transistor</br> como la transconductancia/ganancia, el voltaje umbral y la pendiente del umbral [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

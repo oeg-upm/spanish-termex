@@ -1,0 +1,338 @@
+{
+    "id": "S2352179114200056",
+    "original_text": "Power and particle exhaust are crucial for the viability of any future fusion power plant concept. Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2]. In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5]. It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7].",
+    "original_translation": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a la colisión de partículas de plasma [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7].",
+    "original_sentences": [
+        "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+        "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+        "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+        "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+    ],
+    "error_count": 0,
+    "keys": {
+        "D-T reactor": {
+            "translated_key": "D-T",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a <br>D-T reactor</br> [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a <br>D-T reactor</br> [6] or even only half that value [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor <br>D-T</br> [6] o incluso solo la mitad de ese valor [7]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a la colisión de partículas de plasma [4,5]. Output: Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor <br>D-T</br> [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fusion power plant": {
+            "translated_key": "energía de fusión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future <br>fusion power plant</br> concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "Power and particle exhaust are crucial for the viability of any future <br>fusion power plant</br> concept."
+            ],
+            "translated_annotated_samples": [
+                "Output: La potencia y la salida de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de <br>energía de fusión</br> futura."
+            ],
+            "translated_text": "Output: La potencia y la salida de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de <br>energía de fusión</br> futura. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a la colisión de partículas de plasma [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fusion reactors": {
+            "translated_key": "reactores de fusión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in <br>fusion reactors</br> must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in <br>fusion reactors</br> [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "Heat in <br>fusion reactors</br> must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in <br>fusion reactors</br> [1] and is a severe technical challenge in itself [2]."
+            ],
+            "translated_annotated_samples": [
+                "Output: El calor en los <br>reactores de fusión</br> debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los <br>reactores de fusión</br> [1] y es un desafío técnico severo en sí mismo [2]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. Output: El calor en los <br>reactores de fusión</br> debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los <br>reactores de fusión</br> [1] y es un desafío técnico severo en sí mismo [2]. Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a la colisión de partículas de plasma [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "impinging plasma particles": {
+            "translated_key": "partículas de plasma incidentes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to <br>impinging plasma particles</br> [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to <br>impinging plasma particles</br> [4,5]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a las <br>partículas de plasma incidentes</br> [4,5]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Output: Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a las <br>partículas de plasma incidentes</br> [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "neutron": {
+            "translated_key": "neutrones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from <br>neutron</br> irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to <br>neutron</br> damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "In addition, structural material changes resulting from <br>neutron</br> irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to <br>neutron</br> damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, los cambios en el material estructural resultantes de la irradiación de <br>neutrones</br> causan degradación en las capacidades de disipación de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a partículas de plasma que impactan [4,5].",
+                "Output: Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por <br>neutrones</br> en un reactor D-T [6] o incluso solo la mitad de ese valor [7]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Output: Además, los cambios en el material estructural resultantes de la irradiación de <br>neutrones</br> causan degradación en las capacidades de disipación de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a partículas de plasma que impactan [4,5]. Output: Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por <br>neutrones</br> en un reactor D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "neutron damage": {
+            "translated_key": "daño por neutrones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to <br>neutron damage</br> in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to <br>neutron damage</br> in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al <br>daño por neutrones</br> en un reactor D-T [6] o incluso solo la mitad de ese valor [7]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a la colisión de partículas de plasma [4,5]. Output: Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al <br>daño por neutrones</br> en un reactor D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "neutron irradiation": {
+            "translated_key": "irradiación de neutrones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from <br>neutron irradiation</br> cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "In addition, structural material changes resulting from <br>neutron irradiation</br> cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, los cambios en el material estructural resultantes de la <br>irradiación de neutrones</br> causan degradación en las capacidades de disipación de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a partículas de plasma incidentes [4,5]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Output: Además, los cambios en el material estructural resultantes de la <br>irradiación de neutrones</br> causan degradación en las capacidades de disipación de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a partículas de plasma incidentes [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PFCs": {
+            "translated_key": "PFCs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (<br>PFCs</br>) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "It is concluded that conventional concepts and materials for plasma facing components (<br>PFCs</br>) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (<br>PFCs</br>) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor D-T [6] o incluso solo la mitad de ese valor [7]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a la colisión de partículas de plasma [4,5]. Output: Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (<br>PFCs</br>) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "plasma facing components": {
+            "translated_key": "componentes enfrentados al plasma",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for <br>plasma facing components</br> (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "It is concluded that conventional concepts and materials for <br>plasma facing components</br> (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se concluye que los conceptos y materiales convencionales para los <br>componentes enfrentados al plasma</br> (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor D-T [6] o incluso solo la mitad de ese valor [7]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a la colisión de partículas de plasma [4,5]. Output: Se concluye que los conceptos y materiales convencionales para los <br>componentes enfrentados al plasma</br> (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de energía a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Power and particle exhaust": {
+            "translated_key": "La potencia y la expulsión de partículas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Power and particle exhaust</br> are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "<br>Power and particle exhaust</br> are crucial for the viability of any future fusion power plant concept."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>La potencia y la expulsión de partículas</br> son cruciales para la viabilidad de cualquier concepto futuro de planta de energía de fusión."
+            ],
+            "translated_text": "Output: <br>La potencia y la expulsión de partículas</br> son cruciales para la viabilidad de cualquier concepto futuro de planta de energía de fusión. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a la colisión de partículas de plasma [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "severe technical challenge": {
+            "translated_key": "desafío técnico severo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a <br>severe technical challenge</br> in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a <br>severe technical challenge</br> in itself [2]."
+            ],
+            "translated_annotated_samples": [
+                "Output: El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un <br>desafío técnico severo</br> en sí mismo [2]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. Output: El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un <br>desafío técnico severo</br> en sí mismo [2]. Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a la colisión de partículas de plasma [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "static surfaces": {
+            "translated_key": "superficies estáticas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and <br>static surfaces</br> can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "In addition, structural material changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and <br>static surfaces</br> can suffer severely from erosion due to impinging plasma particles [4,5]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las <br>superficies estáticas</br> pueden sufrir severamente de erosión debido a partículas de plasma que impactan [4,5]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Output: Además, los cambios en el material estructural resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las <br>superficies estáticas</br> pueden sufrir severamente de erosión debido a partículas de plasma que impactan [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "structural material": {
+            "translated_key": "material estructural",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, <br>structural material</br> changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "In addition, <br>structural material</br> changes resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, los cambios en el <br>material estructural</br> resultantes de la irradiación de neutrones causan degradación en las capacidades de disipación de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a partículas de plasma que impactan [4,5]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Output: Además, los cambios en el <br>material estructural</br> resultantes de la irradiación de neutrones causan degradación en las capacidades de disipación de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a partículas de plasma que impactan [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "structural material changes": {
+            "translated_key": "material estructural",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Power and particle exhaust are crucial for the viability of any future fusion power plant concept.",
+                "Heat in fusion reactors must be extracted through a wall and cannot be exhausted volumetrically, which limits the allowed power density in fusion reactors [1] and is a severe technical challenge in itself [2].",
+                "In addition, <br>structural material changes</br> resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5].",
+                "It is concluded that conventional concepts and materials for plasma facing components (PFCs) reach their limits in terms of material lifetime and power exhaust at approximately 20MW/m2, which is presumably dramatically reduced to <10MW/m2 due to neutron damage in a D-T reactor [6] or even only half that value [7]."
+            ],
+            "original_annotated_samples": [
+                "In addition, <br>structural material changes</br> resulting from neutron irradiation cause degradation in the heat exhaust capabilities of existing designs [3] and static surfaces can suffer severely from erosion due to impinging plasma particles [4,5]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, los cambios en el <br>material estructural</br> resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a partículas de plasma que impactan [4,5]."
+            ],
+            "translated_text": "La potencia y el escape de partículas son cruciales para la viabilidad de cualquier concepto de planta de energía de fusión en el futuro. El calor en los reactores de fusión debe ser extraído a través de una pared y no puede ser agotado volumétricamente, lo que limita la densidad de potencia permitida en los reactores de fusión [1] y es un desafío técnico severo en sí mismo [2]. Output: Además, los cambios en el <br>material estructural</br> resultantes de la irradiación de neutrones causan degradación en las capacidades de escape de calor de los diseños existentes [3] y las superficies estáticas pueden sufrir severamente de erosión debido a partículas de plasma que impactan [4,5]. Se concluye que los conceptos y materiales convencionales para los componentes enfrentados al plasma (PFCs) alcanzan sus límites en términos de vida útil del material y extracción de potencia a aproximadamente 20MW/m2, lo cual presumiblemente se reduce drásticamente a <10MW/m2 debido al daño por neutrones en un reactor de D-T [6] o incluso solo la mitad de ese valor [7]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

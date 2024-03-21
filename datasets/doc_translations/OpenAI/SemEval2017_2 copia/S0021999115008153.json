@@ -1,0 +1,338 @@
+{
+    "id": "S0021999115008153",
+    "original_text": "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration. In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration. Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures. Still, full recalculation of the interaction potential after each iteration is time consuming. Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration. Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration. Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers.",
+    "original_translation": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante.",
+    "original_sentences": [
+        "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+        "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+        "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+        "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+        "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+        "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+        "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+    ],
+    "translated_text_sentences": [
+        "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración.",
+        "Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración.",
+        "Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU.",
+        "Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo.",
+        "En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior.",
+        "Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración.",
+        "Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante."
+    ],
+    "error_count": 1,
+    "keys": {
+        "adding dipole contributions": {
+            "translated_key": "contribuciones de dipolos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by <br>adding dipole contributions</br> for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "Instead, the algorithm corrects the current potential by <br>adding dipole contributions</br> for every nearby charge that hopped during the previous iteration."
+            ],
+            "translated_annotated_samples": [
+                "En su lugar, el algoritmo corrige el potencial actual agregando <br>contribuciones de dipolos</br> para cada carga cercana que saltó durante la iteración anterior."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando <br>contribuciones de dipolos</br> para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "algorithm": {
+            "translated_key": "algoritmo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the <br>algorithm</br> corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "Instead, the <br>algorithm</br> corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration."
+            ],
+            "translated_annotated_samples": [
+                "En su lugar, el <br>algoritmo</br> corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el <br>algoritmo</br> corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "corrects the current potential": {
+            "translated_key": "corrige el potencial actual",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the algorithm <br>corrects the current potential</br> by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "Instead, the algorithm <br>corrects the current potential</br> by adding dipole contributions for every nearby charge that hopped during the previous iteration."
+            ],
+            "translated_annotated_samples": [
+                "En su lugar, el algoritmo <br>corrige el potencial actual</br> agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo <br>corrige el potencial actual</br> agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GPGPU architectures": {
+            "translated_key": "arquitecturas GPGPU",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for <br>GPGPU architectures</br>.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for <br>GPGPU architectures</br>."
+            ],
+            "translated_annotated_samples": [
+                "Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las <br>arquitecturas GPGPU</br>."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las <br>arquitecturas GPGPU</br>. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "interaction potential": {
+            "translated_key": "potencial de interacción",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the <br>interaction potential</br> after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the <br>interaction potential</br> are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "Still, full recalculation of the <br>interaction potential</br> after each iteration is time consuming.",
+                "Full updates of the <br>interaction potential</br> are only required for the grid points that are related to charges that hopped during the last iteration."
+            ],
+            "translated_annotated_samples": [
+                "Sin embargo, la recalculación completa del <br>potencial de interacción</br> después de cada iteración es consumidora de tiempo.",
+                "Las actualizaciones completas del <br>potencial de interacción</br> solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del <br>potencial de interacción</br> después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del <br>potencial de interacción</br> solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "minimize simulation errors": {
+            "translated_key": "minimizar errores de simulación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to <br>minimize simulation errors</br> due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "In order to <br>minimize simulation errors</br> due to incorrect values of the interactions potential, segments are synchronized after every iteration."
+            ],
+            "translated_annotated_samples": [
+                "Para <br>minimizar errores de simulación</br> debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para <br>minimizar errores de simulación</br> debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "parallel computers": {
+            "translated_key": "computadoras paralelas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical <br>parallel computers</br>, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "Although relatively long communication times between remote processors may hinder this process in typical <br>parallel computers</br>, this is not the case for GPGPU architectures."
+            ],
+            "translated_annotated_samples": [
+                "Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en <br>computadoras paralelas</br> típicas, este no es el caso para las arquitecturas GPGPU."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en <br>computadoras paralelas</br> típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "processors": {
+            "translated_key": "procesadores",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote <br>processors</br> may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "Although relatively long communication times between remote <br>processors</br> may hinder this process in typical parallel computers, this is not the case for GPGPU architectures."
+            ],
+            "translated_annotated_samples": [
+                "Aunque los tiempos de comunicación relativamente largos entre <br>procesadores</br> remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre <br>procesadores</br> remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "proper inclusion of these interactions": {
+            "translated_key": "inclusión adecuada de estas interacciones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, <br>proper inclusion of these interactions</br> requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "As discussed above, <br>proper inclusion of these interactions</br> requires segment synchronization after every iteration."
+            ],
+            "translated_annotated_samples": [
+                "Como se discutió anteriormente, la <br>inclusión adecuada de estas interacciones</br> requiere sincronización de segmentos después de cada iteración."
+            ],
+            "translated_text": "Como se discutió anteriormente, la <br>inclusión adecuada de estas interacciones</br> requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "recalculation of the interaction potential": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full <br>recalculation of the interaction potential</br> after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "Still, full <br>recalculation of the interaction potential</br> after each iteration is time consuming."
+            ],
+            "translated_annotated_samples": [
+                "Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "segments are synchronized after every iteration": {
+            "translated_key": "potencial de las interacciones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, <br>segments are synchronized after every iteration</br>.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, <br>segments are synchronized after every iteration</br>."
+            ],
+            "translated_annotated_samples": [
+                "Para minimizar errores de simulación debido a valores incorrectos del <br>potencial de las interacciones</br>, los segmentos se sincronizan después de cada iteración."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere sincronización de segmentos después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del <br>potencial de las interacciones</br>, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "segment synchronization after every iteration": {
+            "translated_key": "sincronización de segmentos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As discussed above, proper inclusion of these interactions requires <br>segment synchronization after every iteration</br>.",
+                "In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.",
+                "Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.",
+                "Still, full recalculation of the interaction potential after each iteration is time consuming.",
+                "Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.",
+                "Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.",
+                "Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers."
+            ],
+            "original_annotated_samples": [
+                "As discussed above, proper inclusion of these interactions requires <br>segment synchronization after every iteration</br>."
+            ],
+            "translated_annotated_samples": [
+                "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere <br>sincronización de segmentos</br> después de cada iteración."
+            ],
+            "translated_text": "Como se discutió anteriormente, la inclusión adecuada de estas interacciones requiere <br>sincronización de segmentos</br> después de cada iteración. Para minimizar errores de simulación debido a valores incorrectos del potencial de las interacciones, los segmentos se sincronizan después de cada iteración. Aunque los tiempos de comunicación relativamente largos entre procesadores remotos pueden obstaculizar este proceso en computadoras paralelas típicas, este no es el caso para las arquitecturas GPGPU. Sin embargo, la recalculación completa del potencial de interacción después de cada iteración es consumidora de tiempo. En su lugar, el algoritmo corrige el potencial actual agregando contribuciones de dipolos para cada carga cercana que saltó durante la iteración anterior. Las actualizaciones completas del potencial de interacción solo son necesarias para los puntos de la cuadrícula relacionados con las cargas que saltaron durante la última iteración. Los errores acumulativos de redondeo que surgen debido a la adición y sustracción repetitivas se resuelven redondeando todos los potenciales de interacción a un rango uniformemente espaciado de números de punto flotante. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

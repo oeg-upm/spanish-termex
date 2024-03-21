@@ -1,0 +1,316 @@
+{
+    "id": "S221267161200217X",
+    "original_text": "The existing GO methodology algorithm is theoretical, and hard to solve with computer. In this paper, we research a new method to get the reliability of system based on GO methodology. According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one. It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets. The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models.",
+    "original_translation": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO puede transformarse en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, lo cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO.",
+    "original_sentences": [
+        "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+        "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+        "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+        "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+        "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models."
+    ],
+    "error_count": 1,
+    "keys": {
+        "calculate the system reliability": {
+            "translated_key": "calcular la confiabilidad del sistema",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to <br>calculate the system reliability</br> with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "It is very convenient for computer to <br>calculate the system reliability</br> with the new method based on minimal path sets."
+            ],
+            "translated_annotated_samples": [
+                "Output: Es muy conveniente para la computadora <br>calcular la confiabilidad del sistema</br> con el nuevo método basado en conjuntos de caminos mínimos."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO puede transformarse en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último. Output: Es muy conveniente para la computadora <br>calcular la confiabilidad del sistema</br> con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, lo cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "complex GO methodology models": {
+            "translated_key": "modelos metodológicos GO complejos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of <br>complex GO methodology models</br>."
+            ],
+            "original_annotated_samples": [
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of <br>complex GO methodology models</br>."
+            ],
+            "translated_annotated_samples": [
+                "La investigación de caso indica que el método es adecuado para la ingeniería práctica, que se puede utilizar para realizar el análisis cuantitativo de <br>modelos metodológicos GO complejos</br>."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO puede transformarse en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. La investigación de caso indica que el método es adecuado para la ingeniería práctica, que se puede utilizar para realizar el análisis cuantitativo de <br>modelos metodológicos GO complejos</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Enumeration method": {
+            "translated_key": "método de enumeración",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on <br>Enumeration method</br> from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on <br>Enumeration method</br> from first operator to last one."
+            ],
+            "translated_annotated_samples": [
+                "Output: Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO se puede transformar en una estructura de series, luego los conjuntos de caminos mínimos se inducen basados en el <br>método de enumeración</br> desde el primer operador hasta el último."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Output: Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO se puede transformar en una estructura de series, luego los conjuntos de caminos mínimos se inducen basados en el <br>método de enumeración</br> desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, lo cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GO chart": {
+            "translated_key": "gráfico GO",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in <br>GO chart</br>, <br>GO chart</br> can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "According to some properties of the operators in <br>GO chart</br>, <br>GO chart</br> can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one."
+            ],
+            "translated_annotated_samples": [
+                "Output: Según algunas propiedades de los operadores en <br>gráfico GO</br>, el <br>gráfico GO</br> se puede transformar en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Output: Según algunas propiedades de los operadores en <br>gráfico GO</br>, el <br>gráfico GO</br> se puede transformar en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, lo cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GO methodology": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing <br>GO methodology</br> algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on <br>GO methodology</br>.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex <br>GO methodology</br> models."
+            ],
+            "original_annotated_samples": [
+                "The existing <br>GO methodology</br> algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on <br>GO methodology</br>.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex <br>GO methodology</br> models."
+            ],
+            "translated_annotated_samples": [
+                "Output: El algoritmo existente de <br>metodología GO</br> es teórico y difícil de resolver con computadora.",
+                "En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología de <br>GO</br>.",
+                "El estudio de caso indica que el método es adecuado para la ingeniería práctica, el cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de <br>metodología GO</br>."
+            ],
+            "translated_text": "Output: El algoritmo existente de <br>metodología GO</br> es teórico y difícil de resolver con computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología de <br>GO</br>. Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO puede transformarse en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, el cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de <br>metodología GO</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    "metodología GO",
+                    "GO",
+                    "metodología GO"
+                ],
+                [
+                    "metodología GO",
+                    "GO",
+                    "metodología GO"
+                ]
+            ]
+        },
+        "GO methodology algorithm": {
+            "translated_key": "GO",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing <br>GO methodology algorithm</br> is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "The existing <br>GO methodology algorithm</br> is theoretical, and hard to solve with computer."
+            ],
+            "translated_annotated_samples": [
+                "Output: El algoritmo de la metodología <br>GO</br> existente es teórico y difícil de resolver con computadora."
+            ],
+            "translated_text": "Output: El algoritmo de la metodología <br>GO</br> existente es teórico y difícil de resolver con computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO puede transformarse en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, lo cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "minimal path sets": {
+            "translated_key": "conjuntos de caminos mínimos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the <br>minimal path sets</br> are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on <br>minimal path sets</br>.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the <br>minimal path sets</br> are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on <br>minimal path sets</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO se puede transformar en una estructura de series, luego se inducen los <br>conjuntos de caminos mínimos</br> basados en el método de enumeración desde el primer operador hasta el último.",
+                "Output: Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en <br>conjuntos de caminos mínimos</br>."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Output: Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO se puede transformar en una estructura de series, luego se inducen los <br>conjuntos de caminos mínimos</br> basados en el método de enumeración desde el primer operador hasta el último. Output: Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en <br>conjuntos de caminos mínimos</br>. El estudio de caso indica que el método es adecuado para la ingeniería práctica, lo cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "minimal path sets are induced": {
+            "translated_key": "conjuntos de caminos mínimos son inducidos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the <br>minimal path sets are induced</br> based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the <br>minimal path sets are induced</br> based on Enumeration method from first operator to last one."
+            ],
+            "translated_annotated_samples": [
+                "Output: Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO se puede transformar en una estructura de series, luego los <br>conjuntos de caminos mínimos son inducidos</br> basados en el método de enumeración desde el primer operador hasta el último."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Output: Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO se puede transformar en una estructura de series, luego los <br>conjuntos de caminos mínimos son inducidos</br> basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, lo cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "new method to get the reliability of system based on GO methodology": {
+            "translated_key": "nuevo método para obtener la confiabilidad del sistema basado en la metodología GO",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a <br>new method to get the reliability of system based on GO methodology</br>.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "In this paper, we research a <br>new method to get the reliability of system based on GO methodology</br>."
+            ],
+            "translated_annotated_samples": [
+                "En este documento, investigamos un <br>nuevo método para obtener la confiabilidad del sistema basado en la metodología GO</br>."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un <br>nuevo método para obtener la confiabilidad del sistema basado en la metodología GO</br>. Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO puede transformarse en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, lo cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "practical engineering": {
+            "translated_key": "ingeniería práctica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for <br>practical engineering</br>, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "The case study indicates the method is suitable for <br>practical engineering</br>, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "translated_annotated_samples": [
+                "Output: El estudio de caso indica que el método es adecuado para la <br>ingeniería práctica</br>, la cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO puede transformarse en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. Output: El estudio de caso indica que el método es adecuado para la <br>ingeniería práctica</br>, la cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "quantitative analysis": {
+            "translated_key": "análisis cuantitativo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into series structure, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the <br>quantitative analysis</br> of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the <br>quantitative analysis</br> of complex GO methodology models."
+            ],
+            "translated_annotated_samples": [
+                "El estudio de caso indica que el método es adecuado para la ingeniería práctica, que se puede utilizar para realizar el <br>análisis cuantitativo</br> de modelos complejos de metodología GO."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO puede transformarse en una estructura de series, luego los conjuntos de caminos mínimos son inducidos basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, que se puede utilizar para realizar el <br>análisis cuantitativo</br> de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "series structure": {
+            "translated_key": "estructura de series",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The existing GO methodology algorithm is theoretical, and hard to solve with computer.",
+                "In this paper, we research a new method to get the reliability of system based on GO methodology.",
+                "According to some properties of the operators in GO chart, GO chart can be transformed into <br>series structure</br>, then the minimal path sets are induced based on Enumeration method from first operator to last one.",
+                "It is very convenient for computer to calculate the system reliability with the new method based on minimal path sets.",
+                "The case study indicates the method is suitable for practical engineering, which can be used to possess the quantitative analysis of complex GO methodology models."
+            ],
+            "original_annotated_samples": [
+                "According to some properties of the operators in GO chart, GO chart can be transformed into <br>series structure</br>, then the minimal path sets are induced based on Enumeration method from first operator to last one."
+            ],
+            "translated_annotated_samples": [
+                "Output: Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO se puede transformar en <br>estructura de series</br>, luego los conjuntos de caminos mínimos se inducen basados en el método de enumeración desde el primer operador hasta el último."
+            ],
+            "translated_text": "El algoritmo de la metodología GO existente es teórico y difícil de resolver con una computadora. En este documento, investigamos un nuevo método para obtener la confiabilidad del sistema basado en la metodología GO. Output: Según algunas propiedades de los operadores en el gráfico GO, el gráfico GO se puede transformar en <br>estructura de series</br>, luego los conjuntos de caminos mínimos se inducen basados en el método de enumeración desde el primer operador hasta el último. Es muy conveniente para la computadora calcular la confiabilidad del sistema con el nuevo método basado en conjuntos de caminos mínimos. El estudio de caso indica que el método es adecuado para la ingeniería práctica, lo cual se puede utilizar para realizar el análisis cuantitativo de modelos complejos de metodología GO. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

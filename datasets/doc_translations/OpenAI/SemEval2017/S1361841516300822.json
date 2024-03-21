@@ -1,0 +1,347 @@
+{
+    "id": "S1361841516300822",
+    "original_text": "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig. 8 and the figures in Table 1 in the supplementary materials. Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric. The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt.), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model. On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart. However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase. By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark. From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase. Note that this time could be significantly reduced if a non-cardiac-gated sequence was used.",
+    "original_translation": "Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Figura. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón.",
+    "original_sentences": [
+        "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+        "8 and the figures in Table 1 in the supplementary materials.",
+        "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+        "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+        "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+        "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+        "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+        "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+        "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+    ],
+    "error_count": 2,
+    "keys": {
+        "1-tailed Wilcoxon signed rank test": {
+            "translated_key": "Wilcoxon de una cola",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a <br>1-tailed Wilcoxon signed rank test</br> since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "Significance was assessed using a <br>1-tailed Wilcoxon signed rank test</br> since the error distributions were generally not symmetric."
+            ],
+            "translated_annotated_samples": [
+                "Output: La significancia se evaluó utilizando una prueba de rango con signo de <br>Wilcoxon de una cola</br> ya que las distribuciones de error generalmente no eran simétricas."
+            ],
+            "translated_text": "Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Figura. 8 y las cifras en la Tabla 1 en los materiales suplementarios. Output: La significancia se evaluó utilizando una prueba de rango con signo de <br>Wilcoxon de una cola</br> ya que las distribuciones de error generalmente no eran simétricas. Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "AAMM": {
+            "translated_key": "AAMM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the <br>AAMM</br> technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for <br>AAMM</br> and its non-adaptive counterpart, <br>AAMM</br> (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of <br>AAMM</br> improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for <br>AAMM</br> in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "For all volunteers the <br>AAMM</br> technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "The estimation errors for <br>AAMM</br> and its non-adaptive counterpart, <br>AAMM</br> (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of <br>AAMM</br> improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "By visually inspecting the curves for <br>AAMM</br> in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para todos los voluntarios, la técnica <br>AAMM</br> superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Fig.",
+                "Output: Los errores de estimación para <br>AAMM</br> y su contraparte no adaptativa, <br>AAMM</br> (no adapt.), eran similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo.",
+                "Output: En promedio, la estimación de movimiento de <br>AAMM</br> mejoró en un 22.94% en T5 en comparación con su contraparte no adaptativa.",
+                "Output: Al inspeccionar visualmente las curvas para <br>AAMM</br> en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7."
+            ],
+            "translated_text": "Output: Para todos los voluntarios, la técnica <br>AAMM</br> superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Fig. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Output: Los errores de estimación para <br>AAMM</br> y su contraparte no adaptativa, <br>AAMM</br> (no adapt.), eran similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. Output: En promedio, la estimación de movimiento de <br>AAMM</br> mejoró en un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Output: Al inspeccionar visualmente las curvas para <br>AAMM</br> en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "AAMM (no adapt.)": {
+            "translated_key": "AAMM (no adapt.)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, <br>AAMM (no adapt.)</br>, were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "The estimation errors for AAMM and its non-adaptive counterpart, <br>AAMM (no adapt.)</br>, were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los errores de estimación para AAMM y su contraparte no adaptativa, <br>AAMM (no adapt.)</br>, fueron similares al principio de la fase de aplicación, pero como se esperaba, a medida que avanzaba la fase de aplicación, la técnica de AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo."
+            ],
+            "translated_text": "Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Figura. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Output: Los errores de estimación para AAMM y su contraparte no adaptativa, <br>AAMM (no adapt.)</br>, fueron similares al principio de la fase de aplicación, pero como se esperaba, a medida que avanzaba la fase de aplicación, la técnica de AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "AAMM technique": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the <br>AAMM technique</br> significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the <br>AAMM technique</br> continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "For all volunteers the <br>AAMM technique</br> significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the <br>AAMM technique</br> continually improved its accuracy by incorporating more and more data into the model."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para todos los voluntarios, la técnica <br>AAMM</br> superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede ver al comparar las curvas de error mostradas en la Fig.",
+                "Output: Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se esperaba, a medida que avanzaba la fase de aplicación, la <br>técnica AAMM</br> mejoraba continuamente su precisión al incorporar más y más datos en el modelo."
+            ],
+            "translated_text": "Output: Para todos los voluntarios, la técnica <br>AAMM</br> superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede ver al comparar las curvas de error mostradas en la Fig. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Output: Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se esperaba, a medida que avanzaba la fase de aplicación, la <br>técnica AAMM</br> mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    "AAMM",
+                    "técnica AAMM"
+                ],
+                [
+                    "AAMM",
+                    "técnica AAMM"
+                ]
+            ]
+        },
+        "calibration": {
+            "translated_key": "calibración",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer <br>calibration</br> scan of around 12 min would be optimal, that is the 5 min that were used for <br>calibration</br> in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "From this it can be concluded that a longer <br>calibration</br> scan of around 12 min would be optimal, that is the 5 min that were used for <br>calibration</br> in this experiment plus 7 min worth of data added during the application phase."
+            ],
+            "translated_annotated_samples": [
+                "Output: De esto se puede concluir que un escaneo de <br>calibración</br> más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la <br>calibración</br> en este experimento más 7 minutos de datos añadidos durante la fase de aplicación."
+            ],
+            "translated_text": "Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Figura. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. Output: De esto se puede concluir que un escaneo de <br>calibración</br> más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la <br>calibración</br> en este experimento más 7 minutos de datos añadidos durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "calibration scan": {
+            "translated_key": "calibración más largo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer <br>calibration scan</br> of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "From this it can be concluded that a longer <br>calibration scan</br> of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase."
+            ],
+            "translated_annotated_samples": [
+                "Output: De esto se puede concluir que un escaneo de <br>calibración más largo</br> de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos añadidos durante la fase de aplicación."
+            ],
+            "translated_text": "Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Figura. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. Output: De esto se puede concluir que un escaneo de <br>calibración más largo</br> de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos añadidos durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "error curves": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the <br>error curves</br> shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the <br>error curves</br> start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the <br>error curves</br> shown in Fig.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the <br>error curves</br> start to flatten approximately around the 7 min mark."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede ver al comparar las <br>curvas de error</br> mostradas en la Fig.",
+                "Output: Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de <br>error</br> comienzan a aplanarse aproximadamente alrededor del minuto 7."
+            ],
+            "translated_text": "Output: Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede ver al comparar las <br>curvas de error</br> mostradas en la Fig. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Output: Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de <br>error</br> comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    "curvas de error",
+                    "error"
+                ],
+                [
+                    "curvas de error",
+                    "error"
+                ]
+            ]
+        },
+        "imaging": {
+            "translated_key": "imagen",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of <br>imaging</br>, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of <br>imaging</br>, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 min de <br>imagen</br>, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación."
+            ],
+            "translated_text": "Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Figura. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Output: Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 min de <br>imagen</br>, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "motion estimation": {
+            "translated_key": "estimación de movimiento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the <br>motion estimation</br> of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "On average the <br>motion estimation</br> of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart."
+            ],
+            "translated_annotated_samples": [
+                "Output: En promedio, la <br>estimación de movimiento</br> de AAMM mejoró en un 22.94% en T5 en comparación con su contraparte no adaptativa."
+            ],
+            "translated_text": "Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Figura. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. Output: En promedio, la <br>estimación de movimiento</br> de AAMM mejoró en un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "motion estimations": {
+            "translated_key": "estimaciones de movimiento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where <br>motion estimations</br> where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a non-cardiac-gated sequence was used."
+            ],
+            "original_annotated_samples": [
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where <br>motion estimations</br> where on average 16.87% more accurate than at the beginning of the adaptation phase."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las <br>estimaciones de movimiento</br> fueron en promedio un 16.87% más precisas que al inicio de la fase de adaptación."
+            ],
+            "translated_text": "Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Figura. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Output: Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las <br>estimaciones de movimiento</br> fueron en promedio un 16.87% más precisas que al inicio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Ten en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia no sincronizada con el corazón. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "non-cardiac-gated sequence": {
+            "translated_key": "no sincronizada con el corazón",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "For all volunteers the AAMM technique significantly (p < 0.01) outperformed the other two methods in all of the intervals as can be seen by comparing to the error curves shown in Fig.",
+                "8 and the figures in Table 1 in the supplementary materials.",
+                "Significance was assessed using a 1-tailed Wilcoxon signed rank test since the error distributions were generally not symmetric.",
+                "The estimation errors for AAMM and its non-adaptive counterpart, AAMM (no adapt. ), were similar in the beginning of the application phase, but as anticipated, as the application phase went on, the AAMM technique continually improved its accuracy by incorporating more and more data into the model.",
+                "On average the motion estimation of AAMM improved by 22.94% in T5 with respect to its non-adaptive counterpart.",
+                "However, the method has already significantly adapted to the breathing pattern in T2, i.e. after between 3 and 7 min of imaging, where motion estimations where on average 16.87% more accurate than at the beginning of the adaptation phase.",
+                "By visually inspecting the curves for AAMM in Fig. 8 it can be seen that for many volunteers (in particular volunteers A, D, E, and F) the error curves start to flatten approximately around the 7 min mark.",
+                "From this it can be concluded that a longer calibration scan of around 12 min would be optimal, that is the 5 min that were used for calibration in this experiment plus 7 min worth of data added during the application phase.",
+                "Note that this time could be significantly reduced if a <br>non-cardiac-gated sequence</br> was used."
+            ],
+            "original_annotated_samples": [
+                "Note that this time could be significantly reduced if a <br>non-cardiac-gated sequence</br> was used."
+            ],
+            "translated_annotated_samples": [
+                "Output: Tenga en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia <br>no sincronizada con el corazón</br>."
+            ],
+            "translated_text": "Para todos los voluntarios, la técnica AAMM superó significativamente (p < 0.01) a los otros dos métodos en todos los intervalos, como se puede observar al comparar las curvas de error mostradas en la Figura. 8 y las cifras en la Tabla 1 en los materiales suplementarios. La significancia se evaluó utilizando una prueba de rango con signo de Wilcoxon de una cola, ya que las distribuciones de error generalmente no eran simétricas. Los errores de estimación para AAMM y su contraparte no adaptativa, AAMM (no adapt.), fueron similares al principio de la fase de aplicación, pero como se anticipaba, a medida que avanzaba la fase de aplicación, la técnica AAMM mejoraba continuamente su precisión al incorporar más y más datos en el modelo. En promedio, la estimación de movimiento de AAMM mejoró un 22.94% en T5 en comparación con su contraparte no adaptativa. Sin embargo, el método ya se ha adaptado significativamente al patrón de respiración en T2, es decir, después de entre 3 y 7 minutos de imágenes, donde las estimaciones de movimiento fueron en promedio un 16.87% más precisas que al principio de la fase de adaptación. Al inspeccionar visualmente las curvas para AAMM en la Fig. 8, se puede observar que para muchos voluntarios (en particular los voluntarios A, D, E y F) las curvas de error comienzan a aplanarse aproximadamente alrededor del minuto 7. De esto se puede concluir que un escaneo de calibración más largo de alrededor de 12 minutos sería óptimo, es decir, los 5 minutos que se utilizaron para la calibración en este experimento más 7 minutos de datos agregados durante la fase de aplicación. Output: Tenga en cuenta que este tiempo podría reducirse significativamente si se utilizara una secuencia <br>no sincronizada con el corazón</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

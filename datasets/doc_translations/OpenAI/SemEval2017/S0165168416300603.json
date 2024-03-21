@@ -1,0 +1,352 @@
+{
+    "id": "S0165168416300603",
+    "original_text": "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39]. The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations. The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40]. For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people. Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations. Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation.",
+    "original_translation": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Los segmentos de habla utilizando un detector de actividad de voz (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Por lo tanto, el vector de medidas obtenido za (ver Sección 2.1) ahora puede ser reescrito como za={τm(t)}, donde cada componente τm es la TDOA recopilada en el par de micrófonos m en cada paso de tiempo t. Dado que las TDOAs no son lineales en la posición del hablante, deben ser introducidas en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición del audio.",
+    "original_sentences": [
+        "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+        "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+        "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+        "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+        "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+        "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+    ],
+    "error_count": 1,
+    "keys": {
+        "audio position estimation": {
+            "translated_key": "estimación de la posición de audio",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an <br>audio position estimation</br>."
+            ],
+            "original_annotated_samples": [
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an <br>audio position estimation</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Por lo tanto, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el par de micrófonos m en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del hablante, deben introducirse en un filtro de Kalman extendido (EKF), como en [10], para obtener una <br>estimación de la posición de audio</br>."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Los segmentos de habla utilizando un detector de actividad de voz (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Output: Por lo tanto, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el par de micrófonos m en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del hablante, deben introducirse en un filtro de Kalman extendido (EKF), como en [10], para obtener una <br>estimación de la posición de audio</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "EKF": {
+            "translated_key": "EKF",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (<br>EKF</br>), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (<br>EKF</br>), as in [10] to get an audio position estimation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Así, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el par de micrófonos m en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del hablante, deben introducirse en un filtro de Kalman extendido (<br>EKF</br>), como en [10], para obtener una estimación de la posición de audio."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Los segmentos de habla utilizando un detector de actividad de voz (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Output: Así, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el par de micrófonos m en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del hablante, deben introducirse en un filtro de Kalman extendido (<br>EKF</br>), como en [10], para obtener una estimación de la posición de audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GCC algorithm": {
+            "translated_key": "GCC",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic <br>GCC algorithm</br> can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "The drawback is that the basic <br>GCC algorithm</br> can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40]."
+            ],
+            "translated_annotated_samples": [
+                "Output: La desventaja es que el algoritmo básico de <br>GCC</br> solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. Output: La desventaja es que el algoritmo básico de <br>GCC</br> solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Los segmentos de habla utilizando un detector de actividad de voz (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Por lo tanto, el vector de medidas obtenido za (ver Sección 2.1) ahora puede ser reescrito como za={τm(t)}, donde cada componente τm es la TDOA recopilada en el par de micrófonos m en cada paso de tiempo t. Dado que las TDOAs no son lineales en la posición del hablante, deben ser introducidas en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición del audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GCC-PHAT": {
+            "translated_key": "GCC-PHAT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (<br>GCC-PHAT</br>) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a <br>GCC-PHAT</br> step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (<br>GCC-PHAT</br>) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a <br>GCC-PHAT</br> step, for the signal to be more robust to reverberations."
+            ],
+            "translated_annotated_samples": [
+                "Output: El módulo SRC-HE anterior es luego reemplazado por la transformación de fase de correlación cruzada generalizada (<br>GCC-PHAT</br>) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos.",
+                "Output: Los segmentos de voz utilizando un detector de actividad vocal (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de <br>GCC-PHAT</br>, para que la señal sea más robusta a las reverberaciones."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. Output: El módulo SRC-HE anterior es luego reemplazado por la transformación de fase de correlación cruzada generalizada (<br>GCC-PHAT</br>) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Output: Los segmentos de voz utilizando un detector de actividad vocal (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de <br>GCC-PHAT</br>, para que la señal sea más robusta a las reverberaciones. Por lo tanto, el vector de medidas obtenido za (ver Sección 2.1) ahora puede ser reescrito como za={τm(t)}, donde cada componente τm es la TDOA recopilada en el par de micrófonos m en cada paso de tiempo t. Dado que las TDOAs no son lineales en la posición del hablante, deben ser introducidas en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición del audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GCC-PHAT step": {
+            "translated_key": "GCC-PHAT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a <br>GCC-PHAT step</br>, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a <br>GCC-PHAT step</br>, for the signal to be more robust to reverberations."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los segmentos de voz utilizando un detector de actividad vocal (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de <br>GCC-PHAT</br>, para que la señal sea más robusta a las reverberaciones."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Output: Los segmentos de voz utilizando un detector de actividad vocal (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de <br>GCC-PHAT</br>, para que la señal sea más robusta a las reverberaciones. Por lo tanto, el vector de medidas obtenido za (ver Sección 2.1) ahora puede ser reescrito como za={τm(t)}, donde cada componente τm es la TDOA recopilada en el par de micrófonos m en cada paso de tiempo t. Dado que las TDOAs no son lineales en la posición del hablante, deben ser introducidas en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición del audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "generalised cross correlation phase transform": {
+            "translated_key": "transformación de fase de correlación cruzada generalizada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the <br>generalised cross correlation phase transform</br> (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "The previous SRC-HE module is then replaced by the <br>generalised cross correlation phase transform</br> (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations."
+            ],
+            "translated_annotated_samples": [
+                "Output: El módulo SRC-HE anterior es entonces reemplazado por la <br>transformación de fase de correlación cruzada generalizada</br> (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de punto."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. Output: El módulo SRC-HE anterior es entonces reemplazado por la <br>transformación de fase de correlación cruzada generalizada</br> (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de punto. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Los segmentos de habla utilizando un detector de actividad de voz (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Por lo tanto, el vector de medidas obtenido za (ver Sección 2.1) ahora puede ser reescrito como za={τm(t)}, donde cada componente τm es la TDOA recopilada en el par de micrófonos m en cada paso de tiempo t. Dado que las TDOAs no son lineales en la posición del hablante, deben ser introducidas en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición del audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Kalman filter": {
+            "translated_key": "filtro de Kalman extendido",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended <br>Kalman filter</br> (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended <br>Kalman filter</br> (EKF), as in [10] to get an audio position estimation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Así, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el par de micrófonos m en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del hablante, deben introducirse en un <br>filtro de Kalman extendido</br> (EKF), como en [10], para obtener una estimación de la posición de audio."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Los segmentos de habla utilizando un detector de actividad de voz (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Output: Así, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el par de micrófonos m en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del hablante, deben introducirse en un <br>filtro de Kalman extendido</br> (EKF), como en [10], para obtener una estimación de la posición de audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "m-th microphone pair": {
+            "translated_key": "par de micrófonos m-ésimo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the <br>m-th microphone pair</br> at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the <br>m-th microphone pair</br> at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Así, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el <br>par de micrófonos m-ésimo</br> en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del hablante, deben introducirse en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición de audio."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Los segmentos de habla utilizando un detector de actividad de voz (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Output: Así, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el <br>par de micrófonos m-ésimo</br> en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del hablante, deben introducirse en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición de audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "speaker": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a <br>speaker</br> is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the <br>speaker</br> position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "For these reasons, at first experiments where only a <br>speaker</br> is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the <br>speaker</br> position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Por estas razones, en primer lugar se realizan experimentos donde solo interviene un <br>orador</br> en un momento dado, como suele suceder en una conversación educada entre dos o más personas.",
+                "Output: Así, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el par de micrófonos m en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del <br>altavoz</br>, deben introducirse en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición de audio."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Output: Por estas razones, en primer lugar se realizan experimentos donde solo interviene un <br>orador</br> en un momento dado, como suele suceder en una conversación educada entre dos o más personas. Los segmentos de habla utilizando un detector de actividad de voz (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Output: Así, el vector de medida obtenido za (ver Sección 2.1) ahora se puede reescribir como za={τm(t)}, donde cada componente τm es el TDOA recopilado en el par de micrófonos m en cada paso de tiempo t. Dado que los TDOAs no son lineales en la posición del <br>altavoz</br>, deben introducirse en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición de audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    "orador",
+                    "altavoz"
+                ],
+                [
+                    "orador",
+                    "altavoz"
+                ]
+            ]
+        },
+        "Speech segments": {
+            "translated_key": "Segmentos de voz",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "<br>Speech segments</br> using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "<br>Speech segments</br> using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>Segmentos de voz</br> utilizando un detector de actividad vocal (VAD) [41] son posteriormente extraídos y procesados utilizando un paso GCC-PHAT, para que la señal sea más robusta a las reverberaciones."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Output: <br>Segmentos de voz</br> utilizando un detector de actividad vocal (VAD) [41] son posteriormente extraídos y procesados utilizando un paso GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Por lo tanto, el vector de medidas obtenido za (ver Sección 2.1) ahora puede ser reescrito como za={τm(t)}, donde cada componente τm es la TDOA recopilada en el par de micrófonos m en cada paso de tiempo t. Dado que las TDOAs no son lineales en la posición del hablante, deben ser introducidas en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición del audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SRC-HE": {
+            "translated_key": "SRC-HE",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that <br>SRC-HE</br> reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous <br>SRC-HE</br> module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "Despite the fact that <br>SRC-HE</br> reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous <br>SRC-HE</br> module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations."
+            ],
+            "translated_annotated_samples": [
+                "Output: A pesar de que <br>SRC-HE</br> reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39].",
+                "Output: El módulo anterior <br>SRC-HE</br> es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de punto."
+            ],
+            "translated_text": "Output: A pesar de que <br>SRC-HE</br> reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. Output: El módulo anterior <br>SRC-HE</br> es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de punto. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Los segmentos de habla utilizando un detector de actividad de voz (VAD) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Por lo tanto, el vector de medidas obtenido za (ver Sección 2.1) ahora puede ser reescrito como za={τm(t)}, donde cada componente τm es la TDOA recopilada en el par de micrófonos m en cada paso de tiempo t. Dado que las TDOAs no son lineales en la posición del hablante, deben ser introducidas en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición del audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "VAD": {
+            "translated_key": "VAD",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a voice activity detector (<br>VAD</br>) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "Speech segments using a voice activity detector (<br>VAD</br>) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los segmentos de habla utilizando un detector de actividad vocal (<br>VAD</br>) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Output: Los segmentos de habla utilizando un detector de actividad vocal (<br>VAD</br>) [41] son posteriormente extraídos y procesados utilizando un paso de GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Por lo tanto, el vector de medidas obtenido za (ver Sección 2.1) ahora puede ser reescrito como za={τm(t)}, donde cada componente τm es la TDOA recopilada en el par de micrófonos m en cada paso de tiempo t. Dado que las TDOAs no son lineales en la posición del hablante, deben ser introducidas en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición del audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "voice activity detector": {
+            "translated_key": "detector de actividad vocal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Despite the fact that SRC-HE reduces the number of FEs, audio measurements extraction based on SRC would still be not suitable for real-time applications [39].",
+                "The previous SRC-HE module is then replaced by the generalised cross correlation phase transform (GCC-PHAT) introduced in Section 2.1, as this does not involve cumbersome point function estimations.",
+                "The drawback is that the basic GCC algorithm can only detect one source at a time and it is known to be sensitive to room reverberations [5], however it is still effective under moderate reverberant environments (T60≈0.3s) [40].",
+                "For these reasons, at first experiments where only a speaker is active at any given time are carried out, as it often happens in a polite conversation between two or more people.",
+                "Speech segments using a <br>voice activity detector</br> (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations.",
+                "Thus, the measure vector obtained za (see Section 2.1) can now be rewritten as za={τm(t)}, where each component τm is the TDOA collected at the m-th microphone pair at each time step t. Since TDOAs are not linear in the speaker position, they must be input into an extended Kalman filter (EKF), as in [10] to get an audio position estimation."
+            ],
+            "original_annotated_samples": [
+                "Speech segments using a <br>voice activity detector</br> (VAD) [41] are further extracted and processed using a GCC-PHAT step, for the signal to be more robust to reverberations."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los segmentos de habla utilizando un <br>detector de actividad vocal</br> (VAD) [41] se extraen y procesan aún más utilizando un paso GCC-PHAT, para que la señal sea más robusta a las reverberaciones."
+            ],
+            "translated_text": "A pesar de que SRC-HE reduce el número de FEs, la extracción de medidas de audio basada en SRC seguiría sin ser adecuada para aplicaciones en tiempo real [39]. El módulo SRC-HE anterior es entonces reemplazado por la transformación de fase de correlación cruzada generalizada (GCC-PHAT) introducida en la Sección 2.1, ya que esto no implica estimaciones engorrosas de funciones de puntos. La desventaja es que el algoritmo básico de GCC solo puede detectar una fuente a la vez y se sabe que es sensible a las reverberaciones de la habitación [5], sin embargo sigue siendo efectivo en entornos reverberantes moderados (T60≈0.3s) [40]. Por estas razones, al principio se llevan a cabo experimentos en los que solo un interlocutor está activo en un momento dado, como suele ocurrir en una conversación educada entre dos o más personas. Output: Los segmentos de habla utilizando un <br>detector de actividad vocal</br> (VAD) [41] se extraen y procesan aún más utilizando un paso GCC-PHAT, para que la señal sea más robusta a las reverberaciones. Por lo tanto, el vector de medidas obtenido za (ver Sección 2.1) ahora puede ser reescrito como za={τm(t)}, donde cada componente τm es la TDOA recopilada en el par de micrófonos m en cada paso de tiempo t. Dado que las TDOAs no son lineales en la posición del hablante, deben ser introducidas en un filtro de Kalman extendido (EKF), como en [10], para obtener una estimación de la posición del audio. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

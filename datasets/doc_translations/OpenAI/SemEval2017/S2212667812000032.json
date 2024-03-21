@@ -1,0 +1,242 @@
+{
+    "id": "S2212667812000032",
+    "original_text": "Aspect-oriented Programming (AOP) can well solve the cross-cutting concerns. Because of the different features of aspect, AOP requires new techniques for testing. First, this paper proposes a model to test aspect-oriented software. In order to support the testing model of the first three steps, we propose the algorithm of selecting aspect relevant test cases. Then, we develop a new tool to implement the theoretical of automating select test case. Finally, a case of the Bank Account System is studied to illustrate our testing approach.",
+    "original_translation": "La Programación Orientada a Aspectos (AOP) puede resolver bien las preocupaciones transversales. Debido a las diferentes características del aspecto, AOP requiere nuevas técnicas para ser probado. Primero, este documento propone un modelo para probar software orientado a aspectos. Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto. Entonces, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba. Finalmente, se estudia un caso del Sistema de Cuenta Bancaria para ilustrar nuestro enfoque de pruebas.",
+    "original_sentences": [
+        "Aspect-oriented Programming (AOP) can well solve the cross-cutting concerns.",
+        "Because of the different features of aspect, AOP requires new techniques for testing.",
+        "First, this paper proposes a model to test aspect-oriented software.",
+        "In order to support the testing model of the first three steps, we propose the algorithm of selecting aspect relevant test cases.",
+        "Then, we develop a new tool to implement the theoretical of automating select test case.",
+        "Finally, a case of the Bank Account System is studied to illustrate our testing approach."
+    ],
+    "error_count": 1,
+    "keys": {
+        "algorithm of selecting aspect relevant test cases": {
+            "translated_key": "algoritmo de selección de casos de prueba relevantes para el aspecto",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Aspect-oriented Programming (AOP) can well solve the cross-cutting concerns.",
+                "Because of the different features of aspect, AOP requires new techniques for testing.",
+                "First, this paper proposes a model to test aspect-oriented software.",
+                "In order to support the testing model of the first three steps, we propose the <br>algorithm of selecting aspect relevant test cases</br>.",
+                "Then, we develop a new tool to implement the theoretical of automating select test case.",
+                "Finally, a case of the Bank Account System is studied to illustrate our testing approach."
+            ],
+            "original_annotated_samples": [
+                "In order to support the testing model of the first three steps, we propose the <br>algorithm of selecting aspect relevant test cases</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el <br>algoritmo de selección de casos de prueba relevantes para el aspecto</br>."
+            ],
+            "translated_text": "La Programación Orientada a Aspectos (AOP) puede resolver bien las preocupaciones transversales. Debido a las diferentes características del aspecto, AOP requiere nuevas técnicas para ser probado. Primero, este documento propone un modelo para probar software orientado a aspectos. Output: Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el <br>algoritmo de selección de casos de prueba relevantes para el aspecto</br>. Entonces, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba. Finalmente, se estudia un caso del Sistema de Cuenta Bancaria para ilustrar nuestro enfoque de pruebas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "AOP": {
+            "translated_key": "AOP",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Aspect-oriented Programming (<br>AOP</br>) can well solve the cross-cutting concerns.",
+                "Because of the different features of aspect, <br>AOP</br> requires new techniques for testing.",
+                "First, this paper proposes a model to test aspect-oriented software.",
+                "In order to support the testing model of the first three steps, we propose the algorithm of selecting aspect relevant test cases.",
+                "Then, we develop a new tool to implement the theoretical of automating select test case.",
+                "Finally, a case of the Bank Account System is studied to illustrate our testing approach."
+            ],
+            "original_annotated_samples": [
+                "Aspect-oriented Programming (<br>AOP</br>) can well solve the cross-cutting concerns.",
+                "Because of the different features of aspect, <br>AOP</br> requires new techniques for testing."
+            ],
+            "translated_annotated_samples": [
+                "Output: La Programación Orientada a Aspectos (<br>AOP</br>) puede resolver bien las preocupaciones transversales.",
+                "Output: Debido a las diferentes características del aspecto, <br>AOP</br> requiere nuevas técnicas para realizar pruebas."
+            ],
+            "translated_text": "Output: La Programación Orientada a Aspectos (<br>AOP</br>) puede resolver bien las preocupaciones transversales. Output: Debido a las diferentes características del aspecto, <br>AOP</br> requiere nuevas técnicas para realizar pruebas. Primero, este documento propone un modelo para probar software orientado a aspectos. Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto. Entonces, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba. Finalmente, se estudia un caso del Sistema de Cuenta Bancaria para ilustrar nuestro enfoque de pruebas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Aspect-oriented Programming": {
+            "translated_key": "La Programación Orientada a Aspectos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Aspect-oriented Programming</br> (AOP) can well solve the cross-cutting concerns.",
+                "Because of the different features of aspect, AOP requires new techniques for testing.",
+                "First, this paper proposes a model to test aspect-oriented software.",
+                "In order to support the testing model of the first three steps, we propose the algorithm of selecting aspect relevant test cases.",
+                "Then, we develop a new tool to implement the theoretical of automating select test case.",
+                "Finally, a case of the Bank Account System is studied to illustrate our testing approach."
+            ],
+            "original_annotated_samples": [
+                "<br>Aspect-oriented Programming</br> (AOP) can well solve the cross-cutting concerns."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>La Programación Orientada a Aspectos</br> (AOP) puede resolver bien las preocupaciones transversales."
+            ],
+            "translated_text": "Output: <br>La Programación Orientada a Aspectos</br> (AOP) puede resolver bien las preocupaciones transversales. Debido a las diferentes características del aspecto, AOP requiere nuevas técnicas para ser probado. Primero, este documento propone un modelo para probar software orientado a aspectos. Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto. Entonces, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba. Finalmente, se estudia un caso del Sistema de Cuenta Bancaria para ilustrar nuestro enfoque de pruebas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "automating select test case": {
+            "translated_key": "automatizar la selección de casos de prueba",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Aspect-oriented Programming (AOP) can well solve the cross-cutting concerns.",
+                "Because of the different features of aspect, AOP requires new techniques for testing.",
+                "First, this paper proposes a model to test aspect-oriented software.",
+                "In order to support the testing model of the first three steps, we propose the algorithm of selecting aspect relevant test cases.",
+                "Then, we develop a new tool to implement the theoretical of <br>automating select test case</br>.",
+                "Finally, a case of the Bank Account System is studied to illustrate our testing approach."
+            ],
+            "original_annotated_samples": [
+                "Then, we develop a new tool to implement the theoretical of <br>automating select test case</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Luego, desarrollamos una nueva herramienta para implementar la teoría de <br>automatizar la selección de casos de prueba</br>."
+            ],
+            "translated_text": "La Programación Orientada a Aspectos (AOP) puede resolver bien las preocupaciones transversales. Debido a las diferentes características del aspecto, AOP requiere nuevas técnicas para ser probado. Primero, este documento propone un modelo para probar software orientado a aspectos. Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto. Output: Luego, desarrollamos una nueva herramienta para implementar la teoría de <br>automatizar la selección de casos de prueba</br>. Finalmente, se estudia un caso del Sistema de Cuenta Bancaria para ilustrar nuestro enfoque de pruebas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Bank Account System": {
+            "translated_key": "Sistema de Cuentas Bancarias",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Aspect-oriented Programming (AOP) can well solve the cross-cutting concerns.",
+                "Because of the different features of aspect, AOP requires new techniques for testing.",
+                "First, this paper proposes a model to test aspect-oriented software.",
+                "In order to support the testing model of the first three steps, we propose the algorithm of selecting aspect relevant test cases.",
+                "Then, we develop a new tool to implement the theoretical of automating select test case.",
+                "Finally, a case of the <br>Bank Account System</br> is studied to illustrate our testing approach."
+            ],
+            "original_annotated_samples": [
+                "Finally, a case of the <br>Bank Account System</br> is studied to illustrate our testing approach."
+            ],
+            "translated_annotated_samples": [
+                "Finalmente, se estudia un caso del <br>Sistema de Cuentas Bancarias</br> para ilustrar nuestro enfoque de pruebas."
+            ],
+            "translated_text": "La Programación Orientada a Aspectos (AOP) puede resolver bien las preocupaciones transversales. Debido a las diferentes características del aspecto, AOP requiere nuevas técnicas para ser probado. Primero, este documento propone un modelo para probar software orientado a aspectos. Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto. Entonces, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba. Finalmente, se estudia un caso del <br>Sistema de Cuentas Bancarias</br> para ilustrar nuestro enfoque de pruebas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "develop a new tool to implement the theoretical of automating select test case": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Aspect-oriented Programming (AOP) can well solve the cross-cutting concerns.",
+                "Because of the different features of aspect, AOP requires new techniques for testing.",
+                "First, this paper proposes a model to test aspect-oriented software.",
+                "In order to support the testing model of the first three steps, we propose the algorithm of selecting aspect relevant test cases.",
+                "Then, we <br>develop a new tool to implement the theoretical of automating select test case</br>.",
+                "Finally, a case of the Bank Account System is studied to illustrate our testing approach."
+            ],
+            "original_annotated_samples": [
+                "Then, we <br>develop a new tool to implement the theoretical of automating select test case</br>."
+            ],
+            "translated_annotated_samples": [
+                "Luego, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba."
+            ],
+            "translated_text": "La Programación Orientada a Aspectos (AOP) puede resolver bien las preocupaciones transversales. Debido a las diferentes características del aspecto, AOP requiere nuevas técnicas para ser probado. Primero, este documento propone un modelo para probar software orientado a aspectos. Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto. Luego, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba. Finalmente, se estudia un caso del Sistema de Cuenta Bancaria para ilustrar nuestro enfoque de pruebas. ",
+            "candidates": [],
+            "error": [
+                [],
+                []
+            ]
+        },
+        "model to test aspect-oriented software": {
+            "translated_key": "modelo para probar software orientado a aspectos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Aspect-oriented Programming (AOP) can well solve the cross-cutting concerns.",
+                "Because of the different features of aspect, AOP requires new techniques for testing.",
+                "First, this paper proposes a <br>model to test aspect-oriented software</br>.",
+                "In order to support the testing model of the first three steps, we propose the algorithm of selecting aspect relevant test cases.",
+                "Then, we develop a new tool to implement the theoretical of automating select test case.",
+                "Finally, a case of the Bank Account System is studied to illustrate our testing approach."
+            ],
+            "original_annotated_samples": [
+                "First, this paper proposes a <br>model to test aspect-oriented software</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Primero, este documento propone un <br>modelo para probar software orientado a aspectos</br>."
+            ],
+            "translated_text": "La Programación Orientada a Aspectos (AOP) puede resolver bien las preocupaciones transversales. Debido a las diferentes características del aspecto, AOP requiere nuevas técnicas para ser probado. Output: Primero, este documento propone un <br>modelo para probar software orientado a aspectos</br>. Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto. Entonces, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba. Finalmente, se estudia un caso del Sistema de Cuenta Bancaria para ilustrar nuestro enfoque de pruebas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "solve the cross-cutting concerns": {
+            "translated_key": "las preocupaciones transversales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Aspect-oriented Programming (AOP) can well <br>solve the cross-cutting concerns</br>.",
+                "Because of the different features of aspect, AOP requires new techniques for testing.",
+                "First, this paper proposes a model to test aspect-oriented software.",
+                "In order to support the testing model of the first three steps, we propose the algorithm of selecting aspect relevant test cases.",
+                "Then, we develop a new tool to implement the theoretical of automating select test case.",
+                "Finally, a case of the Bank Account System is studied to illustrate our testing approach."
+            ],
+            "original_annotated_samples": [
+                "Aspect-oriented Programming (AOP) can well <br>solve the cross-cutting concerns</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: La Programación Orientada a Aspectos (AOP) puede resolver bien <br>las preocupaciones transversales</br>."
+            ],
+            "translated_text": "Output: La Programación Orientada a Aspectos (AOP) puede resolver bien <br>las preocupaciones transversales</br>. Debido a las diferentes características del aspecto, AOP requiere nuevas técnicas para ser probado. Primero, este documento propone un modelo para probar software orientado a aspectos. Para apoyar el modelo de prueba de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto. Entonces, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba. Finalmente, se estudia un caso del Sistema de Cuenta Bancaria para ilustrar nuestro enfoque de pruebas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "testing model": {
+            "translated_key": "modelo de pruebas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Aspect-oriented Programming (AOP) can well solve the cross-cutting concerns.",
+                "Because of the different features of aspect, AOP requires new techniques for testing.",
+                "First, this paper proposes a model to test aspect-oriented software.",
+                "In order to support the <br>testing model</br> of the first three steps, we propose the algorithm of selecting aspect relevant test cases.",
+                "Then, we develop a new tool to implement the theoretical of automating select test case.",
+                "Finally, a case of the Bank Account System is studied to illustrate our testing approach."
+            ],
+            "original_annotated_samples": [
+                "In order to support the <br>testing model</br> of the first three steps, we propose the algorithm of selecting aspect relevant test cases."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para apoyar el <br>modelo de pruebas</br> de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto."
+            ],
+            "translated_text": "La Programación Orientada a Aspectos (AOP) puede resolver bien las preocupaciones transversales. Debido a las diferentes características del aspecto, AOP requiere nuevas técnicas para ser probado. Primero, este documento propone un modelo para probar software orientado a aspectos. Output: Para apoyar el <br>modelo de pruebas</br> de los primeros tres pasos, proponemos el algoritmo de selección de casos de prueba relevantes para el aspecto. Entonces, desarrollamos una nueva herramienta para implementar la teoría de automatizar la selección de casos de prueba. Finalmente, se estudia un caso del Sistema de Cuenta Bancaria para ilustrar nuestro enfoque de pruebas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

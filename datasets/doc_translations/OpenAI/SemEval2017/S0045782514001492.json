@@ -1,0 +1,471 @@
+{
+    "id": "S0045782514001492",
+    "original_text": "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43]. A number of conserving schemes have been developed to ensure energy conservation. These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems. These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision. Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme. More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation. Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters. In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters.",
+    "original_translation": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización.",
+    "original_sentences": [
+        "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+        "A number of conserving schemes have been developed to ensure energy conservation.",
+        "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+        "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+        "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+        "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+        "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+        "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+    ],
+    "error_count": 3,
+    "keys": {
+        "adhesive contact problems": {
+            "translated_key": "contacto adhesivo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for <br>adhesive contact problems</br> without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for <br>adhesive contact problems</br> without considering friction and dissipation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de <br>contacto adhesivo</br> sin considerar la fricción y la disipación."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Output: Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de <br>contacto adhesivo</br> sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "conservation schemes": {
+            "translated_key": "conservación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These <br>conservation schemes</br> can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "These <br>conservation schemes</br> can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos esquemas de <br>conservación</br> se pueden combinar convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Output: Estos esquemas de <br>conservación</br> se pueden combinar convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "conserving scheme": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the <br>conserving scheme</br>.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the <br>conserving scheme</br> improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the <br>conserving scheme</br>.",
+                "Even though the <br>conserving scheme</br> improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters."
+            ],
+            "translated_annotated_samples": [
+                "Output: Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el <br>esquema conservador</br>.",
+                "Output: Aunque el <br>esquema conservativo</br> mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Output: Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el <br>esquema conservador</br>. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Output: Aunque el <br>esquema conservativo</br> mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    "esquema conservador",
+                    "esquema conservativo"
+                ],
+                [
+                    "esquema conservador",
+                    "esquema conservativo"
+                ]
+            ]
+        },
+        "contact and collision problems": {
+            "translated_key": "contacto y colisión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for <br>contact and collision problems</br>  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for <br>contact and collision problems</br>  [28,43]."
+            ],
+            "translated_annotated_samples": [
+                "Output: La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente para problemas de <br>contacto y colisión</br> [28,43]."
+            ],
+            "translated_text": "Output: La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente para problemas de <br>contacto y colisión</br> [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "continuum problems": {
+            "translated_key": "problemas continuos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from <br>continuum problems</br>.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from <br>continuum problems</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de los <br>problemas continuos</br>."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Output: Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de los <br>problemas continuos</br>. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "dissipation": {
+            "translated_key": "disipación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and <br>dissipation</br>.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and <br>dissipation</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la <br>disipación</br>."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Output: Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la <br>disipación</br>. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "energy and momentum conserving algorithm": {
+            "translated_key": "algoritmo conservador de energía y momento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an <br>energy and momentum conserving algorithm</br>, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an <br>energy and momentum conserving algorithm</br>, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen [47] propusieron un <br>algoritmo conservador de energía y momento</br>, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Output: Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen [47] propusieron un <br>algoritmo conservador de energía y momento</br>, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "energy and momentum-conserving temporal discretization scheme": {
+            "translated_key": "esquema de discretización temporal que conserva la energía y el momento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an <br>energy and momentum-conserving temporal discretization scheme</br>  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "More recently, an <br>energy and momentum-conserving temporal discretization scheme</br>  [46] was developed for adhesive contact problems without considering friction and dissipation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Más recientemente, se desarrolló un <br>esquema de discretización temporal que conserva la energía y el momento</br> [46] para problemas de contacto adhesivo sin considerar la fricción y la disipación."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Output: Más recientemente, se desarrolló un <br>esquema de discretización temporal que conserva la energía y el momento</br> [46] para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "energy conservation": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>energy conservation</br> is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure <br>energy conservation</br>.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "<br>energy conservation</br> is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure <br>energy conservation</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>La conservación de energía</br> es fundamental para garantizar la estabilidad de un método numérico, especialmente para problemas de contacto y colisión [28,43].",
+                "Output: Se han desarrollado varios esquemas de conservación para garantizar la <br>conservación de energía</br>."
+            ],
+            "translated_text": "Output: <br>La conservación de energía</br> es fundamental para garantizar la estabilidad de un método numérico, especialmente para problemas de contacto y colisión [28,43]. Output: Se han desarrollado varios esquemas de conservación para garantizar la <br>conservación de energía</br>. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    "La conservación de energía",
+                    "conservación de energía"
+                ],
+                [
+                    "La conservación de energía",
+                    "conservación de energía"
+                ]
+            ]
+        },
+        "Energy conservation": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Energy conservation</br> is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure <br>Energy conservation</br>.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "<br>Energy conservation</br> is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure <br>Energy conservation</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>La conservación de energía</br> es fundamental para garantizar la estabilidad de un método numérico, especialmente para problemas de contacto y colisión [28,43].",
+                "Output: Se han desarrollado varios esquemas de conservación para garantizar la <br>conservación de energía</br>."
+            ],
+            "translated_text": "Output: <br>La conservación de energía</br> es fundamental para garantizar la estabilidad de un método numérico, especialmente para problemas de contacto y colisión [28,43]. Output: Se han desarrollado varios esquemas de conservación para garantizar la <br>conservación de energía</br>. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    "La conservación de energía",
+                    "conservación de energía"
+                ],
+                [
+                    "La conservación de energía",
+                    "conservación de energía"
+                ]
+            ]
+        },
+        "finite element method": {
+            "translated_key": " método de elementos finitos ",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the <br>finite element method</br> to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "These conservation schemes can conveniently be combined with the <br>finite element method</br> to simulate frictionless  [44] and frictional  [43] contact and collision."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos esquemas de conservación se pueden combinar convenientemente con el <br> método de elementos finitos </br> para simular contactos y colisiones sin fricción [44] y con fricción [43]."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Output: Estos esquemas de conservación se pueden combinar convenientemente con el <br> método de elementos finitos </br> para simular contactos y colisiones sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "friction": {
+            "translated_key": "fricción",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering <br>friction</br> and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering <br>friction</br> and dissipation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar <br>fricción</br> y disipación."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Output: Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar <br>fricción</br> y disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "large deformation contact problems": {
+            "translated_key": "grandes deformaciones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved <br>large deformation contact problems</br> with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved <br>large deformation contact problems</br> with the conserving scheme."
+            ],
+            "translated_annotated_samples": [
+                "Hesch and Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con <br>grandes deformaciones</br> con el esquema conservador."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch and Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con <br>grandes deformaciones</br> con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "node-to-segment contact method": {
+            "translated_key": "método de contacto de nodo a segmento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the <br>node-to-segment contact method</br> and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "Hesch and Betsch  [45] formulated the <br>node-to-segment contact method</br> and solved large deformation contact problems with the conserving scheme."
+            ],
+            "translated_annotated_samples": [
+                "Output: Hesch y Betsch [45] formularon el <br>método de contacto de nodo a segmento</br> y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Output: Hesch y Betsch [45] formularon el <br>método de contacto de nodo a segmento</br> y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "penalty regulation": {
+            "translated_key": "regulación de penalización",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the <br>penalty regulation</br> of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to simulate frictionless  [44] and frictional  [43] contact and collision.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "These schemes make use of the <br>penalty regulation</br> of normal contact constraint and inherit the conservation property from continuum problems."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos esquemas hacen uso de la <br>regulación de penalización</br> de la restricción de contacto normal e heredan la propiedad de conservación de problemas continuos."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Output: Estos esquemas hacen uso de la <br>regulación de penalización</br> de la restricción de contacto normal e heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación pueden combinarse convenientemente con el método de elementos finitos para simular contacto y colisión sin fricción [44] y con fricción [43]. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "simulate frictionless  [44] and frictional  [43] contact and collision": {
+            "translated_key": "simular contacto y colisión sin fricción [44] y con fricción [43]",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Energy conservation is critical to ensure stability of a numerical method, especially for contact and collision problems  [28,43].",
+                "A number of conserving schemes have been developed to ensure energy conservation.",
+                "These schemes make use of the penalty regulation of normal contact constraint and inherit the conservation property from continuum problems.",
+                "These conservation schemes can conveniently be combined with the finite element method to <br>simulate frictionless  [44] and frictional  [43] contact and collision</br>.",
+                "Hesch and Betsch  [45] formulated the node-to-segment contact method and solved large deformation contact problems with the conserving scheme.",
+                "More recently, an energy and momentum-conserving temporal discretization scheme  [46] was developed for adhesive contact problems without considering friction and dissipation.",
+                "Even though the conserving scheme improves numerical stability, it also inherits from the penalty method the difficulty of having to determine penalty parameters.",
+                "In order to remove penalty sensitivity, Chawla and Laursen  [47] proposed an energy and momentum conserving algorithm, which makes use of Lagrange multipliers instead of penalty parameters."
+            ],
+            "original_annotated_samples": [
+                "These conservation schemes can conveniently be combined with the finite element method to <br>simulate frictionless  [44] and frictional  [43] contact and collision</br>."
+            ],
+            "translated_annotated_samples": [
+                "Estos esquemas de conservación se pueden combinar convenientemente con el método de elementos finitos para <br>simular contacto y colisión sin fricción [44] y con fricción [43]</br>."
+            ],
+            "translated_text": "La conservación de energía es fundamental para garantizar la estabilidad de un método numérico, especialmente en problemas de contacto y colisión [28,43]. Se han desarrollado varios programas de conservación para garantizar la conservación de energía. Estos esquemas hacen uso de la regulación de penalización de la restricción de contacto normal y heredan la propiedad de conservación de problemas continuos. Estos esquemas de conservación se pueden combinar convenientemente con el método de elementos finitos para <br>simular contacto y colisión sin fricción [44] y con fricción [43]</br>. Hesch y Betsch [45] formularon el método de contacto de nodo a segmento y resolvieron problemas de contacto con grandes deformaciones con el esquema conservador. Más recientemente, se desarrolló un esquema de discretización temporal que conserva la energía y el momento para problemas de contacto adhesivo sin considerar la fricción y la disipación. Aunque el esquema de conservación mejora la estabilidad numérica, también hereda del método de penalización la dificultad de tener que determinar los parámetros de penalización. Para eliminar la sensibilidad a las penalizaciones, Chawla y Laursen propusieron un algoritmo conservador de energía y momento, que hace uso de multiplicadores de Lagrange en lugar de parámetros de penalización. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

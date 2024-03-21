@@ -1,0 +1,602 @@
+{
+    "id": "S2212667814000070",
+    "original_text": "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV. For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used. The Adaboost learning algorithm was used for creating optimized learning data. The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer. As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second.",
+    "original_translation": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz de Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo.",
+    "original_sentences": [
+        "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+        "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+        "The Adaboost learning algorithm was used for creating optimized learning data.",
+        "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+        "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+    ],
+    "error_count": 1,
+    "keys": {
+        "Adaboost learning algorithm": {
+            "translated_key": "Adaboost",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The <br>Adaboost learning algorithm</br> was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The <br>Adaboost learning algorithm</br> was used for creating optimized learning data."
+            ],
+            "translated_annotated_samples": [
+                "Output: El algoritmo de aprendizaje <br>Adaboost</br> se utilizó para crear datos de aprendizaje optimizados."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. Output: El algoritmo de aprendizaje <br>Adaboost</br> se utilizó para crear datos de aprendizaje optimizados. La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz de Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Candidate Detector,": {
+            "translated_key": "Detectores de Candidatos,",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, <br>Candidate Detector,</br> Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, <br>Candidate Detector,</br> Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, <br>Detectores de Candidatos,</br> Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, <br>Detectores de Candidatos,</br> Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Color Overlay Processer": {
+            "translated_key": "Procesador de Superposición de Color",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and <br>Color Overlay Processer</br>.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and <br>Color Overlay Processer</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y <br>Procesador de Superposición de Color</br>."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y <br>Procesador de Superposición de Color</br>. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Color Space Converter": {
+            "translated_key": "Convertidor de Espacio de Color",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of <br>Color Space Converter</br>, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of <br>Color Space Converter</br>, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por <br>Convertidor de Espacio de Color</br>, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por <br>Convertidor de Espacio de Color</br>, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Confidence Mappe": {
+            "translated_key": "Mapa de Confianza",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, <br>Confidence Mappe</br>r, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, <br>Confidence Mappe</br>r, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, <br>Mapa de Confianza</br>, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, <br>Mapa de Confianza</br>, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Confidence Switch": {
+            "translated_key": "Interruptor de Confianza",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, <br>Confidence Switch</br>, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, <br>Confidence Switch</br>, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, <br>Interruptor de Confianza</br>, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, <br>Interruptor de Confianza</br>, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "creating optimized learning data": {
+            "translated_key": "crear datos de aprendizaje optimizados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for <br>creating optimized learning data</br>.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The Adaboost learning algorithm was used for <br>creating optimized learning data</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El algoritmo de aprendizaje Adaboost se utilizó para <br>crear datos de aprendizaje optimizados</br>."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. Output: El algoritmo de aprendizaje Adaboost se utilizó para <br>crear datos de aprendizaje optimizados</br>. La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz de Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Data Grouper": {
+            "translated_key": "Agrupador de Datos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, <br>Data Grouper</br>, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, <br>Data Grouper</br>, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, <br>Agrupador de Datos</br>, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, <br>Agrupador de Datos</br>, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "design of high quality real-time rotation face detection architecture for gesture recognition of smart TV": {
+            "translated_key": "diseño de alta calidad de arquitectura de detección de rostros en rotación en tiempo real para el reconocimiento de gestos de smart TV",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a <br>design of high quality real-time rotation face detection architecture for gesture recognition of smart TV</br>.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "This paper suggests a <br>design of high quality real-time rotation face detection architecture for gesture recognition of smart TV</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este documento sugiere un <br>diseño de alta calidad de arquitectura de detección de rostros en rotación en tiempo real para el reconocimiento de gestos de smart TV</br>."
+            ],
+            "translated_text": "Output: Este documento sugiere un <br>diseño de alta calidad de arquitectura de detección de rostros en rotación en tiempo real para el reconocimiento de gestos de smart TV</br>. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz de Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "face detection": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation <br>face detection</br> architecture for gesture recognition of smart TV.",
+                "For high performance rotated <br>face detection</br>, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested <br>face detection</br> device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "This paper suggests a design of high quality real-time rotation <br>face detection</br> architecture for gesture recognition of smart TV.",
+                "For high performance rotated <br>face detection</br>, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "As a result, suggested <br>face detection</br> device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este documento sugiere un diseño de alta calidad de una arquitectura de detección de rostros en tiempo real para el reconocimiento de gestos de televisores inteligentes.",
+                "Output: Para la detección de <br>caras rotadas</br> de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), que es robusta contra cambios de iluminación.",
+                "Output: Como resultado, el dispositivo de detección de <br>rostros</br> sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo."
+            ],
+            "translated_text": "Output: Este documento sugiere un diseño de alta calidad de una arquitectura de detección de rostros en tiempo real para el reconocimiento de gestos de televisores inteligentes. Output: Para la detección de <br>caras rotadas</br> de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), que es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz de Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Output: Como resultado, el dispositivo de detección de <br>rostros</br> sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    "caras rotadas",
+                    "rostros"
+                ],
+                [
+                    "caras rotadas",
+                    "rostros"
+                ]
+            ]
+        },
+        "gesture recognition": {
+            "translated_key": "gestos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for <br>gesture recognition</br> of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for <br>gesture recognition</br> of smart TV."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este documento sugiere un diseño de alta calidad de arquitectura de detección de rostros en tiempo real para el reconocimiento de <br>gestos</br> de televisores inteligentes."
+            ],
+            "translated_text": "Output: Este documento sugiere un diseño de alta calidad de arquitectura de detección de rostros en tiempo real para el reconocimiento de <br>gestos</br> de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz de Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "hardware structure": {
+            "translated_key": "hardware propuesta",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed <br>hardware structure</br> was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed <br>hardware structure</br> was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de <br>hardware propuesta</br> estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de <br>hardware propuesta</br> estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Image Resizer,": {
+            "translated_key": "Redimensionador de Imágenes,",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, <br>Image Resizer,</br> Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, <br>Image Resizer,</br> Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, <br>Redimensionador de Imágenes,</br> Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, <br>Redimensionador de Imágenes,</br> Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Image Rotator": {
+            "translated_key": "Rotador de Imágenes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, <br>Image Rotator</br>, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, <br>Image Rotator</br>, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, <br>Rotador de Imágenes</br>, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, <br>Rotador de Imágenes</br>, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Image Scaler": {
+            "translated_key": "Escalador de Imágenes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, <br>Image Scaler</br>, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, <br>Image Scaler</br>, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, <br>Escalador de Imágenes</br>, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, <br>Escalador de Imágenes</br>, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MCT": {
+            "translated_key": "MCT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-<br>MCT</br>(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, <br>MCT</br> Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "For high performance rotated face detection, the multiple-<br>MCT</br>(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, <br>MCT</br> Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura múltiple de <br>MCT</br> (Transformación de Censo Modificada), que es robusta contra cambios de iluminación.",
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de <br>MCT</br>, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Output: Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura múltiple de <br>MCT</br> (Transformación de Censo Modificada), que es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de <br>MCT</br>, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MCT Generator": {
+            "translated_key": "Generador de MCT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, <br>MCT Generator</br>, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, <br>MCT Generator</br>, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, <br>Generador de MCT</br>, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, <br>Generador de MCT</br>, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Memory Controller Interface": {
+            "translated_key": "Interfaz del Controlador de Memoria",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, <br>Memory Controller Interface</br>, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, <br>Memory Controller Interface</br>, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, <br>Interfaz del Controlador de Memoria</br>, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, <br>Interfaz del Controlador de Memoria</br>, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Modified Census Transform": {
+            "translated_key": "Transformación de Censo Modificada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(<br>Modified Census Transform</br>) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "For high performance rotated face detection, the multiple-MCT(<br>Modified Census Transform</br>) architecture, which is robust against lighting change, was used."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura multiple-MCT (<br>Transformación de Censo Modificada</br>), que es robusta contra cambios de iluminación."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Output: Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura multiple-MCT (<br>Transformación de Censo Modificada</br>), que es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz de Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Noise Filter": {
+            "translated_key": "Filtro de Ruido",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, <br>Noise Filter</br>, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, <br>Noise Filter</br>, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, <br>Filtro de Ruido</br>, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, <br>Filtro de Ruido</br>, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Overlay Processor": {
+            "translated_key": "Procesador de Superposición",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, <br>Overlay Processor</br> and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, <br>Overlay Processor</br> and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, <br>Procesador de Superposición</br> y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, <br>Procesador de Superposición</br> y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Position Resizer,": {
+            "translated_key": "Redimensionador de Posición,",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, <br>Position Resizer,</br> Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, <br>Position Resizer,</br> Data Grouper, Overlay Processor and Color Overlay Processer."
+            ],
+            "translated_annotated_samples": [
+                "Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, <br>Redimensionador de Posición,</br> Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. Output: La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz del Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, <br>Redimensionador de Posición,</br> Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "real-time processing": {
+            "translated_key": "en tiempo real",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time rotation face detection architecture for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct <br>real-time processing</br> at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "As a result, suggested face detection device can conduct <br>real-time processing</br> at speed of at least 30 frames per second."
+            ],
+            "translated_annotated_samples": [
+                "Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento <br>en tiempo real</br> a una velocidad de al menos 30 cuadros por segundo."
+            ],
+            "translated_text": "Este documento sugiere un diseño de arquitectura de detección de rostros en rotación en tiempo real de alta calidad para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz de Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento <br>en tiempo real</br> a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "rotation face detection architecture": {
+            "translated_key": "arquitectura de detección de rostros en rotación en tiempo real",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper suggests a design of high quality real-time <br>rotation face detection architecture</br> for gesture recognition of smart TV.",
+                "For high performance rotated face detection, the multiple-MCT(Modified Census Transform) architecture, which is robust against lighting change, was used.",
+                "The Adaboost learning algorithm was used for creating optimized learning data.",
+                "The proposed hardware structure was composed of Color Space Converter, Image Resizer, Noise Filter, Memory Controller Interface, Image Rotator, Image Scaler, MCT Generator, Candidate Detector, Confidence Switch, Confidence Mapper, Position Resizer, Data Grouper, Overlay Processor and Color Overlay Processer.",
+                "As a result, suggested face detection device can conduct real-time processing at speed of at least 30 frames per second."
+            ],
+            "original_annotated_samples": [
+                "This paper suggests a design of high quality real-time <br>rotation face detection architecture</br> for gesture recognition of smart TV."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este documento sugiere un diseño de alta calidad de una <br>arquitectura de detección de rostros en rotación en tiempo real</br> para el reconocimiento de gestos de televisores inteligentes."
+            ],
+            "translated_text": "Output: Este documento sugiere un diseño de alta calidad de una <br>arquitectura de detección de rostros en rotación en tiempo real</br> para el reconocimiento de gestos de televisores inteligentes. Para la detección de rostros rotados de alto rendimiento, se utilizó la arquitectura de múltiples MCT (Transformación de Censo Modificada), la cual es robusta contra cambios de iluminación. El algoritmo de aprendizaje Adaboost se utilizó para crear datos de aprendizaje optimizados. La estructura de hardware propuesta estaba compuesta por Convertidor de Espacio de Color, Redimensionador de Imágenes, Filtro de Ruido, Interfaz de Controlador de Memoria, Rotador de Imágenes, Escalador de Imágenes, Generador de MCT, Detector de Candidatos, Interruptor de Confianza, Mapeador de Confianza, Redimensionador de Posición, Agrupador de Datos, Procesador de Superposición y Procesador de Superposición de Color. Como resultado, el dispositivo de detección facial sugerido puede realizar un procesamiento en tiempo real a una velocidad de al menos 30 cuadros por segundo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

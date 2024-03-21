@@ -1,0 +1,392 @@
+{
+    "id": "S030439911200040X",
+    "original_text": "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17]. An inadequacy of circular averaging is that it neglects astigmatism. Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile. A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23]. Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence. Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24].",
+    "original_translation": "Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimentales 2D [4,8,11] o mediante promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir la PSD en sectores donde los anillos de Thon son aproximados por arcos circulares [15,21], aplicar detección de bordes Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o utilizar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24].",
+    "original_sentences": [
+        "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+        "An inadequacy of circular averaging is that it neglects astigmatism.",
+        "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+        "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+        "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+        "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+    ],
+    "error_count": 5,
+    "keys": {
+        "1D profile": {
+            "translated_key": "perfil 1D",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained <br>1D profile</br>.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained <br>1D profile</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el <br>perfil 1D</br> obtenido."
+            ],
+            "translated_text": "Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimentales 2D [4,8,11] o mediante promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. Output: El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el <br>perfil 1D</br> obtenido. Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir la PSD en sectores donde los anillos de Thon son aproximados por arcos circulares [15,21], aplicar detección de bordes Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o utilizar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "1D radial profiles": {
+            "translated_key": "1D",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use <br>1D radial profiles</br> obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "Some methods use <br>1D radial profiles</br> obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos métodos utilizan perfiles radiales <br>1D</br> obtenidos a partir del promedio circular de PSD experimental 2D [4,8,11] o mediante un promedio elíptico [17]."
+            ],
+            "translated_text": "Output: Algunos métodos utilizan perfiles radiales <br>1D</br> obtenidos a partir del promedio circular de PSD experimental 2D [4,8,11] o mediante un promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir la PSD en sectores donde los anillos de Thon son aproximados por arcos circulares [15,21], aplicar detección de bordes Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o utilizar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "2D experimental PSD": {
+            "translated_key": "PSD experimental 2D",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of <br>2D experimental PSD</br> [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "Some methods use 1D radial profiles obtained from circular averaging of <br>2D experimental PSD</br> [4,8,11] or by elliptical averaging [17]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de <br>PSD experimental 2D</br> [4,8,11] o mediante un promedio elíptico [17]."
+            ],
+            "translated_text": "Output: Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de <br>PSD experimental 2D</br> [4,8,11] o mediante un promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir la PSD en sectores donde los anillos de Thon son aproximados por arcos circulares [15,21], aplicar detección de bordes Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o utilizar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "2D PSD optimization": {
+            "translated_key": "PSD 2D",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully <br>2D PSD optimization</br> [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "Some other approaches for estimating CTF parameters do a fully <br>2D PSD optimization</br> [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completamente <br>PSD 2D</br> [12,14,18,20] pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia."
+            ],
+            "translated_text": "Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimentales 2D [4,8,11] o mediante promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir la PSD en sectores donde los anillos de Thon son aproximados por arcos circulares [15,21], aplicar detección de bordes Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o utilizar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Output: Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completamente <br>PSD 2D</br> [12,14,18,20] pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "astigmatism": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects <br>astigmatism</br>.",
+                "<br>astigmatism</br> distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider <br>astigmatism</br> involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without <br>astigmatism</br> [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "An inadequacy of circular averaging is that it neglects <br>astigmatism</br>.",
+                "<br>astigmatism</br> distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider <br>astigmatism</br> involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without <br>astigmatism</br> [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Una de las deficiencias del promedio circular es que descuida el <br>astigmatismo</br>.",
+                "Output: <br>El astigmatismo</br> distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido.",
+                "Output: Algunos algoritmos que consideran el <br>astigmatismo</br> involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de promediar elípticamente, determinar la relación entre los promedios circulares 1D con y sin <br>astigmatismo</br> [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]."
+            ],
+            "translated_text": "Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimentales 2D [4,8,11] o mediante promedio elíptico [17]. Output: Una de las deficiencias del promedio circular es que descuida el <br>astigmatismo</br>. Output: <br>El astigmatismo</br> distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Output: Algunos algoritmos que consideran el <br>astigmatismo</br> involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de promediar elípticamente, determinar la relación entre los promedios circulares 1D con y sin <br>astigmatismo</br> [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    "astigmatismo",
+                    "El astigmatismo",
+                    "astigmatismo",
+                    "astigmatismo"
+                ],
+                [
+                    "astigmatismo",
+                    "El astigmatismo",
+                    "astigmatismo",
+                    "astigmatismo"
+                ]
+            ]
+        },
+        "Astigmatism": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects <br>Astigmatism</br>.",
+                "<br>Astigmatism</br> distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider <br>Astigmatism</br> involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without <br>Astigmatism</br> [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "An inadequacy of circular averaging is that it neglects <br>Astigmatism</br>.",
+                "<br>Astigmatism</br> distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider <br>Astigmatism</br> involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without <br>Astigmatism</br> [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Una de las deficiencias del promedio circular es que descuida el <br>Astigmatismo</br>.",
+                "Output: <br>El astigmatismo</br> distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido.",
+                "Output: Algunos algoritmos que consideran el <br>astigmatismo</br> involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin <br>astigmatismo</br> [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]."
+            ],
+            "translated_text": "Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimentales 2D [4,8,11] o mediante promedio elíptico [17]. Output: Una de las deficiencias del promedio circular es que descuida el <br>Astigmatismo</br>. Output: <br>El astigmatismo</br> distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Output: Algunos algoritmos que consideran el <br>astigmatismo</br> involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin <br>astigmatismo</br> [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    "Astigmatismo",
+                    "El astigmatismo",
+                    "astigmatismo",
+                    "astigmatismo"
+                ],
+                [
+                    "Astigmatismo",
+                    "El astigmatismo",
+                    "astigmatismo",
+                    "astigmatismo"
+                ]
+            ]
+        },
+        "ATLAS": {
+            "translated_key": "ATLAS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in <br>ATLAS</br> [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in <br>ATLAS</br> [23]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de promediar elípticamente, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en <br>ATLAS</br> [23]."
+            ],
+            "translated_text": "Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimentales 2D [4,8,11] o mediante promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de promediar elípticamente, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en <br>ATLAS</br> [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Canny edge detection": {
+            "translated_key": "detección de bordes Canny",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying <br>Canny edge detection</br> to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying <br>Canny edge detection</br> to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicando <br>detección de bordes Canny</br> para encontrar los anillos [17] antes de realizar un promedio elíptico, determinando la relación entre los promedios circulares 1D con y sin astigmatismo [22], o utilizando un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]."
+            ],
+            "translated_text": "Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimentales 2D [4,8,11] o mediante promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicando <br>detección de bordes Canny</br> para encontrar los anillos [17] antes de realizar un promedio elíptico, determinando la relación entre los promedios circulares 1D con y sin astigmatismo [22], o utilizando un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "circular averaging": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from <br>circular averaging</br> of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of <br>circular averaging</br> is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "Some methods use 1D radial profiles obtained from <br>circular averaging</br> of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of <br>circular averaging</br> is that it neglects astigmatism."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos métodos utilizan perfiles radiales 1D obtenidos a partir de <br>promedios circulares</br> de PSD experimental 2D [4,8,11] o mediante promedios elípticos [17].",
+                "Output: Una insuficiencia del <br>promedio circular</br> es que descuida el astigmatismo."
+            ],
+            "translated_text": "Output: Algunos métodos utilizan perfiles radiales 1D obtenidos a partir de <br>promedios circulares</br> de PSD experimental 2D [4,8,11] o mediante promedios elípticos [17]. Output: Una insuficiencia del <br>promedio circular</br> es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir la PSD en sectores donde los anillos de Thon son aproximados por arcos circulares [15,21], aplicar detección de bordes Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o utilizar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    "promedios circulares",
+                    "promedio circular"
+                ],
+                [
+                    "promedios circulares",
+                    "promedio circular"
+                ]
+            ]
+        },
+        "CTF": {
+            "translated_key": "CTF",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating <br>CTF</br> parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "Some other approaches for estimating <br>CTF</br> parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos otros enfoques para estimar los parámetros de <br>CTF</br> realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia."
+            ],
+            "translated_text": "Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimentales 2D [4,8,11] o mediante promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir la PSD en sectores donde los anillos de Thon son aproximados por arcos circulares [15,21], aplicar detección de bordes Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o utilizar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Output: Algunos otros enfoques para estimar los parámetros de <br>CTF</br> realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "elliptical averaging": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by <br>elliptical averaging</br> [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to <br>elliptical averaging</br>, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by <br>elliptical averaging</br> [17].",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to <br>elliptical averaging</br>, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimental 2D [4,8,11] o mediante <br>promedio elíptico</br> [17].",
+                "Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de la <br>averaging elíptica</br>, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]."
+            ],
+            "translated_text": "Output: Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimental 2D [4,8,11] o mediante <br>promedio elíptico</br> [17]. Una desventaja del promedio circular es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el PSD en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de la <br>averaging elíptica</br>, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    "promedio elíptico",
+                    "averaging elíptica"
+                ],
+                [
+                    "promedio elíptico",
+                    "averaging elíptica"
+                ]
+            ]
+        },
+        "PSD": {
+            "translated_key": "PSD",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental <br>PSD</br> [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the Thon rings and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the <br>PSD</br> into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D <br>PSD</br> optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental <br>PSD</br> [4,8,11] or by elliptical averaging [17].",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the <br>PSD</br> into sectors where Thon rings are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D <br>PSD</br> optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimental 2D [4,8,11] o mediante promedio elíptico [17].",
+                "Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el <br>PSD</br> en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23].",
+                "Output: Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completamente 2D de <br>PSD</br> [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia."
+            ],
+            "translated_text": "Output: Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimental 2D [4,8,11] o mediante promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. El astigmatismo distorsiona la forma circular de los anillos de Thon y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el <br>PSD</br> en sectores donde los anillos de Thon se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Output: Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completamente 2D de <br>PSD</br> [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Thon rings": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Some methods use 1D radial profiles obtained from circular averaging of 2D experimental PSD [4,8,11] or by elliptical averaging [17].",
+                "An inadequacy of circular averaging is that it neglects astigmatism.",
+                "Astigmatism distorts the circular shape of the <br>Thon rings</br> and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where <br>Thon rings</br> are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23].",
+                "Some other approaches for estimating CTF parameters do a fully 2D PSD optimization [12,14,18,20] but they usually regulate and fit numerous parameters by an extensive search that does not guarantee convergence.",
+                "Furthermore, only a few schemes that were developed for defocus estimation provide an error analysis [23,24]."
+            ],
+            "original_annotated_samples": [
+                "Astigmatism distorts the circular shape of the <br>Thon rings</br> and thus decreases their modulation depth in the obtained 1D profile.",
+                "A few algorithms that consider astigmatism involve concepts such as dividing the PSD into sectors where <br>Thon rings</br> are approximated by circular arcs [15,21], applying Canny edge detection to find the rings [17] prior to elliptical averaging, determining the relationship between the 1D circular averages with and without astigmatism [22], or using a brute-force scan of a database containing precalculated patterns as in ATLAS [23]."
+            ],
+            "translated_annotated_samples": [
+                "Output: El astigmatismo distorsiona la forma circular de los <br>anillos Thon</br> y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido.",
+                "Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el PSD en sectores donde los <br>anillos de Thon</br> se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]."
+            ],
+            "translated_text": "Algunos métodos utilizan perfiles radiales 1D obtenidos a partir del promedio circular de PSD experimentales 2D [4,8,11] o mediante promedio elíptico [17]. Una desventaja del promedio circular es que descuida el astigmatismo. Output: El astigmatismo distorsiona la forma circular de los <br>anillos Thon</br> y, por lo tanto, disminuye su profundidad de modulación en el perfil 1D obtenido. Output: Algunos algoritmos que consideran el astigmatismo involucran conceptos como dividir el PSD en sectores donde los <br>anillos de Thon</br> se aproximan por arcos circulares [15,21], aplicar detección de bordes de Canny para encontrar los anillos [17] antes de realizar un promedio elíptico, determinar la relación entre los promedios circulares 1D con y sin astigmatismo [22], o usar un escaneo de fuerza bruta de una base de datos que contiene patrones precalculados como en ATLAS [23]. Algunos otros enfoques para estimar los parámetros CTF realizan una optimización completa de PSD en 2D [12,14,18,20], pero generalmente regulan y ajustan numerosos parámetros mediante una búsqueda extensa que no garantiza la convergencia. Además, solo unos pocos esquemas desarrollados para la estimación de desenfoque proporcionan un análisis de error [23,24]. ",
+            "candidates": [],
+            "error": [
+                [
+                    "anillos Thon",
+                    "anillos de Thon"
+                ],
+                [
+                    "anillos Thon",
+                    "anillos de Thon"
+                ]
+            ]
+        }
+    }
+}

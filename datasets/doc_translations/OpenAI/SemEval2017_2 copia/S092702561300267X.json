@@ -1,0 +1,591 @@
+{
+    "id": "S092702561300267X",
+    "original_text": "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24]. Back diffusion was disregarded. A way to access the thermodynamic data (e.g. Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested. With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.). As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting. Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary. In addition, the model presented in this paper is extended to consider the back diffusion into the solid. With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost.",
+    "original_translation": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable.",
+    "original_sentences": [
+        "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+        "Back diffusion was disregarded.",
+        "A way to access the thermodynamic data (e.g.",
+        "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+        "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+        "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+        "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+        "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+        "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+    ],
+    "translated_text_sentences": [
+        "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico.",
+        "Se desestimó la retrodifusión.",
+        "Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation).",
+        "Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.).",
+        "Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador.",
+        "Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos.",
+        "Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido.",
+        "Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable."
+    ],
+    "error_count": 12,
+    "keys": {
+        "back diffusion": {
+            "translated_key": "retrodifusión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "<br>back diffusion</br> was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the <br>back diffusion</br> into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "<br>back diffusion</br> was disregarded.",
+                "In addition, the model presented in this paper is extended to consider the <br>back diffusion</br> into the solid."
+            ],
+            "translated_annotated_samples": [
+                "Se desestimó la <br>retrodifusión</br>.",
+                "Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la <br>retrodifusión</br>. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Back diffusion": {
+            "translated_key": "retrodifusión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "<br>Back diffusion</br> was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the <br>Back diffusion</br> into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "<br>Back diffusion</br> was disregarded.",
+                "In addition, the model presented in this paper is extended to consider the <br>Back diffusion</br> into the solid."
+            ],
+            "translated_annotated_samples": [
+                "Se desestimó la <br>retrodifusión</br>.",
+                "Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la <br>retrodifusión</br>. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "casting process simulations": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform <br>casting process simulations</br> with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "current model": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the <br>current model</br> is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "Therefore, the <br>current model</br> is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary."
+            ],
+            "translated_annotated_samples": [
+                "Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "discretized volume elements": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the <br>discretized volume elements</br>, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the <br>discretized volume elements</br>, the time steps and the calculation iterations per time step, the calculation becomes exhausting."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "extended to consider the back diffusion into the solid": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is <br>extended to consider the back diffusion into the solid</br>.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "In addition, the model presented in this paper is <br>extended to consider the back diffusion into the solid</br>."
+            ],
+            "translated_annotated_samples": [
+                "Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "full diffusion-governed solidification kinetics": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated <br>full diffusion-governed solidification kinetics</br> for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model": {
+            "translated_key": "termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to <br>incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model</br> [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "In previous publications the present authors proposed a method to <br>incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model</br> [23,24]."
+            ],
+            "translated_annotated_samples": [
+                "En publicaciones anteriores, los autores propusieron un método para incorporar la <br>termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida</br> en un modelo de solidificación promedio de volumen multifásico."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la <br>termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida</br> en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "In Situ Adaptive Tabulation": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (<br>In Situ Adaptive Tabulation</br>) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (<br>In Situ Adaptive Tabulation</br>) was suggested."
+            ],
+            "translated_annotated_samples": [
+                "Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.)."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "ISAT": {
+            "translated_key": "ISAT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program <br>ISAT</br> (In Situ Adaptive Tabulation) was suggested.",
+                "With the <br>ISAT</br> approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "Thermo-Calc [1]) through a tabulation and interpolation program <br>ISAT</br> (In Situ Adaptive Tabulation) was suggested.",
+                "With the <br>ISAT</br> approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.)."
+            ],
+            "translated_annotated_samples": [
+                "Con el enfoque <br>ISAT</br> es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.).",
+                "Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque <br>ISAT</br> es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "ISAT approach": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the <br>ISAT approach</br> it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "With the <br>ISAT approach</br> it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.)."
+            ],
+            "translated_annotated_samples": [
+                "Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "liquid diffusion-governed solidification kinetics": {
+            "translated_key": "cinética de solidificación gobernada por la difusión líquida",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and <br>liquid diffusion-governed solidification kinetics</br> into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and <br>liquid diffusion-governed solidification kinetics</br> into a multiphase volume average solidification model [23,24]."
+            ],
+            "translated_annotated_samples": [
+                "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la <br>cinética de solidificación gobernada por la difusión líquida</br> en un modelo de solidificación promedio de volumen multifásico."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la <br>cinética de solidificación gobernada por la difusión líquida</br> en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "modification of the previous model using a linearized phase diagram": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a <br>modification of the previous model using a linearized phase diagram</br>, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "Therefore, the current model is a <br>modification of the previous model using a linearized phase diagram</br>, and no online call of thermodynamic data is necessary."
+            ],
+            "translated_annotated_samples": [
+                "Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "modifications": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these <br>modifications</br>, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "multiphase volume average solidification model": {
+            "translated_key": "modelo de solidificación promedio de volumen multifásico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a <br>multiphase volume average solidification model</br> [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a <br>multiphase volume average solidification model</br> [23,24]."
+            ],
+            "translated_annotated_samples": [
+                "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un <br>modelo de solidificación promedio de volumen multifásico</br>."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un <br>modelo de solidificación promedio de volumen multifásico</br>. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "online call of thermodynamic data": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no <br>online call of thermodynamic data</br> is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no <br>online call of thermodynamic data</br> is necessary."
+            ],
+            "translated_annotated_samples": [
+                "Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "perform casting process simulations with incorporated full diffusion-governed solidification kinetics": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to <br>perform casting process simulations with incorporated full diffusion-governed solidification kinetics</br> for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [],
+            "translated_annotated_samples": [],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "solid": {
+            "translated_key": "cinética de solidificación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual <br>solid</br> phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the <br>solid</br>.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual <br>solid</br> phase (primary, peritectic, eutectic, etc.).",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the <br>solid</br>."
+            ],
+            "translated_annotated_samples": [
+                "Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador.",
+                "Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una <br>cinética de solidificación</br> gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una <br>cinética de solidificación</br> gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "tabulation and interpolation program": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a <br>tabulation and interpolation program</br> ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "Thermo-Calc [1]) through a <br>tabulation and interpolation program</br> ISAT (In Situ Adaptive Tabulation) was suggested."
+            ],
+            "translated_annotated_samples": [
+                "Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.)."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "ternary alloys": {
+            "translated_key": "aleaciones ternarias",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of <br>ternary alloys</br> and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the thermodynamic data (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the thermodynamic data and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the thermodynamic data is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of thermodynamic data is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for <br>ternary alloys</br> at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of <br>ternary alloys</br> and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24]."
+            ],
+            "translated_annotated_samples": [
+                "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de <br>aleaciones ternarias</br> y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de <br>aleaciones ternarias</br> y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los datos termodinámicos (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los datos termodinámicos es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los datos termodinámicos. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "thermodynamic data": {
+            "translated_key": "datos termodinámicos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In previous publications the present authors proposed a method to incorporate the thermodynamics of ternary alloys and liquid diffusion-governed solidification kinetics into a multiphase volume average solidification model [23,24].",
+                "Back diffusion was disregarded.",
+                "A way to access the <br>thermodynamic data</br> (e.g.",
+                "Thermo-Calc [1]) through a tabulation and interpolation program ISAT (In Situ Adaptive Tabulation) was suggested.",
+                "With the ISAT approach it is possible to perform an online call of the <br>thermodynamic data</br> and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the <br>thermodynamic data</br> is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of <br>thermodynamic data</br> is necessary.",
+                "In addition, the model presented in this paper is extended to consider the back diffusion into the solid.",
+                "With these modifications, the model can be used to perform casting process simulations with incorporated full diffusion-governed solidification kinetics for ternary alloys at a reasonable computation cost."
+            ],
+            "original_annotated_samples": [
+                "A way to access the <br>thermodynamic data</br> (e.g.",
+                "With the ISAT approach it is possible to perform an online call of the <br>thermodynamic data</br> and trace the formation of each individual solid phase (primary, peritectic, eutectic, etc.).",
+                "As the number of calls of the <br>thermodynamic data</br> is equal to the product of the number of the discretized volume elements, the time steps and the calculation iterations per time step, the calculation becomes exhausting.",
+                "Therefore, the current model is a modification of the previous model using a linearized phase diagram, and no online call of <br>thermodynamic data</br> is necessary."
+            ],
+            "translated_annotated_samples": [
+                "Se sugirió una forma de acceder a los <br>datos termodinámicos</br> (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation).",
+                "Dado que el número de llamadas a los <br>datos termodinámicos</br> es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador.",
+                "Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los <br>datos termodinámicos</br>.",
+                "Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido."
+            ],
+            "translated_text": "En publicaciones anteriores, los autores propusieron un método para incorporar la termodinámica de aleaciones ternarias y la cinética de solidificación gobernada por la difusión líquida en un modelo de solidificación promedio de volumen multifásico. Se desestimó la retrodifusión. Se sugirió una forma de acceder a los <br>datos termodinámicos</br> (por ejemplo, Thermo-Calc [1]) a través de un programa de tabulación e interpolación llamado ISAT (In Situ Adaptive Tabulation). Con el enfoque ISAT es posible realizar una llamada en línea de los datos termodinámicos y rastrear la formación de cada fase sólida individual (primaria, peritéctica, eutéctica, etc.). Dado que el número de llamadas a los <br>datos termodinámicos</br> es igual al producto del número de elementos de volumen discretizados, los pasos de tiempo y las iteraciones de cálculo por paso de tiempo, el cálculo se vuelve agotador. Por lo tanto, el modelo actual es una modificación del modelo anterior que utiliza un diagrama de fases linealizado, y no es necesario realizar una llamada en línea de los <br>datos termodinámicos</br>. Además, el modelo presentado en este documento se extiende para considerar la retrodifusión en el sólido. Con estas modificaciones, el modelo puede utilizarse para realizar simulaciones de procesos de fundición con una cinética de solidificación gobernada por la difusión completa para aleaciones ternarias a un costo computacional razonable. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

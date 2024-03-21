@@ -1,0 +1,283 @@
+{
+    "id": "S1877750315300119",
+    "original_text": "Generalized polynomial chaos expansions. One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34]. As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components. Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ. In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure. We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34]. Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2. Since Chaospy has the Rosenblatt transformation underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities.",
+    "original_translation": "Expansiones generalizadas del caos polinómico. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34]. Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el procedimiento discretizado de Stieltjes. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades.",
+    "original_sentences": [
+        "Generalized polynomial chaos expansions.",
+        "One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34].",
+        "As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+        "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+        "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure.",
+        "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+        "Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+        "Since Chaospy has the Rosenblatt transformation underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities."
+    ],
+    "translated_text_sentences": [
+        "Expansiones generalizadas del caos polinómico.",
+        "Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34].",
+        "Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes.",
+        "Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ.",
+        "En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el procedimiento discretizado de Stieltjes.",
+        "Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34].",
+        "Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2.",
+        "Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades."
+    ],
+    "error_count": 2,
+    "keys": {
+        "Askey-Wilson scheme": {
+            "translated_key": "esquema de Askey-Wilson",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Generalized polynomial chaos expansions.",
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34].",
+                "As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+                "In any case, R is either selected from the <br>Askey-Wilson scheme</br>, or calculated using the discretized Stieltjes procedure.",
+                "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+                "Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities."
+            ],
+            "original_annotated_samples": [
+                "In any case, R is either selected from the <br>Askey-Wilson scheme</br>, or calculated using the discretized Stieltjes procedure."
+            ],
+            "translated_annotated_samples": [
+                "En cualquier caso, R se selecciona del <br>esquema de Askey-Wilson</br>, o se calcula utilizando el procedimiento discretizado de Stieltjes."
+            ],
+            "translated_text": "Expansiones generalizadas del caos polinómico. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34]. Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del <br>esquema de Askey-Wilson</br>, o se calcula utilizando el procedimiento discretizado de Stieltjes. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "computational framework": {
+            "translated_key": "marco computacional",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Generalized polynomial chaos expansions.",
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34].",
+                "As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+                "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure.",
+                "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+                "Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the <br>computational framework</br>, generalized polynomial chaos expansions are in fact available for all densities."
+            ],
+            "original_annotated_samples": [
+                "Since Chaospy has the Rosenblatt transformation underlying the <br>computational framework</br>, generalized polynomial chaos expansions are in fact available for all densities."
+            ],
+            "translated_annotated_samples": [
+                "Dado que Chaospy tiene la transformación de Rosenblatt como base del <br>marco computacional</br>, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades."
+            ],
+            "translated_text": "Expansiones generalizadas del caos polinómico. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34]. Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el procedimiento discretizado de Stieltjes. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la transformación de Rosenblatt como base del <br>marco computacional</br>, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "discretized Stieltjes procedure": {
+            "translated_key": "procedimiento discretizado de Stieltjes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Generalized polynomial chaos expansions.",
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34].",
+                "As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+                "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the <br>discretized Stieltjes procedure</br>.",
+                "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+                "Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities."
+            ],
+            "original_annotated_samples": [
+                "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the <br>discretized Stieltjes procedure</br>."
+            ],
+            "translated_annotated_samples": [
+                "En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el <br>procedimiento discretizado de Stieltjes</br>."
+            ],
+            "translated_text": "Expansiones generalizadas del caos polinómico. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34]. Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el <br>procedimiento discretizado de Stieltjes</br>. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "generalised polynomial chaos expansion": {
+            "translated_key": "expansión generalizada del caos polinómico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Generalized polynomial chaos expansions.",
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through <br>generalised polynomial chaos expansion</br> [34].",
+                "As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+                "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure.",
+                "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+                "Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities."
+            ],
+            "original_annotated_samples": [
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through <br>generalised polynomial chaos expansion</br> [34]."
+            ],
+            "translated_annotated_samples": [
+                "Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la <br>expansión generalizada del caos polinómico</br> [34]."
+            ],
+            "translated_text": "Expansiones generalizadas del caos polinómico. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la <br>expansión generalizada del caos polinómico</br> [34]. Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el procedimiento discretizado de Stieltjes. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "generalized polynomial chaos expansions": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>generalized polynomial chaos expansions</br>.",
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34].",
+                "As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+                "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure.",
+                "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+                "Dakota, Turns, and Chaospy all support <br>generalized polynomial chaos expansions</br> for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the computational framework, <br>generalized polynomial chaos expansions</br> are in fact available for all densities."
+            ],
+            "original_annotated_samples": [
+                "<br>generalized polynomial chaos expansions</br>.",
+                "Dakota, Turns, and Chaospy all support <br>generalized polynomial chaos expansions</br> for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the computational framework, <br>generalized polynomial chaos expansions</br> are in fact available for all densities."
+            ],
+            "translated_annotated_samples": [
+                "Expansiones generalizadas del <br>caos polinómico</br>.",
+                "Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2.",
+                "Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las <br>expansiones generalizadas del caos polinómico</br> están de hecho disponibles para todas las densidades."
+            ],
+            "translated_text": "Expansiones generalizadas del <br>caos polinómico</br>. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34]. Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el procedimiento discretizado de Stieltjes. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las <br>expansiones generalizadas del caos polinómico</br> están de hecho disponibles para todas las densidades. ",
+            "candidates": [],
+            "error": [
+                [
+                    "caos polinómico",
+                    "expansiones generalizadas del caos polinómico"
+                ]
+            ]
+        },
+        "Generalized polynomial chaos expansions": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Generalized polynomial chaos expansions</br>.",
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34].",
+                "As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+                "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure.",
+                "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+                "Dakota, Turns, and Chaospy all support <br>Generalized polynomial chaos expansions</br> for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the computational framework, <br>Generalized polynomial chaos expansions</br> are in fact available for all densities."
+            ],
+            "original_annotated_samples": [
+                "<br>Generalized polynomial chaos expansions</br>.",
+                "Dakota, Turns, and Chaospy all support <br>Generalized polynomial chaos expansions</br> for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the computational framework, <br>Generalized polynomial chaos expansions</br> are in fact available for all densities."
+            ],
+            "translated_annotated_samples": [
+                "Expansiones generalizadas del <br>caos polinómico</br>.",
+                "Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2.",
+                "Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las <br>expansiones generalizadas del caos polinómico</br> están de hecho disponibles para todas las densidades."
+            ],
+            "translated_text": "Expansiones generalizadas del <br>caos polinómico</br>. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34]. Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el procedimiento discretizado de Stieltjes. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las <br>expansiones generalizadas del caos polinómico</br> están de hecho disponibles para todas las densidades. ",
+            "candidates": [],
+            "error": [
+                [
+                    "caos polinómico",
+                    "expansiones generalizadas del caos polinómico"
+                ]
+            ]
+        },
+        "model densities": {
+            "translated_key": "caos polinómico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Generalized polynomial chaos expansions.",
+                "One approach to <br>model densities</br> with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34].",
+                "As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+                "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure.",
+                "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+                "Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities."
+            ],
+            "original_annotated_samples": [
+                "One approach to <br>model densities</br> with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34]."
+            ],
+            "translated_annotated_samples": [
+                "Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del <br>caos polinómico</br> [34]."
+            ],
+            "translated_text": "Expansiones generalizadas del caos polinómico. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del <br>caos polinómico</br> [34]. Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el procedimiento discretizado de Stieltjes. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Rosenblatt transformation": {
+            "translated_key": "transformación de Rosenblatt",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Generalized polynomial chaos expansions.",
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34].",
+                "As described in detail in Section 3.1, a <br>Rosenblatt transformation</br> allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+                "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure.",
+                "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+                "Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the <br>Rosenblatt transformation</br> underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities."
+            ],
+            "original_annotated_samples": [
+                "As described in detail in Section 3.1, a <br>Rosenblatt transformation</br> allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Since Chaospy has the <br>Rosenblatt transformation</br> underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities."
+            ],
+            "translated_annotated_samples": [
+                "Como se describe en detalle en la Sección 3.1, una <br>transformación de Rosenblatt</br> permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes.",
+                "Dado que Chaospy tiene la <br>transformación de Rosenblatt</br> como base del marco computacional, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades."
+            ],
+            "translated_text": "Expansiones generalizadas del caos polinómico. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el problema de incertidumbre como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34]. Como se describe en detalle en la Sección 3.1, una <br>transformación de Rosenblatt</br> permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el procedimiento discretizado de Stieltjes. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la <br>transformación de Rosenblatt</br> como base del marco computacional, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "uncertainty problem": {
+            "translated_key": "problema de incertidumbre",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Generalized polynomial chaos expansions.",
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the <br>uncertainty problem</br> as a set of independent components through generalised polynomial chaos expansion [34].",
+                "As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.",
+                "Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.",
+                "In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure.",
+                "We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].",
+                "Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2.",
+                "Since Chaospy has the Rosenblatt transformation underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities."
+            ],
+            "original_annotated_samples": [
+                "One approach to model densities with stochastically dependent components numerically, is to reformulate the <br>uncertainty problem</br> as a set of independent components through generalised polynomial chaos expansion [34]."
+            ],
+            "translated_annotated_samples": [
+                "Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el <br>problema de incertidumbre</br> como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34]."
+            ],
+            "translated_text": "Expansiones generalizadas del caos polinómico. Un enfoque para modelar densidades con componentes estocásticamente dependientes numéricamente, es reformular el <br>problema de incertidumbre</br> como un conjunto de componentes independientes a través de la expansión generalizada del caos polinómico [34]. Como se describe en detalle en la Sección 3.1, una transformación de Rosenblatt permite el mapeo entre cualquier dominio y el hiper-cubo unitario [0, 1]D. Con una doble transformación podemos reformular la función de respuesta f como f(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R), donde R es una variable aleatoria extraída de pR, que por simplicidad se elige que consista de componentes independientes. Además, {Φn}n∈IN se construye para ser ortogonal con respecto a LR, no LQ. En cualquier caso, R se selecciona del esquema de Askey-Wilson, o se calcula utilizando el procedimiento discretizado de Stieltjes. Destacamos que la precisión de la aproximación se deteriora si la composición de la transformación TQ−1∘TR no es suave [34]. Dakota, Turns y Chaospy admiten todas las expansiones generalizadas del caos polinómico para variables estocásticas independientes y la cópula Normal/Nataf enumerada en la Tabla 2. Dado que Chaospy tiene la transformación de Rosenblatt como base del marco computacional, las expansiones generalizadas del caos polinómico están de hecho disponibles para todas las densidades. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

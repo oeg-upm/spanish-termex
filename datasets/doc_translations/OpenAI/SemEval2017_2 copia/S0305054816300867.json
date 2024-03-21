@@ -1,0 +1,730 @@
+{
+    "id": "S0305054816300867",
+    "original_text": "The scheduling process we adopt matches a multiple stage stochastic programming approach. Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7]. However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations. As such, the decision problem can be viewed as a three-stage recourse model [5,6]. Solving the scheduling problem is further complicated because the recourse function is integer. Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse. Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]). We follow a sample average approximation approach (SAA) which uses this framework. Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts. We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3].",
+    "original_translation": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al.",
+    "original_sentences": [
+        "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+        "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+        "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+        "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+        "Solving the scheduling problem is further complicated because the recourse function is integer.",
+        "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+        "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+        "We follow a sample average approximation approach (SAA) which uses this framework.",
+        "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+        "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+    ],
+    "translated_text_sentences": [
+        "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas.",
+        "Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders.",
+        "Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones.",
+        "Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas.",
+        "Resolver el problema de programación se complica aún más porque la función de recurso es entera.",
+        "Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero.",
+        "Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica.",
+        "Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco.",
+        "Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros.",
+        "Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al."
+    ],
+    "error_count": 0,
+    "keys": {
+        "Benders decomposition": {
+            "translated_key": "descomposición de Benders",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or <br>Benders decomposition</br> [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or <br>Benders decomposition</br> [44,6,7]."
+            ],
+            "translated_annotated_samples": [
+                "Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la <br>descomposición de Benders</br>."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la <br>descomposición de Benders</br>. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "decision problem": {
+            "translated_key": "problema de decisión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the <br>decision problem</br> can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "As such, the <br>decision problem</br> can be viewed as a three-stage recourse model [5,6]."
+            ],
+            "translated_annotated_samples": [
+                "Como tal, el <br>problema de decisión</br> se puede ver como un modelo de recurso de tres etapas."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el <br>problema de decisión</br> se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "first-stage realization": {
+            "translated_key": "realización de la primera etapa",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the <br>first-stage realization</br> and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Moreover, we prove and exploit a specific relationship between the <br>first-stage realization</br> and the optimal number of scheduled cancellations to speed up the computation of integer cuts."
+            ],
+            "translated_annotated_samples": [
+                "Además, demostramos y explotamos una relación específica entre la <br>realización de la primera etapa</br> y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la <br>realización de la primera etapa</br> y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "generate optimal cuts of the linear sub-problem and the integer sub-problem": {
+            "translated_key": "cortes óptimos del subproblema lineal y del subproblema entero",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately <br>generate optimal cuts of the linear sub-problem and the integer sub-problem</br>, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Angulo et al. [1] alternately <br>generate optimal cuts of the linear sub-problem and the integer sub-problem</br>, which improves the practical convergence (see also [15,8])."
+            ],
+            "translated_annotated_samples": [
+                "Angulo et al. generan alternativamente <br>cortes óptimos del subproblema lineal y del subproblema entero</br>, lo que mejora la convergencia práctica."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente <br>cortes óptimos del subproblema lineal y del subproblema entero</br>, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "integer cuts": {
+            "translated_key": "cortes enteros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of <br>integer cuts</br>.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of <br>integer cuts</br>."
+            ],
+            "translated_annotated_samples": [
+                "Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de <br>cortes enteros</br>."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de <br>cortes enteros</br>. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "integer recourse": {
+            "translated_key": "recurso entero",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with <br>integer recourse</br>.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with <br>integer recourse</br>."
+            ],
+            "translated_annotated_samples": [
+                "Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con <br>recurso entero</br>."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con <br>recurso entero</br>. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "integer sub-problem": {
+            "translated_key": "subproblema entero",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the <br>integer sub-problem</br>, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the <br>integer sub-problem</br>, which improves the practical convergence (see also [15,8])."
+            ],
+            "translated_annotated_samples": [
+                "Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del <br>subproblema entero</br>, lo que mejora la convergencia práctica."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del <br>subproblema entero</br>, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Jensens inequality": {
+            "translated_key": "desigualdad de Jensen",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use <br>Jensens inequality</br> [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "We use <br>Jensens inequality</br> [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "translated_annotated_samples": [
+                "Utilizamos la <br>desigualdad de Jensen</br> para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la <br>desigualdad de Jensen</br> para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "linear or convex functions": {
+            "translated_key": "funciones lineales o convexas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with <br>linear or convex functions</br> are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Standard two-stage stochastic programs with <br>linear or convex functions</br> are often solved using the L-shaped method or Benders decomposition [44,6,7]."
+            ],
+            "translated_annotated_samples": [
+                "Los programas estocásticos estándar de dos etapas con <br>funciones lineales o convexas</br> a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con <br>funciones lineales o convexas</br> a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "linear sub-problem": {
+            "translated_key": "subproblema lineal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the <br>linear sub-problem</br> and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Angulo et al. [1] alternately generate optimal cuts of the <br>linear sub-problem</br> and the integer sub-problem, which improves the practical convergence (see also [15,8])."
+            ],
+            "translated_annotated_samples": [
+                "Angulo et al. generan alternativamente cortes óptimos del <br>subproblema lineal</br> y del subproblema entero, lo que mejora la convergencia práctica."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del <br>subproblema lineal</br> y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "L-shaped method": {
+            "translated_key": "método en forma de L",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the <br>L-shaped method</br> or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the <br>L-shaped method</br> or Benders decomposition [44,6,7]."
+            ],
+            "translated_annotated_samples": [
+                "Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el <br>método en forma de L</br> o la descomposición de Benders."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el <br>método en forma de L</br> o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "modified L-shaped decomposition": {
+            "translated_key": "descomposición en forma de L modificada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose <br>modified L-shaped decomposition</br> with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Laporte and Louveaux [26] propose <br>modified L-shaped decomposition</br> with adjusted optimal cuts for two stage stochastic program with integer recourse."
+            ],
+            "translated_annotated_samples": [
+                "Laporte y Louveaux proponen una <br>descomposición en forma de L modificada</br> con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una <br>descomposición en forma de L modificada</br> con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "multiple stage stochastic programming approach": {
+            "translated_key": "programación estocástica de múltiples etapas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a <br>multiple stage stochastic programming approach</br>.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "The scheduling process we adopt matches a <br>multiple stage stochastic programming approach</br>."
+            ],
+            "translated_annotated_samples": [
+                "El proceso de programación que adoptamos coincide con un enfoque de <br>programación estocástica de múltiples etapas</br>."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de <br>programación estocástica de múltiples etapas</br>. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "recourse decision": {
+            "translated_key": "decisión de recurso",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our <br>recourse decision</br> (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "However, our <br>recourse decision</br> (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations."
+            ],
+            "translated_annotated_samples": [
+                "Sin embargo, nuestra <br>decisión de recurso</br> (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra <br>decisión de recurso</br> (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "recourse function": {
+            "translated_key": "función de recurso",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the <br>recourse function</br> is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Solving the scheduling problem is further complicated because the <br>recourse function</br> is integer."
+            ],
+            "translated_annotated_samples": [
+                "Resolver el problema de programación se complica aún más porque la <br>función de recurso</br> es entera."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la <br>función de recurso</br> es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SAA": {
+            "translated_key": "enfoque de aproximación del promedio de muestras",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (<br>SAA</br>) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "We follow a sample average approximation approach (<br>SAA</br>) which uses this framework."
+            ],
+            "translated_annotated_samples": [
+                "Seguimos un <br>enfoque de aproximación del promedio de muestras</br> (SAA) que utiliza este marco."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un <br>enfoque de aproximación del promedio de muestras</br> (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "sample average approximation approach": {
+            "translated_key": "aproximación del promedio de muestras",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a <br>sample average approximation approach</br> (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "We follow a <br>sample average approximation approach</br> (SAA) which uses this framework."
+            ],
+            "translated_annotated_samples": [
+                "Seguimos un enfoque de <br>aproximación del promedio de muestras</br> (SAA) que utiliza este marco."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de <br>aproximación del promedio de muestras</br> (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "scheduled cancellations": {
+            "translated_key": "cancelaciones programadas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (<br>scheduled cancellations</br>) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of <br>scheduled cancellations</br> to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "However, our recourse decision (<br>scheduled cancellations</br>) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of <br>scheduled cancellations</br> to speed up the computation of integer cuts."
+            ],
+            "translated_annotated_samples": [
+                "Sin embargo, nuestra decisión de recurso (<br>cancelaciones programadas</br>) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones.",
+                "Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de <br>cancelaciones programadas</br> para acelerar el cálculo de cortes enteros."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (<br>cancelaciones programadas</br>) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de <br>cancelaciones programadas</br> para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "scheduling problem": {
+            "translated_key": "problema de programación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the <br>scheduling problem</br> is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Solving the <br>scheduling problem</br> is further complicated because the recourse function is integer."
+            ],
+            "translated_annotated_samples": [
+                "Resolver el <br>problema de programación</br> se complica aún más porque la función de recurso es entera."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el <br>problema de programación</br> se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "scheduling process": {
+            "translated_key": "proceso de programación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The <br>scheduling process</br> we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "The <br>scheduling process</br> we adopt matches a multiple stage stochastic programming approach."
+            ],
+            "translated_annotated_samples": [
+                "El <br>proceso de programación</br> que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas."
+            ],
+            "translated_text": "El <br>proceso de programación</br> que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "three-stage recourse model": {
+            "translated_key": "modelo de recurso de tres etapas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a <br>three-stage recourse model</br> [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "As such, the decision problem can be viewed as a <br>three-stage recourse model</br> [5,6]."
+            ],
+            "translated_annotated_samples": [
+                "Como tal, el problema de decisión se puede ver como un <br>modelo de recurso de tres etapas</br>."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un <br>modelo de recurso de tres etapas</br>. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "two stage stochastic program": {
+            "translated_key": "programa estocástico de dos etapas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for <br>two stage stochastic program</br> with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for <br>two stage stochastic program</br> with integer recourse."
+            ],
+            "translated_annotated_samples": [
+                "Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un <br>programa estocástico de dos etapas</br> con recurso entero."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un <br>programa estocástico de dos etapas</br> con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "two-stage stochastic programs": {
+            "translated_key": "programas estocásticos estándar de dos etapas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard <br>two-stage stochastic programs</br> with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to upper bound the minus second (and third) stage cost, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "Standard <br>two-stage stochastic programs</br> with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7]."
+            ],
+            "translated_annotated_samples": [
+                "Los <br>programas estocásticos estándar de dos etapas</br> con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los <br>programas estocásticos estándar de dos etapas</br> con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el costo de la segunda (y tercera) etapa, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "upper bound the minus second (and third) stage cost": {
+            "translated_key": "costo de la segunda (y tercera) etapa",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The scheduling process we adopt matches a multiple stage stochastic programming approach.",
+                "Standard two-stage stochastic programs with linear or convex functions are often solved using the L-shaped method or Benders decomposition [44,6,7].",
+                "However, our recourse decision (scheduled cancellations) is still anticipative to further uncertainty, namely the second shift surgery durations, unavailability and cancellations.",
+                "As such, the decision problem can be viewed as a three-stage recourse model [5,6].",
+                "Solving the scheduling problem is further complicated because the recourse function is integer.",
+                "Laporte and Louveaux [26] propose modified L-shaped decomposition with adjusted optimal cuts for two stage stochastic program with integer recourse.",
+                "Angulo et al. [1] alternately generate optimal cuts of the linear sub-problem and the integer sub-problem, which improves the practical convergence (see also [15,8]).",
+                "We follow a sample average approximation approach (SAA) which uses this framework.",
+                "Moreover, we prove and exploit a specific relationship between the first-stage realization and the optimal number of scheduled cancellations to speed up the computation of integer cuts.",
+                "We use Jensens inequality [17] to <br>upper bound the minus second (and third) stage cost</br>, a technique that was proposed by Batun et al. [3]."
+            ],
+            "original_annotated_samples": [
+                "We use Jensens inequality [17] to <br>upper bound the minus second (and third) stage cost</br>, a technique that was proposed by Batun et al. [3]."
+            ],
+            "translated_annotated_samples": [
+                "Utilizamos la desigualdad de Jensen para acotar superiormente el <br>costo de la segunda (y tercera) etapa</br>, una técnica propuesta por Batun et al."
+            ],
+            "translated_text": "El proceso de programación que adoptamos coincide con un enfoque de programación estocástica de múltiples etapas. Los programas estocásticos estándar de dos etapas con funciones lineales o convexas a menudo se resuelven utilizando el método en forma de L o la descomposición de Benders. Sin embargo, nuestra decisión de recurso (cancelaciones programadas) sigue siendo anticipativa ante una mayor incertidumbre, a saber, las duraciones de cirugías del segundo turno, la disponibilidad y las cancelaciones. Como tal, el problema de decisión se puede ver como un modelo de recurso de tres etapas. Resolver el problema de programación se complica aún más porque la función de recurso es entera. Laporte y Louveaux proponen una descomposición en forma de L modificada con cortes óptimos ajustados para un programa estocástico de dos etapas con recurso entero. Angulo et al. generan alternativamente cortes óptimos del subproblema lineal y del subproblema entero, lo que mejora la convergencia práctica. Seguimos un enfoque de aproximación del promedio de muestras (SAA) que utiliza este marco. Además, demostramos y explotamos una relación específica entre la realización de la primera etapa y el número óptimo de cancelaciones programadas para acelerar el cálculo de cortes enteros. Utilizamos la desigualdad de Jensen para acotar superiormente el <br>costo de la segunda (y tercera) etapa</br>, una técnica propuesta por Batun et al. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

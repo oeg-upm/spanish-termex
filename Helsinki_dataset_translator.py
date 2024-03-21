@@ -1,30 +1,32 @@
 
 import os
-from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers,MAX_COUNTER
+from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers
 #from translation_helsinki import translate_keyword,translate_text_original
-
+import openaiwe
 
 #InputPath=   'datasets/Inspec/'
 #OutputPath = 'datasets/doc_translations/Helsinki/Inspec/' #'datasets/translation_test/trans'
 
 
-InputPath=   'datasets/source/SemEval2017/'
-OutputPath = 'datasets/doc_translations/Helsinki/SemEval2017/' #'datasets/translation_test/trans'
+InputPath=   'datasets/annotated/SemEval2017/'
+OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017_2/'
+
+InputPath=   'datasets/annotated/SemEval2010/'
+OutputPath = 'datasets/doc_translations/OpenAI/SemEval2010/'
+
+import time
 
 
 
 
-
-
-
-PathKeys= InputPath+'keys'
-PathDocs= InputPath+'docsutf8'
-
-sourcedocs = os.listdir(PathDocs)
+sourcedocs = os.listdir(InputPath)
 targetdocs = os.listdir(OutputPath)
 
 source_identifiers = get_source_identifiers(sourcedocs)
 target_identifiers = get_source_identifiers(targetdocs) # for filter
+
+counter=0
+start = time.time()
 
 
 for identifier in source_identifiers:
@@ -33,39 +35,35 @@ for identifier in source_identifiers:
         continue # si está en los ya traducidos pasamos
 
     try:
+        print(identifier)
 
-        textdoc = read_file_content(PathDocs + '/' + identifier+'.txt')
-        textkeys = read_lines(PathKeys + '/' + identifier + '.key')
+        translation= TranslationH(identifier,'','')
+        translation.construct_from_json(InputPath+str(identifier)+'.json')
 
-
-        # el objeto
-        translation = TranslationH(identifier,textdoc, textkeys)
-
-        ## annotation and first translation
-        translation.generate_annotated_sentences()
-
-        '''
-        translation.translated_text_sentences= translate_text_original(translation.original_text_sentences)
+        print(translation.original_text_sentences)
+        translation.translated_text_sentences= openaiwe.translate_text_original2(translation.original_text_sentences)
 
         translation.translated_text = " ".join(translation.translated_text_sentences)
 
         for key in translation.keys:
-
-            #tr = translate_text_google(annotated, src_lang='en', dest_lang='es')
-            tr= translate_keyword(key,translation.translated_text_sentences)
-            #translation.translated_annotated_text.append(tr)
-
-
+            #print(key.original_annotated_sentences)
+            openaiwe.translate_keyword(key,translation.translated_text_sentences)
 
         translation.compare_annotated_keywords()
         
-        '''
+
         translation.write_json(OutputPath)
         #print("ERRORS:",translation.error_count)
-        break
+        #break
+        if counter==1:
+            break
+        #counter=counter+1
 
     except Exception as e:
         print("FATAL ERROR IN "+ str(identifier))
         print(e)
         #break
 
+
+end = time.time()
+print(end - start)

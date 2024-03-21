@@ -1,0 +1,918 @@
+{
+    "id": "S0009261413004612",
+    "original_text": "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices. Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude. The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B. Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield. Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity. The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins. Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen. In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture. The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling.",
+    "original_translation": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico.",
+    "original_sentences": [
+        "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+        "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+        "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+        "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+        "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+        "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+        "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+        "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+        "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+    ],
+    "error_count": 3,
+    "keys": {
+        "(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt": {
+            "translated_key": "Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:<br>(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt</br>,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Formally, it is defined as:<br>(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt</br>,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity."
+            ],
+            "translated_annotated_samples": [
+                "Output: Formalmente, se define como: <br>Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt</br>, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Output: Formalmente, se define como: <br>Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt</br>, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "analogous configuration": {
+            "translated_key": "configuración análoga",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an <br>analogous configuration</br> (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an <br>analogous configuration</br> (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una <br>configuración análoga</br> (con solo un núcleo de espín-1/2) como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una <br>configuración análoga</br> (con solo un núcleo de espín-1/2) como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "anisotropic hyperfine interactions": {
+            "translated_key": "interacciones hiperfinas anisotrópicas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through <br>anisotropic hyperfine interactions</br>), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through <br>anisotropic hyperfine interactions</br>), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de <br>interacciones hiperfinas anisotrópicas</br>), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2) [3], y caracterizada numéricamente [8], como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de <br>interacciones hiperfinas anisotrópicas</br>), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2) [3], y caracterizada numéricamente [8], como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "B": {
+            "translated_key": "B",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate <br>B</br>.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(<br>B</br>)≡∂Φs(<br>B</br>)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(<br>B</br>t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate <br>B</br>.",
+                "Formally, it is defined as:(2)Λs(<br>B</br>)≡∂Φs(<br>B</br>)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(<br>B</br>t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins."
+            ],
+            "translated_annotated_samples": [
+                "Output: La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar <br>B</br>.",
+                "Output: Formalmente, se define como: Λs(<br>B</br>)≡∂Φs(<br>B</br>)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea.",
+                "Output: La forma funcional de fs(<br>B</br>t)=Sρel(t)S depende en gran medida de la realización específica del par radical, en particular del número de espines nucleares circundantes."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. Output: La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar <br>B</br>. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Output: Formalmente, se define como: Λs(<br>B</br>)≡∂Φs(<br>B</br>)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. Output: La forma funcional de fs(<br>B</br>t)=Sρel(t)S depende en gran medida de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "chemical compass": {
+            "translated_key": "brújula química",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the <br>chemical compass</br> (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "In the context of the <br>chemical compass</br> (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el contexto de la <br>brújula química</br> (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2), y se ha caracterizado numéricamente, como óptima: Spines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. Output: En el contexto de la <br>brújula química</br> (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2), y se ha caracterizado numéricamente, como óptima: Spines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "chemical devices": {
+            "translated_key": "dispositivos químicos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of <br>chemical devices</br>.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of <br>chemical devices</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de <br>dispositivos químicos</br>."
+            ],
+            "translated_text": "Output: El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de <br>dispositivos químicos</br>. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "chemical magnetometer": {
+            "translated_key": "magnetómetro químico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model <br>chemical magnetometer</br> by up to two orders of magnitude.",
+                "The basic idea behind a <br>chemical magnetometer</br> is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model <br>chemical magnetometer</br> by up to two orders of magnitude.",
+                "The basic idea behind a <br>chemical magnetometer</br> is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un <br>magnetómetro químico</br> modelo en hasta dos órdenes de magnitud.",
+                "Output: La idea básica detrás de un <br>magnetómetro químico</br> es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Output: Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un <br>magnetómetro químico</br> modelo en hasta dos órdenes de magnitud. Output: La idea básica detrás de un <br>magnetómetro químico</br> es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "chemical yield": {
+            "translated_key": "rendimiento químico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the <br>chemical yield</br> to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the <br>chemical yield</br> to estimate B."
+            ],
+            "translated_annotated_samples": [
+                "Output: La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el <br>rendimiento químico</br> para estimar B."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. Output: La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el <br>rendimiento químico</br> para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "control scheme": {
+            "translated_key": "control",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement <br>control scheme</br> highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Here, we show how a simple-to-implement <br>control scheme</br> highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aquí mostramos cómo un sencillo esquema de <br>control</br>, fácil de implementar, mejora considerablemente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Output: Aquí mostramos cómo un sencillo esquema de <br>control</br>, fácil de implementar, mejora considerablemente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "determining the magnetic field direction through anisotropic hyperfine interactions": {
+            "translated_key": "determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is <br>determining the magnetic field direction through anisotropic hyperfine interactions</br>), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "In the context of the chemical compass (i.e. when the task is <br>determining the magnetic field direction through anisotropic hyperfine interactions</br>), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el contexto de la brújula química (es decir, cuando la tarea es <br>determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas</br>), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2) [3], y caracterizada numéricamente [8], como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. Output: En el contexto de la brújula química (es decir, cuando la tarea es <br>determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas</br>), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2) [3], y caracterizada numéricamente [8], como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "electron spin": {
+            "translated_key": "spin del electrón",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first <br>electron spin</br> is devoid of hyperfine interactions, while the second <br>electron spin</br> interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Here, we consider a radical pair in which the first <br>electron spin</br> is devoid of hyperfine interactions, while the second <br>electron spin</br> interacts isotropically with one spin-1 nucleus, e.g. nitrogen."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aquí, consideramos un par radical en el que el primer <br>spin del electrón</br> carece de interacciones hiperfinas, mientras que el segundo <br>spin del electrón</br> interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Output: Aquí, consideramos un par radical en el que el primer <br>spin del electrón</br> carece de interacciones hiperfinas, mientras que el segundo <br>spin del electrón</br> interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "gs(B,t)≡∂fs(B,t)∂B": {
+            "translated_key": "gs(B,t) ≡ ∂fs(B,t) ∂B",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with <br>gs(B,t)≡∂fs(B,t)∂B</br> being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with <br>gs(B,t)≡∂fs(B,t)∂B</br> being the instantaneous magnetic sensitivity."
+            ],
+            "translated_annotated_samples": [
+                "Output: Formalmente, se define como: (2) Λs(B) ≡ ∂Φs(B) ∂B = ∫0∞ pre(t) gs(B,t) dt, con <br>gs(B,t) ≡ ∂fs(B,t) ∂B</br> siendo la sensibilidad magnética instantánea."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Output: Formalmente, se define como: (2) Λs(B) ≡ ∂Φs(B) ∂B = ∫0∞ pre(t) gs(B,t) dt, con <br>gs(B,t) ≡ ∂fs(B,t) ∂B</br> siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "hyperfine interactions": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of <br>hyperfine interactions</br>, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic <br>hyperfine interactions</br>), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Here, we consider a radical pair in which the first electron spin is devoid of <br>hyperfine interactions</br>, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic <br>hyperfine interactions</br>), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aquí, consideramos un par radical en el que el primer espín electrónico carece de <br>interacciones hiperfinas</br>, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno.",
+                "Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones <br>hiperfinas anisotrópicas</br>), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2), y se ha caracterizado numéricamente, como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Output: Aquí, consideramos un par radical en el que el primer espín electrónico carece de <br>interacciones hiperfinas</br>, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones <br>hiperfinas anisotrópicas</br>), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2), y se ha caracterizado numéricamente, como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    "interacciones hiperfinas",
+                    "hiperfinas anisotrópicas"
+                ],
+                [
+                    "interacciones hiperfinas",
+                    "hiperfinas anisotrópicas"
+                ]
+            ]
+        },
+        "H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→": {
+            "translated_key": "H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to <br>H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→</br>, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The Hamiltonian then simplifies to <br>H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→</br>, where α is the isotropic hyperfine coupling."
+            ],
+            "translated_annotated_samples": [
+                "Output: Entonces, el Hamiltoniano se simplifica a <br>H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→</br>, donde α es el acoplamiento hiperfino isotrópico."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. Output: Entonces, el Hamiltoniano se simplifica a <br>H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→</br>, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "improve the performance of chemical devices": {
+            "translated_key": "mejorar el rendimiento de dispositivos químicos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to <br>improve the performance of chemical devices</br>.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The control of the RP re-encounter probability finds a direct application to <br>improve the performance of chemical devices</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para <br>mejorar el rendimiento de dispositivos químicos</br>."
+            ],
+            "translated_text": "Output: El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para <br>mejorar el rendimiento de dispositivos químicos</br>. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "instantaneous magnetic sensitivity": {
+            "translated_key": "sensibilidad magnética instantánea",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the <br>instantaneous magnetic sensitivity</br>.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the <br>instantaneous magnetic sensitivity</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Formalmente, se define como: (2) Λs(B) ≡ ∂Φs(B) ∂B = ∫0∞pre(t)gs(B,t)dt, siendo gs(B,t) ≡ ∂fs(B,t) ∂B la <br>sensibilidad magnética instantánea</br>."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Output: Formalmente, se define como: (2) Λs(B) ≡ ∂Φs(B) ∂B = ∫0∞pre(t)gs(B,t)dt, siendo gs(B,t) ≡ ∂fs(B,t) ∂B la <br>sensibilidad magnética instantánea</br>. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "isotropic hyperfine coupling": {
+            "translated_key": "acoplamiento hiperfino isotrópico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the <br>isotropic hyperfine coupling</br>."
+            ],
+            "original_annotated_samples": [
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the <br>isotropic hyperfine coupling</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Entonces, el Hamiltoniano se simplifica a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el <br>acoplamiento hiperfino isotrópico</br>."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. Output: Entonces, el Hamiltoniano se simplifica a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el <br>acoplamiento hiperfino isotrópico</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "magnetic field": {
+            "translated_key": "campo magnético",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the <br>magnetic field</br> modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the <br>magnetic field</br> intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the <br>magnetic field</br> direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The basic idea behind a chemical magnetometer is that, since a change in the <br>magnetic field</br> modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the <br>magnetic field</br> intensity produces large effects on the singlet yield.",
+                "In the context of the chemical compass (i.e. when the task is determining the <br>magnetic field</br> direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture."
+            ],
+            "translated_annotated_samples": [
+                "Output: La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el <br>campo magnético</br> modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B.",
+                "Output: Intuitivamente, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del <br>campo magnético</br> produce grandes efectos en el rendimiento del singlete.",
+                "Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del <br>campo magnético</br> a través de interacciones hiperfinas anisotrópicas), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2) [3], y caracterizada numéricamente [8], como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. Output: La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el <br>campo magnético</br> modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. Output: Intuitivamente, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del <br>campo magnético</br> produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del <br>campo magnético</br> a través de interacciones hiperfinas anisotrópicas), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2) [3], y caracterizada numéricamente [8], como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "magnetic field direction": {
+            "translated_key": "dirección del campo magnético",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the <br>magnetic field direction</br> through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "In the context of the chemical compass (i.e. when the task is determining the <br>magnetic field direction</br> through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la <br>dirección del campo magnético</br> a través de interacciones hiperfinas anisotrópicas), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2), y se ha caracterizado numéricamente, como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la <br>dirección del campo magnético</br> a través de interacciones hiperfinas anisotrópicas), se ha propuesto una configuración análoga (con solo un núcleo de espín-1/2), y se ha caracterizado numéricamente, como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "magnetic field intensity": {
+            "translated_key": "intensidad del campo magnético",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the <br>magnetic field intensity</br> produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Intuitively, the magnetic sensitivity is high when a small change in the <br>magnetic field intensity</br> produces large effects on the singlet yield."
+            ],
+            "translated_annotated_samples": [
+                "Output: Intuitivamente, la sensibilidad magnética es alta cuando un pequeño cambio en la <br>intensidad del campo magnético</br> produce grandes efectos en el rendimiento del singlete."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. Output: Intuitivamente, la sensibilidad magnética es alta cuando un pequeño cambio en la <br>intensidad del campo magnético</br> produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "magnetic sensitivity": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the <br>magnetic sensitivity</br> is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous <br>magnetic sensitivity</br>.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Intuitively, the <br>magnetic sensitivity</br> is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous <br>magnetic sensitivity</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Intuitivamente, la <br>sensibilidad magnética</br> es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete.",
+                "Output: Formalmente, se define como: (2) Λs(B) ≡ ∂Φs(B) ∂B = ∫0∞pre(t)gs(B,t)dt, con gs(B,t) ≡ ∂fs(B,t) ∂B siendo la sensibilidad magnética <br>instantánea</br>."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. Output: Intuitivamente, la <br>sensibilidad magnética</br> es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Output: Formalmente, se define como: (2) Λs(B) ≡ ∂Φs(B) ∂B = ∫0∞pre(t)gs(B,t)dt, con gs(B,t) ≡ ∂fs(B,t) ∂B siendo la sensibilidad magnética <br>instantánea</br>. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    "sensibilidad magnética",
+                    "instantánea"
+                ],
+                [
+                    "sensibilidad magnética",
+                    "instantánea"
+                ]
+            ]
+        },
+        "model chemical magnetometer": {
+            "translated_key": "magnetómetro químico modelo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a <br>model chemical magnetometer</br> by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a <br>model chemical magnetometer</br> by up to two orders of magnitude."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un <br>magnetómetro químico modelo</br> hasta en dos órdenes de magnitud."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Output: Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un <br>magnetómetro químico modelo</br> hasta en dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "nitrogen": {
+            "translated_key": "nitrógeno",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. <br>nitrogen</br>.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. <br>nitrogen</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aquí, consideramos un par radical en el que el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, <br>nitrógeno</br>."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Output: Aquí, consideramos un par radical en el que el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, <br>nitrógeno</br>. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "nuclear spins": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding <br>nuclear spins</br>.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional <br>nuclear spins</br> would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding <br>nuclear spins</br>.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional <br>nuclear spins</br> would perturb the intuitive reference and probe picture."
+            ],
+            "translated_annotated_samples": [
+                "Output: La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de los <br>espines nucleares</br> circundantes.",
+                "Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Spins nucleares adicionales <br>perturbarían</br> la imagen de referencia y sonda intuitiva."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. Output: La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de los <br>espines nucleares</br> circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Spins nucleares adicionales <br>perturbarían</br> la imagen de referencia y sonda intuitiva. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    "espines nucleares",
+                    "perturbarían"
+                ],
+                [
+                    "espines nucleares",
+                    "perturbarían"
+                ]
+            ]
+        },
+        "realization of the radical pair": {
+            "translated_key": "realización específica del par radical",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific <br>realization of the radical pair</br>, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific <br>realization of the radical pair</br>, in particular on the number of the surrounding nuclear spins."
+            ],
+            "translated_annotated_samples": [
+                "Output: La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la <br>realización específica del par radical</br>, en particular del número de espines nucleares circundantes."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. Output: La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la <br>realización específica del par radical</br>, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "RP re-encounter probability": {
+            "translated_key": "probabilidad de reencuentro RP",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the <br>RP re-encounter probability</br> finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The control of the <br>RP re-encounter probability</br> finds a direct application to improve the performance of chemical devices."
+            ],
+            "translated_annotated_samples": [
+                "Output: El control de la <br>probabilidad de reencuentro RP</br> encuentra una aplicación directa para mejorar el rendimiento de los dispositivos químicos."
+            ],
+            "translated_text": "Output: El control de la <br>probabilidad de reencuentro RP</br> encuentra una aplicación directa para mejorar el rendimiento de los dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "singlet products": {
+            "translated_key": "productos singlete",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of <br>singlet products</br>, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of <br>singlet products</br>, one can reverse the reasoning and measure the chemical yield to estimate B."
+            ],
+            "translated_annotated_samples": [
+                "Output: La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de <br>productos singlete</br>, se puede invertir el razonamiento y medir el rendimiento químico para estimar B."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. Output: La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de <br>productos singlete</br>, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "singlet yield": {
+            "translated_key": "rendimiento del singlete",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the <br>singlet yield</br>.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the <br>singlet yield</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Intuitivamente, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el <br>rendimiento del singlete</br>."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. Output: Intuitivamente, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el <br>rendimiento del singlete</br>. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "spin-1/2 nucleus": {
+            "translated_key": "núcleo de espín-1/2",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one <br>spin-1/2 nucleus</br>) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one <br>spin-1/2 nucleus</br>) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto una configuración análoga (con solo un <br>núcleo de espín-1/2</br>), y se ha caracterizado numéricamente [8], como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. Output: En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto una configuración análoga (con solo un <br>núcleo de espín-1/2</br>), y se ha caracterizado numéricamente [8], como óptima: Espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "spin-1 nucleus": {
+            "translated_key": "núcleo de espín-1",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one <br>spin-1 nucleus</br>, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one <br>spin-1 nucleus</br>, e.g. nitrogen."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aquí, consideramos un par radical en el que el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un <br>núcleo de espín-1</br>, por ejemplo, nitrógeno."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Output: Aquí, consideramos un par radical en el que el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un <br>núcleo de espín-1</br>, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. El hamiltoniano se simplifica entonces a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde α es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "α": {
+            "translated_key": "α",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.",
+                "Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.",
+                "The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.",
+                "Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.",
+                "Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.",
+                "The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.",
+                "Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g. nitrogen.",
+                "In the context of the chemical compass (i.e. when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive reference and probe picture.",
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where <br>α</br> is the isotropic hyperfine coupling."
+            ],
+            "original_annotated_samples": [
+                "The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where <br>α</br> is the isotropic hyperfine coupling."
+            ],
+            "translated_annotated_samples": [
+                "Output: Entonces, el Hamiltoniano se simplifica a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde <br>α</br> es el acoplamiento hiperfino isotrópico."
+            ],
+            "translated_text": "El control de la probabilidad de reencuentro de RP encuentra una aplicación directa para mejorar el rendimiento de dispositivos químicos. Aquí mostramos cómo un esquema de control fácil de implementar mejora significativamente la sensibilidad de un magnetómetro químico modelo en hasta dos órdenes de magnitud. La idea básica detrás de un magnetómetro químico es que, dado que un cambio en el campo magnético modifica la cantidad de productos singlete, se puede invertir el razonamiento y medir el rendimiento químico para estimar B. De manera intuitiva, la sensibilidad magnética es alta cuando un pequeño cambio en la intensidad del campo magnético produce grandes efectos en el rendimiento del singlete. Formalmente, se define como: Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt, con gs(B,t)≡∂fs(B,t)∂B siendo la sensibilidad magnética instantánea. La forma funcional de fs(B,t)=Sρel(t)S depende fuertemente de la realización específica del par radical, en particular del número de espines nucleares circundantes. Aquí consideramos un par radical en el cual el primer espín electrónico carece de interacciones hiperfinas, mientras que el segundo espín electrónico interactúa isotrópicamente con un núcleo de espín-1, por ejemplo, nitrógeno. En el contexto de la brújula química (es decir, cuando la tarea es determinar la dirección del campo magnético a través de interacciones hiperfinas anisotrópicas), se ha propuesto [3] y caracterizado numéricamente [8] una configuración análoga (con solo un núcleo de espín-1/2) como óptima: Los espines nucleares adicionales perturbarían la imagen intuitiva de referencia y sonda. Output: Entonces, el Hamiltoniano se simplifica a H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, donde <br>α</br> es el acoplamiento hiperfino isotrópico. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

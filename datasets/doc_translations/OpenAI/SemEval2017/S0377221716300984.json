@@ -1,0 +1,488 @@
+{
+    "id": "S0377221716300984",
+    "original_text": "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination. Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching. Good patterns that make up improving solutions are identified and shared by the agents. This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains. We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing. The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested.",
+    "original_translation": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados.",
+    "original_sentences": [
+        "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+        "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+        "Good patterns that make up improving solutions are identified and shared by the agents.",
+        "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+        "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+        "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+    ],
+    "error_count": 2,
+    "keys": {
+        "adapts": {
+            "translated_key": "adapta",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously <br>adapts</br> itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "Moreover, an agent continuously <br>adapts</br> itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, un agente se <br>adapta</br> continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Output: Además, un agente se <br>adapta</br> continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "a direct cooperation protocol": {
+            "translated_key": "un protocolo de cooperación directa",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using <br>a direct cooperation protocol</br> based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "Moreover, an agent continuously adapts itself during the search process using <br>a direct cooperation protocol</br> based on reinforcement learning and pattern matching."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando <br>un protocolo de cooperación directa</br> basado en aprendizaje por refuerzo y coincidencia de patrones."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Output: Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando <br>un protocolo de cooperación directa</br> basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "agent-based system": {
+            "translated_key": "basado en agentes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This <br>agent-based system</br> aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "This <br>agent-based system</br> aims to provide a modular flexible framework to deal with a variety of different problem domains."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este sistema <br>basado en agentes</br> tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Output: Este sistema <br>basado en agentes</br> tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "agents": {
+            "translated_key": "agentes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the <br>agents</br>.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as <br>agents</br> on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "Good patterns that make up improving solutions are identified and shared by the <br>agents</br>.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as <br>agents</br> on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing."
+            ],
+            "translated_annotated_samples": [
+                "Buenos patrones que conforman soluciones mejoradas son identificados y compartidos por los <br>agentes</br>.",
+                "Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como <br>agentes</br> en dos dominios de problemas, Programación de Flujo de Trabajo de Permutación y Enrutamiento de Vehículos con Capacidad."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Buenos patrones que conforman soluciones mejoradas son identificados y compartidos por los <br>agentes</br>. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como <br>agentes</br> en dos dominios de problemas, Programación de Flujo de Trabajo de Permutación y Enrutamiento de Vehículos con Capacidad. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "approach": {
+            "translated_key": "enfoque",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this <br>approach</br> using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the <br>approach</br> yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "We have evaluated the performance of this <br>approach</br> using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the <br>approach</br> yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "translated_annotated_samples": [
+                "Output: Hemos evaluado el rendimiento de este <br>enfoque</br> utilizando el marco propuesto que incorpora un conjunto de metaheurísticas conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados.",
+                "Output: Los resultados muestran el éxito del <br>enfoque</br> que produce tres nuevos mejores resultados conocidos de las pruebas de Capacitated Vehicle Routing, mientras que los resultados para Permutation Flow-shop Scheduling son proporcionales a los mejores valores conocidos para todas las pruebas realizadas."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Output: Hemos evaluado el rendimiento de este <br>enfoque</br> utilizando el marco propuesto que incorpora un conjunto de metaheurísticas conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Output: Los resultados muestran el éxito del <br>enfoque</br> que produce tres nuevos mejores resultados conocidos de las pruebas de Capacitated Vehicle Routing, mientras que los resultados para Permutation Flow-shop Scheduling son proporcionales a los mejores valores conocidos para todas las pruebas realizadas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Capacitated Vehicle Routing benchmarks": {
+            "translated_key": "índices de enrutamiento de vehículos con capacidad",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the <br>Capacitated Vehicle Routing benchmarks</br> tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "The results show the success of the approach yielding three new best known results of the <br>Capacitated Vehicle Routing benchmarks</br> tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los <br>índices de enrutamiento de vehículos con capacidad</br> probados, mientras que los resultados para la programación de flujo de tienda de permutaciones son comparables con los mejores valores conocidos para todos los índices probados."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Output: Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los <br>índices de enrutamiento de vehículos con capacidad</br> probados, mientras que los resultados para la programación de flujo de tienda de permutaciones son comparables con los mejores valores conocidos para todos los índices probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "deal with a variety of different problem domains": {
+            "translated_key": "tratar con una variedad de diferentes dominios de problemas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to <br>deal with a variety of different problem domains</br>.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "This agent-based system aims to provide a modular flexible framework to <br>deal with a variety of different problem domains</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para <br>tratar con una variedad de diferentes dominios de problemas</br>."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Output: Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para <br>tratar con una variedad de diferentes dominios de problemas</br>. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "each agent is implementing a different metaheuristic/local search combination": {
+            "translated_key": "cada agente implementa una combinación diferente de metaheurística/búsqueda local",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where <br>each agent is implementing a different metaheuristic/local search combination</br>.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "In this paper, we propose a general agent-based distributed framework where <br>each agent is implementing a different metaheuristic/local search combination</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este documento, proponemos un marco distribuido basado en agentes donde <br>cada agente implementa una combinación diferente de metaheurística/búsqueda local</br>."
+            ],
+            "translated_text": "Output: En este documento, proponemos un marco distribuido basado en agentes donde <br>cada agente implementa una combinación diferente de metaheurística/búsqueda local</br>. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "embodies a set of well known metaheuristics with different configurations": {
+            "translated_key": "incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which <br>embodies a set of well known metaheuristics with different configurations</br> as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "We have evaluated the performance of this approach using the proposed framework which <br>embodies a set of well known metaheuristics with different configurations</br> as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing."
+            ],
+            "translated_annotated_samples": [
+                "Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que <br>incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones</br> como agentes en dos dominios de problemas, Programación de Flujo de Trabajos de Permutación y Enrutamiento de Vehículos Capacitados."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que <br>incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones</br> como agentes en dos dominios de problemas, Programación de Flujo de Trabajos de Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "framework": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed <br>framework</br> where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible <br>framework</br> to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed <br>framework</br> which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "In this paper, we propose a general agent-based distributed <br>framework</br> where each agent is implementing a different metaheuristic/local search combination.",
+                "This agent-based system aims to provide a modular flexible <br>framework</br> to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed <br>framework</br> which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este documento, proponemos un <br>marco</br> distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas/búsqueda local.",
+                "Output: Este sistema basado en agentes tiene como objetivo proporcionar un <br>marco</br> modular y flexible para abordar una variedad de dominios de problemas diferentes.",
+                "Output: Hemos evaluado el rendimiento de este enfoque utilizando el <br>marco de trabajo</br> propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos de Permutación y Enrutamiento de Vehículos Capacitados."
+            ],
+            "translated_text": "Output: En este documento, proponemos un <br>marco</br> distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas/búsqueda local. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Output: Este sistema basado en agentes tiene como objetivo proporcionar un <br>marco</br> modular y flexible para abordar una variedad de dominios de problemas diferentes. Output: Hemos evaluado el rendimiento de este enfoque utilizando el <br>marco de trabajo</br> propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos de Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    "marco",
+                    "marco",
+                    "marco de trabajo"
+                ],
+                [
+                    "marco",
+                    "marco",
+                    "marco de trabajo"
+                ]
+            ]
+        },
+        "Good patterns": {
+            "translated_key": "Buenos patrones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "<br>Good patterns</br> that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "<br>Good patterns</br> that make up improving solutions are identified and shared by the agents."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>Buenos patrones</br> que conforman soluciones mejoradas son identificados y compartidos por los agentes."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Output: <br>Buenos patrones</br> que conforman soluciones mejoradas son identificados y compartidos por los agentes. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "pattern matching": {
+            "translated_key": "coincidencia de patrones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and <br>pattern matching</br>.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and <br>pattern matching</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y <br>coincidencia de patrones</br>."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Output: Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y <br>coincidencia de patrones</br>. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Permutation Flow-shop Scheduling": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, <br>Permutation Flow-shop Scheduling</br> and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for <br>Permutation Flow-shop Scheduling</br> are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, <br>Permutation Flow-shop Scheduling</br> and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for <br>Permutation Flow-shop Scheduling</br> are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "translated_annotated_samples": [
+                "Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, <br>Programación de Flujo de Trabajos de Permutación</br> y Enrutamiento de Vehículos con Capacidad.",
+                "Output: Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de las pruebas de Capacitated Vehicle Routing, mientras que los resultados para <br>Permutation Flow-shop Scheduling</br> son comparables con los mejores valores conocidos para todas las pruebas realizadas."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, <br>Programación de Flujo de Trabajos de Permutación</br> y Enrutamiento de Vehículos con Capacidad. Output: Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de las pruebas de Capacitated Vehicle Routing, mientras que los resultados para <br>Permutation Flow-shop Scheduling</br> son comparables con los mejores valores conocidos para todas las pruebas realizadas. ",
+            "candidates": [],
+            "error": [
+                [
+                    "Programación de Flujo de Trabajos de Permutación",
+                    "Permutation Flow-shop Scheduling"
+                ],
+                [
+                    "Programación de Flujo de Trabajos de Permutación",
+                    "Permutation Flow-shop Scheduling"
+                ]
+            ]
+        },
+        "Permutation Flow-shop Scheduling and Capacitated Vehicle Routing": {
+            "translated_key": "Programación de Flujo de Trabajos de Permutación y Enrutamiento de Vehículos Capacitados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, <br>Permutation Flow-shop Scheduling and Capacitated Vehicle Routing</br>.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, <br>Permutation Flow-shop Scheduling and Capacitated Vehicle Routing</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, <br>Programación de Flujo de Trabajos de Permutación y Enrutamiento de Vehículos Capacitados</br>."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, <br>Programación de Flujo de Trabajos de Permutación y Enrutamiento de Vehículos Capacitados</br>. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "provide a modular flexible framework": {
+            "translated_key": "proporcionar un marco modular y flexible",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to <br>provide a modular flexible framework</br> to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "This agent-based system aims to <br>provide a modular flexible framework</br> to deal with a variety of different problem domains."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este sistema basado en agentes tiene como objetivo <br>proporcionar un marco modular y flexible</br> para abordar una variedad de dominios de problemas diferentes."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Output: Este sistema basado en agentes tiene como objetivo <br>proporcionar un marco modular y flexible</br> para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "reinforcement learning": {
+            "translated_key": "aprendizaje por refuerzo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on <br>reinforcement learning</br> and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on <br>reinforcement learning</br> and pattern matching."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en <br>aprendizaje por refuerzo</br> y coincidencia de patrones."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Output: Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en <br>aprendizaje por refuerzo</br> y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajos por Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "this approach": {
+            "translated_key": "este enfoque",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of <br>this approach</br> using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "We have evaluated the performance of <br>this approach</br> using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on two problem domains, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing."
+            ],
+            "translated_annotated_samples": [
+                "Output: Hemos evaluado el rendimiento de <br>este enfoque</br> utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajo de Permutación y Enrutamiento de Vehículos Capacitados."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Output: Hemos evaluado el rendimiento de <br>este enfoque</br> utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en dos dominios de problemas, Programación de Flujo de Trabajo de Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "two problem domains": {
+            "translated_key": "dos dominios de problemas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we propose a general agent-based distributed framework where each agent is implementing a different metaheuristic/local search combination.",
+                "Moreover, an agent continuously adapts itself during the search process using a direct cooperation protocol based on reinforcement learning and pattern matching.",
+                "Good patterns that make up improving solutions are identified and shared by the agents.",
+                "This agent-based system aims to provide a modular flexible framework to deal with a variety of different problem domains.",
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on <br>two problem domains</br>, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing.",
+                "The results show the success of the approach yielding three new best known results of the Capacitated Vehicle Routing benchmarks tested, whilst the results for Permutation Flow-shop Scheduling are commensurate with the best known values for all the benchmarks tested."
+            ],
+            "original_annotated_samples": [
+                "We have evaluated the performance of this approach using the proposed framework which embodies a set of well known metaheuristics with different configurations as agents on <br>two problem domains</br>, Permutation Flow-shop Scheduling and Capacitated Vehicle Routing."
+            ],
+            "translated_annotated_samples": [
+                "Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en <br>dos dominios de problemas</br>, Programación de Flujo de Trabajo de Permutación y Enrutamiento de Vehículos Capacitados."
+            ],
+            "translated_text": "En este documento, proponemos un marco distribuido basado en agentes donde cada agente implementa una combinación diferente de metaheurísticas y búsquedas locales. Además, un agente se adapta continuamente durante el proceso de búsqueda utilizando un protocolo de cooperación directa basado en aprendizaje por refuerzo y coincidencia de patrones. Los agentes identifican y comparten los buenos patrones que conforman soluciones mejoradas. Este sistema basado en agentes tiene como objetivo proporcionar un marco modular y flexible para abordar una variedad de dominios de problemas diferentes. Output: Hemos evaluado el rendimiento de este enfoque utilizando el marco propuesto que incorpora un conjunto de metaheurísticas bien conocidas con diferentes configuraciones como agentes en <br>dos dominios de problemas</br>, Programación de Flujo de Trabajo de Permutación y Enrutamiento de Vehículos Capacitados. Los resultados muestran el éxito del enfoque al producir tres nuevos mejores resultados conocidos de los benchmarks de Capacitated Vehicle Routing probados, mientras que los resultados para Permutation Flow-shop Scheduling son comparables con los mejores valores conocidos para todos los benchmarks probados. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

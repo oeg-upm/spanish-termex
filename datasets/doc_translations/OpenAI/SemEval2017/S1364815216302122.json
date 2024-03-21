@@ -1,0 +1,360 @@
+{
+    "id": "S1364815216302122",
+    "original_text": "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems. Minimizing the sum of different objectives is problematic, since they may have different units and ranges. Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum. Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression. Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance. Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult. To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function. Approaches for multi-objective optimization like SPEA are widely used in evolutionary computation. In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models. Further, a finite set of so called Pareto optimal models (downscaling rules) is returned.",
+    "original_translation": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Para evitar estos problemas, hemos implementado el cálculo de aptitud según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en la computación evolutiva. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado).",
+    "original_sentences": [
+        "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+        "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+        "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+        "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+        "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+        "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+        "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+        "Approaches for multi-objective optimization like SPEA are widely used in evolutionary computation.",
+        "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+        "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+    ],
+    "error_count": 1,
+    "keys": {
+        "downscaling rules": {
+            "translated_key": "escalado descendente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective optimization like SPEA are widely used in evolutionary computation.",
+                "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (<br>downscaling rules</br>) is returned."
+            ],
+            "original_annotated_samples": [
+                "Further, a finite set of so called Pareto optimal models (<br>downscaling rules</br>) is returned."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, se devuelve un conjunto finito de modelos óptimos de Pareto, también llamados reglas de <br>escalado descendente</br>."
+            ],
+            "translated_text": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Para evitar estos problemas, hemos implementado el cálculo de aptitud según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en la computación evolutiva. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Output: Además, se devuelve un conjunto finito de modelos óptimos de Pareto, también llamados reglas de <br>escalado descendente</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "evolutionary computation": {
+            "translated_key": "computación evolutiva",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective optimization like SPEA are widely used in <br>evolutionary computation</br>.",
+                "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "Approaches for multi-objective optimization like SPEA are widely used in <br>evolutionary computation</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en <br>computación evolutiva</br>."
+            ],
+            "translated_text": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Para evitar estos problemas, hemos implementado el cálculo de aptitud según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Output: Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en <br>computación evolutiva</br>. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fitness calculation": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented <br>fitness calculation</br> according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective optimization like SPEA are widely used in evolutionary computation.",
+                "In SPEA the <br>fitness calculation</br> during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "To avoid these problems, we have implemented <br>fitness calculation</br> according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "In SPEA the <br>fitness calculation</br> during the fitting procedure is based on an intercomparison of the different models."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para evitar estos problemas, hemos implementado el cálculo de <br>aptitud</br> según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de <br>aptitud</br> o costo (ponderada).",
+                "Output: En SPEA, el cálculo de <br>aptitud física</br> durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos."
+            ],
+            "translated_text": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Output: Para evitar estos problemas, hemos implementado el cálculo de <br>aptitud</br> según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de <br>aptitud</br> o costo (ponderada). Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en la computación evolutiva. Output: En SPEA, el cálculo de <br>aptitud física</br> durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado). ",
+            "candidates": [],
+            "error": [
+                [
+                    "aptitud",
+                    "aptitud",
+                    "aptitud física"
+                ],
+                [
+                    "aptitud",
+                    "aptitud",
+                    "aptitud física"
+                ]
+            ]
+        },
+        "multi-objective optimization": {
+            "translated_key": "optimización multiobjetivo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a <br>multi-objective optimization</br> problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for <br>multi-objective optimization</br> like SPEA are widely used in evolutionary computation.",
+                "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "When we formulate the downscaling problem as a <br>multi-objective optimization</br> problem, we face, however, the following problems.",
+                "Approaches for <br>multi-objective optimization</br> like SPEA are widely used in evolutionary computation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Cuando formulamos el problema de reducción de escala como un problema de <br>optimización multiobjetivo</br>, nos enfrentamos, sin embargo, a los siguientes problemas.",
+                "Output: En la computación evolutiva, enfoques para la <br>optimización multiobjetivo</br> como SPEA son ampliamente utilizados."
+            ],
+            "translated_text": "Output: Cuando formulamos el problema de reducción de escala como un problema de <br>optimización multiobjetivo</br>, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Para evitar estos problemas, hemos implementado el cálculo de aptitud según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Output: En la computación evolutiva, enfoques para la <br>optimización multiobjetivo</br> como SPEA son ampliamente utilizados. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "optimization": {
+            "translated_key": "optimización",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective <br>optimization</br> problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes <br>optimization</br> more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective <br>optimization</br> like SPEA are widely used in evolutionary computation.",
+                "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "When we formulate the downscaling problem as a multi-objective <br>optimization</br> problem, we face, however, the following problems.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes <br>optimization</br> more difficult.",
+                "Approaches for multi-objective <br>optimization</br> like SPEA are widely used in evolutionary computation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Cuando formulamos el problema de reducción de escala como un problema de <br>optimización</br> multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas.",
+                "Output: En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que hace que la <br>optimización</br> sea más difícil.",
+                "Output: En la computación evolutiva, enfoques para la <br>optimización</br> multiobjetivo como SPEA son ampliamente utilizados."
+            ],
+            "translated_text": "Output: Cuando formulamos el problema de reducción de escala como un problema de <br>optimización</br> multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. Output: En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que hace que la <br>optimización</br> sea más difícil. Para evitar estos problemas, hemos implementado el cálculo de aptitud según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Output: En la computación evolutiva, enfoques para la <br>optimización</br> multiobjetivo como SPEA son ampliamente utilizados. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Pareto optimal models": {
+            "translated_key": "modelos óptimos de Pareto",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective optimization like SPEA are widely used in evolutionary computation.",
+                "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called <br>Pareto optimal models</br> (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "Further, a finite set of so called <br>Pareto optimal models</br> (downscaling rules) is returned."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, se devuelve un conjunto finito de los llamados <br>modelos óptimos de Pareto</br> (reglas de reducción de escala)."
+            ],
+            "translated_text": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Para evitar estos problemas, hemos implementado el cálculo de aptitud según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en la computación evolutiva. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Output: Además, se devuelve un conjunto finito de los llamados <br>modelos óptimos de Pareto</br> (reglas de reducción de escala). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "regression": {
+            "translated_key": "regresión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the <br>regression</br>.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective optimization like SPEA are widely used in evolutionary computation.",
+                "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the <br>regression</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En primer lugar, nunca podemos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la <br>regresión</br>."
+            ],
+            "translated_text": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. Output: En primer lugar, nunca podemos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la <br>regresión</br>. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Para evitar estos problemas, hemos implementado el cálculo de aptitud según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en la computación evolutiva. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "scaling procedure": {
+            "translated_key": "escalado apropiado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate <br>scaling procedure</br> there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate <br>scaling procedure</br> is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective optimization like SPEA are widely used in evolutionary computation.",
+                "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "Even with an appropriate <br>scaling procedure</br> there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Thus, designing an appropriate <br>scaling procedure</br> is difficult and one would need to decide on the relative importance of the different objectives in advance."
+            ],
+            "translated_annotated_samples": [
+                "Output: Incluso con un procedimiento de <br>escalado apropiado</br> existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local.",
+                "Output: Por lo tanto, diseñar un procedimiento de <br>escalado apropiado</br> es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos."
+            ],
+            "translated_text": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Output: Incluso con un procedimiento de <br>escalado apropiado</br> existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Output: Por lo tanto, diseñar un procedimiento de <br>escalado apropiado</br> es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Para evitar estos problemas, hemos implementado el cálculo de aptitud según el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en la computación evolutiva. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SPEA": {
+            "translated_key": "SPEA",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (<br>SPEA</br>) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective optimization like <br>SPEA</br> are widely used in evolutionary computation.",
+                "In <br>SPEA</br> the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (<br>SPEA</br>) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective optimization like <br>SPEA</br> are widely used in evolutionary computation.",
+                "In <br>SPEA</br> the fitness calculation during the fitting procedure is based on an intercomparison of the different models."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para evitar estos problemas, hemos implementado el cálculo de la aptitud de acuerdo con el Algoritmo Evolutivo de Pareto de Fortaleza (<br>SPEA</br>) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada).",
+                "Output: En la computación evolutiva, se utilizan ampliamente enfoques para la optimización multiobjetivo como <br>SPEA</br>.",
+                "Output: En <br>SPEA</br>, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos."
+            ],
+            "translated_text": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Output: Para evitar estos problemas, hemos implementado el cálculo de la aptitud de acuerdo con el Algoritmo Evolutivo de Pareto de Fortaleza (<br>SPEA</br>) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Output: En la computación evolutiva, se utilizan ampliamente enfoques para la optimización multiobjetivo como <br>SPEA</br>. Output: En <br>SPEA</br>, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Strength Pareto Evolutionary Algorithm": {
+            "translated_key": "Algoritmo Evolutivo de Pareto de Fortaleza",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the <br>Strength Pareto Evolutionary Algorithm</br> (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function.",
+                "Approaches for multi-objective optimization like SPEA are widely used in evolutionary computation.",
+                "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "To avoid these problems, we have implemented fitness calculation according to the <br>Strength Pareto Evolutionary Algorithm</br> (SPEA) by Zitzler and Thiele (1999), instead of using a single (weighted) fitness or cost function."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para evitar estos problemas, hemos implementado el cálculo de aptitud de acuerdo con el <br>Algoritmo Evolutivo de Pareto de Fortaleza</br> (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada)."
+            ],
+            "translated_text": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Output: Para evitar estos problemas, hemos implementado el cálculo de aptitud de acuerdo con el <br>Algoritmo Evolutivo de Pareto de Fortaleza</br> (SPEA) de Zitzler y Thiele (1999), en lugar de utilizar una única función de aptitud o costo (ponderada). Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en la computación evolutiva. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "using a single (weighted) fitness or cost function": {
+            "translated_key": "utilizar una única función de aptitud o costo (ponderada)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "When we formulate the downscaling problem as a multi-objective optimization problem, we face, however, the following problems.",
+                "Minimizing the sum of different objectives is problematic, since they may have different units and ranges.",
+                "Even with an appropriate scaling procedure there is a risk of treating the objectives unequally or getting trapped in a local minimum.",
+                "Firstly, we can never know, what is the minimum value of each objective that can be achieved by the regression.",
+                "Thus, designing an appropriate scaling procedure is difficult and one would need to decide on the relative importance of the different objectives in advance.",
+                "Secondly, adding multiple, conflicting objectives very likely results in a fitness function with multiple local minima, which makes optimization more difficult.",
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of <br>using a single (weighted) fitness or cost function</br>.",
+                "Approaches for multi-objective optimization like SPEA are widely used in evolutionary computation.",
+                "In SPEA the fitness calculation during the fitting procedure is based on an intercomparison of the different models.",
+                "Further, a finite set of so called Pareto optimal models (downscaling rules) is returned."
+            ],
+            "original_annotated_samples": [
+                "To avoid these problems, we have implemented fitness calculation according to the Strength Pareto Evolutionary Algorithm (SPEA) by Zitzler and Thiele (1999), instead of <br>using a single (weighted) fitness or cost function</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para evitar estos problemas, hemos implementado el cálculo de la aptitud de acuerdo con el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de <br>utilizar una única función de aptitud o costo (ponderada)</br>."
+            ],
+            "translated_text": "Cuando formulamos el problema de reducción de escala como un problema de optimización multiobjetivo, nos enfrentamos, sin embargo, a los siguientes problemas. Minimizar la suma de diferentes objetivos es problemático, ya que pueden tener unidades y rangos diferentes. Incluso con un procedimiento de escala adecuado, existe el riesgo de tratar los objetivos de manera desigual o quedar atrapado en un mínimo local. En primer lugar, nunca podremos saber cuál es el valor mínimo de cada objetivo que se puede lograr mediante la regresión. Por lo tanto, diseñar un procedimiento de escalado apropiado es difícil y uno tendría que decidir de antemano la importancia relativa de los diferentes objetivos. En segundo lugar, agregar múltiples objetivos conflictivos muy probablemente resulta en una función de aptitud con múltiples mínimos locales, lo que dificulta la optimización. Output: Para evitar estos problemas, hemos implementado el cálculo de la aptitud de acuerdo con el Algoritmo Evolutivo de Pareto de Fortaleza (SPEA) de Zitzler y Thiele (1999), en lugar de <br>utilizar una única función de aptitud o costo (ponderada)</br>. Enfoques para la optimización multiobjetivo como SPEA son ampliamente utilizados en la computación evolutiva. En SPEA, el cálculo de la aptitud durante el procedimiento de ajuste se basa en una intercomparación de los diferentes modelos. Además, se devuelve un conjunto finito de modelos óptimos de Pareto (reglas de desescalado). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,472 @@
+{
+    "id": "S0377221716304258",
+    "original_text": "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs. In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009). This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986). This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008).",
+    "original_translation": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008).",
+    "original_sentences": [
+        "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+        "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+        "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+        "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+        "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+        "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+    ],
+    "error_count": 0,
+    "keys": {
+        "composing multiple small-sized MMPPs or MAPs": {
+            "translated_key": "composición de múltiples MMPPs o MAPs de tamaño pequeño",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by <br>composing multiple small-sized MMPPs or MAPs</br> using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "This has led to the definition of several approaches to fit complex traces by <br>composing multiple small-sized MMPPs or MAPs</br> using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la <br>composición de múltiples MMPPs o MAPs de tamaño pequeño</br> utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Output: Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la <br>composición de múltiples MMPPs o MAPs de tamaño pequeño</br> utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "composition operators": {
+            "translated_key": "operadores de composición",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ <br>composition operators</br> for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "These methods employ <br>composition operators</br> for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos métodos emplean <br>operadores de composición</br> para el ajuste de momentos, ofreciendo un compromiso diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Output: Estos métodos emplean <br>operadores de composición</br> para el ajuste de momentos, ofreciendo un compromiso diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "EM algorithm": {
+            "translated_key": "algoritmo EM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the <br>EM algorithm</br> (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the <br>EM algorithm</br> (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el <br>algoritmo EM</br> (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Output: Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el <br>algoritmo EM</br> (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fitting methods": {
+            "translated_key": "ajuste",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to <br>fitting methods</br> based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to <br>fitting methods</br> based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de <br>ajuste</br> basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Output: Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de <br>ajuste</br> basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Kronecker operators": {
+            "translated_key": "operadores de Kronecker",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using <br>Kronecker operators</br> (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using <br>Kronecker operators</br> (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando <br>operadores de Kronecker</br> (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Output: Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando <br>operadores de Kronecker</br> (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "M3PPs": {
+            "translated_key": "M3PPs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large <br>M3PPs</br>.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large <br>M3PPs</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes <br>M3PPs</br>."
+            ],
+            "translated_text": "Output: Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes <br>M3PPs</br>. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "matrix geometric methods": {
+            "translated_key": "métodos geométricos de matriz",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by <br>matrix geometric methods</br> (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by <br>matrix geometric methods</br> (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante <br>métodos geométricos de matriz</br> (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante <br>métodos geométricos de matriz</br> (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MMPPs": {
+            "translated_key": "MMPPs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of <br>MMPPs</br> is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized <br>MMPPs</br> or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several <br>MMPPs</br>, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of <br>MMPPs</br> and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "In the single class setting, a known limitation of <br>MMPPs</br> is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized <br>MMPPs</br> or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several <br>MMPPs</br>, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of <br>MMPPs</br> and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el entorno de clase única, una limitación conocida de <br>MMPPs</br> es la incapacidad para ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "Output: Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples <br>MMPPs</br> o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "Output: En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios <br>MMPPs</br>, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986).",
+                "Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de <br>MMPPs</br> y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. Output: En el entorno de clase única, una limitación conocida de <br>MMPPs</br> es la incapacidad para ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009). Output: Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples <br>MMPPs</br> o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). Output: En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios <br>MMPPs</br>, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de <br>MMPPs</br> y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MMPPs and MAPs": {
+            "translated_key": "MMPPs y MAPs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of <br>MMPPs and MAPs</br> to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "This state space explosion is an obstacle for the application of <br>MMPPs and MAPs</br> to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de <br>MMPPs y MAPs</br> en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de <br>MMPPs y MAPs</br> en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "modeling real systems": {
+            "translated_key": "modelar sistemas reales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to <br>modeling real systems</br>; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to <br>modeling real systems</br>; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en <br>modelar sistemas reales</br>; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en <br>modelar sistemas reales</br>; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical evaluation of queueing models": {
+            "translated_key": "evaluación numérica de modelos de colas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the <br>numerical evaluation of queueing models</br> by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the <br>numerical evaluation of queueing models</br> by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la <br>evaluación numérica de modelos de colas</br> mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Output: Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la <br>evaluación numérica de modelos de colas</br> mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "state space explosion": {
+            "translated_key": "explosión del espacio de estados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This <br>state space explosion</br> is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "This <br>state space explosion</br> is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esta <br>explosión del espacio de estados</br> es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Output: Esta <br>explosión del espacio de estados</br> es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso vuelve inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matriz (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "statistical descriptors": {
+            "translated_key": "descriptores estadísticos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many <br>statistical descriptors</br> due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many <br>statistical descriptors</br> due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009)."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad para ajustar simultáneamente muchos <br>descriptores estadísticos</br> debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. Output: En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad para ajustar simultáneamente muchos <br>descriptores estadísticos</br> debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "statistical multiplexing of several MMPPs": {
+            "translated_key": "multiplexación estadística de varios MMPPs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the <br>statistical multiplexing of several MMPPs</br>, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "In particular, the superposition operator allows one to describe a trace by the <br>statistical multiplexing of several MMPPs</br>, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986)."
+            ],
+            "translated_annotated_samples": [
+                "Output: En particular, el operador de superposición permite describir una traza mediante la <br>multiplexación estadística de varios MMPPs</br>, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). Output: En particular, el operador de superposición permite describir una traza mediante la <br>multiplexación estadística de varios MMPPs</br>, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "study the approximate fitting of large M3PPs": {
+            "translated_key": "estudiamos el ajuste aproximado de grandes M3PPs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also <br>study the approximate fitting of large M3PPs</br>.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also <br>study the approximate fitting of large M3PPs</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también <br>estudiamos el ajuste aproximado de grandes M3PPs</br>."
+            ],
+            "translated_text": "Output: Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también <br>estudiamos el ajuste aproximado de grandes M3PPs</br>. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "superposition operator": {
+            "translated_key": "operador de superposición",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the <br>superposition operator</br> allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "In particular, the <br>superposition operator</br> allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986)."
+            ],
+            "translated_annotated_samples": [
+                "Output: En particular, el <br>operador de superposición</br> permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). Output: En particular, el <br>operador de superposición</br> permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Two-state models": {
+            "translated_key": "Los modelos de dos estados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Two-state models</br> are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their underlying equations (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "<br>Two-state models</br> are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>Los modelos de dos estados</br> a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs."
+            ],
+            "translated_text": "Output: <br>Los modelos de dos estados</br> a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad de ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus ecuaciones subyacentes (Bodrog, Heindl, Horváth y Telek, 2008; Heindl, Horváth y Gross, 2006; Horváth y Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "underlying equations": {
+            "translated_key": "ecuaciones subyacentes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Two-state models are often insufficient to fit complex traces, therefore we also study the approximate fitting of large M3PPs.",
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their <br>underlying equations</br> (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009).",
+                "This has led to the definition of several approaches to fit complex traces by composing multiple small-sized MMPPs or MAPs using Kronecker operators (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002).",
+                "These methods employ composition operators for moment fitting, offering a different trade-off between computational cost and fitting accuracy compared to fitting methods based on the EM algorithm (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003).",
+                "In particular, the superposition operator allows one to describe a trace by the statistical multiplexing of several MMPPs, at the expense of an exponential growth of the number of states in the resulting process (Sriram & Whitt, 1986).",
+                "This state space explosion is an obstacle for the application of MMPPs and MAPs to modeling real systems; for example it considerably slows down, or even renders infeasible, the numerical evaluation of queueing models by matrix geometric methods (Bini, Meini, Steffé, Pérez, & Houdt, 2012; Pérez, Velthoven, & Houdt, 2008)."
+            ],
+            "original_annotated_samples": [
+                "In the single class setting, a known limitation of MMPPs is the inability to simultaneously fit many statistical descriptors due to the non-linearity of their <br>underlying equations</br> (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009)."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad para ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus <br>ecuaciones subyacentes</br> (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009)."
+            ],
+            "translated_text": "Los modelos de dos estados a menudo son insuficientes para ajustar trazas complejas, por lo tanto también estudiamos el ajuste aproximado de grandes M3PPs. Output: En el entorno de clase única, una limitación conocida de los MMPPs es la incapacidad para ajustar simultáneamente muchos descriptores estadísticos debido a la no linealidad de sus <br>ecuaciones subyacentes</br> (Bodrog, Heindl, Horváth, & Telek, 2008; Heindl, Horváth, & Gross, 2006; Horváth & Telek, 2009). Esto ha llevado a la definición de varios enfoques para ajustar trazas complejas mediante la composición de múltiples MMPPs o MAPs de tamaño pequeño utilizando operadores de Kronecker (Andersen & Nielsen, 1998; Casale, Zhang, & Smirni, 2010; Horváth & Telek, 2002). Estos métodos emplean operadores de composición para el ajuste de momentos, ofreciendo un equilibrio diferente entre el costo computacional y la precisión del ajuste en comparación con los métodos de ajuste basados en el algoritmo EM (Breuer, 2002; Horváth & Okamura, 2013; Klemm, Lindemann, & Lohmann, 2003). En particular, el operador de superposición permite describir una traza mediante la multiplexación estadística de varios MMPPs, a expensas de un crecimiento exponencial del número de estados en el proceso resultante (Sriram & Whitt, 1986). Esta explosión del espacio de estados es un obstáculo para la aplicación de MMPPs y MAPs en la modelización de sistemas reales; por ejemplo, ralentiza considerablemente, o incluso hace inviable, la evaluación numérica de modelos de colas mediante métodos geométricos de matrices (Bini, Meini, Steffé, Pérez y Houdt, 2012; Pérez, Velthoven y Houdt, 2008). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,520 @@
+{
+    "id": "S2212671612001709",
+    "original_text": "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed. The algorithm includes two steps: model building and tool path generation. In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface. In the procedure of tool path generation, the slicing procedure is adopted to get the CL points. In addition, the inversely converted method is used. The method is tested by some examples with actual machining. The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality. In addition, the computational complexity and is scalable and robust.",
+    "original_translation": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta.",
+    "original_sentences": [
+        "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+        "The algorithm includes two steps: model building and tool path generation.",
+        "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+        "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+        "In addition, the inversely converted method is used.",
+        "The method is tested by some examples with actual machining.",
+        "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+        "In addition, the computational complexity and is scalable and robust."
+    ],
+    "translated_text_sentences": [
+        "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión.",
+        "El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta.",
+        "En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta.",
+        "En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL.",
+        "Además, se utiliza el método de conversión inversa.",
+        "El método se prueba con algunos ejemplos de mecanizado real.",
+        "Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores.",
+        "Además, la complejidad computacional es escalable y robusta."
+    ],
+    "error_count": 0,
+    "keys": {
+        "algorithm": {
+            "translated_key": "algoritmo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An <br>algorithm</br> of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The <br>algorithm</br> includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "An <br>algorithm</br> of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The <br>algorithm</br> includes two steps: model building and tool path generation."
+            ],
+            "translated_annotated_samples": [
+                "Se propone un <br>algoritmo</br> de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión.",
+                "El <br>algoritmo</br> incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta."
+            ],
+            "translated_text": "Se propone un <br>algoritmo</br> de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El <br>algoritmo</br> incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "algorithm of multi-axis NC tool-path generation": {
+            "translated_key": "algoritmo de generación de trayectorias de herramientas NC de varios ejes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An <br>algorithm of multi-axis NC tool-path generation</br> for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "An <br>algorithm of multi-axis NC tool-path generation</br> for subdivision surfaces is proposed."
+            ],
+            "translated_annotated_samples": [
+                "Se propone un <br>algoritmo de generación de trayectorias de herramientas NC de varios ejes</br> para superficies de subdivisión."
+            ],
+            "translated_text": "Se propone un <br>algoritmo de generación de trayectorias de herramientas NC de varios ejes</br> para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "algorithm of multi-axis NC tool-path generation for subdivision surfaces": {
+            "translated_key": "algoritmo de generación de trayectorias de herramientas NC de varios ejes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An <br>algorithm of multi-axis NC tool-path generation for subdivision surfaces</br> is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "An <br>algorithm of multi-axis NC tool-path generation for subdivision surfaces</br> is proposed."
+            ],
+            "translated_annotated_samples": [
+                "Se propone un <br>algoritmo de generación de trayectorias de herramientas NC de varios ejes</br> para superficies de subdivisión."
+            ],
+            "translated_text": "Se propone un <br>algoritmo de generación de trayectorias de herramientas NC de varios ejes</br> para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "CL points": {
+            "translated_key": "puntos de CL",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the <br>CL points</br>.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the <br>CL points</br>."
+            ],
+            "translated_annotated_samples": [
+                "En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los <br>puntos de CL</br>."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los <br>puntos de CL</br>. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "curvature and the slope of cutter location surface": {
+            "translated_key": "curvatura y la pendiente de la superficie de ubicación de la herramienta",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the <br>curvature and the slope of cutter location surface</br>.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the <br>curvature and the slope of cutter location surface</br>."
+            ],
+            "translated_annotated_samples": [
+                "En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la <br>curvatura y la pendiente de la superficie de ubicación de la herramienta</br>."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la <br>curvatura y la pendiente de la superficie de ubicación de la herramienta</br>. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "cutter location surface": {
+            "translated_key": "superficie de ubicación de la herramienta",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of <br>cutter location surface</br>.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of <br>cutter location surface</br>."
+            ],
+            "translated_annotated_samples": [
+                "En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la <br>superficie de ubicación de la herramienta</br>."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la <br>superficie de ubicación de la herramienta</br>. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "deformation vector": {
+            "translated_key": "vector de deformación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the <br>deformation vector</br> is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "In the section of model building, in order to obtain the deformed surface, the <br>deformation vector</br> is computed which is associated with the curvature and the slope of cutter location surface."
+            ],
+            "translated_annotated_samples": [
+                "En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el <br>vector de deformación</br> que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el <br>vector de deformación</br> que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "deformation vector is computed": {
+            "translated_key": "vector de deformación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the <br>deformation vector is computed</br> which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "In the section of model building, in order to obtain the deformed surface, the <br>deformation vector is computed</br> which is associated with the curvature and the slope of cutter location surface."
+            ],
+            "translated_annotated_samples": [
+                "En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el <br>vector de deformación</br> que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el <br>vector de deformación</br> que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "inversely converted method": {
+            "translated_key": "método de conversión inversa",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the <br>inversely converted method</br> is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "In addition, the <br>inversely converted method</br> is used."
+            ],
+            "translated_annotated_samples": [
+                "Además, se utiliza el <br>método de conversión inversa</br>."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el <br>método de conversión inversa</br>. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "model building": {
+            "translated_key": "construcción del modelo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: <br>model building</br> and tool path generation.",
+                "In the section of <br>model building</br>, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "The algorithm includes two steps: <br>model building</br> and tool path generation.",
+                "In the section of <br>model building</br>, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface."
+            ],
+            "translated_annotated_samples": [
+                "El algoritmo incluye dos pasos: <br>construcción del modelo</br> y generación de la trayectoria de la herramienta.",
+                "En la sección de <br>construcción del modelo</br>, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: <br>construcción del modelo</br> y generación de la trayectoria de la herramienta. En la sección de <br>construcción del modelo</br>, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "obtain the deformed surface": {
+            "translated_key": "obtener la superficie deformada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to <br>obtain the deformed surface</br>, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "In the section of model building, in order to <br>obtain the deformed surface</br>, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface."
+            ],
+            "translated_annotated_samples": [
+                "En la sección de construcción del modelo, para <br>obtener la superficie deformada</br>, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para <br>obtener la superficie deformada</br>, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "scallop height": {
+            "translated_key": "altura de la escalopadura",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the <br>scallop height</br> for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "The results show that the method can effectively reduce the error of the <br>scallop height</br> for subdivision surface and obtain the better shape and quality."
+            ],
+            "translated_annotated_samples": [
+                "Los resultados muestran que el método puede reducir efectivamente el error de la <br>altura de la escalopadura</br> para superficies de subdivisión y obtener una forma y calidad mejores."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la <br>altura de la escalopadura</br> para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "slicing procedure": {
+            "translated_key": "procedimiento de corte",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the <br>slicing procedure</br> is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "In the procedure of tool path generation, the <br>slicing procedure</br> is adopted to get the CL points."
+            ],
+            "translated_annotated_samples": [
+                "En el procedimiento de generación de la trayectoria de la herramienta, se adopta el <br>procedimiento de corte</br> para obtener los puntos de CL."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el <br>procedimiento de corte</br> para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "some examples with actual machining": {
+            "translated_key": "mecanizado real",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by <br>some examples with actual machining</br>.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "The method is tested by <br>some examples with actual machining</br>."
+            ],
+            "translated_annotated_samples": [
+                "El método se prueba con algunos ejemplos de <br>mecanizado real</br>."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de <br>mecanizado real</br>. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "subdivision surface": {
+            "translated_key": "superficies de subdivisión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for <br>subdivision surface</br> and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "The results show that the method can effectively reduce the error of the scallop height for <br>subdivision surface</br> and obtain the better shape and quality."
+            ],
+            "translated_annotated_samples": [
+                "Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para <br>superficies de subdivisión</br> y obtener una forma y calidad mejores."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para <br>superficies de subdivisión</br> y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "subdivision surfaces": {
+            "translated_key": "superficies de subdivisión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for <br>subdivision surfaces</br> is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "An algorithm of multi-axis NC tool-path generation for <br>subdivision surfaces</br> is proposed."
+            ],
+            "translated_annotated_samples": [
+                "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para <br>superficies de subdivisión</br>."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para <br>superficies de subdivisión</br>. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "tested by some examples with actual machining": {
+            "translated_key": "mecanizado real",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and tool path generation.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of tool path generation, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is <br>tested by some examples with actual machining</br>.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "The method is <br>tested by some examples with actual machining</br>."
+            ],
+            "translated_annotated_samples": [
+                "El método se prueba con algunos ejemplos de <br>mecanizado real</br>."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y generación de la trayectoria de la herramienta. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de generación de la trayectoria de la herramienta, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de <br>mecanizado real</br>. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "tool path generation": {
+            "translated_key": "generación de la trayectoria de la herramienta",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "An algorithm of multi-axis NC tool-path generation for subdivision surfaces is proposed.",
+                "The algorithm includes two steps: model building and <br>tool path generation</br>.",
+                "In the section of model building, in order to obtain the deformed surface, the deformation vector is computed which is associated with the curvature and the slope of cutter location surface.",
+                "In the procedure of <br>tool path generation</br>, the slicing procedure is adopted to get the CL points.",
+                "In addition, the inversely converted method is used.",
+                "The method is tested by some examples with actual machining.",
+                "The results show that the method can effectively reduce the error of the scallop height for subdivision surface and obtain the better shape and quality.",
+                "In addition, the computational complexity and is scalable and robust."
+            ],
+            "original_annotated_samples": [
+                "The algorithm includes two steps: model building and <br>tool path generation</br>.",
+                "In the procedure of <br>tool path generation</br>, the slicing procedure is adopted to get the CL points."
+            ],
+            "translated_annotated_samples": [
+                "El algoritmo incluye dos pasos: construcción del modelo y <br>generación de la trayectoria de la herramienta</br>.",
+                "En el procedimiento de <br>generación de la trayectoria de la herramienta</br>, se adopta el procedimiento de corte para obtener los puntos de CL."
+            ],
+            "translated_text": "Se propone un algoritmo de generación de trayectorias de herramientas NC de varios ejes para superficies de subdivisión. El algoritmo incluye dos pasos: construcción del modelo y <br>generación de la trayectoria de la herramienta</br>. En la sección de construcción del modelo, para obtener la superficie deformada, se calcula el vector de deformación que está asociado con la curvatura y la pendiente de la superficie de ubicación de la herramienta. En el procedimiento de <br>generación de la trayectoria de la herramienta</br>, se adopta el procedimiento de corte para obtener los puntos de CL. Además, se utiliza el método de conversión inversa. El método se prueba con algunos ejemplos de mecanizado real. Los resultados muestran que el método puede reducir efectivamente el error de la altura de la escalopadura para superficies de subdivisión y obtener una forma y calidad mejores. Además, la complejidad computacional es escalable y robusta. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

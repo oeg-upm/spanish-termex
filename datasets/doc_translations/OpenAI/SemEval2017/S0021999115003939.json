@@ -1,0 +1,307 @@
+{
+    "id": "S0021999115003939",
+    "original_text": "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes. As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered. Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation. Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2. Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value.",
+    "original_translation": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Dado cómo el nodo virtual de viento de proa se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba.",
+    "original_sentences": [
+        "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+        "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+        "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+        "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+        "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+    ],
+    "error_count": 0,
+    "keys": {
+        "Darwish and Moukalled": {
+            "translated_key": "Darwish y Moukalled",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of <br>Darwish and Moukalled</br> [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of <br>Darwish and Moukalled</br> [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Dado cómo el nodo virtual de viento ascendente se incorpora en la relación de gradiente rf, el método de extrapolación de <br>Darwish y Moukalled</br> [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita."
+            ],
+            "translated_text": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Output: Dado cómo el nodo virtual de viento ascendente se incorpora en la relación de gradiente rf, el método de extrapolación de <br>Darwish y Moukalled</br> [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "data readily available on unstructured meshes": {
+            "translated_key": "datos fácilmente disponibles en mallas no estructuradas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using <br>data readily available on unstructured meshes</br>, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using <br>data readily available on unstructured meshes</br>, are considered."
+            ],
+            "translated_annotated_samples": [
+                "Output: Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando <br>datos fácilmente disponibles en mallas no estructuradas</br>."
+            ],
+            "translated_text": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Output: Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando <br>datos fácilmente disponibles en mallas no estructuradas</br>. Dado cómo el nodo virtual de viento de proa se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "equidistant, rectilinear meshes": {
+            "translated_key": "mallas equidistantes y rectilíneas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for <br>equidistant, rectilinear meshes</br> but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "Both methods precisely reconstruct the upwind value for <br>equidistant, rectilinear meshes</br> but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2."
+            ],
+            "translated_annotated_samples": [
+                "Output: Ambos métodos reconstruyen con precisión el valor ascendente para <br>mallas equidistantes y rectilíneas</br> pero no lo hacen en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2."
+            ],
+            "translated_text": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Dado cómo el nodo virtual de viento de proa se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Output: Ambos métodos reconstruyen con precisión el valor ascendente para <br>mallas equidistantes y rectilíneas</br> pero no lo hacen en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "explicit extrapolation": {
+            "translated_key": "extrapolación explícita",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as <br>explicit extrapolation</br>.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the <br>explicit extrapolation</br> method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as <br>explicit extrapolation</br>.",
+                "Using the <br>explicit extrapolation</br> method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "translated_annotated_samples": [
+                " Dado cómo el nodo virtual de viento ascendente se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como <br>extrapolación explícita</br>.",
+                "Output: Utilizando el método de <br>extrapolación explícita</br> este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba."
+            ],
+            "translated_text": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas.  Dado cómo el nodo virtual de viento ascendente se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como <br>extrapolación explícita</br>. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Output: Utilizando el método de <br>extrapolación explícita</br> este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "extrapolation of the upwind value": {
+            "translated_key": "extrapolación del valor ascendente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The <br>extrapolation of the upwind value</br> required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "The <br>extrapolation of the upwind value</br> required for TVD differencing is a particular hurdle for the application on unstructured meshes."
+            ],
+            "translated_annotated_samples": [
+                "Output: La <br>extrapolación del valor ascendente</br> requerida para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas."
+            ],
+            "translated_text": "Output: La <br>extrapolación del valor ascendente</br> requerida para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Dado cómo el nodo virtual de viento de proa se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "implicit extrapolation": {
+            "translated_key": "extrapolación implícita",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as <br>implicit extrapolation</br> and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as <br>implicit extrapolation</br> and the method introduced by Ubbink and Issa [12] as explicit extrapolation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Dado cómo el nodo virtual de viento ascendente se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina <br>extrapolación implícita</br> y el método introducido por Ubbink e Issa [12] como extrapolación explícita."
+            ],
+            "translated_text": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Output: Dado cómo el nodo virtual de viento ascendente se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina <br>extrapolación implícita</br> y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "method introduced by Ubbink and Issa": {
+            "translated_key": "método introducido por Ubbink e Issa",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the <br>method introduced by Ubbink and Issa</br> [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the <br>method introduced by Ubbink and Issa</br> [12] as explicit extrapolation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Dado cómo el nodo virtual de viento ascendente se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el <br>método introducido por Ubbink e Issa</br> [12] como extrapolación explícita."
+            ],
+            "translated_text": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Output: Dado cómo el nodo virtual de viento ascendente se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el <br>método introducido por Ubbink e Issa</br> [12] como extrapolación explícita. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "non-equidistant": {
+            "translated_key": "no equidistantes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on <br>non-equidistant</br> or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on <br>non-equidistant</br> or non-rectilinear meshes, as discussed in Section 3.2."
+            ],
+            "translated_annotated_samples": [
+                "Output: Ambos métodos reconstruyen con precisión el valor ascendente para mallas equidistantes y rectilíneas, pero no logran hacerlo en mallas <br>no equidistantes</br> o no rectilíneas, como se discute en la Sección 3.2."
+            ],
+            "translated_text": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Dado cómo el nodo virtual de viento de proa se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Output: Ambos métodos reconstruyen con precisión el valor ascendente para mallas equidistantes y rectilíneas, pero no logran hacerlo en mallas <br>no equidistantes</br> o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "non-rectilinear meshes": {
+            "translated_key": "no rectilíneas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or <br>non-rectilinear meshes</br>, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or <br>non-rectilinear meshes</br>, as discussed in Section 3.2."
+            ],
+            "translated_annotated_samples": [
+                "Output: Ambos métodos reconstruyen con precisión el valor ascendente para mallas equidistantes y rectilíneas, pero no logran hacerlo en mallas no equidistantes o <br>no rectilíneas</br>, como se discute en la Sección 3.2."
+            ],
+            "translated_text": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Dado cómo el nodo virtual de viento de proa se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Output: Ambos métodos reconstruyen con precisión el valor ascendente para mallas equidistantes y rectilíneas, pero no logran hacerlo en mallas no equidistantes o <br>no rectilíneas</br>, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "TVD differencing": {
+            "translated_key": "diferenciación TVD",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for <br>TVD differencing</br> is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "The extrapolation of the upwind value required for <br>TVD differencing</br> is a particular hurdle for the application on unstructured meshes."
+            ],
+            "translated_annotated_samples": [
+                "Output: La extrapolación del valor ascendente necesario para la <br>diferenciación TVD</br> es un obstáculo particular para la aplicación en mallas no estructuradas."
+            ],
+            "translated_text": "Output: La extrapolación del valor ascendente necesario para la <br>diferenciación TVD</br> es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Dado cómo el nodo virtual de viento de proa se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "unstructured meshes": {
+            "translated_key": "mallas no estructuradas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on <br>unstructured meshes</br>.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on <br>unstructured meshes</br>, are considered.",
+                "Given how the virtual upwind node is incorporated in the gradient ratio rf, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on <br>unstructured meshes</br>.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on <br>unstructured meshes</br>, are considered."
+            ],
+            "translated_annotated_samples": [
+                "Output: La extrapolación del valor ascendente necesario para la diferenciación TVD es un obstáculo particular para la aplicación en <br>mallas no estructuradas</br>.",
+                "Output: Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en <br>mallas no estructuradas</br>."
+            ],
+            "translated_text": "Output: La extrapolación del valor ascendente necesario para la diferenciación TVD es un obstáculo particular para la aplicación en <br>mallas no estructuradas</br>. Output: Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en <br>mallas no estructuradas</br>. Dado cómo el nodo virtual de viento de proa se incorpora en la relación de gradiente rf, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "virtual upwind node is incorporated in the gradient ratio rf": {
+            "translated_key": "nodo ascendente virtual en la relación de gradiente rf",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The extrapolation of the upwind value required for TVD differencing is a particular hurdle for the application on unstructured meshes.",
+                "As discussed in Section 3.2, two methods to extrapolate the value at the virtual upwind node, using data readily available on unstructured meshes, are considered.",
+                "Given how the <br>virtual upwind node is incorporated in the gradient ratio rf</br>, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation.",
+                "Both methods precisely reconstruct the upwind value for equidistant, rectilinear meshes but fail to do so on non-equidistant or non-rectilinear meshes, as discussed in Section 3.2.",
+                "Using the explicit extrapolation method this issue can be rectified by imposing appropriate limits on the extrapolated upwind value."
+            ],
+            "original_annotated_samples": [
+                "Given how the <br>virtual upwind node is incorporated in the gradient ratio rf</br>, the extrapolation method of Darwish and Moukalled [13] is referred to as implicit extrapolation and the method introduced by Ubbink and Issa [12] as explicit extrapolation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Dado cómo se incorpora el <br>nodo ascendente virtual en la relación de gradiente rf</br>, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita."
+            ],
+            "translated_text": "La extrapolación del valor de viento a favor requerido para la diferenciación TVD es un obstáculo particular para la aplicación en mallas no estructuradas. Como se discute en la Sección 3.2, se consideran dos métodos para extrapolar el valor en el nodo virtual aguas arriba, utilizando datos fácilmente disponibles en mallas no estructuradas. Output: Dado cómo se incorpora el <br>nodo ascendente virtual en la relación de gradiente rf</br>, el método de extrapolación de Darwish y Moukalled [13] se denomina extrapolación implícita y el método introducido por Ubbink e Issa [12] como extrapolación explícita. Ambos métodos reconstruyen con precisión el valor aguas arriba para mallas equidistantes y rectilíneas, pero no lo logran en mallas no equidistantes o no rectilíneas, como se discute en la Sección 3.2. Usando el método de extrapolación explícita, este problema puede ser corregido imponiendo límites apropiados en el valor extrapolado aguas arriba. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

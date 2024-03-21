@@ -1,0 +1,284 @@
+{
+    "id": "S0045782513001448",
+    "original_text": "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a weakly compressible SPH formulation (WCSPH). In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state. The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density. In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint. A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure. This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2]. A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4].",
+    "original_translation": "Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método SPH se ha realizado a través de una formulación SPH débilmente compresible (WCSPH). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2]. Una revisión del método SPH se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4].",
+    "original_sentences": [
+        "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a weakly compressible SPH formulation (WCSPH).",
+        "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+        "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+        "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+        "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+        "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+        "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+    ],
+    "error_count": 1,
+    "keys": {
+        "artificial equation of state": {
+            "translated_key": "ecuación de estado artificial",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a weakly compressible SPH formulation (WCSPH).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an <br>artificial equation of state</br>.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an <br>artificial equation of state</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una <br>ecuación de estado artificial</br>."
+            ],
+            "translated_text": "Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método SPH se ha realizado a través de una formulación SPH débilmente compresible (WCSPH). Output: En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una <br>ecuación de estado artificial</br>. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2]. Una revisión del método SPH se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "create more uniform particle distributions": {
+            "translated_key": "crean distribuciones de partículas más uniformes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a weakly compressible SPH formulation (WCSPH).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which <br>create more uniform particle distributions</br> have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which <br>create more uniform particle distributions</br> have improved this [1,2]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que <br>crean distribuciones de partículas más uniformes</br> han mejorado esto [1,2]."
+            ],
+            "translated_text": "Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método SPH se ha realizado a través de una formulación SPH débilmente compresible (WCSPH). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Output: Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que <br>crean distribuciones de partículas más uniformes</br> han mejorado esto [1,2]. Una revisión del método SPH se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fluid": {
+            "translated_key": "fluido",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the simulation of incompressible <br>fluid</br> flow by the SPH method has been through a weakly compressible SPH formulation (WCSPH).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual <br>fluid</br> density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "Traditionally, the simulation of incompressible <br>fluid</br> flow by the SPH method has been through a weakly compressible SPH formulation (WCSPH).",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual <br>fluid</br> density."
+            ],
+            "translated_annotated_samples": [
+                "Output: Tradicionalmente, la simulación del flujo de <br>fluido</br> incompresible mediante el método SPH ha sido a través de una formulación SPH débilmente compresible (WCSPH).",
+                "Output: La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad dentro de una pequeña fracción de la densidad del <br>fluido</br> real."
+            ],
+            "translated_text": "Output: Tradicionalmente, la simulación del flujo de <br>fluido</br> incompresible mediante el método SPH ha sido a través de una formulación SPH débilmente compresible (WCSPH). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. Output: La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad dentro de una pequeña fracción de la densidad del <br>fluido</br> real. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2]. Una revisión del método SPH se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fluid flow": {
+            "translated_key": "fluido incompresible",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the simulation of incompressible <br>fluid flow</br> by the SPH method has been through a weakly compressible SPH formulation (WCSPH).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "Traditionally, the simulation of incompressible <br>fluid flow</br> by the SPH method has been through a weakly compressible SPH formulation (WCSPH)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Tradicionalmente, la simulación de flujo de <br>fluido incompresible</br> mediante el método SPH ha sido a través de una formulación SPH débilmente compresible (WCSPH)."
+            ],
+            "translated_text": "Output: Tradicionalmente, la simulación de flujo de <br>fluido incompresible</br> mediante el método SPH ha sido a través de una formulación SPH débilmente compresible (WCSPH). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2]. Una revisión del método SPH se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "free-surface flows": {
+            "translated_key": "superficie libre",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a weakly compressible SPH formulation (WCSPH).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to <br>free-surface flows</br> can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to <br>free-surface flows</br> can be found in [4]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Una revisión del método SPH se puede encontrar en [3] mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos de <br>superficie libre</br> se puede encontrar en [4]."
+            ],
+            "translated_text": "Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método SPH se ha realizado a través de una formulación SPH débilmente compresible (WCSPH). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2]. Output: Una revisión del método SPH se puede encontrar en [3] mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos de <br>superficie libre</br> se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "particle": {
+            "translated_key": "partículas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a weakly compressible SPH formulation (WCSPH).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform <br>particle</br> distributions have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform <br>particle</br> distributions have improved this [1,2]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de <br>partículas</br> más uniformes han mejorado esto [1,2]."
+            ],
+            "translated_text": "Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método SPH se ha realizado a través de una formulación SPH débilmente compresible (WCSPH). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Output: Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de <br>partículas</br> más uniformes han mejorado esto [1,2]. Una revisión del método SPH se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "simulation of incompressible fluid flow": {
+            "translated_key": "simulación de flujo de fluidos incompresibles",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the <br>simulation of incompressible fluid flow</br> by the SPH method has been through a weakly compressible SPH formulation (WCSPH).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "Traditionally, the <br>simulation of incompressible fluid flow</br> by the SPH method has been through a weakly compressible SPH formulation (WCSPH)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Tradicionalmente, la <br>simulación de flujo de fluidos incompresibles</br> mediante el método SPH ha sido a través de una formulación SPH débilmente compresible (WCSPH)."
+            ],
+            "translated_text": "Output: Tradicionalmente, la <br>simulación de flujo de fluidos incompresibles</br> mediante el método SPH ha sido a través de una formulación SPH débilmente compresible (WCSPH). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2]. Una revisión del método SPH se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SPH method": {
+            "translated_key": "SPH",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the simulation of incompressible fluid flow by the <br>SPH method</br> has been through a weakly compressible SPH formulation (WCSPH).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+                "A review of the <br>SPH method</br> can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "Traditionally, the simulation of incompressible fluid flow by the <br>SPH method</br> has been through a weakly compressible SPH formulation (WCSPH).",
+                "A review of the <br>SPH method</br> can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método <br>SPH</br> ha sido a través de una formulación SPH débilmente compresible (WCSPH).",
+                "Output: Una revisión del método <br>SPH</br> se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4]."
+            ],
+            "translated_text": "Output: Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método <br>SPH</br> ha sido a través de una formulación SPH débilmente compresible (WCSPH). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2]. Output: Una revisión del método <br>SPH</br> se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "WCSPH": {
+            "translated_key": "WCSPH",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a weakly compressible SPH formulation (<br>WCSPH</br>).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make <br>WCSPH</br> formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical <br>WCSPH</br> formulation applied to free-surface flows can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a weakly compressible SPH formulation (<br>WCSPH</br>).",
+                "This can make <br>WCSPH</br> formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical <br>WCSPH</br> formulation applied to free-surface flows can be found in [4]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método SPH se ha realizado a través de una formulación SPH débilmente compresible (<br>WCSPH</br>).",
+                "Output: Esto puede hacer que las formulaciones de <br>WCSPH</br> sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2].",
+                "Output: Una revisión del método SPH se puede encontrar en [3] mientras que una revisión de la formulación clásica de <br>WCSPH</br> aplicada a flujos en superficies libres se puede encontrar en [4]."
+            ],
+            "translated_text": "Output: Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método SPH se ha realizado a través de una formulación SPH débilmente compresible (<br>WCSPH</br>). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Output: Esto puede hacer que las formulaciones de <br>WCSPH</br> sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2]. Output: Una revisión del método SPH se puede encontrar en [3] mientras que una revisión de la formulación clásica de <br>WCSPH</br> aplicada a flujos en superficies libres se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "weakly compressible SPH formulation": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a <br>weakly compressible SPH formulation</br> (WCSPH).",
+                "In this approach, the pressure is treated as a thermodynamic variable and is calculated using an artificial equation of state.",
+                "The sound speed is set to be sufficiently high to limit density variations to within a small fraction of the actual fluid density.",
+                "In practice, this high sound speed places a limitation on the maximum permissible time-step size through the Courant–Friedrichs–Lewy (CFL) constraint.",
+                "A particular weakness relates to noise in the pressure field since a small perturbation in the local density will yield a large variation in the local pressure.",
+                "This can make WCSPH formulations ineffective for accurate force and pressure prediction, although recent developments which create more uniform particle distributions have improved this [1,2].",
+                "A review of the SPH method can be found in [3] while a review of the classical WCSPH formulation applied to free-surface flows can be found in [4]."
+            ],
+            "original_annotated_samples": [
+                "Traditionally, the simulation of incompressible fluid flow by the SPH method has been through a <br>weakly compressible SPH formulation</br> (WCSPH)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método SPH ha sido a través de una formulación de SPH débilmente compresible (WCSPH)."
+            ],
+            "translated_text": "Output: Tradicionalmente, la simulación del flujo de fluidos incompresibles mediante el método SPH ha sido a través de una formulación de SPH débilmente compresible (WCSPH). En este enfoque, la presión se trata como una variable termodinámica y se calcula utilizando una ecuación de estado artificial. La velocidad del sonido se establece lo suficientemente alta para limitar las variaciones de densidad a una pequeña fracción de la densidad real del fluido. En la práctica, esta alta velocidad del sonido impone una limitación en el tamaño máximo permitido del paso de tiempo a través de la restricción de Courant–Friedrichs–Lewy (CFL). Una debilidad particular se relaciona con el ruido en el campo de presión, ya que una pequeña perturbación en la densidad local producirá una gran variación en la presión local. Esto puede hacer que las formulaciones de WCSPH sean ineficaces para predecir con precisión la fuerza y la presión, aunque los desarrollos recientes que crean distribuciones de partículas más uniformes han mejorado esto [1,2]. Una revisión del método SPH se puede encontrar en [3], mientras que una revisión de la formulación clásica de WCSPH aplicada a flujos en superficies libres se puede encontrar en [4]. ",
+            "candidates": [],
+            "error": [
+                [],
+                []
+            ]
+        }
+    }
+}

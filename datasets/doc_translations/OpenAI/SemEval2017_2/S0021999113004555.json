@@ -1,0 +1,351 @@
+{
+    "id": "S0021999113004555",
+    "original_text": "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion. They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme. This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step. Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation. A Rosenbrock solution is one iteration of a Newton solver. This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection.",
+    "original_translation": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical.",
+    "original_sentences": [
+        "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+        "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+        "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+        "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+        "A Rosenbrock solution is one iteration of a Newton solver.",
+        "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+    ],
+    "translated_text_sentences": [
+        "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico.",
+        "Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso.",
+        "Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo.",
+        "Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas.",
+        "Una solución de Rosenbrock es una iteración de un solucionador de Newton.",
+        "Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical."
+    ],
+    "error_count": 0,
+    "keys": {
+        "ARS(2,3,2) scheme": {
+            "translated_key": "esquema ARS(2,3,2)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the <br>ARS(2,3,2) scheme</br> of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "They tested the <br>ARS(2,3,2) scheme</br> of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme."
+            ],
+            "translated_annotated_samples": [
+                "Probaron el <br>esquema ARS(2,3,2)</br> de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el <br>esquema ARS(2,3,2)</br> de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "atmospheric motion": {
+            "translated_key": "movimiento atmosférico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing <br>atmospheric motion</br>.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing <br>atmospheric motion</br>."
+            ],
+            "translated_annotated_samples": [
+                "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el <br>movimiento atmosférico</br>."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el <br>movimiento atmosférico</br>. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "HEVI solution": {
+            "translated_key": "solución HEVI",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the <br>HEVI solution</br> of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the <br>HEVI solution</br> of the equations governing atmospheric motion."
+            ],
+            "translated_annotated_samples": [
+                "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la <br>solución HEVI</br> de las ecuaciones que rigen el movimiento atmosférico."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la <br>solución HEVI</br> de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Newton solver": {
+            "translated_key": "solucionador de Newton",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a <br>Newton solver</br>.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "A Rosenbrock solution is one iteration of a <br>Newton solver</br>."
+            ],
+            "translated_annotated_samples": [
+                "Una solución de Rosenbrock es una iteración de un <br>solucionador de Newton</br>."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un <br>solucionador de Newton</br>. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "one iteration of a Newton solver": {
+            "translated_key": "una iteración de un solucionador de Newton",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is <br>one iteration of a Newton solver</br>.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "A Rosenbrock solution is <br>one iteration of a Newton solver</br>."
+            ],
+            "translated_annotated_samples": [
+                "Una solución de Rosenbrock es <br>una iteración de un solucionador de Newton</br>."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es <br>una iteración de un solucionador de Newton</br>. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Rosenbrock solution": {
+            "translated_key": "solución de Rosenbrock",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a <br>Rosenbrock solution</br> in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A <br>Rosenbrock solution</br> is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a <br>Rosenbrock solution</br> in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A <br>Rosenbrock solution</br> is one iteration of a Newton solver."
+            ],
+            "translated_annotated_samples": [
+                "Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una <br>solución de Rosenbrock</br> para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas.",
+                "Una <br>solución de Rosenbrock</br> es una iteración de un solucionador de Newton."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una <br>solución de Rosenbrock</br> para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una <br>solución de Rosenbrock</br> es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Runge–Kutta IMEX schemes": {
+            "translated_key": "esquemas IMEX de Runge-Kutta",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three <br>Runge–Kutta IMEX schemes</br> were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "Three <br>Runge–Kutta IMEX schemes</br> were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion."
+            ],
+            "translated_annotated_samples": [
+                "Tres <br>esquemas IMEX de Runge-Kutta</br> fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico."
+            ],
+            "translated_text": "Tres <br>esquemas IMEX de Runge-Kutta</br> fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "slowing the vertical advection": {
+            "translated_key": "ralentizar la advección vertical",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of <br>slowing the vertical advection</br>."
+            ],
+            "original_annotated_samples": [
+                "This circumvents the time-step restriction associated with vertical advection at the cost of <br>slowing the vertical advection</br>."
+            ],
+            "translated_annotated_samples": [
+                "Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de <br>ralentizar la advección vertical</br>."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de <br>ralentizar la advección vertical</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Strang carryover scheme": {
+            "translated_key": "esquema de transferencia de Strang",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate <br>Strang carryover scheme</br>.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate <br>Strang carryover scheme</br>."
+            ],
+            "translated_annotated_samples": [
+                "Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el <br>esquema de transferencia de Strang</br>, menos costoso computacionalmente pero casi tan preciso."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el <br>esquema de transferencia de Strang</br>, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Strang splitting": {
+            "translated_key": "división de Strang",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves <br>Strang splitting</br> but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "This involves <br>Strang splitting</br> but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step."
+            ],
+            "translated_annotated_samples": [
+                "Esto implica la <br>división de Strang</br>, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la <br>división de Strang</br>, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "time-step restriction": {
+            "translated_key": "restricción del paso de tiempo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the <br>time-step restriction</br> associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "This circumvents the <br>time-step restriction</br> associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "translated_annotated_samples": [
+                "Esto evita la <br>restricción del paso de tiempo</br> asociada con la advección vertical a expensas de ralentizar la advección vertical."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la <br>restricción del paso de tiempo</br> asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "vertical advection": {
+            "translated_key": "advección vertical",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in wave propagation.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with <br>vertical advection</br> at the cost of slowing the <br>vertical advection</br>."
+            ],
+            "original_annotated_samples": [
+                "This circumvents the time-step restriction associated with <br>vertical advection</br> at the cost of slowing the <br>vertical advection</br>."
+            ],
+            "translated_annotated_samples": [
+                "Esto evita la restricción del paso de tiempo asociada con la <br>advección vertical</br> a expensas de ralentizar la <br>advección vertical</br>."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la propagación de ondas. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la <br>advección vertical</br> a expensas de ralentizar la <br>advección vertical</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "wave propagation": {
+            "translated_key": "propagación de ondas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Three Runge–Kutta IMEX schemes were tested by Ullrich and Jablonowski [23] for the HEVI solution of the equations governing atmospheric motion.",
+                "They tested the ARS(2,3,2) scheme of Ascher et al. [1] and also suggested the less computationally expensive but nearly as accurate Strang carryover scheme.",
+                "This involves Strang splitting but the first implicit stage is cleverly re-used from the final implicit stage of the previous time-step and so there is only one implicit solution per time-step.",
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in <br>wave propagation</br>.",
+                "A Rosenbrock solution is one iteration of a Newton solver.",
+                "This circumvents the time-step restriction associated with vertical advection at the cost of slowing the vertical advection."
+            ],
+            "original_annotated_samples": [
+                "Another novel approach taken by Ullrich and Jablonowski [23] is to use a Rosenbrock solution in order to treat all of the vertical terms implicitly rather than just the terms involved in <br>wave propagation</br>."
+            ],
+            "translated_annotated_samples": [
+                "Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la <br>propagación de ondas</br>."
+            ],
+            "translated_text": "Tres esquemas IMEX de Runge-Kutta fueron probados por Ullrich y Jablonowski [23] para la solución HEVI de las ecuaciones que rigen el movimiento atmosférico. Probaron el esquema ARS(2,3,2) de Ascher et al. [1] y también sugirieron el esquema de transferencia de Strang, menos costoso computacionalmente pero casi tan preciso. Esto implica la división de Strang, pero la primera etapa implícita se reutiliza de manera inteligente de la etapa implícita final del paso de tiempo anterior, por lo que solo hay una solución implícita por paso de tiempo. Otro enfoque novedoso adoptado por Ullrich y Jablonowski [23] es utilizar una solución de Rosenbrock para tratar todos los términos verticales de manera implícita en lugar de solo los términos involucrados en la <br>propagación de ondas</br>. Una solución de Rosenbrock es una iteración de un solucionador de Newton. Esto evita la restricción del paso de tiempo asociada con la advección vertical a expensas de ralentizar la advección vertical. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,411 @@
+{
+    "id": "S0098300414000259",
+    "original_text": "Apache Pig is a platform for creating MapReduce workflows with Hadoop. These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs. Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems. In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java. We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013). Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten.",
+    "original_translation": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos.",
+    "original_sentences": [
+        "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+        "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+        "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+        "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+        "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+        "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+    ],
+    "error_count": 0,
+    "keys": {
+        "Apache Pig": {
+            "translated_key": "Apache Pig",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Apache Pig</br> is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "<br>Apache Pig</br> is a platform for creating MapReduce workflows with Hadoop."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>Apache Pig</br> es una plataforma para crear flujos de trabajo de MapReduce con Hadoop."
+            ],
+            "translated_text": "Output: <br>Apache Pig</br> es una plataforma para crear flujos de trabajo de MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "DAG processing": {
+            "translated_key": "gráficos acíclicos dirigidos (DAG)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized <br>DAG processing</br> (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized <br>DAG processing</br> (Mayer, 2013)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Adoptamos Pig para nuestra implementación del correlador para acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de <br>gráficos acíclicos dirigidos (DAG)</br> más generalizado (Mayer, 2013)."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Output: Adoptamos Pig para nuestra implementación del correlador para acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de <br>gráficos acíclicos dirigidos (DAG)</br> más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "DAGs": {
+            "translated_key": "DAGs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (<br>DAGs</br>) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "These workflows are expressed as directed acyclic graphs (<br>DAGs</br>) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (<br>DAGs</br>) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Output: Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (<br>DAGs</br>) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "directed acyclic graphs": {
+            "translated_key": "gráficos acíclicos dirigidos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as <br>directed acyclic graphs</br> (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "These workflows are expressed as <br>directed acyclic graphs</br> (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos flujos de trabajo se expresan como <br>gráficos acíclicos dirigidos</br> (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Output: Estos flujos de trabajo se expresan como <br>gráficos acíclicos dirigidos</br> (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Hadoop": {
+            "translated_key": "Hadoop",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with <br>Hadoop</br>.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the <br>Hadoop</br> community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of <br>Hadoop</br> are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "Apache Pig is a platform for creating MapReduce workflows with <br>Hadoop</br>.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the <br>Hadoop</br> community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of <br>Hadoop</br> are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "translated_annotated_samples": [
+                "Output: Apache Pig es una plataforma para crear flujos de trabajo de MapReduce con <br>Hadoop</br>.",
+                "Adoptamos Pig para nuestra implementación del correlador para acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la comunidad de <br>Hadoop</br> en su migración lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013).",
+                "Output: Específicamente, en el caso de que las futuras versiones de <br>Hadoop</br> estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de volver a codificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos."
+            ],
+            "translated_text": "Output: Apache Pig es una plataforma para crear flujos de trabajo de MapReduce con <br>Hadoop</br>. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador para acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la comunidad de <br>Hadoop</br> en su migración lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Output: Específicamente, en el caso de que las futuras versiones de <br>Hadoop</br> estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de volver a codificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Java MapReduce": {
+            "translated_key": "Java MapReduce",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit <br>Java MapReduce</br> jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit <br>Java MapReduce</br> jobs would need to be rewritten."
+            ],
+            "translated_annotated_samples": [
+                "Output: Específicamente, en el caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificación, mientras que los trabajos explícitos de <br>Java MapReduce</br> tendrían que ser reescritos."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Output: Específicamente, en el caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificación, mientras que los trabajos explícitos de <br>Java MapReduce</br> tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MapReduce": {
+            "translated_key": "MapReduce",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating <br>MapReduce</br> workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of <br>MapReduce</br> jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from <br>MapReduce</br> towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than <br>MapReduce</br>, Pig scripts could take advantage of these advances without recoding, whereas explicit Java <br>MapReduce</br> jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "Apache Pig is a platform for creating <br>MapReduce</br> workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of <br>MapReduce</br> jobs.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from <br>MapReduce</br> towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than <br>MapReduce</br>, Pig scripts could take advantage of these advances without recoding, whereas explicit Java <br>MapReduce</br> jobs would need to be rewritten."
+            ],
+            "translated_annotated_samples": [
+                "Output: Apache Pig es una plataforma para crear flujos de trabajo de <br>MapReduce</br> con Hadoop.",
+                "Output: Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de <br>MapReduce</br>.",
+                "Output: Adoptamos Pig para nuestra implementación del correlador para acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de <br>MapReduce</br> hacia un procesamiento de DAG más generalizado (Mayer, 2013).",
+                "Output: Específicamente, en el caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a <br>MapReduce</br>, los scripts de Pig podrían aprovechar estos avances sin necesidad de volver a codificar, mientras que los trabajos explícitos de Java <br>MapReduce</br> tendrían que ser reescritos."
+            ],
+            "translated_text": "Output: Apache Pig es una plataforma para crear flujos de trabajo de <br>MapReduce</br> con Hadoop. Output: Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de <br>MapReduce</br>. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Output: Adoptamos Pig para nuestra implementación del correlador para acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de <br>MapReduce</br> hacia un procesamiento de DAG más generalizado (Mayer, 2013). Output: Específicamente, en el caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a <br>MapReduce</br>, los scripts de Pig podrían aprovechar estos avances sin necesidad de volver a codificar, mientras que los trabajos explícitos de Java <br>MapReduce</br> tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MapReduce workflows": {
+            "translated_key": "MapReduce",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating <br>MapReduce workflows</br> with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "Apache Pig is a platform for creating <br>MapReduce workflows</br> with Hadoop."
+            ],
+            "translated_annotated_samples": [
+                "Output: Apache Pig es una plataforma para crear flujos de trabajo de <br>MapReduce</br> con Hadoop."
+            ],
+            "translated_text": "Output: Apache Pig es una plataforma para crear flujos de trabajo de <br>MapReduce</br> con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Pig": {
+            "translated_key": "Pig",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache <br>Pig</br> is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "<br>Pig</br> Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, <br>Pig</br> can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted <br>Pig</br> for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, <br>Pig</br> scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "Apache <br>Pig</br> is a platform for creating MapReduce workflows with Hadoop.",
+                "<br>Pig</br> Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, <br>Pig</br> can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted <br>Pig</br> for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, <br>Pig</br> scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "translated_annotated_samples": [
+                "Output: Apache <br>Pig</br> es una plataforma para crear flujos de trabajo MapReduce con Hadoop.",
+                "Output: <br>Pig</br> Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado para sistemas de bases de datos relacionales.",
+                "Output: Además de las operaciones estándar de SQL, <br>Pig</br> puede ser ampliado con funciones definidas por el usuario (UDFs) comúnmente escritas en Java.",
+                "Output: Adoptamos <br>Pig</br> para nuestra implementación del correlacionador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013).",
+                "Output: Específicamente, en el caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de <br>Pig</br> podrían aprovechar estos avances sin necesidad de volver a codificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos."
+            ],
+            "translated_text": "Output: Apache <br>Pig</br> es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Output: <br>Pig</br> Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado para sistemas de bases de datos relacionales. Output: Además de las operaciones estándar de SQL, <br>Pig</br> puede ser ampliado con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Output: Adoptamos <br>Pig</br> para nuestra implementación del correlacionador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Output: Específicamente, en el caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de <br>Pig</br> podrían aprovechar estos avances sin necesidad de volver a codificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Pig Latin": {
+            "translated_key": "Pig Latin",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "<br>Pig Latin</br> is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "<br>Pig Latin</br> is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>Pig Latin</br> es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Output: <br>Pig Latin</br> es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Pig scripts": {
+            "translated_key": "scripts de Pig",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, <br>Pig scripts</br> could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, <br>Pig scripts</br> could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "translated_annotated_samples": [
+                "Output: Específicamente, en el caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los <br>scripts de Pig</br> podrían aprovechar estos avances sin necesidad de recodificación, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Output: Específicamente, en el caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los <br>scripts de Pig</br> podrían aprovechar estos avances sin necesidad de recodificación, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SQL": {
+            "translated_key": "SQL",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative <br>SQL</br> commonly used for relational database systems.",
+                "In addition to standard <br>SQL</br> operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative <br>SQL</br> commonly used for relational database systems.",
+                "In addition to standard <br>SQL</br> operations, Pig can be extended with user-defined functions (UDFs) commonly written in Java."
+            ],
+            "translated_annotated_samples": [
+                "Output: Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al <br>SQL</br> declarativo comúnmente utilizado en sistemas de bases de datos relacionales.",
+                "Output: Además de las operaciones estándar de <br>SQL</br>, Pig se puede ampliar con funciones definidas por el usuario (UDFs) comúnmente escritas en Java."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Output: Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al <br>SQL</br> declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Output: Además de las operaciones estándar de <br>SQL</br>, Pig se puede ampliar con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SQL operations": {
+            "translated_key": "SQL",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard <br>SQL operations</br>, Pig can be extended with user-defined functions (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "In addition to standard <br>SQL operations</br>, Pig can be extended with user-defined functions (UDFs) commonly written in Java."
+            ],
+            "translated_annotated_samples": [
+                "Además de las operaciones estándar de <br>SQL</br>, Pig se puede ampliar con funciones definidas por el usuario (UDFs) comúnmente escritas en Java."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Además de las operaciones estándar de <br>SQL</br>, Pig se puede ampliar con funciones definidas por el usuario (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "UDFs": {
+            "translated_key": "UDFs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (<br>UDFs</br>) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "In addition to standard SQL operations, Pig can be extended with user-defined functions (<br>UDFs</br>) commonly written in Java."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (<br>UDFs</br>) comúnmente escritas en Java."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Output: Además de las operaciones estándar de SQL, Pig se puede extender con funciones definidas por el usuario (<br>UDFs</br>) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "user-defined functions": {
+            "translated_key": "funciones definidas por el usuario",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Apache Pig is a platform for creating MapReduce workflows with Hadoop.",
+                "These workflows are expressed as directed acyclic graphs (DAGs) of tasks that exist at a conceptually higher level than their implementations as series of MapReduce jobs.",
+                "Pig Latin is the procedural language used for building these workflows, providing syntax similar to the declarative SQL commonly used for relational database systems.",
+                "In addition to standard SQL operations, Pig can be extended with <br>user-defined functions</br> (UDFs) commonly written in Java.",
+                "We adopted Pig for our implementation of the correlator to speed up development time, allow for ad hoc workflow changes, and to embrace the Hadoop community׳s migration away from MapReduce towards more generalized DAG processing (Mayer, 2013).",
+                "Specifically, in the event that future versions of Hadoop are optimized to support paradigms other than MapReduce, Pig scripts could take advantage of these advances without recoding, whereas explicit Java MapReduce jobs would need to be rewritten."
+            ],
+            "original_annotated_samples": [
+                "In addition to standard SQL operations, Pig can be extended with <br>user-defined functions</br> (UDFs) commonly written in Java."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además de las operaciones estándar de SQL, Pig se puede extender con <br>funciones definidas por el usuario</br> (UDFs) comúnmente escritas en Java."
+            ],
+            "translated_text": "Apache Pig es una plataforma para crear flujos de trabajo MapReduce con Hadoop. Estos flujos de trabajo se expresan como grafos acíclicos dirigidos (DAGs) de tareas que existen a un nivel conceptual más alto que sus implementaciones como series de trabajos de MapReduce. Pig Latin es el lenguaje procedural utilizado para construir estos flujos de trabajo, proporcionando una sintaxis similar al SQL declarativo comúnmente utilizado en sistemas de bases de datos relacionales. Output: Además de las operaciones estándar de SQL, Pig se puede extender con <br>funciones definidas por el usuario</br> (UDFs) comúnmente escritas en Java. Adoptamos Pig para nuestra implementación del correlador con el fin de acelerar el tiempo de desarrollo, permitir cambios en el flujo de trabajo ad hoc y para unirnos a la migración de la comunidad de Hadoop lejos de MapReduce hacia un procesamiento de DAG más generalizado (Mayer, 2013). Específicamente, en caso de que las futuras versiones de Hadoop estén optimizadas para admitir paradigmas distintos a MapReduce, los scripts de Pig podrían aprovechar estos avances sin necesidad de recodificar, mientras que los trabajos explícitos de Java MapReduce tendrían que ser reescritos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

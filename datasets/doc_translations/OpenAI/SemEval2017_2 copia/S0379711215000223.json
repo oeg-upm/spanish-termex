@@ -1,0 +1,819 @@
+{
+    "id": "S0379711215000223",
+    "original_text": "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling. In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting). The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12]. The optimization technique used is function of the number of variables and their interactions. In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13]. However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g. Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]). Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters. They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters. The four optimization algorithms provided results with an absolute average error between 1% and 25%. SCE was the most suitable algorithm. The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption.",
+    "original_translation": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado.",
+    "original_sentences": [
+        "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+        "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+        "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+        "The optimization technique used is function of the number of variables and their interactions.",
+        "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+        "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+        "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+        "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+        "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+        "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+        "SCE was the most suitable algorithm.",
+        "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+    ],
+    "translated_text_sentences": [
+        "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso.",
+        "En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable).",
+        "Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12].",
+        "La técnica de optimización utilizada depende del número de variables y sus interacciones.",
+        "En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13].",
+        "Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]).",
+        "Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados.",
+        "Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada.",
+        "Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%.",
+        "SCE fue el algoritmo más adecuado.",
+        "El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado."
+    ],
+    "error_count": 8,
+    "keys": {
+        "algorithm": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic <br>algorithm</br> (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of <br>algorithm</br> can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable <br>algorithm</br>.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "Genetic <br>algorithm</br> (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of <br>algorithm</br> can have on the optimized parameters.",
+                "SCE was the most suitable <br>algorithm</br>."
+            ],
+            "translated_annotated_samples": [
+                "Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del <br>algoritmo</br> puede tener en los parámetros optimizados.",
+                "Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes <br>algoritmos</br> encontrar de vuelta el conjunto de parámetros de entrada.",
+                "El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del <br>algoritmo</br> puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes <br>algoritmos</br> encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    "algoritmo",
+                    "algoritmos"
+                ]
+            ]
+        },
+        "algorithms": {
+            "translated_key": "algoritmos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different <br>algorithms</br> to find back the set of input parameters.",
+                "The four optimization <br>algorithms</br> provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different <br>algorithms</br> to find back the set of input parameters.",
+                "The four optimization <br>algorithms</br> provided results with an absolute average error between 1% and 25%."
+            ],
+            "translated_annotated_samples": [
+                "Los cuatro <br>algoritmos</br> de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%.",
+                "SCE fue el algoritmo más adecuado."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro <br>algoritmos</br> de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "calibration process": {
+            "translated_key": "proceso de calibración",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the <br>calibration process</br> inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the <br>calibration process</br> and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "The mentioned difficulties associated with the <br>calibration process</br> inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the <br>calibration process</br> and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting)."
+            ],
+            "translated_annotated_samples": [
+                "Las dificultades mencionadas asociadas con el <br>proceso de calibración</br> inspiraron el concepto de modelado inverso.",
+                "En este caso, los datos experimentales se integran por completo en el <br>proceso de calibración</br> y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable)."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el <br>proceso de calibración</br> inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el <br>proceso de calibración</br> y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "choice of algorithm": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the <br>choice of algorithm</br> can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the <br>choice of algorithm</br> can have on the optimized parameters."
+            ],
+            "translated_annotated_samples": [
+                "Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "experimental data": {
+            "translated_key": "datos experimentales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the <br>experimental data</br> become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used <br>experimental data</br> for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "In this case, the <br>experimental data</br> become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used <br>experimental data</br> for model calibration have been the mass loss rate and the surface temperature [10–12]."
+            ],
+            "translated_annotated_samples": [
+                "En este caso, los <br>datos experimentales</br> se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable).",
+                "Los <br>datos experimentales</br> más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los <br>datos experimentales</br> se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los <br>datos experimentales</br> más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GA": {
+            "translated_key": "algoritmo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (<br>GA</br>) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "Genetic Algorithm (<br>GA</br>) [10,14] or Shuffled Complex Evolution (SCE) [11])."
+            ],
+            "translated_annotated_samples": [
+                "Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del <br>algoritmo</br> puede tener en los parámetros optimizados."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del <br>algoritmo</br> puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Genetic Algorithm": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "<br>Genetic Algorithm</br> (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "<br>Genetic Algorithm</br> (GA) [10,14] or Shuffled Complex Evolution (SCE) [11])."
+            ],
+            "translated_annotated_samples": [
+                "Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "GPYRO": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code <br>GPYRO</br> a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "They generated using their code <br>GPYRO</br> a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters."
+            ],
+            "translated_annotated_samples": [
+                "Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "inverse modelling": {
+            "translated_key": "modelado inverso",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of <br>inverse modelling</br>.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of <br>inverse modelling</br>."
+            ],
+            "translated_annotated_samples": [
+                "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de <br>modelado inverso</br>."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de <br>modelado inverso</br>. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "kinetics parameters": {
+            "translated_key": "parámetros cinéticos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the <br>kinetics parameters</br>) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "In the past, only the few most uncertain parameters (i.e. the <br>kinetics parameters</br>) were generally used as potentiometers [13]."
+            ],
+            "translated_annotated_samples": [
+                "En el pasado, solo los pocos parámetros más inciertos (es decir, los <br>parámetros cinéticos</br>) se utilizaban generalmente como potenciómetros [13]."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los <br>parámetros cinéticos</br>) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mass loss rate": {
+            "translated_key": "tasa de pérdida de masa",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the <br>mass loss rate</br> and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (<br>mass loss rate</br> and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "The most used experimental data for model calibration have been the <br>mass loss rate</br> and the surface temperature [10–12].",
+                "They generated using their code GPYRO a set of synthetic data (<br>mass loss rate</br> and surfaces temperature) and tried with different algorithms to find back the set of input parameters."
+            ],
+            "translated_annotated_samples": [
+                "Los datos experimentales más utilizados para la calibración del modelo han sido la <br>tasa de pérdida de masa</br> y la temperatura superficial [10–12].",
+                "Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la <br>tasa de pérdida de masa</br> y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mathematical procedures": {
+            "translated_key": "procedimientos matemáticos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated <br>mathematical procedures</br> have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "However, sophisticated <br>mathematical procedures</br> have been developed to increase the number of parameters optimized simultaneously (e.g."
+            ],
+            "translated_annotated_samples": [
+                "Sin embargo, se han desarrollado <br>procedimientos matemáticos</br> sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11])."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado <br>procedimientos matemáticos</br> sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "model calibration": {
+            "translated_key": "calibración del modelo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for <br>model calibration</br> have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "The most used experimental data for <br>model calibration</br> have been the mass loss rate and the surface temperature [10–12]."
+            ],
+            "translated_annotated_samples": [
+                "Los datos experimentales más utilizados para la <br>calibración del modelo</br> han sido la tasa de pérdida de masa y la temperatura superficial [10–12]."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la <br>calibración del modelo</br> han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "multivariable curve fitting": {
+            "translated_key": "ajuste de curvas multivariable",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. <br>multivariable curve fitting</br>).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. <br>multivariable curve fitting</br>)."
+            ],
+            "translated_annotated_samples": [
+                "En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, <br>ajuste de curvas multivariable</br>)."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, <br>ajuste de curvas multivariable</br>). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "optimization algorithms": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four <br>optimization algorithms</br> provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "The four <br>optimization algorithms</br> provided results with an absolute average error between 1% and 25%."
+            ],
+            "translated_annotated_samples": [
+                "SCE fue el algoritmo más adecuado."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "optimization routine": {
+            "translated_key": "rutina de optimización",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an <br>optimization routine</br> is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "In this case, the experimental data become entirely integrated in the calibration process and an <br>optimization routine</br> is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting)."
+            ],
+            "translated_annotated_samples": [
+                "En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una <br>rutina de optimización</br> para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable)."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una <br>rutina de optimización</br> para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "optimization technique": {
+            "translated_key": "técnica de optimización",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The <br>optimization technique</br> used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "The <br>optimization technique</br> used is function of the number of variables and their interactions."
+            ],
+            "translated_annotated_samples": [
+                "La <br>técnica de optimización</br> utilizada depende del número de variables y sus interacciones."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La <br>técnica de optimización</br> utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "parameters": {
+            "translated_key": "parámetros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of <br>parameters</br> which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain <br>parameters</br> (i.e. the kinetics <br>parameters</br>) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of <br>parameters</br> optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized <br>parameters</br>.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input <br>parameters</br>.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of <br>parameters</br> which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "In the past, only the few most uncertain <br>parameters</br> (i.e. the kinetics <br>parameters</br>) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of <br>parameters</br> optimized simultaneously (e.g.",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized <br>parameters</br>.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input <br>parameters</br>."
+            ],
+            "translated_annotated_samples": [
+                "En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de <br>parámetros</br> que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable).",
+                "En el pasado, solo los pocos <br>parámetros</br> más inciertos (es decir, los <br>parámetros</br> cinéticos) se utilizaban generalmente como potenciómetros [13].",
+                "Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de <br>parámetros</br> optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]).",
+                "Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de <br>parámetros</br> de entrada.",
+                "Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de <br>parámetros</br> que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos <br>parámetros</br> más inciertos (es decir, los <br>parámetros</br> cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de <br>parámetros</br> optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de <br>parámetros</br> de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "potentiometers": {
+            "translated_key": "potenciómetros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as <br>potentiometers</br> [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as <br>potentiometers</br> [13]."
+            ],
+            "translated_annotated_samples": [
+                "En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como <br>potenciómetros</br> [13]."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como <br>potenciómetros</br> [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "pyrolysis behaviour": {
+            "translated_key": "comportamiento de la pirólisis",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed <br>pyrolysis behaviour</br> (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed <br>pyrolysis behaviour</br> (i.e. multivariable curve fitting)."
+            ],
+            "translated_annotated_samples": [
+                "En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el <br>comportamiento de la pirólisis</br> observado (es decir, ajuste de curvas multivariable)."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el <br>comportamiento de la pirólisis</br> observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "quantify the best set of parameters": {
+            "translated_key": "conjunto de parámetros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to <br>quantify the best set of parameters</br> which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to <br>quantify the best set of parameters</br> which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting)."
+            ],
+            "translated_annotated_samples": [
+                "En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor <br>conjunto de parámetros</br> que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable)."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor <br>conjunto de parámetros</br> que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SCE": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (<br>SCE</br>) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "<br>SCE</br> was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (<br>SCE</br>) [11]).",
+                "<br>SCE</br> was the most suitable algorithm."
+            ],
+            "translated_annotated_samples": [
+                "Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados.",
+                "El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "Shuffled Complex Evolution": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or <br>Shuffled Complex Evolution</br> (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "Genetic Algorithm (GA) [10,14] or <br>Shuffled Complex Evolution</br> (SCE) [11])."
+            ],
+            "translated_annotated_samples": [
+                "Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "surface temperature [": {
+            "translated_key": "temperatura superficial",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the <br>surface temperature [</br>10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of synthetic data (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of synthetic data conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "The most used experimental data for model calibration have been the mass loss rate and the <br>surface temperature [</br>10–12]."
+            ],
+            "translated_annotated_samples": [
+                "Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la <br>temperatura superficial</br> [10–12]."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la <br>temperatura superficial</br> [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "synthetic data": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The mentioned difficulties associated with the calibration process inspired the concept of inverse modelling.",
+                "In this case, the experimental data become entirely integrated in the calibration process and an optimization routine is used to quantify the best set of parameters which explain the observed pyrolysis behaviour (i.e. multivariable curve fitting).",
+                "The most used experimental data for model calibration have been the mass loss rate and the surface temperature [10–12].",
+                "The optimization technique used is function of the number of variables and their interactions.",
+                "In the past, only the few most uncertain parameters (i.e. the kinetics parameters) were generally used as potentiometers [13].",
+                "However, sophisticated mathematical procedures have been developed to increase the number of parameters optimized simultaneously (e.g.",
+                "Genetic Algorithm (GA) [10,14] or Shuffled Complex Evolution (SCE) [11]).",
+                "Lautenberger and Fernandez-Pello [12] have recently investigated the influence that the choice of algorithm can have on the optimized parameters.",
+                "They generated using their code GPYRO a set of <br>synthetic data</br> (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters.",
+                "The four optimization algorithms provided results with an absolute average error between 1% and 25%.",
+                "SCE was the most suitable algorithm.",
+                "The use of <br>synthetic data</br> conveniently avoids the problem of agreement between the actual physical phenomena and any modelling assumption."
+            ],
+            "original_annotated_samples": [
+                "They generated using their code GPYRO a set of <br>synthetic data</br> (mass loss rate and surfaces temperature) and tried with different algorithms to find back the set of input parameters."
+            ],
+            "translated_annotated_samples": [
+                "Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%."
+            ],
+            "translated_text": "Las dificultades mencionadas asociadas con el proceso de calibración inspiraron el concepto de modelado inverso. En este caso, los datos experimentales se integran por completo en el proceso de calibración y se utiliza una rutina de optimización para cuantificar el mejor conjunto de parámetros que explican el comportamiento de la pirólisis observado (es decir, ajuste de curvas multivariable). Los datos experimentales más utilizados para la calibración del modelo han sido la tasa de pérdida de masa y la temperatura superficial [10–12]. La técnica de optimización utilizada depende del número de variables y sus interacciones. En el pasado, solo los pocos parámetros más inciertos (es decir, los parámetros cinéticos) se utilizaban generalmente como potenciómetros [13]. Sin embargo, se han desarrollado procedimientos matemáticos sofisticados para aumentar el número de parámetros optimizados simultáneamente (por ejemplo, Algoritmo Genético (GA) [10,14] o Evolución Compleja Barajada (SCE) [11]). Lautenberger y Fernandez-Pello [12] han investigado recientemente la influencia que la elección del algoritmo puede tener en los parámetros optimizados. Generaron utilizando su código GPYRO un conjunto de datos sintéticos (tasa de pérdida de masa y temperatura superficial) e intentaron con diferentes algoritmos encontrar de vuelta el conjunto de parámetros de entrada. Los cuatro algoritmos de optimización proporcionaron resultados con un error promedio absoluto entre el 1% y el 25%. SCE fue el algoritmo más adecuado. El uso de datos sintéticos evita convenientemente el problema de concordancia entre los fenómenos físicos reales y cualquier suposición de modelado. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        }
+    }
+}

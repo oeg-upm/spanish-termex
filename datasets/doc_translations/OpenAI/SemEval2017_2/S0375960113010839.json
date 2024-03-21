@@ -1,0 +1,320 @@
+{
+    "id": "S0375960113010839",
+    "original_text": "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex. Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle. In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise. For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk. We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n.",
+    "original_translation": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n.",
+    "original_sentences": [
+        "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+        "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+        "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+        "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+        "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+    ],
+    "translated_text_sentences": [
+        "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo.",
+        "Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo.",
+        "Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase.",
+        "Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata.",
+        "Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n."
+    ],
+    "error_count": 1,
+    "keys": {
+        "classical random walks": {
+            "translated_key": "caminatas aleatorias clásicas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force <br>classical random walks</br> to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force <br>classical random walks</br> to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle."
+            ],
+            "translated_annotated_samples": [
+                "Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las <br>caminatas aleatorias clásicas</br> a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las <br>caminatas aleatorias clásicas</br> a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "classical random walk search": {
+            "translated_key": "búsqueda de caminata aleatoria clásica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than <br>classical random walk search</br> by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than <br>classical random walk search</br> by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle."
+            ],
+            "translated_annotated_samples": [
+                "Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la <br>búsqueda de caminata aleatoria clásica</br> al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la <br>búsqueda de caminata aleatoria clásica</br> al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "class of graphs": {
+            "translated_key": "clase de grafos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a <br>class of graphs</br> (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a <br>class of graphs</br> (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle."
+            ],
+            "translated_annotated_samples": [
+                "Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una <br>clase de grafos</br> (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una <br>clase de grafos</br> (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "glued trees": {
+            "translated_key": "árboles pegados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the <br>glued trees</br> (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "The goal of the <br>glued trees</br> (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex."
+            ],
+            "translated_annotated_samples": [
+                "El objetivo del algoritmo de <br>árboles pegados</br> (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo."
+            ],
+            "translated_text": "El objetivo del algoritmo de <br>árboles pegados</br> (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "gluing stage": {
+            "translated_key": "etapa de pegado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the <br>gluing stage</br>, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the <br>gluing stage</br>, and thus labelled as G′n."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la <br>etapa de pegado</br>, y por lo tanto se etiquetan como G'n."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la <br>etapa de pegado</br>, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "graph": {
+            "translated_key": "grafo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT <br>graph</br>, traverse the <br>graph</br> and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the <br>graph</br>, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT <br>graph</br>, traverse the <br>graph</br> and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the <br>graph</br>, but that are traversable by quantum walks with a polynomial number of queries to such an oracle."
+            ],
+            "translated_annotated_samples": [
+                "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un <br>grafo</br> GT dado, recorrer el <br>grafo</br> y llegar al vértice más a la derecha, conocido como el vértice objetivo.",
+                "Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de <br>grafo</br>s (los <br>grafo</br>s GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un <br>grafo</br> GT dado, recorrer el <br>grafo</br> y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de <br>grafo</br>s (los <br>grafo</br>s GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GT": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (<br>GT</br>) algorithm for quantum search is the following: beginning from the left-most vertex of a given <br>GT</br> graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the <br>GT</br> graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider <br>GT</br> graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "The goal of the glued trees (<br>GT</br>) algorithm for quantum search is the following: beginning from the left-most vertex of a given <br>GT</br> graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the <br>GT</br> graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "We thus consider <br>GT</br> graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "translated_annotated_samples": [
+                "El objetivo del <br>algoritmo de árboles pegados</br> (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo.",
+                "Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los <br>grafos GT</br>) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo.",
+                "Por lo tanto, consideramos <br>grafos GT</br> como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n."
+            ],
+            "translated_text": "El objetivo del <br>algoritmo de árboles pegados</br> (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los <br>grafos GT</br>) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos <br>grafos GT</br> como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    "algoritmo de árboles pegados",
+                    "grafos GT",
+                    "grafos GT"
+                ]
+            ]
+        },
+        "GT graph": {
+            "translated_key": "grafo GT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given <br>GT graph</br>, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given <br>GT graph</br>, traverse the graph and reach the right-most vertex, referred to as the target vertex."
+            ],
+            "translated_annotated_samples": [
+                "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un <br>grafo GT</br> dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un <br>grafo GT</br> dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GT graphs": {
+            "translated_key": "grafos GT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the <br>GT graphs</br>) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider <br>GT graphs</br> such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the <br>GT graphs</br>) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "We thus consider <br>GT graphs</br> such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "translated_annotated_samples": [
+                "Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los <br>grafos GT</br>) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo.",
+                "Por lo tanto, consideramos <br>grafos GT</br> como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los <br>grafos GT</br>) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos <br>grafos GT</br> como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "increasing degree of phase damping noise": {
+            "translated_key": "ruido de amortiguamiento de fase",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an <br>increasing degree of phase damping noise</br>.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an <br>increasing degree of phase damping noise</br>."
+            ],
+            "translated_annotated_samples": [
+                "Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de <br>ruido de amortiguamiento de fase</br>."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de <br>ruido de amortiguamiento de fase</br>. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "quantum search": {
+            "translated_key": "búsqueda cuántica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for <br>quantum search</br> is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show quantum walk search to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "The goal of the glued trees (GT) algorithm for <br>quantum search</br> is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex."
+            ],
+            "translated_annotated_samples": [
+                "El objetivo del algoritmo de árboles pegados (GT) para la <br>búsqueda cuántica</br> es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la <br>búsqueda cuántica</br> es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la búsqueda de caminata cuántica es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "quantum walk search": {
+            "translated_key": "búsqueda de caminata cuántica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The goal of the glued trees (GT) algorithm for quantum search is the following: beginning from the left-most vertex of a given GT graph, traverse the graph and reach the right-most vertex, referred to as the target vertex.",
+                "Childs et al. [1] use this algorithm to show <br>quantum walk search</br> to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle.",
+                "In order to study the robustness of the algorithm to the detrimental effects of decoherence, we shall determine how effectively it achieves its goal when subjected to an increasing degree of phase damping noise.",
+                "For this reason, we will focus on the probability that the walker is on the target vertex at the end of the walk.",
+                "We thus consider GT graphs such as the one illustrated in Fig. 1(b), i.e. consisting of n layers before the gluing stage, and thus labelled as G′n."
+            ],
+            "original_annotated_samples": [
+                "Childs et al. [1] use this algorithm to show <br>quantum walk search</br> to be fundamentally more effective than classical random walk search by presenting a class of graphs (the GT graphs) that force classical random walks to make exponentially many queries to an oracle encoding the structure of the graph, but that are traversable by quantum walks with a polynomial number of queries to such an oracle."
+            ],
+            "translated_annotated_samples": [
+                "Childs et al. [1] utilizan este algoritmo para demostrar que la <br>búsqueda de caminata cuántica</br> es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo."
+            ],
+            "translated_text": "El objetivo del algoritmo de árboles pegados (GT) para la búsqueda cuántica es el siguiente: comenzando desde el vértice más a la izquierda de un grafo GT dado, recorrer el grafo y llegar al vértice más a la derecha, conocido como el vértice objetivo. Childs et al. [1] utilizan este algoritmo para demostrar que la <br>búsqueda de caminata cuántica</br> es fundamentalmente más efectiva que la búsqueda de caminata aleatoria clásica al presentar una clase de grafos (los grafos GT) que obligan a las caminatas aleatorias clásicas a realizar un número exponencial de consultas a un oráculo que codifica la estructura del grafo, pero que son recorribles por caminatas cuánticas con un número polinomial de consultas a dicho oráculo. Con el fin de estudiar la robustez del algoritmo ante los efectos perjudiciales de la decoherencia, determinaremos qué tan efectivamente logra su objetivo cuando se somete a un aumento en el grado de ruido de amortiguamiento de fase. Por esta razón, nos enfocaremos en la probabilidad de que el caminante se encuentre en el vértice objetivo al final de la caminata. Por lo tanto, consideramos grafos GT como el ilustrado en la Fig. 1(b), es decir, que constan de n capas antes de la etapa de pegado, y por lo tanto se etiquetan como G'n. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

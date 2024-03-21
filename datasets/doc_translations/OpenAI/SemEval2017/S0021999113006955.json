@@ -1,0 +1,762 @@
+{
+    "id": "S0021999113006955",
+    "original_text": "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth. Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors. For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders. Increasing the order of the geometry parametrisation reduces the geometric error. The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error. If the solution is not smooth, we do not expect to see rapid convergence. In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries. However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured. In the cardiac problem, we consider both the true surface and solution to be smooth.",
+    "original_translation": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves.",
+    "original_sentences": [
+        "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+        "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+        "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+        "Increasing the order of the geometry parametrisation reduces the geometric error.",
+        "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+        "If the solution is not smooth, we do not expect to see rapid convergence.",
+        "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+        "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+        "In the cardiac problem, we consider both the true surface and solution to be smooth."
+    ],
+    "error_count": 3,
+    "keys": {
+        "analytic test cases": {
+            "translated_key": "casos de prueba analíticos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The <br>analytic test cases</br> presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The <br>analytic test cases</br> presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los <br>casos de prueba analíticos</br> presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Output: Los <br>casos de prueba analíticos</br> presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "capture features in the solution": {
+            "translated_key": "capturar características en la solución",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to <br>capture features in the solution</br> and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to <br>capture features in the solution</br> and so will better capture the geometry and consequently reduce this lower bound on the solution error."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para <br>capturar características en la solución</br> y así capturarán mejor la geometría y, en consecuencia, reducirán este límite inferior en el error de la solución."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para <br>capturar características en la solución</br> y así capturarán mejor la geometría y, en consecuencia, reducirán este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "capture the geometry": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better <br>capture the geometry</br> and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better <br>capture the geometry</br> and consequently reduce this lower bound on the solution error."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [],
+                []
+            ]
+        },
+        "cardiac problem": {
+            "translated_key": "problema cardíaco",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the <br>cardiac problem</br>, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "In the <br>cardiac problem</br>, we consider both the true surface and solution to be smooth."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el <br>problema cardíaco</br>, consideramos tanto la superficie real como la solución como suaves."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. Output: En el <br>problema cardíaco</br>, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "coarse curvilinear mesh": {
+            "translated_key": "malla curvilínea gruesa",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a <br>coarse curvilinear mesh</br>; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The analytic test cases presented here use a <br>coarse curvilinear mesh</br>; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba analíticos presentados aquí utilizan una <br>malla curvilínea gruesa</br>; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Output: Los casos de prueba analíticos presentados aquí utilizan una <br>malla curvilínea gruesa</br>; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "discontinuities are aligned with element boundaries": {
+            "translated_key": "discontinuidades están alineadas con los límites de los elementos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the <br>discontinuities are aligned with element boundaries</br>.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the <br>discontinuities are aligned with element boundaries</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las <br>discontinuidades están alineadas con los límites de los elementos</br>."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las <br>discontinuidades están alineadas con los límites de los elementos</br>. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "element": {
+            "translated_key": "elemento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with <br>element</br> boundaries.",
+                "However, if discontinuities lie within an <br>element</br>, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with <br>element</br> boundaries.",
+                "However, if discontinuities lie within an <br>element</br>, convergence will be limited by the geometric approximation, since the true surface cannot be captured."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites del <br>elemento</br>.",
+                "Output: Sin embargo, si las discontinuidades se encuentran dentro de un <br>elemento</br>, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites del <br>elemento</br>. Output: Sin embargo, si las discontinuidades se encuentran dentro de un <br>elemento</br>, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "element boundaries": {
+            "translated_key": "límites de los elementos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with <br>element boundaries</br>.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with <br>element boundaries</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los <br>límites de los elementos</br>."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los <br>límites de los elementos</br>. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "exponential convergence": {
+            "translated_key": "convergencia exponencial",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains <br>exponential convergence</br> properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then <br>exponential convergence</br> with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The test cases confirm that the high-order discretisation retains <br>exponential convergence</br> properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "In the case that the solution is smooth, but the true surface is not, then <br>exponential convergence</br> with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba confirman que la discretización de alto orden conserva las propiedades de <br>convergencia exponencial</br> con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la verdadera superficie son suaves.",
+                "Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la <br>convergencia exponencial</br> con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos."
+            ],
+            "translated_text": "Output: Los casos de prueba confirman que la discretización de alto orden conserva las propiedades de <br>convergencia exponencial</br> con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la verdadera superficie son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la <br>convergencia exponencial</br> con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "exponential convergence properties": {
+            "translated_key": "propiedades de convergencia exponencial",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains <br>exponential convergence properties</br> with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The test cases confirm that the high-order discretisation retains <br>exponential convergence properties</br> with increasing geometric and expansion polynomial order if both the solution and true surface are smooth."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba confirman que la discretización de alto orden conserva las <br>propiedades de convergencia exponencial</br> con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la verdadera superficie son suaves."
+            ],
+            "translated_text": "Output: Los casos de prueba confirman que la discretización de alto orden conserva las <br>propiedades de convergencia exponencial</br> con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la verdadera superficie son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "geometric approximation": {
+            "translated_key": "aproximación geométrica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the <br>geometric approximation</br>, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "However, if discontinuities lie within an element, convergence will be limited by the <br>geometric approximation</br>, since the true surface cannot be captured."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, si hay discontinuidades dentro de un elemento, la convergencia estará limitada por la <br>aproximación geométrica</br>, ya que la verdadera superficie no puede ser capturada."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Output: Sin embargo, si hay discontinuidades dentro de un elemento, la convergencia estará limitada por la <br>aproximación geométrica</br>, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "geometric error": {
+            "translated_key": "error geométrico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the <br>geometric error</br>.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "Increasing the order of the geometry parametrisation reduces the <br>geometric error</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aumentar el orden de la parametrización de la geometría reduce el <br>error geométrico</br>."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Output: Aumentar el orden de la parametrización de la geometría reduce el <br>error geométrico</br>. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "geometry parametrisation": {
+            "translated_key": "parametrización de la geometría",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the <br>geometry parametrisation</br> reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "Increasing the order of the <br>geometry parametrisation</br> reduces the geometric error."
+            ],
+            "translated_annotated_samples": [
+                "Output: Aumentar el orden de la <br>parametrización de la geometría</br> reduce el error geométrico."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Output: Aumentar el orden de la <br>parametrización de la geometría</br> reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "higher solution polynomial orders": {
+            "translated_key": "órdenes polinomiales de solución más altos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or <br>higher solution polynomial orders</br>.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or <br>higher solution polynomial orders</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de mayores aumentos en el número de grados de libertad, ya sea a través de refinamiento de malla o <br>órdenes polinomiales de solución más altos</br>."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Output: Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de mayores aumentos en el número de grados de libertad, ya sea a través de refinamiento de malla o <br>órdenes polinomiales de solución más altos</br>. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "high-order discretisation": {
+            "translated_key": "discretización de alto orden",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the <br>high-order discretisation</br> retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The test cases confirm that the <br>high-order discretisation</br> retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba confirman que la <br>discretización de alto orden</br> mantiene propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la verdadera superficie son suaves."
+            ],
+            "translated_text": "Output: Los casos de prueba confirman que la <br>discretización de alto orden</br> mantiene propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la verdadera superficie son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "meshes": {
+            "translated_key": "mallas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, <br>meshes</br> are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, <br>meshes</br> are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las <br>mallas</br> suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las <br>mallas</br> suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mesh refinement": {
+            "translated_key": "refinamiento de malla",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through <br>mesh refinement</br> or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through <br>mesh refinement</br> or higher solution polynomial orders."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de mayores aumentos en el número de grados de libertad, ya sea a través de <br>refinamiento de malla</br> o mayores órdenes polinomiales de solución."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Output: Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de mayores aumentos en el número de grados de libertad, ya sea a través de <br>refinamiento de malla</br> o mayores órdenes polinomiales de solución. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "P": {
+            "translated_key": "P",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with <br>P</br> and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with <br>P</br> and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con <br>P</br> y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con <br>P</br> y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "parametrisation of the surface elements": {
+            "translated_key": "parametrización de los elementos de la superficie",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the <br>parametrisation of the surface elements</br>, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "Errors are found to saturate when the geometric errors, due to the <br>parametrisation of the surface elements</br>, begin to dominate the temporal and spatial discretisation errors."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se encuentra que los errores se saturan cuando los errores geométricos, debido a la <br>parametrización de los elementos de la superficie</br>, comienzan a dominar los errores de discretización temporal y espacial."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Output: Se encuentra que los errores se saturan cuando los errores geométricos, debido a la <br>parametrización de los elementos de la superficie</br>, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Pg": {
+            "translated_key": "Pg",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and <br>Pg</br> can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and <br>Pg</br> can only be achieved if, and only if, the discontinuities are aligned with element boundaries."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y <br>Pg</br> solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. Output: En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y <br>Pg</br> solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "reduce this lower bound": {
+            "translated_key": "reducir este límite inferior",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently <br>reduce this lower bound</br> on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently <br>reduce this lower bound</br> on the solution error."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, <br>reducir este límite inferior</br> en el error de la solución."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, <br>reducir este límite inferior</br> en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "smooth solutions": {
+            "translated_key": "soluciones suaves",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the <br>smooth solutions</br> considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "For the <br>smooth solutions</br> considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para las <br>soluciones suaves</br> consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Output: Para las <br>soluciones suaves</br> consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "solution": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the <br>solution</br> and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher <br>solution</br> polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the <br>solution</br> and so will better capture the geometry and consequently reduce this lower bound on the <br>solution</br> error.",
+                "If the <br>solution</br> is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the <br>solution</br> is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and <br>solution</br> to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the <br>solution</br> and true surface are smooth.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher <br>solution</br> polynomial orders.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the <br>solution</br> and so will better capture the geometry and consequently reduce this lower bound on the <br>solution</br> error.",
+                "If the <br>solution</br> is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the <br>solution</br> is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "In the cardiac problem, we consider both the true surface and <br>solution</br> to be smooth."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la <br>solución</br> como la superficie verdadera son suaves.",
+                "Output: Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de mayores aumentos en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales <br>de solución</br> más altas.",
+                "Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la <br>solución</br> y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la <br>solución</br>.",
+                "Output: Si la <br>solución</br> no es suave, no esperamos ver una convergencia rápida.",
+                "Output: En el caso de que la <br>solución</br> sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos.",
+                "Output: En el problema cardíaco, consideramos tanto la superficie real como la <br>solución</br> como suaves."
+            ],
+            "translated_text": "Output: Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la <br>solución</br> como la superficie verdadera son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Output: Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de mayores aumentos en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales <br>de solución</br> más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Output: Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la <br>solución</br> y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la <br>solución</br>. Output: Si la <br>solución</br> no es suave, no esperamos ver una convergencia rápida. Output: En el caso de que la <br>solución</br> sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. Output: En el problema cardíaco, consideramos tanto la superficie real como la <br>solución</br> como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    "solución",
+                    "de solución",
+                    "solución",
+                    "solución",
+                    "solución",
+                    "solución",
+                    "solución"
+                ],
+                [
+                    "solución",
+                    "de solución",
+                    "solución",
+                    "solución",
+                    "solución",
+                    "solución",
+                    "solución"
+                ]
+            ]
+        },
+        "surface elements": {
+            "translated_key": "elementos de superficie",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and true surface are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the <br>surface elements</br>, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the true surface is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the true surface cannot be captured.",
+                "In the cardiac problem, we consider both the true surface and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the <br>surface elements</br>, begin to dominate the temporal and spatial discretisation errors."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se encuentra que los errores se saturan cuando los errores geométricos, debido a la parametrización de los <br>elementos de superficie</br>, comienzan a dominar los errores de discretización temporal y espacial."
+            ],
+            "translated_text": "Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la superficie verdadera son suaves. Output: Se encuentra que los errores se saturan cuando los errores geométricos, debido a la parametrización de los <br>elementos de superficie</br>, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. En el caso de que la solución sea suave, pero la verdadera superficie no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Sin embargo, si las discontinuidades se encuentran dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la verdadera superficie no puede ser capturada. En el problema cardíaco, consideramos tanto la superficie real como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "true surface": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and <br>true surface</br> are smooth.",
+                "Errors are found to saturate when the geometric errors, due to the parametrisation of the surface elements, begin to dominate the temporal and spatial discretisation errors.",
+                "For the smooth solutions considered as test cases, the results show that this dominance of geometric errors quickly limits the effectiveness of further increases in the number of degrees of freedom, either through mesh refinement or higher solution polynomial orders.",
+                "Increasing the order of the geometry parametrisation reduces the geometric error.",
+                "The analytic test cases presented here use a coarse curvilinear mesh; for applications, meshes are typically more refined in order to capture features in the solution and so will better capture the geometry and consequently reduce this lower bound on the solution error.",
+                "If the solution is not smooth, we do not expect to see rapid convergence.",
+                "In the case that the solution is smooth, but the <br>true surface</br> is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the <br>true surface</br> cannot be captured.",
+                "In the cardiac problem, we consider both the <br>true surface</br> and solution to be smooth."
+            ],
+            "original_annotated_samples": [
+                "The test cases confirm that the high-order discretisation retains exponential convergence properties with increasing geometric and expansion polynomial order if both the solution and <br>true surface</br> are smooth.",
+                "In the case that the solution is smooth, but the <br>true surface</br> is not, then exponential convergence with P and Pg can only be achieved if, and only if, the discontinuities are aligned with element boundaries.",
+                "However, if discontinuities lie within an element, convergence will be limited by the geometric approximation, since the <br>true surface</br> cannot be captured.",
+                "In the cardiac problem, we consider both the <br>true surface</br> and solution to be smooth."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la <br>superficie real</br> son suaves.",
+                "Output: En el caso de que la solución sea suave, pero la <br>superficie real</br> no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos.",
+                "Output: Sin embargo, si hay discontinuidades dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la <br>verdadera superficie</br> no puede ser capturada.",
+                "Output: En el problema cardíaco, consideramos tanto la <br>superficie real</br> como la solución como suaves."
+            ],
+            "translated_text": "Output: Los casos de prueba confirman que la discretización de alto orden conserva propiedades de convergencia exponencial con el aumento del orden geométrico y polinómico de expansión si tanto la solución como la <br>superficie real</br> son suaves. Los errores se encuentran saturados cuando los errores geométricos, debido a la parametrización de los elementos de la superficie, comienzan a dominar los errores de discretización temporal y espacial. Para las soluciones suaves consideradas como casos de prueba, los resultados muestran que esta dominancia de errores geométricos limita rápidamente la efectividad de aumentos adicionales en el número de grados de libertad, ya sea a través de refinamiento de malla o de órdenes polinomiales de solución más altas. Aumentar el orden de la parametrización de la geometría reduce el error geométrico. Los casos de prueba analíticos presentados aquí utilizan una malla curvilínea gruesa; para aplicaciones, las mallas suelen ser más refinadas para capturar características en la solución y así capturar mejor la geometría y, en consecuencia, reducir este límite inferior en el error de la solución. Si la solución no es suave, no esperamos ver una convergencia rápida. Output: En el caso de que la solución sea suave, pero la <br>superficie real</br> no lo sea, entonces la convergencia exponencial con P y Pg solo se puede lograr si, y solo si, las discontinuidades están alineadas con los límites de los elementos. Output: Sin embargo, si hay discontinuidades dentro de un elemento, la convergencia estará limitada por la aproximación geométrica, ya que la <br>verdadera superficie</br> no puede ser capturada. Output: En el problema cardíaco, consideramos tanto la <br>superficie real</br> como la solución como suaves. ",
+            "candidates": [],
+            "error": [
+                [
+                    "superficie real",
+                    "superficie real",
+                    "verdadera superficie",
+                    "superficie real"
+                ],
+                [
+                    "superficie real",
+                    "superficie real",
+                    "verdadera superficie",
+                    "superficie real"
+                ]
+            ]
+        }
+    }
+}

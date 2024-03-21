@@ -1,0 +1,774 @@
+{
+    "id": "S0378381215300297",
+    "original_text": "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids. The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53]. The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles. Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT. For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55]. This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades). The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB. The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57]. Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr. The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6",
+    "original_translation": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6",
+    "original_sentences": [
+        "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+        "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+        "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+        "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+        "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+        "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+        "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+        "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+        "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+        "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+    ],
+    "translated_text_sentences": [
+        "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos.",
+        "Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53].",
+        "La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas.",
+        "Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT.",
+        "Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55].",
+        "Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas).",
+        "El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB.",
+        "La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57].",
+        "Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr.",
+        "El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6"
+    ],
+    "error_count": 3,
+    "keys": {
+        "alkanes": {
+            "translated_key": "alcanos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, <br>alkanes</br> have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "Hard spheres, square well fluids, LJ fluids, argon, <br>alkanes</br> have all been employed as reference fluids in the different incarnations of SAFT."
+            ],
+            "translated_annotated_samples": [
+                "Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, <br>alcanos</br> han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, <br>alcanos</br> han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "argon": {
+            "translated_key": "argón",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, <br>argon</br>, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "Hard spheres, square well fluids, LJ fluids, <br>argon</br>, alkanes have all been employed as reference fluids in the different incarnations of SAFT."
+            ],
+            "translated_annotated_samples": [
+                "Esferas duras, fluidos de pozo cuadrado, fluidos LJ, <br>argón</br>, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, <br>argón</br>, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "bead": {
+            "translated_key": "grano",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie <br>bead</br>; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie <br>bead</br>; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB."
+            ],
+            "translated_annotated_samples": [
+                "El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un <br>grano</br> Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos <br>grano</br>s aislados; expresada aquí como una relación con la constante de Boltzmann, kB."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un <br>grano</br> Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos <br>grano</br>s aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "beads": {
+            "translated_key": "granos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated <br>beads</br>; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated <br>beads</br>; expressed here as a ratio to the Boltzmann constant, kB."
+            ],
+            "translated_annotated_samples": [
+                "El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos <br>granos</br> aislados; expresada aquí como una relación con la constante de Boltzmann, kB."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos <br>granos</br> aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "closed form EoS": {
+            "translated_key": "EoS en forma cerrada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a <br>closed form EoS</br> that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "This particular version of SAFT provides a <br>closed form EoS</br> that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades)."
+            ],
+            "translated_annotated_samples": [
+                "Esta versión particular de SAFT proporciona una <br>EoS en forma cerrada</br> que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas)."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una <br>EoS en forma cerrada</br> que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fluid": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating <br>fluid</br> Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for <br>fluid</br> phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The Statistical Associating <br>fluid</br> Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for <br>fluid</br> phase equilibria, one needs not consider them as independent parameters [57]."
+            ],
+            "translated_annotated_samples": [
+                "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los <br>fluid</br>os.",
+                "La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de <br>fase</br>s de fluidos, no es necesario considerarlos como parámetros independientes [57]."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los <br>fluid</br>os. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de <br>fase</br>s de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    "fluid",
+                    "fase"
+                ]
+            ]
+        },
+        "fluids": {
+            "translated_key": "fluidos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of <br>fluids</br>.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well <br>fluids</br>, LJ <br>fluids</br>, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple <br>fluids</br> and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of <br>fluids</br>.",
+                "Hard spheres, square well <br>fluids</br>, LJ <br>fluids</br>, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple <br>fluids</br> and refer from here on to the repulsive parameter as λ=λr."
+            ],
+            "translated_annotated_samples": [
+                "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los <br>fluidos</br>.",
+                "Esferas duras, <br>fluidos</br> de pozo cuadrado, <br>fluidos</br> LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT.",
+                "Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los <br>fluidos</br> simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los <br>fluidos</br>. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, <br>fluidos</br> de pozo cuadrado, <br>fluidos</br> LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los <br>fluidos</br> simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "group contribution approach": {
+            "translated_key": "enfoque de contribución de grupo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a <br>group contribution approach</br>, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a <br>group contribution approach</br>, SAFT-γ, by Papaioannou et al. [55]."
+            ],
+            "translated_annotated_samples": [
+                "Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un <br>enfoque de contribución de grupo</br>, SAFT-γ, por Papaioannou et al. [55]."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un <br>enfoque de contribución de grupo</br>, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Hard spheres": {
+            "translated_key": "Esferas duras",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "<br>Hard spheres</br>, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "<br>Hard spheres</br>, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT."
+            ],
+            "translated_annotated_samples": [
+                "<br>Esferas duras</br>, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. <br>Esferas duras</br>, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "intermolecular potential": {
+            "translated_key": "potencial intermolecular",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying <br>intermolecular potential</br> employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The fundamental difference between the versions is in the underlying <br>intermolecular potential</br> employed to describe the unbounded constituent particles."
+            ],
+            "translated_annotated_samples": [
+                "La diferencia fundamental entre las versiones radica en el <br>potencial intermolecular</br> subyacente empleado para describir las partículas constituyentes no limitadas."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el <br>potencial intermolecular</br> subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "isotropic molecule": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an <br>isotropic molecule</br>, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an <br>isotropic molecule</br>, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57]."
+            ],
+            "translated_annotated_samples": [
+                "La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "LJ fluids": {
+            "translated_key": "fluidos LJ",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, <br>LJ fluids</br>, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "Hard spheres, square well fluids, <br>LJ fluids</br>, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT."
+            ],
+            "translated_annotated_samples": [
+                "Esferas duras, fluidos de pozo cuadrado, <br>fluidos LJ</br>, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, <br>fluidos LJ</br>, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "LJ potential": {
+            "translated_key": "potencial LJ",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the <br>LJ potential</br> (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the <br>LJ potential</br> (albeit predating it by decades)."
+            ],
+            "translated_annotated_samples": [
+                "Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del <br>potencial LJ</br> (aunque anterior a este por décadas)."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del <br>potencial LJ</br> (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Mie potential": {
+            "translated_key": "potencial Mie",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the <br>Mie potential</br> [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The <br>Mie potential</br> has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the <br>Mie potential</br> [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The <br>Mie potential</br> has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB."
+            ],
+            "translated_annotated_samples": [
+                "Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del <br>potencial Mie</br> [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas).",
+                "El <br>potencial Mie</br> tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del <br>potencial Mie</br> [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El <br>potencial Mie</br> tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "(m,n) potential": {
+            "translated_key": "potencial (m,n)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the <br>(m,n) potential</br>; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the <br>(m,n) potential</br>; a generalized form of the LJ potential (albeit predating it by decades)."
+            ],
+            "translated_annotated_samples": [
+                "Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el <br>potencial (m,n)</br>; una forma generalizada del potencial LJ (aunque anterior a este por décadas)."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el <br>potencial (m,n)</br>; una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "perturbation theory": {
+            "translated_key": "teoría de perturbación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed <br>perturbation theory</br> used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed <br>perturbation theory</br> used to describe quantitatively the volumetric properties of fluids."
+            ],
+            "translated_annotated_samples": [
+                "La Teoría Estadística de Asociación de Fluidos (SAFT) es una <br>teoría de perturbación</br> bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una <br>teoría de perturbación</br> bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "reference fluids": {
+            "translated_key": "fluidos de referencia",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as <br>reference fluids</br> in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as <br>reference fluids</br> in the different incarnations of SAFT."
+            ],
+            "translated_annotated_samples": [
+                "Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como <br>fluidos de referencia</br> en las diferentes encarnaciones de SAFT."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como <br>fluidos de referencia</br> en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SAFT": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (<br>SAFT</br>) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of <br>SAFT</br>.",
+                "For the purpose of this work we will center on a particular version of the <br>SAFT</br> EoS, i.e. the <br>SAFT</br>-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of <br>SAFT</br> provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The Statistical Associating Fluid Theory (<br>SAFT</br>) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of <br>SAFT</br>.",
+                "For the purpose of this work we will center on a particular version of the <br>SAFT</br> EoS, i.e. the <br>SAFT</br>-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of <br>SAFT</br> provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades)."
+            ],
+            "translated_annotated_samples": [
+                "La <br>Teoría Estadística de Asociación de Fluidos</br> (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos.",
+                "Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de <br>SAFT</br>.",
+                "Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de <br>SAFT</br>, es decir, la <br>SAFT</br>-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55].",
+                "Esta versión particular de <br>SAFT</br> proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas)."
+            ],
+            "translated_text": "La <br>Teoría Estadística de Asociación de Fluidos</br> (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de <br>SAFT</br>. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de <br>SAFT</br>, es decir, la <br>SAFT</br>-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de <br>SAFT</br> proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    "Teoría Estadística de Asociación de Fluidos",
+                    "SAFT",
+                    "SAFT",
+                    "SAFT",
+                    "SAFT"
+                ]
+            ]
+        },
+        "SAFT EoS": {
+            "translated_key": "EoS de SAFT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the <br>SAFT EoS</br>, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "For the purpose of this work we will center on a particular version of the <br>SAFT EoS</br>, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55]."
+            ],
+            "translated_annotated_samples": [
+                "Para el propósito de este trabajo nos centraremos en una versión particular de la <br>EoS de SAFT</br>, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la <br>EoS de SAFT</br>, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SAFT-VR Mie": {
+            "translated_key": "SAFT-VR Mie",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the <br>SAFT-VR Mie</br> recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the <br>SAFT-VR Mie</br> recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55]."
+            ],
+            "translated_annotated_samples": [
+                "Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la <br>SAFT-VR Mie</br> recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la <br>SAFT-VR Mie</br> recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SAFT-γ": {
+            "translated_key": "SAFT-γ",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, <br>SAFT-γ</br>, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, <br>SAFT-γ</br>, by Papaioannou et al. [55]."
+            ],
+            "translated_annotated_samples": [
+                "Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, <br>SAFT-γ</br>, por Papaioannou et al. [55]."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, <br>SAFT-γ</br>, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "simple fluids": {
+            "translated_key": "fluidos simples",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most <br>simple fluids</br> and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most <br>simple fluids</br> and refer from here on to the repulsive parameter as λ=λr."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los <br>fluidos simples</br> y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los <br>fluidos simples</br> y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "square well fluids": {
+            "translated_key": "fluidos de pozo cuadrado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, <br>square well fluids</br>, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "Hard spheres, <br>square well fluids</br>, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT."
+            ],
+            "translated_annotated_samples": [
+                "Esferas duras, <br>fluidos de pozo cuadrado</br>, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, <br>fluidos de pozo cuadrado</br>, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Statistical Associating Fluid Theory": {
+            "translated_key": "Teoría Estadística de Asociación de Fluidos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The <br>Statistical Associating Fluid Theory</br> (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The <br>Statistical Associating Fluid Theory</br> (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids."
+            ],
+            "translated_annotated_samples": [
+                "La <br>Teoría Estadística de Asociación de Fluidos</br> (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos."
+            ],
+            "translated_text": "La <br>Teoría Estadística de Asociación de Fluidos</br> (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las partículas constituyentes no limitadas. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "unbounded constituent particles": {
+            "translated_key": "partículas constituyentes no limitadas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.",
+                "The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].",
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the <br>unbounded constituent particles</br>.",
+                "Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.",
+                "For the purpose of this work we will center on a particular version of the SAFT EoS, i.e. the SAFT-VR Mie recently proposed by Laffitte et al. [54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al. [55].",
+                "This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).",
+                "The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.",
+                "The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].",
+                "Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.",
+                "The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6"
+            ],
+            "original_annotated_samples": [
+                "The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the <br>unbounded constituent particles</br>."
+            ],
+            "translated_annotated_samples": [
+                "La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las <br>partículas constituyentes no limitadas</br>."
+            ],
+            "translated_text": "La Teoría Estadística de Asociación de Fluidos (SAFT) es una teoría de perturbación bien desarrollada utilizada para describir cuantitativamente las propiedades volumétricas de los fluidos. Se remite al lector a varias revisiones sobre el tema que describen las diferentes etapas de su desarrollo y las múltiples versiones disponibles [50–53]. La diferencia fundamental entre las versiones radica en el potencial intermolecular subyacente empleado para describir las <br>partículas constituyentes no limitadas</br>. Esferas duras, fluidos de pozo cuadrado, fluidos LJ, argón, alcanos han sido empleados como fluidos de referencia en las diferentes encarnaciones de SAFT. Para el propósito de este trabajo nos centraremos en una versión particular de la EoS de SAFT, es decir, la SAFT-VR Mie recientemente propuesta por Laffitte et al. [54] y ampliada en un enfoque de contribución de grupo, SAFT-γ, por Papaioannou et al. [55]. Esta versión particular de SAFT proporciona una EoS en forma cerrada que describe las propiedades macroscópicas del potencial Mie [56], también conocido como el potencial (m,n); una forma generalizada del potencial LJ (aunque anterior a este por décadas). El potencial Mie tiene la forma (1) ϕ(r) = Cεσrλr−σrλa donde C es una función analítica de los exponentes repulsivos y atractivos, λa y λr, respectivamente, σ es un parámetro que define la escala de longitud y está relacionado de manera laxa con el diámetro promedio de un grano Mie; ε define la escala de energía y corresponde a la energía potencial mínima entre dos granos aislados; expresada aquí como una relación con la constante de Boltzmann, kB. La función Mie, como se escribió anteriormente, sugiere engañosamente que se necesitan cuatro parámetros para caracterizar el comportamiento de una molécula isotrópica, sin embargo, los exponentes λa y λr están íntimamente relacionados, y para el equilibrio de fases de fluidos, no es necesario considerarlos como parámetros independientes [57]. Por lo tanto, elegimos fijar el exponente atractivo en λa=6, lo que se esperaría que sea representativo de la escala de dispersión de la mayoría de los fluidos simples y nos referimos de aquí en adelante al parámetro repulsivo como λ=λr. El potencial se simplifica a (2) ϕ(r) = λλ−6λ66/(λ−6)εσrλ−σr6 ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

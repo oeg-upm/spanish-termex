@@ -1,0 +1,306 @@
+{
+    "id": "S0045782512002678",
+    "original_text": "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers. In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions. In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method. The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods. The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13].",
+    "original_translation": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. En la Ref. [29], se utiliza el enfoque de desgarre e interconexión de los métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarre e interconexión isogeométrico. El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13].",
+    "original_sentences": [
+        "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+        "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+        "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+        "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+        "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+    ],
+    "error_count": 1,
+    "keys": {
+        "BDDC preconditioners": {
+            "translated_key": "preacondicionadores BDDC",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed <br>BDDC preconditioners</br> for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "The same authors have also proposed <br>BDDC preconditioners</br> for isogeometric analysis in [13]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los mismos autores también han propuesto <br>preacondicionadores BDDC</br> para análisis isogeométrico en [13]."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. En la Ref. [29], se utiliza el enfoque de desgarre e interconexión de los métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarre e interconexión isogeométrico. El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Output: Los mismos autores también han propuesto <br>preacondicionadores BDDC</br> para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "extensive numerical examples": {
+            "translated_key": "amplios ejemplos numéricos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous theoretical study, supported by <br>extensive numerical examples</br>, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "The only paper which provides rigorous theoretical study, supported by <br>extensive numerical examples</br>, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods."
+            ],
+            "translated_annotated_samples": [
+                "Output: El único artículo que proporciona un estudio teórico riguroso, respaldado por <br>amplios ejemplos numéricos</br>, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. En la Ref. [29], se utiliza el enfoque de desgarre e interconexión de los métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarre e interconexión isogeométrico. Output: El único artículo que proporciona un estudio teórico riguroso, respaldado por <br>amplios ejemplos numéricos</br>, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "isogeometric analysis": {
+            "translated_key": "análisis isogeométrico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of <br>isogeometric analysis</br>, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for <br>isogeometric analysis</br> in [13]."
+            ],
+            "original_annotated_samples": [
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of <br>isogeometric analysis</br>, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The same authors have also proposed BDDC preconditioners for <br>isogeometric analysis</br> in [13]."
+            ],
+            "translated_annotated_samples": [
+                "Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del <br>análisis isogeométrico</br>, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarro e interconexión isogeométrico.",
+                "Output: Los mismos autores también han propuesto precondicionadores BDDC para el <br>análisis isogeométrico</br> en [13]."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del <br>análisis isogeométrico</br>, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarro e interconexión isogeométrico. El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Output: Los mismos autores también han propuesto precondicionadores BDDC para el <br>análisis isogeométrico</br> en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "isogeometric tearing and interconnecting method": {
+            "translated_key": "desgarro e interconexión isogeométrico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed <br>isogeometric tearing and interconnecting method</br>.",
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed <br>isogeometric tearing and interconnecting method</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de <br>desgarro e interconexión isogeométrico</br>."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de <br>desgarro e interconexión isogeométrico</br>. El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "large problems": {
+            "translated_key": "problemas grandes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for <br>large problems</br>, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for <br>large problems</br>, specially in three-dimensions."
+            ],
+            "translated_annotated_samples": [
+                "Output: En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para <br>problemas grandes</br>, especialmente en tres dimensiones."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. Output: En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para <br>problemas grandes</br>, especialmente en tres dimensiones. En la Ref. [29], se utiliza el enfoque de desgarre e interconexión de los métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarre e interconexión isogeométrico. El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical tests": {
+            "translated_key": "pruebas numéricas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the <br>numerical tests</br> (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the <br>numerical tests</br> (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method."
+            ],
+            "translated_annotated_samples": [
+                "Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del análisis isogeométrico, y las <br>pruebas numéricas</br> (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarro e interconexión isogeométrico."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del análisis isogeométrico, y las <br>pruebas numéricas</br> (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarro e interconexión isogeométrico. El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "performance of direct solvers": {
+            "translated_key": "rendimiento de los solucionadores directos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the <br>performance of direct solvers</br> which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "In Ref. [16], the authors study the <br>performance of direct solvers</br> which are clearly not suitable for large problems, specially in three-dimensions."
+            ],
+            "translated_annotated_samples": [
+                "Output: En la Ref. [16], los autores estudian el <br>rendimiento de los solucionadores directos</br> que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. Output: En la Ref. [16], los autores estudian el <br>rendimiento de los solucionadores directos</br> que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. En la Ref. [29], se utiliza el enfoque de desgarre e interconexión de los métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarre e interconexión isogeométrico. El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "performance of linear algebra solvers": {
+            "translated_key": "rendimiento de los solucionadores de álgebra lineal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the <br>performance of linear algebra solvers</br>.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the <br>performance of linear algebra solvers</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Hasta donde sabe el autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el <br>rendimiento de los solucionadores de álgebra lineal</br>."
+            ],
+            "translated_text": "Output: Hasta donde sabe el autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el <br>rendimiento de los solucionadores de álgebra lineal</br>. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. En la Ref. [29], se utiliza el enfoque de desgarre e interconexión de los métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarre e interconexión isogeométrico. El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "rigorous theoretical study": {
+            "translated_key": "estudio teórico riguroso",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides <br>rigorous theoretical study</br>, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "The only paper which provides <br>rigorous theoretical study</br>, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods."
+            ],
+            "translated_annotated_samples": [
+                "La única publicación que ofrece un <br>estudio teórico riguroso</br>, respaldado por extensos ejemplos numéricos, es la de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. En la Ref. [29], se utiliza el enfoque de desgarre e interconexión de los métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarre e interconexión isogeométrico. La única publicación que ofrece un <br>estudio teórico riguroso</br>, respaldado por extensos ejemplos numéricos, es la de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Schwarz methods": {
+            "translated_key": "Schwarz superpuestos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping <br>Schwarz methods</br>.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping <br>Schwarz methods</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12] donde los autores discuten los métodos <br>Schwarz superpuestos</br>."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. En la Ref. [29], se utiliza el enfoque de desgarre e interconexión de los métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarre e interconexión isogeométrico. Output: El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12] donde los autores discuten los métodos <br>Schwarz superpuestos</br>. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "tearing and interconnecting approach of finite element methods": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the <br>tearing and interconnecting approach of finite element methods</br> is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous theoretical study, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "In Ref. [29], the <br>tearing and interconnecting approach of finite element methods</br> is used in the context of isogeometric analysis, and the numerical tests (in absence of any theoretical study) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method."
+            ],
+            "translated_annotated_samples": [
+                "Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarro e interconexión isogeométrico."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier estudio teórico) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método propuesto de desgarro e interconexión isogeométrico. El único artículo que proporciona un estudio teórico riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12], donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [],
+                []
+            ]
+        },
+        "theoretical study": {
+            "translated_key": "estudio teórico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "To the best of authors knowledge, so far there are only very few papers [12,13,16,29] which address the performance of linear algebra solvers.",
+                "In Ref. [16], the authors study the performance of direct solvers which are clearly not suitable for large problems, specially in three-dimensions.",
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any <br>theoretical study</br>) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous <br>theoretical study</br>, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods.",
+                "The same authors have also proposed BDDC preconditioners for isogeometric analysis in [13]."
+            ],
+            "original_annotated_samples": [
+                "In Ref. [29], the tearing and interconnecting approach of finite element methods is used in the context of isogeometric analysis, and the numerical tests (in absence of any <br>theoretical study</br>) suggest almost optimal (with a logarithmic factor) convergence rates of the proposed isogeometric tearing and interconnecting method.",
+                "The only paper which provides rigorous <br>theoretical study</br>, supported by extensive numerical examples, is by Beirao et al. [12] where the authors discuss the overlapping Schwarz methods."
+            ],
+            "translated_annotated_samples": [
+                "Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier <br>estudio teórico</br>) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método isogeométrico de desgarro e interconexión propuesto.",
+                "Output: El único artículo que proporciona un <br>estudio teórico</br> riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12] donde los autores discuten los métodos de Schwarz superpuestos."
+            ],
+            "translated_text": "Según el conocimiento del autor, hasta ahora solo hay muy pocos artículos [12,13,16,29] que abordan el rendimiento de los solucionadores de álgebra lineal. En la Ref. [16], los autores estudian el rendimiento de los solucionadores directos que claramente no son adecuados para problemas grandes, especialmente en tres dimensiones. Output: En la Ref. [29], se utiliza el enfoque de desgarro e interconexión de métodos de elementos finitos en el contexto del análisis isogeométrico, y las pruebas numéricas (en ausencia de cualquier <br>estudio teórico</br>) sugieren tasas de convergencia casi óptimas (con un factor logarítmico) del método isogeométrico de desgarro e interconexión propuesto. Output: El único artículo que proporciona un <br>estudio teórico</br> riguroso, respaldado por extensos ejemplos numéricos, es el de Beirao et al. [12] donde los autores discuten los métodos de Schwarz superpuestos. Los mismos autores también han propuesto precondicionadores BDDC para análisis isogeométrico en [13]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,555 @@
+{
+    "id": "S2212667814001440",
+    "original_text": "In this paper, we present a tele-operated mobile robot system for old age surveillance. The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people. If a patient is lying on the floor, the robot informs the user. The user switches the control mode from autonomous to haptic based user control. In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment. The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place. In addition, the robot utilizes the vital sensors to check the patients condition. The preliminary surveillance experiments show a good performance.",
+    "original_translation": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento.",
+    "original_sentences": [
+        "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+        "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+        "If a patient is lying on the floor, the robot informs the user.",
+        "The user switches the control mode from autonomous to haptic based user control.",
+        "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+        "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+        "In addition, the robot utilizes the vital sensors to check the patients condition.",
+        "The preliminary surveillance experiments show a good performance."
+    ],
+    "error_count": 2,
+    "keys": {
+        "autonomous mode": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in <br>autonomous mode</br> in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the <br>autonomous mode</br>, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "The robot operates in <br>autonomous mode</br> in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "In the <br>autonomous mode</br>, the robot utilizes the visual sensor and landmarks to monitor the entire environment."
+            ],
+            "translated_annotated_samples": [
+                "La robot opera en modo <br>autónomo</br> en el cual el robot navega en el entorno y busca situaciones inusuales de personas mayores.",
+                "Output: En el <br>modo autónomo</br>, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. La robot opera en modo <br>autónomo</br> en el cual el robot navega en el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. Output: En el <br>modo autónomo</br>, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    "autónomo",
+                    "modo autónomo"
+                ],
+                [
+                    "autónomo",
+                    "modo autónomo"
+                ]
+            ]
+        },
+        "communicate": {
+            "translated_key": "comunicarse",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to <br>communicate</br> with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "The robot is equipped microphone, speaker and monitor making it possible to <br>communicate</br> with the user in remote place."
+            ],
+            "translated_annotated_samples": [
+                "Output: El robot está equipado con micrófono, altavoz y monitor, lo que hace posible <br>comunicarse</br> con el usuario en un lugar remoto."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. Output: El robot está equipado con micrófono, altavoz y monitor, lo que hace posible <br>comunicarse</br> con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "elderly people": {
+            "translated_key": "personas mayores",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of <br>elderly people</br>.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of <br>elderly people</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El robot opera en modo autónomo en el cual el robot navega en el entorno y busca situaciones inusuales de <br>personas mayores</br>."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. Output: El robot opera en modo autónomo en el cual el robot navega en el entorno y busca situaciones inusuales de <br>personas mayores</br>. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "informs the user": {
+            "translated_key": "informa al usuario",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot <br>informs the user</br>.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "If a patient is lying on the floor, the robot <br>informs the user</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Si un paciente está acostado en el suelo, el robot <br>informa al usuario</br>."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Output: Si un paciente está acostado en el suelo, el robot <br>informa al usuario</br>. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "lying on the floor": {
+            "translated_key": "acostado en el suelo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is <br>lying on the floor</br>, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "If a patient is <br>lying on the floor</br>, the robot informs the user."
+            ],
+            "translated_annotated_samples": [
+                "Output: Si un paciente está <br>acostado en el suelo</br>, el robot informa al usuario."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Output: Si un paciente está <br>acostado en el suelo</br>, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "microphone": {
+            "translated_key": "micrófono",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped <br>microphone</br>, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "The robot is equipped <br>microphone</br>, speaker and monitor making it possible to communicate with the user in remote place."
+            ],
+            "translated_annotated_samples": [
+                "Output: El robot está equipado con <br>micrófono</br>, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. Output: El robot está equipado con <br>micrófono</br>, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "monitor": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to <br>monitor</br> the entire environment.",
+                "The robot is equipped microphone, speaker and <br>monitor</br> making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to <br>monitor</br> the entire environment.",
+                "The robot is equipped microphone, speaker and <br>monitor</br> making it possible to communicate with the user in remote place."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para <br>monitorizar</br> todo el entorno.",
+                "Output: El robot está equipado con micrófono, altavoz y <br>monitor</br>, lo que hace posible comunicarse con el usuario en un lugar remoto."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. Output: En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para <br>monitorizar</br> todo el entorno. Output: El robot está equipado con micrófono, altavoz y <br>monitor</br>, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    "monitorizar",
+                    "monitor"
+                ],
+                [
+                    "monitorizar",
+                    "monitor"
+                ]
+            ]
+        },
+        "navigates in the environment": {
+            "translated_key": "navega en el entorno",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots <br>navigates in the environment</br> and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "The robot operates in autonomous mode in which the robots <br>navigates in the environment</br> and search for unusual situation of elderly people."
+            ],
+            "translated_annotated_samples": [
+                "La robot opera en modo autónomo en el cual la robot <br>navega en el entorno</br> y busca situaciones inusuales de personas mayores."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. La robot opera en modo autónomo en el cual la robot <br>navega en el entorno</br> y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "old age surveillance": {
+            "translated_key": "vigilancia de la tercera edad",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for <br>old age surveillance</br>.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "In this paper, we present a tele-operated mobile robot system for <br>old age surveillance</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este documento, presentamos un sistema de robot móvil teleoperado para la <br>vigilancia de la tercera edad</br>."
+            ],
+            "translated_text": "Output: En este documento, presentamos un sistema de robot móvil teleoperado para la <br>vigilancia de la tercera edad</br>. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "patient": {
+            "translated_key": "paciente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a <br>patient</br> is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "If a <br>patient</br> is lying on the floor, the robot informs the user."
+            ],
+            "translated_annotated_samples": [
+                "Output: Si un <br>paciente</br> está acostado en el suelo, el robot informa al usuario."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Output: Si un <br>paciente</br> está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "patients condition": {
+            "translated_key": "condición de los pacientes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the <br>patients condition</br>.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "In addition, the robot utilizes the vital sensors to check the <br>patients condition</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, el robot utiliza los sensores vitales para verificar la <br>condición de los pacientes</br>."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Output: Además, el robot utiliza los sensores vitales para verificar la <br>condición de los pacientes</br>. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "remote place": {
+            "translated_key": "lugar remoto",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in <br>remote place</br>.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in <br>remote place</br>."
+            ],
+            "translated_annotated_samples": [
+                "El robot está equipado con micrófono, altavoz y monitor, lo que le permite comunicarse con el usuario en <br>lugar remoto</br>."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con micrófono, altavoz y monitor, lo que le permite comunicarse con el usuario en <br>lugar remoto</br>. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "robot": {
+            "translated_key": "robot",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile <br>robot</br> system for old age surveillance.",
+                "The <br>robot</br> operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the <br>robot</br> informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the <br>robot</br> utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The <br>robot</br> is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the <br>robot</br> utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "In this paper, we present a tele-operated mobile <br>robot</br> system for old age surveillance.",
+                "The <br>robot</br> operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the <br>robot</br> informs the user.",
+                "In the autonomous mode, the <br>robot</br> utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The <br>robot</br> is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the <br>robot</br> utilizes the vital sensors to check the patients condition."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este documento, presentamos un sistema de <br>robot</br> móvil teleoperado para la vigilancia de la tercera edad.",
+                "Output: El <br>robot</br> opera en modo autónomo en el que el robot navega en el entorno y busca situaciones inusuales de personas mayores.",
+                "Output: Si un paciente está acostado en el suelo, el <br>robot</br> informa al usuario.",
+                "Output: En el modo autónomo, el <br>robot</br> utiliza el sensor visual y puntos de referencia para monitorear todo el entorno.",
+                "Output: El <br>robot</br> está equipado con micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto.",
+                "Output: Además, el <br>robot</br> utiliza sensores vitales para verificar la condición de los pacientes."
+            ],
+            "translated_text": "Output: En este documento, presentamos un sistema de <br>robot</br> móvil teleoperado para la vigilancia de la tercera edad. Output: El <br>robot</br> opera en modo autónomo en el que el robot navega en el entorno y busca situaciones inusuales de personas mayores. Output: Si un paciente está acostado en el suelo, el <br>robot</br> informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. Output: En el modo autónomo, el <br>robot</br> utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. Output: El <br>robot</br> está equipado con micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Output: Además, el <br>robot</br> utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "search for unusual situation": {
+            "translated_key": "busca situaciones inusuales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and <br>search for unusual situation</br> of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "The robot operates in autonomous mode in which the robots navigates in the environment and <br>search for unusual situation</br> of elderly people."
+            ],
+            "translated_annotated_samples": [
+                "Output: El robot opera en modo autónomo en el cual el robot navega en el entorno y <br>busca situaciones inusuales</br> de personas mayores."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. Output: El robot opera en modo autónomo en el cual el robot navega en el entorno y <br>busca situaciones inusuales</br> de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "speaker": {
+            "translated_key": "altavoz",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, <br>speaker</br> and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "The robot is equipped microphone, <br>speaker</br> and monitor making it possible to communicate with the user in remote place."
+            ],
+            "translated_annotated_samples": [
+                "El robot está equipado con un micrófono, <br>altavoz</br> y monitor, lo que le permite comunicarse con el usuario en un lugar remoto."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, <br>altavoz</br> y monitor, lo que le permite comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "switches the control mode from autonomous to haptic based": {
+            "translated_key": "cambia el modo de control de autónomo a basado en háptica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user <br>switches the control mode from autonomous to haptic based</br> user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "The user <br>switches the control mode from autonomous to haptic based</br> user control."
+            ],
+            "translated_annotated_samples": [
+                "Output: El usuario <br>cambia el modo de control de autónomo a basado en háptica</br>."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. Output: El usuario <br>cambia el modo de control de autónomo a basado en háptica</br>. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "tele-operated mobile robot system": {
+            "translated_key": "tele-operado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a <br>tele-operated mobile robot system</br> for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "In this paper, we present a <br>tele-operated mobile robot system</br> for old age surveillance."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este documento, presentamos un sistema de robot móvil <br>tele-operado</br> para la vigilancia de la tercera edad."
+            ],
+            "translated_text": "Output: En este documento, presentamos un sistema de robot móvil <br>tele-operado</br> para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "visual sensor and landmarks to monitor": {
+            "translated_key": "sensor visual y puntos de referencia para monitorear",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the <br>visual sensor and landmarks to monitor</br> the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the vital sensors to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "In the autonomous mode, the robot utilizes the <br>visual sensor and landmarks to monitor</br> the entire environment."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el modo autónomo, el robot utiliza el <br>sensor visual y puntos de referencia para monitorear</br> todo el entorno."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. Output: En el modo autónomo, el robot utiliza el <br>sensor visual y puntos de referencia para monitorear</br> todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. Además, el robot utiliza sensores vitales para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "vital sensors": {
+            "translated_key": "sensores vitales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this paper, we present a tele-operated mobile robot system for old age surveillance.",
+                "The robot operates in autonomous mode in which the robots navigates in the environment and search for unusual situation of elderly people.",
+                "If a patient is lying on the floor, the robot informs the user.",
+                "The user switches the control mode from autonomous to haptic based user control.",
+                "In the autonomous mode, the robot utilizes the visual sensor and landmarks to monitor the entire environment.",
+                "The robot is equipped microphone, speaker and monitor making it possible to communicate with the user in remote place.",
+                "In addition, the robot utilizes the <br>vital sensors</br> to check the patients condition.",
+                "The preliminary surveillance experiments show a good performance."
+            ],
+            "original_annotated_samples": [
+                "In addition, the robot utilizes the <br>vital sensors</br> to check the patients condition."
+            ],
+            "translated_annotated_samples": [
+                "En adición, el robot utiliza los <br>sensores vitales</br> para verificar la condición de los pacientes."
+            ],
+            "translated_text": "En este documento, presentamos un sistema de robot móvil teleoperado para la vigilancia de la tercera edad. El robot opera en modo autónomo, en el cual navega por el entorno y busca situaciones inusuales de personas mayores. Si un paciente está acostado en el suelo, el robot informa al usuario. El usuario cambia el modo de control de autónomo a control basado en háptica del usuario. En el modo autónomo, el robot utiliza el sensor visual y puntos de referencia para monitorear todo el entorno. El robot está equipado con un micrófono, altavoz y monitor, lo que hace posible comunicarse con el usuario en un lugar remoto. En adición, el robot utiliza los <br>sensores vitales</br> para verificar la condición de los pacientes. Los experimentos de vigilancia preliminares muestran un buen rendimiento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

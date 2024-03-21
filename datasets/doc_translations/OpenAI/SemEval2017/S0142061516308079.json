@@ -1,0 +1,192 @@
+{
+    "id": "S0142061516308079",
+    "original_text": "The above discussion summarizes the state of the art related to impacts and interpretations of communication latency between RT simulators. However, research is focused primarily on the effect of the data loss during the communication and how to mitigate it [34]. In the thermo-electric co-simulation example in [35], the time constant is larger in the thermal simulation than that of power system simulation. Thus the communication latency will not significantly affect the accuracy of co-simulation. In [36], the co-simulation is performed using resources at the same location without synthetically introduced delays, which means the communication latency between RT simulators is ignored. In [37], the authors have mentioned the communication latency as an important factor in the distributed simulation and that its effect on simulation stability will be studied as future work. An in-depth research about the role of communication latency and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper.",
+    "original_translation": "La discusión anterior resume el estado del arte relacionado con los impactos e interpretaciones de la latencia de comunicación entre simuladores en tiempo real. Sin embargo, la investigación se centra principalmente en el efecto de la pérdida de datos durante la comunicación y en cómo mitigarlo [34]. En el ejemplo de co-simulación termoeléctrica en [35], la constante de tiempo es mayor en la simulación térmica que en la simulación del sistema de energía. Por lo tanto, la latencia de comunicación no afectará significativamente la precisión de la co-simulación. En [36], la co-simulación se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que se ignora la latencia de comunicación entre los simuladores de tiempo real. En [37], los autores han mencionado la latencia de comunicación como un factor importante en la simulación distribuida y han indicado que su efecto en la estabilidad de la simulación se estudiará en trabajos futuros. Una investigación exhaustiva sobre el papel de la latencia de comunicación y las medidas de mitigación para simulaciones en tiempo real distribuidas geográficamente se identifica como una brecha técnica y se aborda en este documento.",
+    "original_sentences": [
+        "The above discussion summarizes the state of the art related to impacts and interpretations of communication latency between RT simulators.",
+        "However, research is focused primarily on the effect of the data loss during the communication and how to mitigate it [34].",
+        "In the thermo-electric co-simulation example in [35], the time constant is larger in the thermal simulation than that of power system simulation.",
+        "Thus the communication latency will not significantly affect the accuracy of co-simulation.",
+        "In [36], the co-simulation is performed using resources at the same location without synthetically introduced delays, which means the communication latency between RT simulators is ignored.",
+        "In [37], the authors have mentioned the communication latency as an important factor in the distributed simulation and that its effect on simulation stability will be studied as future work.",
+        "An in-depth research about the role of communication latency and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper."
+    ],
+    "error_count": 1,
+    "keys": {
+        "communication latency": {
+            "translated_key": "latencia de comunicación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The above discussion summarizes the state of the art related to impacts and interpretations of <br>communication latency</br> between RT simulators.",
+                "However, research is focused primarily on the effect of the data loss during the communication and how to mitigate it [34].",
+                "In the thermo-electric co-simulation example in [35], the time constant is larger in the thermal simulation than that of power system simulation.",
+                "Thus the <br>communication latency</br> will not significantly affect the accuracy of co-simulation.",
+                "In [36], the co-simulation is performed using resources at the same location without synthetically introduced delays, which means the <br>communication latency</br> between RT simulators is ignored.",
+                "In [37], the authors have mentioned the <br>communication latency</br> as an important factor in the distributed simulation and that its effect on simulation stability will be studied as future work.",
+                "An in-depth research about the role of <br>communication latency</br> and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper."
+            ],
+            "original_annotated_samples": [
+                "The above discussion summarizes the state of the art related to impacts and interpretations of <br>communication latency</br> between RT simulators.",
+                "Thus the <br>communication latency</br> will not significantly affect the accuracy of co-simulation.",
+                "In [36], the co-simulation is performed using resources at the same location without synthetically introduced delays, which means the <br>communication latency</br> between RT simulators is ignored.",
+                "In [37], the authors have mentioned the <br>communication latency</br> as an important factor in the distributed simulation and that its effect on simulation stability will be studied as future work.",
+                "An in-depth research about the role of <br>communication latency</br> and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper."
+            ],
+            "translated_annotated_samples": [
+                "Output: La discusión anterior resume el estado del arte relacionado con los impactos e interpretaciones de la <br>latencia de comunicación</br> entre simuladores RT.",
+                "Output: Así, la <br>latencia de comunicación</br> no afectará significativamente la precisión de la co-simulación.",
+                "Output: En [36], la co-simulación se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que la <br>latencia de comunicación</br> entre los simuladores RT se ignora.",
+                "Output: En [37], los autores han mencionado la <br>latencia de comunicación</br> como un factor importante en la simulación distribuida y que su efecto en la estabilidad de la simulación se estudiará en trabajos futuros.",
+                "Output: Una investigación exhaustiva sobre el papel de la <br>latencia de comunicación</br> y las medidas de mitigación para simulaciones de tiempo real distribuidas geográficamente se identifica como una brecha técnica y se aborda en este documento."
+            ],
+            "translated_text": "Output: La discusión anterior resume el estado del arte relacionado con los impactos e interpretaciones de la <br>latencia de comunicación</br> entre simuladores RT. Sin embargo, la investigación se centra principalmente en el efecto de la pérdida de datos durante la comunicación y en cómo mitigarlo [34]. En el ejemplo de co-simulación termoeléctrica en [35], la constante de tiempo es mayor en la simulación térmica que en la simulación del sistema de energía. Output: Así, la <br>latencia de comunicación</br> no afectará significativamente la precisión de la co-simulación. Output: En [36], la co-simulación se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que la <br>latencia de comunicación</br> entre los simuladores RT se ignora. Output: En [37], los autores han mencionado la <br>latencia de comunicación</br> como un factor importante en la simulación distribuida y que su efecto en la estabilidad de la simulación se estudiará en trabajos futuros. Output: Una investigación exhaustiva sobre el papel de la <br>latencia de comunicación</br> y las medidas de mitigación para simulaciones de tiempo real distribuidas geográficamente se identifica como una brecha técnica y se aborda en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "co-simulation": {
+            "translated_key": "co-simulación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The above discussion summarizes the state of the art related to impacts and interpretations of communication latency between RT simulators.",
+                "However, research is focused primarily on the effect of the data loss during the communication and how to mitigate it [34].",
+                "In the thermo-electric <br>co-simulation</br> example in [35], the time constant is larger in the thermal simulation than that of power system simulation.",
+                "Thus the communication latency will not significantly affect the accuracy of <br>co-simulation</br>.",
+                "In [36], the <br>co-simulation</br> is performed using resources at the same location without synthetically introduced delays, which means the communication latency between RT simulators is ignored.",
+                "In [37], the authors have mentioned the communication latency as an important factor in the distributed simulation and that its effect on simulation stability will be studied as future work.",
+                "An in-depth research about the role of communication latency and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper."
+            ],
+            "original_annotated_samples": [
+                "In the thermo-electric <br>co-simulation</br> example in [35], the time constant is larger in the thermal simulation than that of power system simulation.",
+                "Thus the communication latency will not significantly affect the accuracy of <br>co-simulation</br>.",
+                "In [36], the <br>co-simulation</br> is performed using resources at the same location without synthetically introduced delays, which means the communication latency between RT simulators is ignored."
+            ],
+            "translated_annotated_samples": [
+                "Output: En el ejemplo de <br>co-simulación</br> termoeléctrica en [35], la constante de tiempo es mayor en la simulación térmica que en la simulación del sistema de energía.",
+                "Output: Así, la latencia de comunicación no afectará significativamente la precisión de la <br>co-simulación</br>.",
+                "En [36], la <br>co-simulación</br> se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que se ignora la latencia de comunicación entre simuladores RT."
+            ],
+            "translated_text": "La discusión anterior resume el estado del arte relacionado con los impactos e interpretaciones de la latencia de comunicación entre simuladores en tiempo real. Sin embargo, la investigación se centra principalmente en el efecto de la pérdida de datos durante la comunicación y en cómo mitigarlo [34]. Output: En el ejemplo de <br>co-simulación</br> termoeléctrica en [35], la constante de tiempo es mayor en la simulación térmica que en la simulación del sistema de energía. Output: Así, la latencia de comunicación no afectará significativamente la precisión de la <br>co-simulación</br>. En [36], la <br>co-simulación</br> se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que se ignora la latencia de comunicación entre simuladores RT. En [37], los autores han mencionado la latencia de comunicación como un factor importante en la simulación distribuida y han indicado que su efecto en la estabilidad de la simulación se estudiará en trabajos futuros. Una investigación exhaustiva sobre el papel de la latencia de comunicación y las medidas de mitigación para simulaciones en tiempo real distribuidas geográficamente se identifica como una brecha técnica y se aborda en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "distributed simulation": {
+            "translated_key": "simulación distribuida",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The above discussion summarizes the state of the art related to impacts and interpretations of communication latency between RT simulators.",
+                "However, research is focused primarily on the effect of the data loss during the communication and how to mitigate it [34].",
+                "In the thermo-electric co-simulation example in [35], the time constant is larger in the thermal simulation than that of power system simulation.",
+                "Thus the communication latency will not significantly affect the accuracy of co-simulation.",
+                "In [36], the co-simulation is performed using resources at the same location without synthetically introduced delays, which means the communication latency between RT simulators is ignored.",
+                "In [37], the authors have mentioned the communication latency as an important factor in the <br>distributed simulation</br> and that its effect on simulation stability will be studied as future work.",
+                "An in-depth research about the role of communication latency and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper."
+            ],
+            "original_annotated_samples": [
+                "In [37], the authors have mentioned the communication latency as an important factor in the <br>distributed simulation</br> and that its effect on simulation stability will be studied as future work."
+            ],
+            "translated_annotated_samples": [
+                "Output: En [37], los autores han mencionado la latencia de comunicación como un factor importante en la <br>simulación distribuida</br> y que su efecto en la estabilidad de la simulación se estudiará en trabajos futuros."
+            ],
+            "translated_text": "La discusión anterior resume el estado del arte relacionado con los impactos e interpretaciones de la latencia de comunicación entre simuladores en tiempo real. Sin embargo, la investigación se centra principalmente en el efecto de la pérdida de datos durante la comunicación y en cómo mitigarlo [34]. En el ejemplo de co-simulación termoeléctrica en [35], la constante de tiempo es mayor en la simulación térmica que en la simulación del sistema de energía. Por lo tanto, la latencia de comunicación no afectará significativamente la precisión de la co-simulación. En [36], la co-simulación se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que se ignora la latencia de comunicación entre los simuladores de tiempo real. Output: En [37], los autores han mencionado la latencia de comunicación como un factor importante en la <br>simulación distribuida</br> y que su efecto en la estabilidad de la simulación se estudiará en trabajos futuros. Una investigación exhaustiva sobre el papel de la latencia de comunicación y las medidas de mitigación para simulaciones en tiempo real distribuidas geográficamente se identifica como una brecha técnica y se aborda en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "role of communication latency": {
+            "translated_key": "papel de la latencia de comunicación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The above discussion summarizes the state of the art related to impacts and interpretations of communication latency between RT simulators.",
+                "However, research is focused primarily on the effect of the data loss during the communication and how to mitigate it [34].",
+                "In the thermo-electric co-simulation example in [35], the time constant is larger in the thermal simulation than that of power system simulation.",
+                "Thus the communication latency will not significantly affect the accuracy of co-simulation.",
+                "In [36], the co-simulation is performed using resources at the same location without synthetically introduced delays, which means the communication latency between RT simulators is ignored.",
+                "In [37], the authors have mentioned the communication latency as an important factor in the distributed simulation and that its effect on simulation stability will be studied as future work.",
+                "An in-depth research about the <br>role of communication latency</br> and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper."
+            ],
+            "original_annotated_samples": [
+                "An in-depth research about the <br>role of communication latency</br> and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper."
+            ],
+            "translated_annotated_samples": [
+                "Output: Una investigación exhaustiva sobre el <br>papel de la latencia de comunicación</br> y las medidas de mitigación para simulaciones de tiempo real distribuidas geográficamente se identifica como una brecha técnica y se aborda en este documento."
+            ],
+            "translated_text": "La discusión anterior resume el estado del arte relacionado con los impactos e interpretaciones de la latencia de comunicación entre simuladores en tiempo real. Sin embargo, la investigación se centra principalmente en el efecto de la pérdida de datos durante la comunicación y en cómo mitigarlo [34]. En el ejemplo de co-simulación termoeléctrica en [35], la constante de tiempo es mayor en la simulación térmica que en la simulación del sistema de energía. Por lo tanto, la latencia de comunicación no afectará significativamente la precisión de la co-simulación. En [36], la co-simulación se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que se ignora la latencia de comunicación entre los simuladores de tiempo real. En [37], los autores han mencionado la latencia de comunicación como un factor importante en la simulación distribuida y han indicado que su efecto en la estabilidad de la simulación se estudiará en trabajos futuros. Output: Una investigación exhaustiva sobre el <br>papel de la latencia de comunicación</br> y las medidas de mitigación para simulaciones de tiempo real distribuidas geográficamente se identifica como una brecha técnica y se aborda en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "RT simulators": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The above discussion summarizes the state of the art related to impacts and interpretations of communication latency between <br>RT simulators</br>.",
+                "However, research is focused primarily on the effect of the data loss during the communication and how to mitigate it [34].",
+                "In the thermo-electric co-simulation example in [35], the time constant is larger in the thermal simulation than that of power system simulation.",
+                "Thus the communication latency will not significantly affect the accuracy of co-simulation.",
+                "In [36], the co-simulation is performed using resources at the same location without synthetically introduced delays, which means the communication latency between <br>RT simulators</br> is ignored.",
+                "In [37], the authors have mentioned the communication latency as an important factor in the distributed simulation and that its effect on simulation stability will be studied as future work.",
+                "An in-depth research about the role of communication latency and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper."
+            ],
+            "original_annotated_samples": [
+                "The above discussion summarizes the state of the art related to impacts and interpretations of communication latency between <br>RT simulators</br>.",
+                "In [36], the co-simulation is performed using resources at the same location without synthetically introduced delays, which means the communication latency between <br>RT simulators</br> is ignored."
+            ],
+            "translated_annotated_samples": [
+                "Output: La discusión anterior resume el estado del arte relacionado con los impactos e interpretaciones de la latencia de comunicación entre <br>simuladores RT</br>.",
+                "En [36], la co-simulación se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que se ignora la latencia de comunicación entre <br>simuladores en tiempo real</br>."
+            ],
+            "translated_text": "Output: La discusión anterior resume el estado del arte relacionado con los impactos e interpretaciones de la latencia de comunicación entre <br>simuladores RT</br>. Sin embargo, la investigación se centra principalmente en el efecto de la pérdida de datos durante la comunicación y en cómo mitigarlo [34]. En el ejemplo de co-simulación termoeléctrica en [35], la constante de tiempo es mayor en la simulación térmica que en la simulación del sistema de energía. Por lo tanto, la latencia de comunicación no afectará significativamente la precisión de la co-simulación. En [36], la co-simulación se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que se ignora la latencia de comunicación entre <br>simuladores en tiempo real</br>. En [37], los autores han mencionado la latencia de comunicación como un factor importante en la simulación distribuida y han indicado que su efecto en la estabilidad de la simulación se estudiará en trabajos futuros. Una investigación exhaustiva sobre el papel de la latencia de comunicación y las medidas de mitigación para simulaciones en tiempo real distribuidas geográficamente se identifica como una brecha técnica y se aborda en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    "simuladores RT",
+                    "simuladores en tiempo real"
+                ],
+                [
+                    "simuladores RT",
+                    "simuladores en tiempo real"
+                ]
+            ]
+        },
+        "thermo-electric co-simulation": {
+            "translated_key": "co-simulación termoeléctrica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The above discussion summarizes the state of the art related to impacts and interpretations of communication latency between RT simulators.",
+                "However, research is focused primarily on the effect of the data loss during the communication and how to mitigate it [34].",
+                "In the <br>thermo-electric co-simulation</br> example in [35], the time constant is larger in the thermal simulation than that of power system simulation.",
+                "Thus the communication latency will not significantly affect the accuracy of co-simulation.",
+                "In [36], the co-simulation is performed using resources at the same location without synthetically introduced delays, which means the communication latency between RT simulators is ignored.",
+                "In [37], the authors have mentioned the communication latency as an important factor in the distributed simulation and that its effect on simulation stability will be studied as future work.",
+                "An in-depth research about the role of communication latency and mitigation measure for geographically distributed RT simulations is identified as a technical gap and addressed in this paper."
+            ],
+            "original_annotated_samples": [
+                "In the <br>thermo-electric co-simulation</br> example in [35], the time constant is larger in the thermal simulation than that of power system simulation."
+            ],
+            "translated_annotated_samples": [
+                "En el ejemplo de <br>co-simulación termoeléctrica</br> en [35], la constante de tiempo es mayor en la simulación térmica que en la simulación del sistema de energía."
+            ],
+            "translated_text": "La discusión anterior resume el estado del arte relacionado con los impactos e interpretaciones de la latencia de comunicación entre simuladores en tiempo real. Sin embargo, la investigación se centra principalmente en el efecto de la pérdida de datos durante la comunicación y en cómo mitigarlo [34]. En el ejemplo de <br>co-simulación termoeléctrica</br> en [35], la constante de tiempo es mayor en la simulación térmica que en la simulación del sistema de energía. Por lo tanto, la latencia de comunicación no afectará significativamente la precisión de la co-simulación. En [36], la co-simulación se realiza utilizando recursos en la misma ubicación sin introducir artificialmente retrasos, lo que significa que se ignora la latencia de comunicación entre los simuladores de tiempo real. En [37], los autores han mencionado la latencia de comunicación como un factor importante en la simulación distribuida y han indicado que su efecto en la estabilidad de la simulación se estudiará en trabajos futuros. Una investigación exhaustiva sobre el papel de la latencia de comunicación y las medidas de mitigación para simulaciones en tiempo real distribuidas geográficamente se identifica como una brecha técnica y se aborda en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

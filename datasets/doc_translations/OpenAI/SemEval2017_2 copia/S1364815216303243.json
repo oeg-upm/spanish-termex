@@ -1,0 +1,417 @@
+{
+    "id": "S1364815216303243",
+    "original_text": "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources. Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs. This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001). The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001). The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term. In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions. Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain.",
+    "original_translation": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público.",
+    "original_sentences": [
+        "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+        "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+        "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+        "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+        "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+        "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+        "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+        "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+    ],
+    "translated_text_sentences": [
+        "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales.",
+        "Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs.",
+        "Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001).",
+        "El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001).",
+        "La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección.",
+        "En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas.",
+        "Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+        "Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público."
+    ],
+    "error_count": 4,
+    "keys": {
+        "2D diffusion wave equations": {
+            "translated_key": "ecuaciones de onda de difusión en 2D",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the <br>2D diffusion wave equations</br> that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the <br>2D diffusion wave equations</br> that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001)."
+            ],
+            "translated_annotated_samples": [
+                "El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las <br>ecuaciones de onda de difusión en 2D</br> que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001)."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las <br>ecuaciones de onda de difusión en 2D</br> que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Cartesian directions": {
+            "translated_key": "direcciones cartesianas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the <br>Cartesian directions</br>.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "In either version of LISFLOOD-FP the flow is decoupled in the <br>Cartesian directions</br>."
+            ],
+            "translated_annotated_samples": [
+                "En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las <br>direcciones cartesianas</br>."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las <br>direcciones cartesianas</br>. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "InfoWorks ICM": {
+            "translated_key": "InfoWorks ICM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like <br>InfoWorks ICM</br> (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like <br>InfoWorks ICM</br> (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013)."
+            ],
+            "translated_annotated_samples": [
+                "Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como <br>InfoWorks ICM</br> (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013)."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como <br>InfoWorks ICM</br> (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "JFLOW": {
+            "translated_key": "JFLOW",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The <br>JFLOW</br> model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "The <br>JFLOW</br> model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001)."
+            ],
+            "translated_annotated_samples": [
+                "El modelo <br>JFLOW</br> (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001)."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo <br>JFLOW</br> (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "LISFLOOD-FP": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of <br>LISFLOOD-FP</br> (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of <br>LISFLOOD-FP</br> (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of <br>LISFLOOD-FP</br> the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of <br>LISFLOOD-FP</br> (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of <br>LISFLOOD-FP</br> (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of <br>LISFLOOD-FP</br> the flow is decoupled in the Cartesian directions."
+            ],
+            "translated_annotated_samples": [
+                "El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de <br>LISFLOOD-FP</br> (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001).",
+                "La <br>versión inercial de LISFLOOD-FP</br> (Bates et al., 2010) resuelve las SWEs sin el término de advección.",
+                "En cualquiera de las versiones de <br>LISFLOOD-FP</br>, el flujo está desacoplado en las direcciones cartesianas."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de <br>LISFLOOD-FP</br> (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La <br>versión inercial de LISFLOOD-FP</br> (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de <br>LISFLOOD-FP</br>, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    "LISFLOOD-FP",
+                    "versión inercial de LISFLOOD-FP",
+                    "LISFLOOD-FP"
+                ]
+            ]
+        },
+        "MIKE FLOOD": {
+            "translated_key": "MIKE FLOOD",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and <br>MIKE FLOOD</br> (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and <br>MIKE FLOOD</br> (DHI Software, 2014; Hénonin et al., 2013)."
+            ],
+            "translated_annotated_samples": [
+                "Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y <br>MIKE FLOOD</br> (DHI Software, 2014; Hénonin et al., 2013)."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y <br>MIKE FLOOD</br> (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "multi resolution grids or irregular mesh": {
+            "translated_key": "mallas de multirresolución o mallas irregulares",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of <br>multi resolution grids or irregular mesh</br>, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "Other models use the full SWEs but focus on the use of <br>multi resolution grids or irregular mesh</br>, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013)."
+            ],
+            "translated_annotated_samples": [
+                "Otros modelos utilizan las SWEs completas pero se centran en el uso de <br>mallas de multirresolución o mallas irregulares</br>, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013)."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de <br>mallas de multirresolución o mallas irregulares</br>, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "physically-based 2D flood models": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical <br>physically-based 2D flood models</br> solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "Typical <br>physically-based 2D flood models</br> solve the Shallow Water Equations (SWEs), requiring high computational resources."
+            ],
+            "translated_annotated_samples": [
+                "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "reducing the complexity of the SWEs": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by <br>reducing the complexity of the SWEs</br>.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by <br>reducing the complexity of the SWEs</br>."
+            ],
+            "translated_annotated_samples": [
+                "Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "Shallow Water Equations": {
+            "translated_key": "Ecuaciones de Aguas Poco Profundas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the <br>Shallow Water Equations</br> (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "Typical physically-based 2D flood models solve the <br>Shallow Water Equations</br> (SWEs), requiring high computational resources."
+            ],
+            "translated_annotated_samples": [
+                "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las <br>Ecuaciones de Aguas Poco Profundas</br> (SWEs), requiriendo altos recursos computacionales."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las <br>Ecuaciones de Aguas Poco Profundas</br> (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "solve the Shallow Water Equations (SWEs)": {
+            "translated_key": "Ecuaciones de Aguas Poco Profundas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models <br>solve the Shallow Water Equations (SWEs)</br>, requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "Typical physically-based 2D flood models <br>solve the Shallow Water Equations (SWEs)</br>, requiring high computational resources."
+            ],
+            "translated_annotated_samples": [
+                "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las <br>Ecuaciones de Aguas Poco Profundas</br> (SWEs), requiriendo altos recursos computacionales."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las <br>Ecuaciones de Aguas Poco Profundas</br> (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SWEs": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (<br>SWEs</br>), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the <br>SWEs</br>.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the <br>SWEs</br> without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full <br>SWEs</br> but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (<br>SWEs</br>), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the <br>SWEs</br>.",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the <br>SWEs</br> without the advection term.",
+                "Other models use the full <br>SWEs</br> but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013)."
+            ],
+            "translated_annotated_samples": [
+                "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las <br>Ecuaciones de Aguas Poco Profundas</br> (SWEs), requiriendo altos recursos computacionales.",
+                "Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las <br>SWEs</br>.",
+                "La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las <br>SWEs</br> sin el término de advección.",
+                "Otros modelos utilizan las <br>SWEs completas</br> pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013)."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las <br>Ecuaciones de Aguas Poco Profundas</br> (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las <br>SWEs</br>. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las <br>SWEs</br> sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las <br>SWEs completas</br> pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    "Ecuaciones de Aguas Poco Profundas",
+                    "SWEs",
+                    "SWEs",
+                    "SWEs completas"
+                ]
+            ]
+        },
+        "UIM": {
+            "translated_key": "UIM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (<br>UIM</br>) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "The JFLOW model (Bradbrook et al., 2004), Urban Inundation Model (<br>UIM</br>) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001)."
+            ],
+            "translated_annotated_samples": [
+                "El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (<br>UIM</br>) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001)."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el Modelo de Inundación Urbana (<br>UIM</br>) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Urban Inundation Model": {
+            "translated_key": "Modelo de Inundación Urbana",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Typical physically-based 2D flood models solve the Shallow Water Equations (SWEs), requiring high computational resources.",
+                "Many of these models have been developed to obtain better performance, while maintaining the required accuracy, by reducing the complexity of the SWEs.",
+                "This reduction is usually achieved by approximating or neglecting less significant terms of the equations (Hunter et al., 2007; Yen and Tsai, 2001).",
+                "The JFLOW model (Bradbrook et al., 2004), <br>Urban Inundation Model</br> (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001).",
+                "The inertial version of LISFLOOD-FP (Bates et al., 2010) solves the SWEs without the advection term.",
+                "In either version of LISFLOOD-FP the flow is decoupled in the Cartesian directions.",
+                "Other models use the full SWEs but focus on the use of multi resolution grids or irregular mesh, like InfoWorks ICM (Innovyze, 2012) and MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013).",
+                "These last two models are commercial packages, and the code applied in the optimisation techniques is not in the public domain."
+            ],
+            "original_annotated_samples": [
+                "The JFLOW model (Bradbrook et al., 2004), <br>Urban Inundation Model</br> (UIM) (Chen et al., 2007), and the diffusive version of LISFLOOD-FP (Hunter et al., 2005) solve the 2D diffusion wave equations that neglect the inertial (local acceleration) and advection (convective acceleration) terms (Yen and Tsai, 2001)."
+            ],
+            "translated_annotated_samples": [
+                "El modelo JFLOW (Bradbrook et al., 2004), el <br>Modelo de Inundación Urbana</br> (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001)."
+            ],
+            "translated_text": "Los modelos típicos de inundaciones en 2D basados físicamente resuelven las Ecuaciones de Aguas Poco Profundas (SWEs), requiriendo altos recursos computacionales. Muchos de estos modelos se han desarrollado para obtener un mejor rendimiento, manteniendo la precisión requerida, al reducir la complejidad de las SWEs. Esta reducción se logra generalmente aproximando o descuidando términos menos significativos de las ecuaciones (Hunter et al., 2007; Yen y Tsai, 2001). El modelo JFLOW (Bradbrook et al., 2004), el <br>Modelo de Inundación Urbana</br> (UIM) (Chen et al., 2007), y la versión difusiva de LISFLOOD-FP (Hunter et al., 2005) resuelven las ecuaciones de onda de difusión en 2D que descuidan los términos inerciales (aceleración local) y de advección (aceleración convectiva) (Yen y Tsai, 2001). La versión inercial de LISFLOOD-FP (Bates et al., 2010) resuelve las SWEs sin el término de advección. En cualquiera de las versiones de LISFLOOD-FP, el flujo está desacoplado en las direcciones cartesianas. Otros modelos utilizan las SWEs completas pero se centran en el uso de mallas de multirresolución o mallas irregulares, como InfoWorks ICM (Innovyze, 2012) y MIKE FLOOD (DHI Software, 2014; Hénonin et al., 2013). Estos dos últimos modelos son paquetes comerciales, y el código aplicado en las técnicas de optimización no está en dominio público. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

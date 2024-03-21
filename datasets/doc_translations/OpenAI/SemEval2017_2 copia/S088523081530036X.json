@@ -1,0 +1,286 @@
+{
+    "id": "S088523081530036X",
+    "original_text": "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages. This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame. Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages. A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer. The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ.",
+    "original_translation": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ.",
+    "original_sentences": [
+        "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+        "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+        "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages.",
+        "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+        "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+    ],
+    "translated_text_sentences": [
+        "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo.",
+        "Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro.",
+        "De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo.",
+        "Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa.",
+        "El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ."
+    ],
+    "error_count": 1,
+    "keys": {
+        "accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)": {
+            "translated_key": "acumulando los logaritmos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, <br>accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)</br>where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, <br>accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)</br>where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "translated_annotated_samples": [
+                "El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, <br>acumulando los logaritmos</br> como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, <br>acumulando los logaritmos</br> como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "assume that frames are independent and multiply the posterior estimates of the last layer": {
+            "translated_key": "los cuadros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to <br>assume that frames are independent and multiply the posterior estimates of the last layer</br>.",
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "A simple way of doing this combination is to <br>assume that frames are independent and multiply the posterior estimates of the last layer</br>."
+            ],
+            "translated_annotated_samples": [
+                "Una forma sencilla de hacer esta combinación es asumir que <br>los cuadros</br> son independientes y multiplicar las estimaciones posteriores de la última capa."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que <br>los cuadros</br> son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "combine the evidence from past frames": {
+            "translated_key": "combinar la evidencia de cuadros anteriores",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can <br>combine the evidence from past frames</br> to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "Indeed, at each frame, we can <br>combine the evidence from past frames</br> to get a single similarity score between the test utterance and the targetlanguages."
+            ],
+            "translated_annotated_samples": [
+                "De hecho, en cada cuadro, podemos <br>combinar la evidencia de cuadros anteriores</br> para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos <br>combinar la evidencia de cuadros anteriores</br> para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "DNN": {
+            "translated_key": "DNN",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the <br>DNN</br> defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the <br>DNN</br> defined by parameters θ."
+            ],
+            "translated_annotated_samples": [
+                "El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la <br>DNN</br> definida por los parámetros θ."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la <br>DNN</br> definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "DNNs": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the <br>DNNs</br> particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "This fact makes the <br>DNNs</br> particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame."
+            ],
+            "translated_annotated_samples": [
+                "Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "evidence from past frames": {
+            "translated_key": "evidencia de cuadros anteriores",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the <br>evidence from past frames</br> to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "Indeed, at each frame, we can combine the <br>evidence from past frames</br> to get a single similarity score between the test utterance and the targetlanguages."
+            ],
+            "translated_annotated_samples": [
+                "De hecho, en cada cuadro, podemos combinar la <br>evidencia de cuadros anteriores</br> para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la <br>evidencia de cuadros anteriores</br> para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "i-vectors": {
+            "translated_key": "i-vectores",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. <br>i-vectors</br>), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. <br>i-vectors</br>), we can potentially make a decision about the language at each new frame."
+            ],
+            "translated_annotated_samples": [
+                "Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, <br>i-vectores</br>), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, <br>i-vectores</br>), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "multiplying the output probabilities pl obtained for all of its frames": {
+            "translated_key": "multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given test utterance is computed by <br>multiplying the output probabilities pl obtained for all of its frames</br>; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "The score sl for language l of a given test utterance is computed by <br>multiplying the output probabilities pl obtained for all of its frames</br>; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "translated_annotated_samples": [
+                "El puntaje sl para el idioma l de una enunciación de prueba dada se calcula <br>multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros</br>; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula <br>multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros</br>; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "other approaches": {
+            "translated_key": "otros enfoques",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike <br>other approaches</br> (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike <br>other approaches</br> (i.e. i-vectors), we can potentially make a decision about the language at each new frame."
+            ],
+            "translated_annotated_samples": [
+                "Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de <br>otros enfoques</br> (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de <br>otros enfoques</br> (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "target languages": {
+            "translated_key": "idiomas objetivo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the <br>target languages</br>.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the test utterance and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given test utterance is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the <br>target languages</br>."
+            ],
+            "translated_annotated_samples": [
+                "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los <br>idiomas objetivo</br>."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los <br>idiomas objetivo</br>. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la enunciación de prueba y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una enunciación de prueba dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "test utterance": {
+            "translated_key": "enunciación de prueba",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Note that the presented architecture works at the frame level, meaning that each single frame (plus its corresponding context) is fed-forward through the network, obtaining a class posterior probability for all of the target languages.",
+                "This fact makes the DNNs particularly suitable for real-time applications because, unlike other approaches (i.e. i-vectors), we can potentially make a decision about the language at each new frame.",
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the <br>test utterance</br> and the targetlanguages.",
+                "A simple way of doing this combination is to assume that frames are independent and multiply the posterior estimates of the last layer.",
+                "The score sl for language l of a given <br>test utterance</br> is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "original_annotated_samples": [
+                "Indeed, at each frame, we can combine the evidence from past frames to get a single similarity score between the <br>test utterance</br> and the targetlanguages.",
+                "The score sl for language l of a given <br>test utterance</br> is computed by multiplying the output probabilities pl obtained for all of its frames; or equivalently, accumulating the logs as:(6)sl=1N∑t=1Nlogp(Ll|xt​, θ)where p(Ll|xt​, θ) represents the class probability output for the language l corresponding to the input example at time t, xt by using the DNN defined by parameters θ."
+            ],
+            "translated_annotated_samples": [
+                "De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la <br>enunciación de prueba</br> y los idiomas objetivo.",
+                "El puntaje sl para el idioma l de una <br>enunciación de prueba</br> dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ."
+            ],
+            "translated_text": "Ten en cuenta que la arquitectura presentada funciona a nivel de cuadro, lo que significa que cada cuadro individual (junto con su contexto correspondiente) se alimenta hacia adelante a través de la red, obteniendo una probabilidad posterior de clase para todos los idiomas objetivo. Este hecho hace que las DNN sean particularmente adecuadas para aplicaciones en tiempo real porque, a diferencia de otros enfoques (es decir, i-vectores), potencialmente podemos tomar una decisión sobre el idioma en cada nuevo cuadro. De hecho, en cada cuadro, podemos combinar la evidencia de cuadros anteriores para obtener un único puntaje de similitud entre la <br>enunciación de prueba</br> y los idiomas objetivo. Una forma sencilla de hacer esta combinación es asumir que los cuadros son independientes y multiplicar las estimaciones posteriores de la última capa. El puntaje sl para el idioma l de una <br>enunciación de prueba</br> dada se calcula multiplicando las probabilidades de salida pl obtenidas para todos sus cuadros; o equivalentemente, acumulando los logaritmos como: (6) sl = 1/N ∑t=1N log p(Ll|xt, θ) donde p(Ll|xt, θ) representa la probabilidad de clase de salida para el idioma l correspondiente al ejemplo de entrada en el tiempo t, xt mediante el uso de la DNN definida por los parámetros θ. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

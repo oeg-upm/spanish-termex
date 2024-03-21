@@ -1,0 +1,207 @@
+{
+    "id": "S0021999115008256",
+    "original_text": "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of dispersion and diffusion eigencurves for different polynomial orders. The spectral/hp continuous Galerkin method considered closely resembles the formulation presented in [7]. Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to wave-like solutions, from which the relevant eigencurves can be obtained. The inviscid case (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9]. The viscous case is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion.",
+    "original_translation": "Esta sección está dedicada a la discretización de la ecuación de advección-difusión y al análisis de las curvas propias de dispersión y difusión para diferentes órdenes polinomiales. El método de Galerkin continuo espectral/hp considerado se asemeja estrechamente a la formulación presentada en [7]. La sección 2.1 describe detalladamente la derivación del problema de advección-difusión semi-discreto aplicado a soluciones tipo onda, a partir del cual se pueden obtener las curvas propias relevantes. El caso invíscido (advección lineal) se aborda luego en la Sección 2.2, donde se discute el papel de las curvas propias primarias y secundarias desde la perspectiva introducida en [9]. El caso viscoso se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por convección o difusión.",
+    "original_sentences": [
+        "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of dispersion and diffusion eigencurves for different polynomial orders.",
+        "The spectral/hp continuous Galerkin method considered closely resembles the formulation presented in [7].",
+        "Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to wave-like solutions, from which the relevant eigencurves can be obtained.",
+        "The inviscid case (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9].",
+        "The viscous case is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+    ],
+    "error_count": 0,
+    "keys": {
+        "derivation of the semi-discrete advection–diffusion problem": {
+            "translated_key": "derivación del problema de advección-difusión semi-discreto",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of dispersion and diffusion eigencurves for different polynomial orders.",
+                "The spectral/hp continuous Galerkin method considered closely resembles the formulation presented in [7].",
+                "Sec. 2.1 describes in detail the <br>derivation of the semi-discrete advection–diffusion problem</br> as applied to wave-like solutions, from which the relevant eigencurves can be obtained.",
+                "The inviscid case (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9].",
+                "The viscous case is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+            ],
+            "original_annotated_samples": [
+                "Sec. 2.1 describes in detail the <br>derivation of the semi-discrete advection–diffusion problem</br> as applied to wave-like solutions, from which the relevant eigencurves can be obtained."
+            ],
+            "translated_annotated_samples": [
+                "Output: La sección 2.1 describe en detalle la <br>derivación del problema de advección-difusión semi-discreto</br> aplicado a soluciones tipo onda, a partir del cual se pueden obtener las eigencurvas relevantes."
+            ],
+            "translated_text": "Esta sección está dedicada a la discretización de la ecuación de advección-difusión y al análisis de las curvas propias de dispersión y difusión para diferentes órdenes polinomiales. El método de Galerkin continuo espectral/hp considerado se asemeja estrechamente a la formulación presentada en [7]. Output: La sección 2.1 describe en detalle la <br>derivación del problema de advección-difusión semi-discreto</br> aplicado a soluciones tipo onda, a partir del cual se pueden obtener las eigencurvas relevantes. El caso invíscido (advección lineal) se aborda luego en la Sección 2.2, donde se discute el papel de las curvas propias primarias y secundarias desde la perspectiva introducida en [9]. El caso viscoso se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por convección o difusión. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "discretization of the advection–diffusion equation": {
+            "translated_key": "discretización de la ecuación de advección-difusión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This section is devoted to the <br>discretization of the advection–diffusion equation</br> and to the analysis of dispersion and diffusion eigencurves for different polynomial orders.",
+                "The spectral/hp continuous Galerkin method considered closely resembles the formulation presented in [7].",
+                "Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to wave-like solutions, from which the relevant eigencurves can be obtained.",
+                "The inviscid case (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9].",
+                "The viscous case is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+            ],
+            "original_annotated_samples": [
+                "This section is devoted to the <br>discretization of the advection–diffusion equation</br> and to the analysis of dispersion and diffusion eigencurves for different polynomial orders."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esta sección está dedicada a la <br>discretización de la ecuación de advección-difusión</br> y al análisis de las eigencurvas de dispersión y difusión para diferentes órdenes polinomiales."
+            ],
+            "translated_text": "Output: Esta sección está dedicada a la <br>discretización de la ecuación de advección-difusión</br> y al análisis de las eigencurvas de dispersión y difusión para diferentes órdenes polinomiales. El método de Galerkin continuo espectral/hp considerado se asemeja estrechamente a la formulación presentada en [7]. La sección 2.1 describe detalladamente la derivación del problema de advección-difusión semi-discreto aplicado a soluciones tipo onda, a partir del cual se pueden obtener las curvas propias relevantes. El caso invíscido (advección lineal) se aborda luego en la Sección 2.2, donde se discute el papel de las curvas propias primarias y secundarias desde la perspectiva introducida en [9]. El caso viscoso se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por convección o difusión. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "dispersion and diffusion eigencurves": {
+            "translated_key": "curvas propias de dispersión y difusión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of <br>dispersion and diffusion eigencurves</br> for different polynomial orders.",
+                "The spectral/hp continuous Galerkin method considered closely resembles the formulation presented in [7].",
+                "Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to wave-like solutions, from which the relevant eigencurves can be obtained.",
+                "The inviscid case (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9].",
+                "The viscous case is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+            ],
+            "original_annotated_samples": [
+                "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of <br>dispersion and diffusion eigencurves</br> for different polynomial orders."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esta sección está dedicada a la discretización de la ecuación de advección-difusión y al análisis de las <br>curvas propias de dispersión y difusión</br> para diferentes órdenes polinomiales."
+            ],
+            "translated_text": "Output: Esta sección está dedicada a la discretización de la ecuación de advección-difusión y al análisis de las <br>curvas propias de dispersión y difusión</br> para diferentes órdenes polinomiales. El método de Galerkin continuo espectral/hp considerado se asemeja estrechamente a la formulación presentada en [7]. La sección 2.1 describe detalladamente la derivación del problema de advección-difusión semi-discreto aplicado a soluciones tipo onda, a partir del cual se pueden obtener las curvas propias relevantes. El caso invíscido (advección lineal) se aborda luego en la Sección 2.2, donde se discute el papel de las curvas propias primarias y secundarias desde la perspectiva introducida en [9]. El caso viscoso se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por convección o difusión. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Galerkin method": {
+            "translated_key": "espectral/hp",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of dispersion and diffusion eigencurves for different polynomial orders.",
+                "The spectral/hp continuous <br>Galerkin method</br> considered closely resembles the formulation presented in [7].",
+                "Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to wave-like solutions, from which the relevant eigencurves can be obtained.",
+                "The inviscid case (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9].",
+                "The viscous case is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+            ],
+            "original_annotated_samples": [
+                "The spectral/hp continuous <br>Galerkin method</br> considered closely resembles the formulation presented in [7]."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de Galerkin continuo <br>espectral/hp</br> considerado se asemeja estrechamente a la formulación presentada en [7]."
+            ],
+            "translated_text": "Esta sección está dedicada a la discretización de la ecuación de advección-difusión y al análisis de las curvas propias de dispersión y difusión para diferentes órdenes polinomiales. Output: El método de Galerkin continuo <br>espectral/hp</br> considerado se asemeja estrechamente a la formulación presentada en [7]. La sección 2.1 describe detalladamente la derivación del problema de advección-difusión semi-discreto aplicado a soluciones tipo onda, a partir del cual se pueden obtener las curvas propias relevantes. El caso invíscido (advección lineal) se aborda luego en la Sección 2.2, donde se discute el papel de las curvas propias primarias y secundarias desde la perspectiva introducida en [9]. El caso viscoso se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por convección o difusión. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "inviscid case": {
+            "translated_key": "inviscid",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of dispersion and diffusion eigencurves for different polynomial orders.",
+                "The spectral/hp continuous Galerkin method considered closely resembles the formulation presented in [7].",
+                "Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to wave-like solutions, from which the relevant eigencurves can be obtained.",
+                "The <br>inviscid case</br> (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9].",
+                "The viscous case is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+            ],
+            "original_annotated_samples": [
+                "The <br>inviscid case</br> (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9]."
+            ],
+            "translated_annotated_samples": [
+                "Output: El caso <br>inviscid</br> (advección lineal) se aborda luego en la Sección 2.2, donde se discute el papel de las eigencurvas primarias y secundarias desde la perspectiva introducida en [9]."
+            ],
+            "translated_text": "Esta sección está dedicada a la discretización de la ecuación de advección-difusión y al análisis de las curvas propias de dispersión y difusión para diferentes órdenes polinomiales. El método de Galerkin continuo espectral/hp considerado se asemeja estrechamente a la formulación presentada en [7]. La sección 2.1 describe detalladamente la derivación del problema de advección-difusión semi-discreto aplicado a soluciones tipo onda, a partir del cual se pueden obtener las curvas propias relevantes. Output: El caso <br>inviscid</br> (advección lineal) se aborda luego en la Sección 2.2, donde se discute el papel de las eigencurvas primarias y secundarias desde la perspectiva introducida en [9]. El caso viscoso se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por convección o difusión. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "linear advection": {
+            "translated_key": "advección lineal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of dispersion and diffusion eigencurves for different polynomial orders.",
+                "The spectral/hp continuous Galerkin method considered closely resembles the formulation presented in [7].",
+                "Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to wave-like solutions, from which the relevant eigencurves can be obtained.",
+                "The inviscid case (<br>linear advection</br>) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9].",
+                "The viscous case is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+            ],
+            "original_annotated_samples": [
+                "The inviscid case (<br>linear advection</br>) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9]."
+            ],
+            "translated_annotated_samples": [
+                "Output: El caso invíscido (<br>advección lineal</br>) se aborda luego en la Sección 2.2, donde se discute el papel de las eigencurvas primarias y secundarias desde la perspectiva introducida en [9]."
+            ],
+            "translated_text": "Esta sección está dedicada a la discretización de la ecuación de advección-difusión y al análisis de las curvas propias de dispersión y difusión para diferentes órdenes polinomiales. El método de Galerkin continuo espectral/hp considerado se asemeja estrechamente a la formulación presentada en [7]. La sección 2.1 describe detalladamente la derivación del problema de advección-difusión semi-discreto aplicado a soluciones tipo onda, a partir del cual se pueden obtener las curvas propias relevantes. Output: El caso invíscido (<br>advección lineal</br>) se aborda luego en la Sección 2.2, donde se discute el papel de las eigencurvas primarias y secundarias desde la perspectiva introducida en [9]. El caso viscoso se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por convección o difusión. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "viscous case": {
+            "translated_key": "caso viscoso",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of dispersion and diffusion eigencurves for different polynomial orders.",
+                "The spectral/hp continuous Galerkin method considered closely resembles the formulation presented in [7].",
+                "Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to wave-like solutions, from which the relevant eigencurves can be obtained.",
+                "The inviscid case (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9].",
+                "The <br>viscous case</br> is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+            ],
+            "original_annotated_samples": [
+                "The <br>viscous case</br> is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+            ],
+            "translated_annotated_samples": [
+                "Output: El <br>caso viscoso</br> se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por la convección o la difusión."
+            ],
+            "translated_text": "Esta sección está dedicada a la discretización de la ecuación de advección-difusión y al análisis de las curvas propias de dispersión y difusión para diferentes órdenes polinomiales. El método de Galerkin continuo espectral/hp considerado se asemeja estrechamente a la formulación presentada en [7]. La sección 2.1 describe detalladamente la derivación del problema de advección-difusión semi-discreto aplicado a soluciones tipo onda, a partir del cual se pueden obtener las curvas propias relevantes. El caso invíscido (advección lineal) se aborda luego en la Sección 2.2, donde se discute el papel de las curvas propias primarias y secundarias desde la perspectiva introducida en [9]. Output: El <br>caso viscoso</br> se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por la convección o la difusión. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "wave-like solutions": {
+            "translated_key": "soluciones tipo onda",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This section is devoted to the discretization of the advection–diffusion equation and to the analysis of dispersion and diffusion eigencurves for different polynomial orders.",
+                "The spectral/hp continuous Galerkin method considered closely resembles the formulation presented in [7].",
+                "Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to <br>wave-like solutions</br>, from which the relevant eigencurves can be obtained.",
+                "The inviscid case (linear advection) is then addressed in Sec. 2.2, where the role of primary and secondary eigencurves is discussed from the perspective introduced in [9].",
+                "The viscous case is subsequently considered in Sec. 2.3, where eigencurves are shown to feature irregular oscillations for problems strongly dominated by either convection or diffusion."
+            ],
+            "original_annotated_samples": [
+                "Sec. 2.1 describes in detail the derivation of the semi-discrete advection–diffusion problem as applied to <br>wave-like solutions</br>, from which the relevant eigencurves can be obtained."
+            ],
+            "translated_annotated_samples": [
+                "Output: La sección 2.1 describe en detalle la derivación del problema de advección-difusión semi-discreto aplicado a <br>soluciones tipo onda</br>, a partir del cual se pueden obtener las eigencurvas relevantes."
+            ],
+            "translated_text": "Esta sección está dedicada a la discretización de la ecuación de advección-difusión y al análisis de las curvas propias de dispersión y difusión para diferentes órdenes polinomiales. El método de Galerkin continuo espectral/hp considerado se asemeja estrechamente a la formulación presentada en [7]. Output: La sección 2.1 describe en detalle la derivación del problema de advección-difusión semi-discreto aplicado a <br>soluciones tipo onda</br>, a partir del cual se pueden obtener las eigencurvas relevantes. El caso invíscido (advección lineal) se aborda luego en la Sección 2.2, donde se discute el papel de las curvas propias primarias y secundarias desde la perspectiva introducida en [9]. El caso viscoso se considera posteriormente en la Sección 2.3, donde se muestra que las curvas propias presentan oscilaciones irregulares para problemas fuertemente dominados por convección o difusión. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

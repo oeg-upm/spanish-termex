@@ -1,0 +1,545 @@
+{
+    "id": "S1574119215000796",
+    "original_text": "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes. This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology. The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem. PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information. This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency. PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic. It utilises node cooperation to create a robust multipath routing solution. As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations.",
+    "original_translation": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles.",
+    "original_sentences": [
+        "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+        "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+        "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+        "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+        "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+        "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+        "It utilises node cooperation to create a robust multipath routing solution.",
+        "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+    ],
+    "translated_text_sentences": [
+        "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas.",
+        "Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica.",
+        "La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida.",
+        "PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local.",
+        "Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes.",
+        "PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico.",
+        "Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath.",
+        "Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles."
+    ],
+    "error_count": 2,
+    "keys": {
+        "cross-layer routing protocol": {
+            "translated_key": "protocolo de enrutamiento de capa cruzada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a <br>cross-layer routing protocol</br> for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "As such, the contribution of this paper is a <br>cross-layer routing protocol</br> for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, la contribución de este documento es un <br>protocolo de enrutamiento de capa cruzada</br> para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un <br>protocolo de enrutamiento de capa cruzada</br> para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "cross-layer routing protocol for MWSNs": {
+            "translated_key": "protocolo de enrutamiento de capa cruzada para MWSNs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a <br>cross-layer routing protocol for MWSNs</br> that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "As such, the contribution of this paper is a <br>cross-layer routing protocol for MWSNs</br> that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, la contribución de este documento es un <br>protocolo de enrutamiento de capa cruzada para MWSNs</br> que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un <br>protocolo de enrutamiento de capa cruzada para MWSNs</br> que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "encapsulation": {
+            "translated_key": "encapsulación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of <br>encapsulation</br>, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "PHASeR is also set apart by its use of <br>encapsulation</br>, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic."
+            ],
+            "translated_annotated_samples": [
+                "PHASeR también se distingue por su uso de <br>encapsulación</br>, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de <br>encapsulación</br>, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "gradient maintenance": {
+            "translated_key": "mantenimiento de gradiente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of <br>gradient maintenance</br> in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "PHASeR uses a novel method of <br>gradient maintenance</br> in a mobile network, which requires the proactive sharing of only local topology information."
+            ],
+            "translated_annotated_samples": [
+                "PHASeR utiliza un método novedoso de <br>mantenimiento de gradiente</br> en una red móvil, que requiere el intercambio proactivo de solo información de topología local."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de <br>mantenimiento de gradiente</br> en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "gradient metric": {
+            "translated_key": "métrica de gradiente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a <br>gradient metric</br> to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "This approach requires a <br>gradient metric</br> to be continuously maintained, which is problematic in a dynamic topology."
+            ],
+            "translated_annotated_samples": [
+                "Este enfoque requiere que se mantenga continuamente una <br>métrica de gradiente</br>, lo cual es problemático en una topología dinámica."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una <br>métrica de gradiente</br>, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MAC": {
+            "translated_key": "capa",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) <br>MAC</br> (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "This is facilitated by a global TDMA (time division multiple access) <br>MAC</br> (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency."
+            ],
+            "translated_annotated_samples": [
+                "Esto es facilitado por una <br>capa</br> MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una <br>capa</br> MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "medium access control": {
+            "translated_key": "capa MAC (control de acceso al medio)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (<br>medium access control</br>) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "This is facilitated by a global TDMA (time division multiple access) MAC (<br>medium access control</br>) layer and further reduces the amount of overhead, which in turn will decrease packet latency."
+            ],
+            "translated_annotated_samples": [
+                "Esto es facilitado por una <br>capa MAC (control de acceso al medio)</br> global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una <br>capa MAC (control de acceso al medio)</br> global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mobile network": {
+            "translated_key": "red móvil",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a <br>mobile network</br>, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "PHASeR uses a novel method of gradient maintenance in a <br>mobile network</br>, which requires the proactive sharing of only local topology information."
+            ],
+            "translated_annotated_samples": [
+                "PHASeR utiliza un método novedoso de mantenimiento de gradiente en una <br>red móvil</br>, que requiere el intercambio proactivo de solo información de topología local."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una <br>red móvil</br>, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "multihop routing protocol": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed <br>multihop routing protocol</br>, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "The proposed <br>multihop routing protocol</br>, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes."
+            ],
+            "translated_annotated_samples": [
+                "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "MWSN": {
+            "translated_key": "MWSN",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a <br>MWSN</br>, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a <br>MWSN</br>, which increases the reliability of data delivery through its inherent use of multiple routes."
+            ],
+            "translated_annotated_samples": [
+                "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una <br>MWSN</br>, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una <br>MWSN</br>, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MWSNs": {
+            "translated_key": "MWSNs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for <br>MWSNs</br> that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "As such, the contribution of this paper is a cross-layer routing protocol for <br>MWSNs</br> that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para <br>MWSNs</br> que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para <br>MWSNs</br> que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "node": {
+            "translated_key": "cooperación de nodos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises <br>node</br> cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "It utilises <br>node</br> cooperation to create a robust multipath routing solution."
+            ],
+            "translated_annotated_samples": [
+                "Utiliza la <br>cooperación de nodos</br> para crear una solución robusta de enrutamiento multipath."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la <br>cooperación de nodos</br> para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "node cooperation": {
+            "translated_key": "cooperación de nodos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises <br>node cooperation</br> to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "It utilises <br>node cooperation</br> to create a robust multipath routing solution."
+            ],
+            "translated_annotated_samples": [
+                "Utiliza la <br>cooperación de nodos</br> para crear una solución robusta de enrutamiento multipath."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la <br>cooperación de nodos</br> para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "nodes": {
+            "translated_key": "nodos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple <br>nodes</br> to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple <br>nodes</br> to be transmitted in the same packet in order to handle high volumes of traffic."
+            ],
+            "translated_annotated_samples": [
+                "PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples <br>nodos</br> se transmitan en el mismo paquete para manejar altos volúmenes de tráfico."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples <br>nodos</br> se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "packet latency": {
+            "translated_key": "latencia de paquetes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease <br>packet latency</br>.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease <br>packet latency</br>."
+            ],
+            "translated_annotated_samples": [
+                "Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la <br>latencia de paquetes</br>."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la <br>latencia de paquetes</br>. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PHASeR": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, <br>PHASeR</br>, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "<br>PHASeR</br> uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "<br>PHASeR</br> is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "The proposed multihop routing protocol, <br>PHASeR</br>, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "<br>PHASeR</br> uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "<br>PHASeR</br> is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic."
+            ],
+            "translated_annotated_samples": [
+                "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de <br>reenvío ciego</br> en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas.",
+                "PHASeR utiliza un <br>método novedoso de mantenimiento de gradiente</br> en una red móvil, que requiere el intercambio proactivo de solo información de topología local.",
+                "PHASeR también se distingue por su uso de <br>encapsulación</br>, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de <br>reenvío ciego</br> en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un <br>método novedoso de mantenimiento de gradiente</br> en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de <br>encapsulación</br>, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    "reenvío ciego",
+                    "método novedoso de mantenimiento de gradiente",
+                    "encapsulación"
+                ]
+            ]
+        },
+        "sensors": {
+            "translated_key": "sensores",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from <br>sensors</br> in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from <br>sensors</br> in highly mobile situations."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de <br>sensores</br> en situaciones altamente móviles."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (acceso múltiple por división de tiempo) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de <br>sensores</br> en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "TDMA": {
+            "translated_key": "acceso múltiple por división de tiempo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global <br>TDMA</br> (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "This is facilitated by a global <br>TDMA</br> (time division multiple access) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency."
+            ],
+            "translated_annotated_samples": [
+                "Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (<br>acceso múltiple por división de tiempo</br>) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (<br>acceso múltiple por división de tiempo</br>) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "time division multiple access": {
+            "translated_key": "acceso múltiple por división de tiempo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The proposed multihop routing protocol, PHASeR, applies the technique of blind forwarding in a MWSN, which increases the reliability of data delivery through its inherent use of multiple routes.",
+                "This approach requires a gradient metric to be continuously maintained, which is problematic in a dynamic topology.",
+                "The literature commonly uses either flooding or location awareness, however flooding creates large amounts of overhead and location determination schemes can often be inaccurate, power hungry and create the issue of the dead end problem.",
+                "PHASeR uses a novel method of gradient maintenance in a mobile network, which requires the proactive sharing of only local topology information.",
+                "This is facilitated by a global TDMA (<br>time division multiple access</br>) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency.",
+                "PHASeR is also set apart by its use of encapsulation, which allows data from multiple nodes to be transmitted in the same packet in order to handle high volumes of traffic.",
+                "It utilises node cooperation to create a robust multipath routing solution.",
+                "As such, the contribution of this paper is a cross-layer routing protocol for MWSNs that can handle the constant flow of data from sensors in highly mobile situations."
+            ],
+            "original_annotated_samples": [
+                "This is facilitated by a global TDMA (<br>time division multiple access</br>) MAC (medium access control) layer and further reduces the amount of overhead, which in turn will decrease packet latency."
+            ],
+            "translated_annotated_samples": [
+                "Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (<br>acceso múltiple por división de tiempo</br>) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes."
+            ],
+            "translated_text": "El protocolo de enrutamiento propuesto de múltiples saltos, PHASeR, aplica la técnica de reenvío ciego en una MWSN, lo que aumenta la confiabilidad de la entrega de datos a través de su uso inherente de múltiples rutas. Este enfoque requiere que se mantenga continuamente una métrica de gradiente, lo cual es problemático en una topología dinámica. La literatura comúnmente utiliza o bien inundación o conciencia de ubicación, sin embargo, la inundación crea grandes cantidades de sobrecarga y los esquemas de determinación de ubicación a menudo pueden ser inexactos, consumir mucha energía y crear el problema del callejón sin salida. PHASeR utiliza un método novedoso de mantenimiento de gradiente en una red móvil, que requiere el intercambio proactivo de solo información de topología local. Esto es facilitado por una capa MAC (control de acceso al medio) global de TDMA (<br>acceso múltiple por división de tiempo</br>) y reduce aún más la cantidad de sobrecarga, lo que a su vez disminuirá la latencia de paquetes. PHASeR también se distingue por su uso de encapsulación, que permite que los datos de múltiples nodos se transmitan en el mismo paquete para manejar altos volúmenes de tráfico. Utiliza la cooperación de nodos para crear una solución robusta de enrutamiento multipath. Por lo tanto, la contribución de este documento es un protocolo de enrutamiento de capa cruzada para MWSNs que puede manejar el flujo constante de datos de sensores en situaciones altamente móviles. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

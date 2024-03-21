@@ -1,0 +1,197 @@
+{
+    "id": "S0377025713001031",
+    "original_text": "Flow-induced deformations can lead to irreversible changes in the structure of a polymeric fluid; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken. Mechanical degradation of polymers in extensional flow has long been recognised [30] and leads to a reduction in the average molecular weight. A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in DoD jetting. Central scission is observed for polystyrene in a number of good solvents under certain jetting conditions for a bounded range of molecular weights. Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced central scission is possible under the conditions of DoD jetting.",
+    "original_translation": "Las deformaciones inducidas por el flujo pueden llevar a cambios irreversibles en la estructura de un fluido polimérico; si la tasa de extensión supera con creces la tasa de relajación, entonces la cadena polimérica puede romperse. La degradación mecánica de polímeros en flujo de extensión ha sido reconocida desde hace mucho tiempo [30] y conduce a una reducción en el peso molecular promedio. A-Alamry et al. [1] han informado recientemente evidencia de degradación de polímeros inducida por el flujo en la impresión por chorro de tinta de DoD. La escisión central se observa en el poliestireno en varios buenos disolventes bajo ciertas condiciones de chorro para un rango limitado de pesos moleculares. Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímero [29], en este artículo investigamos si la escisión central inducida por el flujo es posible bajo las condiciones de la inyección de DoD.",
+    "original_sentences": [
+        "Flow-induced deformations can lead to irreversible changes in the structure of a polymeric fluid; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken.",
+        "Mechanical degradation of polymers in extensional flow has long been recognised [30] and leads to a reduction in the average molecular weight.",
+        "A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in DoD jetting.",
+        "Central scission is observed for polystyrene in a number of good solvents under certain jetting conditions for a bounded range of molecular weights.",
+        "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced central scission is possible under the conditions of DoD jetting."
+    ],
+    "error_count": 2,
+    "keys": {
+        "Central scission": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Flow-induced deformations can lead to irreversible changes in the structure of a polymeric fluid; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken.",
+                "Mechanical degradation of polymers in extensional flow has long been recognised [30] and leads to a reduction in the average molecular weight.",
+                "A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in DoD jetting.",
+                "<br>Central scission</br> is observed for polystyrene in a number of good solvents under certain jetting conditions for a bounded range of molecular weights.",
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced <br>Central scission</br> is possible under the conditions of DoD jetting."
+            ],
+            "original_annotated_samples": [
+                "<br>Central scission</br> is observed for polystyrene in a number of good solvents under certain jetting conditions for a bounded range of molecular weights.",
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced <br>Central scission</br> is possible under the conditions of DoD jetting."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>La escisión central</br> se observa en el poliestireno en varios solventes buenos bajo ciertas condiciones de chorro para un rango limitado de pesos moleculares.",
+                "Output: Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímeros [29], en este documento investigamos si la <br>escisión central</br> inducida por el flujo es posible en las condiciones de la eyección de DoD."
+            ],
+            "translated_text": "Las deformaciones inducidas por el flujo pueden llevar a cambios irreversibles en la estructura de un fluido polimérico; si la tasa de extensión supera con creces la tasa de relajación, entonces la cadena polimérica puede romperse. La degradación mecánica de polímeros en flujo de extensión ha sido reconocida desde hace mucho tiempo [30] y conduce a una reducción en el peso molecular promedio. A-Alamry et al. [1] han informado recientemente evidencia de degradación de polímeros inducida por el flujo en la impresión por chorro de tinta de DoD. Output: <br>La escisión central</br> se observa en el poliestireno en varios solventes buenos bajo ciertas condiciones de chorro para un rango limitado de pesos moleculares. Output: Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímeros [29], en este documento investigamos si la <br>escisión central</br> inducida por el flujo es posible en las condiciones de la eyección de DoD. ",
+            "candidates": [],
+            "error": [
+                [
+                    "La escisión central",
+                    "escisión central"
+                ],
+                [
+                    "La escisión central",
+                    "escisión central"
+                ]
+            ]
+        },
+        "DoD jetting": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Flow-induced deformations can lead to irreversible changes in the structure of a polymeric fluid; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken.",
+                "Mechanical degradation of polymers in extensional flow has long been recognised [30] and leads to a reduction in the average molecular weight.",
+                "A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in <br>DoD jetting</br>.",
+                "Central scission is observed for polystyrene in a number of good solvents under certain jetting conditions for a bounded range of molecular weights.",
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced central scission is possible under the conditions of <br>DoD jetting</br>."
+            ],
+            "original_annotated_samples": [
+                "A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in <br>DoD jetting</br>.",
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced central scission is possible under the conditions of <br>DoD jetting</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: A-Alamry et al. [1] han informado recientemente evidencia de degradación de polímeros inducida por el flujo en <br>la impresión DoD</br>.",
+                " Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímero [29], en este artículo investigamos si la escisión central inducida por el flujo es posible en las condiciones de <br>DoD jetting</br>."
+            ],
+            "translated_text": "Las deformaciones inducidas por el flujo pueden llevar a cambios irreversibles en la estructura de un fluido polimérico; si la tasa de extensión supera con creces la tasa de relajación, entonces la cadena polimérica puede romperse. La degradación mecánica de polímeros en flujo de extensión ha sido reconocida desde hace mucho tiempo [30] y conduce a una reducción en el peso molecular promedio. Output: A-Alamry et al. [1] han informado recientemente evidencia de degradación de polímeros inducida por el flujo en <br>la impresión DoD</br>. La escisión central se observa en el poliestireno en varios buenos disolventes bajo ciertas condiciones de chorro para un rango limitado de pesos moleculares.  Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímero [29], en este artículo investigamos si la escisión central inducida por el flujo es posible en las condiciones de <br>DoD jetting</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    "la impresión DoD",
+                    "DoD jetting"
+                ],
+                [
+                    "la impresión DoD",
+                    "DoD jetting"
+                ]
+            ]
+        },
+        "flow-induced central scission": {
+            "translated_key": "escisión central inducida por el flujo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Flow-induced deformations can lead to irreversible changes in the structure of a polymeric fluid; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken.",
+                "Mechanical degradation of polymers in extensional flow has long been recognised [30] and leads to a reduction in the average molecular weight.",
+                "A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in DoD jetting.",
+                "Central scission is observed for polystyrene in a number of good solvents under certain jetting conditions for a bounded range of molecular weights.",
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether <br>flow-induced central scission</br> is possible under the conditions of DoD jetting."
+            ],
+            "original_annotated_samples": [
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether <br>flow-induced central scission</br> is possible under the conditions of DoD jetting."
+            ],
+            "translated_annotated_samples": [
+                "Output: Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímeros [29], en este artículo investigamos si es posible la <br>escisión central inducida por el flujo</br> en las condiciones de la eyección de DoD."
+            ],
+            "translated_text": "Las deformaciones inducidas por el flujo pueden llevar a cambios irreversibles en la estructura de un fluido polimérico; si la tasa de extensión supera con creces la tasa de relajación, entonces la cadena polimérica puede romperse. La degradación mecánica de polímeros en flujo de extensión ha sido reconocida desde hace mucho tiempo [30] y conduce a una reducción en el peso molecular promedio. A-Alamry et al. [1] han informado recientemente evidencia de degradación de polímeros inducida por el flujo en la impresión por chorro de tinta de DoD. La escisión central se observa en el poliestireno en varios buenos disolventes bajo ciertas condiciones de chorro para un rango limitado de pesos moleculares. Output: Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímeros [29], en este artículo investigamos si es posible la <br>escisión central inducida por el flujo</br> en las condiciones de la eyección de DoD. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "polymeric fluid": {
+            "translated_key": "fluido polimérico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Flow-induced deformations can lead to irreversible changes in the structure of a <br>polymeric fluid</br>; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken.",
+                "Mechanical degradation of polymers in extensional flow has long been recognised [30] and leads to a reduction in the average molecular weight.",
+                "A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in DoD jetting.",
+                "Central scission is observed for polystyrene in a number of good solvents under certain jetting conditions for a bounded range of molecular weights.",
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced central scission is possible under the conditions of DoD jetting."
+            ],
+            "original_annotated_samples": [
+                "Flow-induced deformations can lead to irreversible changes in the structure of a <br>polymeric fluid</br>; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken."
+            ],
+            "translated_annotated_samples": [
+                "Output: Las deformaciones inducidas por el flujo pueden llevar a cambios irreversibles en la estructura de un <br>fluido polimérico</br>; si la tasa de extensión supera con creces la tasa de relajación, entonces la cadena polimérica puede romperse."
+            ],
+            "translated_text": "Output: Las deformaciones inducidas por el flujo pueden llevar a cambios irreversibles en la estructura de un <br>fluido polimérico</br>; si la tasa de extensión supera con creces la tasa de relajación, entonces la cadena polimérica puede romperse. La degradación mecánica de polímeros en flujo de extensión ha sido reconocida desde hace mucho tiempo [30] y conduce a una reducción en el peso molecular promedio. A-Alamry et al. [1] han informado recientemente evidencia de degradación de polímeros inducida por el flujo en la impresión por chorro de tinta de DoD. La escisión central se observa en el poliestireno en varios buenos disolventes bajo ciertas condiciones de chorro para un rango limitado de pesos moleculares. Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímero [29], en este artículo investigamos si la escisión central inducida por el flujo es posible bajo las condiciones de la inyección de DoD. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "polymers": {
+            "translated_key": "polímeros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Flow-induced deformations can lead to irreversible changes in the structure of a polymeric fluid; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken.",
+                "Mechanical degradation of <br>polymers</br> in extensional flow has long been recognised [30] and leads to a reduction in the average molecular weight.",
+                "A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in DoD jetting.",
+                "Central scission is observed for polystyrene in a number of good solvents under certain jetting conditions for a bounded range of molecular weights.",
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced central scission is possible under the conditions of DoD jetting."
+            ],
+            "original_annotated_samples": [
+                "Mechanical degradation of <br>polymers</br> in extensional flow has long been recognised [30] and leads to a reduction in the average molecular weight."
+            ],
+            "translated_annotated_samples": [
+                "Output: La degradación mecánica de los <br>polímeros</br> en flujo extensional ha sido reconocida desde hace mucho tiempo [30] y conduce a una reducción en el peso molecular promedio."
+            ],
+            "translated_text": "Las deformaciones inducidas por el flujo pueden llevar a cambios irreversibles en la estructura de un fluido polimérico; si la tasa de extensión supera con creces la tasa de relajación, entonces la cadena polimérica puede romperse. Output: La degradación mecánica de los <br>polímeros</br> en flujo extensional ha sido reconocida desde hace mucho tiempo [30] y conduce a una reducción en el peso molecular promedio. A-Alamry et al. [1] han informado recientemente evidencia de degradación de polímeros inducida por el flujo en la impresión por chorro de tinta de DoD. La escisión central se observa en el poliestireno en varios buenos disolventes bajo ciertas condiciones de chorro para un rango limitado de pesos moleculares. Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímero [29], en este artículo investigamos si la escisión central inducida por el flujo es posible bajo las condiciones de la inyección de DoD. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "polystyrene": {
+            "translated_key": "poliestireno",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Flow-induced deformations can lead to irreversible changes in the structure of a polymeric fluid; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken.",
+                "Mechanical degradation of polymers in extensional flow has long been recognised [30] and leads to a reduction in the average molecular weight.",
+                "A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in DoD jetting.",
+                "Central scission is observed for <br>polystyrene</br> in a number of good solvents under certain jetting conditions for a bounded range of molecular weights.",
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced central scission is possible under the conditions of DoD jetting."
+            ],
+            "original_annotated_samples": [
+                "Central scission is observed for <br>polystyrene</br> in a number of good solvents under certain jetting conditions for a bounded range of molecular weights."
+            ],
+            "translated_annotated_samples": [
+                "Output: La escisión central se observa en el <br>poliestireno</br> en varios buenos disolventes bajo ciertas condiciones de eyección para un rango limitado de pesos moleculares."
+            ],
+            "translated_text": "Las deformaciones inducidas por el flujo pueden llevar a cambios irreversibles en la estructura de un fluido polimérico; si la tasa de extensión supera con creces la tasa de relajación, entonces la cadena polimérica puede romperse. La degradación mecánica de polímeros en flujo de extensión ha sido reconocida desde hace mucho tiempo [30] y conduce a una reducción en el peso molecular promedio. A-Alamry et al. [1] han informado recientemente evidencia de degradación de polímeros inducida por el flujo en la impresión por chorro de tinta de DoD. Output: La escisión central se observa en el <br>poliestireno</br> en varios buenos disolventes bajo ciertas condiciones de eyección para un rango limitado de pesos moleculares. Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímero [29], en este artículo investigamos si la escisión central inducida por el flujo es posible bajo las condiciones de la inyección de DoD. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "reduction in the average molecular weight": {
+            "translated_key": "reducción en el peso molecular promedio",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Flow-induced deformations can lead to irreversible changes in the structure of a polymeric fluid; if the rate of extension far exceeds the rate of relaxation, then the polymer chain can be broken.",
+                "Mechanical degradation of polymers in extensional flow has long been recognised [30] and leads to a <br>reduction in the average molecular weight</br>.",
+                "A-Alamry et al. [1] have recently reported evidence of flow-induced polymer degradation in DoD jetting.",
+                "Central scission is observed for polystyrene in a number of good solvents under certain jetting conditions for a bounded range of molecular weights.",
+                "Since only those molecules that are fully extended can be fractured at the centre of the polymer chain [29], in this paper we investigate whether flow-induced central scission is possible under the conditions of DoD jetting."
+            ],
+            "original_annotated_samples": [
+                "Mechanical degradation of polymers in extensional flow has long been recognised [30] and leads to a <br>reduction in the average molecular weight</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: La degradación mecánica de polímeros en flujo extensional ha sido reconocida desde hace tiempo [30] y conduce a una <br>reducción en el peso molecular promedio</br>."
+            ],
+            "translated_text": "Las deformaciones inducidas por el flujo pueden llevar a cambios irreversibles en la estructura de un fluido polimérico; si la tasa de extensión supera con creces la tasa de relajación, entonces la cadena polimérica puede romperse. Output: La degradación mecánica de polímeros en flujo extensional ha sido reconocida desde hace tiempo [30] y conduce a una <br>reducción en el peso molecular promedio</br>. A-Alamry et al. [1] han informado recientemente evidencia de degradación de polímeros inducida por el flujo en la impresión por chorro de tinta de DoD. La escisión central se observa en el poliestireno en varios buenos disolventes bajo ciertas condiciones de chorro para un rango limitado de pesos moleculares. Dado que solo aquellas moléculas que están completamente extendidas pueden fracturarse en el centro de la cadena de polímero [29], en este artículo investigamos si la escisión central inducida por el flujo es posible bajo las condiciones de la inyección de DoD. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

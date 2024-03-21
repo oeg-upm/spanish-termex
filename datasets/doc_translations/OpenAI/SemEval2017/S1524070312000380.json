@@ -1,0 +1,803 @@
+{
+    "id": "S1524070312000380",
+    "original_text": "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models. It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain. Hence the physical domain is parameterized with respect to a rectangle or to a cube. Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations. In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions. In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties. Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions. For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations. For specific cases we derive additional conditions which guarantee the regularity of the test functions. In addition we present a modification scheme for the discretized function space in case of insufficient regularity. It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping.",
+    "original_translation": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos.",
+    "original_sentences": [
+        "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+        "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+        "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+        "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+        "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+        "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+        "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+        "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+        "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+        "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+        "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+    ],
+    "error_count": 4,
+    "keys": {
+        "CAD models": {
+            "translated_key": "modelos de CAD",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of <br>CAD models</br>.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of <br>CAD models</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de los <br>modelos de CAD</br>."
+            ],
+            "translated_text": "Output: El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de los <br>modelos de CAD</br>. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "consider several important classes of singularities of NURBS parameterizations": {
+            "translated_key": "consideramos varias clases importantes de singularidades de las parametrizaciones NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we <br>consider several important classes of singularities of NURBS parameterizations</br>.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "For one- and two-dimensional domains we <br>consider several important classes of singularities of NURBS parameterizations</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para dominios de una y dos dimensiones, <br>consideramos varias clases importantes de singularidades de las parametrizaciones NURBS</br>."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Output: Para dominios de una y dos dimensiones, <br>consideramos varias clases importantes de singularidades de las parametrizaciones NURBS</br>. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "derive additional conditions which guarantee the regularity of the test functions": {
+            "translated_key": "derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we <br>derive additional conditions which guarantee the regularity of the test functions</br>.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "For specific cases we <br>derive additional conditions which guarantee the regularity of the test functions</br>."
+            ],
+            "translated_annotated_samples": [
+                "Para casos específicos, <br>derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba</br>."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos, <br>derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba</br>. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "discretized function space": {
+            "translated_key": "espacio de funciones discretizado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the <br>discretized function space</br> in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "In addition we present a modification scheme for the <br>discretized function space</br> in case of insufficient regularity."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, presentamos un esquema de modificación para el <br>espacio de funciones discretizado</br> en caso de regularidad insuficiente."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Output: Además, presentamos un esquema de modificación para el <br>espacio de funciones discretizado</br> en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "discuss the regularity properties of the test functions": {
+            "translated_key": "discutimos las propiedades de regularidad de las funciones de prueba",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We <br>discuss the regularity properties of the test functions</br>.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We <br>discuss the regularity properties of the test functions</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Consecuentemente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden aplicarse correctamente. Nosotros <br>discutimos las propiedades de regularidad de las funciones de prueba</br>."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Output: Consecuentemente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden aplicarse correctamente. Nosotros <br>discutimos las propiedades de regularidad de las funciones de prueba</br>. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "formulation of partial differential equations": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak <br>formulation of partial differential equations</br>.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak <br>formulation of partial differential equations</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Consecuentemente, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. Output: Consecuentemente, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [],
+                []
+            ]
+        },
+        "Galerkin projection": {
+            "translated_key": "proyección de Galerkin",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The <br>Galerkin projection</br> introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The <br>Galerkin projection</br> introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations."
+            ],
+            "translated_annotated_samples": [
+                "Output: En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La <br>proyección de Galerkin</br> introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. Output: En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La <br>proyección de Galerkin</br> introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "IGA": {
+            "translated_key": "IGA",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (<br>IGA</br>) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Isogeometric analysis (<br>IGA</br>) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models."
+            ],
+            "translated_annotated_samples": [
+                "Output: El análisis isogeométrico (<br>IGA</br>) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de los modelos CAD."
+            ],
+            "translated_text": "Output: El análisis isogeométrico (<br>IGA</br>) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de los modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "isogeometric analysis": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>isogeometric analysis</br> (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in <br>isogeometric analysis</br> are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "<br>isogeometric analysis</br> (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "In particular, the test functions used in <br>isogeometric analysis</br> are obtained by composing the inverse of the domain parameterization with the NURBS basis functions."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>El análisis isogeométrico</br> (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de los modelos de CAD.",
+                "Output: En particular, las funciones de prueba utilizadas en el <br>análisis isogeométrico</br> se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS."
+            ],
+            "translated_text": "Output: <br>El análisis isogeométrico</br> (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de los modelos de CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. Output: En particular, las funciones de prueba utilizadas en el <br>análisis isogeométrico</br> se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    "El análisis isogeométrico",
+                    "análisis isogeométrico"
+                ],
+                [
+                    "El análisis isogeométrico",
+                    "análisis isogeométrico"
+                ]
+            ]
+        },
+        "Isogeometric analysis": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Isogeometric analysis</br> (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in <br>Isogeometric analysis</br> are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "<br>Isogeometric analysis</br> (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "In particular, the test functions used in <br>Isogeometric analysis</br> are obtained by composing the inverse of the domain parameterization with the NURBS basis functions."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>El análisis isogeométrico</br> (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de los modelos de CAD.",
+                "En particular, las funciones de prueba utilizadas en el <br>análisis isogeométrico</br> se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS."
+            ],
+            "translated_text": "Output: <br>El análisis isogeométrico</br> (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de los modelos de CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el <br>análisis isogeométrico</br> se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    "El análisis isogeométrico",
+                    "análisis isogeométrico"
+                ],
+                [
+                    "El análisis isogeométrico",
+                    "análisis isogeométrico"
+                ]
+            ]
+        },
+        "modification scheme": {
+            "translated_key": "esquema de modificación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a <br>modification scheme</br> for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "In addition we present a <br>modification scheme</br> for the discretized function space in case of insufficient regularity."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, presentamos un <br>esquema de modificación</br> para el espacio de funciones discretizado en caso de regularidad insuficiente."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Output: Además, presentamos un <br>esquema de modificación</br> para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical methods": {
+            "translated_key": "métodos numéricos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, <br>numerical methods</br> for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Consequently, <br>numerical methods</br> for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions."
+            ],
+            "translated_annotated_samples": [
+                "Output: Consecuentemente, los <br>métodos numéricos</br> para la solución de ecuaciones diferenciales parciales no pueden aplicarse correctamente. Discutimos las propiedades de regularidad de las funciones de prueba."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Output: Consecuentemente, los <br>métodos numéricos</br> para la solución de ecuaciones diferenciales parciales no pueden aplicarse correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical simulation method": {
+            "translated_key": " método de simulación numérica ",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a <br>numerical simulation method</br> which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Isogeometric analysis (IGA) is a <br>numerical simulation method</br> which is directly based on the NURBS-based representation of CAD models."
+            ],
+            "translated_annotated_samples": [
+                "Output: El análisis isogeométrico (IGA) es un <br> método de simulación numérica </br> que se basa directamente en la representación basada en NURBS de los modelos CAD."
+            ],
+            "translated_text": "Output: El análisis isogeométrico (IGA) es un <br> método de simulación numérica </br> que se basa directamente en la representación basada en NURBS de los modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS": {
+            "translated_key": "NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the <br>NURBS</br>-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional <br>NURBS</br> objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized <br>NURBS</br> surfaces and <br>NURBS</br> volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the <br>NURBS</br> basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of <br>NURBS</br> parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the <br>NURBS</br>-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional <br>NURBS</br> objects to parameterize the physical domain.",
+                "Consequently, singularly parameterized <br>NURBS</br> surfaces and <br>NURBS</br> volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the <br>NURBS</br> basis functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of <br>NURBS</br> parameterizations."
+            ],
+            "translated_annotated_samples": [
+                "Output: El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en <br>NURBS</br> de los modelos CAD.",
+                "Output: Explota la estructura de producto tensorial de objetos <br>NURBS</br> de 2 o 3 dimensiones para parametrizar el dominio físico.",
+                "Output: Consecuentemente, se necesitan superficies <br>NURBS</br> y volúmenes <br>NURBS</br> parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales.",
+                "Output: En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base de <br>NURBS</br>.",
+                "Output: Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de las parametrizaciones de <br>NURBS</br>."
+            ],
+            "translated_text": "Output: El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en <br>NURBS</br> de los modelos CAD. Output: Explota la estructura de producto tensorial de objetos <br>NURBS</br> de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. Output: Consecuentemente, se necesitan superficies <br>NURBS</br> y volúmenes <br>NURBS</br> parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales. Output: En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base de <br>NURBS</br>. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Output: Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de las parametrizaciones de <br>NURBS</br>. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS-based representation": {
+            "translated_key": "basada en NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the <br>NURBS-based representation</br> of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the <br>NURBS-based representation</br> of CAD models."
+            ],
+            "translated_annotated_samples": [
+                "Output: El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación <br>basada en NURBS</br> de modelos CAD."
+            ],
+            "translated_text": "Output: El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación <br>basada en NURBS</br> de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS-based representation of CAD models": {
+            "translated_key": "basada en NURBS de modelos CAD",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the <br>NURBS-based representation of CAD models</br>.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the <br>NURBS-based representation of CAD models</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación <br>basada en NURBS de modelos CAD</br>."
+            ],
+            "translated_text": "Output: El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación <br>basada en NURBS de modelos CAD</br>. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS basis functions": {
+            "translated_key": "NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the <br>NURBS basis functions</br>.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the <br>NURBS basis functions</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base de <br>NURBS</br>."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. Output: En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base de <br>NURBS</br>. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS objects": {
+            "translated_key": "NURBS de 2 o 3 dimensiones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional <br>NURBS objects</br> to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "It exploits the tensor-product structure of 2- or 3-dimensional <br>NURBS objects</br> to parameterize the physical domain."
+            ],
+            "translated_annotated_samples": [
+                "Output: Explota la estructura de producto tensorial de objetos <br>NURBS de 2 o 3 dimensiones</br> para parametrizar el dominio físico."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Output: Explota la estructura de producto tensorial de objetos <br>NURBS de 2 o 3 dimensiones</br> para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS surfaces": {
+            "translated_key": "NURBS parametrizadas de forma singular",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized <br>NURBS surfaces</br> and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Consequently, singularly parameterized <br>NURBS surfaces</br> and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations."
+            ],
+            "translated_annotated_samples": [
+                "Output: En consecuencia, se necesitan superficies <br>NURBS parametrizadas de forma singular</br> y volúmenes NURBS para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. Output: En consecuencia, se necesitan superficies <br>NURBS parametrizadas de forma singular</br> y volúmenes NURBS para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS volumes": {
+            "translated_key": "volúmenes NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and <br>NURBS volumes</br> are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Consequently, singularly parameterized NURBS surfaces and <br>NURBS volumes</br> are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations."
+            ],
+            "translated_annotated_samples": [
+                "Output: En consecuencia, se necesitan superficies NURBS parametrizadas de forma singular y <br>volúmenes NURBS</br> para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. Output: En consecuencia, se necesitan superficies NURBS parametrizadas de forma singular y <br>volúmenes NURBS</br> para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "parameterized": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is <br>parameterized</br> with respect to a rectangle or to a cube.",
+                "Consequently, singularly <br>parameterized</br> NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be <br>parameterized</br> via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Hence the physical domain is <br>parameterized</br> with respect to a rectangle or to a cube.",
+                "Consequently, singularly <br>parameterized</br> NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be <br>parameterized</br> via sweeping."
+            ],
+            "translated_annotated_samples": [
+                "Output: Por lo tanto, el dominio físico está <br>parametrizado</br> con respecto a un rectángulo o a un cubo.",
+                "Output: En consecuencia, se necesitan superficies NURBS y volúmenes NURBS singularmente <br>parametrizados</br> para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales.",
+                "Output: También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser <br>parametrizados</br> mediante barrido."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Output: Por lo tanto, el dominio físico está <br>parametrizado</br> con respecto a un rectángulo o a un cubo. Output: En consecuencia, se necesitan superficies NURBS y volúmenes NURBS singularmente <br>parametrizados</br> para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. Output: También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser <br>parametrizados</br> mediante barrido. ",
+            "candidates": [],
+            "error": [
+                [
+                    "parametrizado",
+                    "parametrizados",
+                    "parametrizados"
+                ],
+                [
+                    "parametrizado",
+                    "parametrizados",
+                    "parametrizados"
+                ]
+            ]
+        },
+        "physical domain is parameterized": {
+            "translated_key": "dominio físico está parametrizado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the <br>physical domain is parameterized</br> with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Hence the <br>physical domain is parameterized</br> with respect to a rectangle or to a cube."
+            ],
+            "translated_annotated_samples": [
+                "Output: Por lo tanto, el <br>dominio físico está parametrizado</br> con respecto a un rectángulo o a un cubo."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Output: Por lo tanto, el <br>dominio físico está parametrizado</br> con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "present a modification scheme": {
+            "translated_key": "presentamos un esquema de modificación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we <br>present a modification scheme</br> for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "In addition we <br>present a modification scheme</br> for the discretized function space in case of insufficient regularity."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, <br>presentamos un esquema de modificación</br> para el espacio de funciones discretizado en caso de regularidad insuficiente."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Output: Además, <br>presentamos un esquema de modificación</br> para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "splitting": {
+            "translated_key": "división",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without <br>splitting</br>, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via sweeping."
+            ],
+            "original_annotated_samples": [
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without <br>splitting</br>, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations."
+            ],
+            "translated_annotated_samples": [
+                "Output: En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin <br>división</br>, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. Output: En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin <br>división</br>, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios de funciones de prueba de dimensión finita en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados mediante barridos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "sweeping": {
+            "translated_key": "barridos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis (IGA) is a numerical simulation method which is directly based on the NURBS-based representation of CAD models.",
+                "It exploits the tensor-product structure of 2- or 3-dimensional NURBS objects to parameterize the physical domain.",
+                "Hence the physical domain is parameterized with respect to a rectangle or to a cube.",
+                "Consequently, singularly parameterized NURBS surfaces and NURBS volumes are needed in order to represent non-quadrangular or non-hexahedral domains without splitting, thereby producing a very compact and convenient representation.The Galerkin projection introduces finite-dimensional spaces of test functions in the weak formulation of partial differential equations.",
+                "In particular, the test functions used in isogeometric analysis are obtained by composing the inverse of the domain parameterization with the NURBS basis functions.",
+                "In the case of singular parameterizations, however, some of the resulting test functions do not necessarily fulfill the required regularity properties.",
+                "Consequently, numerical methods for the solution of partial differential equations cannot be applied properly.We discuss the regularity properties of the test functions.",
+                "For one- and two-dimensional domains we consider several important classes of singularities of NURBS parameterizations.",
+                "For specific cases we derive additional conditions which guarantee the regularity of the test functions.",
+                "In addition we present a modification scheme for the discretized function space in case of insufficient regularity.",
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via <br>sweeping</br>."
+            ],
+            "original_annotated_samples": [
+                "It is also shown how these results can be applied for computational domains in higher dimensions that can be parameterized via <br>sweeping</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados a través de <br>barridos</br>."
+            ],
+            "translated_text": "El análisis isogeométrico (IGA) es un método de simulación numérica que se basa directamente en la representación basada en NURBS de modelos CAD. Explota la estructura de producto tensorial de objetos NURBS de 2 o 3 dimensiones para parametrizar el dominio físico. Por lo tanto, el dominio físico se parametriza con respecto a un rectángulo o a un cubo. En consecuencia, se necesitan superficies NURBS y volúmenes NURBS parametrizados de forma singular para representar dominios no cuadrangulares o no hexaédricos sin dividir, produciendo así una representación muy compacta y conveniente. La proyección de Galerkin introduce espacios finitos de funciones de prueba en la formulación débil de ecuaciones diferenciales parciales. En particular, las funciones de prueba utilizadas en el análisis isogeométrico se obtienen mediante la composición de la inversa de la parametrización de dominio con las funciones de base NURBS. En el caso de parametrizaciones singulares, sin embargo, algunas de las funciones de prueba resultantes no cumplen necesariamente las propiedades de regularidad requeridas. Por consiguiente, los métodos numéricos para la solución de ecuaciones diferenciales parciales no pueden ser aplicados correctamente. Discutimos las propiedades de regularidad de las funciones de prueba. Para dominios de una y dos dimensiones consideramos varias clases importantes de singularidades de parametrizaciones NURBS. Para casos específicos derivamos condiciones adicionales que garantizan la regularidad de las funciones de prueba. Además, presentamos un esquema de modificación para el espacio de funciones discretizado en caso de regularidad insuficiente. Output: También se muestra cómo estos resultados pueden aplicarse a dominios computacionales en dimensiones superiores que pueden ser parametrizados a través de <br>barridos</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

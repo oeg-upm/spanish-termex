@@ -1,0 +1,263 @@
+{
+    "id": "S1877750313000240",
+    "original_text": "A few studies within the physiological domain are of special relevance to this work. These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23]. This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations. Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB. However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops.",
+    "original_translation": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de Boltzmann en red [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Sin embargo, las características de rendimiento actuales de HemeLB se han mejorado sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; el uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos.",
+    "original_sentences": [
+        "A few studies within the physiological domain are of special relevance to this work.",
+        "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23].",
+        "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+        "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+        "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+    ],
+    "error_count": 0,
+    "keys": {
+        "blood-flow LB solver": {
+            "translated_key": "solucionador LB de flujo sanguíneo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a <br>blood-flow LB solver</br> using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23].",
+                "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "These include a performance analysis of a <br>blood-flow LB solver</br> using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos incluyen un análisis de rendimiento de un <br>solucionador LB de flujo sanguíneo</br> utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de lattice-Boltzmann [22,23]."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Output: Estos incluyen un análisis de rendimiento de un <br>solucionador LB de flujo sanguíneo</br> utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de lattice-Boltzmann [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Sin embargo, las características de rendimiento actuales de HemeLB se han mejorado sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; el uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "coalesced communication patterns": {
+            "translated_key": "patrones de comunicación consolidados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23].",
+                "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the <br>coalesced communication patterns</br> to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the <br>coalesced communication patterns</br> to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, las características de rendimiento actuales de HemeLB se mejoran sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los <br>patrones de comunicación consolidados</br> para reducir la sobrecarga de renderizado; uso de polimorfismo en tiempo de compilación para evitar llamadas de función virtual en bucles internos."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de Boltzmann en red [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Output: Sin embargo, las características de rendimiento actuales de HemeLB se mejoran sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los <br>patrones de comunicación consolidados</br> para reducir la sobrecarga de renderizado; uso de polimorfismo en tiempo de compilación para evitar llamadas de función virtual en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "compile-time polymorphism": {
+            "translated_key": "polimorfismo en tiempo de compilación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23].",
+                "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of <br>compile-time polymorphism</br> to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of <br>compile-time polymorphism</br> to avoid virtual function calls in inner loops."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, las características de rendimiento actuales de HemeLB se mejoran sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; uso de <br>polimorfismo en tiempo de compilación</br> para evitar llamadas a funciones virtuales en bucles internos."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de Boltzmann en red [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Output: Sin embargo, las características de rendimiento actuales de HemeLB se mejoran sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; uso de <br>polimorfismo en tiempo de compilación</br> para evitar llamadas a funciones virtuales en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "HemeLB": {
+            "translated_key": "HemeLB",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23].",
+                "This performance prediction model can be applied largely to our <br>HemeLB</br> application, although <br>HemeLB</br> uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of <br>HemeLB</br>.",
+                "However, the current performance characteristics of <br>HemeLB</br> are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "This performance prediction model can be applied largely to our <br>HemeLB</br> application, although <br>HemeLB</br> uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of <br>HemeLB</br>.",
+                "However, the current performance characteristics of <br>HemeLB</br> are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "translated_annotated_samples": [
+                "Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación <br>HemeLB</br>, aunque <br>HemeLB</br> utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB.",
+                "Output: Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de <br>HemeLB</br>.",
+                "Output: Sin embargo, las características de rendimiento actuales de <br>HemeLB</br> se han mejorado sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de Boltzmann en red [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación <br>HemeLB</br>, aunque <br>HemeLB</br> utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB. Output: Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de <br>HemeLB</br>. Output: Sin embargo, las características de rendimiento actuales de <br>HemeLB</br> se han mejorado sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "HemeLB application": {
+            "translated_key": "HemeLB",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23].",
+                "This performance prediction model can be applied largely to our <br>HemeLB application</br>, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "This performance prediction model can be applied largely to our <br>HemeLB application</br>, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations."
+            ],
+            "translated_annotated_samples": [
+                "Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación <br>HemeLB</br>, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de Boltzmann en red [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación <br>HemeLB</br>, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Sin embargo, las características de rendimiento actuales de HemeLB se han mejorado sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; el uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "lattice-Boltzmann solvers": {
+            "translated_key": "solucionadores de lattice-Boltzmann",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for <br>lattice-Boltzmann solvers</br> [22,23].",
+                "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for <br>lattice-Boltzmann solvers</br> [22,23]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para <br>solucionadores de lattice-Boltzmann</br> [22,23]."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Output: Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para <br>solucionadores de lattice-Boltzmann</br> [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Sin embargo, las características de rendimiento actuales de HemeLB se han mejorado sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; el uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "LB simulations": {
+            "translated_key": "LB",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23].",
+                "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the <br>LB simulations</br>.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the <br>LB simulations</br>."
+            ],
+            "translated_annotated_samples": [
+                "Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de <br>LB</br>."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de Boltzmann en red [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de <br>LB</br>. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Sin embargo, las características de rendimiento actuales de HemeLB se han mejorado sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; el uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "ParMETIS": {
+            "translated_key": "ParMETIS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23].",
+                "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of <br>ParMETIS</br> to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of <br>ParMETIS</br> to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, las características de rendimiento actuales de HemeLB se mejoran sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de <br>ParMETIS</br> para garantizar un buen equilibrio de carga; los patrones de comunicación fusionados para reducir la sobrecarga de renderizado; uso de polimorfismo en tiempo de compilación para evitar llamadas de función virtual en bucles internos."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de Boltzmann en red [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Output: Sin embargo, las características de rendimiento actuales de HemeLB se mejoran sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de <br>ParMETIS</br> para garantizar un buen equilibrio de carga; los patrones de comunicación fusionados para reducir la sobrecarga de renderizado; uso de polimorfismo en tiempo de compilación para evitar llamadas de función virtual en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "performance prediction model": {
+            "translated_key": "modelo de predicción de rendimiento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a <br>performance prediction model</br> for lattice-Boltzmann solvers [22,23].",
+                "This <br>performance prediction model</br> can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of rendering; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a <br>performance prediction model</br> for lattice-Boltzmann solvers [22,23].",
+                "This <br>performance prediction model</br> can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time rendering and visualisation tasks during the LB simulations."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un <br>modelo de predicción de rendimiento</br> para solucionadores de lattice-Boltzmann [22,23].",
+                "Este <br>modelo de predicción de rendimiento</br> se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Output: Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un <br>modelo de predicción de rendimiento</br> para solucionadores de lattice-Boltzmann [22,23]. Este <br>modelo de predicción de rendimiento</br> se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de renderizado y visualización en tiempo real durante las simulaciones de LB. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Sin embargo, las características de rendimiento actuales de HemeLB se han mejorado sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de renderizado; el uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "rendering": {
+            "translated_key": "renderizado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A few studies within the physiological domain are of special relevance to this work.",
+                "These include a performance analysis of a blood-flow LB solver using a range of sparse and non-sparse geometries [21] and a performance prediction model for lattice-Boltzmann solvers [22,23].",
+                "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time <br>rendering</br> and visualisation tasks during the LB simulations.",
+                "Mazzeo and Coveney [1] studied the scalability of an earlier version of HemeLB.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of <br>rendering</br>; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "original_annotated_samples": [
+                "This performance prediction model can be applied largely to our HemeLB application, although HemeLB uses a different decomposition technique and performs real-time <br>rendering</br> and visualisation tasks during the LB simulations.",
+                "However, the current performance characteristics of HemeLB are substantially enhanced due to numerous subsequent advances in the code, amongst others: an improved hierarchical, compressed file format; the use of ParMETIS to ensure good load-balance; the coalesced communication patterns to reduce the overhead of <br>rendering</br>; use of compile-time polymorphism to avoid virtual function calls in inner loops."
+            ],
+            "translated_annotated_samples": [
+                "Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de <br>renderizado</br> y visualización en tiempo real durante las simulaciones de LB.",
+                "Output: Sin embargo, las características de rendimiento actuales de HemeLB se mejoran sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de <br>renderizado</br>; uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos."
+            ],
+            "translated_text": "Algunos estudios dentro del ámbito fisiológico son de especial relevancia para este trabajo. Estos incluyen un análisis de rendimiento de un solucionador LB de flujo sanguíneo utilizando una variedad de geometrías dispersas y no dispersas [21] y un modelo de predicción de rendimiento para solucionadores de Boltzmann en red [22,23]. Este modelo de predicción de rendimiento se puede aplicar en gran medida a nuestra aplicación HemeLB, aunque HemeLB utiliza una técnica de descomposición diferente y realiza tareas de <br>renderizado</br> y visualización en tiempo real durante las simulaciones de LB. Mazzeo y Coveney [1] estudiaron la escalabilidad de una versión anterior de HemeLB. Output: Sin embargo, las características de rendimiento actuales de HemeLB se mejoran sustancialmente debido a numerosos avances posteriores en el código, entre otros: un formato de archivo jerárquico y comprimido mejorado; el uso de ParMETIS para garantizar un buen equilibrio de carga; los patrones de comunicación coalescentes para reducir la sobrecarga de <br>renderizado</br>; uso de polimorfismo en tiempo de compilación para evitar llamadas a funciones virtuales en bucles internos. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

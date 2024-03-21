@@ -1,0 +1,344 @@
+{
+    "id": "S002199911500025X",
+    "original_text": "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article. This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves. The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension. Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension. Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology.",
+    "original_translation": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Este marco completamente acoplado ha sido utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones del paso de tiempo resultantes de las ondas capilares. El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada.",
+    "original_sentences": [
+        "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+        "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+        "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.",
+        "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+        "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+    ],
+    "error_count": 1,
+    "keys": {
+        "applied numerical methodology": {
+            "translated_key": "metodología numérica aplicada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the <br>applied numerical methodology</br>."
+            ],
+            "original_annotated_samples": [
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the <br>applied numerical methodology</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la <br>metodología numérica aplicada</br>."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Este marco completamente acoplado ha sido utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones del paso de tiempo resultantes de las ondas capilares. El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Output: Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la <br>metodología numérica aplicada</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "capillary waves": {
+            "translated_key": "ondas capilares",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from <br>capillary waves</br>.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from <br>capillary waves</br> are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of <br>capillary waves</br>, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from <br>capillary waves</br>.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from <br>capillary waves</br> are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of <br>capillary waves</br>, which is independent of the applied numerical methodology."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este marco totalmente acoplado luego se ha utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones de paso de tiempo resultantes de las <br>ondas capilares</br>.",
+                "Output: El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las <br>ondas capilares</br> son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial.",
+                "Output: Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las <br>ondas capilares</br>, que es independiente de la metodología numérica aplicada."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Output: Este marco totalmente acoplado luego se ha utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones de paso de tiempo resultantes de las <br>ondas capilares</br>. Output: El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las <br>ondas capilares</br> son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Output: Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las <br>ondas capilares</br>, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "compare the influence": {
+            "translated_key": "comparar la influencia",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to <br>compare the influence</br> of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "This fully-coupled framework has then been used to <br>compare the influence</br> of the surface tension treatment on the time-step restrictions resulting from capillary waves."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este marco totalmente acoplado ha sido utilizado para <br>comparar la influencia</br> del tratamiento de la tensión superficial en las restricciones de paso de tiempo resultantes de las ondas capilares."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Output: Este marco totalmente acoplado ha sido utilizado para <br>comparar la influencia</br> del tratamiento de la tensión superficial en las restricciones de paso de tiempo resultantes de las ondas capilares. El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fully-coupled framework": {
+            "translated_key": "marco totalmente acoplado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This <br>fully-coupled framework</br> has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "This <br>fully-coupled framework</br> has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este <br>marco totalmente acoplado</br> luego se ha utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones de paso de tiempo resultantes de las ondas capilares."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Output: Este <br>marco totalmente acoplado</br> luego se ha utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones de paso de tiempo resultantes de las ondas capilares. El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fully-coupled numerical framework": {
+            "translated_key": "marco numérico completamente acoplado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A <br>fully-coupled numerical framework</br> for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "A <br>fully-coupled numerical framework</br> for two-phase flows with an implicit implementation of surface tension has been introduced in this article."
+            ],
+            "translated_annotated_samples": [
+                "Output: Un <br>marco numérico completamente acoplado</br> para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo."
+            ],
+            "translated_text": "Output: Un <br>marco numérico completamente acoplado</br> para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Este marco completamente acoplado ha sido utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones del paso de tiempo resultantes de las ondas capilares. El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical treatment of surface tension": {
+            "translated_key": "tratamiento numérico de la tensión superficial",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the <br>numerical treatment of surface tension</br>.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the <br>numerical treatment of surface tension</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del <br>tratamiento numérico de la tensión superficial</br>."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Este marco completamente acoplado ha sido utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones del paso de tiempo resultantes de las ondas capilares. Output: El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del <br>tratamiento numérico de la tensión superficial</br>. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "restrictions on the numerical time-step resulting from capillary waves": {
+            "translated_key": "restricciones en el paso de tiempo numérico resultantes de las ondas capilares",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that <br>restrictions on the numerical time-step resulting from capillary waves</br> are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "The conducted study demonstrates that <br>restrictions on the numerical time-step resulting from capillary waves</br> are valid and unchanged regardless of the numerical treatment of surface tension."
+            ],
+            "translated_annotated_samples": [
+                "Output: El estudio realizado demuestra que las <br>restricciones en el paso de tiempo numérico resultantes de las ondas capilares</br> son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Este marco completamente acoplado ha sido utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones del paso de tiempo resultantes de las ondas capilares. Output: El estudio realizado demuestra que las <br>restricciones en el paso de tiempo numérico resultantes de las ondas capilares</br> son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "spatiotemporal sampling of capillary waves": {
+            "translated_key": "muestreo espacio-temporal de ondas capilares",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the <br>spatiotemporal sampling of capillary waves</br>, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the <br>spatiotemporal sampling of capillary waves</br>, which is independent of the applied numerical methodology."
+            ],
+            "translated_annotated_samples": [
+                "Output: Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el <br>muestreo espacio-temporal de ondas capilares</br>, que es independiente de la metodología numérica aplicada."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Este marco completamente acoplado ha sido utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones del paso de tiempo resultantes de las ondas capilares. El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Output: Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el <br>muestreo espacio-temporal de ondas capilares</br>, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "surface tension": {
+            "translated_key": "tensión superficial",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of <br>surface tension</br> has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the <br>surface tension</br> treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of <br>surface tension</br>.",
+                "Since <br>surface tension</br> is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of <br>surface tension</br>.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of <br>surface tension</br> has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the <br>surface tension</br> treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of <br>surface tension</br>.",
+                "Since <br>surface tension</br> is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of <br>surface tension</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de <br>tensión superficial</br> ha sido introducido en este artículo.",
+                "Output: Este marco totalmente acoplado luego se ha utilizado para comparar la influencia del tratamiento de la <br>tensión superficial</br> en las restricciones de paso de tiempo resultantes de las ondas capilares.",
+                "Output: El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la <br>tensión superficial</br>.",
+                "Output: Dado que la <br>tensión superficial</br> no es una función de la presión o la velocidad, el cambio en la implementación no afecta a los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la <br>tensión superficial</br>."
+            ],
+            "translated_text": "Output: Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de <br>tensión superficial</br> ha sido introducido en este artículo. Output: Este marco totalmente acoplado luego se ha utilizado para comparar la influencia del tratamiento de la <br>tensión superficial</br> en las restricciones de paso de tiempo resultantes de las ondas capilares. Output: El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la <br>tensión superficial</br>. Output: Dado que la <br>tensión superficial</br> no es una función de la presión o la velocidad, el cambio en la implementación no afecta a los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la <br>tensión superficial</br>. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "surface tension treatment": {
+            "translated_key": "tensión superficial",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the <br>surface tension treatment</br> on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "This fully-coupled framework has then been used to compare the influence of the <br>surface tension treatment</br> on the time-step restrictions resulting from capillary waves."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este marco totalmente acoplado luego se ha utilizado para comparar la influencia del tratamiento de la <br>tensión superficial</br> en las restricciones de paso de tiempo resultantes de las ondas capilares."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Output: Este marco totalmente acoplado luego se ha utilizado para comparar la influencia del tratamiento de la <br>tensión superficial</br> en las restricciones de paso de tiempo resultantes de las ondas capilares. El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "time-step restrictions resulting from capillary waves": {
+            "translated_key": "restricciones de paso de tiempo resultantes de las ondas capilares",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the <br>time-step restrictions resulting from capillary waves</br>.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the <br>time-step restrictions resulting from capillary waves</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este marco totalmente acoplado luego se ha utilizado para comparar la influencia del tratamiento de la tensión superficial en las <br>restricciones de paso de tiempo resultantes de las ondas capilares</br>."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Output: Este marco totalmente acoplado luego se ha utilizado para comparar la influencia del tratamiento de la tensión superficial en las <br>restricciones de paso de tiempo resultantes de las ondas capilares</br>. El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "treatment of surface tension": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical <br>treatment of surface tension</br>.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the <br>treatment of surface tension</br>.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical <br>treatment of surface tension</br>.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the <br>treatment of surface tension</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del <br>tratamiento numérico de la tensión superficial</br>.",
+                "Output: Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del <br>tratamiento de la tensión superficial</br>."
+            ],
+            "translated_text": "Un marco numérico completamente acoplado para flujos de dos fases con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Este marco completamente acoplado ha sido utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones del paso de tiempo resultantes de las ondas capilares. Output: El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del <br>tratamiento numérico de la tensión superficial</br>. Output: Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del <br>tratamiento de la tensión superficial</br>. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    "tratamiento numérico de la tensión superficial",
+                    "tratamiento de la tensión superficial"
+                ],
+                [
+                    "tratamiento numérico de la tensión superficial",
+                    "tratamiento de la tensión superficial"
+                ]
+            ]
+        },
+        "two-phase flows": {
+            "translated_key": "flujos de dos fases",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A fully-coupled numerical framework for <br>two-phase flows</br> with an implicit implementation of surface tension has been introduced in this article.",
+                "This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.",
+                "The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.",
+                "Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.",
+                "Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology."
+            ],
+            "original_annotated_samples": [
+                "A fully-coupled numerical framework for <br>two-phase flows</br> with an implicit implementation of surface tension has been introduced in this article."
+            ],
+            "translated_annotated_samples": [
+                "Output: Un marco numérico completamente acoplado para <br>flujos de dos fases</br> con una implementación implícita de la tensión superficial ha sido introducido en este artículo."
+            ],
+            "translated_text": "Output: Un marco numérico completamente acoplado para <br>flujos de dos fases</br> con una implementación implícita de la tensión superficial ha sido introducido en este artículo. Este marco completamente acoplado ha sido utilizado para comparar la influencia del tratamiento de la tensión superficial en las restricciones del paso de tiempo resultantes de las ondas capilares. El estudio realizado demuestra que las restricciones en el paso de tiempo numérico resultantes de las ondas capilares son válidas e inalteradas independientemente del tratamiento numérico de la tensión superficial. Dado que la tensión superficial no es una función de la presión o la velocidad, el cambio en la implementación no afecta los coeficientes de matriz de las variables primitivas y, por lo tanto, la estabilidad numérica es independiente del tratamiento de la tensión superficial. Un análisis adicional muestra que la restricción del paso de tiempo capilar es un requisito impuesto por el muestreo espacio-temporal de las ondas capilares, que es independiente de la metodología numérica aplicada. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

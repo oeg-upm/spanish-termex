@@ -1,0 +1,499 @@
+{
+    "id": "S2212671612000704",
+    "original_text": "The load of beam pumping unit is changeable, which is often in a state of light load. Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle. It is complex and unacceptable to analyze the change of the cycles of the load overall. So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load. The most optimal voltage for the current load can be calculated by genetic algorithm. When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule. Then it produces the result of energy saving.",
+    "original_translation": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía.",
+    "original_sentences": [
+        "The load of beam pumping unit is changeable, which is often in a state of light load.",
+        "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+        "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+        "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+        "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+        "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+        "Then it produces the result of energy saving."
+    ],
+    "translated_text_sentences": [
+        "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera.",
+        "Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor.",
+        "Es complejo y no aceptable analizar el cambio de los ciclos de carga en general.",
+        "Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante.",
+        "El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético.",
+        "Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo.",
+        "Luego se obtiene el resultado del ahorro de energía."
+    ],
+    "error_count": 3,
+    "keys": {
+        "analyze the change of the cycles of the load overall": {
+            "translated_key": "cambio de los ciclos de carga en general",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to <br>analyze the change of the cycles of the load overall</br>.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "It is complex and unacceptable to <br>analyze the change of the cycles of the load overall</br>."
+            ],
+            "translated_annotated_samples": [
+                "Es complejo y no aceptable analizar el <br>cambio de los ciclos de carga en general</br>."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el <br>cambio de los ciclos de carga en general</br>. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "beam pumping": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of <br>beam pumping</br> unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the <br>beam pumping</br> unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "The load of <br>beam pumping</br> unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the <br>beam pumping</br> unit when in light load .We can change the voltage by changing the thyristor trigger angle."
+            ],
+            "translated_annotated_samples": [
+                "La carga de la unidad de <br>bombeo de viga</br> es variable, y a menudo se encuentra en un estado de carga ligera.",
+                "Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la <br>unidad de bombeo de viga</br> cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor."
+            ],
+            "translated_text": "La carga de la unidad de <br>bombeo de viga</br> es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la <br>unidad de bombeo de viga</br> cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    "bombeo de viga",
+                    "unidad de bombeo de viga"
+                ]
+            ]
+        },
+        "beam pumping unit": {
+            "translated_key": "unidad de bombeo de viga",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of <br>beam pumping unit</br> is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the <br>beam pumping unit</br> when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "The load of <br>beam pumping unit</br> is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the <br>beam pumping unit</br> when in light load .We can change the voltage by changing the thyristor trigger angle."
+            ],
+            "translated_annotated_samples": [
+                "La carga de la <br>unidad de bombeo de viga</br> es variable, y a menudo se encuentra en un estado de carga ligera.",
+                "Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la <br>unidad de bombeo de viga</br> cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor."
+            ],
+            "translated_text": "La carga de la <br>unidad de bombeo de viga</br> es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la <br>unidad de bombeo de viga</br> cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "calculated by genetic algorithm": {
+            "translated_key": "algoritmo genético",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be <br>calculated by genetic algorithm</br>.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "The most optimal voltage for the current load can be <br>calculated by genetic algorithm</br>."
+            ],
+            "translated_annotated_samples": [
+                "El voltaje más óptimo para la carga actual puede calcularse mediante un <br>algoritmo genético</br>."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un <br>algoritmo genético</br>. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "change the voltage": {
+            "translated_key": "voltaje",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can <br>change the voltage</br> by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can <br>change the voltage</br> by changing the thyristor trigger angle."
+            ],
+            "translated_annotated_samples": [
+                "Reducir cierto <br>voltaje</br> puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el <br>voltaje</br> modificando el ángulo de disparo del tiristor."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto <br>voltaje</br> puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el <br>voltaje</br> modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "changing the thyristor trigger angle": {
+            "translated_key": "ángulo de disparo del tiristor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by <br>changing the thyristor trigger angle</br>.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by <br>changing the thyristor trigger angle</br>."
+            ],
+            "translated_annotated_samples": [
+                "Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el <br>ángulo de disparo del tiristor</br>."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el <br>ángulo de disparo del tiristor</br>. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "constant load": {
+            "translated_key": "carga constante",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a <br>constant load</br>.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a <br>constant load</br>."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una <br>carga constante</br>."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una <br>carga constante</br>. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "current load": {
+            "translated_key": "carga actual",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the <br>current load</br> can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "The most optimal voltage for the <br>current load</br> can be calculated by genetic algorithm."
+            ],
+            "translated_annotated_samples": [
+                "El voltaje más óptimo para la <br>carga actual</br> puede calcularse mediante un algoritmo genético."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la <br>carga actual</br> puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "divide the load": {
+            "translated_key": "dividir la carga",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can <br>divide the load</br> of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "So we can <br>divide the load</br> of the whole cycle into several equal parts, each can be thought of as a constant load."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, podemos <br>dividir la carga</br> del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos <br>dividir la carga</br> del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "energy saving": {
+            "translated_key": "ahorro de energía",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of <br>energy saving</br>."
+            ],
+            "original_annotated_samples": [
+                "Then it produces the result of <br>energy saving</br>."
+            ],
+            "translated_annotated_samples": [
+                "Luego se obtiene el resultado del <br>ahorro de energía</br>."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del <br>ahorro de energía</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "equal parts": {
+            "translated_key": "partes iguales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several <br>equal parts</br>, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "So we can divide the load of the whole cycle into several <br>equal parts</br>, each can be thought of as a constant load."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, podemos dividir la carga del ciclo completo en varias <br>partes iguales</br>, cada una puede considerarse como una carga constante."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias <br>partes iguales</br>, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "genetic algorithm": {
+            "translated_key": "algoritmo genético",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by <br>genetic algorithm</br>.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "The most optimal voltage for the current load can be calculated by <br>genetic algorithm</br>."
+            ],
+            "translated_annotated_samples": [
+                "El voltaje más óptimo para la carga actual puede calcularse mediante un <br>algoritmo genético</br>."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un <br>algoritmo genético</br>. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "improve the power factor and efficiency of the beam pumping unit": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can <br>improve the power factor and efficiency of the beam pumping unit</br> when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "Reducing a certain voltage can <br>improve the power factor and efficiency of the beam pumping unit</br> when in light load .We can change the voltage by changing the thyristor trigger angle."
+            ],
+            "translated_annotated_samples": [
+                "Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "light load": {
+            "translated_key": "carga ligera",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of <br>light load</br>.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in <br>light load</br> .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "The load of beam pumping unit is changeable, which is often in a state of <br>light load</br>.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in <br>light load</br> .We can change the voltage by changing the thyristor trigger angle."
+            ],
+            "translated_annotated_samples": [
+                "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de <br>carga ligera</br>.",
+                "Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en <br>carga ligera</br>. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de <br>carga ligera</br>. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en <br>carga ligera</br>. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "optimal voltage": {
+            "translated_key": "voltaje más óptimo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most <br>optimal voltage</br> for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most <br>optimal voltage</br>, we can get the whole <br>optimal voltage</br> changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "The most <br>optimal voltage</br> for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most <br>optimal voltage</br>, we can get the whole <br>optimal voltage</br> changeable rule."
+            ],
+            "translated_annotated_samples": [
+                "El <br>voltaje más óptimo</br> para la carga actual puede calcularse mediante un algoritmo genético.",
+                "Cuando cada carga se encuentra en el <br>voltaje más óptimo</br>, podemos obtener la regla de cambio de voltaje óptimo completo."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El <br>voltaje más óptimo</br> para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el <br>voltaje más óptimo</br>, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Reducing a certain voltage": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "<br>Reducing a certain voltage</br> can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "<br>Reducing a certain voltage</br> can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle."
+            ],
+            "translated_annotated_samples": [
+                "Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "thyristor trigger angle": {
+            "translated_key": "ángulo de disparo del tiristor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the <br>thyristor trigger angle</br>.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the whole optimal voltage changeable rule.",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the <br>thyristor trigger angle</br>."
+            ],
+            "translated_annotated_samples": [
+                "Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el <br>ángulo de disparo del tiristor</br>."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el <br>ángulo de disparo del tiristor</br>. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la regla de cambio de voltaje óptimo completo. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "whole optimal voltage changeable rule.": {
+            "translated_key": "regla de cambio de voltaje óptimo completo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The load of beam pumping unit is changeable, which is often in a state of light load.",
+                "Reducing a certain voltage can improve the power factor and efficiency of the beam pumping unit when in light load .We can change the voltage by changing the thyristor trigger angle.",
+                "It is complex and unacceptable to analyze the change of the cycles of the load overall.",
+                "So we can divide the load of the whole cycle into several equal parts, each can be thought of as a constant load.",
+                "The most optimal voltage for the current load can be calculated by genetic algorithm.",
+                "When each load is in the most optimal voltage, we can get the <br>whole optimal voltage changeable rule.</br>",
+                "Then it produces the result of energy saving."
+            ],
+            "original_annotated_samples": [
+                "When each load is in the most optimal voltage, we can get the <br>whole optimal voltage changeable rule.</br>"
+            ],
+            "translated_annotated_samples": [
+                "Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la <br>regla de cambio de voltaje óptimo completo</br>."
+            ],
+            "translated_text": "La carga de la unidad de bombeo de viga es variable, y a menudo se encuentra en un estado de carga ligera. Reducir cierto voltaje puede mejorar el factor de potencia y la eficiencia de la unidad de bombeo de viga cuando está en carga ligera. Podemos cambiar el voltaje modificando el ángulo de disparo del tiristor. Es complejo y no aceptable analizar el cambio de los ciclos de carga en general. Por lo tanto, podemos dividir la carga del ciclo completo en varias partes iguales, cada una puede considerarse como una carga constante. El voltaje más óptimo para la carga actual puede calcularse mediante un algoritmo genético. Cuando cada carga se encuentra en el voltaje más óptimo, podemos obtener la <br>regla de cambio de voltaje óptimo completo</br>. Luego se obtiene el resultado del ahorro de energía. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

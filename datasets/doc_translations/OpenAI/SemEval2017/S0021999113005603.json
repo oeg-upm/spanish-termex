@@ -1,0 +1,607 @@
+{
+    "id": "S0021999113005603",
+    "original_text": "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise. Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles. Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25]. A least-squares polynomial fit to the data is performed, which helps reduce noise further. The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver. A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively. An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0.",
+    "original_translation": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0.",
+    "original_sentences": [
+        "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+        "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+        "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+        "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+        "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+        "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+        "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+    ],
+    "error_count": 2,
+    "keys": {
+        "CAM": {
+            "translated_key": "CAM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (<br>CAM</br>) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "Velocity in each bin is measured using the Cumulative Averaging Method (<br>CAM</br>) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25]."
+            ],
+            "translated_annotated_samples": [
+                "Output: La velocidad en cada contenedor se mide utilizando el Método de Promedio Acumulativo (<br>CAM</br>) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. Output: La velocidad en cada contenedor se mide utilizando el Método de Promedio Acumulativo (<br>CAM</br>) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "compressed wall micro-element solution": {
+            "translated_key": "solución del microelemento de pared comprimida",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the <br>compressed wall micro-element solution</br> (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the <br>compressed wall micro-element solution</br> (16), at yi′=0."
+            ],
+            "translated_annotated_samples": [
+                "Output: Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la <br>solución del microelemento de pared comprimida</br> (16), en yi′=0."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Output: Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la <br>solución del microelemento de pared comprimida</br> (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "continuous function": {
+            "translated_key": "función continua",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a <br>continuous function</br> that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "The fit produces a <br>continuous function</br> that avoids stability issues arising from supplying highly fluctuating data to the macro solver."
+            ],
+            "translated_annotated_samples": [
+                "Output: El ajuste produce una <br>función continua</br> que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. Output: El ajuste produce una <br>función continua</br> que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Cumulative Averaging Method": {
+            "translated_key": "Método de Promedio Acumulativo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the <br>Cumulative Averaging Method</br> (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "Velocity in each bin is measured using the <br>Cumulative Averaging Method</br> (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25]."
+            ],
+            "translated_annotated_samples": [
+                "Output: La velocidad en cada contenedor se mide utilizando el <br>Método de Promedio Acumulativo</br> (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. Output: La velocidad en cada contenedor se mide utilizando el <br>Método de Promedio Acumulativo</br> (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "cumulative averaging technique": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a <br>cumulative averaging technique</br> to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a <br>cumulative averaging technique</br> to reduce noise."
+            ],
+            "translated_annotated_samples": [
+                "Output: Después de que todos los microelementos alcanzan un estado estable relajado, se obtienen medidas utilizando una técnica de promedio acumulativo para reducir el ruido."
+            ],
+            "translated_text": "Output: Después de que todos los microelementos alcanzan un estado estable relajado, se obtienen medidas utilizando una técnica de promedio acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [],
+                []
+            ]
+        },
+        "divided into spatially-oriented bins": {
+            "translated_key": "divide en contenedores orientados espacialmente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is <br>divided into spatially-oriented bins</br> in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "Each micro element is <br>divided into spatially-oriented bins</br> in the y-direction in order to resolve the velocity and shear-stress profiles."
+            ],
+            "translated_annotated_samples": [
+                "Output: Cada microelemento se <br>divide en contenedores orientados espacialmente</br> en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Output: Cada microelemento se <br>divide en contenedores orientados espacialmente</br> en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Irving–Kirkwood relationship": {
+            "translated_key": "Irving-Kirkwood",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the <br>Irving–Kirkwood relationship</br> [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the <br>Irving–Kirkwood relationship</br> [25]."
+            ],
+            "translated_annotated_samples": [
+                "Output: La velocidad en cada contenedor se mide utilizando el Método de Promedio Acumulativo (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación <br>Irving-Kirkwood</br> [25]."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. Output: La velocidad en cada contenedor se mide utilizando el Método de Promedio Acumulativo (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación <br>Irving-Kirkwood</br> [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "least-squares fit": {
+            "translated_key": "ajuste de mínimos cuadrados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A <br>least-squares fit</br> is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "A <br>least-squares fit</br> is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively."
+            ],
+            "translated_annotated_samples": [
+                "La <br>ajuste de mínimos cuadrados</br> se aplica a un polinomio de orden N para el perfil de velocidad en la región central, y a un polinomio de orden M para el perfil de velocidad en la región restringida: (16)〈ui,core〉=∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17)〈ui,cs〉=∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. La <br>ajuste de mínimos cuadrados</br> se aplica a un polinomio de orden N para el perfil de velocidad en la región central, y a un polinomio de orden M para el perfil de velocidad en la región restringida: (16)〈ui,core〉=∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17)〈ui,cs〉=∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "least-squares polynomial fit": {
+            "translated_key": "mínimos cuadrados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A <br>least-squares polynomial fit</br> to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "A <br>least-squares polynomial fit</br> to the data is performed, which helps reduce noise further."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se realiza un ajuste polinómico de <br>mínimos cuadrados</br> a los datos, lo que ayuda a reducir aún más el ruido."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Output: Se realiza un ajuste polinómico de <br>mínimos cuadrados</br> a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "macro solution": {
+            "translated_key": "solución macro",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the <br>macro solution</br> (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "An estimate of the new slip velocity uB for input to the <br>macro solution</br> (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "translated_annotated_samples": [
+                "Output: Una estimación de la nueva velocidad de deslizamiento uB para ingresar a la <br>solución macro</br> (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Output: Una estimación de la nueva velocidad de deslizamiento uB para ingresar a la <br>solución macro</br> (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "macro solver": {
+            "translated_key": "solucionador de macros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the <br>macro solver</br>.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the <br>macro solver</br>."
+            ],
+            "translated_annotated_samples": [
+                "La función produce un ajuste continuo que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al <br>solucionador de macros</br>."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. La función produce un ajuste continuo que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al <br>solucionador de macros</br>. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Mth order polynomial": {
+            "translated_key": "polinomio de orden M",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an <br>Mth order polynomial</br> for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an <br>Mth order polynomial</br> for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively."
+            ],
+            "translated_annotated_samples": [
+                "Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un <br>polinomio de orden M</br> para el perfil de velocidad en la región restringida:(16)〈ui,central〉=∑k=1Nbk,iyi′(N−k),para 0⩽yi′⩽hcentral, y(17)〈ui,cr〉=∑k=1Mck,iyi″(M−k),para 0⩽yi″⩽hcr, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un <br>polinomio de orden M</br> para el perfil de velocidad en la región restringida:(16)〈ui,central〉=∑k=1Nbk,iyi′(N−k),para 0⩽yi′⩽hcentral, y(17)〈ui,cr〉=∑k=1Mck,iyi″(M−k),para 0⩽yi″⩽hcr, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "new slip velocity": {
+            "translated_key": "nueva",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the <br>new slip velocity</br> uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "An estimate of the <br>new slip velocity</br> uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "translated_annotated_samples": [
+                "Output: Una estimación de la velocidad de deslizamiento <br>nueva</br> uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Output: Una estimación de la velocidad de deslizamiento <br>nueva</br> uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Nth order polynomial": {
+            "translated_key": "polinomio de orden N",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an <br>Nth order polynomial</br> for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "A least-squares fit is applied to an <br>Nth order polynomial</br> for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se aplica un ajuste de mínimos cuadrados a un <br>polinomio de orden N</br> para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),para 0⩽yi′⩽hcore, y(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Output: Se aplica un ajuste de mínimos cuadrados a un <br>polinomio de orden N</br> para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),para 0⩽yi′⩽hcore, y(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "polynomials": {
+            "translated_key": "polinomios",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the <br>polynomials</br> used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the <br>polynomials</br> used in the core micro region and constrained region respectively."
+            ],
+            "translated_annotated_samples": [
+                "La regresión de mínimos cuadrados se aplica a un polinomio de orden N para el perfil de velocidad en la región central, y a un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los <br>polinomios</br> utilizados en la micro región central y la región restringida respectivamente."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. La regresión de mínimos cuadrados se aplica a un polinomio de orden N para el perfil de velocidad en la región central, y a un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los <br>polinomios</br> utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "reduce noise": {
+            "translated_key": "reducir el ruido",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to <br>reduce noise</br>.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps <br>reduce noise</br> further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to <br>reduce noise</br>.",
+                "A least-squares polynomial fit to the data is performed, which helps <br>reduce noise</br> further."
+            ],
+            "translated_annotated_samples": [
+                "Output: Después de que todos los microelementos alcanzan un estado estable relajado, se obtienen medidas utilizando una técnica de promedio acumulativo para <br>reducir el ruido</br>.",
+                "Output: Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo cual ayuda a <br>reducir el ruido</br> aún más."
+            ],
+            "translated_text": "Output: Después de que todos los microelementos alcanzan un estado estable relajado, se obtienen medidas utilizando una técnica de promedio acumulativo para <br>reducir el ruido</br>. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Output: Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo cual ayuda a <br>reducir el ruido</br> aún más. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "resolve the velocity and shear-stress profiles": {
+            "translated_key": "resolver los perfiles de velocidad y esfuerzo cortante",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to <br>resolve the velocity and shear-stress profiles</br>.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to <br>resolve the velocity and shear-stress profiles</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para <br>resolver los perfiles de velocidad y esfuerzo cortante</br>."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Output: Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para <br>resolver los perfiles de velocidad y esfuerzo cortante</br>. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "shear-stress profiles": {
+            "translated_key": "esfuerzo cortante",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and <br>shear-stress profiles</br>.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and <br>shear-stress profiles</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y <br>esfuerzo cortante</br>."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Output: Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y <br>esfuerzo cortante</br>. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "stability issues": {
+            "translated_key": "estabilidad",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids <br>stability issues</br> arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "The fit produces a continuous function that avoids <br>stability issues</br> arising from supplying highly fluctuating data to the macro solver."
+            ],
+            "translated_annotated_samples": [
+                "Output: El ajuste produce una función continua que evita problemas de <br>estabilidad</br> que surgen al suministrar datos altamente fluctuantes al solucionador macro."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. Output: El ajuste produce una función continua que evita problemas de <br>estabilidad</br> que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "stress tensor field": {
+            "translated_key": "campo tensor de esfuerzos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the <br>stress tensor field</br> is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the <br>stress tensor field</br> is measured using the Irving–Kirkwood relationship [25]."
+            ],
+            "translated_annotated_samples": [
+                "Output: La velocidad en cada contenedor se mide utilizando el Método de Promedio Acumulativo (CAM) [24], mientras que el <br>campo tensor de esfuerzos</br> se mide utilizando la relación de Irving-Kirkwood [25]."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. Output: La velocidad en cada contenedor se mide utilizando el Método de Promedio Acumulativo (CAM) [24], mientras que el <br>campo tensor de esfuerzos</br> se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "supplying highly fluctuating data to the macro solver": {
+            "translated_key": "suministrar datos altamente fluctuantes al solucionador macro",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the velocity and shear-stress profiles.",
+                "Velocity in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from <br>supplying highly fluctuating data to the macro solver</br>.",
+                "A least-squares fit is applied to an Nth order polynomial for the velocity profile in the core region, and an Mth order polynomial for the velocity profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip velocity uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "The fit produces a continuous function that avoids stability issues arising from <br>supplying highly fluctuating data to the macro solver</br>."
+            ],
+            "translated_annotated_samples": [
+                "La ajuste produce una función continua que evita problemas de estabilidad que surgen al <br>suministrar datos altamente fluctuantes al solucionador macro</br>."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Cada microelemento se divide en compartimentos orientados espacialmente en la dirección y para resolver los perfiles de velocidad y esfuerzo cortante. La velocidad en cada celda se mide utilizando el Método de Promediación Acumulativa (CAM) [24], mientras que el campo del tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. La ajuste produce una función continua que evita problemas de estabilidad que surgen al <br>suministrar datos altamente fluctuantes al solucionador macro</br>. Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de velocidad en la región central, y un polinomio de orden M para el perfil de velocidad en la región restringida: (16) 〈ui,core〉 = ∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17) 〈ui,cs〉 = ∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Una estimación de la nueva velocidad de deslizamiento uB para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "velocity": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "After all micro elements reach a relaxed steady-state, measurements are obtained using a cumulative averaging technique to reduce noise.",
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the <br>velocity</br> and shear-stress profiles.",
+                "<br>velocity</br> in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares polynomial fit to the data is performed, which helps reduce noise further.",
+                "The fit produces a continuous function that avoids stability issues arising from supplying highly fluctuating data to the macro solver.",
+                "A least-squares fit is applied to an Nth order polynomial for the <br>velocity</br> profile in the core region, and an Mth order polynomial for the <br>velocity</br> profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip <br>velocity</br> uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "original_annotated_samples": [
+                "Each micro element is divided into spatially-oriented bins in the y-direction in order to resolve the <br>velocity</br> and shear-stress profiles.",
+                "<br>velocity</br> in each bin is measured using the Cumulative Averaging Method (CAM) [24], while the stress tensor field is measured using the Irving–Kirkwood relationship [25].",
+                "A least-squares fit is applied to an Nth order polynomial for the <br>velocity</br> profile in the core region, and an Mth order polynomial for the <br>velocity</br> profile in the constrained region:(16)〈ui,core〉=∑k=1Nbk,iyi′(N−k),for 0⩽yi′⩽hcore, and(17)〈ui,cs〉=∑k=1Mck,iyi″(M−k),for 0⩽yi″⩽hcs, where bk,i and ck,i are the coefficients of the polynomials used in the core micro region and constrained region respectively.",
+                "An estimate of the new slip <br>velocity</br> uB for input to the macro solution (6) is taken directly from the compressed wall micro-element solution (16), at yi′=0."
+            ],
+            "translated_annotated_samples": [
+                "Output: Cada microelemento se divide en contenedores orientados espacialmente en la dirección y para resolver los perfiles de <br>velocidad</br> y esfuerzo cortante.",
+                "Output: La <br>velocidad</br> en cada bin se mide utilizando el Método de Promedio Acumulativo (CAM) [24], mientras que el campo tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25].",
+                "Output: Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de <br>velocidad</br> en la región central, y un polinomio de orden M para el perfil de <br>velocidad</br> en la región restringida: (16)〈ui,core〉=∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17)〈ui,cs〉=∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente.",
+                "Output: Una estimación de la nueva velocidad de deslizamiento <br>uB</br> para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0."
+            ],
+            "translated_text": "Una vez que todos los microelementos alcanzan un estado estable relajado, se obtienen mediciones utilizando una técnica de promediado acumulativo para reducir el ruido. Output: Cada microelemento se divide en contenedores orientados espacialmente en la dirección y para resolver los perfiles de <br>velocidad</br> y esfuerzo cortante. Output: La <br>velocidad</br> en cada bin se mide utilizando el Método de Promedio Acumulativo (CAM) [24], mientras que el campo tensor de esfuerzos se mide utilizando la relación de Irving-Kirkwood [25]. Se realiza un ajuste polinómico de mínimos cuadrados a los datos, lo que ayuda a reducir aún más el ruido. El ajuste produce una función continua que evita problemas de estabilidad que surgen al suministrar datos altamente fluctuantes al solucionador macro. Output: Se aplica un ajuste de mínimos cuadrados a un polinomio de orden N para el perfil de <br>velocidad</br> en la región central, y un polinomio de orden M para el perfil de <br>velocidad</br> en la región restringida: (16)〈ui,core〉=∑k=1Nbk,iyi′(N−k), para 0⩽yi′⩽hcore, y (17)〈ui,cs〉=∑k=1Mck,iyi″(M−k), para 0⩽yi″⩽hcs, donde bk,i y ck,i son los coeficientes de los polinomios utilizados en la micro región central y la región restringida respectivamente. Output: Una estimación de la nueva velocidad de deslizamiento <br>uB</br> para la entrada a la solución macro (6) se toma directamente de la solución del microelemento de pared comprimida (16), en yi′=0. ",
+            "candidates": [],
+            "error": [
+                [
+                    "velocidad",
+                    "velocidad",
+                    "velocidad",
+                    "velocidad",
+                    "uB"
+                ],
+                [
+                    "velocidad",
+                    "velocidad",
+                    "velocidad",
+                    "velocidad",
+                    "uB"
+                ]
+            ]
+        }
+    }
+}

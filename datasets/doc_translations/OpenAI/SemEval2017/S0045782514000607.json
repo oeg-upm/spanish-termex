@@ -1,0 +1,501 @@
+{
+    "id": "S0045782514000607",
+    "original_text": "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator. The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method. For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation. However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence. This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus. However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar. Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual.",
+    "original_translation": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo.",
+    "original_sentences": [
+        "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+        "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+        "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+        "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+        "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+        "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+        "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+    ],
+    "error_count": 2,
+    "keys": {
+        "amplification of the residual": {
+            "translated_key": "amplificación del residual",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the <br>amplification of the residual</br>."
+            ],
+            "original_annotated_samples": [
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the <br>amplification of the residual</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación residual inicial, y (2) la <br>amplificación del residual</br>."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación residual inicial, y (2) la <br>amplificación del residual</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "classic penalty/weakly penalized": {
+            "translated_key": "penalización clásica/debilitadamente penalizada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (<br>classic penalty/weakly penalized</br>) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (<br>classic penalty/weakly penalized</br>) exhibit deteriorated nonlinear convergence."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (<br>penalización clásica/debilitadamente penalizada</br>) muestran una convergencia no lineal deteriorada."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (<br>penalización clásica/debilitadamente penalizada</br>) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "convergence": {
+            "translated_key": "convergencia",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the <br>convergence</br> characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear <br>convergence</br>.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast <br>convergence</br> even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear <br>convergence</br> is observed though, in principle, the <br>convergence</br> should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated <br>convergence</br> stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the <br>convergence</br> characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear <br>convergence</br>.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast <br>convergence</br> even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear <br>convergence</br> is observed though, in principle, the <br>convergence</br> should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated <br>convergence</br> stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "translated_annotated_samples": [
+                "Output: Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de <br>convergencia</br> de la formulación PL.",
+                "Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una <br>convergencia</br> no lineal deteriorada.",
+                "Output: Esto contrasta fuertemente con el método PL que (para esquemas estables de inf-sup) muestra una rápida <br>convergencia</br> incluso para un alto módulo de volumen.",
+                "Output: Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal pobre, aunque, en principio, la convergencia debería ser similar.",
+                "Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la <br>convergencia</br> deteriorada se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Output: Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de <br>convergencia</br> de la formulación PL. Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una <br>convergencia</br> no lineal deteriorada. Output: Esto contrasta fuertemente con el método PL que (para esquemas estables de inf-sup) muestra una rápida <br>convergencia</br> incluso para un alto módulo de volumen. Output: Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal pobre, aunque, en principio, la convergencia debería ser similar. Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la <br>convergencia</br> deteriorada se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "deteriorated convergence": {
+            "translated_key": "convergencia deteriorada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that <br>deteriorated convergence</br> stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that <br>deteriorated convergence</br> stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "translated_annotated_samples": [
+                "Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la <br>convergencia deteriorada</br> se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la <br>convergencia deteriorada</br> se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "generalized formulation": {
+            "translated_key": "formulación generalizada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a <br>generalized formulation</br> which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "As mentioned previously, the weakly penalized system can be thought of as a <br>generalized formulation</br> which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator."
+            ],
+            "translated_annotated_samples": [
+                "Output: Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una <br>formulación generalizada</br> que puede dar lugar a las formulaciones de PL, penalización o PL condensada estáticamente dependiendo de la elección del operador de proyección."
+            ],
+            "translated_text": "Output: Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una <br>formulación generalizada</br> que puede dar lugar a las formulaciones de PL, penalización o PL condensada estáticamente dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "inf–sup stable schemes": {
+            "translated_key": "inf-sup estables",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for <br>inf–sup stable schemes</br>) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "This stands in stark contrast to the PL method which (for <br>inf–sup stable schemes</br>) exhibits fast convergence even for high bulk modulus."
+            ],
+            "translated_annotated_samples": [
+                "Esto contrasta fuertemente con el método PL que (para esquemas <br>inf-sup estables</br>) muestra una rápida convergencia incluso para un alto módulo volumétrico."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas <br>inf-sup estables</br>) muestra una rápida convergencia incluso para un alto módulo volumétrico. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "initial residual amplification": {
+            "translated_key": "amplificación inicial del residuo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) <br>initial residual amplification</br>, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) <br>initial residual amplification</br>, and (2) the amplification of the residual."
+            ],
+            "translated_annotated_samples": [
+                "Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) <br>amplificación inicial del residuo</br>, y (2) la amplificación del residuo."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) <br>amplificación inicial del residuo</br>, y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "nonlinear convergence": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated <br>nonlinear convergence</br>.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor <br>nonlinear convergence</br> is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated <br>nonlinear convergence</br>.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor <br>nonlinear convergence</br> is observed though, in principle, the convergence should be similar."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo volumétrico, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia <br>no lineal deteriorada</br>.",
+                "Output: Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia <br>no lineal pobre</br>, aunque, en principio, la convergencia debería ser similar."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo volumétrico, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia <br>no lineal deteriorada</br>. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Output: Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia <br>no lineal pobre</br>, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    "no lineal deteriorada",
+                    "no lineal pobre"
+                ],
+                [
+                    "no lineal deteriorada",
+                    "no lineal pobre"
+                ]
+            ]
+        },
+        "penalized formulations": {
+            "translated_key": "formulaciones penalizadas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the <br>penalized formulations</br> (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the <br>penalized formulations</br> (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las <br>formulaciones penalizadas</br> (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las <br>formulaciones penalizadas</br> (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "penalty method": {
+            "translated_key": "método de penalización",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the <br>penalty method</br> with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "For instance, the weakly penalized formulation combines the simplified structure of the <br>penalty method</br> with the convergence characteristics of the PL formulation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del <br>método de penalización</br> con las características de convergencia de la formulación PL."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Output: Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del <br>método de penalización</br> con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PL": {
+            "translated_key": "PL",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the <br>PL</br>, penalty or statically condensed <br>PL</br> formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the <br>PL</br> formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the <br>PL</br> method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete <br>PL</br> method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and <br>PL</br> approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the <br>PL</br>, penalty or statically condensed <br>PL</br> formulations depending on the choice of the projection operator.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the <br>PL</br> formulation.",
+                "This stands in stark contrast to the <br>PL</br> method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete <br>PL</br> method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and <br>PL</br> approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "translated_annotated_samples": [
+                "Output: Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de <br>PL</br>, penalización o condensación estática de <br>PL</br> dependiendo de la elección del operador de proyección.",
+                "Output: Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación <br>PL</br>.",
+                "Output: Esto contrasta fuertemente con el método <br>PL</br> que (para esquemas estables de inf-sup) muestra una rápida convergencia incluso para un alto módulo volumétrico.",
+                "Output: Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método discreto de <br>PL</br>, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar.",
+                "Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para <br>PL</br> (ver Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo."
+            ],
+            "translated_text": "Output: Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de <br>PL</br>, penalización o condensación estática de <br>PL</br> dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Output: Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación <br>PL</br>. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Output: Esto contrasta fuertemente con el método <br>PL</br> que (para esquemas estables de inf-sup) muestra una rápida convergencia incluso para un alto módulo volumétrico. Output: Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método discreto de <br>PL</br>, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Output: Al examinar las fórmulas de actualización tanto para enfoques débilmente penalizados como para <br>PL</br> (ver Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PL formulation": {
+            "translated_key": "PL",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the <br>PL formulation</br>.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the <br>PL formulation</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación <br>PL</br>."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Output: Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación <br>PL</br>. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PL, penalty or statically condensed PL formulations": {
+            "translated_key": "dependiendo de la elección del operador de proyección",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the <br>PL, penalty or statically condensed PL formulations</br> depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the <br>PL, penalty or statically condensed PL formulations</br> depending on the choice of the projection operator."
+            ],
+            "translated_annotated_samples": [
+                "Output: Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente <br>dependiendo de la elección del operador de proyección</br>."
+            ],
+            "translated_text": "Output: Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente <br>dependiendo de la elección del operador de proyección</br>. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "poor nonlinear convergence": {
+            "translated_key": "convergencia no lineal deficiente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, <br>poor nonlinear convergence</br> is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, <br>poor nonlinear convergence</br> is observed though, in principle, the convergence should be similar."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una <br>convergencia no lineal deficiente</br>, aunque, en principio, la convergencia debería ser similar."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Output: Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una <br>convergencia no lineal deficiente</br>, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "weakly penalized": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the <br>weakly penalized</br> system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the <br>weakly penalized</br> regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the <br>weakly penalized</br> formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/<br>weakly penalized</br>) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both <br>weakly penalized</br> and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "As mentioned previously, the <br>weakly penalized</br> system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the <br>weakly penalized</br> regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the <br>weakly penalized</br> formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/<br>weakly penalized</br>) exhibit deteriorated nonlinear convergence.",
+                "Examining the update formulae for both <br>weakly penalized</br> and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "translated_annotated_samples": [
+                "Output: Como se mencionó anteriormente, el sistema <br>penalizado débilmente</br> se puede considerar como una formulación generalizada que puede dar lugar a formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección.",
+                "Output: La equivalencia de estos métodos bajo el régimen <br>de penalización débil</br>, nos permite combinar y aprovechar las buenas características de cada método.",
+                "Output: Por ejemplo, la formulación <br>penalizada débilmente</br> combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL.",
+                "Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/<br>penalización débil</br>) muestran una convergencia no lineal deteriorada.",
+                "Output: Al examinar las fórmulas de actualización tanto para enfoques <br>debilmente penalizados</br> como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo."
+            ],
+            "translated_text": "Output: Como se mencionó anteriormente, el sistema <br>penalizado débilmente</br> se puede considerar como una formulación generalizada que puede dar lugar a formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. Output: La equivalencia de estos métodos bajo el régimen <br>de penalización débil</br>, nos permite combinar y aprovechar las buenas características de cada método. Output: Por ejemplo, la formulación <br>penalizada débilmente</br> combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Output: Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/<br>penalización débil</br>) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Output: Al examinar las fórmulas de actualización tanto para enfoques <br>debilmente penalizados</br> como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    "penalizado débilmente",
+                    "de penalización débil",
+                    "penalizada débilmente",
+                    "penalización débil",
+                    "debilmente penalizados"
+                ],
+                [
+                    "penalizado débilmente",
+                    "de penalización débil",
+                    "penalizada débilmente",
+                    "penalización débil",
+                    "debilmente penalizados"
+                ]
+            ]
+        },
+        "weakly penalized and PL approaches": {
+            "translated_key": "debilmente penalizados como PL",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the weakly penalized formulation combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both <br>weakly penalized and PL approaches</br> (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "Examining the update formulae for both <br>weakly penalized and PL approaches</br> (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "translated_annotated_samples": [
+                "Output: Al examinar las fórmulas de actualización tanto para enfoques <br>debilmente penalizados como PL</br> (ver Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Por ejemplo, la formulación débilmente penalizada combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Output: Al examinar las fórmulas de actualización tanto para enfoques <br>debilmente penalizados como PL</br> (ver Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación del residuo inicial, y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "weakly penalized formulation": {
+            "translated_key": "formulación débilmente penalizada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned previously, the weakly penalized system can be thought of as a generalized formulation which can result in the PL, penalty or statically condensed PL formulations depending on the choice of the projection operator.",
+                "The equivalence of these methods under the weakly penalized regime, allows us to combine and take advantage of the good characteristics of each method.",
+                "For instance, the <br>weakly penalized formulation</br> combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation.",
+                "However, due to the stiffness of the linear system at high values of the bulk modulus, the penalized formulations (classic penalty/weakly penalized) exhibit deteriorated nonlinear convergence.",
+                "This stands in stark contrast to the PL method which (for inf–sup stable schemes) exhibits fast convergence even for high bulk modulus.",
+                "However, we observe that, when the choice of πh provides equivalence with the discrete PL method, poor nonlinear convergence is observed though, in principle, the convergence should be similar.",
+                "Examining the update formulae for both weakly penalized and PL approaches (see Appendix C), we observe that deteriorated convergence stems from: (1) initial residual amplification, and (2) the amplification of the residual."
+            ],
+            "original_annotated_samples": [
+                "For instance, the <br>weakly penalized formulation</br> combines the simplified structure of the penalty method with the convergence characteristics of the PL formulation."
+            ],
+            "translated_annotated_samples": [
+                "Output: Por ejemplo, la <br>formulación débilmente penalizada</br> combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL."
+            ],
+            "translated_text": "Como se mencionó anteriormente, el sistema débilmente penalizado se puede considerar como una formulación generalizada que puede resultar en las formulaciones de PL, penalización o PL condensada estáticamente, dependiendo de la elección del operador de proyección. La equivalencia de estos métodos bajo el régimen débilmente penalizado, nos permite combinar y aprovechar las buenas características de cada método. Output: Por ejemplo, la <br>formulación débilmente penalizada</br> combina la estructura simplificada del método de penalización con las características de convergencia de la formulación PL. Sin embargo, debido a la rigidez del sistema lineal en valores altos del módulo de volumen, las formulaciones penalizadas (penalización clásica/penalización débil) muestran una convergencia no lineal deteriorada. Esto contrasta fuertemente con el método PL que (para esquemas estables inf-sup) muestra una rápida convergencia incluso para un alto módulo de volumen. Sin embargo, observamos que, cuando la elección de πh proporciona equivalencia con el método PL discreto, se observa una convergencia no lineal deficiente, aunque, en principio, la convergencia debería ser similar. Examinando las fórmulas de actualización tanto para enfoques débilmente penalizados como para PL (consulte el Apéndice C), observamos que la convergencia deteriorada se origina en: (1) la amplificación inicial del residuo y (2) la amplificación del residuo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

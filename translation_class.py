@@ -347,6 +347,7 @@ class Translation():
 
 
 
+
 class Key():
     def __init__(self,term):
         self.key=term
@@ -387,12 +388,10 @@ class Key():
         self.is_in_text = json["is_in_text"]
         self.original_annotated_sentences = json["original_annotated_sentences"]
         self.original_annotated_samples = json["original_annotated_samples"]
-
         self.translated_annotated_samples = json["translated_annotated_samples"]
-        self.translated_annotated_text = json["translated_annotated_text"]
         self.translated_annotated_text = json["translated_text"]
         self.candidates = json["candidates"]
-        self.error = json["error"]
+        self.errors = json["error"]
 
 
 
@@ -407,13 +406,12 @@ class TranslationH():
         self.id = _id
         self.keys = []  # original keywords
 
-        for k in self.original_keys:
-            self.keys.append(Key(k))
+        if  isinstance(keys_,list):
+            for k in self.original_keys:
+                self.keys.append(Key(k))
 
-        self.original_text_sentences = separate_sentences(self.original_text)
-
-
-
+        if len(text_) > 1:
+            self.original_text_sentences = separate_sentences(self.original_text)
         self.translated_text = ""
         self.translated_text_sentences=[]
 
@@ -432,6 +430,7 @@ class TranslationH():
         self.original_text = data['original_text']
         self.translated_text = data['original_translation']
         self.original_text_sentences = data['original_sentences']
+
         self.error_count = data['error_count']
         keys = data['keys']
         for key in keys.keys():
@@ -492,13 +491,14 @@ class TranslationH():
             #print('>>>>',extracted)
             if detect_different_translations(extracted):
                 #print('ok')
-                k.translated_term= extracted[0]#elf.translated_keywords.append(extracted[0])
+                k.translated_term = extracted[0]#elf.translated_keywords.append(extracted[0])
                 k.errors.append([""])
             else:
                 #print('error', extracted)
-                k.errors.append(extracted)
+                #k.translated_term.append(extracted)
                 self.error_count += 1
                 k.errors.append(extracted)
+        print('Errors',self.error_count)
 
 
 
@@ -508,6 +508,7 @@ class TranslationH():
             "original_text": self.original_text,
             "original_translation": self.translated_text,
             "original_sentences": self.original_text_sentences,
+            'translated_text_sentences': self.translated_text_sentences,
             "error_count": self.error_count,
             "keys": {}
         }
@@ -581,4 +582,3 @@ def find_term_position(term, text):
             return -1, -1, None  # Término no encontrado en el texto
     except ValueError:
         return -1, -1, None  # Término no encontrado en el texto
-

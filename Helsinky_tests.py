@@ -17,46 +17,29 @@ Output2: "métodos multigrid"
 Now. For this text:
 """
 
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-
-nltk.download('punkt')
-nltk.download('wordnet')
 
 
-def find_term_position(term, text):
-    """
-    Encuentra la posición del término en el texto lematizado y recupera el término original.
-    Devuelve la posición del término en el texto original y el término original.
-    """
-    # Tokenizar y lematizar el texto
-    lemmatizer = WordNetLemmatizer()
-    tokens = word_tokenize(text)
-    lemmatized_tokens = [lemmatizer.lemmatize(token) for token in tokens]
+Lista=["S0098300414002532","S1361841516300822","S0301679X13003289","S2212667812000780","S0927025614006181","S0379711215000223","S2352179114200032","S0038092X15000559","S092702561300267X","S0370269302011838","S0305440314001927","S0301679X14000449","S2212671612000741","S2352179114200032","S0379711215000223","S0927025614006181","S0301679X13003289","S2212667812000780","S1361841516300822","S0098300414002532"]
 
-    # Lematizar el término
-    term_tokens = word_tokenize(term)
-    lemmatized_term = " ".join([lemmatizer.lemmatize(token) for token in term_tokens])
+print(len(Lista))
+import os
+import json
+import shutil
+def borrar_archivos_con_nombre_en_lista(carpeta, lista_nombres,carpeta_dest):
+    for nombre_archivo in os.listdir(carpeta):
+        n_name= nombre_archivo.replace(".json",'')
+        if n_name in lista_nombres:
+            ruta_archivo = os.path.join(carpeta, nombre_archivo)
+            #os(ruta_archivo)
+            print(f"Archivo {nombre_archivo} copiado.")
+            ruta_destino = os.path.join(carpeta_dest, nombre_archivo)
+            shutil.copyfile(ruta_archivo, ruta_destino)
+            with open(ruta_archivo, 'r') as file:
+                # data = file.read()
+                data_dict = json.load(file)
+                print(data_dict['error_count'])
 
-    # Buscar el término lematizado en el texto lematizado
-    try:
-        start_index = lemmatized_tokens.index(lemmatized_term.split()[0])
-        end_index = start_index + len(term_tokens) - 1
-        if lemmatized_tokens[start_index:end_index + 1] == lemmatized_term.split():
-            original_term = " ".join(tokens[start_index:end_index + 1])
-            return start_index, end_index, original_term
-        else:
-            return -1, -1, None  # Término no encontrado en el texto
-    except ValueError:
-        return -1, -1, None  # Término no encontrado en el texto
+OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017/'
+OutputPath2 = 'datasets/doc_translations/OpenAI/SemEval2017_2/'
 
-
-# Ejemplo de uso
-term = "lazy dog"
-text = "The quick brown fox jumps over the lazy dogs."
-start, end, original_term = find_term_position(term, text)
-if start != -1:
-    print(f"The term '{original_term}' is found starting at position {start} and ending at position {end} in the text.")
-else:
-    print(f"The term '{term}' is not found in the text.")
+borrar_archivos_con_nombre_en_lista(OutputPath, Lista,OutputPath2)

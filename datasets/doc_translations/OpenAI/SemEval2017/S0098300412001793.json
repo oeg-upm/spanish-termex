@@ -1,0 +1,648 @@
+{
+    "id": "S0098300412001793",
+    "original_text": "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties. Methods are based on the work of Giamarita and Day (1990). However, additional features have been added to provide users with greater flexibility in data reporting. Many programs exist to recalculate wt% data into formula unit cations. Some generalized programs can be used to recalculate the formula of multiple minerals e.g. CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992). Other programs are mineral specific e.g. AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses. MINERAL provides a rapid method for the recalculation of multiple common minerals. However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations. As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation. While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease.",
+    "original_translation": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad.",
+    "original_sentences": [
+        "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+        "Methods are based on the work of Giamarita and Day (1990).",
+        "However, additional features have been added to provide users with greater flexibility in data reporting.",
+        "Many programs exist to recalculate wt% data into formula unit cations.",
+        "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+        "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+        "Other programs are mineral specific e.g.",
+        "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+        "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+        "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+        "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+        "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+    ],
+    "error_count": 0,
+    "keys": {
+        "allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease": {
+            "translated_key": "permitir que los usuarios con poca o ninguna experiencia en el uso de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to <br>allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease</br>."
+            ],
+            "original_annotated_samples": [
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to <br>allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Si bien se recomienda encarecidamente comprender los cálculos subyacentes, MINERAL está diseñado para <br>permitir que los usuarios con poca o ninguna experiencia en el uso de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad</br>."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Output: Si bien se recomienda encarecidamente comprender los cálculos subyacentes, MINERAL está diseñado para <br>permitir que los usuarios con poca o ninguna experiencia en el uso de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "AMPH CLASS": {
+            "translated_key": "CLASE DE ANFIBOL",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "<br>AMPH CLASS</br> (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "<br>AMPH CLASS</br> (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>CLASE DE ANFIBOL</br> (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxeno."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. Output: <br>CLASE DE ANFIBOL</br> (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxeno. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "a new MATLAB® based program": {
+            "translated_key": "un nuevo programa basado en MATLAB®",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is <br>a new MATLAB® based program</br> that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "MINERAL (MINeral ERror AnaLysis) is <br>a new MATLAB® based program</br> that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties."
+            ],
+            "translated_annotated_samples": [
+                "Output: MINERAL (MINeral ERror AnaLysis) es <br>un nuevo programa basado en MATLAB®</br> que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas."
+            ],
+            "translated_text": "Output: MINERAL (MINeral ERror AnaLysis) es <br>un nuevo programa basado en MATLAB®</br> que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "CALCMIN": {
+            "translated_key": "CALCMIN",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "<br>CALCMIN</br> (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "<br>CALCMIN</br> (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992)."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>CALCMIN</br> (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992)."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. Output: <br>CALCMIN</br> (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "HYPER-FORM": {
+            "translated_key": "HYPER-FORM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and <br>HYPER-FORM</br> (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "CALCMIN (Brandelik, 2009) and <br>HYPER-FORM</br> (De Bjerg et al., 1992)."
+            ],
+            "translated_annotated_samples": [
+                "Output: CALCMIN (Brandelik, 2009) y <br>HYPER-FORM</br> (De Bjerg et al., 1992)."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. Output: CALCMIN (Brandelik, 2009) y <br>HYPER-FORM</br> (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "ILMAT": {
+            "translated_key": "ILMAT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; <br>ILMAT</br> (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; <br>ILMAT</br> (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses."
+            ],
+            "translated_annotated_samples": [
+                "Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; <br>ILMAT</br> (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxeno."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; <br>ILMAT</br> (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxeno. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "incorporate the associated uncertainty propagation calculations.": {
+            "translated_key": "incorporar los cálculos de propagación de incertidumbre asociados.",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to <br>incorporate the associated uncertainty propagation calculations.</br>",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "However, its strength lies in the fact that is the first tool to <br>incorporate the associated uncertainty propagation calculations.</br>"
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en <br>incorporar los cálculos de propagación de incertidumbre asociados.</br>"
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Output: Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en <br>incorporar los cálculos de propagación de incertidumbre asociados.</br> Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Methods": {
+            "translated_key": "métodos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "<br>Methods</br> are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "<br>Methods</br> are based on the work of Giamarita and Day (1990)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los <br>métodos</br> se basan en el trabajo de Giamarita y Day (1990)."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Output: Los <br>métodos</br> se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MINERAL": {
+            "translated_key": "MINERAL",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>MINERAL</br> (<br>MINERAL</br> ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are <br>MINERAL</br> specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "<br>MINERAL</br> provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, <br>MINERAL</br> is designed to allow users with little or no experience operating MATLAB® and/or performing <br>MINERAL</br> formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "<br>MINERAL</br> (<br>MINERAL</br> ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Other programs are <br>MINERAL</br> specific e.g.",
+                "<br>MINERAL</br> provides a rapid method for the recalculation of multiple common minerals.",
+                "While an understanding of the underlying calculations is strongly recommended, <br>MINERAL</br> is designed to allow users with little or no experience operating MATLAB® and/or performing <br>MINERAL</br> formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>MINERAL</br> (<br>MINERAL</br> ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas.",
+                "Output: Otros programas son específicos de <br>MINERAL</br> por ejemplo.",
+                "Output: <br>MINERAL</br> proporciona un método rápido para el recálculo de varios minerales comunes.",
+                "Output: Si bien se recomienda encarecidamente comprender los cálculos subyacentes, <br>MINERAL</br> está diseñado para permitir que los usuarios con poca o ninguna experiencia en la operación de MATLAB® y/o en la realización de recalculos de fórmulas de <br>MINERAL</br> y propagación de incertidumbres puedan realizar ambas tareas con facilidad."
+            ],
+            "translated_text": "Output: <br>MINERAL</br> (<br>MINERAL</br> ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Output: Otros programas son específicos de <br>MINERAL</br> por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. Output: <br>MINERAL</br> proporciona un método rápido para el recálculo de varios minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Output: Si bien se recomienda encarecidamente comprender los cálculos subyacentes, <br>MINERAL</br> está diseñado para permitir que los usuarios con poca o ninguna experiencia en la operación de MATLAB® y/o en la realización de recalculos de fórmulas de <br>MINERAL</br> y propagación de incertidumbres puedan realizar ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MINERAL (MINeral ERror AnaLysis)": {
+            "translated_key": "MINERAL (MINeral ERror AnaLysis)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>MINERAL (MINeral ERror AnaLysis)</br> is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "<br>MINERAL (MINeral ERror AnaLysis)</br> is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>MINERAL (MINeral ERror AnaLysis)</br> es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas."
+            ],
+            "translated_text": "Output: <br>MINERAL (MINeral ERror AnaLysis)</br> es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PROBE AMPH": {
+            "translated_key": "PROBE AMPH",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and <br>PROBE AMPH</br> (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "AMPH CLASS (Esawi, 2004) and <br>PROBE AMPH</br> (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses."
+            ],
+            "translated_annotated_samples": [
+                "Output: AMPH CLASS (Esawi, 2004) y <br>PROBE AMPH</br> (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxeno."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. Output: AMPH CLASS (Esawi, 2004) y <br>PROBE AMPH</br> (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxeno. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties": {
+            "translated_key": "proporciona recálculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that <br>provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties</br>.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that <br>provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que <br>proporciona recálculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas</br>."
+            ],
+            "translated_text": "Output: MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que <br>proporciona recálculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas</br>. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PX-NOM": {
+            "translated_key": "PX-NOM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and <br>PX-NOM</br> (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and <br>PX-NOM</br> (Sturm, 2002) for the recalculation of pyroxene analyses."
+            ],
+            "translated_annotated_samples": [
+                "Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y <br>PX-NOM</br> (Sturm, 2002) para el recalculo de análisis de piroxeno."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y <br>PX-NOM</br> (Sturm, 2002) para el recalculo de análisis de piroxeno. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "recalculate the formula of multiple minerals": {
+            "translated_key": "recalcular la fórmula de múltiples minerales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to <br>recalculate the formula of multiple minerals</br> e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "Some generalized programs can be used to <br>recalculate the formula of multiple minerals</br> e.g."
+            ],
+            "translated_annotated_samples": [
+                "Output: Algunos programas generalizados se pueden utilizar para <br>recalcular la fórmula de múltiples minerales</br> por ejemplo."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Output: Algunos programas generalizados se pueden utilizar para <br>recalcular la fórmula de múltiples minerales</br> por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "recalculation of amphibole analyses": {
+            "translated_key": "recalculación de análisis de anfíboles",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the <br>recalculation of amphibole analyses</br>; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the <br>recalculation of amphibole analyses</br>; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses."
+            ],
+            "translated_annotated_samples": [
+                "Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para la <br>recalculación de análisis de anfíboles</br>; ILMAT (Lepage, 2003) para la recalculación de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para la recalculación de análisis de piroxeno."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para la <br>recalculación de análisis de anfíboles</br>; ILMAT (Lepage, 2003) para la recalculación de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para la recalculación de análisis de piroxeno. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "recalculation of magnetite and ilmenite": {
+            "translated_key": "recalculación de magnetita e ilmenita",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the <br>recalculation of magnetite and ilmenite</br>; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the <br>recalculation of magnetite and ilmenite</br>; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses."
+            ],
+            "translated_annotated_samples": [
+                "Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para la recalculación de análisis de anfíboles; ILMAT (Lepage, 2003) para la <br>recalculación de magnetita e ilmenita</br>; y PX-NOM (Sturm, 2002) para la recalculación de análisis de piroxeno."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para la recalculación de análisis de anfíboles; ILMAT (Lepage, 2003) para la <br>recalculación de magnetita e ilmenita</br>; y PX-NOM (Sturm, 2002) para la recalculación de análisis de piroxeno. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "recalculation of multiple common minerals": {
+            "translated_key": "recálculo de varios minerales comunes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the <br>recalculation of multiple common minerals</br>.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "MINERAL provides a rapid method for the <br>recalculation of multiple common minerals</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: MINERAL proporciona un método rápido para la <br>recálculo de varios minerales comunes</br>."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. Output: MINERAL proporciona un método rápido para la <br>recálculo de varios minerales comunes</br>. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "recalculation of pyroxene analyses": {
+            "translated_key": "recalculación de análisis de piroxeno",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the <br>recalculation of pyroxene analyses</br>.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the <br>recalculation of pyroxene analyses</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para la recalculación de análisis de anfíboles; ILMAT (Lepage, 2003) para la recalculación de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para la <br>recalculación de análisis de piroxeno</br>."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. Output: AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para la recalculación de análisis de anfíboles; ILMAT (Lepage, 2003) para la recalculación de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para la <br>recalculación de análisis de piroxeno</br>. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Some generalized programs": {
+            "translated_key": "Algunos programas generalizados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added to provide users with greater flexibility in data reporting.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "<br>Some generalized programs</br> can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "<br>Some generalized programs</br> can be used to recalculate the formula of multiple minerals e.g."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>Algunos programas generalizados</br> se pueden utilizar para recalcular la fórmula de varios minerales, por ejemplo."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Sin embargo, se han añadido características adicionales para brindar a los usuarios una mayor flexibilidad en la generación de informes de datos. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Output: <br>Algunos programas generalizados</br> se pueden utilizar para recalcular la fórmula de varios minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "to provide users with greater flexibility in data reporting": {
+            "translated_key": "para proporcionar a los usuarios una mayor flexibilidad en la generación de informes de datos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MINERAL (MINeral ERror AnaLysis) is a new MATLAB® based program that provides mineral formula recalculations combined with the associated propagation of the analytical uncertainties.",
+                "Methods are based on the work of Giamarita and Day (1990).",
+                "However, additional features have been added <br>to provide users with greater flexibility in data reporting</br>.",
+                "Many programs exist to recalculate wt% data into formula unit cations.",
+                "Some generalized programs can be used to recalculate the formula of multiple minerals e.g.",
+                "CALCMIN (Brandelik, 2009) and HYPER-FORM (De Bjerg et al., 1992).",
+                "Other programs are mineral specific e.g.",
+                "AMPH CLASS (Esawi, 2004) and PROBE AMPH (Tindle and Webb, 1994) for the recalculation of amphibole analyses; ILMAT (Lepage, 2003) for the recalculation of magnetite and ilmenite; and PX-NOM (Sturm, 2002) for the recalculation of pyroxene analyses.",
+                "MINERAL provides a rapid method for the recalculation of multiple common minerals.",
+                "However, its strength lies in the fact that is the first tool to incorporate the associated uncertainty propagation calculations.",
+                "As these are performed concurrently with the standard recalculations, no additional time is needed to perform uncertainty propagation.",
+                "While an understanding of the underlying calculations is strongly recommended, MINERAL is designed to allow users with little or no experience operating MATLAB® and/or performing mineral formula recalculations and uncertainty propagation to undertake both with ease."
+            ],
+            "original_annotated_samples": [
+                "However, additional features have been added <br>to provide users with greater flexibility in data reporting</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, se han añadido características adicionales <br>para proporcionar a los usuarios una mayor flexibilidad en la generación de informes de datos</br>."
+            ],
+            "translated_text": "MINERAL (MINeral ERror AnaLysis) es un nuevo programa basado en MATLAB® que proporciona recalculos de fórmulas minerales combinados con la propagación asociada de las incertidumbres analíticas. Los métodos se basan en el trabajo de Giamarita y Day (1990). Output: Sin embargo, se han añadido características adicionales <br>para proporcionar a los usuarios una mayor flexibilidad en la generación de informes de datos</br>. Existen muchos programas para recalcular los datos de porcentaje en peso en cationes de unidades de fórmula. Algunos programas generalizados se pueden utilizar para recalcular la fórmula de múltiples minerales, por ejemplo. CALCMIN (Brandelik, 2009) y HYPER-FORM (De Bjerg et al., 1992). Otros programas son específicos para minerales, por ejemplo. AMPH CLASS (Esawi, 2004) y PROBE AMPH (Tindle y Webb, 1994) para el recalculo de análisis de anfíboles; ILMAT (Lepage, 2003) para el recalculo de magnetita e ilmenita; y PX-NOM (Sturm, 2002) para el recalculo de análisis de piroxenos. MINERAL proporciona un método rápido para el recálculo de múltiples minerales comunes. Sin embargo, su fortaleza radica en el hecho de que es la primera herramienta en incorporar los cálculos de propagación de incertidumbre asociados. Dado que estos se realizan simultáneamente con las recálculos estándar, no se necesita tiempo adicional para realizar la propagación de incertidumbre. Si bien se recomienda encarecidamente tener un entendimiento de los cálculos subyacentes, MINERAL está diseñado para permitir que los usuarios con poca o ninguna experiencia en el manejo de MATLAB® y/o en la realización de recalculos de fórmulas minerales y propagación de incertidumbres puedan llevar a cabo ambas tareas con facilidad. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

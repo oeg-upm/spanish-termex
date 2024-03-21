@@ -1,0 +1,338 @@
+{
+    "id": "S004578251400334X",
+    "original_text": "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows. The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh. It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms. The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately.",
+    "original_translation": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente.",
+    "original_sentences": [
+        "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+        "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+        "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+        "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+    ],
+    "error_count": 0,
+    "keys": {
+        "coarse high-order prisms": {
+            "translated_key": "prismas gruesos de orden superior",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the <br>coarse high-order prisms</br>.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the <br>coarse high-order prisms</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se basa en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de orden superior se subdivide en prismas o tetraedros utilizando el mapeo que define los <br>prismas gruesos de orden superior</br>."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Output: Se basa en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de orden superior se subdivide en prismas o tetraedros utilizando el mapeo que define los <br>prismas gruesos de orden superior</br>. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "dense linear boundary-layer mesh": {
+            "translated_key": "malla densa de capa límite lineal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a <br>dense linear boundary-layer mesh</br>.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "The method is conceptually simple, cheap to implement and does not require a <br>dense linear boundary-layer mesh</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método es conceptualmente simple, económico de implementar y no requiere una <br>malla densa de capa límite lineal</br>."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. Output: El método es conceptualmente simple, económico de implementar y no requiere una <br>malla densa de capa límite lineal</br>. Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "generating high-order meshes for high Reynolds number flows": {
+            "translated_key": "generar mallas de alto orden para flujos de alto número de Reynolds",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of <br>generating high-order meshes for high Reynolds number flows</br>.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of <br>generating high-order meshes for high Reynolds number flows</br>."
+            ],
+            "translated_annotated_samples": [
+                "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación descrito anteriormente y que ayuda a abordar el problema de <br>generar mallas de alto orden para flujos de alto número de Reynolds</br>."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación descrito anteriormente y que ayuda a abordar el problema de <br>generar mallas de alto orden para flujos de alto número de Reynolds</br>. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "generation procedure": {
+            "translated_key": "procedimiento de generación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the <br>generation procedure</br> outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "In this article we propose a method which adopts a different approach to the <br>generation procedure</br> outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este artículo proponemos un método que adopta un enfoque diferente al <br>procedimiento de generación</br> mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds."
+            ],
+            "translated_text": "Output: En este artículo proponemos un método que adopta un enfoque diferente al <br>procedimiento de generación</br> mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "high-order coarse boundary-layer prismatic mesh": {
+            "translated_key": "malla prismática de capa límite gruesa de alto orden",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a <br>high-order coarse boundary-layer prismatic mesh</br> is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a <br>high-order coarse boundary-layer prismatic mesh</br> is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se basa en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una <br>malla prismática de capa límite gruesa de alto orden</br> se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Output: Se basa en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una <br>malla prismática de capa límite gruesa de alto orden</br> se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "high-order meshes": {
+            "translated_key": "mallas de alto orden",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating <br>high-order meshes</br> for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating <br>high-order meshes</br> for high Reynolds number flows."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación descrito anteriormente y que ayuda a abordar el problema de generar <br>mallas de alto orden</br> para flujos de alto número de Reynolds."
+            ],
+            "translated_text": "Output: En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación descrito anteriormente y que ayuda a abordar el problema de generar <br>mallas de alto orden</br> para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "initial mesh": {
+            "translated_key": "malla inicial",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the <br>initial mesh</br> is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the <br>initial mesh</br> is valid and the polynomial space is chosen appropriately."
+            ],
+            "translated_annotated_samples": [
+                "Output: El procedimiento también es muy versátil ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la <br>malla inicial</br> es válida y se elige el espacio polinómico adecuadamente."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. Output: El procedimiento también es muy versátil ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la <br>malla inicial</br> es válida y se elige el espacio polinómico adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "isoparametric [17] or, in general, a transfinite interpolation": {
+            "translated_key": "interpolación isoparamétrica [17] o, en general, una interpolación transfinida",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an <br>isoparametric [17] or, in general, a transfinite interpolation</br> [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "It is based on the use of an <br>isoparametric [17] or, in general, a transfinite interpolation</br> [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se basa en el uso de una <br>interpolación isoparamétrica [17] o, en general, una interpolación transfinida</br> [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Output: Se basa en el uso de una <br>interpolación isoparamétrica [17] o, en general, una interpolación transfinida</br> [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "meshes": {
+            "translated_key": "mallas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order <br>meshes</br> for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits <br>meshes</br> with different distributions of y+ to be generated with ease and furthermore, the validity of these <br>meshes</br> is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order <br>meshes</br> for high Reynolds number flows.",
+                "The procedure is also very versatile as it permits <br>meshes</br> with different distributions of y+ to be generated with ease and furthermore, the validity of these <br>meshes</br> is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación descrito anteriormente y que ayuda a abordar el problema de generar <br>mallas</br> de alto orden para flujos de alto número de Reynolds.",
+                "Output: El procedimiento también es muy versátil ya que permite que se generen <br>mallas</br> con diferentes distribuciones de y+ con facilidad y, además, la validez de estas <br>mallas</br> está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente."
+            ],
+            "translated_text": "Output: En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación descrito anteriormente y que ayuda a abordar el problema de generar <br>mallas</br> de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. Output: El procedimiento también es muy versátil ya que permite que se generen <br>mallas</br> con diferentes distribuciones de y+ con facilidad y, además, la validez de estas <br>mallas</br> está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "polynomial space": {
+            "translated_key": "espacio polinómico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the <br>polynomial space</br> is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the <br>polynomial space</br> is chosen appropriately."
+            ],
+            "translated_annotated_samples": [
+                "Output: El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y se elige adecuadamente el <br>espacio polinómico</br>."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. Output: El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y se elige adecuadamente el <br>espacio polinómico</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "prisms": {
+            "translated_key": "prismas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either <br>prisms</br> or tetrahedra using the mapping that defines the coarse high-order <br>prisms</br>.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either <br>prisms</br> or tetrahedra using the mapping that defines the coarse high-order <br>prisms</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en <br>prismas</br> o tetraedros utilizando el mapeo que define los <br>prismas</br> gruesos de alto orden."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Output: Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en <br>prismas</br> o tetraedros utilizando el mapeo que define los <br>prismas</br> gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Reynolds number flows": {
+            "translated_key": "número de Reynolds alto",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high <br>Reynolds number flows</br>.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or tetrahedra using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high <br>Reynolds number flows</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de <br>número de Reynolds alto</br>."
+            ],
+            "translated_text": "Output: En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de <br>número de Reynolds alto</br>. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Está basado en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o tetraedros utilizando el mapeo que define los prismas gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "subdivided into either prisms or tetrahedra": {
+            "translated_key": "subdivide en prismas o tetraedros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is <br>subdivided into either prisms or tetrahedra</br> using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is <br>subdivided into either prisms or tetrahedra</br> using the mapping that defines the coarse high-order prisms."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se basa en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de orden superior se <br>subdivide en prismas o tetraedros</br> utilizando el mapeo que define los prismas gruesos de orden superior."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Output: Se basa en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de orden superior se <br>subdivide en prismas o tetraedros</br> utilizando el mapeo que define los prismas gruesos de orden superior. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "tetrahedra": {
+            "translated_key": "tetraedros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we propose a method which adopts a different approach to the generation procedure outlined above and that helps to address the problem of generating high-order meshes for high Reynolds number flows.",
+                "The method is conceptually simple, cheap to implement and does not require a dense linear boundary-layer mesh.",
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or <br>tetrahedra</br> using the mapping that defines the coarse high-order prisms.",
+                "The procedure is also very versatile as it permits meshes with different distributions of y+ to be generated with ease and furthermore, the validity of these meshes is guaranteed if the initial mesh is valid and the polynomial space is chosen appropriately."
+            ],
+            "original_annotated_samples": [
+                "It is based on the use of an isoparametric [17] or, in general, a transfinite interpolation [18] where a high-order coarse boundary-layer prismatic mesh is subdivided into either prisms or <br>tetrahedra</br> using the mapping that defines the coarse high-order prisms."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se basa en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o <br>tetraedros</br> utilizando el mapeo que define los prismas gruesos de alto orden."
+            ],
+            "translated_text": "En este artículo proponemos un método que adopta un enfoque diferente al procedimiento de generación mencionado anteriormente y que ayuda a abordar el problema de generar mallas de alto orden para flujos de alto número de Reynolds. El método es conceptualmente simple, económico de implementar y no requiere una malla densa de capa límite lineal. Output: Se basa en el uso de una interpolación isoparamétrica [17] o, en general, una interpolación transfinida [18] donde una malla prismática de capa límite gruesa de alto orden se subdivide en prismas o <br>tetraedros</br> utilizando el mapeo que define los prismas gruesos de alto orden. El procedimiento también es muy versátil, ya que permite generar mallas con diferentes distribuciones de y+ con facilidad y, además, la validez de estas mallas está garantizada si la malla inicial es válida y el espacio polinómico se elige adecuadamente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

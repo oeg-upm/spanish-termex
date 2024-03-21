@@ -1,0 +1,350 @@
+{
+    "id": "S0010938X1530161X",
+    "original_text": "A key part of this problem is that an inspector only has access to data from a small inspected area. In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses. An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks. In each block the minimum thickness is recorded. This set forms a sample of the smallest thickness measurements. From this sample, one can build a model which takes into account the variations of the smallest thickness measurements. Extreme value analysis (EVA) provides a limiting form for this model. It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD).",
+    "original_translation": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Un inspector puede generar una muestra de las mediciones de menor grosor dividiendo los datos de inspección en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD).",
+    "original_sentences": [
+        "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+        "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+        "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+        "In each block the minimum thickness is recorded.",
+        "This set forms a sample of the smallest thickness measurements.",
+        "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+        "Extreme value analysis (EVA) provides a limiting form for this model.",
+        "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+    ],
+    "error_count": 0,
+    "keys": {
+        "block": {
+            "translated_key": "bloque",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "In each <br>block</br> the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each <br>block</br> are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "In each <br>block</br> the minimum thickness is recorded.",
+                "It states that, if the underlying thickness measurements in each <br>block</br> are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "translated_annotated_samples": [
+                "Output: En cada <br>bloque</br> se registra el grosor mínimo.",
+                "Output: Se establece que, si las mediciones de grosor subyacentes en cada <br>bloque</br> se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD)."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Un inspector puede generar una muestra de las mediciones de menor grosor dividiendo los datos de inspección en varios bloques de tamaño igual. Output: En cada <br>bloque</br> se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Output: Se establece que, si las mediciones de grosor subyacentes en cada <br>bloque</br> se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "build a model of the smallest thicknesses": {
+            "translated_key": "construir un modelo de los grosores más pequeños",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to <br>build a model of the smallest thicknesses</br>.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "In this area, there is only one minimum thickness, which does not provide enough information to <br>build a model of the smallest thicknesses</br>."
+            ],
+            "translated_annotated_samples": [
+                "En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para <br>construir un modelo de los grosores más pequeños</br>."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para <br>construir un modelo de los grosores más pequeños</br>. Un inspector puede generar una muestra de las mediciones de menor grosor dividiendo los datos de inspección en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "equally sized blocks": {
+            "translated_key": "bloques de tamaño igual",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of <br>equally sized blocks</br>.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of <br>equally sized blocks</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Un inspector puede generar una muestra de las mediciones de grosor más pequeñas al dividir los datos de inspección en una serie de <br>bloques de tamaño igual</br>."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Output: Un inspector puede generar una muestra de las mediciones de grosor más pequeñas al dividir los datos de inspección en una serie de <br>bloques de tamaño igual</br>. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "EVA": {
+            "translated_key": "EVA",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (<br>EVA</br>) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "Extreme value analysis (<br>EVA</br>) provides a limiting form for this model."
+            ],
+            "translated_annotated_samples": [
+                "Output: El análisis de valores extremos (<br>EVA</br>) proporciona una forma límite para este modelo."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Un inspector puede generar una muestra de las mediciones de menor grosor dividiendo los datos de inspección en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. Output: El análisis de valores extremos (<br>EVA</br>) proporciona una forma límite para este modelo. Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Extreme value analysis": {
+            "translated_key": "El análisis de valores extremos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "<br>Extreme value analysis</br> (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "<br>Extreme value analysis</br> (EVA) provides a limiting form for this model."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>El análisis de valores extremos</br> (EVA) proporciona una forma límite para este modelo."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Un inspector puede generar una muestra de las mediciones de menor grosor dividiendo los datos de inspección en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. Output: <br>El análisis de valores extremos</br> (EVA) proporciona una forma límite para este modelo. Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "generalized extreme value distribution": {
+            "translated_key": " distribución de valores extremos generalizada ",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a <br>generalized extreme value distribution</br> (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a <br>generalized extreme value distribution</br> (GEVD)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimas seguirá una <br> distribución de valores extremos generalizada </br> (GEVD)."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Un inspector puede generar una muestra de las mediciones de menor grosor dividiendo los datos de inspección en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Output: Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimas seguirá una <br> distribución de valores extremos generalizada </br> (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GEVD": {
+            "translated_key": "GEVD",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (<br>GEVD</br>)."
+            ],
+            "original_annotated_samples": [
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (<br>GEVD</br>)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se establece que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (<br>GEVD</br>)."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Un inspector puede generar una muestra de las mediciones de menor grosor dividiendo los datos de inspección en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Output: Se establece que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (<br>GEVD</br>). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "inspection data": {
+            "translated_key": "inspección",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the <br>inspection data</br> into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the <br>inspection data</br> into a number of equally sized blocks."
+            ],
+            "translated_annotated_samples": [
+                "Output: Un inspector puede generar una muestra de las mediciones de grosor más pequeñas al dividir los datos de <br>inspección</br> en varios bloques de tamaño igual."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Output: Un inspector puede generar una muestra de las mediciones de grosor más pequeñas al dividir los datos de <br>inspección</br> en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "model of the smallest thicknesses": {
+            "translated_key": "modelo de los grosores más pequeños",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a <br>model of the smallest thicknesses</br>.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a <br>model of the smallest thicknesses</br>."
+            ],
+            "translated_annotated_samples": [
+                "En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un <br>modelo de los grosores más pequeños</br>."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un <br>modelo de los grosores más pequeños</br>. Un inspector puede generar una muestra de las mediciones de menor grosor dividiendo los datos de inspección en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "model which takes into account the variations of the smallest thickness measurements": {
+            "translated_key": "modelo que tenga en cuenta las variaciones de las medidas de menor grosor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a sample of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a <br>model which takes into account the variations of the smallest thickness measurements</br>.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "From this sample, one can build a <br>model which takes into account the variations of the smallest thickness measurements</br>."
+            ],
+            "translated_annotated_samples": [
+                "A partir de esta muestra, se puede construir un <br>modelo que tenga en cuenta las variaciones de las medidas de menor grosor</br>."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Un inspector puede generar una muestra de las mediciones de menor grosor dividiendo los datos de inspección en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un <br>modelo que tenga en cuenta las variaciones de las medidas de menor grosor</br>. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "partitioning the inspection data": {
+            "translated_key": "dividir los datos de inspección",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a sample of the smallest thickness measurements by <br>partitioning the inspection data</br> into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a sample of the smallest thickness measurements.",
+                "From this sample, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the sample of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "An inspector can generate a sample of the smallest thickness measurements by <br>partitioning the inspection data</br> into a number of equally sized blocks."
+            ],
+            "translated_annotated_samples": [
+                "Output: Un inspector puede generar una muestra de las mediciones de grosor más pequeñas al <br>dividir los datos de inspección</br> en una serie de bloques de tamaño igual."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Output: Un inspector puede generar una muestra de las mediciones de grosor más pequeñas al <br>dividir los datos de inspección</br> en una serie de bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Este conjunto forma una muestra de las mediciones de menor grosor. A partir de esta muestra, se puede construir un modelo que tenga en cuenta las variaciones de las mediciones de menor grosor. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Indica que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la muestra de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "sample": {
+            "translated_key": "muestra",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "A key part of this problem is that an inspector only has access to data from a small inspected area.",
+                "In this area, there is only one minimum thickness, which does not provide enough information to build a model of the smallest thicknesses.",
+                "An inspector can generate a <br>sample</br> of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "In each block the minimum thickness is recorded.",
+                "This set forms a <br>sample</br> of the smallest thickness measurements.",
+                "From this <br>sample</br>, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "Extreme value analysis (EVA) provides a limiting form for this model.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the <br>sample</br> of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "original_annotated_samples": [
+                "An inspector can generate a <br>sample</br> of the smallest thickness measurements by partitioning the inspection data into a number of equally sized blocks.",
+                "This set forms a <br>sample</br> of the smallest thickness measurements.",
+                "From this <br>sample</br>, one can build a model which takes into account the variations of the smallest thickness measurements.",
+                "It states that, if the underlying thickness measurements in each block are taken from independent and identical distributions, then the <br>sample</br> of minimum thickness measurements will follow a generalized extreme value distribution (GEVD)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Un inspector puede generar una <br>muestra</br> de las mediciones de grosor más pequeñas al dividir los datos de inspección en varios bloques de tamaño igual.",
+                "Output: Este conjunto forma una <br>muestra</br> de las mediciones de grosor más pequeñas.",
+                "Output: A partir de esta <br>muestra</br>, se puede construir un modelo que tenga en cuenta las variaciones de las medidas de grosor más pequeñas.",
+                "Output: Se establece que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la <br>muestra</br> de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD)."
+            ],
+            "translated_text": "Una parte clave de este problema es que un inspector solo tiene acceso a datos de una pequeña área inspeccionada. En esta área, solo hay un grosor mínimo, que no proporciona suficiente información para construir un modelo de los grosores más pequeños. Output: Un inspector puede generar una <br>muestra</br> de las mediciones de grosor más pequeñas al dividir los datos de inspección en varios bloques de tamaño igual. En cada bloque se registra el grosor mínimo. Output: Este conjunto forma una <br>muestra</br> de las mediciones de grosor más pequeñas. Output: A partir de esta <br>muestra</br>, se puede construir un modelo que tenga en cuenta las variaciones de las medidas de grosor más pequeñas. El análisis de valores extremos (EVA) proporciona una forma límite para este modelo. Output: Se establece que, si las mediciones de grosor subyacentes en cada bloque se toman de distribuciones independientes e idénticas, entonces la <br>muestra</br> de las mediciones de grosor mínimo seguirá una distribución de valores extremos generalizada (GEVD). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,506 @@
+{
+    "id": "S0957417416301786",
+    "original_text": "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms. In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity. However, there are problems to be solved in SW-SVR. Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data. In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3. This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction. If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data. Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data. Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR. Moreover, each algorithm has several parameters. Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters. In this experiment, we used a grid search roughly so as to decide the parameters in a certain time. However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006).",
+    "original_translation": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006).",
+    "original_sentences": [
+        "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+        "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+        "However, there are problems to be solved in SW-SVR.",
+        "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+        "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+        "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+        "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+        "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+        "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+        "Moreover, each algorithm has several parameters.",
+        "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+        "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+        "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+    ],
+    "error_count": 1,
+    "keys": {
+        "combination of several algorithms": {
+            "translated_key": "combinación de varios algoritmos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a <br>combination of several algorithms</br>: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "Meanwhile, SW-SVR is based on a <br>combination of several algorithms</br>: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR."
+            ],
+            "translated_annotated_samples": [
+                "Output: Mientras tanto, SW-SVR se basa en una <br>combinación de varios algoritmos</br>: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Output: Mientras tanto, SW-SVR se basa en una <br>combinación de varios algoritmos</br>: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "D-SDC": {
+            "translated_key": "D-SDC",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by <br>D-SDC</br> is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by <br>D-SDC</br> involves unnecessary training data for highly accurate prediction.",
+                "If <br>D-SDC</br> extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of <br>D-SDC</br> so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, <br>D-SDC</br>, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by <br>D-SDC</br> is effective for compatibility of high prediction performance and low computational complexity.",
+                "This is because data extracted by <br>D-SDC</br> involves unnecessary training data for highly accurate prediction.",
+                "If <br>D-SDC</br> extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of <br>D-SDC</br> so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, <br>D-SDC</br>, and linear SVR."
+            ],
+            "translated_annotated_samples": [
+                "Output: En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por <br>D-SDC</br> es efectiva para lograr una alta compatibilidad entre un rendimiento de predicción alto y una baja complejidad computacional.",
+                "Output: Esto se debe a que los datos extraídos por <br>D-SDC</br> involucran datos de entrenamiento innecesarios para una predicción altamente precisa.",
+                "Output: Si <br>D-SDC</br> extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento.",
+                "Output: Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de <br>D-SDC</br> para evitar extraer datos de entrenamiento innecesarios.",
+                "Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, <br>D-SDC</br> y SVR lineal."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. Output: En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por <br>D-SDC</br> es efectiva para lograr una alta compatibilidad entre un rendimiento de predicción alto y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Output: Esto se debe a que los datos extraídos por <br>D-SDC</br> involucran datos de entrenamiento innecesarios para una predicción altamente precisa. Output: Si <br>D-SDC</br> extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Output: Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de <br>D-SDC</br> para evitar extraer datos de entrenamiento innecesarios. Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, <br>D-SDC</br> y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "dynamic aggregation of models": {
+            "translated_key": "agregación dinámica de modelos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that <br>dynamic aggregation of models</br> built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "In particular, we found that <br>dynamic aggregation of models</br> built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity."
+            ],
+            "translated_annotated_samples": [
+                "Output: En particular, encontramos que la <br>agregación dinámica de modelos</br> construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. Output: En particular, encontramos que la <br>agregación dinámica de modelos</br> construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "genetic algorithm": {
+            "translated_key": "algoritmo genético",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a <br>genetic algorithm</br> instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a <br>genetic algorithm</br> instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "translated_annotated_samples": [
+                "Output: Sin embargo, todavía hay margen para mejorar el rendimiento de predicción mediante el uso de otros enfoques como un <br>algoritmo genético</br> en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006)."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Output: Sin embargo, todavía hay margen para mejorar el rendimiento de predicción mediante el uso de otros enfoques como un <br>algoritmo genético</br> en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "grid search": {
+            "translated_key": "búsqueda en cuadrícula",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a <br>grid search</br> roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a <br>grid search</br> (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "In this experiment, we used a <br>grid search</br> roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a <br>grid search</br> (Huang & Wang, 2006)."
+            ],
+            "translated_annotated_samples": [
+                "Output: En este experimento, utilizamos una <br>búsqueda en cuadrícula</br> aproximadamente para decidir los parámetros en un cierto tiempo.",
+                "Output: Sin embargo, todavía hay margen de mejora en el rendimiento de predicción al utilizar otros enfoques como un algoritmo genético en lugar de una <br>búsqueda en cuadrícula</br> (Huang & Wang, 2006)."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. Output: En este experimento, utilizamos una <br>búsqueda en cuadrícula</br> aproximadamente para decidir los parámetros en un cierto tiempo. Output: Sin embargo, todavía hay margen de mejora en el rendimiento de predicción al utilizar otros enfoques como un algoritmo genético en lugar de una <br>búsqueda en cuadrícula</br> (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "kernel approximation": {
+            "translated_key": "aproximación de núcleo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: <br>kernel approximation</br>, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: <br>kernel approximation</br>, PLS regression, k-means, D-SDC, and linear SVR."
+            ],
+            "translated_annotated_samples": [
+                "Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: <br>aproximación de núcleo</br>, regresión PLS, k-means, D-SDC y SVR lineal."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: <br>aproximación de núcleo</br>, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "k-means": {
+            "translated_key": "k-means",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, <br>k-means</br>, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, <br>k-means</br>, D-SDC, and linear SVR."
+            ],
+            "translated_annotated_samples": [
+                "Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, <br>k-means</br>, D-SDC y SVR lineal."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, <br>k-means</br>, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "linear SVR": {
+            "translated_key": "SVR lineal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and <br>linear SVR</br>.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and <br>linear SVR</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y <br>SVR lineal</br>."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y <br>SVR lineal</br>. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "micrometeorological data": {
+            "translated_key": "micrometeorológicos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated <br>micrometeorological data</br> with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "These results demonstrate that SW-SVR predicts complicated <br>micrometeorological data</br> with the best prediction performance and the lowest computational complexity compared with standard algorithms."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos resultados demuestran que SW-SVR predice datos <br>micrometeorológicos</br> complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar."
+            ],
+            "translated_text": "Output: Estos resultados demuestran que SW-SVR predice datos <br>micrometeorológicos</br> complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PLS regression": {
+            "translated_key": "PLS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, <br>PLS regression</br>, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, <br>PLS regression</br>, k-means, D-SDC, and linear SVR."
+            ],
+            "translated_annotated_samples": [
+                "Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión <br>PLS</br>, k-means, D-SDC y SVR lineal."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Output: Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión <br>PLS</br>, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "standard algorithms": {
+            "translated_key": "algoritmos estándar",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with <br>standard algorithms</br>.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with <br>standard algorithms</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con <br>algoritmos estándar</br>."
+            ],
+            "translated_text": "Output: Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con <br>algoritmos estándar</br>. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "SW-SVR": {
+            "translated_key": "SW-SVR",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that <br>SW-SVR</br> predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in <br>SW-SVR</br>.",
+                "Firstly, the prediction performance of <br>SW-SVR</br> sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of <br>SW-SVR</br> never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, <br>SW-SVR</br> is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, <br>SW-SVR</br> has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "These results demonstrate that <br>SW-SVR</br> predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "However, there are problems to be solved in <br>SW-SVR</br>.",
+                "Firstly, the prediction performance of <br>SW-SVR</br> sometimes deteriorates despite an increase of training data.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of <br>SW-SVR</br> never deteriorates due to an increase of training data.",
+                "Meanwhile, <br>SW-SVR</br> is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Therefore, <br>SW-SVR</br> has more varied parameters, and it takes more time to tune the parameters."
+            ],
+            "translated_annotated_samples": [
+                "Output: Estos resultados demuestran que <br>SW-SVR</br> predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar.",
+                "Output: Sin embargo, hay problemas que deben resolverse en <br>SW-SVR</br>.",
+                "Output: En primer lugar, el rendimiento de predicción de <br>SW-SVR</br> a veces empeora a pesar de un aumento de los datos de entrenamiento.",
+                "Output: Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de <br>SW-SVR</br> nunca empeora debido a un aumento de datos de entrenamiento.",
+                "Output: Mientras tanto, <br>SW-SVR</br> se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal.",
+                "Output: Por lo tanto, <br>SW-SVR</br> tiene parámetros más variados y lleva más tiempo ajustar los parámetros."
+            ],
+            "translated_text": "Output: Estos resultados demuestran que <br>SW-SVR</br> predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Output: Sin embargo, hay problemas que deben resolverse en <br>SW-SVR</br>. Output: En primer lugar, el rendimiento de predicción de <br>SW-SVR</br> a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Output: Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de <br>SW-SVR</br> nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Output: Mientras tanto, <br>SW-SVR</br> se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Output: Por lo tanto, <br>SW-SVR</br> tiene parámetros más variados y lleva más tiempo ajustar los parámetros. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "training data": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of <br>training data</br>.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary <br>training data</br> for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of <br>training data</br>.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary <br>training data</br>.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to tune the parameters.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of <br>training data</br>.",
+                "This is because data extracted by D-SDC involves unnecessary <br>training data</br> for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of <br>training data</br>.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary <br>training data</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de <br>datos de entrenamiento</br>.",
+                "Output: Esto se debe a que los datos extraídos por D-SDC involucran datos de <br>entrenamiento innecesarios</br> para una predicción altamente precisa.",
+                "Output: Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de <br>datos de entrenamiento</br>.",
+                "Output: Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de <br>entrenamiento innecesarios</br>."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. Output: En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de <br>datos de entrenamiento</br>. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Output: Esto se debe a que los datos extraídos por D-SDC involucran datos de <br>entrenamiento innecesarios</br> para una predicción altamente precisa. Output: Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de <br>datos de entrenamiento</br>. Output: Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de <br>entrenamiento innecesarios</br>. Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Por lo tanto, SW-SVR tiene parámetros más variados y lleva más tiempo ajustarlos. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    "datos de entrenamiento",
+                    "entrenamiento innecesarios",
+                    "datos de entrenamiento",
+                    "entrenamiento innecesarios"
+                ],
+                [
+                    "datos de entrenamiento",
+                    "entrenamiento innecesarios",
+                    "datos de entrenamiento",
+                    "entrenamiento innecesarios"
+                ]
+            ]
+        },
+        "tune the parameters": {
+            "translated_key": "ajustar los parámetros",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "These results demonstrate that SW-SVR predicts complicated micrometeorological data with the best prediction performance and the lowest computational complexity compared with standard algorithms.",
+                "In particular, we found that dynamic aggregation of models built from very little extracted data by D-SDC is effective for compatibility of high prediction performance and low computational complexity.",
+                "However, there are problems to be solved in SW-SVR.",
+                "Firstly, the prediction performance of SW-SVR sometimes deteriorates despite an increase of training data.",
+                "In particular, this problem occurred under the conditions that prediction horizons are 6 h as shown in Fig. 3.",
+                "This is because data extracted by D-SDC involves unnecessary training data for highly accurate prediction.",
+                "If D-SDC extracts the same data as the extracted data when training periods are shorter, the prediction performance of SW-SVR never deteriorates due to an increase of training data.",
+                "Therefore, we must review both feature mapping and algorithms of D-SDC so as to avoid extracting unnecessary training data.",
+                "Meanwhile, SW-SVR is based on a combination of several algorithms: kernel approximation, PLS regression, k-means, D-SDC, and linear SVR.",
+                "Moreover, each algorithm has several parameters.",
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to <br>tune the parameters</br>.",
+                "In this experiment, we used a grid search roughly so as to decide the parameters in a certain time.",
+                "However, there is still room for improvement in the prediction performance by using other approaches such as a genetic algorithm instead of a grid search (Huang & Wang, 2006)."
+            ],
+            "original_annotated_samples": [
+                "Therefore, SW-SVR has more varied parameters, and it takes more time to <br>tune the parameters</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Por lo tanto, SW-SVR tiene parámetros más variados, y lleva más tiempo <br>ajustar los parámetros</br>."
+            ],
+            "translated_text": "Estos resultados demuestran que SW-SVR predice datos micrometeorológicos complicados con el mejor rendimiento de predicción y la menor complejidad computacional en comparación con los algoritmos estándar. En particular, encontramos que la agregación dinámica de modelos construidos a partir de muy pocos datos extraídos por D-SDC es efectiva para lograr una alta predicción de rendimiento y una baja complejidad computacional. Sin embargo, hay problemas que deben resolverse en SW-SVR. En primer lugar, el rendimiento de predicción de SW-SVR a veces empeora a pesar de un aumento de los datos de entrenamiento. En particular, este problema ocurrió bajo las condiciones en las que los horizontes de predicción son de 6 h como se muestra en la Figura 3. Esto se debe a que los datos extraídos por D-SDC incluyen datos de entrenamiento innecesarios para una predicción altamente precisa. Si D-SDC extrae los mismos datos que los datos extraídos cuando los períodos de entrenamiento son más cortos, el rendimiento de predicción de SW-SVR nunca empeora debido a un aumento de datos de entrenamiento. Por lo tanto, debemos revisar tanto el mapeo de características como los algoritmos de D-SDC para evitar extraer datos de entrenamiento innecesarios. Mientras tanto, SW-SVR se basa en una combinación de varios algoritmos: aproximación de núcleo, regresión PLS, k-means, D-SDC y SVR lineal. Además, cada algoritmo tiene varios parámetros. Output: Por lo tanto, SW-SVR tiene parámetros más variados, y lleva más tiempo <br>ajustar los parámetros</br>. En este experimento, utilizamos una búsqueda en cuadrícula aproximadamente para decidir los parámetros en un tiempo determinado. Sin embargo, todavía hay margen para mejorar el rendimiento de predicción utilizando otros enfoques como un algoritmo genético en lugar de una búsqueda en cuadrícula (Huang & Wang, 2006). ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

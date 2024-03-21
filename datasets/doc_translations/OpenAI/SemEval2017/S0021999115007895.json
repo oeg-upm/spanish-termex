@@ -1,0 +1,583 @@
+{
+    "id": "S0021999115007895",
+    "original_text": "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework. The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19]. This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral. Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system. This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws. When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level. Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance.",
+    "original_translation": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia.",
+    "original_sentences": [
+        "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+        "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+        "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+        "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+        "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+        "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+        "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+    ],
+    "error_count": 2,
+    "keys": {
+        "action integral": {
+            "translated_key": "integral de acción",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an <br>action integral</br>.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an <br>action integral</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una <br>integral de acción</br>."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Output: Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una <br>integral de acción</br>. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "approach": {
+            "translated_key": "enfoque",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This <br>approach</br> allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "This <br>approach</br> allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este <br>enfoque</br> permite expresar toda la dinámica de un sistema en una sola función: el Lagrangiano, que es una integral de acción."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Output: Este <br>enfoque</br> permite expresar toda la dinámica de un sistema en una sola función: el Lagrangiano, que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "dynamics of a system": {
+            "translated_key": "dinámica de un sistema",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the <br>dynamics of a system</br> in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "This approach allows to express all the <br>dynamics of a system</br> in a single functional – the Lagrangian – which is an action integral."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este enfoque permite expresar toda la <br>dinámica de un sistema</br> en una sola función: el Lagrangiano, que es una integral de acción."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Output: Este enfoque permite expresar toda la <br>dinámica de un sistema</br> en una sola función: el Lagrangiano, que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "express all the dynamics of a system": {
+            "translated_key": "expresar toda la dinámica de un sistema",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to <br>express all the dynamics of a system</br> in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "This approach allows to <br>express all the dynamics of a system</br> in a single functional – the Lagrangian – which is an action integral."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este enfoque permite <br>expresar toda la dinámica de un sistema</br> en una sola función - el Lagrangiano - que es una integral de acción."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Output: Este enfoque permite <br>expresar toda la dinámica de un sistema</br> en una sola función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "framework": {
+            "translated_key": "marco",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational <br>framework</br>.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient <br>framework</br> to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational <br>framework</br>.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient <br>framework</br> to study the symmetry properties of a system."
+            ],
+            "translated_annotated_samples": [
+                "Output: La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, se puede describir en un <br>marco</br> variacional.",
+                "La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un <br>marco</br> conveniente para estudiar las propiedades de simetría de un sistema."
+            ],
+            "translated_text": "Output: La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, se puede describir en un <br>marco</br> variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un <br>marco</br> conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Hamiltonian mechanics": {
+            "translated_key": "La mecánica hamiltoniana",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "<br>Hamiltonian mechanics</br> is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "<br>Hamiltonian mechanics</br> is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>La mecánica hamiltoniana</br> es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. Output: <br>La mecánica hamiltoniana</br> es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Hamiltonian systems": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of <br>Hamiltonian systems</br> and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that <br>Hamiltonian systems</br> are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of <br>Hamiltonian systems</br> and conservation laws.",
+                "Given that <br>Hamiltonian systems</br> are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "translated_annotated_samples": [
+                "Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los <br>sistemas hamiltonianos</br> y las leyes de conservación.",
+                "Output: Dado que los sistemas <br>Hamiltonianos</br> son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los <br>sistemas hamiltonianos</br> y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Output: Dado que los sistemas <br>Hamiltonianos</br> son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    "sistemas hamiltonianos",
+                    "Hamiltonianos"
+                ],
+                [
+                    "sistemas hamiltonianos",
+                    "Hamiltonianos"
+                ]
+            ]
+        },
+        "Lagrangian": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the <br>Lagrangian</br> – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of <br>Lagrangian</br> mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "This approach allows to express all the dynamics of a system in a single functional – the <br>Lagrangian</br> – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of <br>Lagrangian</br> mechanics which provides a convenient framework to study the symmetry properties of a system."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este enfoque permite expresar toda la dinámica de un sistema en una única función - el <br>Lagrangiano</br> - que es una integral de acción.",
+                "Output: La mecánica hamiltoniana es una reformulación de la mecánica <br>Lagrangiana</br> que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Output: Este enfoque permite expresar toda la dinámica de un sistema en una única función - el <br>Lagrangiano</br> - que es una integral de acción. Output: La mecánica hamiltoniana es una reformulación de la mecánica <br>Lagrangiana</br> que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    "Lagrangiano",
+                    "Lagrangiana"
+                ],
+                [
+                    "Lagrangiano",
+                    "Lagrangiana"
+                ]
+            ]
+        },
+        "movement of pendulums, planets, or water waves": {
+            "translated_key": "movimiento de péndulos, planetas o ondas de agua",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the <br>movement of pendulums, planets, or water waves</br> can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "The dynamics of various physical phenomena, such as the <br>movement of pendulums, planets, or water waves</br> can be described in a variational framework."
+            ],
+            "translated_annotated_samples": [
+                "Output: La dinámica de varios fenómenos físicos, como el <br>movimiento de péndulos, planetas o ondas de agua</br>, se puede describir en un marco variacional."
+            ],
+            "translated_text": "Output: La dinámica de varios fenómenos físicos, como el <br>movimiento de péndulos, planetas o ondas de agua</br>, se puede describir en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical approximation": {
+            "translated_key": "aproximación numérica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their <br>numerical approximation</br> is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "Given that Hamiltonian systems are abundant in nature, their <br>numerical approximation</br> is therefore a topic of significant relevance."
+            ],
+            "translated_annotated_samples": [
+                "Output: Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su <br>aproximación numérica</br> es, por lo tanto, un tema de gran relevancia."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Output: Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su <br>aproximación numérica</br> es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "pendulums": {
+            "translated_key": "péndulos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of <br>pendulums</br>, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "The dynamics of various physical phenomena, such as the movement of <br>pendulums</br>, planets, or water waves can be described in a variational framework."
+            ],
+            "translated_annotated_samples": [
+                "Output: La dinámica de varios fenómenos físicos, como el movimiento de <br>péndulos</br>, planetas o olas de agua, se puede describir en un marco variacional."
+            ],
+            "translated_text": "Output: La dinámica de varios fenómenos físicos, como el movimiento de <br>péndulos</br>, planetas o olas de agua, se puede describir en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "physical phenomena": {
+            "translated_key": "fenómenos físicos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various <br>physical phenomena</br>, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "The dynamics of various <br>physical phenomena</br>, such as the movement of pendulums, planets, or water waves can be described in a variational framework."
+            ],
+            "translated_annotated_samples": [
+                "La dinámica de varios <br>fenómenos físicos</br>, como el movimiento de péndulos, planetas o ondas de agua, se puede describir en un marco variacional."
+            ],
+            "translated_text": "La dinámica de varios <br>fenómenos físicos</br>, como el movimiento de péndulos, planetas o ondas de agua, se puede describir en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "planets": {
+            "translated_key": "planetas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, <br>planets</br>, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, <br>planets</br>, or water waves can be described in a variational framework."
+            ],
+            "translated_annotated_samples": [
+                "Output: La dinámica de varios fenómenos físicos, como el movimiento de péndulos, <br>planetas</br> o olas de agua, se puede describir en un marco variacional."
+            ],
+            "translated_text": "Output: La dinámica de varios fenómenos físicos, como el movimiento de péndulos, <br>planetas</br> o olas de agua, se puede describir en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "reformulation of Lagrangian mechanics": {
+            "translated_key": "reformulación de la mecánica lagrangiana",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a <br>reformulation of Lagrangian mechanics</br> which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "Hamiltonian mechanics is a <br>reformulation of Lagrangian mechanics</br> which provides a convenient framework to study the symmetry properties of a system."
+            ],
+            "translated_annotated_samples": [
+                "Output: La mecánica hamiltoniana es una <br>reformulación de la mecánica lagrangiana</br> que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. Output: La mecánica hamiltoniana es una <br>reformulación de la mecánica lagrangiana</br> que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "single functional": {
+            "translated_key": "función única",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a <br>single functional</br> – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "This approach allows to express all the dynamics of a system in a <br>single functional</br> – the Lagrangian – which is an action integral."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este enfoque permite expresar toda la dinámica de un sistema en una <br>función única</br> - el Lagrangiano - que es una integral de acción."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Output: Este enfoque permite expresar toda la dinámica de un sistema en una <br>función única</br> - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "study the symmetry properties of a system": {
+            "translated_key": "estudiar las propiedades de simetría de un sistema",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to <br>study the symmetry properties of a system</br>.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to <br>study the symmetry properties of a system</br>."
+            ],
+            "translated_annotated_samples": [
+                "La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para <br>estudiar las propiedades de simetría de un sistema</br>."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para <br>estudiar las propiedades de simetría de un sistema</br>. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "system": {
+            "translated_key": "sistema",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a <br>system</br> in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a <br>system</br>.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the <br>system</br> numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "This approach allows to express all the dynamics of a <br>system</br> in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a <br>system</br>.",
+                "When one approximates the <br>system</br> numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level."
+            ],
+            "translated_annotated_samples": [
+                "Output: Este enfoque permite expresar toda la dinámica de un <br>sistema</br> en una sola funcional, el Lagrangiano, que es una integral de acción.",
+                "Output: La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un <br>sistema</br>.",
+                "Output: Cuando uno aproxima el <br>sistema</br> numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Output: Este enfoque permite expresar toda la dinámica de un <br>sistema</br> en una sola funcional, el Lagrangiano, que es una integral de acción. Output: La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un <br>sistema</br>. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Output: Cuando uno aproxima el <br>sistema</br> numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "The dynamics of various physical phenomena": {
+            "translated_key": "La dinámica de varios fenómenos físicos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>The dynamics of various physical phenomena</br>, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "<br>The dynamics of various physical phenomena</br>, such as the movement of pendulums, planets, or water waves can be described in a variational framework."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>La dinámica de varios fenómenos físicos</br>, como el movimiento de péndulos, planetas o olas de agua, se puede describir en un marco variacional."
+            ],
+            "translated_text": "Output: <br>La dinámica de varios fenómenos físicos</br>, como el movimiento de péndulos, planetas o olas de agua, se puede describir en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "variational framework": {
+            "translated_key": "marco variacional",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a <br>variational framework</br>.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a <br>variational framework</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, se puede describir en un <br>marco variacional</br>."
+            ],
+            "translated_text": "Output: La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, se puede describir en un <br>marco variacional</br>. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "variational principles": {
+            "translated_key": "principios variacionales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.",
+                "The development of <br>variational principles</br> for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "The development of <br>variational principles</br> for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19]."
+            ],
+            "translated_annotated_samples": [
+                "Output: El desarrollo de los <br>principios variacionales</br> para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]."
+            ],
+            "translated_text": "La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o ondas de agua, puede ser descrita en un marco variacional. Output: El desarrollo de los <br>principios variacionales</br> para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "water waves": {
+            "translated_key": "ondas de agua",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or <br>water waves</br> can be described in a variational framework.",
+                "The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].",
+                "This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.",
+                "Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.",
+                "This is expressed by Noethers theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.",
+                "When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.",
+                "Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance."
+            ],
+            "original_annotated_samples": [
+                "The dynamics of various physical phenomena, such as the movement of pendulums, planets, or <br>water waves</br> can be described in a variational framework."
+            ],
+            "translated_annotated_samples": [
+                "Output: La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o <br>ondas de agua</br>, se puede describir en un marco variacional."
+            ],
+            "translated_text": "Output: La dinámica de varios fenómenos físicos, como el movimiento de péndulos, planetas o <br>ondas de agua</br>, se puede describir en un marco variacional. El desarrollo de los principios de variación para la mecánica clásica se remonta a Euler, Lagrange y Hamilton; una visión general de esta historia se puede encontrar en [1,19]. Este enfoque permite expresar toda la dinámica de un sistema en una única función - el Lagrangiano - que es una integral de acción. La mecánica hamiltoniana es una reformulación de la mecánica lagrangiana que proporciona un marco conveniente para estudiar las propiedades de simetría de un sistema. Esto se expresa mediante el teorema de Noether, que establece la conexión directa entre las propiedades de simetría de los sistemas hamiltonianos y las leyes de conservación. Cuando se aproxima el sistema numéricamente, es ventajoso preservar la estructura hamiltoniana también a nivel discreto. Dado que los sistemas hamiltonianos son abundantes en la naturaleza, su aproximación numérica es, por lo tanto, un tema de gran relevancia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

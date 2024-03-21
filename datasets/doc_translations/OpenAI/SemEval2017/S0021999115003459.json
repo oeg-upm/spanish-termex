@@ -1,0 +1,402 @@
+{
+    "id": "S0021999115003459",
+    "original_text": "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM. First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process. Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis. In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11]. To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM. The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution. For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16].",
+    "original_translation": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16].",
+    "original_sentences": [
+        "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+        "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+        "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+        "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+        "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+        "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+        "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+    ],
+    "error_count": 1,
+    "keys": {
+        "adjoint approach": {
+            "translated_key": "adjunto",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the <br>adjoint approach</br> and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "To this purpose, we use the <br>adjoint approach</br> and solve the primary and the adjoint boundary value problems with BEM."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para este propósito, utilizamos el enfoque <br>adjunto</br> y resolvemos los problemas de valor límite primario y adjunto con BEM."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Output: Para este propósito, utilizamos el enfoque <br>adjunto</br> y resolvemos los problemas de valor límite primario y adjunto con BEM. Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "BEM": {
+            "translated_key": "BEM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (<br>BEM</br>) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to <br>BEM</br>.",
+                "First of all, <br>BEM</br> relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, <br>BEM</br> is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with <br>BEM</br>.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast <br>BEM</br> in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "The boundary element method (<br>BEM</br>) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to <br>BEM</br>.",
+                "First of all, <br>BEM</br> relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, <br>BEM</br> is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with <br>BEM</br>.",
+                "For some recent applications of fast <br>BEM</br> in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de elementos de contorno (<br>BEM</br>) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al <br>BEM</br>.",
+                "Output: En primer lugar, <br>BEM</br> se basa únicamente en una discretización de superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma.",
+                "Output: Además, <br>BEM</br> es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos.",
+                "Output: Para este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con <br>BEM</br>.",
+                "Output: Para algunas aplicaciones recientes de BEM rápido en optimización de forma y problemas de frontera libre tipo Bernoulli, nos referimos a [14–16]."
+            ],
+            "translated_text": "Output: El método de elementos de contorno (<br>BEM</br>) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al <br>BEM</br>. Output: En primer lugar, <br>BEM</br> se basa únicamente en una discretización de superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Output: Además, <br>BEM</br> es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Output: Para este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con <br>BEM</br>. Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Output: Para algunas aplicaciones recientes de BEM rápido en optimización de forma y problemas de frontera libre tipo Bernoulli, nos referimos a [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Bernoulli-type free-boundary problems": {
+            "translated_key": "Bernoulli",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and <br>Bernoulli-type free-boundary problems</br> we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "For some recent applications of fast BEM in shape optimisation and <br>Bernoulli-type free-boundary problems</br> we refer to [14–16]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para algunas aplicaciones recientes de BEM rápido en optimización de forma y problemas de límites libres de tipo <br>Bernoulli</br> nos referimos a [14–16]."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Output: Para algunas aplicaciones recientes de BEM rápido en optimización de forma y problemas de límites libres de tipo <br>Bernoulli</br> nos referimos a [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "boundary element method": {
+            "translated_key": "(BEM)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The <br>boundary element method</br> (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "The <br>boundary element method</br> (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de elementos de contorno <br>(BEM)</br> tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4-8] para una introducción al BEM."
+            ],
+            "translated_text": "Output: El método de elementos de contorno <br>(BEM)</br> tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4-8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "electrostatic field analysis": {
+            "translated_key": "electrostáticos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in <br>electrostatic field analysis</br>.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in <br>electrostatic field analysis</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, el Método de los Elementos de Borde es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos <br>electrostáticos</br>."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Output: Además, el Método de los Elementos de Borde es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos <br>electrostáticos</br>. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fast BEM in shape optimisation": {
+            "translated_key": "BEM rápido en optimización de forma",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of <br>fast BEM in shape optimisation</br> and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "For some recent applications of <br>fast BEM in shape optimisation</br> and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para algunas aplicaciones recientes de <br>BEM rápido en optimización de forma</br> y problemas de frontera libre tipo Bernoulli, consultamos [14-16]."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Output: Para algunas aplicaciones recientes de <br>BEM rápido en optimización de forma</br> y problemas de frontera libre tipo Bernoulli, consultamos [14-16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fast multipole method": {
+            "translated_key": "método multipolo rápido",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the <br>fast multipole method</br> [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "The associated linear systems of equations are dense and an acceleration technique, such as the <br>fast multipole method</br> [12,13], is necessary for their efficient solution."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el <br>método multipolo rápido</br> [12,13], para su solución eficiente."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Output: Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el <br>método multipolo rápido</br> [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "gradient-based shape optimisation": {
+            "translated_key": "optimización de forma basada en gradientes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In <br>gradient-based shape optimisation</br> the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "In <br>gradient-based shape optimisation</br> the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11]."
+            ],
+            "translated_annotated_samples": [
+                "Output: En la <br>optimización de forma basada en gradientes</br> se necesita la derivada de la forma del funcional de coste con respecto a las perturbaciones de la geometría [9-11]."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. Output: En la <br>optimización de forma basada en gradientes</br> se necesita la derivada de la forma del funcional de coste con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "primary and the adjoint boundary value problems": {
+            "translated_key": "problemas de valor límite primario y adjunto",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the <br>primary and the adjoint boundary value problems</br> with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "To this purpose, we use the adjoint approach and solve the <br>primary and the adjoint boundary value problems</br> with BEM."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para este propósito, utilizamos el enfoque adjunto y resolvemos los <br>problemas de valor límite primario y adjunto</br> con BEM."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Output: Para este propósito, utilizamos el enfoque adjunto y resolvemos los <br>problemas de valor límite primario y adjunto</br> con BEM. Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "shape derivative": {
+            "translated_key": "derivada de la forma",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the <br>shape derivative</br> of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "In gradient-based shape optimisation the <br>shape derivative</br> of the cost functional with respect to geometry perturbations is needed [9–11]."
+            ],
+            "translated_annotated_samples": [
+                "Output: En la optimización de forma basada en gradientes, se necesita la <br>derivada de la forma</br> del funcional de coste con respecto a las perturbaciones de la geometría [9–11]."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. Output: En la optimización de forma basada en gradientes, se necesita la <br>derivada de la forma</br> del funcional de coste con respecto a las perturbaciones de la geometría [9–11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "shape optimisation": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to <br>shape optimisation</br> of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the <br>shape optimisation</br> process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based <br>shape optimisation</br> the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in <br>shape optimisation</br> and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "The boundary element method (BEM) has clear advantages when applied to <br>shape optimisation</br> of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the <br>shape optimisation</br> process.",
+                "In gradient-based <br>shape optimisation</br> the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "For some recent applications of fast BEM in <br>shape optimisation</br> and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la <br>optimización de forma</br> de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM.",
+                "Output: En primer lugar, BEM se basa únicamente en una discretización de superficie para que no sea necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de <br>optimización de forma</br>.",
+                "Output: En la optimización de forma basada en gradientes, se necesita la derivada de forma del funcional de coste con respecto a las perturbaciones de la geometría [9–11].",
+                "Output: Para algunas aplicaciones recientes de BEM rápido en la <br>optimización de formas</br> y problemas de contorno libre tipo Bernoulli, consultamos [14-16]."
+            ],
+            "translated_text": "Output: El método de elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la <br>optimización de forma</br> de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. Output: En primer lugar, BEM se basa únicamente en una discretización de superficie para que no sea necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de <br>optimización de forma</br>. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. Output: En la optimización de forma basada en gradientes, se necesita la derivada de forma del funcional de coste con respecto a las perturbaciones de la geometría [9–11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Output: Para algunas aplicaciones recientes de BEM rápido en la <br>optimización de formas</br> y problemas de contorno libre tipo Bernoulli, consultamos [14-16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    "optimización de forma",
+                    "optimización de forma",
+                    "optimización de formas"
+                ],
+                [
+                    "optimización de forma",
+                    "optimización de forma",
+                    "optimización de formas"
+                ]
+            ]
+        },
+        "shape optimisation of high-voltage devices": {
+            "translated_key": "optimización de la forma de dispositivos de alta tensión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to <br>shape optimisation of high-voltage devices</br>, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "The boundary element method (BEM) has clear advantages when applied to <br>shape optimisation of high-voltage devices</br>, see [4–8] for an introduction to BEM."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la <br>optimización de la forma de dispositivos de alta tensión</br>, consulte [4-8] para obtener una introducción al BEM."
+            ],
+            "translated_text": "Output: El método de elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la <br>optimización de la forma de dispositivos de alta tensión</br>, consulte [4-8] para obtener una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "solving problems in unbounded domains": {
+            "translated_key": "resolver problemas en dominios no acotados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a surface discretisation so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for <br>solving problems in unbounded domains</br> that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "Moreover, BEM is ideal for <br>solving problems in unbounded domains</br> that occur in electrostatic field analysis."
+            ],
+            "translated_annotated_samples": [
+                "Output: Además, el Método de los Elementos de Borde es ideal para <br>resolver problemas en dominios no acotados</br> que ocurren en el análisis de campos electrostáticos."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. En primer lugar, el BEM se basa únicamente en una discretización de la superficie, por lo que no es necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Output: Además, el Método de los Elementos de Borde es ideal para <br>resolver problemas en dominios no acotados</br> que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "surface discretisation": {
+            "translated_key": "discretización de superficie",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The boundary element method (BEM) has clear advantages when applied to shape optimisation of high-voltage devices, see [4–8] for an introduction to BEM.",
+                "First of all, BEM relies only on a <br>surface discretisation</br> so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process.",
+                "Moreover, BEM is ideal for solving problems in unbounded domains that occur in electrostatic field analysis.",
+                "In gradient-based shape optimisation the shape derivative of the cost functional with respect to geometry perturbations is needed [9–11].",
+                "To this purpose, we use the adjoint approach and solve the primary and the adjoint boundary value problems with BEM.",
+                "The associated linear systems of equations are dense and an acceleration technique, such as the fast multipole method [12,13], is necessary for their efficient solution.",
+                "For some recent applications of fast BEM in shape optimisation and Bernoulli-type free-boundary problems we refer to [14–16]."
+            ],
+            "original_annotated_samples": [
+                "First of all, BEM relies only on a <br>surface discretisation</br> so that there is no need to maintain an analysis-suitable volume discretisation during the shape optimisation process."
+            ],
+            "translated_annotated_samples": [
+                "Output: En primer lugar, BEM se basa únicamente en una <br>discretización de superficie</br> para que no sea necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma."
+            ],
+            "translated_text": "El método de los elementos de contorno (BEM) tiene claras ventajas cuando se aplica a la optimización de la forma de dispositivos de alta tensión, consulte [4–8] para una introducción al BEM. Output: En primer lugar, BEM se basa únicamente en una <br>discretización de superficie</br> para que no sea necesario mantener una discretización de volumen adecuada para el análisis durante el proceso de optimización de la forma. Además, el Método de los Elementos de Borde (BEM) es ideal para resolver problemas en dominios no acotados que ocurren en el análisis de campos electrostáticos. En la optimización de forma basada en gradientes se necesita la derivada de la forma de la función de costo con respecto a las perturbaciones de la geometría [9-11]. Con este propósito, utilizamos el enfoque adjunto y resolvemos los problemas de valor límite primario y adjunto con el Método de los Elementos Finitos (BEM). Los sistemas lineales de ecuaciones asociados son densos y se requiere una técnica de aceleración, como el método multipolo rápido [12,13], para su solución eficiente. Para algunas aplicaciones recientes de la MEF rápida en optimización de forma y problemas de frontera libre tipo Bernoulli, consulte [14–16]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

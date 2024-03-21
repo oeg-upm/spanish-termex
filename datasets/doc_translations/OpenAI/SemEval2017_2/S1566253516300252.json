@@ -1,0 +1,471 @@
+{
+    "id": "S1566253516300252",
+    "original_text": "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models. In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance). A data point is compared to the value of its nearest neighbors in terms of data distance [42]. However, the notion of locality can also be given in a geographical distance between the sources of the data. Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density. Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too. Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge.",
+    "original_translation": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío.",
+    "original_sentences": [
+        "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+        "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+        "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+        "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+        "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+        "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+        "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+    ],
+    "translated_text_sentences": [
+        "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global.",
+        "En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana).",
+        "Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos.",
+        "Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos.",
+        "Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad.",
+        "Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster.",
+        "Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío."
+    ],
+    "error_count": 2,
+    "keys": {
+        "afore-described centralized methods": {
+            "translated_key": "métodos centralizados mencionados anteriormente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the <br>afore-described centralized methods</br>, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the <br>afore-described centralized methods</br>, which rely on globally shared models."
+            ],
+            "translated_annotated_samples": [
+                "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los <br>métodos centralizados mencionados anteriormente</br>, los cuales dependen de modelos compartidos a nivel global."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los <br>métodos centralizados mencionados anteriormente</br>, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "a geographical distance": {
+            "translated_key": "una distancia geográfica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in <br>a geographical distance</br> between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "However, the notion of locality can also be given in <br>a geographical distance</br> between the sources of the data."
+            ],
+            "translated_annotated_samples": [
+                "Sin embargo, la noción de localidad también puede darse en <br>una distancia geográfica</br> entre las fuentes de los datos."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en <br>una distancia geográfica</br> entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Anomalies": {
+            "translated_key": "anomalías",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "<br>Anomalies</br> can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "<br>Anomalies</br> can fall outside of any cluster but, when frequently occurring, can form a cluster too."
+            ],
+            "translated_annotated_samples": [
+                "Las <br>anomalías</br> pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las <br>anomalías</br> pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "anomaly detection": {
+            "translated_key": "detección de anomalías",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for <br>anomaly detection</br> in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "Methods for <br>anomaly detection</br> in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models."
+            ],
+            "translated_annotated_samples": [
+                "Los métodos para la <br>detección de anomalías</br> en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global."
+            ],
+            "translated_text": "Los métodos para la <br>detección de anomalías</br> en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "a specific distance metric such as Euclidean distance": {
+            "translated_key": "distancia euclidiana",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given <br>a specific distance metric such as Euclidean distance</br>).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "In data mining, the notion of locality is often given as distance between data values (given <br>a specific distance metric such as Euclidean distance</br>)."
+            ],
+            "translated_annotated_samples": [
+                "En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la <br>distancia euclidiana</br>)."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la <br>distancia euclidiana</br>). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "can form a cluster": {
+            "translated_key": "formar un cluster",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, <br>can form a cluster</br> too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "Anomalies can fall outside of any cluster but, when frequently occurring, <br>can form a cluster</br> too."
+            ],
+            "translated_annotated_samples": [
+                "Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden <br>formar un cluster</br>."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden <br>formar un cluster</br>. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "cluster": {
+            "translated_key": "cluster",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any <br>cluster</br> but, when frequently occurring, can form a <br>cluster</br> too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "Anomalies can fall outside of any <br>cluster</br> but, when frequently occurring, can form a <br>cluster</br> too."
+            ],
+            "translated_annotated_samples": [
+                "Las anomalías pueden caer fuera de cualquier <br>cluster</br> pero, cuando ocurren con frecuencia, también pueden formar un <br>cluster</br>."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier <br>cluster</br> pero, cuando ocurren con frecuencia, también pueden formar un <br>cluster</br>. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "clusters": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called <br>clusters</br>, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called <br>clusters</br>, while values that are less similar result in a lower density."
+            ],
+            "translated_annotated_samples": [
+                "Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "compared to the value of its nearest neighbors": {
+            "translated_key": "vecinos más cercanos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is <br>compared to the value of its nearest neighbors</br> in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "A data point is <br>compared to the value of its nearest neighbors</br> in terms of data distance [42]."
+            ],
+            "translated_annotated_samples": [
+                "Un punto de datos se compara con el valor de sus <br>vecinos más cercanos</br> en términos de distancia de datos."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus <br>vecinos más cercanos</br> en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "data mining": {
+            "translated_key": "minería de datos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In <br>data mining</br>, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "In <br>data mining</br>, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance)."
+            ],
+            "translated_annotated_samples": [
+                "En la <br>minería de datos</br>, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana)."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la <br>minería de datos</br>, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Determining if a datum is normal or anomalous": {
+            "translated_key": "dato",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "<br>Determining if a datum is normal or anomalous</br> compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "<br>Determining if a datum is normal or anomalous</br> compared to local neighborhood data is a challenge."
+            ],
+            "translated_annotated_samples": [
+                "Determinar si un <br>dato</br> es normal o anómalo en comparación con los <br>dato</br>s del vecindario local es un desafío."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un <br>dato</br> es normal o anómalo en comparación con los <br>dato</br>s del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "distance between data values": {
+            "translated_key": "distancia entre los valores de los datos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as <br>distance between data values</br> (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "In data mining, the notion of locality is often given as <br>distance between data values</br> (given a specific distance metric such as Euclidean distance)."
+            ],
+            "translated_annotated_samples": [
+                "En la minería de datos, la noción de localidad se da a menudo como la <br>distancia entre los valores de los datos</br> (dada una métrica de distancia específica como la distancia euclidiana)."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la <br>distancia entre los valores de los datos</br> (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "globally shared models": {
+            "translated_key": "modelos compartidos a nivel global",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on <br>globally shared models</br>.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on <br>globally shared models</br>."
+            ],
+            "translated_annotated_samples": [
+                "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de <br>modelos compartidos a nivel global</br>."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de <br>modelos compartidos a nivel global</br>. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Many similar values": {
+            "translated_key": "valores similares",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "<br>Many similar values</br> (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "<br>Many similar values</br> (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density."
+            ],
+            "translated_annotated_samples": [
+                "Muchos <br>valores similares</br> (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos <br>valores similares</br> (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "notion of locality": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the <br>notion of locality</br> is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the <br>notion of locality</br> can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "In data mining, the <br>notion of locality</br> is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "However, the <br>notion of locality</br> can also be given in a geographical distance between the sources of the data."
+            ],
+            "translated_annotated_samples": [
+                "En la minería de datos, la noción de localidad se da a menudo como la <br>distancia entre los valores de los datos</br> (dada una métrica de distancia específica como la distancia euclidiana).",
+                "Sin embargo, la <br>noción de localidad</br> también puede darse en una distancia geográfica entre las fuentes de los datos."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la <br>distancia entre los valores de los datos</br> (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la <br>noción de localidad</br> también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    "distancia entre los valores de los datos",
+                    "noción de localidad"
+                ]
+            ]
+        },
+        "the notion of locality": {
+            "translated_key": "la noción de localidad",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, <br>the notion of locality</br> is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, <br>the notion of locality</br> can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while values that are less similar result in a lower density.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "In data mining, <br>the notion of locality</br> is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "However, <br>the notion of locality</br> can also be given in a geographical distance between the sources of the data."
+            ],
+            "translated_annotated_samples": [
+                "En la minería de datos, <br>la noción de localidad</br> se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana).",
+                "Sin embargo, <br>la noción de localidad</br> también puede darse en una distancia geográfica entre las fuentes de los datos."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, <br>la noción de localidad</br> se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, <br>la noción de localidad</br> también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los valores menos similares resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "values that are less similar result in a lower density": {
+            "translated_key": "valores menos similares",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Methods for anomaly detection in a local context are the conceptual opposite to the afore-described centralized methods, which rely on globally shared models.",
+                "In data mining, the notion of locality is often given as distance between data values (given a specific distance metric such as Euclidean distance).",
+                "A data point is compared to the value of its nearest neighbors in terms of data distance [42].",
+                "However, the notion of locality can also be given in a geographical distance between the sources of the data.",
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while <br>values that are less similar result in a lower density</br>.",
+                "Anomalies can fall outside of any cluster but, when frequently occurring, can form a cluster too.",
+                "Determining if a datum is normal or anomalous compared to local neighborhood data is a challenge."
+            ],
+            "original_annotated_samples": [
+                "Many similar values (i.e., data with small distance among each other) result in a higher density, called clusters, while <br>values that are less similar result in a lower density</br>."
+            ],
+            "translated_annotated_samples": [
+                "Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los <br>valores menos similares</br> resultan en una menor densidad."
+            ],
+            "translated_text": "Los métodos para la detección de anomalías en un contexto local son el opuesto conceptual a los métodos centralizados mencionados anteriormente, los cuales dependen de modelos compartidos a nivel global. En la minería de datos, la noción de localidad se da a menudo como la distancia entre los valores de los datos (dada una métrica de distancia específica como la distancia euclidiana). Un punto de datos se compara con el valor de sus vecinos más cercanos en términos de distancia de datos. Sin embargo, la noción de localidad también puede darse en una distancia geográfica entre las fuentes de los datos. Muchos valores similares (es decir, datos con poca distancia entre sí) resultan en una mayor densidad, llamada clusters, mientras que los <br>valores menos similares</br> resultan en una menor densidad. Las anomalías pueden caer fuera de cualquier cluster pero, cuando ocurren con frecuencia, también pueden formar un cluster. Determinar si un dato es normal o anómalo en comparación con los datos del vecindario local es un desafío. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

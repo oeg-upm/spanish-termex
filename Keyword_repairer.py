@@ -11,12 +11,7 @@ import os
 
 from translation_class import get_source_identifiers
 
-InputPath = 'datasets/doc_translations/SemEval2017_GTranslate/'
-OutputPath = 'datasets/doc_translations/SemEval2017_GTranslateReviewed/'
-sourcedocs = os.listdir(InputPath)
-targetdocs = os.listdir(OutputPath)
-source_identifiers = get_source_identifiers(sourcedocs)
-target_identifiers = get_source_identifiers(targetdocs)
+
 
 
 
@@ -43,11 +38,13 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
     apariciones = {termino: texto_traducido.count(termino) for termino in terminos}
 
     print("Número de apariciones de cada término:")
+    counter=1
     for termino, aparicion in apariciones.items():
-        print(f"**{termino}: {aparicion}")
+        print(f"{counter}*{termino}: {aparicion}")
+        counter=counter+1
 
     while True:
-        opcion = input("Elige una opción (1 para el primer término, 2 para el segundo, 3 para escribir uno específico): ")
+        opcion = input("Elige una opción (1 para el primer término, 2 para el segundo, 3 para el término original{"+str(key)+"}.  4 para escribir uno específico): ")
 
         if opcion == '1':
             termino = terminos[0]
@@ -61,8 +58,14 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
             print(f"\nTérmino seleccionado: {termino}")
             print(f"El término '{termino}' aparece {texto_traducido.count(termino)} veces en el texto.")
             break
+        if opcion == '3':
+            termino = key
+            final_term=termino
+            print(f"\nTérmino seleccionado: {termino}")
+            print(f"El término '{termino}' aparece {texto_traducido.count(termino)} veces en el texto.")
+            break
 
-        elif opcion == '3':
+        elif opcion == '4':
             termino_elegido = input("Introduce el término que deseas introducir: ")
             final_term = termino_elegido
             print(f"\nTérmino seleccionado: {termino_elegido}")
@@ -77,7 +80,14 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
 
 
 
-
+InputPath = 'datasets/doc_translations/SemEval2017_GTranslate/'
+OutputPath = 'datasets/doc_translations/SemEval2017_GTranslateReviewed/'
+InputPath =  'datasets/doc_translations/OpenAI/SemEval2017_2/'
+OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017_2Reviewed/'
+sourcedocs = os.listdir(InputPath)
+targetdocs = os.listdir(OutputPath)
+source_identifiers = get_source_identifiers(sourcedocs)
+target_identifiers = get_source_identifiers(targetdocs)
 
 ### START
 for ident in source_identifiers:
@@ -95,12 +105,17 @@ for ident in source_identifiers:
         else:
             #print(data_dict['keys'].keys())
             num_errors = data_dict['error_count']
+            print(ident,num_errors)
+
             for key in data_dict['keys'].keys():
                 translation=data_dict['keys'][key]['translated_key']
-                if isinstance(translation, list): ## si es una lista, osea un error
+                #if isinstance(translation, list): ## si es una lista, osea un error
+                if translation=='':
                     #print(translation,key )
                     print(ident)
-                    new_term=user_corrector(data_dict['original_text'],data_dict['original_translation'],translation,key)
+                    #new_term=user_corrector(data_dict['original_text'],data_dict['original_translation'],translation,key)
+                    new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'][0], key)
+
                     num_errors=num_errors-1
 
                     data_dict['keys'][key]['translated_key']=new_term
@@ -113,27 +128,3 @@ for ident in source_identifiers:
 
 
 
-
-
-'''
-#corregir estructura json (el primer draft que hice)
-
-NewPath='datasets/doc_translations/nuevos'
-     
-for t in file_no_ds:
-# Abre el archivo JSON
-    print(t)
-    filepath=PathTrans + "/" + t
-    newfile=NewPath+"/"+t
-    with open(filepath, 'r') as file:
-        data_dict = json.load(file)
-        if 'errors' in data_dict:
-            del data_dict['errors']
-            for k in data_dict['keys']:
-                data_dict['keys'][k]['errors']=""
-        print(data_dict)
-        with open(newfile, 'w', encoding='utf-8') as archivo:
-            json.dump(data_dict, archivo,ensure_ascii=False, indent=4)
-
-
-'''

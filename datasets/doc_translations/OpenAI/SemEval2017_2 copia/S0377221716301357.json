@@ -1,0 +1,276 @@
+{
+    "id": "S0377221716301357",
+    "original_text": "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP. Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper. Indeed, it is a general-purpose algorithm and should be applicable to any of these variants. Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems. Finally, another important research direction is the development of other efficient solution approaches. Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution.",
+    "original_translation": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera.",
+    "original_sentences": [
+        "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP.",
+        "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper.",
+        "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+        "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+        "Finally, another important research direction is the development of other efficient solution approaches.",
+        "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+    ],
+    "translated_text_sentences": [
+        "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico.",
+        "Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento.",
+        "De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes.",
+        "Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas.",
+        "Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes.",
+        "Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera."
+    ],
+    "error_count": 0,
+    "keys": {
+        "general-purpose algorithm": {
+            "translated_key": "algoritmo de propósito general",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a <br>general-purpose algorithm</br> and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "Indeed, it is a <br>general-purpose algorithm</br> and should be applicable to any of these variants."
+            ],
+            "translated_annotated_samples": [
+                "De hecho, es un <br>algoritmo de propósito general</br> y debería ser aplicable a cualquiera de estas variantes."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un <br>algoritmo de propósito general</br> y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "grade blending": {
+            "translated_key": "mezcla de grados",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, <br>grade blending</br>, and stockpiling, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, <br>grade blending</br>, and stockpiling, as it is in solving the classical variant considered in this paper."
+            ],
+            "translated_annotated_samples": [
+                "Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la <br>mezcla de grados</br> y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la <br>mezcla de grados</br> y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "LP-rounding procedure": {
+            "translated_key": "procedimiento de redondeo de LP",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an <br>LP-rounding procedure</br> to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an <br>LP-rounding procedure</br> to get an integer solution."
+            ],
+            "translated_annotated_samples": [
+                "Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un <br>procedimiento de redondeo de LP</br> para obtener una solución entera."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un <br>procedimiento de redondeo de LP</br> para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MPSP": {
+            "translated_key": "MPSP",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic <br>MPSP</br>.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the <br>MPSP</br> that include more operational constraints, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic <br>MPSP</br>.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the <br>MPSP</br> that include more operational constraints, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper."
+            ],
+            "translated_annotated_samples": [
+                "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el <br>MPSP</br> estocástico.",
+                "Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del <br>MPSP</br> que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el <br>MPSP</br> estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del <br>MPSP</br> que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "operational constraints": {
+            "translated_key": "restricciones operativas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more <br>operational constraints</br>, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more <br>operational constraints</br>, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper."
+            ],
+            "translated_annotated_samples": [
+                "Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más <br>restricciones operativas</br>, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más <br>restricciones operativas</br>, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PH": {
+            "translated_key": "PH",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within <br>PH</br> and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "Other research avenues include considering other strategies for updating the penalties within <br>PH</br> and other methods for solving the sub-problems."
+            ],
+            "translated_annotated_samples": [
+                "Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de <br>PH</br> y otros métodos para resolver los subproblemas."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de <br>PH</br> y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "solve the linear relaxation": {
+            "translated_key": "resolver la relajación lineal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to <br>solve the linear relaxation</br> of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to <br>solve the linear relaxation</br> of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "translated_annotated_samples": [
+                "Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser <br>resolver la relajación lineal</br> del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser <br>resolver la relajación lineal</br> del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "stochastic MPSP": {
+            "translated_key": "MPSP estocástico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the <br>stochastic MPSP</br>.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the <br>stochastic MPSP</br>."
+            ],
+            "translated_annotated_samples": [
+                "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el <br>MPSP estocástico</br>."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el <br>MPSP estocástico</br>. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "stockpiling": {
+            "translated_key": "apilamiento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, grade blending, and <br>stockpiling</br>, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as variable cut-off grade, grade blending, and <br>stockpiling</br>, as it is in solving the classical variant considered in this paper."
+            ],
+            "translated_annotated_samples": [
+                "Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el <br>apilamiento</br>, como lo es en la resolución de la variante clásica considerada en este documento."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el grado de corte variable, la mezcla de grados y el <br>apilamiento</br>, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "variable cut-off grade": {
+            "translated_key": "grado de corte variable",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "As mentioned earlier, this paper represents ongoing efforts to efficiently address the stochastic MPSP.",
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as <br>variable cut-off grade</br>, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper.",
+                "Indeed, it is a general-purpose algorithm and should be applicable to any of these variants.",
+                "Other research avenues include considering other strategies for updating the penalties within PH and other methods for solving the sub-problems.",
+                "Finally, another important research direction is the development of other efficient solution approaches.",
+                "Since it has been observed empirically that the problem formulation often achieves small integrality gaps, one approach could be to solve the linear relaxation of the problem using an efficient algorithm and then to use an LP-rounding procedure to get an integer solution."
+            ],
+            "original_annotated_samples": [
+                "Future work may consider investigating whether the algorithm would be as successful or not in solving variants of the MPSP that include more operational constraints, such as <br>variable cut-off grade</br>, grade blending, and stockpiling, as it is in solving the classical variant considered in this paper."
+            ],
+            "translated_annotated_samples": [
+                "Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el <br>grado de corte variable</br>, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento."
+            ],
+            "translated_text": "Como se mencionó anteriormente, este documento representa esfuerzos continuos para abordar de manera eficiente el MPSP estocástico. Trabajos futuros podrían considerar investigar si el algoritmo sería tan exitoso o no en la resolución de variantes del MPSP que incluyan más restricciones operativas, como el <br>grado de corte variable</br>, la mezcla de grados y el apilamiento, como lo es en la resolución de la variante clásica considerada en este documento. De hecho, es un algoritmo de propósito general y debería ser aplicable a cualquiera de estas variantes. Otras líneas de investigación incluyen considerar otras estrategias para actualizar las penalizaciones dentro de PH y otros métodos para resolver los subproblemas. Finalmente, otra dirección de investigación importante es el desarrollo de otros enfoques de solución eficientes. Dado que se ha observado empíricamente que la formulación del problema a menudo logra brechas de integralidad pequeñas, un enfoque podría ser resolver la relajación lineal del problema utilizando un algoritmo eficiente y luego utilizar un procedimiento de redondeo de LP para obtener una solución entera. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

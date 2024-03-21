@@ -1,0 +1,679 @@
+{
+    "id": "S0022311514007119",
+    "original_text": "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter. For all calculations periodic boundary conditions and constant volume are used. The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows. First, the energetics of voids without helium are investigated. A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV. Next, the atom with the highest potential energy is removed from the system and again the system is minimised. This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated. Next, helium atoms are introduced to the vacancies. The total system energy is measured and recorded. At this point, a Metropolis MC scheme [29] is used to find the low energy configurations. Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm. Each bubble is continued for a minimum of 10,000 steps. After that, the searches will be terminated if the system energy does not drop within a further 10 steps. A schematic of this iterative process is shown in Fig. 1.",
+    "original_translation": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1.",
+    "original_sentences": [
+        "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+        "For all calculations periodic boundary conditions and constant volume are used.",
+        "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+        "First, the energetics of voids without helium are investigated.",
+        "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+        "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+        "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+        "Next, helium atoms are introduced to the vacancies.",
+        "The total system energy is measured and recorded.",
+        "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+        "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+        "Each bubble is continued for a minimum of 10,000 steps.",
+        "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+        "A schematic of this iterative process is shown in Fig. 1."
+    ],
+    "translated_text_sentences": [
+        "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe.",
+        "Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante.",
+        "El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera.",
+        "Primero, se investiga la energética de los vacíos sin helio.",
+        "Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV.",
+        "A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema.",
+        "Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno.",
+        "Luego, se introducen átomos de helio en las vacantes.",
+        "Se mide y registra la energía total del sistema.",
+        "En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía.",
+        "Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado.",
+        "Cada burbuja se continúa durante un mínimo de 10,000 pasos.",
+        "Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales.",
+        "Un esquema de este proceso iterativo se muestra en la Fig. 1."
+    ],
+    "error_count": 1,
+    "keys": {
+        "box": {
+            "translated_key": "parámetro de red",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the <br>box</br> size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "In the calculations for the formation energy, the <br>box</br> size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter."
+            ],
+            "translated_annotated_samples": [
+                "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el <br>parámetro de red</br> bcc del Fe."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el <br>parámetro de red</br> bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "conjugate gradient algorithm": {
+            "translated_key": "algoritmo de gradiente conjugado",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a <br>conjugate gradient algorithm</br>, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the <br>conjugate gradient algorithm</br>.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "A vacancy is introduced into the simulation cell and the system is minimised using a <br>conjugate gradient algorithm</br>, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the <br>conjugate gradient algorithm</br>."
+            ],
+            "translated_annotated_samples": [
+                "Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un <br>algoritmo de gradiente conjugado</br>, dando como resultado una energía de formación de vacante única Evac de 1.72eV.",
+                "Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el <br>algoritmo de gradiente conjugado</br>."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un <br>algoritmo de gradiente conjugado</br>, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el <br>algoritmo de gradiente conjugado</br>. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "determine the lowest energy configuration": {
+            "translated_key": "configuración de energía más baja",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to <br>determine the lowest energy configuration</br> of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "The Monte Carlo algorithm used to <br>determine the lowest energy configuration</br> of the cluster [28] is organised as follows."
+            ],
+            "translated_annotated_samples": [
+                "El algoritmo de Monte Carlo utilizado para determinar la <br>configuración de energía más baja</br> del grupo [28] se organiza de la siguiente manera."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la <br>configuración de energía más baja</br> del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Evac": {
+            "translated_key": "energía de formación de vacante única",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy <br>Evac</br> of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy <br>Evac</br> of 1.72eV."
+            ],
+            "translated_annotated_samples": [
+                "Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una <br>energía de formación de vacante única</br> Evac de 1.72eV."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una <br>energía de formación de vacante única</br> Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Fe lattice": {
+            "translated_key": "parámetro de red bcc del Fe",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc <br>Fe lattice</br> parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc <br>Fe lattice</br> parameter."
+            ],
+            "translated_annotated_samples": [
+                "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el <br>parámetro de red bcc del Fe</br>."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el <br>parámetro de red bcc del Fe</br>. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "formation energy": {
+            "translated_key": "energía de formación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the <br>formation energy</br>, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy <br>formation energy</br> Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the <br>formation energy</br> of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "In the calculations for the <br>formation energy</br>, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy <br>formation energy</br> Evac of 1.72eV.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the <br>formation energy</br> of each is calculated."
+            ],
+            "translated_annotated_samples": [
+                "En los cálculos para la <br>energía de formación</br>, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe.",
+                "Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una <br>energía de formación</br> de vacante única Evac de 1.72eV.",
+                "Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la <br>energía de formación</br> de cada uno."
+            ],
+            "translated_text": "En los cálculos para la <br>energía de formación</br>, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una <br>energía de formación</br> de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la <br>energía de formación</br> de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "He": {
+            "translated_key": "interacciones He-He",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for <br>He</br>–<br>He</br> interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for <br>He</br>–<br>He</br> interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm."
+            ],
+            "translated_annotated_samples": [
+                "Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las <br>interacciones He-He</br>) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las <br>interacciones He-He</br>) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "He–He interactions": {
+            "translated_key": "interacciones He-He",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for <br>He–He interactions</br>) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for <br>He–He interactions</br>) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm."
+            ],
+            "translated_annotated_samples": [
+                "Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las <br>interacciones He-He</br>) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las <br>interacciones He-He</br>) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "helium": {
+            "translated_key": "helio",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without <br>helium</br> are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, <br>helium</br> atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every <br>helium</br> in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "First, the energetics of voids without <br>helium</br> are investigated.",
+                "Next, <br>helium</br> atoms are introduced to the vacancies.",
+                "Every <br>helium</br> in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm."
+            ],
+            "translated_annotated_samples": [
+                "Primero, se investiga la energética de los vacíos sin <br>helio</br>.",
+                "Luego, se introducen átomos de <br>helio</br> en las vacantes.",
+                "Cada átomo de <br>helio</br> en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin <br>helio</br>. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de <br>helio</br> en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de <br>helio</br> en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "helium atoms": {
+            "translated_key": "átomos de helio",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, <br>helium atoms</br> are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "Next, <br>helium atoms</br> are introduced to the vacancies."
+            ],
+            "translated_annotated_samples": [
+                "Luego, se introducen <br>átomos de helio</br> en las vacantes."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen <br>átomos de helio</br> en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "iterative process": {
+            "translated_key": "proceso iterativo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this <br>iterative process</br> is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "A schematic of this <br>iterative process</br> is shown in Fig. 1."
+            ],
+            "translated_annotated_samples": [
+                "Un esquema de este <br>proceso iterativo</br> se muestra en la Fig. 1."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este <br>proceso iterativo</br> se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "low energy configurations": {
+            "translated_key": "configuraciones de baja energía",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the <br>low energy configurations</br>.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "At this point, a Metropolis MC scheme [29] is used to find the <br>low energy configurations</br>."
+            ],
+            "translated_annotated_samples": [
+                "En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las <br>configuraciones de baja energía</br>."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las <br>configuraciones de baja energía</br>. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Metropolis MC scheme": {
+            "translated_key": "esquema MC de Metropolis",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a <br>Metropolis MC scheme</br> [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "At this point, a <br>Metropolis MC scheme</br> [29] is used to find the low energy configurations."
+            ],
+            "translated_annotated_samples": [
+                "En este punto, se utiliza un <br>esquema MC de Metropolis</br> [29] para encontrar las configuraciones de baja energía."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un <br>esquema MC de Metropolis</br> [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "minimised": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is <br>minimised</br> using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is <br>minimised</br>.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then <br>minimised</br> using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "A vacancy is introduced into the simulation cell and the system is <br>minimised</br> using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is <br>minimised</br>.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then <br>minimised</br> using the conjugate gradient algorithm."
+            ],
+            "translated_annotated_samples": [
+                "Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV.",
+                "A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema.",
+                "Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "Monte Carlo algorithm": {
+            "translated_key": "algoritmo de Monte Carlo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The <br>Monte Carlo algorithm</br> used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "The <br>Monte Carlo algorithm</br> used to determine the lowest energy configuration of the cluster [28] is organised as follows."
+            ],
+            "translated_annotated_samples": [
+                "El <br>algoritmo de Monte Carlo</br> utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El <br>algoritmo de Monte Carlo</br> utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "simulation cell": {
+            "translated_key": "celda de simulación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the <br>simulation cell</br> and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "A vacancy is introduced into the <br>simulation cell</br> and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV."
+            ],
+            "translated_annotated_samples": [
+                "Se introduce una vacante en la <br>celda de simulación</br> y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la <br>celda de simulación</br> y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "single vacancy formation energy": {
+            "translated_key": "energía de formación de vacante única",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a <br>single vacancy formation energy</br> Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a <br>single vacancy formation energy</br> Evac of 1.72eV."
+            ],
+            "translated_annotated_samples": [
+                "Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una <br>energía de formación de vacante única</br> Evac de 1.72eV."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una <br>energía de formación de vacante única</br> Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "total system energy": {
+            "translated_key": "energía total del sistema",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of voids without helium are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The <br>total system energy</br> is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "The <br>total system energy</br> is measured and recorded."
+            ],
+            "translated_annotated_samples": [
+                "Se mide y registra la <br>energía total del sistema</br>."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los vacíos sin helio. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la <br>energía total del sistema</br>. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "voids without helium": {
+            "translated_key": "vacíos sin helio",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the calculations for the formation energy, the box size is set to 30a0×30a0×30a0, where a0 is the bcc Fe lattice parameter.",
+                "For all calculations periodic boundary conditions and constant volume are used.",
+                "The Monte Carlo algorithm used to determine the lowest energy configuration of the cluster [28] is organised as follows.",
+                "First, the energetics of <br>voids without helium</br> are investigated.",
+                "A vacancy is introduced into the simulation cell and the system is minimised using a conjugate gradient algorithm, yielding a single vacancy formation energy Evac of 1.72eV.",
+                "Next, the atom with the highest potential energy is removed from the system and again the system is minimised.",
+                "This scheme is iteratively continued to create voids up to the number of target vacancies and the formation energy of each is calculated.",
+                "Next, helium atoms are introduced to the vacancies.",
+                "The total system energy is measured and recorded.",
+                "At this point, a Metropolis MC scheme [29] is used to find the low energy configurations.",
+                "Every helium in the system is randomly displaced from its site up to a maximum of rmax (4.5Å, the cut off distance for He–He interactions) in each of the x, y and z directions and then minimised using the conjugate gradient algorithm.",
+                "Each bubble is continued for a minimum of 10,000 steps.",
+                "After that, the searches will be terminated if the system energy does not drop within a further 10 steps.",
+                "A schematic of this iterative process is shown in Fig. 1."
+            ],
+            "original_annotated_samples": [
+                "First, the energetics of <br>voids without helium</br> are investigated."
+            ],
+            "translated_annotated_samples": [
+                "Primero, se investiga la energética de los <br>vacíos sin helio</br>."
+            ],
+            "translated_text": "En los cálculos para la energía de formación, el tamaño de la caja se establece en 30a0×30a0×30a0, donde a0 es el parámetro de red bcc del Fe. Para todos los cálculos se utilizan condiciones de contorno periódicas y volumen constante. El algoritmo de Monte Carlo utilizado para determinar la configuración de energía más baja del grupo [28] se organiza de la siguiente manera. Primero, se investiga la energética de los <br>vacíos sin helio</br>. Se introduce una vacante en la celda de simulación y el sistema se minimiza utilizando un algoritmo de gradiente conjugado, dando como resultado una energía de formación de vacante única Evac de 1.72eV. A continuación, se elimina el átomo con la mayor energía potencial del sistema y nuevamente se minimiza el sistema. Este esquema se continúa de forma iterativa para crear vacíos hasta el número de vacantes objetivo y se calcula la energía de formación de cada uno. Luego, se introducen átomos de helio en las vacantes. Se mide y registra la energía total del sistema. En este punto, se utiliza un esquema MC de Metropolis [29] para encontrar las configuraciones de baja energía. Cada átomo de helio en el sistema se desplaza aleatoriamente desde su posición hasta un máximo de rmax (4.5Å, la distancia de corte para las interacciones He-He) en cada una de las direcciones x, y y z y luego se minimiza utilizando el algoritmo de gradiente conjugado. Cada burbuja se continúa durante un mínimo de 10,000 pasos. Después de eso, las búsquedas se terminarán si la energía del sistema no disminuye en 10 pasos adicionales. Un esquema de este proceso iterativo se muestra en la Fig. 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,638 @@
+{
+    "id": "S0045782513000479",
+    "original_text": "Algorithms regarding distance fields go back to the level set equation. The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation. This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions. Information on normal vectors and curvature can be obtained. The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid. It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface. An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc. Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1.",
+    "original_translation": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1.",
+    "original_sentences": [
+        "Algorithms regarding distance fields go back to the level set equation.",
+        "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+        "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+        "Information on normal vectors and curvature can be obtained.",
+        "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+        "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+        "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+        "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+    ],
+    "error_count": 2,
+    "keys": {
+        "Algorithms regarding distance fields": {
+            "translated_key": "Los algoritmos relacionados con campos de distancia",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Algorithms regarding distance fields</br> go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "<br>Algorithms regarding distance fields</br> go back to the level set equation."
+            ],
+            "translated_annotated_samples": [
+                "Output: <br>Los algoritmos relacionados con campos de distancia</br> se remontan a la ecuación de conjunto de nivel."
+            ],
+            "translated_text": "Output: <br>Los algoritmos relacionados con campos de distancia</br> se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "areas": {
+            "translated_key": "áreas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various <br>areas</br> are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various <br>areas</br> are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc."
+            ],
+            "translated_annotated_samples": [
+                "Output: Una visión general sobre la teoría de los métodos de nivel de conjunto y de marcha rápida y sus aplicaciones a problemas de diversas <br>áreas</br> se presenta en [22,23], por ejemplo, compensación de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Output: Una visión general sobre la teoría de los métodos de nivel de conjunto y de marcha rápida y sus aplicaciones a problemas de diversas <br>áreas</br> se presenta en [22,23], por ejemplo, compensación de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "complexity nlogn": {
+            "translated_key": "complejidad nlogn",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of <br>complexity nlogn</br> to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "The fast marching method [21] provides an efficient numerical scheme of <br>complexity nlogn</br> to compute the support values on the grid."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de marcha rápida [21] proporciona un esquema numérico eficiente de <br>complejidad nlogn</br> para calcular los valores de soporte en la cuadrícula."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. Output: El método de marcha rápida [21] proporciona un esquema numérico eficiente de <br>complejidad nlogn</br> para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "computing distances": {
+            "translated_key": "computación de distancias",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, <br>computing distances</br>, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, <br>computing distances</br>, photolithography development, seismic travel times, etc."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se presenta una visión general sobre la teoría de los conjuntos de nivel y los métodos de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, <br>computación de distancias</br>, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Output: Se presenta una visión general sobre la teoría de los conjuntos de nivel y los métodos de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, <br>computación de distancias</br>, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Distance fields": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding <br>Distance fields</br> go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "<br>Distance fields</br> are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "Algorithms regarding <br>Distance fields</br> go back to the level set equation.",
+                "<br>Distance fields</br> are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los algoritmos relacionados con los <br>campos de distancia</br> se remontan a la ecuación de conjunto de nivel.",
+                "Output: <br>Los campos de distancia</br> son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1."
+            ],
+            "translated_text": "Output: Los algoritmos relacionados con los <br>campos de distancia</br> se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Output: <br>Los campos de distancia</br> son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    "campos de distancia",
+                    "Los campos de distancia"
+                ],
+                [
+                    "campos de distancia",
+                    "Los campos de distancia"
+                ]
+            ]
+        },
+        "fast marching": {
+            "translated_key": "marcha rápida",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The <br>fast marching</br> method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and <br>fast marching</br> methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "The <br>fast marching</br> method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "An overview on the theory of level set and <br>fast marching</br> methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de <br>marcha rápida</br> [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula.",
+                "Output: Se presenta una visión general sobre la teoría de conjuntos de nivel y los métodos de <br>marcha rápida</br> y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. Output: El método de <br>marcha rápida</br> [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Output: Se presenta una visión general sobre la teoría de conjuntos de nivel y los métodos de <br>marcha rápida</br> y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "fast marching method": {
+            "translated_key": "marcha rápida",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The <br>fast marching method</br> [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "The <br>fast marching method</br> [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de <br>marcha rápida</br> [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. Output: El método de <br>marcha rápida</br> [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "finite difference scheme": {
+            "translated_key": "diferencias finitas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a <br>finite difference scheme</br> working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "This is performed by a <br>finite difference scheme</br> working on a rectangular grid in two or three dimensions."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto se realiza mediante un esquema de <br>diferencias finitas</br> que trabaja en una cuadrícula rectangular en dos o tres dimensiones."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Output: Esto se realiza mediante un esquema de <br>diferencias finitas</br> que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Hamilton–Jacobi equation": {
+            "translated_key": "ecuación de Hamilton-Jacobi",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the <br>Hamilton–Jacobi equation</br>.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the <br>Hamilton–Jacobi equation</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la <br>ecuación de Hamilton-Jacobi</br>."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. Output: El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la <br>ecuación de Hamilton-Jacobi</br>. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "level set": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the <br>level set</br> equation.",
+                "The <br>level set</br> method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of <br>level set</br> and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the <br>level set</br> equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "Algorithms regarding distance fields go back to the <br>level set</br> equation.",
+                "The <br>level set</br> method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "An overview on the theory of <br>level set</br> and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the <br>level set</br> equation where the absolute value of the advection velocity is 1."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de <br>conjunto de nivel</br>.",
+                "Output: El método de <br>conjunto de nivel</br> fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi.",
+                "Output: Se presenta una visión general sobre la teoría de <br>conjunto de niveles</br> y los métodos de marcha rápida, así como sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc.",
+                "Output: Los campos de distancia son un caso especial de la ecuación de <br>conjunto de nivel</br> donde el valor absoluto de la velocidad de advección es 1."
+            ],
+            "translated_text": "Output: Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de <br>conjunto de nivel</br>. Output: El método de <br>conjunto de nivel</br> fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Output: Se presenta una visión general sobre la teoría de <br>conjunto de niveles</br> y los métodos de marcha rápida, así como sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Output: Los campos de distancia son un caso especial de la ecuación de <br>conjunto de nivel</br> donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    "conjunto de nivel",
+                    "conjunto de nivel",
+                    "conjunto de niveles",
+                    "conjunto de nivel"
+                ],
+                [
+                    "conjunto de nivel",
+                    "conjunto de nivel",
+                    "conjunto de niveles",
+                    "conjunto de nivel"
+                ]
+            ]
+        },
+        "level set equation": {
+            "translated_key": "ecuación de conjunto de nivel",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the <br>level set equation</br>.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the <br>level set equation</br> where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "Algorithms regarding distance fields go back to the <br>level set equation</br>.",
+                "Distance fields are a special case of the <br>level set equation</br> where the absolute value of the advection velocity is 1."
+            ],
+            "translated_annotated_samples": [
+                "Output: Los algoritmos relacionados con los campos de distancia se remontan a la <br>ecuación de conjunto de nivel</br>.",
+                "Output: Los campos de distancia son un caso especial de la <br>ecuación de conjunto de nivel</br> donde el valor absoluto de la velocidad de advección es 1."
+            ],
+            "translated_text": "Output: Los algoritmos relacionados con los campos de distancia se remontan a la <br>ecuación de conjunto de nivel</br>. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Output: Los campos de distancia son un caso especial de la <br>ecuación de conjunto de nivel</br> donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "level set method": {
+            "translated_key": "método de conjunto de nivel",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The <br>level set method</br> was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "The <br>level set method</br> was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation."
+            ],
+            "translated_annotated_samples": [
+                "Output: El <br>método de conjunto de nivel</br> fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. Output: El <br>método de conjunto de nivel</br> fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical methods": {
+            "translated_key": "métodos numéricos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by <br>numerical methods</br> solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by <br>numerical methods</br> solving the Hamilton–Jacobi equation."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de conjunto de nivel fue presentado por Osher y Sethian [20] quienes describieron la propagación temporal de interfaces móviles mediante <br>métodos numéricos</br> resolviendo la ecuación de Hamilton-Jacobi."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. Output: El método de conjunto de nivel fue presentado por Osher y Sethian [20] quienes describieron la propagación temporal de interfaces móviles mediante <br>métodos numéricos</br> resolviendo la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical scheme of complexity nlogn to compute the support values on the grid": {
+            "translated_key": "esquema numérico de complejidad nlogn para calcular los valores de soporte en la cuadrícula",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient <br>numerical scheme of complexity nlogn to compute the support values on the grid</br>.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "The fast marching method [21] provides an efficient <br>numerical scheme of complexity nlogn to compute the support values on the grid</br>."
+            ],
+            "translated_annotated_samples": [
+                "El método de marcha rápida [21] proporciona un eficiente <br>esquema numérico de complejidad nlogn para calcular los valores de soporte en la cuadrícula</br>."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un eficiente <br>esquema numérico de complejidad nlogn para calcular los valores de soporte en la cuadrícula</br>. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "photolithography development": {
+            "translated_key": "desarrollo de fotolitografía",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, <br>photolithography development</br>, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, <br>photolithography development</br>, seismic travel times, etc."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se presenta una visión general sobre la teoría de los métodos de nivel de conjunto y de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, <br>desarrollo de fotolitografía</br>, tiempos de viaje sísmicos, etc."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Output: Se presenta una visión general sobre la teoría de los métodos de nivel de conjunto y de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, <br>desarrollo de fotolitografía</br>, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "propagation process": {
+            "translated_key": "proceso de propagación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the <br>propagation process</br>, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "It is a reinterpretation of the <br>propagation process</br>, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface."
+            ],
+            "translated_annotated_samples": [
+                "Output: Es una reinterpretación del <br>proceso de propagación</br>, es decir, el momento en que la interfaz pasa por un cierto punto de la cuadrícula solo está influenciado por aquellos puntos de la cuadrícula vecinos que han sido atravesados previamente por la interfaz."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Output: Es una reinterpretación del <br>proceso de propagación</br>, es decir, el momento en que la interfaz pasa por un cierto punto de la cuadrícula solo está influenciado por aquellos puntos de la cuadrícula vecinos que han sido atravesados previamente por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "rectangular grid in two or three dimensions": {
+            "translated_key": "rejilla rectangular en dos o tres dimensiones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a <br>rectangular grid in two or three dimensions</br>.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "This is performed by a finite difference scheme working on a <br>rectangular grid in two or three dimensions</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Esto se realiza mediante un esquema de diferencias finitas que trabaja en una <br>rejilla rectangular en dos o tres dimensiones</br>."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Output: Esto se realiza mediante un esquema de diferencias finitas que trabaja en una <br>rejilla rectangular en dos o tres dimensiones</br>. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "seismic travel times": {
+            "translated_key": "tiempos de viaje sísmicos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, <br>seismic travel times</br>, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, <br>seismic travel times</br>, etc."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se presenta un resumen sobre la teoría de los métodos de nivel de conjunto y de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, <br>tiempos de viaje sísmicos</br>, etc."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Output: Se presenta un resumen sobre la teoría de los métodos de nivel de conjunto y de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, <br>tiempos de viaje sísmicos</br>, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "shape offsetting": {
+            "translated_key": "desplazamiento de formas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example <br>shape offsetting</br>, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example <br>shape offsetting</br>, computing distances, photolithography development, seismic travel times, etc."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se presenta una visión general sobre la teoría de los métodos de nivel de conjunto y de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo <br>desplazamiento de formas</br>, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Output: Se presenta una visión general sobre la teoría de los métodos de nivel de conjunto y de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo <br>desplazamiento de formas</br>, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "temporal propagation": {
+            "translated_key": "propagación temporal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the <br>temporal propagation</br> of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "The level set method was presented by Osher and Sethian [20] who described the <br>temporal propagation</br> of moving interfaces by numerical methods solving the Hamilton–Jacobi equation."
+            ],
+            "translated_annotated_samples": [
+                "Output: El método de conjunto de nivel fue presentado por Osher y Sethian [20] quienes describieron la <br>propagación temporal</br> de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. Output: El método de conjunto de nivel fue presentado por Osher y Sethian [20] quienes describieron la <br>propagación temporal</br> de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "theory of level set": {
+            "translated_key": "teoría del conjunto de niveles",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface.",
+                "An overview on the <br>theory of level set</br> and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "An overview on the <br>theory of level set</br> and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc."
+            ],
+            "translated_annotated_samples": [
+                "Output: Se presenta una visión general sobre la <br>teoría del conjunto de niveles</br> y los métodos de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, compensación de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Es una reinterpretación del proceso de propagación, es decir, el momento en que la interfaz pasa por un punto de la cuadrícula está influenciado únicamente por los puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz. Output: Se presenta una visión general sobre la <br>teoría del conjunto de niveles</br> y los métodos de marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, compensación de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface": {
+            "translated_key": "el momento en que la interfaz pasa por un cierto punto de la cuadrícula solo está influenciado por aquellos puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Algorithms regarding distance fields go back to the level set equation.",
+                "The level set method was presented by Osher and Sethian [20] who described the temporal propagation of moving interfaces by numerical methods solving the Hamilton–Jacobi equation.",
+                "This is performed by a finite difference scheme working on a rectangular grid in two or three dimensions.",
+                "Information on normal vectors and curvature can be obtained.",
+                "The fast marching method [21] provides an efficient numerical scheme of complexity nlogn to compute the support values on the grid.",
+                "It is a reinterpretation of the propagation process, i.e. <br>the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface</br>.",
+                "An overview on the theory of level set and fast marching methods and their applications to problems of various areas are given in [22,23], for example shape offsetting, computing distances, photolithography development, seismic travel times, etc.",
+                "Distance fields are a special case of the level set equation where the absolute value of the advection velocity is 1."
+            ],
+            "original_annotated_samples": [
+                "It is a reinterpretation of the propagation process, i.e. <br>the time where the interface passes a certain grid point is influenced only by those neighboring grid points which are previously passed by the interface</br>."
+            ],
+            "translated_annotated_samples": [
+                "Output: Es una reinterpretación del proceso de propagación, es decir, <br>el momento en que la interfaz pasa por un cierto punto de la cuadrícula solo está influenciado por aquellos puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz</br>."
+            ],
+            "translated_text": "Los algoritmos relacionados con los campos de distancia se remontan a la ecuación de conjunto de nivel. El método de conjunto de nivel fue presentado por Osher y Sethian [20], quienes describieron la propagación temporal de interfaces móviles mediante métodos numéricos que resuelven la ecuación de Hamilton-Jacobi. Esto se realiza mediante un esquema de diferencias finitas que trabaja en una cuadrícula rectangular en dos o tres dimensiones. Se puede obtener información sobre vectores normales y curvatura. El método de marcha rápida [21] proporciona un esquema numérico eficiente de complejidad nlogn para calcular los valores de soporte en la cuadrícula. Output: Es una reinterpretación del proceso de propagación, es decir, <br>el momento en que la interfaz pasa por un cierto punto de la cuadrícula solo está influenciado por aquellos puntos de la cuadrícula vecinos que han sido previamente atravesados por la interfaz</br>. Se presenta un resumen sobre la teoría de los métodos de conjunto de nivel y marcha rápida y sus aplicaciones a problemas de diversas áreas en [22,23], por ejemplo, desplazamiento de formas, cálculo de distancias, desarrollo de fotolitografía, tiempos de viaje sísmicos, etc. Los campos de distancia son un caso especial de la ecuación de conjunto de nivel donde el valor absoluto de la velocidad de advección es 1. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

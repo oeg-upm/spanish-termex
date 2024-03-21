@@ -1,0 +1,168 @@
+{
+    "id": "S0038092X11004129",
+    "original_text": "Assuming a constant cell electrical conversion efficiency of 15%, a constant fraction of the incident solar radiation would be dissipated by the solar cell for each solar radiation intensity level. From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with natural convection only, the predicted cell electrical conversion efficiency would have reduced to approximately 8% rather than the 15% assumed. The energy dissipated as heat from the cell would thus be 7% higher. To correct for this effect the apparent insolation level should be modified using the following formula:(3)Iact=I×0.850.85+dηwhere Iact is the actual incident solar radiation intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature.",
+    "original_translation": "Suponiendo una eficiencia de conversión eléctrica constante de la celda del 15%, una fracción constante de la radiación solar incidente sería disipada por la celda solar para cada nivel de intensidad de radiación solar. Del Cuadro 2, se puede observar que para el peor escenario cuando la temperatura ambiente era de 50°C con solo convección natural, la eficiencia de conversión eléctrica de la celda predicha habría disminuido a aproximadamente un 8% en lugar del 15% asumido. La energía disipada como calor desde la celda sería así un 7% más alta. Para corregir este efecto, el nivel aparente de insolación debe modificarse utilizando la siguiente fórmula: Iact=I×0.85/0.85+dη donde Iact es la intensidad real de radiación solar incidente, dη es la diferencia de eficiencia de la celda solar entre el 15% inicialmente asumido y la eficiencia de celda calculada final basada en la temperatura de la celda medida.",
+    "original_sentences": [
+        "Assuming a constant cell electrical conversion efficiency of 15%, a constant fraction of the incident solar radiation would be dissipated by the solar cell for each solar radiation intensity level.",
+        "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with natural convection only, the predicted cell electrical conversion efficiency would have reduced to approximately 8% rather than the 15% assumed.",
+        "The energy dissipated as heat from the cell would thus be 7% higher.",
+        "To correct for this effect the apparent insolation level should be modified using the following formula:(3)Iact=I×0.850.85+dηwhere Iact is the actual incident solar radiation intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+    ],
+    "error_count": 2,
+    "keys": {
+        "(3)Iact=I×0.850.85+dη": {
+            "translated_key": "(3)Iact=I×0.850.85+dη",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Assuming a constant cell electrical conversion efficiency of 15%, a constant fraction of the incident solar radiation would be dissipated by the solar cell for each solar radiation intensity level.",
+                "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with natural convection only, the predicted cell electrical conversion efficiency would have reduced to approximately 8% rather than the 15% assumed.",
+                "The energy dissipated as heat from the cell would thus be 7% higher.",
+                "To correct for this effect the apparent insolation level should be modified using the following formula:<br>(3)Iact=I×0.850.85+dη</br>where Iact is the actual incident solar radiation intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+            ],
+            "original_annotated_samples": [
+                "To correct for this effect the apparent insolation level should be modified using the following formula:<br>(3)Iact=I×0.850.85+dη</br>where Iact is the actual incident solar radiation intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para corregir este efecto, el nivel de insolación aparente debe modificarse utilizando la siguiente fórmula: <br>(3)Iact=I×0.850.85+dη</br> donde Iact es la intensidad real de radiación solar incidente, dη es la diferencia de eficiencia de la célula solar entre el 15% inicialmente asumido y la eficiencia de la célula calculada finalmente basada en la temperatura medida de la célula."
+            ],
+            "translated_text": "Suponiendo una eficiencia de conversión eléctrica constante de la celda del 15%, una fracción constante de la radiación solar incidente sería disipada por la celda solar para cada nivel de intensidad de radiación solar. Del Cuadro 2, se puede observar que para el peor escenario cuando la temperatura ambiente era de 50°C con solo convección natural, la eficiencia de conversión eléctrica de la celda predicha habría disminuido a aproximadamente un 8% en lugar del 15% asumido. La energía disipada como calor desde la celda sería así un 7% más alta. Output: Para corregir este efecto, el nivel de insolación aparente debe modificarse utilizando la siguiente fórmula: <br>(3)Iact=I×0.850.85+dη</br> donde Iact es la intensidad real de radiación solar incidente, dη es la diferencia de eficiencia de la célula solar entre el 15% inicialmente asumido y la eficiencia de la célula calculada finalmente basada en la temperatura medida de la célula. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "apparent insolation level": {
+            "translated_key": "insolación aparente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Assuming a constant cell electrical conversion efficiency of 15%, a constant fraction of the incident solar radiation would be dissipated by the solar cell for each solar radiation intensity level.",
+                "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with natural convection only, the predicted cell electrical conversion efficiency would have reduced to approximately 8% rather than the 15% assumed.",
+                "The energy dissipated as heat from the cell would thus be 7% higher.",
+                "To correct for this effect the <br>apparent insolation level</br> should be modified using the following formula:(3)Iact=I×0.850.85+dηwhere Iact is the actual incident solar radiation intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+            ],
+            "original_annotated_samples": [
+                "To correct for this effect the <br>apparent insolation level</br> should be modified using the following formula:(3)Iact=I×0.850.85+dηwhere Iact is the actual incident solar radiation intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+            ],
+            "translated_annotated_samples": [
+                "Output: Para corregir este efecto, el nivel de <br>insolación aparente</br> debe modificarse utilizando la siguiente fórmula: (3) Iact=I×0.850.85+dη donde Iact es la intensidad real de radiación solar incidente, dη es la diferencia de eficiencia de la célula solar entre el 15% inicialmente asumido y la eficiencia de la célula calculada finalmente basada en la temperatura medida de la célula."
+            ],
+            "translated_text": "Suponiendo una eficiencia de conversión eléctrica constante de la celda del 15%, una fracción constante de la radiación solar incidente sería disipada por la celda solar para cada nivel de intensidad de radiación solar. Del Cuadro 2, se puede observar que para el peor escenario cuando la temperatura ambiente era de 50°C con solo convección natural, la eficiencia de conversión eléctrica de la celda predicha habría disminuido a aproximadamente un 8% en lugar del 15% asumido. La energía disipada como calor desde la celda sería así un 7% más alta. Output: Para corregir este efecto, el nivel de <br>insolación aparente</br> debe modificarse utilizando la siguiente fórmula: (3) Iact=I×0.850.85+dη donde Iact es la intensidad real de radiación solar incidente, dη es la diferencia de eficiencia de la célula solar entre el 15% inicialmente asumido y la eficiencia de la célula calculada finalmente basada en la temperatura medida de la célula. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "cell electrical conversion": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Assuming a constant <br>cell electrical conversion</br> efficiency of 15%, a constant fraction of the incident solar radiation would be dissipated by the solar cell for each solar radiation intensity level.",
+                "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with natural convection only, the predicted <br>cell electrical conversion</br> efficiency would have reduced to approximately 8% rather than the 15% assumed.",
+                "The energy dissipated as heat from the cell would thus be 7% higher.",
+                "To correct for this effect the apparent insolation level should be modified using the following formula:(3)Iact=I×0.850.85+dηwhere Iact is the actual incident solar radiation intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+            ],
+            "original_annotated_samples": [
+                "Assuming a constant <br>cell electrical conversion</br> efficiency of 15%, a constant fraction of the incident solar radiation would be dissipated by the solar cell for each solar radiation intensity level.",
+                "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with natural convection only, the predicted <br>cell electrical conversion</br> efficiency would have reduced to approximately 8% rather than the 15% assumed."
+            ],
+            "translated_annotated_samples": [
+                "Output: Suponiendo una eficiencia constante de conversión eléctrica de <br>celular del 15%</br>, una fracción constante de la radiación solar incidente sería disipada por la célula solar para cada nivel de intensidad de radiación solar.",
+                "Output: Desde la Tabla 2, se puede ver que para el peor escenario cuando la temperatura ambiente era de 50°C con solo convección natural, la eficiencia de conversión eléctrica de la <br>célula</br> habría disminuido a aproximadamente 8% en lugar del 15% asumido."
+            ],
+            "translated_text": "Output: Suponiendo una eficiencia constante de conversión eléctrica de <br>celular del 15%</br>, una fracción constante de la radiación solar incidente sería disipada por la célula solar para cada nivel de intensidad de radiación solar. Output: Desde la Tabla 2, se puede ver que para el peor escenario cuando la temperatura ambiente era de 50°C con solo convección natural, la eficiencia de conversión eléctrica de la <br>célula</br> habría disminuido a aproximadamente 8% en lugar del 15% asumido. La energía disipada como calor desde la celda sería así un 7% más alta. Para corregir este efecto, el nivel aparente de insolación debe modificarse utilizando la siguiente fórmula: Iact=I×0.85/0.85+dη donde Iact es la intensidad real de radiación solar incidente, dη es la diferencia de eficiencia de la celda solar entre el 15% inicialmente asumido y la eficiencia de celda calculada final basada en la temperatura de la celda medida. ",
+            "candidates": [],
+            "error": [
+                [
+                    "celular del 15%",
+                    "célula"
+                ],
+                [
+                    "celular del 15%",
+                    "célula"
+                ]
+            ]
+        },
+        "natural convection": {
+            "translated_key": "convección natural",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Assuming a constant cell electrical conversion efficiency of 15%, a constant fraction of the incident solar radiation would be dissipated by the solar cell for each solar radiation intensity level.",
+                "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with <br>natural convection</br> only, the predicted cell electrical conversion efficiency would have reduced to approximately 8% rather than the 15% assumed.",
+                "The energy dissipated as heat from the cell would thus be 7% higher.",
+                "To correct for this effect the apparent insolation level should be modified using the following formula:(3)Iact=I×0.850.85+dηwhere Iact is the actual incident solar radiation intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+            ],
+            "original_annotated_samples": [
+                "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with <br>natural convection</br> only, the predicted cell electrical conversion efficiency would have reduced to approximately 8% rather than the 15% assumed."
+            ],
+            "translated_annotated_samples": [
+                "Output: Desde la Tabla 2, se puede ver que para el peor escenario cuando la temperatura ambiente era de 50°C con <br>convección natural</br> solamente, la eficiencia de conversión eléctrica de la celda predicha se habría reducido a aproximadamente 8% en lugar del 15% asumido."
+            ],
+            "translated_text": "Suponiendo una eficiencia de conversión eléctrica constante de la celda del 15%, una fracción constante de la radiación solar incidente sería disipada por la celda solar para cada nivel de intensidad de radiación solar. Output: Desde la Tabla 2, se puede ver que para el peor escenario cuando la temperatura ambiente era de 50°C con <br>convección natural</br> solamente, la eficiencia de conversión eléctrica de la celda predicha se habría reducido a aproximadamente 8% en lugar del 15% asumido. La energía disipada como calor desde la celda sería así un 7% más alta. Para corregir este efecto, el nivel aparente de insolación debe modificarse utilizando la siguiente fórmula: Iact=I×0.85/0.85+dη donde Iact es la intensidad real de radiación solar incidente, dη es la diferencia de eficiencia de la celda solar entre el 15% inicialmente asumido y la eficiencia de celda calculada final basada en la temperatura de la celda medida. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "predicted cell electrical conversion efficiency": {
+            "translated_key": "eficiencia de conversión eléctrica de la celda predicha",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Assuming a constant cell electrical conversion efficiency of 15%, a constant fraction of the incident solar radiation would be dissipated by the solar cell for each solar radiation intensity level.",
+                "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with natural convection only, the <br>predicted cell electrical conversion efficiency</br> would have reduced to approximately 8% rather than the 15% assumed.",
+                "The energy dissipated as heat from the cell would thus be 7% higher.",
+                "To correct for this effect the apparent insolation level should be modified using the following formula:(3)Iact=I×0.850.85+dηwhere Iact is the actual incident solar radiation intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+            ],
+            "original_annotated_samples": [
+                "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with natural convection only, the <br>predicted cell electrical conversion efficiency</br> would have reduced to approximately 8% rather than the 15% assumed."
+            ],
+            "translated_annotated_samples": [
+                "Output: Desde la Tabla 2, se puede ver que para el peor escenario cuando la temperatura ambiente era de 50°C con solo convección natural, la <br>eficiencia de conversión eléctrica de la celda predicha</br> se habría reducido a aproximadamente 8% en lugar del 15% asumido."
+            ],
+            "translated_text": "Suponiendo una eficiencia de conversión eléctrica constante de la celda del 15%, una fracción constante de la radiación solar incidente sería disipada por la celda solar para cada nivel de intensidad de radiación solar. Output: Desde la Tabla 2, se puede ver que para el peor escenario cuando la temperatura ambiente era de 50°C con solo convección natural, la <br>eficiencia de conversión eléctrica de la celda predicha</br> se habría reducido a aproximadamente 8% en lugar del 15% asumido. La energía disipada como calor desde la celda sería así un 7% más alta. Para corregir este efecto, el nivel aparente de insolación debe modificarse utilizando la siguiente fórmula: Iact=I×0.85/0.85+dη donde Iact es la intensidad real de radiación solar incidente, dη es la diferencia de eficiencia de la celda solar entre el 15% inicialmente asumido y la eficiencia de celda calculada final basada en la temperatura de la celda medida. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "solar radiation": {
+            "translated_key": "",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Assuming a constant cell electrical conversion efficiency of 15%, a constant fraction of the incident <br>solar radiation</br> would be dissipated by the solar cell for each <br>solar radiation</br> intensity level.",
+                "From Table 2, it can be seen that for the worst scenario when the ambient temperature was 50°C with natural convection only, the predicted cell electrical conversion efficiency would have reduced to approximately 8% rather than the 15% assumed.",
+                "The energy dissipated as heat from the cell would thus be 7% higher.",
+                "To correct for this effect the apparent insolation level should be modified using the following formula:(3)Iact=I×0.850.85+dηwhere Iact is the actual incident <br>solar radiation</br> intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+            ],
+            "original_annotated_samples": [
+                "Assuming a constant cell electrical conversion efficiency of 15%, a constant fraction of the incident <br>solar radiation</br> would be dissipated by the solar cell for each <br>solar radiation</br> intensity level.",
+                "To correct for this effect the apparent insolation level should be modified using the following formula:(3)Iact=I×0.850.85+dηwhere Iact is the actual incident <br>solar radiation</br> intensity, dη is solar cell efficiency difference between the initially assumed 15% and final calculated cell efficiency based on measured cell temperature."
+            ],
+            "translated_annotated_samples": [
+                "Output: Suponiendo una eficiencia de conversión eléctrica de celda constante del 15%, una fracción constante de la radiación <br>solar incidente</br> sería disipada por la célula solar para cada nivel de intensidad de <br>radiación solar</br>.",
+                "Output: Para corregir este efecto, el nivel de insolación aparente debe modificarse utilizando la siguiente fórmula: (3) Iact=I×0.850.85+dη donde Iact es la intensidad real de <br>radiación solar</br> incidente, dη es la diferencia de eficiencia de la célula solar entre el 15% inicialmente asumido y la eficiencia de la célula calculada finalmente basada en la temperatura medida de la célula."
+            ],
+            "translated_text": "Output: Suponiendo una eficiencia de conversión eléctrica de celda constante del 15%, una fracción constante de la radiación <br>solar incidente</br> sería disipada por la célula solar para cada nivel de intensidad de <br>radiación solar</br>. Del Cuadro 2, se puede observar que para el peor escenario cuando la temperatura ambiente era de 50°C con solo convección natural, la eficiencia de conversión eléctrica de la celda predicha habría disminuido a aproximadamente un 8% en lugar del 15% asumido. La energía disipada como calor desde la celda sería así un 7% más alta. Output: Para corregir este efecto, el nivel de insolación aparente debe modificarse utilizando la siguiente fórmula: (3) Iact=I×0.850.85+dη donde Iact es la intensidad real de <br>radiación solar</br> incidente, dη es la diferencia de eficiencia de la célula solar entre el 15% inicialmente asumido y la eficiencia de la célula calculada finalmente basada en la temperatura medida de la célula. ",
+            "candidates": [],
+            "error": [
+                [
+                    "solar incidente",
+                    "radiación solar",
+                    "radiación solar"
+                ],
+                [
+                    "solar incidente",
+                    "radiación solar",
+                    "radiación solar"
+                ]
+            ]
+        }
+    }
+}
