@@ -16,7 +16,7 @@ import os
 from collections import Counter
 import nltk
 nltk.download('punkt')
-from googletrans import Translator
+#from googletrans import Translator
 
 
 def separate_sentences(text):
@@ -51,7 +51,7 @@ def separate_sentences(text):
     return new_sentences
 
 
-
+'''
 def translate_texts_google(sentences, translated_sentences):
 
 
@@ -89,7 +89,7 @@ def translate_text_google(text, src_lang='en', dest_lang='es'):
 
 
 
-
+'''
 
 def read_term_list_file(filepath):
     lst = []

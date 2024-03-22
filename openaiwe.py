@@ -133,26 +133,26 @@ def gpt_translator_key(text):
     return completion.choices[0].message.content.replace("\"" ,"")
 
 
-text1 ="The choice of the <br>interpolation functions</br> and support point coordinates for the gradient field is crucial to ensure stability and accuracy of the formulation."
-
-text2 = "La elección de las funciones de interpolación y las coordenadas de los puntos de soporte para el campo de gradiente es crucial para garantizar la estabilidad y precisión de la formulación."
 
 prompt3= """
-You are a scientific translator of English to Spanish specialized in terminology. I give you one sentence in English and the translation to Spanish. 
-The English sentence has a term between the marks <br> and </br>. Identify and give me the corresponding translation of the term in the Spanish sentence. The output term is in Spanish.
+You are a scientific translator of English to Spanish specialized in terminology. 
+I give you one sentence in English and the same sentence translated to Spanish. 
+The English sentence has a term between the marks <br> and </br>. 
+Identify in the Spanish sentence which words correspond to the same original term.
+The output term is in Spanish. 
 Some examples
 English sentence: "The University of Florida, in partnership with Motorola, has held two <br>mobile computing</br> design competitions".
 Spanish sentence : "La Universidad de Florida, en asociación con Motorola, ha celebrado dos concursos de diseño de computación móvil".
 Output: computación móvil
-English sentence: "In the supersymmetric case, such a <br>small coupling for quartic interaction</br> cannot be realized if the potential is lifted" 
-Spanish sentence: "En el caso supersimétrico, un acoplamiento tan pequeño para la interacción cuártica no puede ser realizado si el potencial es elevado"
-Output: acoplamiento tan pequeño para la interacción cuártica
 English sentence: "There, we assume that <br>coefficients of non-renormalizable terms</br> are suppressed enough to be neglected".
 Spanish sentence: "Aquí, asumimos que los coeficientes de los términos no renormalizables están suficientemente suprimidos como para ser ignorados".
 Output:  coeficientes de los términos no renormalizables
 English sentence: "It often exploits an <br>optical diffusion model-based image reconstruction algorithm</br> to estimate spatial property values from measurements of the light flux at the surface of the tissue."
 Spanish sentence: "A menudo se utiliza un algoritmo de reconstrucción de imágenes basado en un modelo de difusión óptica para estimar los valores de propiedades espaciales a partir de medidas de la flujo de luz en la superficie del tejido."
 Output: algoritmo de reconstrucción de imágenes basado en un modelo de difusión óptica
+English: "A second group of experiments is aimed at extensions of the baseline methods that exploit characteristic features of the UvT Expert Collection; specifically, we propose and evaluate refined expert finding and profiling methods that incorporate <br>topicality and organizational structure</br>."
+Spanish: "Un segundo grupo de experimentos está dirigido a extensiones de los métodos base que aprovechan las características distintivas de la Colección de Expertos de UvT; específicamente, proponemos y evaluamos métodos refinados de búsqueda y perfilado de expertos que incorporan la topicalidad y la estructura organizativa."
+output: topicalidad y la estructura organizativa
 """
 
 """
@@ -166,7 +166,7 @@ def gpt_translator_key2(text1,text2):
           temperature=0,
           messages=[
             {"role": "system", "content": prompt3},
-            {"role": "user", "content": "English: " +text1 +"\nSpanish: "+text2+" \nOutput: "}
+            {"role": "user", "content": "English: \"" +text1 +"\"\nSpanish: \""+text2+"\"\nOutput: "}
           ]
         )
     res= completion.choices[0].message.content.strip()
@@ -175,7 +175,35 @@ def gpt_translator_key2(text1,text2):
 #res= translate_text_original(["Hello, world this is a test to follow instructions"])
 #print(res)
 
+import re
+def replace_with_quotes_hard_gpt(text, term):
+    escaped_substring = re.escape(term)
+    # Construct the regex pattern to find the substring
+    pattern = re.compile('(' + escaped_substring + ')',re.IGNORECASE)
+    newterm = "<br>" + term + "</br>"  # f'"{term}"'
+    # Use re.sub() to replace the matched substring with annotated version
+    replaced_text = re.sub(pattern, newterm, text,re.IGNORECASE)
 
-texs= "Para las direcciones de D-flat, tenemos que ser más cuidadosos ya que los comportamientos del potencial dependen de la dirección plana que consideremos."
+    return replaced_text
 
-term= "direcciones de D-flat"
+
+
+
+""" TEST PROMTS
+
+text1= "A second group of experiments is aimed at extensions of the baseline methods that exploit characteristic features of the UvT Expert Collection; specifically, we propose and evaluate refined expert finding and profiling methods that incorporate <br>topicality and organizational structure</br>."
+text2="Un segundo grupo de experimentos está dirigido a extensiones de los métodos base que aprovechan las características distintivas de la Colección de Expertos de UvT; específicamente, proponemos y evaluamos métodos refinados de búsqueda y perfilado de expertos que incorporan la topicalidad y la estructura organizativa."
+
+text1 ="<br>broad expertise retrieval</br> in Sparse Data Environments Krisztian Balog ISLA, University of Amsterdam Kruislaan 403, 1098 SJ Amsterdam, The Netherlands kbalog@science.uva.nl Toine Bogers ILK, Tilburg University P.O."
+text2 = "Recuperación de amplia experiencia en entornos de datos dispersos Krisztian Balog ISLA, Universidad de Ámsterdam Kruislaan 403, 1098 SJ Ámsterdam, Países Bajos kbalog@science.uva.nl Toine Bogers ILK, Universidad de Tilburg P.O."
+
+res= gpt_translator_key2(text1,text2)
+print(res)
+
+
+
+translated_sentence = replace_with_quotes_hard_gpt(text2, res.strip())
+val = is_sentence_to_translate(translated_sentence)
+print(val)
+print(translated_sentence)
+"""
