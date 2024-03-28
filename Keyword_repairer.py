@@ -79,11 +79,11 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
 
 
 
-
+#InputPath='datasets/doc_translations/errors_test/'
 InputPath = 'datasets/doc_translations/SemEval2017_GTranslate/'
 OutputPath = 'datasets/doc_translations/SemEval2017_GTranslateReviewed/'
-InputPath =  'datasets/doc_translations/OpenAI/SemEval2017_2/'
-OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017_2Reviewed/'
+# InputPath =  'datasets/doc_translations/OpenAI/SemEval2017_2/'
+# OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017_2Reviewed/'
 sourcedocs = os.listdir(InputPath)
 targetdocs = os.listdir(OutputPath)
 source_identifiers = get_source_identifiers(sourcedocs)
@@ -109,13 +109,15 @@ for ident in source_identifiers:
 
             for key in data_dict['keys'].keys():
                 translation=data_dict['keys'][key]['translated_key']
-                #if isinstance(translation, list): ## si es una lista, osea un error
-                if translation=='':
+                print(translation)
+                if isinstance(translation, list): ## si es una lista, osea un error
+                
+                #ARCHIVOS PABLOif translation=='':
                     #print(translation,key )
                     print(ident)
                     #new_term=user_corrector(data_dict['original_text'],data_dict['original_translation'],translation,key)
-                    new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'][0], key)
-
+                    # ARCHIVOS PABLO new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'][0], key)
+                    new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'], key)
                     num_errors=num_errors-1
 
                     data_dict['keys'][key]['translated_key']=new_term
