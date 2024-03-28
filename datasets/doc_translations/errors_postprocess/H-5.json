@@ -1405,7 +1405,7 @@
             "error": []
         },
         "ad-hoc retrieval": {
-            "translated_key": "recuperación ad-hoc",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Utility-based Information Distillation Over Temporally Sequenced Documents Yiming Yang Language Technologies Inst.",
@@ -1664,19 +1664,12 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "La naturaleza de aprendizaje incremental de los sistemas AF los hace más poderosos que los motores de búsqueda estándar que respaldan la \"recuperación ad-hoc\" (por ejemplo,",
-                "Nuestro marco combina y extiende el poder del filtrado adaptativo (AF), la \"recuperación ad-hoc\" (IR) y la detección de novedad (ND).",
-                "Ninguna de las medidas existentes en \"recuperación ad-hoc\", filtrado adaptativo, detección de novedades u otras áreas relacionadas (resumen de texto y respuesta de preguntas) tienen propiedades deseables en los tres aspectos."
+                "La naturaleza de aprendizaje incremental de los sistemas AF los hace más poderosos que los motores de búsqueda estándar que respaldan la \"recuperación ad-hoc\" (por ejemplo, recuperación ad-hoc",
+                "Nuestro marco combina y extiende el poder del filtrado adaptativo (AF), la \"recuperación ad-hoc\" (IR) y la detección de novedad (ND).recuperación ad-hoc",
+                "Ninguna de las medidas existentes en \"recuperación ad-hoc\", filtrado adaptativo, detección de novedades u otras áreas relacionadas (resumen de texto y respuesta de preguntas) tienen propiedades deseables en los tres aspectos.recuperación ad-hoc"
             ],
             "translated_text": "",
-            "candidates": [
-                "recuperación ad-hoc",
-                "recuperación ad-hoc",
-                "recuperación ad-hoc",
-                "recuperación ad-hoc",
-                "recuperación ad-hoc",
-                "recuperación ad-hoc"
-            ],
+            "candidates": [],
             "error": []
         },
         "novelty detection": {
@@ -1939,69 +1932,31 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Combina las fortalezas y se extiende más allá del filtrado adaptativo convencional, la \"detección de novedad\" y la clasificación de pasaje no redundante con respecto a las necesidades de información duradera (tareas con múltiples consultas).",
-                "Nuestros resultados muestran mejoras alentadoras de utilidad utilizando el nuevo enfoque, en comparación con los sistemas de referencia sin aprendizaje incremental o los componentes de \"detección de novedad\".",
-                "Claramente, las técnicas para la \"detección de novedad\" pueden ayudar en principio [25, 2, 22] para mejorar la utilidad de los sistemas AF.",
-                "Para abordar las limitaciones anteriores de los sistemas AF actuales, proponemos y examinamos un nuevo enfoque en este documento, combinando las fortalezas de la FA convencional (aprendizaje incremental de los modelos de temas), recuperación de pasaje de múltiples pasos para consultas duraderas condicionadas sobre el tema, y\"Detección de novedad\" para la eliminación de la redundancia de las interacciones del usuario con el sistema.",
-                "Claramente, la \"detección de novedad\" es muy importante para la utilidad de dicho sistema debido a la búsqueda iterativa.",
-                "Sin \"detección de novedad\", los viejos pasajes relevantes se mostrarían al usuario repetidamente en cada lista clasificada.",
-                "Nuestro marco combina y extiende el poder del filtrado adaptativo (AF), la recuperación ad-hoc (IR) y la \"detección de novedad\" (ND).",
-                "En comparación con el trabajo pasado, esta es la primera evaluación de la \"detección de novedad\" integrada con el filtrado adaptativo para consultas secuenciadas que permite la retroalimentación flexible de los usuarios sobre los pasajes clasificados.",
-                "Dado un perfil de consulta, es decir, la solución de regresión logística w ∗ como se describe en la Sección 3.1, el sistema calcula la probabilidad posterior de relevancia para cada pasaje x como frl (x) ≡ p (y = 1 | x, w ∗) = 1 (1 + E - W ∗ · x) (1) Los pasajes se ordenan por sus puntajes de relevancia, y los que tienen puntajes por encima de un umbral (sintonizado en un conjunto de entrenamiento) comprenden la lista de relevancia que se pasa a la \"detección de novedad\" paso.3.3 El componente de \"detección de novedades\" mantiene un historial de usuario H (t), que contiene todos los tramos de texto HI que el usuario destacó (como retroalimentación) durante sus interacciones pasadas con el sistema, hasta el tiempo actual t.Denotando la historia como h (t) = n h1, h2, ..., ht o, (2) El puntaje de novedad de un nuevo pasaje candidato X se calcula como: fnd (x) = 1 - max i∈1 ..t {cos (x, hi)} (3) donde ambos pasos candidatos X y los tramos resaltados de texto HI se representan como vectores TF-IDF.",
-                "El puntaje de novedad de cada pasaje se compara con un umbral presespecificado (también sintonizado en un conjunto de entrenamiento), y cualquier pasaje con un puntaje por debajo de este umbral se elimina de la lista de relevancia.3.4 Componente de clasificación anti-redundante Aunque el componente de \"detección de novedad\" asegura que solo la información novedosa (previamente invisible) permanezca en la lista de relevancia, esta lista aún podría contener la misma información novedosa en múltiples posiciones en la lista clasificada.",
-                "Nuestro procedimiento comienza con la lista actual de pasajes ordenados por relevancia (Sección 3.2), filtrado por el componente de \"detección de novedad\" (Sección 3.3), y genera una nueva lista no redundante de la siguiente manera: 1.",
-                "Ninguna de las medidas existentes en recuperación ad-hoc, filtrado adaptativo, \"detección de novedad\" u otras áreas relacionadas (resumen de texto y respuesta de preguntas) tienen propiedades deseables en los tres aspectos.",
-                "Indri no admite ningún tipo de \"detección de novedad\".",
-                "Comparamos Indri con PRF activado y apagado, contra Caf'e con comentarios de los usuarios, \"detección de novedad\" y clasificación antiredenundante activada y apagada.6.2 Configuración experimental Dividimos el corpus TDT4 que abarca 4 meses en 10 trozos, cada uno definido como un período de 12 días consecutivos.",
-                "A veces, sin embargo, los usuarios pueden estar interesados en ver la misma información de múltiples fuentes, como una Tabla 1: puntajes NDCU de Indri y Caf´e para dos factores de amortiguación (γ) y diversos configuraciones (F: retroalimentación, n: \"Detección de novedad \", A: clasificación anti-redundante) Indri Caf´e γ Base +PRF Base +F +F +N +F +A +F +N +A 0 0.19 0.19 0.22 0.23 0.24 0.24 0.24 0.1 0.28 0.29 0.24 0.35 0.350.36 0.36 Indicador de su importancia o confiabilidad.",
-                "Nuestro sistema, llamado CAF´E, combina filtrado adaptativo, \"detección de novedad\" y clasificación de pasaje antiredado en un marco unificado para la optimización de servicios públicos.",
-                "Nuestros experimentos en el recientemente anotado TDT4 Benchmark Corpus muestran una mejora de la utilidad alentadora sobre Indri, y también sobre nuestro propio sistema con aprendizaje incremental y \"detección de novedad\" desactivadas.8.",
-                "Recuperación y \"detección de novedad\" a nivel de oración."
+                "Combina las fortalezas y se extiende más allá del filtrado adaptativo convencional, la \"detección de novedad\" y la clasificación de pasaje no redundante con respecto a las necesidades de información duradera (tareas con múltiples consultas).detección de novedad",
+                "Nuestros resultados muestran mejoras alentadoras de utilidad utilizando el nuevo enfoque, en comparación con los sistemas de referencia sin aprendizaje incremental o los componentes de \"detección de novedad\".detección de novedad",
+                "Claramente, las técnicas para la \"detección de novedad\" pueden ayudar en principio [25, 2, 22] para mejorar la utilidad de los sistemas AF.detección de novedad",
+                "Para abordar las limitaciones anteriores de los sistemas AF actuales, proponemos y examinamos un nuevo enfoque en este documento, combinando las fortalezas de la FA convencional (aprendizaje incremental de los modelos de temas), recuperación de pasaje de múltiples pasos para consultas duraderas condicionadas sobre el tema, y\"Detección de novedad\" para la eliminación de la redundancia de las interacciones del usuario con el sistema.detección de novedad",
+                "Claramente, la \"detección de novedad\" es muy importante para la utilidad de dicho sistema debido a la búsqueda iterativa.detección de novedad",
+                "Sin \"detección de novedad\", los viejos pasajes relevantes se mostrarían al usuario repetidamente en cada lista clasificada.detección de novedad",
+                "Nuestro marco combina y extiende el poder del filtrado adaptativo (AF), la recuperación ad-hoc (IR) y la \"detección de novedad\" (ND).detección de novedad",
+                "En comparación con el trabajo pasado, esta es la primera evaluación de la \"detección de novedad\" integrada con el filtrado adaptativo para consultas secuenciadas que permite la retroalimentación flexible de los usuarios sobre los pasajes clasificados.detección de novedad",
+                "Dado un perfil de consulta, es decir, la solución de regresión logística w ∗ como se describe en la Sección 3.1, el sistema calcula la probabilidad posterior de relevancia para cada pasaje x como frl (x) ≡ p (y = 1 | x, w ∗) = 1 (1 + E - W ∗ · x) (1) Los pasajes se ordenan por sus puntajes de relevancia, y los que tienen puntajes por encima de un umbral (sintonizado en un conjunto de entrenamiento) comprenden la lista de relevancia que se pasa a la \"detección de novedad\" paso.3.3 El componente de \"detección de novedades\" mantiene un historial de usuario H (t), que contiene todos los tramos de texto HI que el usuario destacó (como retroalimentación) durante sus interacciones pasadas con el sistema, hasta el tiempo actual t.Denotando la historia como h (t) = n h1, h2, ..., ht o, (2) El puntaje de novedad de un nuevo pasaje candidato X se calcula como: fnd (x) = 1 - max i∈1 ..t {cos (x, hi)} (3) donde ambos pasos candidatos X y los tramos resaltados de texto HI se representan como vectores TF-IDF.detección de novedad",
+                "El puntaje de novedad de cada pasaje se compara con un umbral presespecificado (también sintonizado en un conjunto de entrenamiento), y cualquier pasaje con un puntaje por debajo de este umbral se elimina de la lista de relevancia.3.4 Componente de clasificación anti-redundante Aunque el componente de \"detección de novedad\" asegura que solo la información novedosa (previamente invisible) permanezca en la lista de relevancia, esta lista aún podría contener la misma información novedosa en múltiples posiciones en la lista clasificada.detección de novedad",
+                "Nuestro procedimiento comienza con la lista actual de pasajes ordenados por relevancia (Sección 3.2), filtrado por el componente de \"detección de novedad\" (Sección 3.3), y genera una nueva lista no redundante de la siguiente manera: 1. Detección de novedad",
+                "Ninguna de las medidas existentes en recuperación ad-hoc, filtrado adaptativo, \"detección de novedad\" u otras áreas relacionadas (resumen de texto y respuesta de preguntas) tienen propiedades deseables en los tres aspectos.detección de novedad",
+                "Indri no admite ningún tipo de \"detección de novedad\".detección de novedad",
+                "Comparamos Indri con PRF activado y apagado, contra Caf'e con comentarios de los usuarios, \"detección de novedad\" y clasificación antiredenundante activada y apagada.6.2 Configuración experimental Dividimos el corpus TDT4 que abarca 4 meses en 10 trozos, cada uno definido como un período de 12 días consecutivos.detección de novedad",
+                "A veces, sin embargo, los usuarios pueden estar interesados en ver la misma información de múltiples fuentes, como una Tabla 1: puntajes NDCU de Indri y Caf´e para dos factores de amortiguación (γ) y diversos configuraciones (F: retroalimentación, n: \"Detección de novedad \", A: clasificación anti-redundante) Indri Caf´e γ Base +PRF Base +F +F +N +F +A +F +N +A 0 0.19 0.19 0.22 0.23 0.24 0.24 0.24 0.1 0.28 0.29 0.24 0.35 0.350.36 0.36 Indicador de su importancia o confiabilidad.detección de novedad",
+                "Nuestro sistema, llamado CAF´E, combina filtrado adaptativo, \"detección de novedad\" y clasificación de pasaje antiredado en un marco unificado para la optimización de servicios públicos.detección de novedad",
+                "Nuestros experimentos en el recientemente anotado TDT4 Benchmark Corpus muestran una mejora de la utilidad alentadora sobre Indri, y también sobre nuestro propio sistema con aprendizaje incremental y \"detección de novedad\" desactivadas.8. Detección de novedad",
+                "Recuperación y \"detección de novedad\" a nivel de oración.detección de novedad"
             ],
             "translated_text": "",
-            "candidates": [
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "Detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedades",
-                "detección de novedad",
-                "detección de novedad",
-                "Detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "Detección de novedad ",
-                "detección de novedad",
-                "detección de novedad",
-                "Detección de novedad",
-                "detección de novedad",
-                "detección de novedad",
-                "detección de novedad"
-            ],
+            "candidates": [],
             "error": []
         },
         "new evaluation methodology": {
-            "translated_key": "Nueva metodología de evaluación",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Utility-based Information Distillation Over Temporally Sequenced Documents Yiming Yang Language Technologies Inst.",
@@ -2260,13 +2215,10 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Por lo tanto, debemos desarrollar una \"nueva metodología de evaluación\".4.1 Claves de respuesta Para habilitar la evaluación de un sistema cuya salida consiste en pasajes de longitud arbitraria, tomamos prestado el concepto de claves de respuesta de la comunidad de respuesta (QA), donde los sistemas pueden devolver los tramos arbitrarios de texto como respuestas."
+                "Por lo tanto, debemos desarrollar una \"nueva metodología de evaluación\".4.1 Claves de respuesta Para habilitar la evaluación de un sistema cuya salida consiste en pasajes de longitud arbitraria, tomamos prestado el concepto de claves de respuesta de la comunidad de respuesta (QA), donde los sistemas pueden devolver los tramos arbitrarios de texto como respuestas.Nueva metodología de evaluación"
             ],
             "translated_text": "",
-            "candidates": [
-                "Nueva metodología de evaluación",
-                "nueva metodología de evaluación"
-            ],
+            "candidates": [],
             "error": []
         },
         "answer key": {
@@ -2529,13 +2481,10 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Por lo tanto, G (Pi, Q) se define como G (Pi, Q) = x nj ∈C (PI, Q) WJ ∗ γnj (7) donde C (Pi, Q) es el conjunto de todas las pepitas que aparecen en el pasoPi y también pertenecen a la \"clave de respuesta\" de la consulta q."
+                "Por lo tanto, G (Pi, Q) se define como G (Pi, Q) = x nj ∈C (PI, Q) WJ ∗ γnj (7) donde C (Pi, Q) es el conjunto de todas las pepitas que aparecen en el pasoPi y también pertenecen a la \"clave de respuesta\" de la consulta q.llave de respuestas"
             ],
             "translated_text": "",
-            "candidates": [
-                "llave de respuestas",
-                "clave de respuesta"
-            ],
+            "candidates": [],
             "error": []
         },
         "nugget-matching rule": {
@@ -2798,19 +2747,15 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Sin embargo, también está plagado de relevancia espuria, ya que no todas las palabras contenidas en la descripción de la pepita (o respuestas correctas conocidas) son fundamentales para la pepita.4.1.",
-                "Por lo tanto, podemos crear \"reglas de combate de pepitas\" que capturen sucintamente varias formas de expresar una pepita, mientras evitan las respuestas incorrectas (o fuera de contexto) coincidentes."
+                "Sin embargo, también está plagado de relevancia espuria, ya que no todas las palabras contenidas en la descripción de la pepita (o respuestas correctas conocidas) son fundamentales para la pepita.4.1.regla de coincidencia de pepitas",
+                "Por lo tanto, podemos crear \"reglas de combate de pepitas\" que capturen sucintamente varias formas de expresar una pepita, mientras evitan las respuestas incorrectas (o fuera de contexto) coincidentes.regla de coincidencia de pepitas"
             ],
             "translated_text": "",
-            "candidates": [
-                "regla de coincidencia de pepitas",
-                "regla de coincidencia de pepitas",
-                "reglas de combate de pepitas"
-            ],
+            "candidates": [],
             "error": []
         },
         "unified framework": {
-            "translated_key": "marco unificado",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Utility-based Information Distillation Over Temporally Sequenced Documents Yiming Yang Language Technologies Inst.",
@@ -3069,17 +3014,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Nuestro sistema, llamado CAF´E, combina filtrado adaptativo, detección de novedad y clasificación de pasaje antiredado en un \"marco unificado\" para la optimización de servicios públicos."
+                "Nuestro sistema, llamado CAF´E, combina filtrado adaptativo, detección de novedad y clasificación de pasaje antiredado en un \"marco unificado\" para la optimización de servicios públicos.marco unificado"
             ],
             "translated_text": "",
-            "candidates": [
-                "marco unificado",
-                "marco unificado"
-            ],
+            "candidates": [],
             "error": []
         },
         "ndcg metric": {
-            "translated_key": "Métrica NDCG",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Utility-based Information Distillation Over Temporally Sequenced Documents Yiming Yang Language Technologies Inst.",
@@ -3338,20 +3280,15 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "También proponemos una extensión de la \"métrica NDCG\" para evaluar la utilidad de los pasajes clasificados como una combinación de relevancia y novedad.",
-                "También propusimos una extensión de la \"métrica NDCG\" para evaluar la utilidad de los pasajes clasificados como una combinación ponderada de relevancia y novedad."
+                "También proponemos una extensión de la \"métrica NDCG\" para evaluar la utilidad de los pasajes clasificados como una combinación de relevancia y novedad.Métrica NDCG",
+                "También propusimos una extensión de la \"métrica NDCG\" para evaluar la utilidad de los pasajes clasificados como una combinación ponderada de relevancia y novedad.Métrica NDCG"
             ],
             "translated_text": "",
-            "candidates": [
-                "Métrica NDCG",
-                "métrica NDCG",
-                "Métrica NDCG",
-                "métrica NDCG"
-            ],
+            "candidates": [],
             "error": []
         },
         "utility-base distillation": {
-            "translated_key": "destilación de base de servicios públicos",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Utility-based Information Distillation Over Temporally Sequenced Documents Yiming Yang Language Technologies Inst.",
@@ -3615,7 +3552,7 @@
             "error": []
         },
         "unify framework": {
-            "translated_key": "Marco de unificar",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Utility-based Information Distillation Over Temporally Sequenced Documents Yiming Yang Language Technologies Inst.",
@@ -3879,7 +3816,7 @@
             "error": []
         },
         "adaptive filter": {
-            "translated_key": "filtro adaptativo",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Utility-based Information Distillation Over Temporally Sequenced Documents Yiming Yang Language Technologies Inst.",
@@ -4138,43 +4075,20 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Combina las fortalezas y se extiende más allá del \"filtro adaptativo\" convencional, la detección de novedad y la clasificación de pasaje no redundante con respecto a las necesidades de información duradera (tareas con múltiples consultas).",
-                "A pesar de los logros sustanciales en la investigación reciente de \"filtro adaptativo\", los problemas significativos siguen sin resolverse con respecto a cómo aprovechar la retroalimentación de los usuarios de manera efectiva y eficiente.",
-                "El usuario tiene un papel bastante pasivo en la configuración convencional de \"filtro adaptativo\": él o ella reacciona al sistema solo cuando el sistema toma una decisión Sí en un documento, al confirmar o rechazar esa decisión.",
-                "Nuestro marco combina y extiende el poder del \"filtro adaptativo\" ing (AF), la recuperación ad-hoc (IR) y la detección de novedad (ND).",
-                "En comparación con el trabajo pasado, esta es la primera evaluación de la detección de novedad integrada con el \"filtro adaptativo\" para consultas secuenciadas que permite la retroalimentación flexible de los usuarios sobre los pasajes clasificados.",
-                "Su rendimiento, así como la eficiencia en términos de tiempo de capacitación, lo convierten en un buen candidato cuando se requieren actualizaciones frecuentes del modelo de clase, como es el caso en el \"filtro adaptativo\", donde el sistema debe aprender de cada nuevo retroalimentación proporcionado por el usuario.(Ver [21] y [23] para los problemas de complejidad y implementación computacional).",
-                "En el \"filtro adaptativo\", cada consulta se considera una clase y la probabilidad de un pasaje que pertenece a esta clase corresponde al grado de relevancia del pasaje con respecto a la consulta.",
-                "Los detalles del uso de la regresión logística para el \"filtro adaptativo\" (asignando diferentes pesos a instancias de entrenamiento positivas y negativas, y regularizando la función objetivo para evitar el ajuste en exceso en los datos de entrenamiento) se presentan en [21].",
-                "Ninguna de las medidas existentes en la recuperación ad-hoc, el \"filtro adaptativo\", la detección de novedades u otras áreas relacionadas (resumen de texto y respuesta de preguntas) tienen propiedades deseables en los tres aspectos.",
-                "Sin embargo, sin el término de pérdida, DCG es una métrica puramente orientada al retiro y no es adecuada para una configuración de \"filtro adaptativo\", donde la utilidad de los sistemas depende en parte de su capacidad para limitar el número de elementos que se muestran al usuario.",
-                "Nuestro sistema, llamado CAF´E, combina el \"filtro adaptativo\", la detección de novedad y la clasificación de pasos antiredes en un marco unificado para la optimización de servicios públicos."
+                "Combina las fortalezas y se extiende más allá del \"filtro adaptativo\" convencional, la detección de novedad y la clasificación de pasaje no redundante con respecto a las necesidades de información duradera (tareas con múltiples consultas).filtro adaptativo",
+                "A pesar de los logros sustanciales en la investigación reciente de \"filtro adaptativo\", los problemas significativos siguen sin resolverse con respecto a cómo aprovechar la retroalimentación de los usuarios de manera efectiva y eficiente.filtro adaptativo",
+                "El usuario tiene un papel bastante pasivo en la configuración convencional de \"filtro adaptativo\": él o ella reacciona al sistema solo cuando el sistema toma una decisión Sí en un documento, al confirmar o rechazar esa decisión.filtro adaptativo",
+                "Nuestro marco combina y extiende el poder del \"filtro adaptativo\" ing (AF), la recuperación ad-hoc (IR) y la detección de novedad (ND).filtro adaptativo",
+                "En comparación con el trabajo pasado, esta es la primera evaluación de la detección de novedad integrada con el \"filtro adaptativo\" para consultas secuenciadas que permite la retroalimentación flexible de los usuarios sobre los pasajes clasificados.filtro adaptativo",
+                "Su rendimiento, así como la eficiencia en términos de tiempo de capacitación, lo convierten en un buen candidato cuando se requieren actualizaciones frecuentes del modelo de clase, como es el caso en el \"filtro adaptativo\", donde el sistema debe aprender de cada nuevo retroalimentación proporcionado por el usuario.(Ver [21] y [23] para los problemas de complejidad y implementación computacional).filtro adaptativo",
+                "En el \"filtro adaptativo\", cada consulta se considera una clase y la probabilidad de un pasaje que pertenece a esta clase corresponde al grado de relevancia del pasaje con respecto a la consulta.filtro adaptativo",
+                "Los detalles del uso de la regresión logística para el \"filtro adaptativo\" (asignando diferentes pesos a instancias de entrenamiento positivas y negativas, y regularizando la función objetivo para evitar el ajuste en exceso en los datos de entrenamiento) se presentan en [21].filtro adaptativo",
+                "Ninguna de las medidas existentes en la recuperación ad-hoc, el \"filtro adaptativo\", la detección de novedades u otras áreas relacionadas (resumen de texto y respuesta de preguntas) tienen propiedades deseables en los tres aspectos.filtro adaptativo",
+                "Sin embargo, sin el término de pérdida, DCG es una métrica puramente orientada al retiro y no es adecuada para una configuración de \"filtro adaptativo\", donde la utilidad de los sistemas depende en parte de su capacidad para limitar el número de elementos que se muestran al usuario.filtro adaptativo",
+                "Nuestro sistema, llamado CAF´E, combina el \"filtro adaptativo\", la detección de novedad y la clasificación de pasos antiredes en un marco unificado para la optimización de servicios públicos.filtro adaptativo"
             ],
             "translated_text": "",
-            "candidates": [
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo",
-                "filtro adaptativo"
-            ],
+            "candidates": [],
             "error": []
         },
         "passage rank": {
@@ -4437,20 +4351,15 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Combina las fortalezas y se extiende más allá del filtrado adaptativo convencional, la detección de novedad y el \"rango de paso\" no redundante con respecto a las necesidades de información duradera (tareas con múltiples consultas).",
-                "Nuestro sistema, llamado CAF´E, combina filtrado adaptativo, detección de novedad y \"rango de paso\" antiredado en un marco unificado para la optimización de servicios públicos."
+                "Combina las fortalezas y se extiende más allá del filtrado adaptativo convencional, la detección de novedad y el \"rango de paso\" no redundante con respecto a las necesidades de información duradera (tareas con múltiples consultas).rango de pasaje",
+                "Nuestro sistema, llamado CAF´E, combina filtrado adaptativo, detección de novedad y \"rango de paso\" antiredado en un marco unificado para la optimización de servicios públicos.rango de pasaje"
             ],
             "translated_text": "",
-            "candidates": [
-                "rango de pasaje",
-                "rango de paso",
-                "rango de pasaje",
-                "rango de paso"
-            ],
+            "candidates": [],
             "error": []
         },
         "ﬂexible user feedback": {
-            "translated_key": "Comentarios de los usuarios flexibles",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Utility-based Information Distillation Over Temporally Sequenced Documents Yiming Yang Language Technologies Inst.",
@@ -4714,7 +4623,7 @@
             "error": []
         },
         "evaluation methodology": {
-            "translated_key": "metodología de evaluación",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Utility-based Information Distillation Over Temporally Sequenced Documents Yiming Yang Language Technologies Inst.",
@@ -4973,23 +4882,13 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "La Sección 4 discute temas con respecto a la \"metodología de evaluación\" y propone un nuevo esquema.",
-                "La combinación de AF, IR y ND con las nuevas extensiones plantea una importante pregunta de investigación sobre \"metodología de evaluación\": ¿Cómo podemos medir la utilidad de dicho sistema de destilación de información?",
-                "\"Metodología de evaluación\" El enfoque que propusimos anteriormente para la destilación de información plantea problemas importantes con respecto a la \"metodología de evaluación\".",
-                "Por lo tanto, debemos desarrollar una nueva \"metodología de evaluación\".4.1 Claves de respuesta Para habilitar la evaluación de un sistema cuya salida consiste en pasajes de longitud arbitraria, tomamos prestado el concepto de claves de respuesta de la comunidad de respuesta (QA), donde los sistemas pueden devolver los tramos arbitrarios de texto como respuestas."
+                "La Sección 4 discute temas con respecto a la \"metodología de evaluación\" y propone un nuevo esquema.metodología de evaluación",
+                "La combinación de AF, IR y ND con las nuevas extensiones plantea una importante pregunta de investigación sobre \"metodología de evaluación\": ¿Cómo podemos medir la utilidad de dicho sistema de destilación de información?metodología de evaluación",
+                "\"Metodología de evaluación\" El enfoque que propusimos anteriormente para la destilación de información plantea problemas importantes con respecto a la \"metodología de evaluación\".metodología de evaluación",
+                "Por lo tanto, debemos desarrollar una nueva \"metodología de evaluación\".4.1 Claves de respuesta Para habilitar la evaluación de un sistema cuya salida consiste en pasajes de longitud arbitraria, tomamos prestado el concepto de claves de respuesta de la comunidad de respuesta (QA), donde los sistemas pueden devolver los tramos arbitrarios de texto como respuestas.metodología de evaluación"
             ],
             "translated_text": "",
-            "candidates": [
-                "metodología de evaluación",
-                "metodología de evaluación",
-                "metodología de evaluación",
-                "metodología de evaluación",
-                "metodología de evaluación",
-                "Metodología de evaluación",
-                "metodología de evaluación",
-                "metodología de evaluación",
-                "metodología de evaluación"
-            ],
+            "candidates": [],
             "error": []
         }
     }

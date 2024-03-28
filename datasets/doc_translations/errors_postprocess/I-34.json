@@ -1493,19 +1493,12 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Suponemos que Unify es una implementación adecuada de un algoritmo de unificación que yo) siempre termina (posiblemente falla, si no se puede encontrar un unificador);ii) es correcto;y iii) tiene una complejidad computacional lineal.3.1 Detección de conflictos Un \"conflicto de normas\" surge cuando una fórmula atómica que etiqueta un borde en el VO, es decir, una acción, se permite y prohibida simultáneamente [13].",
-                "Conflicto de acción e inconsistencia En nuestra discusión anterior, se detectaron \"conflicto de normas\" e inconsistencia a través de una comparación directa de las fórmulas atómicas que representan la acción.",
-                "En la discusión a continuación, nos concentramos en el \"conflicto de normas\", pero la inconsistencia de la norma puede tratarse de manera similar,"
+                "Suponemos que Unify es una implementación adecuada de un algoritmo de unificación que yo) siempre termina (posiblemente falla, si no se puede encontrar un unificador);ii) es correcto;y iii) tiene una complejidad computacional lineal.3.1 Detección de conflictos Un \"conflicto de normas\" surge cuando una fórmula atómica que etiqueta un borde en el VO, es decir, una acción, se permite y prohibida simultáneamente [13].conflicto de normas",
+                "Conflicto de acción e inconsistencia En nuestra discusión anterior, se detectaron \"conflicto de normas\" e inconsistencia a través de una comparación directa de las fórmulas atómicas que representan la acción.conflicto de normas",
+                "En la discusión a continuación, nos concentramos en el \"conflicto de normas\", pero la inconsistencia de la norma puede tratarse de manera similar, si cambiamos las modalidades deoípicas P para el conflicto de la norma"
             ],
             "translated_text": "",
-            "candidates": [
-                "conflicto de normas",
-                "conflicto de normas",
-                "conflicto de normas",
-                "conflicto de normas",
-                "si cambiamos las modalidades deoípicas P para el conflicto de la norma",
-                "conflicto de normas"
-            ],
+            "candidates": [],
             "error": []
         },
         "conflicting prohibition": {
@@ -1728,17 +1721,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "En la primera etapa (primero para cada bucle), eliminamos todas las \"prohibición conflictiva\" S ω = (fa: r ¯ϕ) σc, td, ta, te con agente de tierra/pares de roles A: R y fórmulas de tierra ¯ϕ:La única forma de resolver los conflictos que surgen de tales prohibiciones es eliminarlos por completo, ya que no podemos reducir una norma completamente terrestre."
+                "En la primera etapa (primero para cada bucle), eliminamos todas las \"prohibición conflictiva\" S ω = (fa: r ¯ϕ) σc, td, ta, te con agente de tierra/pares de roles A: R y fórmulas de tierra ¯ϕ:La única forma de resolver los conflictos que surgen de tales prohibiciones es eliminarlos por completo, ya que no podemos reducir una norma completamente terrestre.Prohibición contradictoria"
             ],
             "translated_text": "",
-            "candidates": [
-                "Prohibición contradictoria",
-                "prohibición conflictiva"
-            ],
+            "candidates": [],
             "error": []
         },
         "norm inconsistency": {
-            "translated_key": "inconsistencia de la norma",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Resolving Conflict and Inconsistency in Norm-Regulated Virtual Organizations Wamberto Vasconcelos Dept.",
@@ -1957,20 +1947,15 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Inconsistencias de normas Si se puede encontrar una sustitución σ que unifica una obligación y una prohibición, entonces se produce una situación de \"inconsistencia de la norma\" [13].",
-                "En la discusión a continuación, nos concentramos en el conflicto de la norma, pero la \"inconsistencia de la norma\" puede tratarse de manera similar, si cambiamos las modalidades deoípicas P para O."
+                "Inconsistencias de normas Si se puede encontrar una sustitución σ que unifica una obligación y una prohibición, entonces se produce una situación de \"inconsistencia de la norma\" [13].inconsistencia de la norma",
+                "En la discusión a continuación, nos concentramos en el conflicto de la norma, pero la \"inconsistencia de la norma\" puede tratarse de manera similar, si cambiamos las modalidades deoípicas P para O. Inconsistencia de la norma"
             ],
             "translated_text": "",
-            "candidates": [
-                "inconsistencia de la norma",
-                "inconsistencia de la norma",
-                "Inconsistencia de la norma",
-                "inconsistencia de la norma"
-            ],
+            "candidates": [],
             "error": []
         },
         "external agent": {
-            "translated_key": "agente externo",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Resolving Conflict and Inconsistency in Norm-Regulated Virtual Organizations Wamberto Vasconcelos Dept.",
@@ -2189,41 +2174,19 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Por posición normativa nos referimos a la carga social asociada a los individuos [12], es decir, sus obligaciones, permisos y prohibiciones: 2 agentes no controlados pueden acomodarse en esta propuesta, si asociamos a cada uno de ellos un agente de gobernador que supervisa elAcciones del \"agente externo\" e informan sobre ellas.",
-                "Este es un tipo de acompañante que interactúa con un \"agente externo\", y observa e informa sobre su comportamiento.",
-                "Representamos a continuación cómo el \"agente externo\" deciden los pares de gobernadores/agentes externos: las opciones no deterministas en el VO en el VO son decididas por el \"agente externo\";El agente del gobernador considera cualquier aspecto normativo.",
-                "El agente del gobernador representa al \"agente externo\" dentro del VO.",
-                "Como tal, tiene el identificador único del \"agente externo\".",
-                "El agente del gobernador mantiene una cuenta de todos los roles que el \"agente externo\" está desempeñando actualmente: en nuestros VO, es posible que los agentes asuman más de un papel simultáneamente.",
-                "Las normas de filtro de predicado/4 recolectan las normas que se aplican a la identificación del agente (los agentes del gobernador \"agente externo\").",
-                "En la línea 7, el agente del gobernador, en posesión de las normas aplicables, así como otra información relevante, interactúa con el \"agente externo\" para decidir sobre un conjunto de acciones que cumplen con las normas: estas acciones se utilizarán para actualizar (línea 8) El estado de ejecución global ξ.",
-                "En el proceso de actualización del estado de ejecución, se debe asignar un nuevo conjunto de roles al \"agente externo\", representado como NewRoles.",
-                "El agente del gobernador sigue en bucle (línea 9) utilizando el identificador para el \"agente externo\" y su nuevo conjunto de roles.5.1 Uso de normas anotadas ahora explicamos cómo las normas anotadas son utilizadas por los agentes conscientes de las normas."
+                "Por posición normativa nos referimos a la carga social asociada a los individuos [12], es decir, sus obligaciones, permisos y prohibiciones: 2 agentes no controlados pueden acomodarse en esta propuesta, si asociamos a cada uno de ellos un agente de gobernador que supervisa elAcciones del \"agente externo\" e informan sobre ellas.agente externo",
+                "Este es un tipo de acompañante que interactúa con un \"agente externo\", y observa e informa sobre su comportamiento.agente externo",
+                "Representamos a continuación cómo el \"agente externo\" deciden los pares de gobernadores/agentes externos: las opciones no deterministas en el VO en el VO son decididas por el \"agente externo\";El agente del gobernador considera cualquier aspecto normativo.agente externo",
+                "El agente del gobernador representa al \"agente externo\" dentro del VO.agente externo",
+                "Como tal, tiene el identificador único del \"agente externo\".agente externo",
+                "El agente del gobernador mantiene una cuenta de todos los roles que el \"agente externo\" está desempeñando actualmente: en nuestros VO, es posible que los agentes asuman más de un papel simultáneamente.agente externo",
+                "Las normas de filtro de predicado/4 recolectan las normas que se aplican a la identificación del agente (los agentes del gobernador \"agente externo\").agente externo",
+                "En la línea 7, el agente del gobernador, en posesión de las normas aplicables, así como otra información relevante, interactúa con el \"agente externo\" para decidir sobre un conjunto de acciones que cumplen con las normas: estas acciones se utilizarán para actualizar (línea 8) El estado de ejecución global ξ.agente externo",
+                "En el proceso de actualización del estado de ejecución, se debe asignar un nuevo conjunto de roles al \"agente externo\", representado como NewRoles.agente externo",
+                "El agente del gobernador sigue en bucle (línea 9) utilizando el identificador para el \"agente externo\" y su nuevo conjunto de roles.5.1 Uso de normas anotadas ahora explicamos cómo las normas anotadas son utilizadas por los agentes conscientes de las normas.agente externo"
             ],
             "translated_text": "",
-            "candidates": [
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo",
-                "agente externo"
-            ],
+            "candidates": [],
             "error": []
         },
         "governor agent": {
@@ -2446,41 +2409,22 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Por posición normativa nos referimos a la carga social asociada a los individuos [12], es decir, sus obligaciones, permisos y prohibiciones: 2 agentes no controlados pueden acomodarse en esta propuesta, si asociamos a cada uno de ellos un \"agente gobernador\" que \"supervisa las acciones del agente externo y los informes sobre ellas.",
-                "Abordamos la masa abierta y heterogénea: acomodamos a los agentes externos al proporcionar a cada uno de ellos un \"agente gobernador\" correspondiente [12].",
-                "Representamos a continuación cómo el agente externo decide los pares de gobernadores/agentes externos: las opciones no deterministas en el VO son decididas por el VO;Los aspectos normativos son considerados por el \"agente gobernador\".",
-                "El \"agente gobernador\" representa al agente externo dentro del VO.",
-                "El \"agente del gobernador\" mantiene una cuenta de todos los roles que el agente externo está desempeñando actualmente: en nuestros VO, es posible que los agentes asuman más de un papel simultáneamente.",
-                "Mostramos 1 principal (id, roles) ← 2 Obtener tuple (i, s, ξ, ω) ∧ 3 terminar (id, roles, i, ξ, ω) 4 main (id, roles) ← 5 Get Tuple (i,S, ξ, ω) ∧ 6 Normas de filtro (ID, roles, ω, ωid) ∧ 7 Discutir normas (id, roles, i, s, ξ, ωid, acciones) ∧ 8 Actualizar tupla (roles, acciones, newroles) ∧9 Main (ID, Newroles) Figura 5: \"Agente de gobernador\" como un programa lógico de las líneas de nuestras cláusulas numeradas 1-9.",
-                "En este caso, la tupla se recupera nuevamente (línea 5) y el \"agente gobernador\" avanza (línea 6) para analizar el estado normativo global actual ω con el fin de obtener el subconjunto ωid ⊆ Ω de las normas que se refieren a la identificación del agente bajo roles de rolesRoles.",
-                "En la línea 7, el \"agente gobernador\", en posesión de las normas aplicables, así como otra información relevante, interactúa con el agente externo para decidir sobre un conjunto de acciones que cumplen con la norma: estas acciones se utilizarán para actualizar (línea 8) El estado de ejecución global ξ.",
-                "El \"Agente del Gobernador\" sigue en bucle (línea 9) utilizando el identificador para el agente externo y su nuevo conjunto de roles.5.1 Uso de normas anotadas ahora explicamos cómo las normas anotadas son utilizadas por los agentes conscientes de las normas."
+                "Por posición normativa nos referimos a la carga social asociada a los individuos [12], es decir, sus obligaciones, permisos y prohibiciones: 2 agentes no controlados pueden acomodarse en esta propuesta, si asociamos a cada uno de ellos un \"agente gobernador\" que \"supervisa las acciones del agente externo y los informes sobre ellas.agente gobernador",
+                "Abordamos la masa abierta y heterogénea: acomodamos a los agentes externos al proporcionar a cada uno de ellos un \"agente gobernador\" correspondiente [12].agente gobernador",
+                "Representamos a continuación cómo el agente externo decide los pares de gobernadores/agentes externos: las opciones no deterministas en el VO son decididas por el VO;Los aspectos normativos son considerados por el \"agente gobernador\".agente gobernador",
+                "El \"agente gobernador\" representa al agente externo dentro del VO.agente gobernador",
+                "El \"agente del gobernador\" mantiene una cuenta de todos los roles que el agente externo está desempeñando actualmente: en nuestros VO, es posible que los agentes asuman más de un papel simultáneamente.agente gobernador",
+                "Mostramos 1 principal (id, roles) ← 2 Obtener tuple (i, s, ξ, ω) ∧ 3 terminar (id, roles, i, ξ, ω) 4 main (id, roles) ← 5 Get Tuple (i,S, ξ, ω) ∧ 6 Normas de filtro (ID, roles, ω, ωid) ∧ 7 Discutir normas (id, roles, i, s, ξ, ωid, acciones) ∧ 8 Actualizar tupla (roles, acciones, newroles) ∧9 Main (ID, Newroles) Figura 5: \"Agente de gobernador\" como un programa lógico de las líneas de nuestras cláusulas numeradas 1-9.agente gobernador",
+                "En este caso, la tupla se recupera nuevamente (línea 5) y el \"agente gobernador\" avanza (línea 6) para analizar el estado normativo global actual ω con el fin de obtener el subconjunto ωid ⊆ Ω de las normas que se refieren a la identificación del agente bajo roles de rolesRoles.agente gobernador",
+                "En la línea 7, el \"agente gobernador\", en posesión de las normas aplicables, así como otra información relevante, interactúa con el agente externo para decidir sobre un conjunto de acciones que cumplen con la norma: estas acciones se utilizarán para actualizar (línea 8) El estado de ejecución global ξ.agente gobernador",
+                "El \"Agente del Gobernador\" sigue en bucle (línea 9) utilizando el identificador para el agente externo y su nuevo conjunto de roles.5.1 Uso de normas anotadas ahora explicamos cómo las normas anotadas son utilizadas por los agentes conscientes de las normas.agente gobernador"
             ],
             "translated_text": "",
-            "candidates": [
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente del gobernador",
-                "agente gobernador",
-                "Agente de gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "agente gobernador",
-                "Agente del Gobernador"
-            ],
+            "candidates": [],
             "error": []
         },
         "artificial social systems": {
-            "translated_key": "sistemas sociales artificiales",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Resolving Conflict and Inconsistency in Norm-Regulated Virtual Organizations Wamberto Vasconcelos Dept.",

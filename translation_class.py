@@ -593,7 +593,7 @@ def find_last_term_and_remove(string):
     for i in range(length-1, 0, -1):
       
         # if space is occurred then return
-        if(string[i] == ".") or (string[i] == "!") or (string[i] == "?") or (string[i] == ")"):
+        if(string[i] == ".") or (string[i] == "!") or (string[i] == "?") or (string[i] == ")") or (string[i] == ","):
           
             to_remove= len(newstring[::-1])
             new_sentence = string[:-to_remove]

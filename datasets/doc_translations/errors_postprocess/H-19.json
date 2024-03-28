@@ -1213,26 +1213,16 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Para evaluar nuestro método, posteriormente proponemos un algoritmo de detección de eventos no supervisado para las transmisiones de noticias.0 0.2 0.4 0.6 0.8 8/20/1996 12/8/1996 28/03/1997 7/16/1997 Pascua de abril (a) Evento aperiódico 0 0.1 0.2 0.3 0.",
-                "2) las características representativas del mismo evento comparten distribuciones similares a lo largo del tiempo y están altamente correlacionadas;3) Un evento importante tiene un conjunto de características representativas activas (en gran parte informadas), mientras que un evento sin importancia tiene un conjunto de características representativas inactivas (menos informadas);4) Una característica puede ser incluida por varios eventos con superposiciones en los marcos de tiempo.",
-                "Definición 2. (\"Evento periódico\") Si los eventos de un determinado género de eventos ocurren regularmente con una periodicidad fija p ≤ t/2, decimos que este género de eventos en particular es periódico, con cada evento miembro calificado como un \"evento periódico\".",
-                "0 0.2 0.4 0.6 8/20/1996 2/8/1996 28/03/1997 7/16/1997 (a) Soccer (DFIDF: Tiempo) 0 50 100 150 0.00 0.13 0.25 0.37 0.50 P = 7 S = 155.13 (b) Fútbol (S: Frecuencia) Figura 3: Funcionar fútbol con SF relativo alto y PF a corto plazo.",
-                "Cada gaussiano representa un \"evento periódico\", y se modela de manera similar como se menciona en la Sección 5.1.6.",
-                "Finalmente, estudiamos el (a) problema de detección de \"evento periódico\" con el algoritmo 2. 7.1 conjunto de datos y configuración experimental El Corpus Reuters contiene 806,791 noticias inglesas de noticias del 20/08/1996 al 08/19/1997 a una resolución diaria."
+                "Para evaluar nuestro método, posteriormente proponemos un algoritmo de detección de eventos no supervisado para las transmisiones de noticias.0 0.2 0.4 0.6 0.8 8/20/1996 12/8/1996 28/03/1997 7/16/1997 Pascua de abril (a) Evento aperiódico 0 0.1 0.2 0.3 0.4 8/20/1996 12/8/1996 3/28evento periódico",
+                "evento periódico",
+                "2) las características representativas del mismo evento comparten distribuciones similares a lo largo del tiempo y están altamente correlacionadas;3) Un evento importante tiene un conjunto de características representativas activas (en gran parte informadas), mientras que un evento sin importancia tiene un conjunto de características representativas inactivas (menos informadas);4) Una característica puede ser incluida por varios eventos con superposiciones en los marcos de tiempo.evento periódico",
+                "Definición 2. (\"Evento periódico\") Si los eventos de un determinado género de eventos ocurren regularmente con una periodicidad fija p ≤ t/2, decimos que este género de eventos en particular es periódico, con cada evento miembro calificado como un \"evento periódico\".evento periódico",
+                "0 0.2 0.4 0.6 8/20/1996 2/8/1996 28/03/1997 7/16/1997 (a) Soccer (DFIDF: Tiempo) 0 50 100 150 0.00 0.13 0.25 0.37 0.50 P = 7 S = 155.13 (b) Fútbol (S: Frecuencia) Figura 3: Funcionar fútbol con SF relativo alto y PF a corto plazo.evento periódico",
+                "Cada gaussiano representa un \"evento periódico\", y se modela de manera similar como se menciona en la Sección 5.1.6. Evento periódico",
+                "Finalmente, estudiamos el (a) problema de detección de \"evento periódico\" con el algoritmo 2. 7.1 conjunto de datos y configuración experimental El Corpus Reuters contiene 806,791 noticias inglesas de noticias del 20/08/1996 al 08/19/1997 a una resolución diaria.evento periódico"
             ],
             "translated_text": "",
-            "candidates": [
-                "4 8/20/1996 12/8/1996 3/28evento periódico",
-                "evento periódico",
-                "evento periódico",
-                "Evento periódico",
-                "evento periódico",
-                "evento periódico",
-                "Evento periódico",
-                "evento periódico",
-                "evento periódico",
-                "evento periódico"
-            ],
+            "candidates": [],
             "error": []
         },
         "word signal": {
@@ -1459,17 +1449,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Por lo tanto, en este documento, observamos las noticias y las tendencias de las tendencias desde la perspectiva de analizar una \"señal de palabras\" de la serie temporal."
+                "Por lo tanto, en este documento, observamos las noticias y las tendencias de las tendencias desde la perspectiva de analizar una \"señal de palabras\" de la serie temporal.señal de palabra"
             ],
             "translated_text": "",
-            "candidates": [
-                "señal de palabra",
-                "señal de palabras"
-            ],
+            "candidates": [],
             "error": []
         },
         "spectral analysis": {
-            "translated_key": "análisis espectral",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Analyzing Feature Trajectories for Event Detection Qi He qihe@pmail.ntu.edu.sg Kuiyu Chang ASKYChang@ntu.edu.sg Ee-Peng Lim ASEPLim@ntu.edu.sg School of Computer Engineering Nanyang Technological University Block N4, Nanyang Avenue, Singapore 639798 ABSTRACT We consider the problem of analyzing word trajectories in both time and frequency domains, with the specific goal of identifying important and less-reported, periodic and aperiodic words.",
@@ -1692,29 +1679,18 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "En este artículo, 1) primero aplicamos \"análisis espectral\" para clasificar las características para diferentes características del evento: importantes y menos informados, periódicos y aperiódicos;2) características aperiódicas modeladas con densidad gaussiana y características periódicas con densidades de mezcla gaussiana, y posteriormente detectaron cada características estalladas por el enfoque gaussiano truncado;3) propuso un algoritmo de detección de eventos codiciosos no supervisado para detectar eventos aperiódicos y periódicos.",
-                "En particular, estudiamos el novedoso problema de analizar las trayectorias de características para la detección de eventos, tomando prestada una técnica bien conocida del procesamiento de señales: identificación de correlaciones de distribución entre todas las características mediante \"análisis espectral\".",
-                "Las técnicas de \"análisis espectral\" han sido utilizadas previamente por Vlachos et al.[19] para identificar periodicidades y explosiones de los registros de consultas.",
-                "En este artículo, utilizamos \"análisis espectral\" para clasificar las características de las palabras a lo largo de dos dimensiones, a saber, periodicidad y espectro de potencia, con el objetivo final de identificar eventos periódicos y aperiódicos de ruptura.3.",
-                "Identificación de características para eventos en esta sección, mostramos cómo se pueden extraer características representativas para eventos (no) importantes o (a) periódicos.4.1 \"Análisis espectral\" para el período dominante dada una característica F, descomponemos su trayectoria de características yf = [yf (1), yf (2), ..., yf (t)] en la secuencia de números complejos t [x1,..., Xt] a través de la transformación discreta de Fourier (DFT): xk = t t = 1 yf (t) e- 2πi t (k - 1) t, k = 1, 2 ,..., T. DFT puede representar la serie temporal original como una combinación lineal de sinusoides complejos, que se ilustra mediante la transformación de Fourier discreta inversa (idft): yf (t) = 1 t t k = 1 xke 2πi t (k - 1) t, t = 1, 2 ,..., T, donde el coeficiente de Fourier XK denota la amplitud del sinusoide con la frecuencia k/t."
+                "En este artículo, 1) primero aplicamos \"análisis espectral\" para clasificar las características para diferentes características del evento: importantes y menos informados, periódicos y aperiódicos;2) características aperiódicas modeladas con densidad gaussiana y características periódicas con densidades de mezcla gaussiana, y posteriormente detectaron cada características estalladas por el enfoque gaussiano truncado;3) propuso un algoritmo de detección de eventos codiciosos no supervisado para detectar eventos aperiódicos y periódicos.análisis espectral",
+                "En particular, estudiamos el novedoso problema de analizar las trayectorias de características para la detección de eventos, tomando prestada una técnica bien conocida del procesamiento de señales: identificación de correlaciones de distribución entre todas las características mediante \"análisis espectral\".análisis espectral",
+                "Las técnicas de \"análisis espectral\" han sido utilizadas previamente por Vlachos et al.[19] para identificar periodicidades y explosiones de los registros de consultas.análisis espectral",
+                "En este artículo, utilizamos \"análisis espectral\" para clasificar las características de las palabras a lo largo de dos dimensiones, a saber, periodicidad y espectro de potencia, con el objetivo final de identificar eventos periódicos y aperiódicos de ruptura.3. Análisis espectral",
+                "Identificación de características para eventos en esta sección, mostramos cómo se pueden extraer características representativas para eventos (no) importantes o (a) periódicos.4.1 \"Análisis espectral\" para el período dominante dada una característica F, descomponemos su trayectoria de características yf = [yf (1), yf (2), ..., yf (t)] en la secuencia de números complejos t [x1,..., Xt] a través de la transformación discreta de Fourier (DFT): xk = t t = 1 yf (t) e- 2πi t (k - 1) t, k = 1, 2 ,..., T. DFT puede representar la serie temporal original como una combinación lineal de sinusoides complejos, que se ilustra mediante la transformación de Fourier discreta inversa (idft): yf (t) = 1 t t k = 1 xke 2πi t (k - 1) t, t = 1, 2 ,..., T, donde el coeficiente de Fourier XK denota la amplitud del sinusoide con la frecuencia k/t.análisis espectral"
             ],
             "translated_text": "",
-            "candidates": [
-                "análisis espectral",
-                "análisis espectral",
-                "análisis espectral",
-                "análisis espectral",
-                "análisis espectral",
-                "análisis espectral",
-                "Análisis espectral",
-                "análisis espectral",
-                "análisis espectral",
-                "Análisis espectral"
-            ],
+            "candidates": [],
             "error": []
         },
         "topic detection": {
-            "translated_key": "detección de temas",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Analyzing Feature Trajectories for Event Detection Qi He qihe@pmail.ntu.edu.sg Kuiyu Chang ASKYChang@ntu.edu.sg Ee-Peng Lim ASEPLim@ntu.edu.sg School of Computer Engineering Nanyang Technological University Block N4, Nanyang Avenue, Singapore 639798 ABSTRACT We consider the problem of analyzing word trajectories in both time and frequency domains, with the specific goal of identifying important and less-reported, periodic and aperiodic words.",
@@ -1937,23 +1913,16 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "De hecho, la comunidad de \"detección de temas\" y seguimiento (TDT) ha estado tratando de encontrar durante muchos años con una solución práctica para ayudar a las personas a monitorear las noticias de manera efectiva.",
-                "Trabajo relacionado Este trabajo está en gran medida motivado por una familia más amplia de problemas conocidos colectivamente como \"detección de temas\" y seguimiento (TDT) [20, 5, 17, 4, 21, 7, 14, 10].",
-                "\"Detección de temas\" y seguimiento."
+                "De hecho, la comunidad de \"detección de temas\" y seguimiento (TDT) ha estado tratando de encontrar durante muchos años con una solución práctica para ayudar a las personas a monitorear las noticias de manera efectiva.detección de temas",
+                "Trabajo relacionado Este trabajo está en gran medida motivado por una familia más amplia de problemas conocidos colectivamente como \"detección de temas\" y seguimiento (TDT) [20, 5, 17, 4, 21, 7, 14, 10].detección de temas",
+                "\"Detección de temas\" y seguimiento.detección de temas"
             ],
             "translated_text": "",
-            "candidates": [
-                "detección de temas",
-                "detección de temas",
-                "detección de temas",
-                "detección de temas",
-                "detección de temas",
-                "Detección de temas"
-            ],
+            "candidates": [],
             "error": []
         },
         "topic tracking": {
-            "translated_key": "seguimiento de temas",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Analyzing Feature Trajectories for Event Detection Qi He qihe@pmail.ntu.edu.sg Kuiyu Chang ASKYChang@ntu.edu.sg Ee-Peng Lim ASEPLim@ntu.edu.sg School of Computer Engineering Nanyang Technological University Block N4, Nanyang Avenue, Singapore 639798 ABSTRACT We consider the problem of analyzing word trajectories in both time and frequency domains, with the specific goal of identifying important and less-reported, periodic and aperiodic words.",
@@ -2404,23 +2373,13 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Recientemente, ha habido un interés significativo en modelar un evento en el \"flujo de texto\" como una explosión de actividades al incorporar información temporal.",
-                "El trabajo seminal de Kleinbergs describió cómo se pueden extraer las características de Burny de la \"corriente de texto\" utilizando un modelo de autómata infinito [12], que inspiró una serie completa de aplicaciones como la identificación de Kumars de comunidades explosivas a partir de gráficos de weblog [13], resumen de MEI de la evolutiva de evolutionTemas en \"Stream de texto\" s [15], Hes agrupa de flujos de texto utilizando características de ráfaga [11], etc.",
-                "Detección de eventos de parámetros gratuitos en \"Stream de texto\" s.",
-                "Representación de características de ráfaga para agrupar el \"flujo de texto\" s."
+                "Recientemente, ha habido un interés significativo en modelar un evento en el \"flujo de texto\" como una explosión de actividades al incorporar información temporal.transmisión de texto",
+                "El trabajo seminal de Kleinbergs describió cómo se pueden extraer las características de Burny de la \"corriente de texto\" utilizando un modelo de autómata infinito [12], que inspiró una serie completa de aplicaciones como la identificación de Kumars de comunidades explosivas a partir de gráficos de weblog [13], resumen de MEI de la evolutiva de evolutionTemas en \"Stream de texto\" s [15], Hes agrupa de flujos de texto utilizando características de ráfaga [11], etc. Stream de texto",
+                "Detección de eventos de parámetros gratuitos en \"Stream de texto\" s.transmisión de texto",
+                "Representación de características de ráfaga para agrupar el \"flujo de texto\" s.transmisión de texto"
             ],
             "translated_text": "",
-            "candidates": [
-                "transmisión de texto",
-                "flujo de texto",
-                "Stream de texto",
-                "corriente de texto",
-                "Stream de texto",
-                "transmisión de texto",
-                "Stream de texto",
-                "transmisión de texto",
-                "flujo de texto"
-            ],
+            "candidates": [],
             "error": []
         },
         "news stream": {
@@ -2647,31 +2606,16 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "En lugar de atacar el problema con las variaciones del mismo martillo (similitud de coseno y TFIDF), es necesaria una comprensión fundamental de las características de los datos de \"flujo de noticias\" antes de que se puedan hacer avances importantes en TDT.",
-                "Estos dos ejemplos no son más que la punta del iceberg entre todas las tendencias y correlaciones de palabras ocultas en un \"flujo de noticias\" como Reuters.",
-                "Nuestro algoritmo ha sido evaluado en un verdadero \"flujo de noticias\" para mostrar su efectividad.2.",
-                "La representación de datos permite que T sea la duración/período (en días) de un \"flujo de noticias\", y F representa el espacio completo de características de la palabra en el modelo de espacio vectorial (VSM) clásico.3.1 Clasificación de periodicidad del evento Dentro de T, puede existir ciertos eventos que ocurren solo una vez, por ejemplo, Tony Blair elegido como Primer Ministro del Reino Unido, y otros eventos recurrentes de varias periodicidades, por ejemplo, coincidencias semanales de fútbol.",
-                "Además, los eventos triviales que solo contienen características de año/mes (es decir, un evento que solo contenga 1 característica de Aug podría identificarse en un \"flujo de noticias\" de 1 año) podría eliminarse, aunque tales eventos tendrán un alto costo inherente y ya deberían clasificarse muy bajo.",
-                "También diseñamos un algoritmo codicioso no supervisado para detectar eventos aperiódicos y periódicos, que tuvo éxito en la detección de eventos reales como se muestra en la evaluación en un \"flujo de noticias\" real.",
-                "El trabajo futuro incluye la evaluación del retiro de los eventos detectados para un \"flujo de noticias\" etiquetado y comparación de nuestro modelo con los métodos equivalentes más cercanos, que actualmente se limitan a los métodos de Kleinberg [12] (que solo pueden detectar ciertos tipos de eventos explosivos dependiendoEn la configuración de parámetros), Fung et al.[9], y Swan y Allan [18]."
+                "En lugar de atacar el problema con las variaciones del mismo martillo (similitud de coseno y TFIDF), es necesaria una comprensión fundamental de las características de los datos de \"flujo de noticias\" antes de que se puedan hacer avances importantes en TDT.transmisión de noticias",
+                "Estos dos ejemplos no son más que la punta del iceberg entre todas las tendencias y correlaciones de palabras ocultas en un \"flujo de noticias\" como Reuters.transmisión de noticias",
+                "Nuestro algoritmo ha sido evaluado en un verdadero \"flujo de noticias\" para mostrar su efectividad.2. transmisión de noticias",
+                "La representación de datos permite que T sea la duración/período (en días) de un \"flujo de noticias\", y F representa el espacio completo de características de la palabra en el modelo de espacio vectorial (VSM) clásico.3.1 Clasificación de periodicidad del evento Dentro de T, puede existir ciertos eventos que ocurren solo una vez, por ejemplo, Tony Blair elegido como Primer Ministro del Reino Unido, y otros eventos recurrentes de varias periodicidades, por ejemplo, coincidencias semanales de fútbol.transmisión de noticias",
+                "Además, los eventos triviales que solo contienen características de año/mes (es decir, un evento que solo contenga 1 característica de Aug podría identificarse en un \"flujo de noticias\" de 1 año) podría eliminarse, aunque tales eventos tendrán un alto costo inherente y ya deberían clasificarse muy bajo.transmisión de noticias",
+                "También diseñamos un algoritmo codicioso no supervisado para detectar eventos aperiódicos y periódicos, que tuvo éxito en la detección de eventos reales como se muestra en la evaluación en un \"flujo de noticias\" real.transmisión de noticias",
+                "El trabajo futuro incluye la evaluación del retiro de los eventos detectados para un \"flujo de noticias\" etiquetado y comparación de nuestro modelo con los métodos equivalentes más cercanos, que actualmente se limitan a los métodos de Kleinberg [12] (que solo pueden detectar ciertos tipos de eventos explosivos dependiendoEn la configuración de parámetros), Fung et al.[9], y Swan y Allan [18].transmisión de noticias"
             ],
             "translated_text": "",
-            "candidates": [
-                "transmisión de noticias",
-                "flujo de noticias",
-                "transmisión de noticias",
-                "flujo de noticias",
-                "transmisión de noticias",
-                "flujo de noticias",
-                "transmisión de noticias",
-                "flujo de noticias",
-                "transmisión de noticias",
-                "flujo de noticias",
-                "transmisión de noticias",
-                "flujo de noticias",
-                "transmisión de noticias",
-                "flujo de noticias"
-            ],
+            "candidates": [],
             "error": []
         },
         "time series": {
@@ -2898,26 +2842,17 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "La frecuencia del documento de cada palabra a lo largo del tiempo se trata como una \"serie de tiempo\", donde cada elemento es el puntaje de frecuencia de documento inversa (DFIDF) en un momento.",
-                "Todos los métodos anteriores se pueden aplicar a los datos de \"series de tiempo\" en general.",
-                "Identificación de características para eventos en esta sección, mostramos cómo se pueden extraer características representativas para eventos (no) importantes o (a) periódicos.4.1 Análisis espectral para el período dominante Dada una característica F, descomponemos su trayectoria de características yf = [yf (1), yf (2), ..., yf (t)] en la secuencia de números complejos t [x1 ,..., Xt] a través de la transformación discreta de Fourier (DFT): xk = t t = 1 yf (t) e- 2πi t (k - 1) t, k = 1, 2 ,..., T. DFT puede representar la \"serie temporal\" original como una combinación lineal de sinusoides complejos, que se ilustra mediante la transformación de Fourier discreta inversa (IDFT): yf (t) = 1 t t k = 1 xke 2πi t (k - 1) t, t = 1, 2 ,..., T, donde el coeficiente de Fourier XK denota la amplitud del sinusoide con la frecuencia k/t.",
-                "Su período explosivo se define por [μF - σf, μF + σf] como se muestra en la Figura 8 (b).5.2 Detección de ráfagas de características periódicas ya que hemos calculado el DP para una característica periódica F, podemos modelar fácilmente su trayectoria de características periódicas YF usando 0 0.2 0.4 0.6 0.8 8/20/96 12/8/96 28/03/97 7/16/97 (a) DFIDF original: Tiempo 0 0.2 0.4 0.6 0.8 8/20/96 12/8/96 28/03/97 7/16/97 Burst = [μ-σ, μ+σ] (b) Identificación de estallidoFigura 8: Modelado de \"series de tiempo\" de Iraq como gaussiano truncado con μ = 06/09/1996 y σ = 6.26.Una mezcla de k = t/pf gaussians: f (yf = yf (t) | θf) = k k = 1 αk 1 2πσ2 k e - 1 2σ2 k (yf (t) −µk) 2, donde el parámetro establecido θf ={αk, μk, σk} k k = 1 comprende: • αk es la probabilidad de asignar YF al kth gaussian.αk> 0, ∀k ∈ [1, k] y k k = 1 αk = 1;• μK/σk es la desviación media/estándar del kth gaussian."
+                "La frecuencia del documento de cada palabra a lo largo del tiempo se trata como una \"serie de tiempo\", donde cada elemento es el puntaje de frecuencia de documento inversa (DFIDF) en un momento.series de tiempo",
+                "Todos los métodos anteriores se pueden aplicar a los datos de \"series de tiempo\" en general.series de tiempo",
+                "Identificación de características para eventos en esta sección, mostramos cómo se pueden extraer características representativas para eventos (no) importantes o (a) periódicos.4.1 Análisis espectral para el período dominante Dada una característica F, descomponemos su trayectoria de características yf = [yf (1), yf (2), ..., yf (t)] en la secuencia de números complejos t [x1 ,..., Xt] a través de la transformación discreta de Fourier (DFT): xk = t t = 1 yf (t) e- 2πi t (k - 1) t, k = 1, 2 ,..., T. DFT puede representar la \"serie temporal\" original como una combinación lineal de sinusoides complejos, que se ilustra mediante la transformación de Fourier discreta inversa (IDFT): yf (t) = 1 t t k = 1 xke 2πi t (k - 1) t, t = 1, 2 ,..., T, donde el coeficiente de Fourier XK denota la amplitud del sinusoide con la frecuencia k/t.series de tiempo",
+                "Su período explosivo se define por [μF - σf, μF + σf] como se muestra en la Figura 8 (b).5.2 Detección de ráfagas de características periódicas ya que hemos calculado el DP para una característica periódica F, podemos modelar fácilmente su trayectoria de características periódicas YF usando 0 0.2 0.4 0.6 0.8 8/20/96 12/8/96 28/03/97 7/16/97 (a) DFIDF original: Tiempo 0 0.2 0.4 0.6 0.8 8/20/96 12/8/96 28/03/97 7/16/97 Burst = [μ-σ, μ+σ] (b) Identificación de estallidoFigura 8: Modelado de \"series de tiempo\" de Iraq como gaussiano truncado con μ = 06/09/1996 y σ = 6.26.Una mezcla de k = t/pf gaussians: f (yf = yf (t) | θf) = k k = 1 αk 1 2πσ2 k e - 1 2σ2 k (yf (t) −µk) 2, donde el parámetro establecido θf ={αk, μk, σk} k k = 1 comprende: • αk es la probabilidad de asignar YF al kth gaussian.αk> 0, ∀k ∈ [1, k] y k k = 1 αk = 1;• μK/σk es la desviación media/estándar del kth gaussian.series de tiempo"
             ],
             "translated_text": "",
-            "candidates": [
-                "series de tiempo",
-                "serie de tiempo",
-                "series de tiempo",
-                "series de tiempo",
-                "series de tiempo",
-                "serie temporal",
-                "series de tiempo",
-                "series de tiempo"
-            ],
+            "candidates": [],
             "error": []
         },
         "feature categorization": {
-            "translated_key": "categorización de características",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Analyzing Feature Trajectories for Event Detection Qi He qihe@pmail.ntu.edu.sg Kuiyu Chang ASKYChang@ntu.edu.sg Ee-Peng Lim ASEPLim@ntu.edu.sg School of Computer Engineering Nanyang Technological University Block N4, Nanyang Avenue, Singapore 639798 ABSTRACT We consider the problem of analyzing word trajectories in both time and frequency domains, with the specific goal of identifying important and less-reported, periodic and aperiodic words.",
@@ -3140,17 +3075,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Algoritmo 1 Detección de palabras de parada heurística (HS): set de semillas SW, trayectorias de lunes a viernes de todas las palabras 1: desde el conjunto de semillas SW, calcule el DPS máximo como UDPS, DFIDF máximo como UDFIDF y mínimo de DFIDF como DFIDF.2: para fi ∈ F do 3: Calcule DFT para FI.4: Si SFI ≤ UDPS y Dfidffi ∈ [LDFIDF, UDFIDF] Entonces 5: Fi → SW 6: F = F - Fi 7: Fin si 8: Fin para la descripción general de la \"categorización de características\" después de que se genere el conjunto SW, todas las palabras de parada, todas las palabras de paradase eliminan de F. Luego establecemos el límite entre DPS altos y bajos para que sea el límite superior de los SW establece DPS."
+                "Algoritmo 1 Detección de palabras de parada heurística (HS): set de semillas SW, trayectorias de lunes a viernes de todas las palabras 1: desde el conjunto de semillas SW, calcule el DPS máximo como UDPS, DFIDF máximo como UDFIDF y mínimo de DFIDF como DFIDF.2: para fi ∈ F do 3: Calcule DFT para FI.4: Si SFI ≤ UDPS y Dfidffi ∈ [LDFIDF, UDFIDF] Entonces 5: Fi → SW 6: F = F - Fi 7: Fin si 8: Fin para la descripción general de la \"categorización de características\" después de que se genere el conjunto SW, todas las palabras de parada, todas las palabras de paradase eliminan de F. Luego establecemos el límite entre DPS altos y bajos para que sea el límite superior de los SW establece DPS.categorización de características"
             ],
             "translated_text": "",
-            "candidates": [
-                "categorización de características",
-                "categorización de características"
-            ],
+            "candidates": [],
             "error": []
         },
         "dft": {
-            "translated_key": "dft",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Analyzing Feature Trajectories for Event Detection Qi He qihe@pmail.ntu.edu.sg Kuiyu Chang ASKYChang@ntu.edu.sg Ee-Peng Lim ASEPLim@ntu.edu.sg School of Computer Engineering Nanyang Technological University Block N4, Nanyang Avenue, Singapore 639798 ABSTRACT We consider the problem of analyzing word trajectories in both time and frequency domains, with the specific goal of identifying important and less-reported, periodic and aperiodic words.",
@@ -3373,17 +3305,11 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Identificación de características para eventos en esta sección, mostramos cómo se pueden extraer características representativas para eventos (no) importantes o (a) periódicos.4.1 Análisis espectral para el período dominante Dada una característica F, descomponemos su trayectoria de características yf = [yf (1), yf (2), ..., yf (t)] en la secuencia de números complejos t [x1 ,..., Xt] a través de la transformación discreta de Fourier (\"dft\"): xk = t t = 1 yf (t) e - 2πi t (k - 1) t, k = 1, 2 ,..., T. \"DFT\" puede representar la serie temporal original como una combinación lineal de sinusoides complejos, que se ilustra con la transformación discreta de Fourier inversa (IDFT): yf (t) = 1 t t k = 1 xke 2πi t (k - 1) t, t = 1, 2 ,..., T, donde el coeficiente de Fourier XK denota la amplitud del sinusoide con la frecuencia k/t.",
-                "Algoritmo 1 Detección de palabras de parada heurística (HS): set de semillas SW, trayectorias de lunes a viernes de todas las palabras 1: desde el conjunto de semillas SW, calcule el DPS máximo como UDPS, DFIDF máximo como UDFIDF y mínimo de DFIDF como DFIDF.2: para fi ∈ F do 3: Calcule \"DFT\" para FI.4: Si SFI ≤ UDPS y Dfidffi ∈ [LDFIDF, UDFIDF] Entonces 5: Fi → SW 6: F = F - Fi 7: Fin si 8: Fin para la descripción general de la categorización de características Después de que se genere el conjunto SW, todas las palabras de parada se eliminanDesde F. Luego establecemos el límite entre los DP altos y bajos para que sea el límite superior de los SW establece DPS."
+                "Identificación de características para eventos en esta sección, mostramos cómo se pueden extraer características representativas para eventos (no) importantes o (a) periódicos.4.1 Análisis espectral para el período dominante Dada una característica F, descomponemos su trayectoria de características yf = [yf (1), yf (2), ..., yf (t)] en la secuencia de números complejos t [x1 ,..., Xt] a través de la transformación discreta de Fourier (\"dft\"): xk = t t = 1 yf (t) e - 2πi t (k - 1) t, k = 1, 2 ,..., T. \"DFT\" puede representar la serie temporal original como una combinación lineal de sinusoides complejos, que se ilustra con la transformación discreta de Fourier inversa (IDFT): yf (t) = 1 t t k = 1 xke 2πi t (k - 1) t, t = 1, 2 ,..., T, donde el coeficiente de Fourier XK denota la amplitud del sinusoide con la frecuencia k/t.dft",
+                "Algoritmo 1 Detección de palabras de parada heurística (HS): set de semillas SW, trayectorias de lunes a viernes de todas las palabras 1: desde el conjunto de semillas SW, calcule el DPS máximo como UDPS, DFIDF máximo como UDFIDF y mínimo de DFIDF como DFIDF.2: para fi ∈ F do 3: Calcule \"DFT\" para FI.4: Si SFI ≤ UDPS y Dfidffi ∈ [LDFIDF, UDFIDF] Entonces 5: Fi → SW 6: F = F - Fi 7: Fin si 8: Fin para la descripción general de la categorización de características Después de que se genere el conjunto SW, todas las palabras de parada se eliminanDesde F. Luego establecemos el límite entre los DP altos y bajos para que sea el límite superior de los SW establece DPS.dft"
             ],
             "translated_text": "",
-            "candidates": [
-                "dft",
-                "dft",
-                "DFT",
-                "dft",
-                "DFT"
-            ],
+            "candidates": [],
             "error": []
         },
         "gaussian": {
@@ -3610,30 +3536,15 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "En este artículo, 1) primero aplicamos análisis espectral para clasificar las características para diferentes características del evento: importantes y menos informados, periódicos y aperiódicos;2) características aperiódicas modeladas con densidad \"gaussiana\" y características periódicas con densidades de mezcla \"gaussianas\", y posteriormente detectaron cada características estalladas por el enfoque gaussiano truncado;3) propuso un algoritmo de detección de eventos codiciosos no supervisado para detectar eventos aperiódicos y periódicos.",
-                "A diferencia del algoritmo de identificación de ráfaga de Kleinbergs [12], podemos identificar explosiones significativas y triviales sin la necesidad de establecer ningún parámetro.5.1 Detección de ráfagas de características aperiódicas para cada característica en HH y HL, truncamos su trayectoria manteniendo solo el período explosivo, que está modelado con una distribución \"gaussiana\".",
-                "Por ejemplo, la Figura 8 muestra la palabra característica Iraq con una explosión alrededor del 06/09/1996 que se modela como un \"gaussiano\".",
-                "Su período explosivo se define por [μF - σf, μF + σf] como se muestra en la Figura 8 (b).5.2 Detección de ráfagas de características periódicas ya que hemos calculado el DP para una característica periódica F, podemos modelar fácilmente su trayectoria de características periódicas YF usando 0 0.2 0.4 0.6 0.8 8/20/96 12/8/96 28/03/97 7/16/97 (a) DFIDF original: Tiempo 0 0.2 0.4 0.6 0.8 8/20/96 12/8/96 28/03/97 7/16/97 Burst = [μ-σ, μ+σ] (b) Identificación de estallidoFigura 8: Modelado de series temporales de Iraq como un \"gaussiano\" truncado con μ = 06/09/1996 y σ = 6.26.Una mezcla de k = t/pf gaussians: f (yf = yf (t) | θf) = k k = 1 αk 1 2πσ2 k e - 1 2σ2 k (yf (t) −µk) 2, donde el parámetro establecido θf ={αk, μk, σk} k k = 1 comprende: • αk es la probabilidad de asignar YF al kth \"gaussian\".αk> 0, ∀k ∈ [1, k] y k k = 1 αk = 1;• μK/σk es la desviación media/estándar del kth gaussian.",
-                "El algoritmo de maximización de expectativa bien conocido (EM) [8] se usa para calcular las proporciones de mezcla αK, así como los parámetros de densidad \"gaussianos\" individuales μK y σk.",
-                "Cada \"gaussiano\" representa un evento periódico y se modela de manera similar como se menciona en la Sección 5.1.6."
+                "En este artículo, 1) primero aplicamos análisis espectral para clasificar las características para diferentes características del evento: importantes y menos informados, periódicos y aperiódicos;2) características aperiódicas modeladas con densidad \"gaussiana\" y características periódicas con densidades de mezcla \"gaussianas\", y posteriormente detectaron cada características estalladas por el enfoque gaussiano truncado;3) propuso un algoritmo de detección de eventos codiciosos no supervisado para detectar eventos aperiódicos y periódicos.gaussiano",
+                "A diferencia del algoritmo de identificación de ráfaga de Kleinbergs [12], podemos identificar explosiones significativas y triviales sin la necesidad de establecer ningún parámetro.5.1 Detección de ráfagas de características aperiódicas para cada característica en HH y HL, truncamos su trayectoria manteniendo solo el período explosivo, que está modelado con una distribución \"gaussiana\".gaussiano",
+                "Por ejemplo, la Figura 8 muestra la palabra característica Iraq con una explosión alrededor del 06/09/1996 que se modela como un \"gaussiano\".gaussiano",
+                "Su período explosivo se define por [μF - σf, μF + σf] como se muestra en la Figura 8 (b).5.2 Detección de ráfagas de características periódicas ya que hemos calculado el DP para una característica periódica F, podemos modelar fácilmente su trayectoria de características periódicas YF usando 0 0.2 0.4 0.6 0.8 8/20/96 12/8/96 28/03/97 7/16/97 (a) DFIDF original: Tiempo 0 0.2 0.4 0.6 0.8 8/20/96 12/8/96 28/03/97 7/16/97 Burst = [μ-σ, μ+σ] (b) Identificación de estallidoFigura 8: Modelado de series temporales de Iraq como un \"gaussiano\" truncado con μ = 06/09/1996 y σ = 6.26.Una mezcla de k = t/pf gaussians: f (yf = yf (t) | θf) = k k = 1 αk 1 2πσ2 k e - 1 2σ2 k (yf (t) −µk) 2, donde el parámetro establecido θf ={αk, μk, σk} k k = 1 comprende: • αk es la probabilidad de asignar YF al kth \"gaussian\".αk> 0, ∀k ∈ [1, k] y k k = 1 αk = 1;• μK/σk es la desviación media/estándar del kth gaussian.gaussiano",
+                "El algoritmo de maximización de expectativa bien conocido (EM) [8] se usa para calcular las proporciones de mezcla αK, así como los parámetros de densidad \"gaussianos\" individuales μK y σk.gaussiano",
+                "Cada \"gaussiano\" representa un evento periódico y se modela de manera similar como se menciona en la Sección 5.1.6. Gaussiano"
             ],
             "translated_text": "",
-            "candidates": [
-                "gaussiano",
-                "gaussiana",
-                "gaussianas",
-                "gaussiano",
-                "gaussiana",
-                "gaussiano",
-                "gaussiano",
-                "gaussiano",
-                "gaussiano",
-                "gaussian",
-                "gaussiano",
-                "gaussianos",
-                "Gaussiano",
-                "gaussiano"
-            ],
+            "candidates": [],
             "error": []
         }
     }

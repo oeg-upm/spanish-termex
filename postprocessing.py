@@ -18,13 +18,27 @@ sourcedocs = os.listdir(SourcePath)
 targetdocs= os.listdir(OutPath)
 source_identifiers = get_source_identifiers(sourcedocs)
 target_identifiers = get_source_identifiers(targetdocs)
+error_folder='datasets/doc_translations/errors_postprocess'
+fatal_errors= open('datasets/doc_translations/fatal_errors_post')
 
 
+''' 
+for error in fatal_errors:
+    new_error=error.rstrip("\n")
+    if new_error in target_identifiers:
+        
+        output_file= OutPath + '/' + new_error+'.json'
+        error_file= error_folder + '/' + new_error+'.json'
+        shutil.move(output_file, error_file)
+    else: 
+        continue
+'''
 
 
 
 translation = Translation()
 fatal_errors = []
+key_errors=[]
 for identifier in source_identifiers:
     if identifier in target_identifiers:
         continue # si está en los ya traducidos pasamos
@@ -42,14 +56,20 @@ for identifier in source_identifiers:
                 if 'translated_annotated_samples' in data['keys'][key] and data['keys'][key]['translated_annotated_samples'] is not None and data['keys'][key]['translated_annotated_samples'] !=[] :
                     for translated in data['keys'][key]['translated_annotated_samples']:
                         res=find_last_term_and_remove(translated)
-                        print(res)
-                        term=res[0]
-                        modified_translated_sentences.append(res[1])
+                        if res:
+                            print(res)
+                            term=res[0]
+                            modified_translated_sentences.append(res[1])
+                            if term != None:
+                                translated_terms.append(term.strip())
+                        else: 
+                            id_key =(identifier, key)
+                            key_errors.append(id_key)
+                            continue
     
                         print('esto es term')
                         print(term)
-                        if term != None:
-                            translated_terms.append(term.strip())
+
                         terms=extract_quoted_terms(translated)
                         for t in terms:
                             translated_terms.append(t)
@@ -88,3 +108,6 @@ for identifier in source_identifiers:
         fatal_errors.append((identifier))
         print(e)
         print(traceback.format_exc())
+        
+        
+  

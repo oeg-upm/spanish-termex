@@ -3340,40 +3340,19 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "El concepto de causalidad no es adecuado para capturar las relaciones entre una \"operación inversa\" (como una interpretación de un comando de deshacer de nivel meta) y otras operaciones de edición normales.",
-                "El comando deshacer (O2) en la Figura 1 se interpreta como una \"operación inversa\" O2.",
-                "Además, después de ejecutar una \"operación inversa\" como O2, el estado del documento ya no puede ser representado adecuadamente por el vector de estado, que solo es capaz de representar operaciones de edición normales originales.3.",
-                "Para lograr el efecto deshacer en [21], se debe definir una \"operación inversa\" original en el estado del documento ds = c (o) ∪ {o}, que es el estado después de ejecutar la operación original O en el estado c (O).",
-                "Para una \"operación inversa\" original o, c (o) = c (o) ∪ {o}, donde o es la operación a deshacer.3.",
-                "Cuando O es una \"operación inversa\" original, C (O) debe incluir la operación que se deshacerá por O (ver definición 4-item 2), por lo que CC1 conserva el orden de do-into entre las operaciones normales e inversas [21].",
-                "Cuando O es una \"operación inversa\", CC2 cubre la condición de que O debe transformarse contra todas las operaciones que se ejecutan después de la operación que se deshará por O [21].",
-                "Todas las operaciones normales originales en un contexto se pueden dividir en N grupos de acuerdo con sus sitios de generación, por lo que se necesitan N enteros para representar operaciones normales originales en un contexto.3.5.2 Representación de operaciones inversas originales Se puede generar una \"operación inversa\" original para deshacer una operación normal original, o para rehacer una operación sin hacer.",
-                "Cada \"operación inversa\" original corresponde directa o indirectamente a exactamente una operación normal original.",
-                "Por ejemplo, se puede generar \"operación inversa\" o para deshacer,"
+                "El concepto de causalidad no es adecuado para capturar las relaciones entre una \"operación inversa\" (como una interpretación de un comando de deshacer de nivel meta) y otras operaciones de edición normales.operación inversa",
+                "El comando deshacer (O2) en la Figura 1 se interpreta como una \"operación inversa\" O2.operación inversa",
+                "Además, después de ejecutar una \"operación inversa\" como O2, el estado del documento ya no puede ser representado adecuadamente por el vector de estado, que solo es capaz de representar operaciones de edición normales originales.3. Operación inversa",
+                "Para lograr el efecto deshacer en [21], se debe definir una \"operación inversa\" original en el estado del documento ds = c (o) ∪ {o}, que es el estado después de ejecutar la operación original O en el estado c (O).operación inversa",
+                "Para una \"operación inversa\" original o, c (o) = c (o) ∪ {o}, donde o es la operación a deshacer.3. Operación inversa",
+                "Cuando O es una \"operación inversa\" original, C (O) debe incluir la operación que se deshacerá por O (ver definición 4-item 2), por lo que CC1 conserva el orden de do-into entre las operaciones normales e inversas [21].operación inversa",
+                "Cuando O es una \"operación inversa\", CC2 cubre la condición de que O debe transformarse contra todas las operaciones que se ejecutan después de la operación que se deshará por O [21].operación inversa",
+                "Todas las operaciones normales originales en un contexto se pueden dividir en N grupos de acuerdo con sus sitios de generación, por lo que se necesitan N enteros para representar operaciones normales originales en un contexto.3.5.2 Representación de operaciones inversas originales Se puede generar una \"operación inversa\" original para deshacer una operación normal original, o para rehacer una operación sin hacer.operación inversa",
+                "Cada \"operación inversa\" original corresponde directa o indirectamente a exactamente una operación normal original.operación inversa",
+                "Por ejemplo, se puede generar \"operación inversa\" o para deshacer, y se puede generar para deshacer la operación inversa"
             ],
             "translated_text": "",
-            "candidates": [
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "Operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "Operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "operación inversa",
-                "y se puede generar para deshacer la operación inversa",
-                "operación inversa"
-            ],
+            "candidates": [],
             "error": []
         },
         "document state": {
@@ -3779,45 +3758,23 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Otra condición es que las dos operaciones concurrentes deben definirse en el mismo \"estado de documento\".",
-                "Bajo el algoritmo DOPT [4], cuando O2 llega al Sitio 0, se informará contra O1 desde O2 O1;Esto es correcto porque O2 y O1 se definen en el mismo \"estado de documento\" (inicial).",
-                "Cuando O3 llega al Sitio 0, también se transformará contra O1 desde O3 O1;Pero esto es incorrecto porque O3 se define en el \"estado del documento\" que contiene el efecto de O2, mientras que O1 se define en el \"estado del documento\" inicial.",
-                "La solución a este rompecabezas es la primera en la transformación de TI O1 contra O2 para producir O1, que se define en el \"estado del documento\", incluido el efecto de O2 (el mismo estado en el que se define O3), y luego a la transformación de IT3 O3contra O1 [22].",
-                "Además, la relación concurrencia no captura la condición esencial para la transformación correcta de TI: las dos operaciones de entrada deben definirse en el mismo \"estado de documento\" [23].",
-                "Para lograr este efecto, O2 debe tratarse como una operación definida en el \"estado del documento\", incluido el efecto de O2 pero no O1 y O3, de modo que O2 se pueda transformar contra O1 y O3 antes de su ejecución.",
-                "Si O2 heredara la relación causal de UNDO (O2), entonces se trataría efectivamente como una operación definida en el \"estado del documento\" con los efectos de las tres operaciones O1, O2 y O3, lo que prohibiría ser O2transformado contra cualquier operación, por lo que no logró el efecto de deshacer correcto.",
-                "Además, después de ejecutar una operación inversa como O2, el \"estado del documento\" ya no puede ser representado correctamente por el vector de estado, que solo es capaz de representar operaciones de edición normales originales.3.",
-                "La importancia del contexto de operación es doble: (1) una operación se puede ejecutar correctamente solo si su contexto y el \"estado de documento\" actual son los mismos;y (2) una operación se puede hacer correctamente en otra operación solo si los contextos de estas dos operaciones son los mismos.",
-                "En la Figura 1, tanto O1 como O2 se definen en el mismo documento inicial, por lo que están asociados con el mismo contexto;O3 se define en el \"estado del documento\" que incluye el efecto de O2, por lo que C (O3) es diferente de C (O1) o C (O2)."
+                "Otra condición es que las dos operaciones concurrentes deben definirse en el mismo \"estado de documento\".Estado del documento",
+                "Bajo el algoritmo DOPT [4], cuando O2 llega al Sitio 0, se informará contra O1 desde O2 O1;Esto es correcto porque O2 y O1 se definen en el mismo \"estado de documento\" (inicial).Estado del documento",
+                "Cuando O3 llega al Sitio 0, también se transformará contra O1 desde O3 O1;Pero esto es incorrecto porque O3 se define en el \"estado del documento\" que contiene el efecto de O2, mientras que O1 se define en el \"estado del documento\" inicial.Estado del documento",
+                "La solución a este rompecabezas es la primera en la transformación de TI O1 contra O2 para producir O1, que se define en el \"estado del documento\", incluido el efecto de O2 (el mismo estado en el que se define O3), y luego a la transformación de IT3 O3contra O1 [22].Estado del documento",
+                "Además, la relación concurrencia no captura la condición esencial para la transformación correcta de TI: las dos operaciones de entrada deben definirse en el mismo \"estado de documento\" [23].Estado del documento",
+                "Para lograr este efecto, O2 debe tratarse como una operación definida en el \"estado del documento\", incluido el efecto de O2 pero no O1 y O3, de modo que O2 se pueda transformar contra O1 y O3 antes de su ejecución.Estado del documento",
+                "Si O2 heredara la relación causal de UNDO (O2), entonces se trataría efectivamente como una operación definida en el \"estado del documento\" con los efectos de las tres operaciones O1, O2 y O3, lo que prohibiría ser O2transformado contra cualquier operación, por lo que no logró el efecto de deshacer correcto.Estado del documento",
+                "Además, después de ejecutar una operación inversa como O2, el \"estado del documento\" ya no puede ser representado correctamente por el vector de estado, que solo es capaz de representar operaciones de edición normales originales.3. Estado del documento",
+                "La importancia del contexto de operación es doble: (1) una operación se puede ejecutar correctamente solo si su contexto y el \"estado de documento\" actual son los mismos;y (2) una operación se puede hacer correctamente en otra operación solo si los contextos de estas dos operaciones son los mismos.Estado del documento",
+                "En la Figura 1, tanto O1 como O2 se definen en el mismo documento inicial, por lo que están asociados con el mismo contexto;O3 se define en el \"estado del documento\" que incluye el efecto de O2, por lo que C (O3) es diferente de C (O1) o C (O2).Estado del documento"
             ],
             "translated_text": "",
-            "candidates": [
-                "Estado del documento",
-                "estado de documento",
-                "Estado del documento",
-                "estado de documento",
-                "Estado del documento",
-                "estado del documento",
-                "estado del documento",
-                "Estado del documento",
-                "estado del documento",
-                "Estado del documento",
-                "estado de documento",
-                "Estado del documento",
-                "estado del documento",
-                "Estado del documento",
-                "estado del documento",
-                "Estado del documento",
-                "estado del documento",
-                "Estado del documento",
-                "estado de documento",
-                "Estado del documento",
-                "estado del documento"
-            ],
+            "candidates": [],
             "error": []
         },
         "original operation": {
-            "translated_key": "Operación original",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Operation Context and Context-based Operational Transformation David Sun Computer Science Division, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapore CZSun@ntu.edu.sg ABSTRACT Operational Transformation (OT) is a technique for consistency maintenance and group undo, and is being applied to an increasing number of collaborative applications.",
@@ -4219,46 +4176,23 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Dado que cada operación transformada debe provenir de una \"operación original\", utilizamos la organización de notación (O) para denotar la \"operación original\" de O.",
-                "Si o es una \"operación original\", entonces org (O) = O.",
-                "Para lograr el efecto deshacer en [21], se debe definir una operación inversa original O en el estado del documento ds = c (o) ∪ {o}, que es el estado después de ejecutar la \"operación original\" o en el estado c (O).",
-                "De o2 = it (o2, o1), tenemos c (o2) = {o1} de acuerdo con la definición 4-ítem 3. 3.3 dependencia de contexto/independencia definimos la relación de-dependencia/independencia de contexto entre operaciones en términos deSi se incluye una \"operación original\" en el contexto de otra operación de cualquier tipo.",
-                "Relación de dependencia de contexto C → Dada una \"operación original\" OA y una operación OB de cualquier tipo, OB depende del contexto en OA, denotado por OA C → OB, IFF: (1) OA ∈ C (OB);o (2) existe una \"operación original\" ox, de modo que oa ∈ C (ox) y ox ∈ C (OB).2 Cabe señalar que la relación de dependencia de contexto se define solo entre una operación original (ya sea normal o inversa) y otra operación de cualquier tipo (original o transformada).",
-                "En otras palabras, la relación causal-dependencia/independencia es un caso especial de la relación contexto-dependencia/independencia.3.4 Condiciones basadas en el contexto Las siguientes condiciones basadas en el contexto (CC) capturan requisitos esenciales para la ejecución y transformación de la operación en sistemas OT: 281 cc1: c (o) ⊆ ds es una condición necesaria para que una \"operación original\" se transformeEl documento estado DS para la ejecución.",
-                "En otras palabras, para cualquier buey de \"operación original\", si ox c → o, entonces buey debe ejecutarse antes de O.",
-                "El contexto de operación y las condiciones basadas en el contexto son fundamentales para todo el algoritmo COT.4.1 COT -DO COT -DO toma dos parámetros: O - una \"operación original\" para ser ejecutada, y DS - la representación actual del estado del documento.",
-                "Hemos ideado e implementado una estructura de almacenamiento en búfer en la que no solo se pueden guardar operaciones originales, sino también versiones transformadas;y todas las operaciones transformadas de la misma \"operación original\" están organizadas en el mismo grupo de versiones.",
-                "Cuando se requiere una \"operación original\" en el nivel de algoritmo COT, se busca al grupo de versiones correspondiente para una versión que coincida con el requisito de contexto."
+                "Dado que cada operación transformada debe provenir de una \"operación original\", utilizamos la organización de notación (O) para denotar la \"operación original\" de O. Operación original",
+                "Si o es una \"operación original\", entonces org (O) = O. Operación original",
+                "Para lograr el efecto deshacer en [21], se debe definir una operación inversa original O en el estado del documento ds = c (o) ∪ {o}, que es el estado después de ejecutar la \"operación original\" o en el estado c (O).operación original",
+                "De o2 = it (o2, o1), tenemos c (o2) = {o1} de acuerdo con la definición 4-ítem 3. 3.3 dependencia de contexto/independencia definimos la relación de-dependencia/independencia de contexto entre operaciones en términos deSi se incluye una \"operación original\" en el contexto de otra operación de cualquier tipo.operación original",
+                "Relación de dependencia de contexto C → Dada una \"operación original\" OA y una operación OB de cualquier tipo, OB depende del contexto en OA, denotado por OA C → OB, IFF: (1) OA ∈ C (OB);o (2) existe una \"operación original\" ox, de modo que oa ∈ C (ox) y ox ∈ C (OB).2 Cabe señalar que la relación de dependencia de contexto se define solo entre una operación original (ya sea normal o inversa) y otra operación de cualquier tipo (original o transformada).operación original",
+                "En otras palabras, la relación causal-dependencia/independencia es un caso especial de la relación contexto-dependencia/independencia.3.4 Condiciones basadas en el contexto Las siguientes condiciones basadas en el contexto (CC) capturan requisitos esenciales para la ejecución y transformación de la operación en sistemas OT: 281 cc1: c (o) ⊆ ds es una condición necesaria para que una \"operación original\" se transformeEl documento estado DS para la ejecución.operación original",
+                "En otras palabras, para cualquier buey de \"operación original\", si ox c → o, entonces buey debe ejecutarse antes de O. operación original",
+                "El contexto de operación y las condiciones basadas en el contexto son fundamentales para todo el algoritmo COT.4.1 COT -DO COT -DO toma dos parámetros: O - una \"operación original\" para ser ejecutada, y DS - la representación actual del estado del documento.operación original",
+                "Hemos ideado e implementado una estructura de almacenamiento en búfer en la que no solo se pueden guardar operaciones originales, sino también versiones transformadas;y todas las operaciones transformadas de la misma \"operación original\" están organizadas en el mismo grupo de versiones.operación original",
+                "Cuando se requiere una \"operación original\" en el nivel de algoritmo COT, se busca al grupo de versiones correspondiente para una versión que coincida con el requisito de contexto.operación original"
             ],
             "translated_text": "",
-            "candidates": [
-                "Operación original",
-                "operación original",
-                "operación original",
-                "Operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original",
-                "operación original"
-            ],
+            "candidates": [],
             "error": []
         },
         "transformed operation": {
-            "translated_key": "Operación transformada",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Operation Context and Context-based Operational Transformation David Sun Computer Science Division, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapore CZSun@ntu.edu.sg ABSTRACT Operational Transformation (OT) is a technique for consistency maintenance and group undo, and is being applied to an increasing number of collaborative applications.",
@@ -4660,25 +4594,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Dado que cada \"operación transformada\" debe provenir de una operación original, utilizamos la organización de notación (O) para denotar la operación original de O.",
-                "De acuerdo con la definición de la función IT [23], una \"operación transformada\" o, donde o = it (o, ox), debe definirse en el estado del documento ds = c (o) ∪ ∪ {org (ox)},que es el estado que se puede lograr ejecutando buey en el estado c (o).",
-                "Para una \"operación transformada\" o, c (o) = c (o) ∪ {org (ox)}, donde o = it (o, ox).2 Según la definición anterior, el contexto de cualquier tipo de operación puede representarse como un conjunto de operaciones originales.",
-                "Dadas dos operaciones oa y ob, si oa: = it (oa, ob), ob: = it (ob, oa), y oa: = it (oa, ob), entonces debe ser: oa = oa, lo que significaLa operación inversa transformada OA es igual al inverso de la \"operación transformada\" OA.",
-                "Esta nueva O inversa O debe ser Safe IP3 porque se crea a partir de una \"operación transformada\" cuyo contexto ha incluido todas las operaciones en NCD."
+                "Dado que cada \"operación transformada\" debe provenir de una operación original, utilizamos la organización de notación (O) para denotar la operación original de O. Operación transformada",
+                "De acuerdo con la definición de la función IT [23], una \"operación transformada\" o, donde o = it (o, ox), debe definirse en el estado del documento ds = c (o) ∪ ∪ {org (ox)},que es el estado que se puede lograr ejecutando buey en el estado c (o).operación transformada",
+                "Para una \"operación transformada\" o, c (o) = c (o) ∪ {org (ox)}, donde o = it (o, ox).2 Según la definición anterior, el contexto de cualquier tipo de operación puede representarse como un conjunto de operaciones originales.operación transformada",
+                "Dadas dos operaciones oa y ob, si oa: = it (oa, ob), ob: = it (ob, oa), y oa: = it (oa, ob), entonces debe ser: oa = oa, lo que significaLa operación inversa transformada OA es igual al inverso de la \"operación transformada\" OA.operación transformada",
+                "Esta nueva O inversa O debe ser Safe IP3 porque se crea a partir de una \"operación transformada\" cuyo contexto ha incluido todas las operaciones en NCD.operación transformada"
             ],
             "translated_text": "",
-            "candidates": [
-                "Operación transformada",
-                "operación transformada",
-                "operación transformada",
-                "operación transformada",
-                "operación transformada",
-                "operación transformada",
-                "operación transformada",
-                "operación transformada",
-                "operación transformada",
-                "operación transformada"
-            ],
+            "candidates": [],
             "error": []
         },
         "inverse cluster": {
@@ -5084,17 +5007,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "El \"clúster inverso\" en el sitio i - icican se expresará de la siguiente manera: ici = [(NS0, IS0), (NS1, IS1) ,..., (NSK - 1, ISK - 1)], donde cada par (NSJ, ISJ), 0 ≤ J <k, representa un grupo inverso con operaciones inversas ISJ correspondientes a la operación normal original con el número de secuencia NSJ en el sitio i."
+                "El \"clúster inverso\" en el sitio i - icican se expresará de la siguiente manera: ici = [(NS0, IS0), (NS1, IS1) ,..., (NSK - 1, ISK - 1)], donde cada par (NSJ, ISJ), 0 ≤ J <k, representa un grupo inverso con operaciones inversas ISJ correspondientes a la operación normal original con el número de secuencia NSJ en el sitio i.grupo inverso"
             ],
             "translated_text": "",
-            "candidates": [
-                "grupo inverso",
-                "clúster inverso"
-            ],
+            "candidates": [],
             "error": []
         },
         "vector representation of operation context": {
-            "translated_key": "Representación vectorial del contexto de operación",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Operation Context and Context-based Operational Transformation David Sun Computer Science Division, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapore CZSun@ntu.edu.sg ABSTRACT Operational Transformation (OT) is a technique for consistency maintenance and group undo, and is being applied to an increasing number of collaborative applications.",
@@ -5496,20 +5416,15 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "La \"representación vectorial del contexto de operación\" también se puede utilizar como la representación vectorial del estado del documento.",
-                "Además, la \"representación vectorial del contexto de operación\" también puede usarse para detectar eficientemente las relaciones de dependencia/independencia del contexto."
+                "La \"representación vectorial del contexto de operación\" también se puede utilizar como la representación vectorial del estado del documento.Representación vectorial del contexto de operación",
+                "Además, la \"representación vectorial del contexto de operación\" también puede usarse para detectar eficientemente las relaciones de dependencia/independencia del contexto.Representación vectorial del contexto de operación"
             ],
             "translated_text": "",
-            "candidates": [
-                "Representación vectorial del contexto de operación",
-                "representación vectorial del contexto de operación",
-                "Representación vectorial del contexto de operación",
-                "representación vectorial del contexto de operación"
-            ],
+            "candidates": [],
             "error": []
         },
         "operation context vector representation": {
-            "translated_key": "Representación del vector de contexto de operación",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Operation Context and Context-based Operational Transformation David Sun Computer Science Division, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapore CZSun@ntu.edu.sg ABSTRACT Operational Transformation (OT) is a technique for consistency maintenance and group undo, and is being applied to an increasing number of collaborative applications.",
@@ -6318,23 +6233,16 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Esto es diferente del registro o los esquemas \"Buffer de historia\" (HB) en algoritmos OT anteriores [4, 22, 23], que registran una lista de operaciones transformadas.",
-                "Las relaciones de contexto entre las operaciones se derivan de las relaciones de causalidad más las relaciones de posición del \"amortiguación de la historia\" entre las operaciones [23, 21].",
-                "Según este esquema, las operaciones inversas no se representan explícitamente en el \"búfer de historia\"."
+                "Esto es diferente del registro o los esquemas \"Buffer de historia\" (HB) en algoritmos OT anteriores [4, 22, 23], que registran una lista de operaciones transformadas.búfer de historia",
+                "Las relaciones de contexto entre las operaciones se derivan de las relaciones de causalidad más las relaciones de posición del \"amortiguación de la historia\" entre las operaciones [23, 21].búfer de historia",
+                "Según este esquema, las operaciones inversas no se representan explícitamente en el \"búfer de historia\".búfer de historia"
             ],
             "translated_text": "",
-            "candidates": [
-                "búfer de historia",
-                "Buffer de historia",
-                "búfer de historia",
-                "amortiguación de la historia",
-                "búfer de historia",
-                "búfer de historia"
-            ],
+            "candidates": [],
             "error": []
         },
         "exclusion transformation": {
-            "translated_key": "transformación de exclusión",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Operation Context and Context-based Operational Transformation David Sun Computer Science Division, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapore CZSun@ntu.edu.sg ABSTRACT Operational Transformation (OT) is a technique for consistency maintenance and group undo, and is being applied to an increasing number of collaborative applications.",
@@ -6736,13 +6644,10 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "A diferencia de GOTO-AYUNDO, el algoritmo COT básico no usa funciones ET (\"Transformación de exclusión\") [21], evitando así el requisito de la propiedad de reversibilidad (RP) entre las funciones de TI y ET [21]."
+                "A diferencia de GOTO-AYUNDO, el algoritmo COT básico no usa funciones ET (\"Transformación de exclusión\") [21], evitando así el requisito de la propiedad de reversibilidad (RP) entre las funciones de TI y ET [21].transformación de exclusión"
             ],
             "translated_text": "",
-            "candidates": [
-                "transformación de exclusión",
-                "Transformación de exclusión"
-            ],
+            "candidates": [],
             "error": []
         },
         "operation context": {
@@ -7148,42 +7053,19 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "\"Contexto de operación\" y transformación operativa basada en el contexto División de Informática David Sun, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun Escuela de Ingeniería Informática Nanyang Universidad Tecnológica Singapur czsun@ntu.edu.sg Resumen Operacional Transformación(OT) es una técnica para el mantenimiento de consistencia y la deshacer del grupo, y se aplica a un número creciente de aplicaciones de colaboración.",
-                "En este artículo, informamos los principales resultados de este esfuerzo: la teoría del \"contexto de operación\" y el algoritmo COT (OT basado en el contexto).",
-                "En este artículo, informamos los principales resultados de este esfuerzo: la teoría del \"contexto de operación\" y el algoritmo COT (OT basado en el contexto).",
-                "Luego, presentamos los elementos clave de la teoría del \"contexto de la operación\", incluida la definición de \"contexto de operación\", relaciones de dependencia de contexto/independencia, condiciones basadas en contexto y vectores de contexto en la Sección 3.",
-                "\"Contexto de operación\" 3.1 Concepto básico conceptualmente, cada operación O se asocia con un contexto, denotado por C (O), que corresponde al estado del documento 280 en el que se define la operación.",
-                "La importancia del \"contexto de operación\" es doble: (1) una operación se puede ejecutar correctamente solo si su contexto y el estado del documento actual son los mismos;y (2) una operación se puede hacer correctamente en otra operación solo si los contextos de estas dos operaciones son los mismos.",
-                "Como se discutió en la Sección 2, el deshacer (O2) debe interpretarse como un O2 inverso definido en el estado del documento con el efecto de O2 solamente.3.2 Establecer representación del \"contexto de operación\" Para facilitar la comparación y la manipulación de los contextos de operación para la ejecución y transformación correctas, es necesario representar explícitamente el \"contexto de operación\".",
-                "Estas condiciones basadas en el contexto forman la base para el algoritmo COT que se presentará en la Sección 4 y la Sección 6. 1 DS-C (O) es la diferencia establecida entre DS y C (O).3.5 Vector de contexto Un elemento importante de la teoría del \"contexto de la operación\" es el vector de contexto, que representa el conjunto de operaciones de un contexto de manera eficiente.",
-                "Según esta observación, todas las operaciones inversas originales en un \"contexto de operación\" pueden agruparse por sus correspondientes operaciones normales originales: un grupo inverso para cada operación normal original deshecho.",
-                "Si no se ha deshecho el funcionamiento normal en el sitio I, ICI está vacío.3.5.3 Representando las operaciones normales e inversas para representar un \"contexto de operación\" con operaciones normales e inversas originales, un vector de contexto N-dimensional se define a continuación.282 Definición 7."
+                "\"Contexto de operación\" y transformación operativa basada en el contexto División de Informática David Sun, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun Escuela de Ingeniería Informática Nanyang Universidad Tecnológica Singapur czsun@ntu.edu.sg Resumen Operacional Transformación(OT) es una técnica para el mantenimiento de consistencia y la deshacer del grupo, y se aplica a un número creciente de aplicaciones de colaboración.contexto de operación",
+                "En este artículo, informamos los principales resultados de este esfuerzo: la teoría del \"contexto de operación\" y el algoritmo COT (OT basado en el contexto).contexto de operación",
+                "En este artículo, informamos los principales resultados de este esfuerzo: la teoría del \"contexto de operación\" y el algoritmo COT (OT basado en el contexto).contexto de operación",
+                "Luego, presentamos los elementos clave de la teoría del \"contexto de la operación\", incluida la definición de \"contexto de operación\", relaciones de dependencia de contexto/independencia, condiciones basadas en contexto y vectores de contexto en la Sección 3. Contexto de operación",
+                "\"Contexto de operación\" 3.1 Concepto básico conceptualmente, cada operación O se asocia con un contexto, denotado por C (O), que corresponde al estado del documento 280 en el que se define la operación.contexto de operación",
+                "La importancia del \"contexto de operación\" es doble: (1) una operación se puede ejecutar correctamente solo si su contexto y el estado del documento actual son los mismos;y (2) una operación se puede hacer correctamente en otra operación solo si los contextos de estas dos operaciones son los mismos.contexto de operación",
+                "Como se discutió en la Sección 2, el deshacer (O2) debe interpretarse como un O2 inverso definido en el estado del documento con el efecto de O2 solamente.3.2 Establecer representación del \"contexto de operación\" Para facilitar la comparación y la manipulación de los contextos de operación para la ejecución y transformación correctas, es necesario representar explícitamente el \"contexto de operación\".contexto de operación",
+                "Estas condiciones basadas en el contexto forman la base para el algoritmo COT que se presentará en la Sección 4 y la Sección 6. 1 DS-C (O) es la diferencia establecida entre DS y C (O).3.5 Vector de contexto Un elemento importante de la teoría del \"contexto de la operación\" es el vector de contexto, que representa el conjunto de operaciones de un contexto de manera eficiente.contexto de operación",
+                "Según esta observación, todas las operaciones inversas originales en un \"contexto de operación\" pueden agruparse por sus correspondientes operaciones normales originales: un grupo inverso para cada operación normal original deshecho.contexto de operación",
+                "Si no se ha deshecho el funcionamiento normal en el sitio I, ICI está vacío.3.5.3 Representando las operaciones normales e inversas para representar un \"contexto de operación\" con operaciones normales e inversas originales, un vector de contexto N-dimensional se define a continuación.282 Definición 7. Contexto de operación"
             ],
             "translated_text": "",
-            "candidates": [
-                "contexto de operación",
-                "Contexto de operación",
-                "contexto de operación",
-                "contexto de operación",
-                "contexto de operación",
-                "contexto de operación",
-                "Contexto de operación",
-                "contexto de la operación",
-                "contexto de operación",
-                "contexto de operación",
-                "Contexto de operación",
-                "contexto de operación",
-                "contexto de operación",
-                "contexto de operación",
-                "contexto de operación",
-                "contexto de operación",
-                "contexto de operación",
-                "contexto de la operación",
-                "contexto de operación",
-                "contexto de operación",
-                "Contexto de operación",
-                "contexto de operación"
-            ],
+            "candidates": [],
             "error": []
         },
         "ot": {
@@ -7589,45 +7471,23 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Operación contexto y transformación operativa basada en el contexto División de Informática de David Sun, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapur czsun@ntu.edu.sg Transformación operativa abstracta (\"(\"OT \") es una técnica para el mantenimiento de consistencia y la deshacer del grupo, y se aplica a un número creciente de aplicaciones de colaboración.",
-                "La base teórica para \"OT\" es crucial para determinar su capacidad para resolver problemas existentes y nuevos, así como la calidad de esas soluciones.",
-                "La teoría de la causalidad ha sido la base de todos los sistemas \"OT\" anteriores, pero es inadecuado capturar los requisitos de corrección esenciales.",
-                "Investigaciones anteriores habían inventado varios parches para resolver este problema, lo que resultó en algoritmos \"OT\" cada vez más intrincados y complicados.",
-                "Después de haber diseñado, implementado y experimentado con una serie de algoritmos \"OT\", reflexionamos sobre lo que se había aprendido y nos propusimos desarrollar un nuevo marco teórico para una mejor comprensión y resolución de problemas de \"OT\", reduciendo su complejidad y apoyando suevolución continua.",
-                "En este artículo, informamos los principales resultados de este esfuerzo: la teoría del contexto de operación y el algoritmo COT (\"OT\" basado en el contexto).",
-                "El algoritmo COT no solo es más simple y más eficiente que los algoritmos de control \"OT\" anteriores, sino que también simplifica el diseño de funciones de transformación.",
-                "Introducción La transformación operativa (\"OT\") se inventó originalmente para el mantenimiento de consistencia en editores de grupos de texto simple [4].",
-                "En más de 15 años, \"OT\" ha evolucionado para respaldar un número creciente de aplicaciones, incluida la deshacer de grupo [15, 19, 18, 21], la conciencia grupal [28], la notificación de operación y la compresión [20], la hoja de cálculo y la tabla-Aplicaciones céntricas [14, 27], HTML/XML y edición de documentos estructurados en árbol [3, 7], procesamiento de palabras y creación de diapositivas [29, 25, 24], intercambio de aplicaciones transparentes y heterogéneos [1, 10, 24],y sistemas de base de datos y computación replicada móviles [6, 16].",
-                "Para apoyar de manera efectiva y eficiente las aplicaciones existentes y nuevas, debemos continuar mejorando la capacidad y la calidad de \"OT\" para resolver problemas antiguos y nuevos."
+                "Operación contexto y transformación operativa basada en el contexto División de Informática de David Sun, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapur czsun@ntu.edu.sg Transformación operativa abstracta (\"(\"OT \") es una técnica para el mantenimiento de consistencia y la deshacer del grupo, y se aplica a un número creciente de aplicaciones de colaboración.Antiguo Testamento",
+                "La base teórica para \"OT\" es crucial para determinar su capacidad para resolver problemas existentes y nuevos, así como la calidad de esas soluciones.Antiguo Testamento",
+                "La teoría de la causalidad ha sido la base de todos los sistemas \"OT\" anteriores, pero es inadecuado capturar los requisitos de corrección esenciales.Antiguo Testamento",
+                "Investigaciones anteriores habían inventado varios parches para resolver este problema, lo que resultó en algoritmos \"OT\" cada vez más intrincados y complicados.Antiguo Testamento",
+                "Después de haber diseñado, implementado y experimentado con una serie de algoritmos \"OT\", reflexionamos sobre lo que se había aprendido y nos propusimos desarrollar un nuevo marco teórico para una mejor comprensión y resolución de problemas de \"OT\", reduciendo su complejidad y apoyando suevolución continua.Antiguo Testamento",
+                "En este artículo, informamos los principales resultados de este esfuerzo: la teoría del contexto de operación y el algoritmo COT (\"OT\" basado en el contexto).Antiguo Testamento",
+                "El algoritmo COT no solo es más simple y más eficiente que los algoritmos de control \"OT\" anteriores, sino que también simplifica el diseño de funciones de transformación.Antiguo Testamento",
+                "Introducción La transformación operativa (\"OT\") se inventó originalmente para el mantenimiento de consistencia en editores de grupos de texto simple [4].Antiguo Testamento",
+                "En más de 15 años, \"OT\" ha evolucionado para respaldar un número creciente de aplicaciones, incluida la deshacer de grupo [15, 19, 18, 21], la conciencia grupal [28], la notificación de operación y la compresión [20], la hoja de cálculo y la tabla-Aplicaciones céntricas [14, 27], HTML/XML y edición de documentos estructurados en árbol [3, 7], procesamiento de palabras y creación de diapositivas [29, 25, 24], intercambio de aplicaciones transparentes y heterogéneos [1, 10, 24],y sistemas de base de datos y computación replicada móviles [6, 16].Antiguo Testamento",
+                "Para apoyar de manera efectiva y eficiente las aplicaciones existentes y nuevas, debemos continuar mejorando la capacidad y la calidad de \"OT\" para resolver problemas antiguos y nuevos.Antiguo Testamento"
             ],
             "translated_text": "",
-            "candidates": [
-                "Antiguo Testamento",
-                "(",
-                "Antiguo Testamento",
-                "OT",
-                "Antiguo Testamento",
-                "OT",
-                "Antiguo Testamento",
-                "OT",
-                "Antiguo Testamento",
-                "OT",
-                "OT",
-                "Antiguo Testamento",
-                "OT",
-                "Antiguo Testamento",
-                "OT",
-                "Antiguo Testamento",
-                "OT",
-                "Antiguo Testamento",
-                "OT",
-                "Antiguo Testamento",
-                "OT"
-            ],
+            "candidates": [],
             "error": []
         },
         "context-base ot": {
-            "translated_key": "OT de base de contexto",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Operation Context and Context-based Operational Transformation David Sun Computer Science Division, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapore CZSun@ntu.edu.sg ABSTRACT Operational Transformation (OT) is a technique for consistency maintenance and group undo, and is being applied to an increasing number of collaborative applications.",
@@ -8034,7 +7894,7 @@
             "error": []
         },
         "consistency maintenance": {
-            "translated_key": "mantenimiento de consistencia",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Operation Context and Context-based Operational Transformation David Sun Computer Science Division, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapore CZSun@ntu.edu.sg ABSTRACT Operational Transformation (OT) is a technique for <br>consistency maintenance</br> and group undo, and is being applied to an increasing number of collaborative applications.",
@@ -8436,36 +8296,20 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Operación contexto y transformación operativa basada en el contexto División de informática David Sun, EECS Universidad de California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun Escuela de Ingeniería Informática Nanyang Universidad Tecnológica Singapur czsun@ntu.edu.sg Abstract Operational Transformación (OT) es una técnica para el \"mantenimiento de consistencia\" y la deshacer del grupo, y se aplica a un número creciente de aplicaciones colaborativas.",
-                "Introducción La transformación operativa (OT) se inventó originalmente para \"mantenimiento de consistencia\" en editores de grupos de texto simple [4].",
-                "En la Sección 4, presentamos el algoritmo COT básico para apoyar el \"mantenimiento de consistencia\" (DO) y el grupo deshacer bajo el supuesto de que las funciones de transformación subyacentes pueden preservar algunas propiedades de transformación importantes.",
-                "El algoritmo COT tiene dos partes: la parte COT-DO para soportar el \"mantenimiento de consistencia\" (DO) y la parte de Cotondo para soportar UNDO.",
-                "Por ejemplo, una solución que funciona bien para el \"mantenimiento de consistencia\" (DO), puede fallar cuando se consideran los problemas de DO y deshacer;y una solución de deshacer (por ejemplo, preservar IP2) puede violar la solución al \"mantenimiento de consistencia\" [21].",
-                "El algoritmo COT proporciona soluciones uniformadas tanto para \"mantenimiento de consistencia\" como para deshacer los problemas;Es más simple y más eficiente que los algoritmos de control OT anteriores con capacidades similares;y simplifica significativamente el diseño de funciones de transformación.",
-                "\"Mantenimiento de consistencia\" basado en la técnica de Mark & Ratrice en los sistemas de grupos."
+                "Operación contexto y transformación operativa basada en el contexto División de informática David Sun, EECS Universidad de California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun Escuela de Ingeniería Informática Nanyang Universidad Tecnológica Singapur czsun@ntu.edu.sg Abstract Operational Transformación (OT) es una técnica para el \"mantenimiento de consistencia\" y la deshacer del grupo, y se aplica a un número creciente de aplicaciones colaborativas.mantenimiento de consistencia",
+                "Introducción La transformación operativa (OT) se inventó originalmente para \"mantenimiento de consistencia\" en editores de grupos de texto simple [4].mantenimiento de consistencia",
+                "En la Sección 4, presentamos el algoritmo COT básico para apoyar el \"mantenimiento de consistencia\" (DO) y el grupo deshacer bajo el supuesto de que las funciones de transformación subyacentes pueden preservar algunas propiedades de transformación importantes.mantenimiento de consistencia",
+                "El algoritmo COT tiene dos partes: la parte COT-DO para soportar el \"mantenimiento de consistencia\" (DO) y la parte de Cotondo para soportar UNDO.mantenimiento de consistencia",
+                "Por ejemplo, una solución que funciona bien para el \"mantenimiento de consistencia\" (DO), puede fallar cuando se consideran los problemas de DO y deshacer;y una solución de deshacer (por ejemplo, preservar IP2) puede violar la solución al \"mantenimiento de consistencia\" [21].mantenimiento de consistencia",
+                "El algoritmo COT proporciona soluciones uniformadas tanto para \"mantenimiento de consistencia\" como para deshacer los problemas;Es más simple y más eficiente que los algoritmos de control OT anteriores con capacidades similares;y simplifica significativamente el diseño de funciones de transformación.mantenimiento de consistencia",
+                "\"Mantenimiento de consistencia\" basado en la técnica de Mark & Ratrice en los sistemas de grupos.mantenimiento de consistencia"
             ],
             "translated_text": "",
-            "candidates": [
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "mantenimiento de consistencia",
-                "Mantenimiento de consistencia"
-            ],
+            "candidates": [],
             "error": []
         },
         "undo": {
-            "translated_key": "deshacer",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Operation Context and Context-based Operational Transformation David Sun Computer Science Division, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapore CZSun@ntu.edu.sg ABSTRACT Operational Transformation (OT) is a technique for consistency maintenance and group <br>undo</br>, and is being applied to an increasing number of collaborative applications.",
@@ -8867,41 +8711,19 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Operación contexto y transformación operativa basada en el contexto División de informática David Sun, EECS Universidad de California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun Escuela de Ingeniería Informática Nanyang Universidad Tecnológica Singapur czsun@ntu.edu.sg Abstract Operational Transformación (OT) es una técnica para el mantenimiento de la consistencia y el \"deshacer\" del grupo, y se aplica a un número creciente de aplicaciones colaborativas.",
-                "El algoritmo COT es capaz de admitir tanto DO como \"deshacer\" de cualquier operación en cualquier momento, sin requerir funciones de transformación para preservar la propiedad de reversibilidad, Convergencia Propiedad 2, Inverse Propiedades 2 y 3.",
-                "En más de 15 años, OT ha evolucionado para respaldar un número creciente de aplicaciones, incluida la \"deshacer\" del grupo [15, 19, 18, 21], la conciencia del grupo [28], la notificación de operación y la compresión [20], la hoja de cálculo y la tabla-Aplicaciones céntricas [14, 27], HTML/XML y edición de documentos estructurados en árbol [3, 7], procesamiento de palabras y creación de diapositivas [29, 25, 24], intercambio de aplicaciones transparentes y heterogéneos [1, 10, 24],y sistemas de base de datos y computación replicada móviles [6, 16].",
-                "La limitación de la teoría de la causalidad se volvió aún más prominente cuando se aplicó OT para resolver el problema de \"deshacer\" en los editores grupales.",
-                "El concepto de causalidad no es adecuado para capturar las relaciones entre una operación inversa (como una interpretación de un comando \"deshacer\" de meta) y otras operaciones de edición normales.",
-                "En la Sección 4, presentamos el algoritmo COT básico para soportar el mantenimiento de consistencia (DO) y el grupo \"deshacer\" bajo el supuesto de que las funciones de transformación subyacentes pueden preservar algunas propiedades de transformación importantes.",
-                "Hay tres operaciones de edición en este escenario (el comando \"deshacer\" \"deshacer\" (O2) y su relación con otras operaciones se explicará más adelante): O1 generado en el Sitio 0, y O2 y O3 generados en el Sitio 1.",
-                "El escenario en la Figura 1 (sin el comando \"deshacer\") a menudo se ha utilizado para ilustrar el dopt-huzzle.",
-                "El comando \"deshacer\" (O2) en la Figura 1 se interpreta como una operación inversa O2.",
-                "El efecto de \"deshacer\" correcto para O2 es eliminar el efecto de O2 pero retener los efectos de otras operaciones (es decir,"
+                "Operación contexto y transformación operativa basada en el contexto División de informática David Sun, EECS Universidad de California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun Escuela de Ingeniería Informática Nanyang Universidad Tecnológica Singapur czsun@ntu.edu.sg Abstract Operational Transformación (OT) es una técnica para el mantenimiento de la consistencia y el \"deshacer\" del grupo, y se aplica a un número creciente de aplicaciones colaborativas.deshacer",
+                "El algoritmo COT es capaz de admitir tanto DO como \"deshacer\" de cualquier operación en cualquier momento, sin requerir funciones de transformación para preservar la propiedad de reversibilidad, Convergencia Propiedad 2, Inverse Propiedades 2 y 3. Deshacer",
+                "En más de 15 años, OT ha evolucionado para respaldar un número creciente de aplicaciones, incluida la \"deshacer\" del grupo [15, 19, 18, 21], la conciencia del grupo [28], la notificación de operación y la compresión [20], la hoja de cálculo y la tabla-Aplicaciones céntricas [14, 27], HTML/XML y edición de documentos estructurados en árbol [3, 7], procesamiento de palabras y creación de diapositivas [29, 25, 24], intercambio de aplicaciones transparentes y heterogéneos [1, 10, 24],y sistemas de base de datos y computación replicada móviles [6, 16].deshacer",
+                "La limitación de la teoría de la causalidad se volvió aún más prominente cuando se aplicó OT para resolver el problema de \"deshacer\" en los editores grupales.deshacer",
+                "El concepto de causalidad no es adecuado para capturar las relaciones entre una operación inversa (como una interpretación de un comando \"deshacer\" de meta) y otras operaciones de edición normales.deshacer",
+                "En la Sección 4, presentamos el algoritmo COT básico para soportar el mantenimiento de consistencia (DO) y el grupo \"deshacer\" bajo el supuesto de que las funciones de transformación subyacentes pueden preservar algunas propiedades de transformación importantes.deshacer",
+                "Hay tres operaciones de edición en este escenario (el comando \"deshacer\" \"deshacer\" (O2) y su relación con otras operaciones se explicará más adelante): O1 generado en el Sitio 0, y O2 y O3 generados en el Sitio 1. Deshacer",
+                "El escenario en la Figura 1 (sin el comando \"deshacer\") a menudo se ha utilizado para ilustrar el dopt-huzzle.deshacer",
+                "El comando \"deshacer\" (O2) en la Figura 1 se interpreta como una operación inversa O2.deshacer",
+                "El efecto de \"deshacer\" correcto para O2 es eliminar el efecto de O2 pero retener los efectos de otras operaciones (es decir, deshacer"
             ],
             "translated_text": "",
-            "candidates": [
-                "deshacer",
-                "deshacer",
-                "Deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "Deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer",
-                "deshacer"
-            ],
+            "candidates": [],
             "error": []
         },
         "group editor": {
@@ -9307,17 +9129,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "En un \"editor de grupos\" basado en OT, cada estado de documento puede estar representado de manera única por el conjunto de operaciones originales ejecutadas hasta ahora en el documento."
+                "En un \"editor de grupos\" basado en OT, cada estado de documento puede estar representado de manera única por el conjunto de operaciones originales ejecutadas hasta ahora en el documento.editor de grupo"
             ],
             "translated_text": "",
-            "candidates": [
-                "editor de grupo",
-                "editor de grupos"
-            ],
+            "candidates": [],
             "error": []
         },
         "distribute application": {
-            "translated_key": "Distribuir la aplicación",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Operation Context and Context-based Operational Transformation David Sun Computer Science Division, EECS University of California Berkeley, CA davidsun@cs.berkeley.edu Chengzheng Sun School of Computer Engineering Nanyang Technological University Singapore CZSun@ntu.edu.sg ABSTRACT Operational Transformation (OT) is a technique for consistency maintenance and group undo, and is being applied to an increasing number of collaborative applications.",

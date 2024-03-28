@@ -3583,7 +3583,7 @@
             "error": []
         },
         "domain knowledge": {
-            "translated_key": "conocimiento del dominio",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -3926,23 +3926,16 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Otro factor contextual fuerte identificado en la literatura es el \"conocimiento del dominio\", o relaciones de términos específicas del dominio, como el programa → computadora en la informática.",
-                "Sin embargo, el \"conocimiento del dominio\" está disponible solo para unos pocos dominios (por ejemplo,",
-                "La escasez de \"conocimiento del dominio\" ha llevado a la utilización del conocimiento general para la expansión de la consulta [31], que está más disponible a partir de recursos como los tesauros, o se puede extraer automáticamente de los documentos [24] [27]."
+                "Otro factor contextual fuerte identificado en la literatura es el \"conocimiento del dominio\", o relaciones de términos específicas del dominio, como el programa → computadora en la informática.conocimiento del dominio",
+                "Sin embargo, el \"conocimiento del dominio\" está disponible solo para unos pocos dominios (por ejemplo, conocimiento del dominio",
+                "La escasez de \"conocimiento del dominio\" ha llevado a la utilización del conocimiento general para la expansión de la consulta [31], que está más disponible a partir de recursos como los tesauros, o se puede extraer automáticamente de los documentos [24] [27].conocimiento del dominio"
             ],
             "translated_text": "",
-            "candidates": [
-                "conocimiento del dominio",
-                "conocimiento del dominio",
-                "conocimiento del dominio",
-                "conocimiento del dominio",
-                "conocimiento del dominio",
-                "conocimiento del dominio"
-            ],
+            "candidates": [],
             "error": []
         },
         "utilization of general knowledge": {
-            "translated_key": "Utilización del conocimiento general",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -4285,17 +4278,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "La escasez de conocimientos de dominio ha llevado a la \"utilización del conocimiento general\" para la expansión de la consulta [31], que está más disponible a partir de recursos como los tesauros, o se puede extraer automáticamente de los documentos [24] [27]."
+                "La escasez de conocimientos de dominio ha llevado a la \"utilización del conocimiento general\" para la expansión de la consulta [31], que está más disponible a partir de recursos como los tesauros, o se puede extraer automáticamente de los documentos [24] [27].Utilización del conocimiento general"
             ],
             "translated_text": "",
-            "candidates": [
-                "Utilización del conocimiento general",
-                "utilización del conocimiento general"
-            ],
+            "candidates": [],
             "error": []
         },
         "general knowledge utilization": {
-            "translated_key": "Utilización del conocimiento general",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -4643,7 +4633,7 @@
             "error": []
         },
         "problem of knowledge ambiguity": {
-            "translated_key": "Problema de ambigüedad del conocimiento",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -4986,17 +4976,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Sin embargo, el uso del conocimiento general da lugar a un enorme \"problema de ambigüedad del conocimiento\" [31]: a menudo no podemos determinar si una relación se aplica a una consulta."
+                "Sin embargo, el uso del conocimiento general da lugar a un enorme \"problema de ambigüedad del conocimiento\" [31]: a menudo no podemos determinar si una relación se aplica a una consulta.Problema de ambigüedad del conocimiento"
             ],
             "translated_text": "",
-            "candidates": [
-                "Problema de ambigüedad del conocimiento",
-                "problema de ambigüedad del conocimiento"
-            ],
+            "candidates": [],
             "error": []
         },
         "knowledge ambiguity problem": {
-            "translated_key": "Problema de ambigüedad de conocimiento",
+            "translated_key": "",
             "is_in_text": false,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -5687,26 +5674,17 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "En algunos estudios anteriores [24] [31], las palabras de contexto en una consulta se han utilizado para seleccionar los términos de expansión sugeridos por las relaciones de términos, que, sin embargo, son \"independientes del contexto\" (como el programa → computadora).",
-                "Por ejemplo, en lugar de crear una relación \"independiente del contexto\" Java → programa, crearemos {Java, Computer} → programa, lo que significa que el programa se selecciona cuando Java y Computer aparecen en una consulta.",
-                "En el modelo de conocimiento, además de probar su efectividad, también queremos comparar las relaciones dependientes del contexto con las \"independientes del contexto\".",
-                "También comparamos el modelo de conocimiento dependiente del contexto con las relaciones tradicionales de término \"independientes del contexto\" (definidas entre dos términos individuales), que se utilizan para expandir las consultas."
+                "En algunos estudios anteriores [24] [31], las palabras de contexto en una consulta se han utilizado para seleccionar los términos de expansión sugeridos por las relaciones de términos, que, sin embargo, son \"independientes del contexto\" (como el programa → computadora).independiente del contexto",
+                "Por ejemplo, en lugar de crear una relación \"independiente del contexto\" Java → programa, crearemos {Java, Computer} → programa, lo que significa que el programa se selecciona cuando Java y Computer aparecen en una consulta.independiente del contexto",
+                "En el modelo de conocimiento, además de probar su efectividad, también queremos comparar las relaciones dependientes del contexto con las \"independientes del contexto\".independiente del contexto",
+                "También comparamos el modelo de conocimiento dependiente del contexto con las relaciones tradicionales de término \"independientes del contexto\" (definidas entre dos términos individuales), que se utilizan para expandir las consultas.independiente del contexto"
             ],
             "translated_text": "",
-            "candidates": [
-                "independiente del contexto",
-                "independientes del contexto",
-                "independiente del contexto",
-                "independiente del contexto",
-                "independiente del contexto",
-                "independientes del contexto",
-                "independiente del contexto",
-                "independientes del contexto"
-            ],
+            "candidates": [],
             "error": []
         },
         "context information": {
-            "translated_key": "información de contexto",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -6049,23 +6027,16 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Argumentamos que el problema proviene de la falta de \"información de contexto\" necesaria en las relaciones en sí mismas, y una solución más radical radica en la adición de contextos en las relaciones.",
-                "En nuestro estudio anterior [1], se propone un enfoque más simple y más general para resolver el problema en su fuente, es decir, la falta de \"información de contexto\" en las relaciones de términos: al introducir condiciones más estrictas en una relación, por ejemplo {Java, programa} → computadora y {algoritmo, programa} → computadora, la aplicabilidad de las relaciones se limitará naturalmente a contextos correctos.",
-                "Esto confirma la hipótesis que hicimos, que al incorporar \"información de contexto\" en las relaciones, podemos determinar mejor las relaciones apropiadas para aplicar y así evitar introducir términos de expansión inapropiados."
+                "Argumentamos que el problema proviene de la falta de \"información de contexto\" necesaria en las relaciones en sí mismas, y una solución más radical radica en la adición de contextos en las relaciones.información de contexto",
+                "En nuestro estudio anterior [1], se propone un enfoque más simple y más general para resolver el problema en su fuente, es decir, la falta de \"información de contexto\" en las relaciones de términos: al introducir condiciones más estrictas en una relación, por ejemplo {Java, programa} → computadora y {algoritmo, programa} → computadora, la aplicabilidad de las relaciones se limitará naturalmente a contextos correctos.información de contexto",
+                "Esto confirma la hipótesis que hicimos, que al incorporar \"información de contexto\" en las relaciones, podemos determinar mejor las relaciones apropiadas para aplicar y así evitar introducir términos de expansión inapropiados.información de contexto"
             ],
             "translated_text": "",
-            "candidates": [
-                "información de contexto",
-                "información de contexto",
-                "información de contexto",
-                "información de contexto",
-                "información de contexto",
-                "información de contexto"
-            ],
+            "candidates": [],
             "error": []
         },
         "domain model": {
-            "translated_key": "modelo de dominio",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -6408,69 +6379,31 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Este documento tiene como objetivo hacer contribuciones en los siguientes aspectos: • \"Modelo de dominio\" específico de la consulta: construimos modelos de dominio más específicos en lugar de un solo modelo de usuario que agrupa todos los dominios.",
-                "Luego, las secciones 4 y 5 describen respectivamente el \"modelo de dominio\" y el modelo de conocimiento.",
-                "\"Modelo de dominio\" especifica otro tipo de información útil: refleja un conjunto de términos de fondo específicos para un dominio, por ejemplo, contaminación, lluvia, invernadero, etc. para el dominio del medio ambiente.",
-                "Usemos 0 Qθ para denotar el modelo de consulta original, F qθ para el modelo de retroalimentación creado a partir de documentos de retroalimentación, DOM Qθ para un \"modelo de dominio\" y k qθ para un modelo de conocimiento creado mediante la aplicación de relaciones de términos.0 Qθ puede ser creado por MLE.",
-                "Si la estimación de máxima verosimilitud se usa directamente en estos documentos, el \"modelo de dominio\" resultante contendrá tanto los términos específicos del dominio como los términos generales, y el primero no emerge.",
-                "El algoritmo EM se usa para extraer el \"modelo de dominio\" domθ que maximiza p (dom | θdom) (donde dom es el conjunto de documentos en el dominio), es decir: () () () () [] () ∏∏∈ ∈ + - = = DOMD DT DTC CDOM DOMDOM TPTP DOMP DOM DOM;|| 1maxarg | maxarg θηθη θθ θ θ (6) Este es el mismo proceso que el que se usa para extraer el modelo de retroalimentación en [35].",
-                "Esto se puede observar en la siguiente tabla, que muestra algunas palabras en el \"modelo de dominio\" del entorno antes y después de las emiteraciones (50 iteraciones).",
-                "La puntuación que depende del \"modelo de dominio\" es el siguiente: ∑∈ = vt d dom qdom tptpdqscore) | (log) | (), (θθ (8) aunque la ecuación anterior requiere usar todos los términos en el vocabulario, en enPráctica, solo los términos más fuertes en el \"modelo de dominio\" son útiles y los términos con bajas probabilidades son a menudo ruido.",
-                "Aunque los modelos de dominio son más refinados que un solo perfil de usuario, los temas en un solo dominio pueden ser muy diferentes, lo que hace que el \"modelo de dominio\" sea demasiado grande.",
-                "El uso de un \"modelo de dominio\" tan grande como el fondo puede introducir muchos términos de ruido.",
-                "Por lo tanto, construimos aún más un \"modelo de dominio\" más relacionado con la consulta dada, mediante el uso de un subconjunto de documentos internos que están relacionados con la consulta.",
-                "En los modelos de dominio, examinamos varias preguntas: • Cuando el dominio de la consulta se especifica manualmente, ¿es útil incorporar el \"modelo de dominio\"?• Si no se especifica el dominio de la consulta, ¿se puede determinar automáticamente?",
-                "Estrategias para usar modelos de dominio: U1: el usuario determina el \"modelo de dominio\".",
-                "U2: el \"modelo de dominio\" está determinado por el sistema.7.4.1 Creación de modelos de dominio Probamos estrategias C1 y C2.",
-                "Un análisis muestra inmediatamente la razón: un \"modelo de dominio\" (en la forma en que creamos) solo captura la distribución de términos en el dominio.",
-                "La Tabla 7 muestra los resultados con esta estrategia utilizando ambas estrategias para la construcción del \"modelo de dominio\".",
-                "Esto muestra que la identificación de dominio automático es una forma de seleccionar \"modelo de dominio\" tan efectivo como la identificación manual.",
-                "Este modelo integra todos los componentes descritos en este documento: modelo de consulta original, modelo de retroalimentación, \"modelo de dominio\" y modelo de conocimiento."
+                "Este documento tiene como objetivo hacer contribuciones en los siguientes aspectos: • \"Modelo de dominio\" específico de la consulta: construimos modelos de dominio más específicos en lugar de un solo modelo de usuario que agrupa todos los dominios.modelo de dominio",
+                "Luego, las secciones 4 y 5 describen respectivamente el \"modelo de dominio\" y el modelo de conocimiento.modelo de dominio",
+                "\"Modelo de dominio\" especifica otro tipo de información útil: refleja un conjunto de términos de fondo específicos para un dominio, por ejemplo, contaminación, lluvia, invernadero, etc. para el dominio del medio ambiente.modelo de dominio",
+                "Usemos 0 Qθ para denotar el modelo de consulta original, F qθ para el modelo de retroalimentación creado a partir de documentos de retroalimentación, DOM Qθ para un \"modelo de dominio\" y k qθ para un modelo de conocimiento creado mediante la aplicación de relaciones de términos.0 Qθ puede ser creado por MLE.modelo de dominio",
+                "Si la estimación de máxima verosimilitud se usa directamente en estos documentos, el \"modelo de dominio\" resultante contendrá tanto los términos específicos del dominio como los términos generales, y el primero no emerge.modelo de dominio",
+                "El algoritmo EM se usa para extraer el \"modelo de dominio\" domθ que maximiza p (dom | θdom) (donde dom es el conjunto de documentos en el dominio), es decir: () () () () [] () ∏∏∈ ∈ + - = = DOMD DT DTC CDOM DOMDOM TPTP DOMP DOM DOM;|| 1maxarg | maxarg θηθη θθ θ θ (6) Este es el mismo proceso que el que se usa para extraer el modelo de retroalimentación en [35].modelo de dominio",
+                "Esto se puede observar en la siguiente tabla, que muestra algunas palabras en el \"modelo de dominio\" del entorno antes y después de las emiteraciones (50 iteraciones).modelo de dominio",
+                "La puntuación que depende del \"modelo de dominio\" es el siguiente: ∑∈ = vt d dom qdom tptpdqscore) | (log) | (), (θθ (8) aunque la ecuación anterior requiere usar todos los términos en el vocabulario, en enPráctica, solo los términos más fuertes en el \"modelo de dominio\" son útiles y los términos con bajas probabilidades son a menudo ruido. Modelo de dominio",
+                "Aunque los modelos de dominio son más refinados que un solo perfil de usuario, los temas en un solo dominio pueden ser muy diferentes, lo que hace que el \"modelo de dominio\" sea demasiado grande.modelo de dominio",
+                "El uso de un \"modelo de dominio\" tan grande como el fondo puede introducir muchos términos de ruido.modelo de dominio",
+                "Por lo tanto, construimos aún más un \"modelo de dominio\" más relacionado con la consulta dada, mediante el uso de un subconjunto de documentos internos que están relacionados con la consulta.modelo de dominio",
+                "En los modelos de dominio, examinamos varias preguntas: • Cuando el dominio de la consulta se especifica manualmente, ¿es útil incorporar el \"modelo de dominio\"?• Si no se especifica el dominio de la consulta, ¿se puede determinar automáticamente?modelo de dominio",
+                "Estrategias para usar modelos de dominio: U1: el usuario determina el \"modelo de dominio\".modelo de dominio",
+                "U2: el \"modelo de dominio\" está determinado por el sistema.7.4.1 Creación de modelos de dominio Probamos estrategias C1 y C2.modelo de dominio",
+                "Un análisis muestra inmediatamente la razón: un \"modelo de dominio\" (en la forma en que creamos) solo captura la distribución de términos en el dominio.modelo de dominio",
+                "La Tabla 7 muestra los resultados con esta estrategia utilizando ambas estrategias para la construcción del \"modelo de dominio\".modelo de dominio",
+                "Esto muestra que la identificación de dominio automático es una forma de seleccionar \"modelo de dominio\" tan efectivo como la identificación manual.modelo de dominio",
+                "Este modelo integra todos los componentes descritos en este documento: modelo de consulta original, modelo de retroalimentación, \"modelo de dominio\" y modelo de conocimiento.modelo de dominio"
             ],
             "translated_text": "",
-            "candidates": [
-                "modelo de dominio",
-                "Modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "Modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "Modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio",
-                "modelo de dominio"
-            ],
+            "candidates": [],
             "error": []
         },
         "radical solution": {
-            "translated_key": "solución radical",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -6813,17 +6746,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Argumentamos que el problema proviene de la falta de información de contexto necesaria en las relaciones en sí, y una \"solución radical\" más radica en la adición de contextos en las relaciones."
+                "Argumentamos que el problema proviene de la falta de información de contexto necesaria en las relaciones en sí, y una \"solución radical\" más radica en la adición de contextos en las relaciones.solución radical"
             ],
             "translated_text": "",
-            "candidates": [
-                "solución radical",
-                "solución radical"
-            ],
+            "candidates": [],
             "error": []
         },
         "google personalized search": {
-            "translated_key": "Búsqueda personalizada de Google",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -7166,17 +7096,14 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Por otro lado, [9] [15] [26] [30], así como la \"búsqueda personalizada de Google\" [12] usa los documentos leídos por el usuario, almacenados en la computadora de los usuarios o extraídos del historial de búsqueda de usuarios."
+                "Por otro lado, [9] [15] [26] [30], así como la \"búsqueda personalizada de Google\" [12] usa los documentos leídos por el usuario, almacenados en la computadora de los usuarios o extraídos del historial de búsqueda de usuarios.Búsqueda personalizada de Google"
             ],
             "translated_text": "",
-            "candidates": [
-                "Búsqueda personalizada de Google",
-                "búsqueda personalizada de Google"
-            ],
+            "candidates": [],
             "error": []
         },
         "query context": {
-            "translated_key": "contexto de consulta",
+            "translated_key": "",
             "is_in_text": true,
             "original_annotated_sentences": [
                 "Using Query Contexts in Information Retrieval Jing Bai 1 , Jian-Yun Nie 1 , Hugues Bouchard 2 , Guihong Cao 1 1 Department IRO, University of Montreal CP.",
@@ -7519,13 +7446,10 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Dentro del \"contexto de consulta\" existe en muchas consultas."
+                "Dentro del \"contexto de consulta\" existe en muchas consultas.contexto de consulta"
             ],
             "translated_text": "",
-            "candidates": [
-                "contexto de consulta",
-                "contexto de consulta"
-            ],
+            "candidates": [],
             "error": []
         },
         "term relation": {
@@ -7872,13 +7796,10 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "En general, una \"relación de término\" puede representarse como A → B."
+                "En general, una \"relación de término\" puede representarse como A → B.término relación"
             ],
             "translated_text": "",
-            "candidates": [
-                "término relación",
-                "relación de término"
-            ],
+            "candidates": [],
             "error": []
         },
         "language model": {
@@ -8225,23 +8146,13 @@
             ],
             "original_annotated_samples": [],
             "translated_annotated_samples": [
-                "Modelo general IR En el marco de modelado de idiomas, una función de puntuación típica se define en la divergencia kl de la siguiente manera: () () () () dq vt dq kltptpdqscore θθθθ dqθd es un \"modelo de idioma\" (unigram) creado para un documento d, θq un \"modelo de idioma\" para la consulta Q y v el vocabulario.",
-                "Cualquiera sea la estrategia, obtendremos un conjunto de documentos para cada dominio, de los cuales se puede extraer un \"modelo de idioma\".",
-                "Por lo tanto, empleamos un proceso EM para extraer la parte específica del dominio de la siguiente manera: suponemos que los documentos en un dominio son generados por un modelo específico de dominio (que se extraerá) y el \"modelo de lenguaje\" general (modelo de colección).",
-                "Hemos integrado los factores contextuales anteriores, junto con el modelo de retroalimentación, en un solo \"modelo de lenguaje\"."
+                "Modelo general IR En el marco de modelado de idiomas, una función de puntuación típica se define en la divergencia kl de la siguiente manera: () () () () dq vt dq kltptpdqscore θθθθ dqθd es un \"modelo de idioma\" (unigram) creado para un documento d, θq un \"modelo de idioma\" para la consulta Q y v el vocabulario.modelo",
+                "Cualquiera sea la estrategia, obtendremos un conjunto de documentos para cada dominio, de los cuales se puede extraer un \"modelo de idioma\".modelo",
+                "Por lo tanto, empleamos un proceso EM para extraer la parte específica del dominio de la siguiente manera: suponemos que los documentos en un dominio son generados por un modelo específico de dominio (que se extraerá) y el \"modelo de lenguaje\" general (modelo de colección).modelo",
+                "Hemos integrado los factores contextuales anteriores, junto con el modelo de retroalimentación, en un solo \"modelo de lenguaje\".modelo"
             ],
             "translated_text": "",
-            "candidates": [
-                "modelo",
-                "modelo de idioma",
-                "modelo de idioma",
-                "modelo",
-                "modelo de idioma",
-                "modelo",
-                "modelo de lenguaje",
-                "modelo",
-                "modelo de lenguaje"
-            ],
+            "candidates": [],
             "error": []
         }
     }
