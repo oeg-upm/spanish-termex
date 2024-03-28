@@ -16,7 +16,7 @@ import os
 from collections import Counter
 import nltk
 nltk.download('punkt')
-#from googletrans import Translator
+from googletrans import Translator
 
 
 def separate_sentences(text):
@@ -50,8 +50,6 @@ def separate_sentences(text):
 
     return new_sentences
 
-
-'''
 def translate_texts_google(sentences, translated_sentences):
 
 
@@ -89,7 +87,6 @@ def translate_text_google(text, src_lang='en', dest_lang='es'):
 
 
 
-'''
 
 def read_term_list_file(filepath):
     lst = []
@@ -582,3 +579,25 @@ def find_term_position(term, text):
             return -1, -1, None  # Término no encontrado en el texto
     except ValueError:
         return -1, -1, None  # Término no encontrado en el texto
+
+
+def find_last_term_and_remove(string):
+  
+    # taking empty string
+    newstring = ""
+    
+    # calculating length of string
+    length = len(string)
+    
+    # traversing from last
+    for i in range(length-1, 0, -1):
+      
+        # if space is occurred then return
+        if(string[i] == ".") or (string[i] == "!") or (string[i] == "?") or (string[i] == ")"):
+          
+            to_remove= len(newstring[::-1])
+            new_sentence = string[:-to_remove]
+            return newstring[::-1], new_sentence
+        else:
+            newstring = newstring + string[i]
+
