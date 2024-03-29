@@ -80,10 +80,12 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
 
 
 #InputPath='datasets/doc_translations/errors_test/'
-InputPath = 'datasets/doc_translations/SemEval2017_GTranslate/'
-OutputPath = 'datasets/doc_translations/SemEval2017_GTranslateReviewed/'
+# InputPath = 'datasets/doc_translations/SemEval2017_GTranslate/'
+# OutputPath = 'datasets/doc_translations/SemEval2017_GTranslateReviewed/'
 # InputPath =  'datasets/doc_translations/OpenAI/SemEval2017_2/'
 # OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017_2Reviewed/'
+InputPath='datasets/doc_translations/SemEval2010_GTranslate_Postprocessed/'
+OutputPath='datasets/doc_translations/SemEval2010_GTranslateReviewed/'
 sourcedocs = os.listdir(InputPath)
 targetdocs = os.listdir(OutputPath)
 source_identifiers = get_source_identifiers(sourcedocs)
@@ -99,6 +101,8 @@ for ident in source_identifiers:
     with open(filepath, 'r') as file:
         # data = file.read()
         data_dict = json.load(file)
+        '''
+        #DESCOMENTAR PARA PABLO Y SEMEVAL20º7
         if data_dict['error_count'] == 0:
             a=0
             #TODO, WRITE FILE
@@ -106,26 +110,29 @@ for ident in source_identifiers:
             #print(data_dict['keys'].keys())
             num_errors = data_dict['error_count']
             print(ident,num_errors)
+            '''
+        for key in data_dict['keys'].keys():
+            #translation=data_dict['keys'][key]['translated_key'] #PABLO y Semeval2017
+            trans_key=data_dict['keys'][key]['translated_key']
+            translation=data_dict['keys'][key]['candidates'] #Semeval2010 patri
+            print(translation)
+            if trans_key =="" and isinstance(translation, list): ## si es una lista, osea un error
+            
+            #if translation=='': #ARCHIVOS PABLO
+                #print(translation,key )
+                print(ident)
+                #new_term=user_corrector(data_dict['original_text'],data_dict['original_translation'],translation,key)
+                #new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'][0], key) # ARCHIVOS PABLO 
+                new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['candidates'], key)
+                print(ident)
+                #num_errors=num_errors-1 #PABLO Y SEMEVAL2017
 
-            for key in data_dict['keys'].keys():
-                translation=data_dict['keys'][key]['translated_key']
-                print(translation)
-                if isinstance(translation, list): ## si es una lista, osea un error
-                
-                #ARCHIVOS PABLOif translation=='':
-                    #print(translation,key )
-                    print(ident)
-                    #new_term=user_corrector(data_dict['original_text'],data_dict['original_translation'],translation,key)
-                    # ARCHIVOS PABLO new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'][0], key)
-                    new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'], key)
-                    num_errors=num_errors-1
+                data_dict['keys'][key]['translated_key']=new_term
 
-                    data_dict['keys'][key]['translated_key']=new_term
-
-            data_dict['error_count']=num_errors
-            write_json_file(OutputPath +str(ident)+ ".json",data_dict)
-            #cuando term
-            #print('ERROR in',ident, data_dict['error_count'])
+        #data_dict['error_count']=num_errors
+        write_json_file(OutputPath +str(ident)+ ".json",data_dict)
+        #cuando term
+        #print('ERROR in',ident, data_dict['error_count'])
 
 
 
