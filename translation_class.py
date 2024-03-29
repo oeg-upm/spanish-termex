@@ -600,4 +600,21 @@ def find_last_term_and_remove(string):
             return newstring[::-1], new_sentence
         else:
             newstring = newstring + string[i]
+            
+def check_repetition_percentage(lista_palabras):
+    total_palabras = len(lista_palabras)
+    
+    # Crear un diccionario para contar la frecuencia de cada palabra
+    contador = {}
+    for palabra in lista_palabras:
+        contador[palabra] = contador.get(palabra, 0) + 1
+    
+    # Calcular el porcentaje de repetición de cada palabra
+    porcentajes = {}
+    for palabra, frecuencia in contador.items():
+        porcentaje = (frecuencia / total_palabras) * 100
+        porcentajes[palabra] = porcentaje
+    
+    return porcentajes
+
 

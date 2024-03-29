@@ -8,12 +8,14 @@ Created on Wed Mar 27 14:55:27 2024
 
 import json
 import os
-from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers, separate_sentences, is_sentence_to_translate, extract_quoted_terms, find_last_term_and_remove, translate_text_google, detect_different_translations
+from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers, separate_sentences, is_sentence_to_translate, extract_quoted_terms, find_last_term_and_remove, translate_text_google, detect_different_translations, check_repetition_percentage
 import shutil
 import traceback
 
-SourcePath = 'datasets/doc_translations/SemEval2010_GTranslate_Annotated' 
-OutPath='datasets/doc_translations/postprocessed2010' 
+#SourcePath = 'datasets/doc_translations/SemEval2010_GTranslate_Annotated' 
+SourcePath = 'datasets/doc_translations/errors_test/'
+OutPath = 'datasets/doc_translations/SemEval2017_GTranslateReviewedAuto/'
+#OutPath='datasets/doc_translations/postprocessed2010' 
 sourcedocs = os.listdir(SourcePath) 
 targetdocs= os.listdir(OutPath)
 source_identifiers = get_source_identifiers(sourcedocs)
@@ -23,6 +25,7 @@ fatal_errors= open('datasets/doc_translations/fatal_errors_post')
 
 
 ''' 
+#SI ES UN ARCHIVO FATAL ERROR LO MUEVES DE LA CARPETA TARGET A LA DE ERRORS
 for error in fatal_errors:
     new_error=error.rstrip("\n")
     if new_error in target_identifiers:
@@ -34,7 +37,8 @@ for error in fatal_errors:
         continue
 '''
 
-
+'''
+#POSTPROCESSING SEMEVAL2010
 
 translation = Translation()
 fatal_errors = []
@@ -109,5 +113,48 @@ for identifier in source_identifiers:
         print(e)
         print(traceback.format_exc())
         
-        
+'''
+
+#PARA AUTOMATICAMENTE ASIGNAR UNA TRADUCCIÓN DADA SU FRECUENCIA EN LAS CANDIDATES
+for identifier in source_identifiers:
+
+    if identifier in target_identifiers:
+        continue
+    try:
+        print(identifier)
+        source_file= SourcePath + '/' + identifier+'.json'
+        output_file= OutPath + '/' + identifier+'.json'
+        shutil.copy(source_file, output_file)
+        with open(source_file, 'r', encoding='utf-8') as file:
+            data=json.load(file)
+            for key in data['keys']:
+                translation=data['keys'][key]['translated_key']
+                if isinstance(translation, list):
+                    print(key)
+                    print(translation)
+                    result=check_repetition_percentage(translation)
+                    for term, percent in result.items():
+                        print(f"{term}: {percent:.2f}%")
+                        if percent >= 80:
+                            print('GANA')
+                            print(term, percent)
+                            with open(output_file, "r", encoding="utf-8") as out_json_file:
+                                output_data = json.load(out_json_file)
+                                output_data['keys'][key]['translated_key']=term
+                            with open(output_file, "w", encoding="utf-8") as out_json_file:
+                                json.dump(output_data, out_json_file, ensure_ascii=False, indent=4)
+                    
+                    
   
+    
+    except Exception as e:
+        print("FATAL ERROR IN "+ str(identifier))
+        fatal_errors.append((identifier))
+        print(e)
+        print(traceback.format_exc())
+        
+    
+  
+    
+  
+    
