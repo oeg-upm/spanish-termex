@@ -13,9 +13,9 @@ import shutil
 import traceback
 
 #SourcePath = 'datasets/doc_translations/SemEval2010_GTranslate_Annotated' 
-SourcePath = 'datasets/doc_translations/errors_test/'
-OutPath = 'datasets/doc_translations/SemEval2017_GTranslateReviewedAuto/'
-#OutPath='datasets/doc_translations/postprocessed2010' 
+SourcePath = 'datasets/doc_translations/errors_translation/'
+#OutPath = 'datasets/doc_translations/SemEval2017_GTranslateReviewedAuto/'
+OutPath='datasets/doc_translations/SemEval2010_GTranslate_Postprocessed' 
 sourcedocs = os.listdir(SourcePath) 
 targetdocs= os.listdir(OutPath)
 source_identifiers = get_source_identifiers(sourcedocs)
@@ -37,7 +37,6 @@ for error in fatal_errors:
         continue
 '''
 
-'''
 #POSTPROCESSING SEMEVAL2010
 
 translation = Translation()
@@ -113,6 +112,8 @@ for identifier in source_identifiers:
         print(e)
         print(traceback.format_exc())
         
+
+
 '''
 
 #PARA AUTOMATICAMENTE ASIGNAR UNA TRADUCCIÓN DADA SU FRECUENCIA EN LAS CANDIDATES
@@ -153,7 +154,7 @@ for identifier in source_identifiers:
         print(e)
         print(traceback.format_exc())
         
-    
+'''    
   
     
   

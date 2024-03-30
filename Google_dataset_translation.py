@@ -14,10 +14,10 @@ import traceback
 
 
 
-#InputPath= 'datasets/doc_translations/errors_test'
-InputPath=   'datasets/annotated/SemEval2010'
-OutputPath = 'datasets/doc_translations/SemEval2010_GTranslate_Annotated' #'datasets/translation_test/trans'
-
+InputPath= 'datasets/doc_translations/errors_test'
+#InputPath=   'datasets/annotated/SemEval2010'
+#OutputPath = 'datasets/doc_translations/SemEval2010_GTranslate_Annotated' #'datasets/translation_test/trans'
+OutputPath= 'datasets/doc_translations/errors_translation'
 sourcedocs = os.listdir(InputPath)
 targetdocs = os.listdir(OutputPath)
 
@@ -38,6 +38,7 @@ for error in fatal_errors:
         continue
 '''
 fatal_errors = []
+sentence_errors = []
 
 for identifier in source_identifiers:
 
@@ -58,15 +59,28 @@ for identifier in source_identifiers:
                 translated_sentences=[]
                 sentences=separate_sentences(text)
                 for sentence in sentences:
-                    tr_sentence=translate_text_google(sentence, src_lang='en', dest_lang='es')
-                    translated_sentences.append(tr_sentence)
-                translation.original_translation=' '.join(translated_sentences)
-                with open(output_file, "r", encoding="utf-8") as out_json_file:
-                    output_data = json.load(out_json_file)
-                    output_data['original_translation'] = translation.original_translation
-                with open(output_file, "w", encoding="utf-8") as out_json_file:
-                    json.dump(output_data, out_json_file, ensure_ascii=False, indent=4)
-                     
+                    if len(sentence) >= 30:
+                        print(sentence)
+                        tr_sentence=translate_text_google(sentence, src_lang='en', dest_lang='es')
+                        translated_sentences.append(tr_sentence)
+                    else:
+                        error_tuple=(identifier, sentence)
+                        sentence_errors.append(error_tuple)
+                    translation.original_translation=' '.join(translated_sentences)
+                    with open(output_file, "r", encoding="utf-8") as out_json_file:
+                        output_data = json.load(out_json_file)
+                        output_data['original_translation'] = translation.original_translation
+                    with open(output_file, "w", encoding="utf-8") as out_json_file:
+                        json.dump(output_data, out_json_file, ensure_ascii=False, indent=4)
+
+                        
+    except Exception as e:
+            print("FATAL ERROR IN "+ str(identifier))
+            fatal_errors.append((identifier))
+            print(e)
+            print(traceback.format_exc())
+            #break
+'''                     
                 if 'keys' in source_data:
                     for key in source_data['keys']:
                         translated_br=[]
@@ -92,12 +106,13 @@ for identifier in source_identifiers:
     
                             # with open(output_file, "r") as out_json_file:
                             #     output_data = json.load(out_json_file)
+                          
                             for b in translated_br:
                                 output_data['keys'][key]['translated_annotated_samples'].append(b)
                                 with open(output_file, 'w', encoding='utf-8') as out_json_file:
                                     json.dump(output_data, out_json_file, ensure_ascii=False, indent=4)
                                     print('--------------FINISH---------------')                
-                                  
+'''                                  
                                     
                                     
 
@@ -127,11 +142,6 @@ for identifier in source_identifiers:
         #print("ERRORS:",translation.error_count)
         #break
 
-    except Exception as e:
-        print("FATAL ERROR IN "+ str(identifier))
-        fatal_errors.append((identifier))
-        print(e)
-        print(traceback.format_exc())
-        #break
+
      
       
