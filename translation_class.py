@@ -530,6 +530,8 @@ def get_source_identifiers(file_list):
             identifiers.append(file_.replace('.txt',''))
         if file_.endswith('.json'):
             identifiers.append(file_.replace('.json',''))
+        if file_.endswith('.key'):
+            identifiers.append(file_.replace('.key',''))
 
     return identifiers
 
