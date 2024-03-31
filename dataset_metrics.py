@@ -54,26 +54,33 @@ print(doc_counter)
 '''
 
 InputPath='datasets/source/SemEval2017/keys/'
-InputPath='datasets/doc_translations/SemEval2017_GTranslateReviewed/'
+InputPath='datasets/doc_translations/SemEval2017_GTranslate/'
+RevPath= 'datasets/doc_translations/SemEval2017_GTranslateReviewed/'
+RevPath= 'datasets/doc_translations/SemEval2010_GTranslateReviewed/'
 sourcedocs = os.listdir(InputPath) 
+revdocs=os.listdir(RevPath)
 source_identifiers = get_source_identifiers(sourcedocs)
+rev_identifiers = get_source_identifiers(revdocs)
 
-#DOC TRANSLATION COUNTER
-#TRASNLATION SemEval2017 
-trans_counter=0
-for identifier in source_identifiers:
-    source_file= InputPath + '/' + identifier+'.json'
-    print(identifier)
-    with open(source_file, 'r', encoding='utf-8') as file:
+#TRANSLATION COUNTER GOOGLE TRANSLATE (hay un desfase, a ver qué pasa)
+#TRANSLATION SemEval2017 104606
+#TRANSLATION SemEval2010 2501394
+#Translated key SemEval2010 3762
+#Translated key SemEval2017 8525
+
+transkey_counter=0
+for identifier in rev_identifiers:
+    rev_file= RevPath + '/' + identifier+'.json'
+    with open(rev_file, 'r', encoding='utf-8') as file:
         data=json.load(file)
-        text=data['original_translation']
-        tokens = nltk.word_tokenize(text)
-        trans_counter += len(tokens)
-
-        
-print(trans_counter)        
-
-
+        for key in data['keys']:
+            if data['keys'][key]['translated_key']==" ":
+                #transkey_counter+=1
+                print(identifier + ' ' + key)
+                            
+        #tokens = nltk.word_tokenize(text)
+        #trans_counter += len(tokens)
+print(transkey_counter)          
 
 
 
