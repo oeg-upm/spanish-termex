@@ -68,6 +68,7 @@ rev_identifiers = get_source_identifiers(revdocs)
 #Translated key SemEval2010 3762
 #Translated key SemEval2017 8525
 
+'''
 transkey_counter=0
 for identifier in rev_identifiers:
     rev_file= RevPath + '/' + identifier+'.json'
@@ -81,6 +82,91 @@ for identifier in rev_identifiers:
         #tokens = nltk.word_tokenize(text)
         #trans_counter += len(tokens)
 print(transkey_counter)          
+'''
+
+
+InputPath='datasets/doc_translations/SemEval2017_GTranslate/'
+# RevPath= 'datasets/doc_translations/SemEval2017_GTranslateReviewed/'
+# RevPath= 'datasets/doc_translations/SemEval2010_GTranslateReviewed/'
+sourcedocs = os.listdir(InputPath) 
+# revdocs=os.listdir(RevPath)
+source_identifiers = get_source_identifiers(sourcedocs)
+# rev_identifiers = get_source_identifiers(revdocs)
+
+
+#ERROR COUNTER GOOGLE TRANSLATE
+#SemEval2010 1553
+#SemEval2017 503
+'''
+error_counter=0
+for identifier in source_identifiers:
+    file= InputPath + '/' + identifier+'.json'
+    with open(file, 'r', encoding='utf-8') as file:
+        data=json.load(file)
+        error_num=data['error_count']
+        if error_num > 0: 
+           error_counter+= error_num
+        # for key in data['keys']:
+        #     if data['keys'][key]['translated_key']=="":
+        #         error_counter+=1
+
+print(error_counter)
+'''
+
+
+
+InputPath='datasets/source/SemEval2010/keys/'
+TrPath='datasets/doc_translations/SemEval2010_GTranslateReviewed/'
+sourcedocs = os.listdir(InputPath) 
+trdocs= os.listdir(TrPath)
+source_identifiers = get_source_identifiers(sourcedocs)
+tr_identifiers= get_source_identifiers(trdocs)
+
+
+#DESFASES ENTRE SOURCE Y TR
+
+
+for identifier in source_identifiers:
+    #print(identifier)
+    sr_file=InputPath+identifier+'.key'
+    with open(sr_file, 'r') as f:
+        read_key=f.readlines()
+        sr_key_counter=len(read_key)
+    
+    if identifier in tr_identifiers:
+        tr_key_counter=0
+        tr_file=TrPath+identifier+'.json'
+        with open(tr_file, 'r', encoding='utf-8') as file:
+            data=json.load(file)
+            for key in data['keys']:
+                tr_key_counter+=1
+        if sr_key_counter != tr_key_counter:
+            print('DESFASE: '+identifier + ' SR=' + str(sr_key_counter) + ' TR=' + str(tr_key_counter))
+    
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
