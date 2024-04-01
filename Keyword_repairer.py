@@ -10,6 +10,8 @@ import json
 import os
 
 from translation_class import get_source_identifiers
+import Helsinki_translator
+
 
 
 
@@ -43,8 +45,13 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
         print(f"{counter}*{termino}: {aparicion}")
         counter=counter+1
 
+    helsinki_key='None'
+    if len(terminos) ==0:
+        helsinki_key=Helsinki_translator.translate_text_original(key)
+
+
     while True:
-        opcion = input("Elige una opción (1 para el primer término, 2 para el segundo, 3 para el término original{"+str(key)+"}.  4 para escribir uno específico): ")
+        opcion = input("Elige una opción 1 para el primer término, 2 para el segundo, 3 para el término original {"+str(key)+"}. \n 4 for automatic translation {"+str(helsinki_key)+"}  5 para escribir uno específico): ")
 
         if opcion == '1':
             termino = terminos[0]
@@ -65,7 +72,14 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
             print(f"El término '{termino}' aparece {texto_traducido.count(termino)} veces en el texto.")
             break
 
-        elif opcion == '4':
+        if opcion == '4':
+            termino = helsinki_key
+            final_term=termino
+            print(f"\nTérmino seleccionado: {termino}")
+            print(f"El término '{termino}' aparece {texto_traducido.count(termino)} veces en el texto.")
+            break
+
+        elif opcion == '5':
             termino_elegido = input("Introduce el término que deseas introducir: ")
             final_term = termino_elegido
             print(f"\nTérmino seleccionado: {termino_elegido}")
@@ -86,6 +100,10 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
 # OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017_2Reviewed/'
 InputPath='datasets/doc_translations/SemEval2010_GTranslate_Postprocessed/'
 OutputPath='datasets/doc_translations/SemEval2010_GTranslateReviewed/'
+
+InputPath =  'datasets/doc_translations/OpenAI/SemEval2017_2/'
+OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017_2Reviewed/'
+
 sourcedocs = os.listdir(InputPath)
 targetdocs = os.listdir(OutputPath)
 source_identifiers = get_source_identifiers(sourcedocs)
@@ -101,7 +119,7 @@ for ident in source_identifiers:
     with open(filepath, 'r') as file:
         # data = file.read()
         data_dict = json.load(file)
-        '''
+
         #DESCOMENTAR PARA PABLO Y SEMEVAL20º7
         if data_dict['error_count'] == 0:
             a=0
@@ -110,29 +128,28 @@ for ident in source_identifiers:
             #print(data_dict['keys'].keys())
             num_errors = data_dict['error_count']
             print(ident,num_errors)
-            '''
-        for key in data_dict['keys'].keys():
-            #translation=data_dict['keys'][key]['translated_key'] #PABLO y Semeval2017
-            trans_key=data_dict['keys'][key]['translated_key']
-            translation=data_dict['keys'][key]['candidates'] #Semeval2010 patri
-            print(translation)
-            if trans_key =="" and isinstance(translation, list): ## si es una lista, osea un error
-            
-            #if translation=='': #ARCHIVOS PABLO
-                #print(translation,key )
-                print(ident)
-                #new_term=user_corrector(data_dict['original_text'],data_dict['original_translation'],translation,key)
-                #new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'][0], key) # ARCHIVOS PABLO 
-                new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['candidates'], key)
-                print(ident)
-                #num_errors=num_errors-1 #PABLO Y SEMEVAL2017
 
-                data_dict['keys'][key]['translated_key']=new_term
+            for key in data_dict['keys'].keys():
+                translation=data_dict['keys'][key]['translated_key'] #PABLO y Semeval2017
+                trans_key=data_dict['keys'][key]['translated_key']
+                #translation=data_dict['keys'][key]['candidates'] #Semeval2010 patri
+                print(translation)
+                #if trans_key =="" and isinstance(translation, list): ## si es una lista, osea un error
 
-        #data_dict['error_count']=num_errors
-        write_json_file(OutputPath +str(ident)+ ".json",data_dict)
-        #cuando term
-        #print('ERROR in',ident, data_dict['error_count'])
+                if translation=='': #ARCHIVOS PABLO
+                    #print(translation,key )
+                    #print(ident)
+                    #new_term=user_corrector(data_dict['original_text'],data_dict['original_translation'],translation,key)
+                    new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'][0], key) # ARCHIVOS PABLO
+                    #new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['candidates'], key)
+                    #print(ident)
+                    num_errors=num_errors-1 #PABLO Y SEMEVAL2017
+
+                    data_dict['keys'][key]['translated_key']=new_term
+
+            data_dict['error_count']=num_errors
+            write_json_file(OutputPath +str(ident)+ ".json",data_dict)
+
 
 
 
