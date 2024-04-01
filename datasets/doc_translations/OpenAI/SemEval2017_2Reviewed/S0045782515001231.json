@@ -1,0 +1,787 @@
+{
+    "id": "S0045782515001231",
+    "original_text": "Isogeometric analysis. The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry. Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines. This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3]. Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known). Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5]. Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open. We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis. In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far. The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm.",
+    "original_translation": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente.",
+    "original_sentences": [
+        "Isogeometric analysis.",
+        "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+        "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+        "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+        "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+        "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+        "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+        "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+        "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+        "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+    ],
+    "translated_text_sentences": [
+        "Análisis isogeométrico.",
+        "La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema.",
+        "Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines.",
+        "Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3].",
+        "Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente).",
+        "El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5].",
+        "A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto.",
+        "Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura.",
+        "En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM.",
+        "El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente."
+    ],
+    "error_count": 0,
+    "keys": {
+        "2D BEM": {
+            "translated_key": "BEM 2D",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for <br>2D BEM</br> in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Isogeometric BEM (IGABEM) has first been considered for <br>2D BEM</br> in  [4] and for 3D BEM in  [5]."
+            ],
+            "translated_annotated_samples": [
+                "El BEM isogeométrico (IGABEM) se consideró por primera vez para <br>BEM 2D</br> en [4] y para BEM 3D en [5]."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para <br>BEM 2D</br> en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "3D BEM": {
+            "translated_key": "BEM 3D",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for <br>3D BEM</br> in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for <br>3D BEM</br> in  [5]."
+            ],
+            "translated_annotated_samples": [
+                "El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para <br>BEM 3D</br> en [5]."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para <br>BEM 3D</br> en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "adaptive algorithm": {
+            "translated_key": "algoritmo adaptativo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding <br>adaptive algorithm</br>."
+            ],
+            "original_annotated_samples": [
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding <br>adaptive algorithm</br>."
+            ],
+            "translated_annotated_samples": [
+                "El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un <br>algoritmo adaptativo</br> correspondiente."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un <br>algoritmo adaptativo</br> correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "ansatz functions": {
+            "translated_key": "funciones de ansatz",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same <br>ansatz functions</br> for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "The central idea of isogeometric analysis is to use the same <br>ansatz functions</br> for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry."
+            ],
+            "translated_annotated_samples": [
+                "La idea central del análisis isogeométrico es utilizar las mismas <br>funciones de ansatz</br> para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas <br>funciones de ansatz</br> para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "a posteriori error analysis": {
+            "translated_key": "análisis de errores a posteriori",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on <br>a posteriori error analysis</br> for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "The purpose of the present work is to shed some first light on <br>a posteriori error analysis</br> for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "translated_annotated_samples": [
+                "El propósito del presente trabajo es arrojar algo de luz sobre un <br>análisis de errores a posteriori</br> para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un <br>análisis de errores a posteriori</br> para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "a posteriori error estimation": {
+            "translated_key": "estimación de errores a posteriori",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, <br>a posteriori error estimation</br> has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "In particular, <br>a posteriori error estimation</br> has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far."
+            ],
+            "translated_annotated_samples": [
+                "En particular, la <br>estimación de errores a posteriori</br> ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la <br>estimación de errores a posteriori</br> ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "BEM": {
+            "translated_key": "BEM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (<br>BEM</br>) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric <br>BEM</br> (IGABEM) has first been considered for 2D <br>BEM</br> in  [4] and for 3D BEM in  [5].",
+                "Unlike standard <br>BEM</br> with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard <br>BEM</br>, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (<br>BEM</br>) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric <br>BEM</br> (IGABEM) has first been considered for 2D <br>BEM</br> in  [4] and for 3D BEM in  [5].",
+                "Unlike standard <br>BEM</br> with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "In particular, a posteriori error estimation has been well-studied for standard <br>BEM</br>, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far."
+            ],
+            "translated_annotated_samples": [
+                "Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al <br>método de elementos de contorno</br> (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente).",
+                "El <br>BEM</br> isogeométrico (IGA<br>BEM</br>) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5].",
+                "A diferencia del <br>BEM</br> estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGA<br>BEM</br> es esencialmente abierto.",
+                "En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el <br>BEM</br> estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGA<br>BEM</br>."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al <br>método de elementos de contorno</br> (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El <br>BEM</br> isogeométrico (IGA<br>BEM</br>) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del <br>BEM</br> estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGA<br>BEM</br> es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el <br>BEM</br> estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGA<br>BEM</br>. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    "método de elementos de contorno",
+                    "BEM",
+                    "BEM",
+                    "BEM",
+                    "BEM",
+                    "BEM",
+                    "BEM"
+                ]
+            ]
+        },
+        "boundary element method": {
+            "translated_key": "método de elementos de contorno",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the <br>boundary element method</br> (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the <br>boundary element method</br> (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known)."
+            ],
+            "translated_annotated_samples": [
+                "Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al <br>método de elementos de contorno</br> (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente)."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al <br>método de elementos de contorno</br> (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "CAD": {
+            "translated_key": "CAD",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (<br>CAD</br>) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since <br>CAD</br> directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Usually, the problem geometry Ω is represented in computer aided design (<br>CAD</br>) by means of NURBS or T-splines.",
+                "Since <br>CAD</br> directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known)."
+            ],
+            "translated_annotated_samples": [
+                "Por lo general, la geometría del problema Ω se representa en el <br>diseño asistido por computadora</br> (CAD) mediante NURBS o T-splines.",
+                "Dado que el <br>CAD</br> proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente)."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el <br>diseño asistido por computadora</br> (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el <br>CAD</br> proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    "diseño asistido por computadora",
+                    "CAD"
+                ]
+            ]
+        },
+        "computer aided design": {
+            "translated_key": "diseño asistido por computadora",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in <br>computer aided design</br> (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Usually, the problem geometry Ω is represented in <br>computer aided design</br> (CAD) by means of NURBS or T-splines."
+            ],
+            "translated_annotated_samples": [
+                "Por lo general, la geometría del problema Ω se representa en el <br>diseño asistido por computadora</br> (CAD) mediante NURBS o T-splines."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el <br>diseño asistido por computadora</br> (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "finite element methods": {
+            "translated_key": "métodos de elementos finitos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for <br>finite element methods</br> (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "This concept, originally invented in  [1] for <br>finite element methods</br> (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3]."
+            ],
+            "translated_annotated_samples": [
+                "Este concepto, originalmente inventado en [1] para <br>métodos de elementos finitos</br> (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para <br>métodos de elementos finitos</br> (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "IGABEM": {
+            "translated_key": "IGABEM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (<br>IGABEM</br>) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of <br>IGABEM</br> is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for <br>IGABEM</br> so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for <br>IGABEM</br> which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Isogeometric BEM (<br>IGABEM</br>) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of <br>IGABEM</br> is essentially open.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for <br>IGABEM</br> so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for <br>IGABEM</br> which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "translated_annotated_samples": [
+                "El <br>BEM isogeométrico</br> (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5].",
+                "A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de <br>IGABEM</br> es esencialmente abierto.",
+                "En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para <br>IGABEM</br>.",
+                "El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para <br>IGABEM</br> que proporcione una base matemática para un algoritmo adaptativo correspondiente."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El <br>BEM isogeométrico</br> (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de <br>IGABEM</br> es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para <br>IGABEM</br>. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para <br>IGABEM</br> que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    "BEM isogeométrico",
+                    "IGABEM",
+                    "IGABEM",
+                    "IGABEM"
+                ]
+            ]
+        },
+        "IGAFEM": {
+            "translated_key": "métodos de elementos finitos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (<br>IGAFEM</br>) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "This concept, originally invented in  [1] for finite element methods (<br>IGAFEM</br>) has proved very fruitful in applications  [1,2]; see also the monograph  [3]."
+            ],
+            "translated_annotated_samples": [
+                "Este concepto, originalmente inventado en [1] para <br>métodos de elementos finitos</br> (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para <br>métodos de elementos finitos</br> (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "isogeometric analysis": {
+            "translated_key": "Análisis isogeométrico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>isogeometric analysis</br>.",
+                "The central idea of <br>isogeometric analysis</br> is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "<br>isogeometric analysis</br>.",
+                "The central idea of <br>isogeometric analysis</br> is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry."
+            ],
+            "translated_annotated_samples": [
+                "<br>Análisis isogeométrico</br>.",
+                "La idea central del <br>análisis isogeométrico</br> es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema."
+            ],
+            "translated_text": "<br>Análisis isogeométrico</br>. La idea central del <br>análisis isogeométrico</br> es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Isogeometric analysis": {
+            "translated_key": "Análisis isogeométrico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Isogeometric analysis</br>.",
+                "The central idea of <br>Isogeometric analysis</br> is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "<br>Isogeometric analysis</br>.",
+                "The central idea of <br>Isogeometric analysis</br> is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry."
+            ],
+            "translated_annotated_samples": [
+                "<br>Análisis isogeométrico</br>.",
+                "La idea central del <br>análisis isogeométrico</br> es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema."
+            ],
+            "translated_text": "<br>Análisis isogeométrico</br>. La idea central del <br>análisis isogeométrico</br> es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Isogeometric BEM": {
+            "translated_key": "BEM isogeométrico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "<br>Isogeometric BEM</br> (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "<br>Isogeometric BEM</br> (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5]."
+            ],
+            "translated_annotated_samples": [
+                "El <br>BEM isogeométrico</br> (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El <br>BEM isogeométrico</br> (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mathematical foundation of a corresponding adaptive algorithm": {
+            "translated_key": "fundamentos matemáticos de un algoritmo adaptativo correspondiente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some <br>mathematical foundation of a corresponding adaptive algorithm</br>."
+            ],
+            "original_annotated_samples": [
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some <br>mathematical foundation of a corresponding adaptive algorithm</br>."
+            ],
+            "translated_annotated_samples": [
+                "El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "numerical analysis of IGABEM": {
+            "translated_key": "análisis numérico de IGABEM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the <br>numerical analysis of IGABEM</br> is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the <br>numerical analysis of IGABEM</br> is essentially open."
+            ],
+            "translated_annotated_samples": [
+                "A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el <br>análisis numérico de IGABEM</br> es esencialmente abierto."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el <br>análisis numérico de IGABEM</br> es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical scheme": {
+            "translated_key": "esquema numérico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive <br>numerical scheme</br>, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive <br>numerical scheme</br>, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known)."
+            ],
+            "translated_annotated_samples": [
+                "Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el <br>esquema numérico</br> más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente)."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el <br>esquema numérico</br> más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS": {
+            "translated_key": "NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of <br>NURBS</br> or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of <br>NURBS</br> or T-splines."
+            ],
+            "translated_annotated_samples": [
+                "Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante <br>NURBS</br> o T-splines."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante <br>NURBS</br> o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "problem geometry": {
+            "translated_key": "geometría del problema",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the <br>problem geometry</br>.",
+                "Usually, the <br>problem geometry</br> Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the <br>problem geometry</br>.",
+                "Usually, the <br>problem geometry</br> Ω is represented in computer aided design (CAD) by means of NURBS or T-splines."
+            ],
+            "translated_annotated_samples": [
+                "La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la <br>geometría del problema</br>.",
+                "Por lo general, la <br>geometría del problema</br> Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la <br>geometría del problema</br>. Por lo general, la <br>geometría del problema</br> Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "quadrature analysis": {
+            "translated_key": "análisis de cuadratura",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some <br>quadrature analysis</br>.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some <br>quadrature analysis</br>."
+            ],
+            "translated_annotated_samples": [
+                "Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos <br>análisis de cuadratura</br>."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos <br>análisis de cuadratura</br>. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "shed some first light on a posteriori error analysis for IGABEM": {
+            "translated_key": "análisis de errores a posteriori",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to <br>shed some first light on a posteriori error analysis for IGABEM</br> which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "The purpose of the present work is to <br>shed some first light on a posteriori error analysis for IGABEM</br> which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "translated_annotated_samples": [
+                "El propósito del presente trabajo es arrojar algo de luz sobre un <br>análisis de errores a posteriori</br> para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un <br>análisis de errores a posteriori</br> para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "standard BEM": {
+            "translated_key": "BEM estándar",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or T-splines.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike <br>standard BEM</br> with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for <br>standard BEM</br>, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Unlike <br>standard BEM</br> with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "In particular, a posteriori error estimation has been well-studied for <br>standard BEM</br>, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far."
+            ],
+            "translated_annotated_samples": [
+                "A diferencia del <br>BEM estándar</br> con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto.",
+                "En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el <br>BEM estándar</br>, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o T-splines. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del <br>BEM estándar</br> con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el <br>BEM estándar</br>, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "T-splines": {
+            "translated_key": "T-splines",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Isogeometric analysis.",
+                "The central idea of isogeometric analysis is to use the same ansatz functions for the discretization of the partial differential equation at hand, as are used for the representation of the problem geometry.",
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or <br>T-splines</br>.",
+                "This concept, originally invented in  [1] for finite element methods (IGAFEM) has proved very fruitful in applications  [1,2]; see also the monograph  [3].",
+                "Since CAD directly provides a parametrization of the boundary ∂Ω, this makes the boundary element method (BEM) the most attractive numerical scheme, if applicable (i.e., provided that the fundamental solution of the differential operator is explicitly known).",
+                "Isogeometric BEM (IGABEM) has first been considered for 2D BEM in  [4] and for 3D BEM in  [5].",
+                "Unlike standard BEM with piecewise polynomials which is well-studied in the literature, cf. the monographs  [6,7] and the references therein, the numerical analysis of IGABEM is essentially open.",
+                "We only refer to  [2,8–10] for numerical experiments and to  [11] for some quadrature analysis.",
+                "In particular, a posteriori error estimation has been well-studied for standard BEM, e.g.,  [12–18] as well as the recent overview article  [19], but has not been treated for IGABEM so far.",
+                "The purpose of the present work is to shed some first light on a posteriori error analysis for IGABEM which provides some mathematical foundation of a corresponding adaptive algorithm."
+            ],
+            "original_annotated_samples": [
+                "Usually, the problem geometry Ω is represented in computer aided design (CAD) by means of NURBS or <br>T-splines</br>."
+            ],
+            "translated_annotated_samples": [
+                "Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o <br>T-splines</br>."
+            ],
+            "translated_text": "Análisis isogeométrico. La idea central del análisis isogeométrico es utilizar las mismas funciones de ansatz para la discretización de la ecuación diferencial parcial en cuestión, que se utilizan para la representación de la geometría del problema. Por lo general, la geometría del problema Ω se representa en el diseño asistido por computadora (CAD) mediante NURBS o <br>T-splines</br>. Este concepto, originalmente inventado en [1] para métodos de elementos finitos (IGAFEM), ha demostrado ser muy fructífero en aplicaciones [1,2]; véase también la monografía [3]. Dado que el CAD proporciona directamente una parametrización del contorno ∂Ω, esto convierte al método de elementos de contorno (BEM) en el esquema numérico más atractivo, si es aplicable (es decir, siempre que la solución fundamental del operador diferencial sea conocida explícitamente). El BEM isogeométrico (IGABEM) se consideró por primera vez para BEM 2D en [4] y para BEM 3D en [5]. A diferencia del BEM estándar con polinomios por partes que está bien estudiado en la literatura, cf. las monografías [6,7] y las referencias incluidas, el análisis numérico de IGABEM es esencialmente abierto. Solo nos referimos a [2,8–10] para experimentos numéricos y a [11] para algunos análisis de cuadratura. En particular, la estimación de errores a posteriori ha sido ampliamente estudiada para el BEM estándar, por ejemplo, [12–18] así como el artículo de revisión reciente [19], pero aún no se ha tratado para IGABEM. El propósito del presente trabajo es arrojar algo de luz sobre un análisis de errores a posteriori para IGABEM que proporcione una base matemática para un algoritmo adaptativo correspondiente. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

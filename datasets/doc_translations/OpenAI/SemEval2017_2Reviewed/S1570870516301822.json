@@ -1,0 +1,418 @@
+{
+    "id": "S1570870516301822",
+    "original_text": "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost. WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink. However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10]. Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2]. This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary. Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner. This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions. For this reason there have been many routing protocols designed for MWSNs. As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing.",
+    "original_translation": "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN.",
+    "original_sentences": [
+        "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+        "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+        "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+        "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+        "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+        "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+        "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+        "For this reason there have been many routing protocols designed for MWSNs.",
+        "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+    ],
+    "translated_text_sentences": [
+        "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos.",
+        "Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino.",
+        "Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil.",
+        "Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos.",
+        "Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario.",
+        "Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna.",
+        "Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente.",
+        "Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN.",
+        "Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN."
+    ],
+    "error_count": 0,
+    "keys": {
+        "MANET": {
+            "translated_key": "redes ad hoc móviles",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (<br>MANET</br>) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, <br>MANET</br> protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (<br>MANET</br>) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "Alternatively, <br>MANET</br> protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2]."
+            ],
+            "translated_annotated_samples": [
+                "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y <br>redes ad hoc móviles</br> (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos.",
+                "Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos."
+            ],
+            "translated_text": "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y <br>redes ad hoc móviles</br> (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MANET protocols": {
+            "translated_key": "protocolos MANET",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, <br>MANET protocols</br> are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "Alternatively, <br>MANET protocols</br> are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2]."
+            ],
+            "translated_annotated_samples": [
+                "Por otro lado, los <br>protocolos MANET</br> están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos."
+            ],
+            "translated_text": "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los <br>protocolos MANET</br> están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mobile ad hoc network": {
+            "translated_key": "redes ad hoc móviles",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN routing protocols generally take influence from both WSN and <br>mobile ad hoc network</br> (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "MWSN routing protocols generally take influence from both WSN and <br>mobile ad hoc network</br> (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost."
+            ],
+            "translated_annotated_samples": [
+                "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y <br>redes ad hoc móviles</br> (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos."
+            ],
+            "translated_text": "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y <br>redes ad hoc móviles</br> (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MWSN": {
+            "translated_key": "MWSN",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>MWSN</br> routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a <br>MWSN</br> is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a <br>MWSN</br> a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in <br>MWSN</br> routing."
+            ],
+            "original_annotated_samples": [
+                "<br>MWSN</br> routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a <br>MWSN</br> is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a <br>MWSN</br> a unique challenge, which will require new specifically designed solutions.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in <br>MWSN</br> routing."
+            ],
+            "translated_annotated_samples": [
+                "Los <br>protocolos de enrutamiento de MWSN</br> generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos.",
+                "Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una <br>MWSN</br> es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna.",
+                "Este conjunto de requisitos convierte el problema del enrutamiento en una <br>MWSN</br> en un desafío único, que requerirá nuevas soluciones diseñadas específicamente.",
+                "Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de <br>MWSN</br>."
+            ],
+            "translated_text": "Los <br>protocolos de enrutamiento de MWSN</br> generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una <br>MWSN</br> es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una <br>MWSN</br> en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de <br>MWSN</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    "protocolos de enrutamiento de MWSN",
+                    "MWSN",
+                    "MWSN",
+                    "MWSN"
+                ]
+            ]
+        },
+        "MWSN routing": {
+            "translated_key": "enrutamiento de MWSN",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>MWSN routing</br> protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in <br>MWSN routing</br>."
+            ],
+            "original_annotated_samples": [
+                "<br>MWSN routing</br> protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in <br>MWSN routing</br>."
+            ],
+            "translated_annotated_samples": [
+                "Los <br>protocolos de enrutamiento de MWSN</br> generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos.",
+                "Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el <br>enrutamiento de MWSN</br>."
+            ],
+            "translated_text": "Los <br>protocolos de enrutamiento de MWSN</br> generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el <br>enrutamiento de MWSN</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    "protocolos de enrutamiento de MWSN",
+                    "enrutamiento de MWSN"
+                ]
+            ]
+        },
+        "MWSN routing protocols": {
+            "translated_key": "protocolos de enrutamiento de MWSN",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>MWSN routing protocols</br> generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "<br>MWSN routing protocols</br> generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost."
+            ],
+            "translated_annotated_samples": [
+                "Los <br>protocolos de enrutamiento de MWSN</br> generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos."
+            ],
+            "translated_text": "Los <br>protocolos de enrutamiento de MWSN</br> generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "MWSNs": {
+            "translated_key": "MWSNs",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as <br>MWSNs</br>, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by <br>MWSNs</br> and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for <br>MWSNs</br>.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "WSNs often share the same aim as <br>MWSNs</br>, in that they wish to route data from many sensors to a single sink.",
+                "This extra functionality is often not required by <br>MWSNs</br> and so the additional overhead is unnecessary.",
+                "For this reason there have been many routing protocols designed for <br>MWSNs</br>."
+            ],
+            "translated_annotated_samples": [
+                "Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino.",
+                "Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario.",
+                "Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN."
+            ],
+            "translated_text": "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "route data": {
+            "translated_key": "enrutar datos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to <br>route data</br> from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "WSNs often share the same aim as MWSNs, in that they wish to <br>route data</br> from many sensors to a single sink."
+            ],
+            "translated_annotated_samples": [
+                "Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean <br>enrutar datos</br> desde muchos sensores hacia un único destino."
+            ],
+            "translated_text": "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean <br>enrutar datos</br> desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "routing in a MWSN": {
+            "translated_key": "enrutamiento en una MWSN",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of <br>routing in a MWSN</br> a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "This set of requirements make the problem of <br>routing in a MWSN</br> a unique challenge, which will require new specifically designed solutions."
+            ],
+            "translated_annotated_samples": [
+                "Este conjunto de requisitos convierte el problema del <br>enrutamiento en una MWSN</br> en un desafío único, que requerirá nuevas soluciones diseñadas específicamente."
+            ],
+            "translated_text": "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del <br>enrutamiento en una MWSN</br> en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "routing protocols": {
+            "translated_key": "protocolos de enrutamiento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN <br>routing protocols</br> generally take influence from both WSN and mobile ad hoc network (MANET) <br>routing protocols</br>, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated <br>routing protocols</br> are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many <br>routing protocols</br> designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "MWSN <br>routing protocols</br> generally take influence from both WSN and mobile ad hoc network (MANET) <br>routing protocols</br>, which all share common limitations, such as bandwidth, power and cost.",
+                "However, WSNs are normally considered to be static and so the associated <br>routing protocols</br> are often unable to cope in a mobile scenario [10].",
+                "For this reason there have been many <br>routing protocols</br> designed for MWSNs."
+            ],
+            "translated_annotated_samples": [
+                "Los <br>protocolos de enrutamiento</br> de MWSN generalmente se ven influenciados por los <br>protocolos de enrutamiento</br> de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos.",
+                "Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los <br>protocolos de enrutamiento</br> asociados a menudo no pueden hacer frente a un escenario móvil.",
+                "Por esta razón, se han diseñado muchos <br>protocolos de enrutamiento</br> para MWSN."
+            ],
+            "translated_text": "Los <br>protocolos de enrutamiento</br> de MWSN generalmente se ven influenciados por los <br>protocolos de enrutamiento</br> de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los <br>protocolos de enrutamiento</br> asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos <br>protocolos de enrutamiento</br> para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "sensors": {
+            "translated_key": "sensores",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many <br>sensors</br> to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the <br>sensors</br> to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many <br>sensors</br> to a single sink.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the <br>sensors</br> to the sink in a reliable and timely manner."
+            ],
+            "translated_annotated_samples": [
+                "Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos <br>sensores</br> hacia un único destino.",
+                "Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los <br>sensores</br> hacia el destino de manera confiable y oportuna."
+            ],
+            "translated_text": "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos <br>sensores</br> hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los <br>sensores</br> hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "WSN": {
+            "translated_key": "WSN",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN routing protocols generally take influence from both <br>WSN</br> and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "WSNs often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, WSNs are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "MWSN routing protocols generally take influence from both <br>WSN</br> and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost."
+            ],
+            "translated_annotated_samples": [
+                "Los protocolos de enrutamiento de M<br>WSN</br> generalmente se ven influenciados por los protocolos de enrutamiento de <br>WSN</br> y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos."
+            ],
+            "translated_text": "Los protocolos de enrutamiento de M<br>WSN</br> generalmente se ven influenciados por los protocolos de enrutamiento de <br>WSN</br> y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las WSN a menudo comparten el mismo objetivo que las MWSN, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "WSNs": {
+            "translated_key": "WSN",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "MWSN routing protocols generally take influence from both WSN and mobile ad hoc network (MANET) routing protocols, which all share common limitations, such as bandwidth, power and cost.",
+                "<br>WSNs</br> often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, <br>WSNs</br> are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10].",
+                "Alternatively, MANET protocols are designed to be able to cope with the mobility of nodes, however they aim to allow end-to-end communication to occur between any two nodes [2].",
+                "This extra functionality is often not required by MWSNs and so the additional overhead is unnecessary.",
+                "Combined with the high packet delivery ratios and low delays that are demanded by emerging applications, the ideal routing solution for a MWSN is one that can handle the mobility of nodes and allows data to be forwarded from the sensors to the sink in a reliable and timely manner.",
+                "This set of requirements make the problem of routing in a MWSN a unique challenge, which will require new specifically designed solutions.",
+                "For this reason there have been many routing protocols designed for MWSNs.",
+                "As such, this section will give an overview of the current literature, which highlights the different techniques and commonly used protocols in MWSN routing."
+            ],
+            "original_annotated_samples": [
+                "<br>WSNs</br> often share the same aim as MWSNs, in that they wish to route data from many sensors to a single sink.",
+                "However, <br>WSNs</br> are normally considered to be static and so the associated routing protocols are often unable to cope in a mobile scenario [10]."
+            ],
+            "translated_annotated_samples": [
+                "Las <br>WSN</br> a menudo comparten el mismo objetivo que las M<br>WSN</br>, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino.",
+                "Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil."
+            ],
+            "translated_text": "Los protocolos de enrutamiento de MWSN generalmente se ven influenciados por los protocolos de enrutamiento de WSN y redes ad hoc móviles (MANET), que comparten limitaciones comunes, como ancho de banda, energía y costos. Las <br>WSN</br> a menudo comparten el mismo objetivo que las M<br>WSN</br>, en el sentido de que desean enrutar datos desde muchos sensores hacia un único destino. Sin embargo, las WSN normalmente se consideran estáticas y, por lo tanto, los protocolos de enrutamiento asociados a menudo no pueden hacer frente a un escenario móvil. Por otro lado, los protocolos MANET están diseñados para poder hacer frente a la movilidad de los nodos, sin embargo, su objetivo es permitir que la comunicación de extremo a extremo ocurra entre cualquier par de nodos. Esta funcionalidad adicional a menudo no es requerida por las MWSN y, por lo tanto, el sobrecosto adicional es innecesario. Combinado con las altas tasas de entrega de paquetes y los bajos retrasos que son demandados por las aplicaciones emergentes, la solución de enrutamiento ideal para una MWSN es aquella que puede manejar la movilidad de los nodos y permitir que los datos sean reenviados desde los sensores hacia el destino de manera confiable y oportuna. Este conjunto de requisitos convierte el problema del enrutamiento en una MWSN en un desafío único, que requerirá nuevas soluciones diseñadas específicamente. Por esta razón, se han diseñado muchos protocolos de enrutamiento para MWSN. Por lo tanto, esta sección proporcionará una visión general de la literatura actual, que destaca las diferentes técnicas y protocolos comúnmente utilizados en el enrutamiento de MWSN. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

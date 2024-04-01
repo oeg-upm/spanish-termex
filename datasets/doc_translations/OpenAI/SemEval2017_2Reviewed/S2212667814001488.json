@@ -1,0 +1,247 @@
+{
+    "id": "S2212667814001488",
+    "original_text": "This paper presents general results on the Java source code snippet detection problem. We propose the tool which uses graph and subgraph isomorphism detection. A number of solutions for all of these tasks have been proposed in the literature. However, although that all these solutions are really fast, they compare just the constant static trees. Our solution offers to enter an input sample dynamically with the Scripthon language while preserving an acceptable speed. We used several optimizations to achieve very low number of comparisons during the matching algorithm.",
+    "original_translation": "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java. Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes. Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable. Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia.",
+    "original_sentences": [
+        "This paper presents general results on the Java source code snippet detection problem.",
+        "We propose the tool which uses graph and subgraph isomorphism detection.",
+        "A number of solutions for all of these tasks have been proposed in the literature.",
+        "However, although that all these solutions are really fast, they compare just the constant static trees.",
+        "Our solution offers to enter an input sample dynamically with the Scripthon language while preserving an acceptable speed.",
+        "We used several optimizations to achieve very low number of comparisons during the matching algorithm."
+    ],
+    "translated_text_sentences": [
+        "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java.",
+        "Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos.",
+        "Se han propuesto varias soluciones para todas estas tareas en la literatura.",
+        "Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes.",
+        "Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable.",
+        "Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia."
+    ],
+    "error_count": 0,
+    "keys": {
+        "compare just the constant static trees": {
+            "translated_key": "los árboles estáticos constantes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper presents general results on the Java source code snippet detection problem.",
+                "We propose the tool which uses graph and subgraph isomorphism detection.",
+                "A number of solutions for all of these tasks have been proposed in the literature.",
+                "However, although that all these solutions are really fast, they <br>compare just the constant static trees</br>.",
+                "Our solution offers to enter an input sample dynamically with the Scripthon language while preserving an acceptable speed.",
+                "We used several optimizations to achieve very low number of comparisons during the matching algorithm."
+            ],
+            "original_annotated_samples": [
+                "However, although that all these solutions are really fast, they <br>compare just the constant static trees</br>."
+            ],
+            "translated_annotated_samples": [
+                "Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan <br>los árboles estáticos constantes</br>."
+            ],
+            "translated_text": "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java. Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan <br>los árboles estáticos constantes</br>. Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable. Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "comparisons": {
+            "translated_key": "comparaciones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper presents general results on the Java source code snippet detection problem.",
+                "We propose the tool which uses graph and subgraph isomorphism detection.",
+                "A number of solutions for all of these tasks have been proposed in the literature.",
+                "However, although that all these solutions are really fast, they compare just the constant static trees.",
+                "Our solution offers to enter an input sample dynamically with the Scripthon language while preserving an acceptable speed.",
+                "We used several optimizations to achieve very low number of <br>comparisons</br> during the matching algorithm."
+            ],
+            "original_annotated_samples": [
+                "We used several optimizations to achieve very low number of <br>comparisons</br> during the matching algorithm."
+            ],
+            "translated_annotated_samples": [
+                "Utilizamos varias optimizaciones para lograr un número muy bajo de <br>comparaciones</br> durante el algoritmo de coincidencia."
+            ],
+            "translated_text": "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java. Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes. Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable. Utilizamos varias optimizaciones para lograr un número muy bajo de <br>comparaciones</br> durante el algoritmo de coincidencia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "enter an input sample dynamically": {
+            "translated_key": "ingresar una muestra de entrada de forma dinámica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper presents general results on the Java source code snippet detection problem.",
+                "We propose the tool which uses graph and subgraph isomorphism detection.",
+                "A number of solutions for all of these tasks have been proposed in the literature.",
+                "However, although that all these solutions are really fast, they compare just the constant static trees.",
+                "Our solution offers to <br>enter an input sample dynamically</br> with the Scripthon language while preserving an acceptable speed.",
+                "We used several optimizations to achieve very low number of comparisons during the matching algorithm."
+            ],
+            "original_annotated_samples": [
+                "Our solution offers to <br>enter an input sample dynamically</br> with the Scripthon language while preserving an acceptable speed."
+            ],
+            "translated_annotated_samples": [
+                "Nuestra solución ofrece <br>ingresar una muestra de entrada de forma dinámica</br> con el lenguaje Scripthon mientras se mantiene una velocidad aceptable."
+            ],
+            "translated_text": "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java. Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes. Nuestra solución ofrece <br>ingresar una muestra de entrada de forma dinámica</br> con el lenguaje Scripthon mientras se mantiene una velocidad aceptable. Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "graph and subgraph isomorphism detection": {
+            "translated_key": "detección de isomorfismo de grafos y subgrafos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper presents general results on the Java source code snippet detection problem.",
+                "We propose the tool which uses <br>graph and subgraph isomorphism detection</br>.",
+                "A number of solutions for all of these tasks have been proposed in the literature.",
+                "However, although that all these solutions are really fast, they compare just the constant static trees.",
+                "Our solution offers to enter an input sample dynamically with the Scripthon language while preserving an acceptable speed.",
+                "We used several optimizations to achieve very low number of comparisons during the matching algorithm."
+            ],
+            "original_annotated_samples": [
+                "We propose the tool which uses <br>graph and subgraph isomorphism detection</br>."
+            ],
+            "translated_annotated_samples": [
+                "Proponemos la herramienta que utiliza la <br>detección de isomorfismo de grafos y subgrafos</br>."
+            ],
+            "translated_text": "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java. Proponemos la herramienta que utiliza la <br>detección de isomorfismo de grafos y subgrafos</br>. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes. Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable. Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Java source code snippet detection": {
+            "translated_key": "detección de fragmentos de código fuente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper presents general results on the <br>Java source code snippet detection</br> problem.",
+                "We propose the tool which uses graph and subgraph isomorphism detection.",
+                "A number of solutions for all of these tasks have been proposed in the literature.",
+                "However, although that all these solutions are really fast, they compare just the constant static trees.",
+                "Our solution offers to enter an input sample dynamically with the Scripthon language while preserving an acceptable speed.",
+                "We used several optimizations to achieve very low number of comparisons during the matching algorithm."
+            ],
+            "original_annotated_samples": [
+                "This paper presents general results on the <br>Java source code snippet detection</br> problem."
+            ],
+            "translated_annotated_samples": [
+                "Este documento presenta resultados generales sobre el problema de <br>detección de fragmentos de código fuente</br> en Java."
+            ],
+            "translated_text": "Este documento presenta resultados generales sobre el problema de <br>detección de fragmentos de código fuente</br> en Java. Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes. Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable. Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "matching algorithm": {
+            "translated_key": "algoritmo de coincidencia",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper presents general results on the Java source code snippet detection problem.",
+                "We propose the tool which uses graph and subgraph isomorphism detection.",
+                "A number of solutions for all of these tasks have been proposed in the literature.",
+                "However, although that all these solutions are really fast, they compare just the constant static trees.",
+                "Our solution offers to enter an input sample dynamically with the Scripthon language while preserving an acceptable speed.",
+                "We used several optimizations to achieve very low number of comparisons during the <br>matching algorithm</br>."
+            ],
+            "original_annotated_samples": [
+                "We used several optimizations to achieve very low number of comparisons during the <br>matching algorithm</br>."
+            ],
+            "translated_annotated_samples": [
+                "Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el <br>algoritmo de coincidencia</br>."
+            ],
+            "translated_text": "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java. Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes. Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable. Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el <br>algoritmo de coincidencia</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "preserving an acceptable speed": {
+            "translated_key": "manteniendo una velocidad aceptable",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper presents general results on the Java source code snippet detection problem.",
+                "We propose the tool which uses graph and subgraph isomorphism detection.",
+                "A number of solutions for all of these tasks have been proposed in the literature.",
+                "However, although that all these solutions are really fast, they compare just the constant static trees.",
+                "Our solution offers to enter an input sample dynamically with the Scripthon language while <br>preserving an acceptable speed</br>.",
+                "We used several optimizations to achieve very low number of comparisons during the matching algorithm."
+            ],
+            "original_annotated_samples": [
+                "Our solution offers to enter an input sample dynamically with the Scripthon language while <br>preserving an acceptable speed</br>."
+            ],
+            "translated_annotated_samples": [
+                "Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable."
+            ],
+            "translated_text": "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java. Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes. Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable. Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "Scripthon language": {
+            "translated_key": "lenguaje Scripthon",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper presents general results on the Java source code snippet detection problem.",
+                "We propose the tool which uses graph and subgraph isomorphism detection.",
+                "A number of solutions for all of these tasks have been proposed in the literature.",
+                "However, although that all these solutions are really fast, they compare just the constant static trees.",
+                "Our solution offers to enter an input sample dynamically with the <br>Scripthon language</br> while preserving an acceptable speed.",
+                "We used several optimizations to achieve very low number of comparisons during the matching algorithm."
+            ],
+            "original_annotated_samples": [
+                "Our solution offers to enter an input sample dynamically with the <br>Scripthon language</br> while preserving an acceptable speed."
+            ],
+            "translated_annotated_samples": [
+                "Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el <br>lenguaje Scripthon</br> mientras se mantiene una velocidad aceptable."
+            ],
+            "translated_text": "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java. Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes. Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el <br>lenguaje Scripthon</br> mientras se mantiene una velocidad aceptable. Utilizamos varias optimizaciones para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "several optimizations": {
+            "translated_key": "optimizaciones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "This paper presents general results on the Java source code snippet detection problem.",
+                "We propose the tool which uses graph and subgraph isomorphism detection.",
+                "A number of solutions for all of these tasks have been proposed in the literature.",
+                "However, although that all these solutions are really fast, they compare just the constant static trees.",
+                "Our solution offers to enter an input sample dynamically with the Scripthon language while preserving an acceptable speed.",
+                "We used <br>several optimizations</br> to achieve very low number of comparisons during the matching algorithm."
+            ],
+            "original_annotated_samples": [
+                "We used <br>several optimizations</br> to achieve very low number of comparisons during the matching algorithm."
+            ],
+            "translated_annotated_samples": [
+                "Utilizamos varias <br>optimizaciones</br> para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia."
+            ],
+            "translated_text": "Este documento presenta resultados generales sobre el problema de detección de fragmentos de código fuente en Java. Proponemos la herramienta que utiliza la detección de isomorfismo de grafos y subgrafos. Se han propuesto varias soluciones para todas estas tareas en la literatura. Sin embargo, aunque todas estas soluciones son realmente rápidas, solo comparan los árboles estáticos constantes. Nuestra solución ofrece ingresar una muestra de entrada de forma dinámica con el lenguaje Scripthon mientras se mantiene una velocidad aceptable. Utilizamos varias <br>optimizaciones</br> para lograr un número muy bajo de comparaciones durante el algoritmo de coincidencia. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

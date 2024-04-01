@@ -1,0 +1,442 @@
+{
+    "id": "S0021999115003423",
+    "original_text": "The remainder of our discussion proceeds as follows. In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets. We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9]. We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem. In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation. In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation. In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets. Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work.",
+    "original_translation": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo.",
+    "original_sentences": [
+        "The remainder of our discussion proceeds as follows.",
+        "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+        "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+        "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+        "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+        "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+        "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+        "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+    ],
+    "translated_text_sentences": [
+        "El resto de nuestra discusión procede de la siguiente manera.",
+        "En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales.",
+        "Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9].",
+        "Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP.",
+        "En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación.",
+        "En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación.",
+        "En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D.",
+        "Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo."
+    ],
+    "error_count": 0,
+    "keys": {
+        "algorithm": {
+            "translated_key": "algoritmo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an <br>algorithm</br> for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In Section 3 we propose an <br>algorithm</br> for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation."
+            ],
+            "translated_annotated_samples": [
+                "En la Sección 3 proponemos un <br>algoritmo</br> para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un <br>algoritmo</br> para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "cell tracking problem": {
+            "translated_key": "problema de seguimiento de células",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the <br>cell tracking problem</br> as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the <br>cell tracking problem</br> as a PDE constrained optimisation problem."
+            ],
+            "translated_annotated_samples": [
+                "Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el <br>problema de seguimiento de células</br> como un problema de optimización restringida por EDP."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el <br>problema de seguimiento de células</br> como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "experimental image data sets": {
+            "translated_key": "conjuntos de datos de imágenes experimentales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to <br>experimental image data sets</br>.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to <br>experimental image data sets</br>."
+            ],
+            "translated_annotated_samples": [
+                "En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a <br>conjuntos de datos de imágenes experimentales</br>."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a <br>conjuntos de datos de imágenes experimentales</br>. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "geometric evolution law model": {
+            "translated_key": "modelo de ley de evolución geométrica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the <br>geometric evolution law model</br> we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "We present the <br>geometric evolution law model</br> we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9]."
+            ],
+            "translated_annotated_samples": [
+                "Presentamos el <br>modelo de ley de evolución geométrica</br> que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el <br>modelo de ley de evolución geométrica</br> que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "image data sets": {
+            "translated_key": "conjuntos de datos de imágenes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental <br>image data sets</br>.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell <br>image data sets</br> and raw <br>image data sets</br> (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell <br>image data sets</br>.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental <br>image data sets</br>.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell <br>image data sets</br> and raw <br>image data sets</br> (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell <br>image data sets</br>."
+            ],
+            "translated_annotated_samples": [
+                "En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a <br>conjuntos de datos de imágenes</br> experimentales.",
+                "En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a <br>conjuntos de datos de imágenes</br> de múltiples células y <br>conjuntos de datos de imágenes</br> en bruto (de calidad suficiente) sin segmentación.",
+                "En la Sección 4 presentamos algunos ejemplos numéricos para el caso de <br>conjuntos de datos de imágenes</br> de células individuales y múltiples en 2D."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a <br>conjuntos de datos de imágenes</br> experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a <br>conjuntos de datos de imágenes</br> de múltiples células y <br>conjuntos de datos de imágenes</br> en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de <br>conjuntos de datos de imágenes</br> de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "introduce our approach to cell tracking": {
+            "translated_key": "enfoque para el seguimiento de células",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and <br>introduce our approach to cell tracking</br>, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In Section 2 we briefly describe the problem of cell tracking and <br>introduce our approach to cell tracking</br>, which may be regarded as fitting a mathematical model to experimental image data sets."
+            ],
+            "translated_annotated_samples": [
+                "En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro <br>enfoque para el seguimiento de células</br>, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro <br>enfoque para el seguimiento de células</br>, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mathematical model": {
+            "translated_key": "modelo matemático",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a <br>mathematical model</br> to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a <br>mathematical model</br> to experimental image data sets."
+            ],
+            "translated_annotated_samples": [
+                "En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un <br>modelo matemático</br> a conjuntos de datos de imágenes experimentales."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un <br>modelo matemático</br> a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "multi-cell image data sets": {
+            "translated_key": "conjuntos de datos de imágenes de múltiples células",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to <br>multi-cell image data sets</br> and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and <br>multi-cell image data sets</br>.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In particular we note that the theoretical and computational framework may be applied directly to <br>multi-cell image data sets</br> and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and <br>multi-cell image data sets</br>."
+            ],
+            "translated_annotated_samples": [
+                "En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a <br>conjuntos de datos de imágenes de múltiples células</br> y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación.",
+                "En la Sección 4 presentamos algunos ejemplos numéricos para el caso de <br>conjuntos de datos de imágenes de células individuales y múltiples</br> en 2D."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a <br>conjuntos de datos de imágenes de múltiples células</br> y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de <br>conjuntos de datos de imágenes de células individuales y múltiples</br> en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    "conjuntos de datos de imágenes de múltiples células",
+                    "conjuntos de datos de imágenes de células individuales y múltiples"
+                ]
+            ]
+        },
+        "our model": {
+            "translated_key": "modelo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating <br>our model</br> into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "We finish Section 2 by reformulating <br>our model</br> into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem."
+            ],
+            "translated_annotated_samples": [
+                "Concluimos la Sección 2 reformulando nuestro <br>modelo</br> en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro <br>modelo</br> en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "PDE constrained optimisation problem": {
+            "translated_key": "problema de optimización restringida por EDP",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a <br>PDE constrained optimisation problem</br>.",
+                "In Section 3 we propose an algorithm for the resolution of the <br>PDE constrained optimisation problem</br> and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a <br>PDE constrained optimisation problem</br>.",
+                "In Section 3 we propose an algorithm for the resolution of the <br>PDE constrained optimisation problem</br> and we discuss some practical aspects related to the implementation."
+            ],
+            "translated_annotated_samples": [
+                "Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un <br>problema de optimización restringida por EDP</br>.",
+                "En la Sección 3 proponemos un algoritmo para la resolución del <br>problema de optimización restringida por EDP</br> y discutimos algunos aspectos prácticos relacionados con la implementación."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un <br>problema de optimización restringida por EDP</br>. En la Sección 3 proponemos un algoritmo para la resolución del <br>problema de optimización restringida por EDP</br> y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "phase field framework": {
+            "translated_key": "marco del campo de fase",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the <br>phase field framework</br>, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "We finish Section 2 by reformulating our model into the <br>phase field framework</br>, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem."
+            ],
+            "translated_annotated_samples": [
+                "Concluimos la Sección 2 reformulando nuestro modelo en el <br>marco del campo de fase</br>, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el <br>marco del campo de fase</br>, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "problem of cell tracking": {
+            "translated_key": "seguimiento de células",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the <br>problem of cell tracking</br> and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In Section 2 we briefly describe the <br>problem of cell tracking</br> and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets."
+            ],
+            "translated_annotated_samples": [
+                "En la Sección 2 describimos brevemente el problema del <br>seguimiento de células</br> e introducimos nuestro enfoque para el <br>seguimiento de células</br>, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del <br>seguimiento de células</br> e introducimos nuestro enfoque para el <br>seguimiento de células</br>, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "raw image data sets": {
+            "translated_key": "conjuntos de datos de imágenes en bruto",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and <br>raw image data sets</br> (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and <br>raw image data sets</br> (of sufficient quality) without segmentation."
+            ],
+            "translated_annotated_samples": [
+                "En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y <br>conjuntos de datos de imágenes en bruto</br> (de calidad suficiente) sin segmentación."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y <br>conjuntos de datos de imágenes en bruto</br> (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "segmentation": {
+            "translated_key": "segmentación",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without <br>segmentation</br>.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without <br>segmentation</br>."
+            ],
+            "translated_annotated_samples": [
+                "En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin <br>segmentación</br>."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el marco teórico y computacional se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin <br>segmentación</br>. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "theoretical and computational framework": {
+            "translated_key": "marco teórico y computacional",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The remainder of our discussion proceeds as follows.",
+                "In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.",
+                "We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].",
+                "We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.",
+                "In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.",
+                "In particular we note that the <br>theoretical and computational framework</br> may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.",
+                "In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.",
+                "Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work."
+            ],
+            "original_annotated_samples": [
+                "In particular we note that the <br>theoretical and computational framework</br> may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation."
+            ],
+            "translated_annotated_samples": [
+                "En particular, señalamos que el <br>marco teórico y computacional</br> se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación."
+            ],
+            "translated_text": "El resto de nuestra discusión procede de la siguiente manera. En la Sección 2 describimos brevemente el problema del seguimiento de células e introducimos nuestro enfoque para el seguimiento de células, que puede considerarse como ajustar un modelo matemático a conjuntos de datos de imágenes experimentales. Presentamos el modelo de ley de evolución geométrica que buscamos ajustar, el cual es una simplificación de modelos recientemente desarrollados en la literatura que muestran buena concordancia con experimentos [8,10–12,4,13,9]. Concluimos la Sección 2 reformulando nuestro modelo en el marco del campo de fase, que parece más adecuado para el problema en cuestión, y formulamos el problema de seguimiento de células como un problema de optimización restringida por EDP. En la Sección 3 proponemos un algoritmo para la resolución del problema de optimización restringida por EDP y discutimos algunos aspectos prácticos relacionados con la implementación. En particular, señalamos que el <br>marco teórico y computacional</br> se puede aplicar directamente a conjuntos de datos de imágenes de múltiples células y conjuntos de datos de imágenes en bruto (de calidad suficiente) sin segmentación. En la Sección 4 presentamos algunos ejemplos numéricos para el caso de conjuntos de datos de imágenes de células individuales y múltiples en 2D. Finalmente, en la Sección 5 presentamos algunas conclusiones de nuestro estudio y discutimos futuras extensiones y aplicaciones del trabajo. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

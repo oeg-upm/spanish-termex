@@ -1,0 +1,699 @@
+{
+    "id": "S0021999115008372",
+    "original_text": "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38]. R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14]. It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models. Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]). Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7]. We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity.",
+    "original_translation": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r.",
+    "original_sentences": [
+        "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+        "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+        "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+        "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+        "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+        "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+    ],
+    "translated_text_sentences": [
+        "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38].",
+        "La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14].",
+        "Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes.",
+        "Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]).",
+        "Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7].",
+        "Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r."
+    ],
+    "error_count": 0,
+    "keys": {
+        "adaptive meshes": {
+            "translated_key": "mallas adaptativas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of <br>adaptive meshes</br> [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-<br>adaptive meshes</br> (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of <br>adaptive meshes</br> [3,34,38].",
+                "Variational methods exist which attempt to control resolution in different directions for r-<br>adaptive meshes</br> (e.g. [23,25])."
+            ],
+            "translated_annotated_samples": [
+                "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de <br>mallas adaptativas</br> [3,34,38].",
+                "Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para <br>mallas r-adaptativas</br> (por ejemplo, [23,25])."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de <br>mallas adaptativas</br> [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para <br>mallas r-adaptativas</br> (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    "mallas adaptativas",
+                    "mallas r-adaptativas"
+                ]
+            ]
+        },
+        "adaptivity": {
+            "translated_key": "adaptabilidad",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-<br>adaptivity</br> – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of <br>adaptivity</br> since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-<br>adaptivity</br>."
+            ],
+            "original_annotated_samples": [
+                "R-<br>adaptivity</br> – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of <br>adaptivity</br> since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-<br>adaptivity</br>."
+            ],
+            "translated_annotated_samples": [
+                "La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14].",
+                "Es una forma atractiva de <br>adaptación</br> ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes.",
+                "Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la <br>adaptación en r</br>."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de <br>adaptación</br> ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la <br>adaptación en r</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    "adaptación",
+                    "adaptación en r"
+                ]
+            ]
+        },
+        "altering the mesh connectivity": {
+            "translated_key": "conectividad de la malla",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve <br>altering the mesh connectivity</br>, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "It is an attractive form of adaptivity since it does not involve <br>altering the mesh connectivity</br>, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models."
+            ],
+            "translated_annotated_samples": [
+                "Es una forma atractiva de adaptación ya que no implica alterar la <br>conectividad de la malla</br>, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la <br>conectividad de la malla</br>, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "atmospheric modelling": {
+            "translated_key": "modelización atmosférica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for <br>atmospheric modelling</br> more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for <br>atmospheric modelling</br> more than twenty years ago by Dietachmayer and Droegemeier [14]."
+            ],
+            "translated_annotated_samples": [
+                "La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la <br>modelización atmosférica</br> hace más de veinte años por Dietachmayer y Droegemeier [14]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la <br>modelización atmosférica</br> hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "control resolution in different directions for r-adaptive meshes": {
+            "translated_key": "controlar la resolución en diferentes direcciones",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to <br>control resolution in different directions for r-adaptive meshes</br> (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "Variational methods exist which attempt to <br>control resolution in different directions for r-adaptive meshes</br> (e.g. [23,25])."
+            ],
+            "translated_annotated_samples": [
+                "Existen métodos variacionales que intentan <br>controlar la resolución en diferentes direcciones</br> para mallas r-adaptativas (por ejemplo, [23,25])."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan <br>controlar la resolución en diferentes direcciones</br> para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "deforming a mesh": {
+            "translated_key": "deformar una malla",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves <br>deforming a mesh</br> in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "R-adaptivity – mesh redistribution – involves <br>deforming a mesh</br> in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14]."
+            ],
+            "translated_annotated_samples": [
+                "La adaptación en r - redistribución de malla - implica <br>deformar una malla</br> para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica <br>deformar una malla</br> para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mapping of solutions between meshes": {
+            "translated_key": "mapeo de soluciones entre mallas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require <br>mapping of solutions between meshes</br> [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require <br>mapping of solutions between meshes</br> [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models."
+            ],
+            "translated_annotated_samples": [
+                "Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el <br>mapeo de soluciones entre mallas</br> [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el <br>mapeo de soluciones entre mallas</br> [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mesh": {
+            "translated_key": "malla",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – <br>mesh</br> redistribution – involves deforming a <br>mesh</br> in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the <br>mesh</br> connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) <br>mesh</br> based on a scalar valued monitor function is a useful form of r-adaptive <br>mesh</br> generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "R-adaptivity – <br>mesh</br> redistribution – involves deforming a <br>mesh</br> in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the <br>mesh</br> connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) <br>mesh</br> based on a scalar valued monitor function is a useful form of r-adaptive <br>mesh</br> generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7]."
+            ],
+            "translated_annotated_samples": [
+                "La adaptación en r - redistribución de <br>malla</br> - implica deformar una <br>malla</br> para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14].",
+                "Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la <br>malla</br>, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre <br>malla</br>s [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes.",
+                "Alternativamente, la solución de la ecuación de Monge-Ampère para generar una <br>malla</br> óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de <br>malla</br> r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de <br>malla</br> - implica deformar una <br>malla</br> para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la <br>malla</br>, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre <br>malla</br>s [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una <br>malla</br> óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de <br>malla</br> r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "meshes": {
+            "translated_key": "mallas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive <br>meshes</br> [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between <br>meshes</br> [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive <br>meshes</br> (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive <br>meshes</br> [3,34,38].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between <br>meshes</br> [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive <br>meshes</br> (e.g. [23,25])."
+            ],
+            "translated_annotated_samples": [
+                "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de <br>mallas</br> adaptativas [3,34,38].",
+                "Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre <br>mallas</br> [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes.",
+                "Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para <br>mallas</br> r-adaptativas (por ejemplo, [23,25])."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de <br>mallas</br> adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre <br>mallas</br> [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para <br>mallas</br> r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mesh redistribution": {
+            "translated_key": "redistribución de malla",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – <br>mesh redistribution</br> – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "R-adaptivity – <br>mesh redistribution</br> – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14]."
+            ],
+            "translated_annotated_samples": [
+                "La adaptación en r - <br>redistribución de malla</br> - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - <br>redistribución de malla</br> - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mesh tangling": {
+            "translated_key": "enredos de malla",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to <br>mesh tangling</br> [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to <br>mesh tangling</br> [7]."
+            ],
+            "translated_annotated_samples": [
+                "Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a <br>enredos de malla</br> [7]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a <br>enredos de malla</br> [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Monge–Ampère": {
+            "translated_key": "ecuación de Monge-Ampère",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the <br>Monge–Ampère</br> equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of <br>Monge–Ampère</br> type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "Alternatively, the solution of the <br>Monge–Ampère</br> equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of <br>Monge–Ampère</br> type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "translated_annotated_samples": [
+                "Alternativamente, la solución de la <br>ecuación de Monge-Ampère</br> para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7].",
+                "Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la <br>ecuación de Monge-Ampère</br> para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Monge–Ampère equation": {
+            "translated_key": "ecuación de Monge-Ampère",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the <br>Monge–Ampère equation</br> to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "Alternatively, the solution of the <br>Monge–Ampère equation</br> to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7]."
+            ],
+            "translated_annotated_samples": [
+                "Alternativamente, la solución de la <br>ecuación de Monge-Ampère</br> para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la <br>ecuación de Monge-Ampère</br> para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "monitor function": {
+            "translated_key": "función monitor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued <br>monitor function</br> is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a <br>monitor function</br> and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued <br>monitor function</br> is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a <br>monitor function</br> and does not lead to mesh tangling [7]."
+            ],
+            "translated_annotated_samples": [
+                "Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una <br>función monitor</br> escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una <br>función monitor</br> y no conduce a enredos de malla [7]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una <br>función monitor</br> escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una <br>función monitor</br> y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "optimally transported (OT) mesh": {
+            "translated_key": "malla óptimamente transportada (OT)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an <br>optimally transported (OT) mesh</br> based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "Alternatively, the solution of the Monge–Ampère equation to generate an <br>optimally transported (OT) mesh</br> based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7]."
+            ],
+            "translated_annotated_samples": [
+                "Alternativamente, la solución de la ecuación de Monge-Ampère para generar una <br>malla óptimamente transportada (OT)</br> basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una <br>malla óptimamente transportada (OT)</br> basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "optimal transport problem on the sphere": {
+            "translated_key": "problema de transporte óptimo en la esfera",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the <br>optimal transport problem on the sphere</br> leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "We will see that the <br>optimal transport problem on the sphere</br> leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "translated_annotated_samples": [
+                "Veremos que el <br>problema de transporte óptimo en la esfera</br> conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el <br>problema de transporte óptimo en la esfera</br> conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "r-adaptive meshes": {
+            "translated_key": "mallas r-adaptativas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for <br>r-adaptive meshes</br> (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "Variational methods exist which attempt to control resolution in different directions for <br>r-adaptive meshes</br> (e.g. [23,25])."
+            ],
+            "translated_annotated_samples": [
+                "Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para <br>mallas r-adaptativas</br> (por ejemplo, [23,25])."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para <br>mallas r-adaptativas</br> (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "r-adaptive mesh generation": {
+            "translated_key": "generación de malla r-adaptativa",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of <br>r-adaptive mesh generation</br> because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of <br>r-adaptive mesh generation</br> because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7]."
+            ],
+            "translated_annotated_samples": [
+                "Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de <br>generación de malla r-adaptativa</br> porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de <br>generación de malla r-adaptativa</br> porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "r-adaptivity": {
+            "translated_key": "adaptación en r",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "<br>r-adaptivity</br> – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using <br>r-adaptivity</br>."
+            ],
+            "original_annotated_samples": [
+                "<br>r-adaptivity</br> – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using <br>r-adaptivity</br>."
+            ],
+            "translated_annotated_samples": [
+                "La <br>adaptación en r</br> - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14].",
+                "Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la <br>adaptación en r</br>."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La <br>adaptación en r</br> - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la <br>adaptación en r</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "R-adaptivity": {
+            "translated_key": "adaptación en r",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "<br>R-adaptivity</br> – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using <br>R-adaptivity</br>."
+            ],
+            "original_annotated_samples": [
+                "<br>R-adaptivity</br> – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using <br>R-adaptivity</br>."
+            ],
+            "translated_annotated_samples": [
+                "La <br>adaptación en r</br> - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14].",
+                "Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la <br>adaptación en r</br>."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La <br>adaptación en r</br> - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la <br>adaptación en r</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "represent scale interactions": {
+            "translated_key": "interacciones a escala",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to <br>represent scale interactions</br> in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "The need to <br>represent scale interactions</br> in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38]."
+            ],
+            "translated_annotated_samples": [
+                "La necesidad de representar las <br>interacciones a escala</br> en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]."
+            ],
+            "translated_text": "La necesidad de representar las <br>interacciones a escala</br> en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "scalar valued monitor function": {
+            "translated_key": "función monitor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a <br>scalar valued monitor function</br> is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a <br>scalar valued monitor function</br> is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7]."
+            ],
+            "translated_annotated_samples": [
+                "Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una <br>función monitor</br> escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una <br>función monitor</br> y no conduce a enredos de malla [7]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una <br>función monitor</br> escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una <br>función monitor</br> y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "sphere": {
+            "translated_key": "esfera",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the <br>sphere</br> leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a <br>sphere</br>, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "We will see that the optimal transport problem on the <br>sphere</br> leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a <br>sphere</br>, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "translated_annotated_samples": [
+                "Veremos que el problema de transporte óptimo en la <br>esfera</br> conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una <br>esfera</br> antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la <br>esfera</br> conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una <br>esfera</br> antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Variational methods": {
+            "translated_key": "métodos variacionales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "<br>Variational methods</br> exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "<br>Variational methods</br> exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25])."
+            ],
+            "translated_annotated_samples": [
+                "Existen <br>métodos variacionales</br> que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25])."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los modelos de predicción del clima y el tiempo ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen <br>métodos variacionales</br> que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "weather and climate prediction": {
+            "translated_key": "predicción del clima y el tiempo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in <br>weather and climate prediction</br> models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for <br>weather and climate prediction</br> using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "The need to represent scale interactions in <br>weather and climate prediction</br> models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for <br>weather and climate prediction</br> using r-adaptivity."
+            ],
+            "translated_annotated_samples": [
+                "La necesidad de representar las interacciones a escala en los <br>modelos de predicción del clima y el tiempo</br> ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38].",
+                "Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la <br>predicción del clima y el tiempo</br> utilizando la adaptación en r."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los <br>modelos de predicción del clima y el tiempo</br> ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la <br>predicción del clima y el tiempo</br> utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    "modelos de predicción del clima y el tiempo",
+                    "predicción del clima y el tiempo"
+                ]
+            ]
+        },
+        "weather and climate prediction models": {
+            "translated_key": "modelos de predicción del clima y el tiempo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The need to represent scale interactions in <br>weather and climate prediction models</br> has, for many decades, motivated research into the use of adaptive meshes [3,34,38].",
+                "R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].",
+                "It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.",
+                "Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g. [23,25]).",
+                "Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].",
+                "We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity."
+            ],
+            "original_annotated_samples": [
+                "The need to represent scale interactions in <br>weather and climate prediction models</br> has, for many decades, motivated research into the use of adaptive meshes [3,34,38]."
+            ],
+            "translated_annotated_samples": [
+                "La necesidad de representar las interacciones a escala en los <br>modelos de predicción del clima y el tiempo</br> ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]."
+            ],
+            "translated_text": "La necesidad de representar las interacciones a escala en los <br>modelos de predicción del clima y el tiempo</br> ha motivado, durante muchas décadas, la investigación sobre el uso de mallas adaptativas [3,34,38]. La adaptación en r - redistribución de malla - implica deformar una malla para variar la resolución local y fue considerada por primera vez para la modelización atmosférica hace más de veinte años por Dietachmayer y Droegemeier [14]. Es una forma atractiva de adaptación ya que no implica alterar la conectividad de la malla, no crea problemas de equilibrio de carga porque los puntos nunca se crean o destruyen, no requiere el mapeo de soluciones entre mallas [26], no conduce a cambios repentinos en la resolución y se puede incorporar en modelos existentes. Existen métodos variacionales que intentan controlar la resolución en diferentes direcciones para mallas r-adaptativas (por ejemplo, [23,25]). Alternativamente, la solución de la ecuación de Monge-Ampère para generar una malla óptimamente transportada (OT) basada en una función monitor escalar es una forma útil de generación de malla r-adaptativa porque genera una malla equidistribuida con respecto a una función monitor y no conduce a enredos de malla [7]. Veremos que el problema de transporte óptimo en la esfera conduce a una ecuación ligeramente diferente de tipo Monge-Ampère, que no ha sido resuelta numéricamente en la superficie de una esfera antes, lo cual sería necesario para la predicción del clima y el tiempo utilizando la adaptación en r. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,487 @@
+{
+    "id": "S0045782513000546",
+    "original_text": "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium. The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid). Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization. We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it. Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step. The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact. This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new. Lagging in numerical schemes is discussed more widely by Lowrie in [14].",
+    "original_translation": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14].",
+    "original_sentences": [
+        "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+        "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+        "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+        "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+        "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+        "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+        "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+        "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+    ],
+    "translated_text_sentences": [
+        "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico.",
+        "Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido).",
+        "Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin.",
+        "Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo.",
+        "Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo.",
+        "La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos.",
+        "Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva.",
+        "El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]."
+    ],
+    "error_count": 0,
+    "keys": {
+        "assembly engines": {
+            "translated_key": "Motores de montaje",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and <br>assembly engines</br> remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and <br>assembly engines</br> remain intact."
+            ],
+            "translated_annotated_samples": [
+                "La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "constitutive equations": {
+            "translated_key": "ecuaciones constitutivas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The <br>constitutive equations</br> therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "The <br>constitutive equations</br> therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid)."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, las <br>ecuaciones constitutivas</br> permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido)."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las <br>ecuaciones constitutivas</br> permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "coupling": {
+            "translated_key": "acoplamiento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the <br>coupling</br> between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the <br>coupling</br> between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step."
+            ],
+            "translated_annotated_samples": [
+                "Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el <br>acoplamiento</br> entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el <br>acoplamiento</br> entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "extension to the equations of poroelasticity": {
+            "translated_key": "ecuaciones de poroelasticidad",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an <br>extension to the equations of poroelasticity</br> by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "In this article we consider an <br>extension to the equations of poroelasticity</br> by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium."
+            ],
+            "translated_annotated_samples": [
+                "En este artículo consideramos una extensión a las <br>ecuaciones de poroelasticidad</br> al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las <br>ecuaciones de poroelasticidad</br> al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "flow equations": {
+            "translated_key": "ecuaciones de flujo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and <br>flow equations</br> is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and <br>flow equations</br> is lagged by one time step."
+            ],
+            "translated_annotated_samples": [
+                "Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "fluid": {
+            "translated_key": "fluido",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase <br>fluid</br> in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the <br>fluid</br>).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase <br>fluid</br> in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the <br>fluid</br>)."
+            ],
+            "translated_annotated_samples": [
+                "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un <br>fluido</br> de fase única ligeramente compresible en un medio poroso viscoelástico.",
+                "Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el <br>fluido</br>)."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un <br>fluido</br> de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el <br>fluido</br>). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Fully discrete numerical schemes": {
+            "translated_key": "método de paso de tiempo de Euler hacia atrás con rezago y sin rezago",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "<br>Fully discrete numerical schemes</br> are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "<br>Fully discrete numerical schemes</br> are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization."
+            ],
+            "translated_annotated_samples": [
+                "Se derivan esquemas numéricos completamente discretos basados en un <br>método de paso de tiempo de Euler hacia atrás con rezago y sin rezago</br> aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un <br>método de paso de tiempo de Euler hacia atrás con rezago y sin rezago</br> aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "lagged and non-lagged backward Euler time stepping method": {
+            "translated_key": "método de paso de tiempo de Euler hacia atrás con rezago y sin rezago",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a <br>lagged and non-lagged backward Euler time stepping method</br> applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "Fully discrete numerical schemes are derived based on a <br>lagged and non-lagged backward Euler time stepping method</br> applied to a mixed and Galerkin finite element spatial discretization."
+            ],
+            "translated_annotated_samples": [
+                "Se derivan esquemas numéricos completamente discretos basados en un <br>método de paso de tiempo de Euler hacia atrás con rezago y sin rezago</br> aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un <br>método de paso de tiempo de Euler hacia atrás con rezago y sin rezago</br> aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "mixed and Galerkin finite element spatial discretization": {
+            "translated_key": "discretización espacial de elementos finitos mixtos y de Galerkin",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a <br>mixed and Galerkin finite element spatial discretization</br>.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a <br>mixed and Galerkin finite element spatial discretization</br>."
+            ],
+            "translated_annotated_samples": [
+                "Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una <br>discretización espacial de elementos finitos mixtos y de Galerkin</br>."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una <br>discretización espacial de elementos finitos mixtos y de Galerkin</br>. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium": {
+            "translated_key": "modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by <br>modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium</br>.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "In this article we consider an extension to the equations of poroelasticity by <br>modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium</br>."
+            ],
+            "translated_annotated_samples": [
+                "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al <br>modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico</br>."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al <br>modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico</br>. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "nonlinearly viscoelastic diffusion problems": {
+            "translated_key": "problemas de difusión viscoelástica no lineal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for <br>nonlinearly viscoelastic diffusion problems</br> in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "This idea of lagging has been used before for <br>nonlinearly viscoelastic diffusion problems</br> in [3,24] but, of course, is not new."
+            ],
+            "translated_annotated_samples": [
+                "Esta idea de retraso se ha utilizado antes para <br>problemas de difusión viscoelástica no lineal</br> en [3,24], pero, por supuesto, no es nueva."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para <br>problemas de difusión viscoelástica no lineal</br> en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "numerical schemes": {
+            "translated_key": "esquemas numéricos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete <br>numerical schemes</br> are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in <br>numerical schemes</br> is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "Fully discrete <br>numerical schemes</br> are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "Lagging in <br>numerical schemes</br> is discussed more widely by Lowrie in [14]."
+            ],
+            "translated_annotated_samples": [
+                "Se derivan <br>esquemas numéricos</br> completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin.",
+                "El retraso en los <br>esquemas numéricos</br> se discute más ampliamente por Lowrie en [14]."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan <br>esquemas numéricos</br> completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los <br>esquemas numéricos</br> se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "porous media": {
+            "translated_key": "medios porosos",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the <br>porous media</br> (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the <br>porous media</br> (but not the fluid)."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los <br>medios porosos</br> (pero no en el fluido)."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los <br>medios porosos</br> (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "single phase fluid": {
+            "translated_key": "fluido de fase única",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible <br>single phase fluid</br> in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible <br>single phase fluid</br> in a viscoelastic porous medium."
+            ],
+            "translated_annotated_samples": [
+                "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un <br>fluido de fase única</br> ligeramente compresible en un medio poroso viscoelástico."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un <br>fluido de fase única</br> ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "updating subroutines": {
+            "translated_key": "subrutinas de actualización",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some <br>updating subroutines</br> for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "The required additional coding therefore takes the form of extra right hand side loads together with some <br>updating subroutines</br> for the viscoelastic internal variables, but the solver and assembly engines remain intact."
+            ],
+            "translated_annotated_samples": [
+                "La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas <br>subrutinas de actualización</br> para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas <br>subrutinas de actualización</br> para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "viscoelastic porous medium": {
+            "translated_key": "medio poroso viscoelástico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a <br>viscoelastic porous medium</br>.",
+                "The constitutive equations therefore allow for the presence of viscoelastic relaxation effects in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a <br>viscoelastic porous medium</br>."
+            ],
+            "translated_annotated_samples": [
+                "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un <br>medio poroso viscoelástico</br>."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un <br>medio poroso viscoelástico</br>. Por lo tanto, las ecuaciones constitutivas permiten la presencia de efectos de relajación viscoelástica en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "viscoelastic relaxation effects": {
+            "translated_key": "efectos de relajación viscoelástica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In this article we consider an extension to the equations of poroelasticity by modelling the flow of a slightly compressible single phase fluid in a viscoelastic porous medium.",
+                "The constitutive equations therefore allow for the presence of <br>viscoelastic relaxation effects</br> in the porous media (but not the fluid).",
+                "Fully discrete numerical schemes are derived based on a lagged and non-lagged backward Euler time stepping method applied to a mixed and Galerkin finite element spatial discretization.",
+                "We show that the lagged scheme is unconditionally stable and give an optimal a priori error bound for it.",
+                "Furthermore, this scheme is practical and useful in the sense that it can be easily implemented in existing poroelasticity software because the coupling between the viscous stresses and pressures and the elasticity and flow equations is lagged by one time step.",
+                "The required additional coding therefore takes the form of extra right hand side loads together with some updating subroutines for the viscoelastic internal variables, but the solver and assembly engines remain intact.",
+                "This idea of lagging has been used before for nonlinearly viscoelastic diffusion problems in [3,24] but, of course, is not new.",
+                "Lagging in numerical schemes is discussed more widely by Lowrie in [14]."
+            ],
+            "original_annotated_samples": [
+                "The constitutive equations therefore allow for the presence of <br>viscoelastic relaxation effects</br> in the porous media (but not the fluid)."
+            ],
+            "translated_annotated_samples": [
+                "Por lo tanto, las ecuaciones constitutivas permiten la presencia de <br>efectos de relajación viscoelástica</br> en los medios porosos (pero no en el fluido)."
+            ],
+            "translated_text": "En este artículo consideramos una extensión a las ecuaciones de poroelasticidad al modelar el flujo de un fluido de fase única ligeramente compresible en un medio poroso viscoelástico. Por lo tanto, las ecuaciones constitutivas permiten la presencia de <br>efectos de relajación viscoelástica</br> en los medios porosos (pero no en el fluido). Se derivan esquemas numéricos completamente discretos basados en un método de paso de tiempo de Euler hacia atrás con rezago y sin rezago aplicado a una discretización espacial de elementos finitos mixtos y de Galerkin. Mostramos que el esquema con rezago es incondicionalmente estable y proporcionamos un límite de error a priori óptimo para el mismo. Además, este esquema es práctico y útil en el sentido de que puede implementarse fácilmente en software existente de poroelasticidad porque el acoplamiento entre las tensiones viscosas y las presiones y las ecuaciones de elasticidad y flujo se retrasa un paso de tiempo. La codificación adicional requerida toma la forma de cargas adicionales en el lado derecho junto con algunas subrutinas de actualización para las variables internas viscoelásticas, pero los motores de solución y ensamblaje permanecen intactos. Esta idea de retraso se ha utilizado antes para problemas de difusión viscoelástica no lineal en [3,24], pero, por supuesto, no es nueva. El retraso en los esquemas numéricos se discute más ampliamente por Lowrie en [14]. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}
