@@ -8,7 +8,7 @@ Created on Sat Mar 30 19:49:16 2024
 """
 import json
 import os
-from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers, separate_sentences, is_sentence_to_translate, extract_quoted_terms, find_last_term_and_remove, translate_text_google, detect_different_translations, check_repetition_percentage
+from translation_class import read_lines, read_file_content, Translation, TranslationH,get_source_identifiers, separate_sentences, is_sentence_to_translate, extract_quoted_terms, find_last_term_and_remove, detect_different_translations, check_repetition_percentage
 import shutil
 import traceback
 import nltk
