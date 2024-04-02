@@ -11,23 +11,26 @@ def write_list_file(filepath, list, mode='w'):
         for element in list:
             archivo.write(str(element) + '\n')
 
-path='datasets/test/docsutf8/'
-outputpath='datasets/test/'
-
-n=10
+path='datasets/target/SemEval2017_GPT3/docsutf8/'
+outputpath='datasets/target/SemEval2017_GPT3/'
+path='datasets/target/SemEval2017_GTranslate/docsutf8/'
+outputpath='datasets/target/SemEval2017_GTranslate/'
+n=5
 
 files= os.listdir(path)
-print(files)
+print(len(files))
 
 tpr = TopicRankExtractor()
-textr =TextRankExtractor()
-singr =SingleRankExtractor()
+textr = TextRankExtractor()
+singr = SingleRankExtractor()
 yakee = YakeExtractor()
 rake = RakeExtractor()
 
+'''
 os.mkdir(outputpath+'topic')
 os.mkdir(outputpath+'rake')
 os.mkdir(outputpath+'yake')
+'''
 os.mkdir(outputpath+'topic/res'+str(n)+'/')
 
 os.mkdir(outputpath+'rake/res'+str(n)+'/')

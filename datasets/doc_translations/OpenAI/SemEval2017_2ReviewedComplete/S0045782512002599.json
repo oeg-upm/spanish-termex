@@ -1,0 +1,739 @@
+{
+    "id": "S0045782512002599",
+    "original_text": "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics. The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways. NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries. Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA. We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes). Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem. We report several computational experiments to demonstrate the performance of the proposed IETI method.",
+    "original_translation": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto.",
+    "original_sentences": [
+        "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+        "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+        "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+        "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+        "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+        "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+        "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+    ],
+    "translated_text_sentences": [
+        "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional.",
+        "El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas.",
+        "El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS.",
+        "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA.",
+        "Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes).",
+        "Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz.",
+        "Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto."
+    ],
+    "error_count": 0,
+    "keys": {
+        "advanced solver design": {
+            "translated_key": "diseño avanzado del solucionador",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the <br>advanced solver design</br> of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the <br>advanced solver design</br> of FETI with the exact geometry representation of IGA."
+            ],
+            "translated_annotated_samples": [
+                "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el <br>diseño avanzado del solucionador</br> de FETI con la representación exacta de la geometría de IGA."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el <br>diseño avanzado del solucionador</br> de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "complex geometries": {
+            "translated_key": "geometrías complejas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to <br>complex geometries</br> requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to <br>complex geometries</br> requires to represent the computational domain as a collection of several NURBS geometries."
+            ],
+            "translated_annotated_samples": [
+                "El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a <br>geometrías complejas</br> requiere representar el dominio computacional como una colección de varias geometrías NURBS."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a <br>geometrías complejas</br> requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "computational domain as a collection of several NURBS geometries": {
+            "translated_key": "geometrías NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the <br>computational domain as a collection of several NURBS geometries</br>.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the <br>computational domain as a collection of several NURBS geometries</br>."
+            ],
+            "translated_annotated_samples": [
+                "El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias <br>geometrías NURBS</br>."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias <br>geometrías NURBS</br>. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "construction of a suitable preconditioner for the iterative linear solver": {
+            "translated_key": "construcción de un precondicionador adecuado para el solucionador lineal iterativo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the <br>construction of a suitable preconditioner for the iterative linear solver</br> used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "Special attention is paid to the <br>construction of a suitable preconditioner for the iterative linear solver</br> used for the interface problem."
+            ],
+            "translated_annotated_samples": [
+                "Se presta especial atención a la <br>construcción de un precondicionador adecuado para el solucionador lineal iterativo</br> utilizado para el problema de la interfaz."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la <br>construcción de un precondicionador adecuado para el solucionador lineal iterativo</br> utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "coupling of the subdomains along interfaces": {
+            "translated_key": "acoplamiento de los subdominios a lo largo de interfaces",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the <br>coupling of the subdomains along interfaces</br> (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the <br>coupling of the subdomains along interfaces</br> (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes)."
+            ],
+            "translated_annotated_samples": [
+                "Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el <br>acoplamiento de los subdominios a lo largo de interfaces</br> (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes)."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el <br>acoplamiento de los subdominios a lo largo de interfaces</br> (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "demonstrate the performance of the proposed IETI method": {
+            "translated_key": "método IETI",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to <br>demonstrate the performance of the proposed IETI method</br>."
+            ],
+            "original_annotated_samples": [
+                "We report several computational experiments to <br>demonstrate the performance of the proposed IETI method</br>."
+            ],
+            "translated_annotated_samples": [
+                "Reportamos varios experimentos computacionales para demostrar el rendimiento del <br>método IETI</br> propuesto."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del <br>método IETI</br> propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "exact geometry representation": {
+            "translated_key": "representación exacta de la geometría",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the <br>exact geometry representation</br> of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the <br>exact geometry representation</br> of IGA."
+            ],
+            "translated_annotated_samples": [
+                "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la <br>representación exacta de la geometría</br> de IGA."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la <br>representación exacta de la geometría</br> de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "FETI": {
+            "translated_key": "FETI",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (<br>FETI</br>) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using <br>FETI</br> methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of <br>FETI</br> with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "Finite Element Tearing and Interconnecting (<br>FETI</br>) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using <br>FETI</br> methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of <br>FETI</br> with the exact geometry representation of IGA."
+            ],
+            "translated_annotated_samples": [
+                "Los métodos de <br>Elementos Finitos de Tearing e Interconexión</br> (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional.",
+                "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos <br>FETI</br>. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de <br>FETI</br> con la representación exacta de la geometría de IGA."
+            ],
+            "translated_text": "Los métodos de <br>Elementos Finitos de Tearing e Interconexión</br> (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos <br>FETI</br>. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de <br>FETI</br> con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    "Elementos Finitos de Tearing e Interconexión",
+                    "FETI",
+                    "FETI"
+                ]
+            ]
+        },
+        "FETI methods": {
+            "translated_key": "métodos FETI",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using <br>FETI methods</br>This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using <br>FETI methods</br>This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA."
+            ],
+            "translated_annotated_samples": [
+                "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar <br>métodos FETI</br>. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar <br>métodos FETI</br>. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Finite Element Tearing and Interconnecting": {
+            "translated_key": "Elementos Finitos de Tearing e Interconexión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "<br>Finite Element Tearing and Interconnecting</br> (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "<br>Finite Element Tearing and Interconnecting</br> (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics."
+            ],
+            "translated_annotated_samples": [
+                "Los métodos de <br>Elementos Finitos de Tearing e Interconexión</br> (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional."
+            ],
+            "translated_text": "Los métodos de <br>Elementos Finitos de Tearing e Interconexión</br> (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "hanging nodes": {
+            "translated_key": "nodos colgantes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. <br>hanging nodes</br>).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. <br>hanging nodes</br>)."
+            ],
+            "translated_annotated_samples": [
+                "Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, <br>nodos colgantes</br>)."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, <br>nodos colgantes</br>). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "IETI": {
+            "translated_key": "IETI",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (<br>IETI</br>) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the <br>IETI</br> framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed <br>IETI</br> method."
+            ],
+            "original_annotated_samples": [
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (<br>IETI</br>) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the <br>IETI</br> framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "We report several computational experiments to demonstrate the performance of the proposed <br>IETI</br> method."
+            ],
+            "translated_annotated_samples": [
+                "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA.",
+                "Describimos el <br>marco de trabajo de IETI</br> para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes).",
+                "Reportamos varios experimentos computacionales para demostrar el rendimiento del <br>método IETI</br> propuesto."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el <br>marco de trabajo de IETI</br> para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del <br>método IETI</br> propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    "marco de trabajo de IETI",
+                    "método IETI"
+                ]
+            ]
+        },
+        "IETI framework": {
+            "translated_key": "marco de trabajo de IETI",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the <br>IETI framework</br> for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "We describe the <br>IETI framework</br> for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes)."
+            ],
+            "translated_annotated_samples": [
+                "Describimos el <br>marco de trabajo de IETI</br> para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes)."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el <br>marco de trabajo de IETI</br> para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "IGA": {
+            "translated_key": "NURBS (Non-Uniform Rational B-spline)",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (<br>IGA</br>) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based <br>IGA</br> is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of <br>IGA</br>.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (<br>IGA</br>) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based <br>IGA</br> is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of <br>IGA</br>."
+            ],
+            "translated_annotated_samples": [
+                "El análisis isogeométrico (IGA) basado en <br>NURBS (Non-Uniform Rational B-spline)</br> aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS.",
+                "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en <br>NURBS (Non-Uniform Rational B-spline)</br> aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "interfaces with T-joints": {
+            "translated_key": "interfaces con uniones en T",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for <br>interfaces with T-joints</br>, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for <br>interfaces with T-joints</br>, i.e. hanging nodes)."
+            ],
+            "translated_annotated_samples": [
+                "Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para <br>interfaces con uniones en T</br>, es decir, nodos colgantes)."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para <br>interfaces con uniones en T</br>, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "isogeometric analysis": {
+            "translated_key": "análisis isogeométrico",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based <br>isogeometric analysis</br> (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "NURBS- (Non-Uniform Rational B-spline) based <br>isogeometric analysis</br> (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries."
+            ],
+            "translated_annotated_samples": [
+                "El <br>análisis isogeométrico</br> (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El <br>análisis isogeométrico</br> (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "IsogEometric Tearing and Interconnecting": {
+            "translated_key": "IsogEométrico de Tearing e Interconexión",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new <br>IsogEometric Tearing and Interconnecting</br> (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new <br>IsogEometric Tearing and Interconnecting</br> (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA."
+            ],
+            "translated_annotated_samples": [
+                "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método <br>IsogEométrico de Tearing e Interconexión</br> (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método <br>IsogEométrico de Tearing e Interconexión</br> (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "linearized elasticity": {
+            "translated_key": "elasticidad linealizada",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and <br>linearized elasticity</br>) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "We describe the IETI framework for two classes of simple model problems (Poisson and <br>linearized elasticity</br>) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes)."
+            ],
+            "translated_annotated_samples": [
+                "Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y <br>elasticidad linealizada</br>) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes)."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y <br>elasticidad linealizada</br>) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Non-Uniform Rational B-spline": {
+            "translated_key": "NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (<br>Non-Uniform Rational B-spline</br>) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "NURBS- (<br>Non-Uniform Rational B-spline</br>) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries."
+            ],
+            "translated_annotated_samples": [
+                "El análisis isogeométrico (IGA) basado en <br>NURBS</br> (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías <br>NURBS</br>."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en <br>NURBS</br> (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías <br>NURBS</br>. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "number of independent sub-problems": {
+            "translated_key": "número de subproblemas independientes",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a <br>number of independent sub-problems</br>, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "The numerical simulation problem is subdivided into a <br>number of independent sub-problems</br>, which are then coupled in appropriate ways."
+            ],
+            "translated_annotated_samples": [
+                "El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "numerical simulation problem": {
+            "translated_key": "problema de simulación numérica",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The <br>numerical simulation problem</br> is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "The <br>numerical simulation problem</br> is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways."
+            ],
+            "translated_annotated_samples": [
+                "El <br>problema de simulación numérica</br> se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El <br>problema de simulación numérica</br> se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS": {
+            "translated_key": "NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "<br>NURBS</br>- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several <br>NURBS</br> geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, <br>NURBS</br>-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "<br>NURBS</br>- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several <br>NURBS</br> geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, <br>NURBS</br>-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA."
+            ],
+            "translated_annotated_samples": [
+                "El análisis isogeométrico (IGA) basado en <br>NURBS</br> (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías <br>NURBS</br>.",
+                "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en <br>NURBS</br> es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en <br>NURBS</br> (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías <br>NURBS</br>. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en <br>NURBS</br> es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "NURBS-based IGA": {
+            "translated_key": "IGA basado en NURBS",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, <br>NURBS-based IGA</br> is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "Since there is a natural decomposition of the computational domain into several subdomains, <br>NURBS-based IGA</br> is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA."
+            ],
+            "translated_annotated_samples": [
+                "Dado que hay una descomposición natural del dominio computacional en varios subdominios, el <br>IGA basado en NURBS</br> es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el <br>IGA basado en NURBS</br> es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Poisson": {
+            "translated_key": "Poisson",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (<br>Poisson</br> and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "We describe the IETI framework for two classes of simple model problems (<br>Poisson</br> and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes)."
+            ],
+            "translated_annotated_samples": [
+                "Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (<br>Poisson</br> y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes)."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (<br>Poisson</br> y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "several subdomains": {
+            "translated_key": "varios subdominios",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into <br>several subdomains</br>, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "Since there is a natural decomposition of the computational domain into <br>several subdomains</br>, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA."
+            ],
+            "translated_annotated_samples": [
+                "Dado que hay una descomposición natural del dominio computacional en <br>varios subdominios</br>, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en <br>varios subdominios</br>, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "simple model problems": {
+            "translated_key": "problemas modelo simples",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing solvers for large-scale problems in computational mechanics.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of <br>simple model problems</br> (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "We describe the IETI framework for two classes of <br>simple model problems</br> (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes)."
+            ],
+            "translated_annotated_samples": [
+                "Describimos el marco de trabajo de IETI para dos clases de <br>problemas modelo simples</br> (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes)."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar solucionadores para problemas a gran escala en mecánica computacional. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de <br>problemas modelo simples</br> (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "solvers for large-scale problems in computational mechanics": {
+            "translated_key": "solucionadores para problemas a gran escala en mecánica computacional",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing <br>solvers for large-scale problems in computational mechanics</br>.",
+                "The numerical simulation problem is subdivided into a number of independent sub-problems, which are then coupled in appropriate ways.",
+                "NURBS- (Non-Uniform Rational B-spline) based isogeometric analysis (IGA) applied to complex geometries requires to represent the computational domain as a collection of several NURBS geometries.",
+                "Since there is a natural decomposition of the computational domain into several subdomains, NURBS-based IGA is particularly well suited for using FETI methods.This paper proposes the new IsogEometric Tearing and Interconnecting (IETI) method, which combines the advanced solver design of FETI with the exact geometry representation of IGA.",
+                "We describe the IETI framework for two classes of simple model problems (Poisson and linearized elasticity) and discuss the coupling of the subdomains along interfaces (both for matching interfaces and for interfaces with T-joints, i.e. hanging nodes).",
+                "Special attention is paid to the construction of a suitable preconditioner for the iterative linear solver used for the interface problem.",
+                "We report several computational experiments to demonstrate the performance of the proposed IETI method."
+            ],
+            "original_annotated_samples": [
+                "Finite Element Tearing and Interconnecting (FETI) methods are a powerful approach to designing <br>solvers for large-scale problems in computational mechanics</br>."
+            ],
+            "translated_annotated_samples": [
+                "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar <br>solucionadores para problemas a gran escala en mecánica computacional</br>."
+            ],
+            "translated_text": "Los métodos de Elementos Finitos de Tearing e Interconexión (FETI) son un enfoque poderoso para diseñar <br>solucionadores para problemas a gran escala en mecánica computacional</br>. El problema de simulación numérica se divide en varios subproblemas independientes, que luego se acoplan de formas apropiadas. El análisis isogeométrico (IGA) basado en NURBS (Non-Uniform Rational B-spline) aplicado a geometrías complejas requiere representar el dominio computacional como una colección de varias geometrías NURBS. Dado que hay una descomposición natural del dominio computacional en varios subdominios, el IGA basado en NURBS es particularmente adecuado para utilizar métodos FETI. Este artículo propone el nuevo método IsogEométrico de Tearing e Interconexión (IETI), que combina el diseño avanzado del solucionador de FETI con la representación exacta de la geometría de IGA. Describimos el marco de trabajo de IETI para dos clases de problemas modelo simples (Poisson y elasticidad linealizada) y discutimos el acoplamiento de los subdominios a lo largo de interfaces (tanto para interfaces coincidentes como para interfaces con uniones en T, es decir, nodos colgantes). Se presta especial atención a la construcción de un precondicionador adecuado para el solucionador lineal iterativo utilizado para el problema de la interfaz. Reportamos varios experimentos computacionales para demostrar el rendimiento del método IETI propuesto. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

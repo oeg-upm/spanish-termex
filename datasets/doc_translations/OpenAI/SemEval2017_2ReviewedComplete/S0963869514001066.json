@@ -1,0 +1,610 @@
+{
+    "id": "S0963869514001066",
+    "original_text": "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows. After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid. The signals from all elements in the array are then summed to synthesize a focus at every point in this grid. Linear interpolation of the time domain signals is necessary since they are discretely sampled. The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R). Note that the z-position of all elements is zero (Fig. 3a). The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC. This algorithm is referred to as conventional TFM in this paper.",
+    "original_translation": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento.",
+    "original_sentences": [
+        "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+        "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+        "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+        "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+        "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+        "Note that the z-position of all elements is zero (Fig. 3a).",
+        "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+        "This algorithm is referred to as conventional TFM in this paper."
+    ],
+    "translated_text_sentences": [
+        "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera.",
+        "Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula.",
+        "Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula.",
+        "La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta.",
+        "La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R).",
+        "Nótese que la posición z de todos los elementos es cero (Fig. 3a).",
+        "La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC.",
+        "Este algoritmo se denomina TFM convencional en este documento."
+    ],
+    "error_count": 0,
+    "keys": {
+        "conventional TFM": {
+            "translated_key": "TFM convencional",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as <br>conventional TFM</br> in this paper."
+            ],
+            "original_annotated_samples": [
+                "This algorithm is referred to as <br>conventional TFM</br> in this paper."
+            ],
+            "translated_annotated_samples": [
+                "Este algoritmo se denomina <br>TFM convencional</br> en este documento."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina <br>TFM convencional</br> en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "discretely sampled": {
+            "translated_key": "muestreadas de forma discreta",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are <br>discretely sampled</br>.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "Linear interpolation of the time domain signals is necessary since they are <br>discretely sampled</br>."
+            ],
+            "translated_annotated_samples": [
+                "La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están <br>muestreadas de forma discreta</br>."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están <br>muestreadas de forma discreta</br>. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "discretized into a grid": {
+            "translated_key": "una cuadrícula",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is <br>discretized into a grid</br>.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is <br>discretized into a grid</br>."
+            ],
+            "translated_annotated_samples": [
+                "Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en <br>una cuadrícula</br>."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en <br>una cuadrícula</br>. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "FMC": {
+            "translated_key": "FMC",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the <br>FMC</br> data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the <br>FMC</br> data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with <br>FMC</br>.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "After obtaining the <br>FMC</br> data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the <br>FMC</br> data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with <br>FMC</br>."
+            ],
+            "translated_annotated_samples": [
+                "Después de obtener los <br>datos FMC</br>, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula.",
+                "La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos <br>FMC</br>, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R).",
+                "La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con <br>FMC</br>."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los <br>datos FMC</br>, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos <br>FMC</br>, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con <br>FMC</br>. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    "datos FMC",
+                    "FMC",
+                    "FMC"
+                ]
+            ]
+        },
+        "FMC data": {
+            "translated_key": "datos FMC",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the <br>FMC data</br>, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the <br>FMC data</br>, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "After obtaining the <br>FMC data</br>, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the <br>FMC data</br>, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R)."
+            ],
+            "translated_annotated_samples": [
+                "Después de obtener los <br>datos FMC</br>, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula.",
+                "La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los <br>datos FMC</br>, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R)."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los <br>datos FMC</br>, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los <br>datos FMC</br>, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "grid": {
+            "translated_key": "cuadrícula",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a <br>grid</br>.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this <br>grid</br>.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a <br>grid</br>.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this <br>grid</br>."
+            ],
+            "translated_annotated_samples": [
+                "Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una <br>cuadrícula</br>.",
+                "Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta <br>cuadrícula</br>."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una <br>cuadrícula</br>. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta <br>cuadrícula</br>. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Hilbert transform": {
+            "translated_key": "transformada de Hilbert",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the <br>Hilbert transform</br> of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the <br>Hilbert transform</br> of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R)."
+            ],
+            "translated_annotated_samples": [
+                "La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la <br>transformada de Hilbert</br> de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R)."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la <br>transformada de Hilbert</br> de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Linear interpolation": {
+            "translated_key": "interpolación lineal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "<br>Linear interpolation</br> of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "<br>Linear interpolation</br> of the time domain signals is necessary since they are discretely sampled."
+            ],
+            "translated_annotated_samples": [
+                "La <br>interpolación lineal</br> de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La <br>interpolación lineal</br> de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "R": {
+            "translated_key": "elemento receptor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (<br>R</br>).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (<br>R</br>)."
+            ],
+            "translated_annotated_samples": [
+                "La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del <br>elemento receptor</br> (R)."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del <br>elemento receptor</br> (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "receiving element": {
+            "translated_key": "elemento receptor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the <br>receiving element</br> (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the <br>receiving element</br> (R)."
+            ],
+            "translated_annotated_samples": [
+                "La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del <br>elemento receptor</br> (R)."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del <br>elemento receptor</br> (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "summation": {
+            "translated_key": "suma",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The <br>summation</br> is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The <br>summation</br> is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC."
+            ],
+            "translated_annotated_samples": [
+                "La <br>suma</br> se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La <br>suma</br> se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "summed": {
+            "translated_key": "Resumen",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then <br>summed</br> to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The signals from all elements in the array are then <br>summed</br> to synthesize a focus at every point in this grid."
+            ],
+            "translated_annotated_samples": [
+                "Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "synthesize a focus at every point in this grid": {
+            "translated_key": "sintetizar un enfoque",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to <br>synthesize a focus at every point in this grid</br>.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The signals from all elements in the array are then summed to <br>synthesize a focus at every point in this grid</br>."
+            ],
+            "translated_annotated_samples": [
+                "Las señales de todos los elementos en el arreglo se suman para <br>sintetizar un enfoque</br> en cada punto de esta cuadrícula."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para <br>sintetizar un enfoque</br> en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "T": {
+            "translated_key": "transformada de Hilbert",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(<br>T</br>) is the Hilbert transform of a signal uTR(<br>T</br>) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(<br>T</br>) is the Hilbert transform of a signal uTR(<br>T</br>) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R)."
+            ],
+            "translated_annotated_samples": [
+                "La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la <br>transformada de Hilbert</br> de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R)."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la <br>transformada de Hilbert</br> de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "TFM": {
+            "translated_key": "TFM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (<br>TFM</br>) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the <br>TFM</br> image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional <br>TFM</br> in this paper."
+            ],
+            "original_annotated_samples": [
+                "In the Total Focusing Method (<br>TFM</br>) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "The intensity of the <br>TFM</br> image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "This algorithm is referred to as conventional <br>TFM</br> in this paper."
+            ],
+            "translated_annotated_samples": [
+                "En el <br>Método de Enfoque Total</br> (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera.",
+                "La intensidad de la imagen <br>TFM</br> I<br>TFM</br> en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R).",
+                "Este algoritmo se denomina <br>TFM</br> convencional en este documento."
+            ],
+            "translated_text": "En el <br>Método de Enfoque Total</br> (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen <br>TFM</br> I<br>TFM</br> en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina <br>TFM</br> convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    "Método de Enfoque Total",
+                    "TFM",
+                    "TFM",
+                    "TFM"
+                ]
+            ]
+        },
+        "TFM image": {
+            "translated_key": "imagen TFM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the <br>TFM image</br> ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The intensity of the <br>TFM image</br> ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R)."
+            ],
+            "translated_annotated_samples": [
+                "La intensidad de la <br>imagen TFM</br> ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R)."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la <br>imagen TFM</br> ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "TFM image ITFM": {
+            "translated_key": "imagen TFM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the <br>TFM image ITFM</br> at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The intensity of the <br>TFM image ITFM</br> at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R)."
+            ],
+            "translated_annotated_samples": [
+                "La intensidad de la <br>imagen TFM</br> ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R)."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la <br>imagen TFM</br> ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Total Focusing Method": {
+            "translated_key": "Método de Enfoque Total",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the <br>Total Focusing Method</br> (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "In the <br>Total Focusing Method</br> (TFM) the beam is synthetically focused at every point in the target region [7] as follows."
+            ],
+            "translated_annotated_samples": [
+                "En el <br>Método de Enfoque Total</br> (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera."
+            ],
+            "translated_text": "En el <br>Método de Enfoque Total</br> (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "transmitter–receiver pairs": {
+            "translated_key": "combinaciones de transmisor-receptor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible <br>transmitter–receiver pairs</br> and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The summation is carried out for all possible <br>transmitter–receiver pairs</br> and therefore uses all the information captured with FMC."
+            ],
+            "translated_annotated_samples": [
+                "La suma se realiza para todas las posibles <br>combinaciones de transmisor-receptor</br> y por lo tanto utiliza toda la información capturada con FMC."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles <br>combinaciones de transmisor-receptor</br> y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "transmitting element": {
+            "translated_key": "elemento transmisor",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the x–z plane in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the <br>transmitting element</br> (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the <br>transmitting element</br> (T) and xR is the x-position of the receiving element (R)."
+            ],
+            "translated_annotated_samples": [
+                "La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del <br>elemento transmisor</br> (T) y xR es la posición x del elemento receptor (R)."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el plano x-z en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del <br>elemento transmisor</br> (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "x–z plane": {
+            "translated_key": "plano x-z",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "In the Total Focusing Method (TFM) the beam is synthetically focused at every point in the target region [7] as follows.",
+                "After obtaining the FMC data, the target region, which is in the <br>x–z plane</br> in 2D (Fig. 1), is discretized into a grid.",
+                "The signals from all elements in the array are then summed to synthesize a focus at every point in this grid.",
+                "Linear interpolation of the time domain signals is necessary since they are discretely sampled.",
+                "The intensity of the TFM image ITFM at any point (x,z) is given by:(10)ITFM(x,z)=|∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))|forallT,Rwhere HTR(t) is the Hilbert transform of a signal uTR(t) in the FMC data, xT is the x-position of the transmitting element (T) and xR is the x-position of the receiving element (R).",
+                "Note that the z-position of all elements is zero (Fig. 3a).",
+                "The summation is carried out for all possible transmitter–receiver pairs and therefore uses all the information captured with FMC.",
+                "This algorithm is referred to as conventional TFM in this paper."
+            ],
+            "original_annotated_samples": [
+                "After obtaining the FMC data, the target region, which is in the <br>x–z plane</br> in 2D (Fig. 1), is discretized into a grid."
+            ],
+            "translated_annotated_samples": [
+                "Después de obtener los datos FMC, la región objetivo, que está en el <br>plano x-z</br> en 2D (Fig. 1), se discretiza en una cuadrícula."
+            ],
+            "translated_text": "En el Método de Enfoque Total (TFM) el haz se enfoca de forma sintética en cada punto de la región objetivo [7] de la siguiente manera. Después de obtener los datos FMC, la región objetivo, que está en el <br>plano x-z</br> en 2D (Fig. 1), se discretiza en una cuadrícula. Las señales de todos los elementos en el arreglo se suman para sintetizar un enfoque en cada punto de esta cuadrícula. La interpolación lineal de las señales en el dominio del tiempo es necesaria ya que están muestreadas de forma discreta. La intensidad de la imagen TFM ITFM en cualquier punto (x,z) se da por: (10) ITFM(x,z) = |∑HTR(1c((xT−x)2+z2+(xR−x)2+z2))| para todos T, R donde HTR(t) es la transformada de Hilbert de una señal uTR(t) en los datos FMC, xT es la posición x del elemento transmisor (T) y xR es la posición x del elemento receptor (R). Nótese que la posición z de todos los elementos es cero (Fig. 3a). La suma se realiza para todas las posibles combinaciones de transmisor-receptor y por lo tanto utiliza toda la información capturada con FMC. Este algoritmo se denomina TFM convencional en este documento. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

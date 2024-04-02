@@ -101,8 +101,8 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
 InputPath='datasets/doc_translations/SemEval2010_GTranslate_Postprocessed/'
 OutputPath='datasets/doc_translations/SemEval2010_GTranslateReviewed/'
 
-InputPath =  'datasets/doc_translations/OpenAI/SemEval2017_2/'
-OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017_2Reviewed/'
+InputPath =  'datasets/doc_translations/OpenAI/SemEval2010/'
+OutputPath = 'datasets/doc_translations/OpenAI/SemEval2010_Reviewed/'
 
 sourcedocs = os.listdir(InputPath)
 targetdocs = os.listdir(OutputPath)

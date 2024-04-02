@@ -1,0 +1,278 @@
+{
+    "id": "S0885230816300043",
+    "original_text": "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure. This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model. However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute. This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show. Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based aCMLLR transforms was tested. This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation.",
+    "original_translation": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base. Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz.",
+    "original_sentences": [
+        "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure.",
+        "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model.",
+        "However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+        "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+        "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based aCMLLR transforms was tested.",
+        "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation."
+    ],
+    "translated_text_sentences": [
+        "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT.",
+        "Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base.",
+        "Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto.",
+        "Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo.",
+        "Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo.",
+        "Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz."
+    ],
+    "error_count": 0,
+    "keys": {
+        "aCMLLR transforms": {
+            "translated_key": "transformaciones aCMLLR",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure.",
+                "This new model only provided an improvement of 0.3%, similar to using the <br>aCMLLR transforms</br> on the baseline GMM–HMM model.",
+                "However, training show-based <br>aCMLLR transforms</br> on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based <br>aCMLLR transforms</br> was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation."
+            ],
+            "original_annotated_samples": [
+                "This new model only provided an improvement of 0.3%, similar to using the <br>aCMLLR transforms</br> on the baseline GMM–HMM model.",
+                "However, training show-based <br>aCMLLR transforms</br> on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based <br>aCMLLR transforms</br> was tested."
+            ],
+            "translated_annotated_samples": [
+                "Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las <br>transformaciones aCMLLR</br> en el modelo GMM-HMM base.",
+                "Sin embargo, el entrenamiento de <br>transformaciones aCMLLR</br> basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto.",
+                "Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y <br>transformaciones aCMLLR</br> basadas en el espectáculo."
+            ],
+            "translated_text": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las <br>transformaciones aCMLLR</br> en el modelo GMM-HMM base. Sin embargo, el entrenamiento de <br>transformaciones aCMLLR</br> basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y <br>transformaciones aCMLLR</br> basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "adaptive retraining of the GMM–HMM parameters": {
+            "translated_key": "reentrenamiento adaptativo de los parámetros GMM-HMM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an <br>adaptive retraining of the GMM–HMM parameters</br> following the aNAT procedure.",
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model.",
+                "However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based aCMLLR transforms was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation."
+            ],
+            "original_annotated_samples": [
+                "The final set of experiments involved an <br>adaptive retraining of the GMM–HMM parameters</br> following the aNAT procedure."
+            ],
+            "translated_annotated_samples": [
+                "La serie final de experimentos involucró un <br>reentrenamiento adaptativo de los parámetros GMM-HMM</br> siguiendo el procedimiento aNAT."
+            ],
+            "translated_text": "La serie final de experimentos involucró un <br>reentrenamiento adaptativo de los parámetros GMM-HMM</br> siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base. Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "adaptive training": {
+            "translated_key": "entrenamiento adaptativo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure.",
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model.",
+                "However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how <br>adaptive training</br> provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based aCMLLR transforms was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation."
+            ],
+            "original_annotated_samples": [
+                "This showed how <br>adaptive training</br> provided a better flexibility of the model to adapt to specific background conditions existing in each show."
+            ],
+            "translated_annotated_samples": [
+                "Esto demostró cómo el <br>entrenamiento adaptativo</br> proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo."
+            ],
+            "translated_text": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base. Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el <br>entrenamiento adaptativo</br> proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "aNAT model": {
+            "translated_key": "modelo aNAT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure.",
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model.",
+                "However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the <br>aNAT model</br> and show-based aCMLLR transforms was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation."
+            ],
+            "original_annotated_samples": [
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the <br>aNAT model</br> and show-based aCMLLR transforms was tested."
+            ],
+            "translated_annotated_samples": [
+                "Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el <br>modelo aNAT</br> y transformaciones aCMLLR basadas en el espectáculo."
+            ],
+            "translated_text": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base. Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el <br>modelo aNAT</br> y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "aNAT procedure": {
+            "translated_key": "procedimiento aNAT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the <br>aNAT procedure</br>.",
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model.",
+                "However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based aCMLLR transforms was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation."
+            ],
+            "original_annotated_samples": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the <br>aNAT procedure</br>."
+            ],
+            "translated_annotated_samples": [
+                "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el <br>procedimiento aNAT</br>."
+            ],
+            "translated_text": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el <br>procedimiento aNAT</br>. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base. Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "factorisation approach using MLLR speaker transforms": {
+            "translated_key": "transformaciones de altavoz MLLR",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure.",
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model.",
+                "However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the <br>factorisation approach using MLLR speaker transforms</br> on top of the aNAT model and show-based aCMLLR transforms was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation."
+            ],
+            "original_annotated_samples": [
+                "Finally, the <br>factorisation approach using MLLR speaker transforms</br> on top of the aNAT model and show-based aCMLLR transforms was tested."
+            ],
+            "translated_annotated_samples": [
+                "Finalmente, se probó el enfoque de factorización utilizando <br>transformaciones de altavoz MLLR</br> sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo."
+            ],
+            "translated_text": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base. Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando <br>transformaciones de altavoz MLLR</br> sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "GMM–HMM model": {
+            "translated_key": "modelo GMM-HMM",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure.",
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline <br>GMM–HMM model</br>.",
+                "However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based aCMLLR transforms was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation."
+            ],
+            "original_annotated_samples": [
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline <br>GMM–HMM model</br>."
+            ],
+            "translated_annotated_samples": [
+                "Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el <br>modelo GMM-HMM</br> base."
+            ],
+            "translated_text": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el <br>modelo GMM-HMM</br> base. Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "speaker adaptation": {
+            "translated_key": "adaptación del altavoz",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure.",
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model.",
+                "However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based aCMLLR transforms was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers <br>speaker adaptation</br>."
+            ],
+            "original_annotated_samples": [
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers <br>speaker adaptation</br>."
+            ],
+            "translated_annotated_samples": [
+                "Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la <br>adaptación del altavoz</br>."
+            ],
+            "translated_text": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base. Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la <br>adaptación del altavoz</br>. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "speaker clustering": {
+            "translated_key": "agrupamiento preciso de altavoces",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure.",
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model.",
+                "However, training show-based aCMLLR transforms on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based aCMLLR transforms was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate <br>speaker clustering</br> in this task and how this actually hampers speaker adaptation."
+            ],
+            "original_annotated_samples": [
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate <br>speaker clustering</br> in this task and how this actually hampers speaker adaptation."
+            ],
+            "translated_annotated_samples": [
+                "Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un <br>agrupamiento preciso de altavoces</br> en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz."
+            ],
+            "translated_text": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base. Sin embargo, el entrenamiento de transformaciones aCMLLR basadas en el espectáculo sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un <br>agrupamiento preciso de altavoces</br> en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "training show-based aCMLLR transforms": {
+            "translated_key": "transformaciones aCMLLR basadas en el espectáculo",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "The final set of experiments involved an adaptive retraining of the GMM–HMM parameters following the aNAT procedure.",
+                "This new model only provided an improvement of 0.3%, similar to using the aCMLLR transforms on the baseline GMM–HMM model.",
+                "However, <br>training show-based aCMLLR transforms</br> on top of the adaptively trained model boosted the improvement to 0.8% absolute.",
+                "This showed how adaptive training provided a better flexibility of the model to adapt to specific background conditions existing in each show.",
+                "Finally, the factorisation approach using MLLR speaker transforms on top of the aNAT model and show-based aCMLLR transforms was tested.",
+                "This only increased the improvement to 0.9% absolute (2.9% relative), which reflects the difficulty of performing accurate speaker clustering in this task and how this actually hampers speaker adaptation."
+            ],
+            "original_annotated_samples": [
+                "However, <br>training show-based aCMLLR transforms</br> on top of the adaptively trained model boosted the improvement to 0.8% absolute."
+            ],
+            "translated_annotated_samples": [
+                "Sin embargo, el entrenamiento de <br>transformaciones aCMLLR basadas en el espectáculo</br> sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto."
+            ],
+            "translated_text": "La serie final de experimentos involucró un reentrenamiento adaptativo de los parámetros GMM-HMM siguiendo el procedimiento aNAT. Este nuevo modelo solo proporcionó una mejora del 0.3%, similar al uso de las transformaciones aCMLLR en el modelo GMM-HMM base. Sin embargo, el entrenamiento de <br>transformaciones aCMLLR basadas en el espectáculo</br> sobre el modelo entrenado de forma adaptativa aumentó la mejora a 0.8% absoluto. Esto demostró cómo el entrenamiento adaptativo proporcionaba una mejor flexibilidad al modelo para adaptarse a condiciones específicas de fondo existentes en cada espectáculo. Finalmente, se probó el enfoque de factorización utilizando transformaciones de altavoz MLLR sobre el modelo aNAT y transformaciones aCMLLR basadas en el espectáculo. Esto solo aumentó la mejora a 0.9% absoluto (2.9% relativo), lo que refleja la dificultad de realizar un agrupamiento preciso de altavoces en esta tarea y cómo esto realmente obstaculiza la adaptación del altavoz. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}

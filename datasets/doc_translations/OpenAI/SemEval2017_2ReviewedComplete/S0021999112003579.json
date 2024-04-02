@@ -1,0 +1,459 @@
+{
+    "id": "S0021999112003579",
+    "original_text": "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers. The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers. We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems. We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration.",
+    "original_translation": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas.",
+    "original_sentences": [
+        "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+        "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+        "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+        "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+    ],
+    "translated_text_sentences": [
+        "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos.",
+        "Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange.",
+        "Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados.",
+        "Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas."
+    ],
+    "error_count": 0,
+    "keys": {
+        "Clx=CxlT": {
+            "translated_key": "bloques fuera de la diagonal Cxl y Clx=CxlT",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and <br>Clx=CxlT</br> arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and <br>Clx=CxlT</br> arise through the imposition of the displacement constraint by the Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos <br>bloques fuera de la diagonal Cxl y Clx=CxlT</br> surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos <br>bloques fuera de la diagonal Cxl y Clx=CxlT</br> surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Cxl": {
+            "translated_key": "bloques fuera de la diagonal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks <br>Cxl</br> and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks <br>Cxl</br> and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos <br>bloques fuera de la diagonal</br> Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos <br>bloques fuera de la diagonal</br> Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Dirichlet boundary conditions": {
+            "translated_key": "condiciones de contorno de Dirichlet",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of <br>Dirichlet boundary conditions</br> in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of <br>Dirichlet boundary conditions</br> in related problems."
+            ],
+            "translated_annotated_samples": [
+                "Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de <br>condiciones de contorno de Dirichlet</br> basadas en multiplicadores de Lagrange en problemas relacionados."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de <br>condiciones de contorno de Dirichlet</br> basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "discretisation": {
+            "translated_key": "discretización",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this <br>discretisation</br>; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We refer to [34] for the proof of the LBB stability of this <br>discretisation</br>; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems."
+            ],
+            "translated_annotated_samples": [
+                "Nos referimos a [34] para la demostración de la estabilidad LBB de esta <br>discretización</br>; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta <br>discretización</br>; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "displacement constraint": {
+            "translated_key": "restricción de desplazamiento",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the <br>displacement constraint</br> (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the <br>displacement constraint</br> by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the <br>displacement constraint</br> (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the <br>displacement constraint</br> by the Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la <br>restricción de desplazamiento</br> (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la <br>restricción de desplazamiento</br> por los multiplicadores de Lagrange."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la <br>restricción de desplazamiento</br> (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la <br>restricción de desplazamiento</br> por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "equilibrium configuration": {
+            "translated_key": "configuración de equilibrio",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems <br>equilibrium configuration</br>."
+            ],
+            "original_annotated_samples": [
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems <br>equilibrium configuration</br>."
+            ],
+            "translated_annotated_samples": [
+                "Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la <br>configuración de equilibrio</br> de los sistemas."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la <br>configuración de equilibrio</br> de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Lagrange-multiplier-based imposition": {
+            "translated_key": "imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the <br>Lagrange-multiplier-based imposition</br> of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the <br>Lagrange-multiplier-based imposition</br> of Dirichlet boundary conditions in related problems."
+            ],
+            "translated_annotated_samples": [
+                "Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la <br>imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange</br> en problemas relacionados."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la <br>imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange</br> en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Lagrange multipliers": {
+            "translated_key": "multiplicadores de Lagrange",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete <br>Lagrange multipliers</br>.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the <br>Lagrange multipliers</br>.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete <br>Lagrange multipliers</br>.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the <br>Lagrange multipliers</br>."
+            ],
+            "translated_annotated_samples": [
+                "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb <br>multiplicadores de Lagrange</br> discretos desconocidos.",
+                "Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los <br>multiplicadores de Lagrange</br>."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb <br>multiplicadores de Lagrange</br> discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los <br>multiplicadores de Lagrange</br>. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "LBB": {
+            "translated_key": "estabilidad LBB",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the <br>LBB</br> stability of this discretisation; see also [35,36] for a discussion of the <br>LBB</br> stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We refer to [34] for the proof of the <br>LBB</br> stability of this discretisation; see also [35,36] for a discussion of the <br>LBB</br> stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems."
+            ],
+            "translated_annotated_samples": [
+                "Nos referimos a [34] para la demostración de la <br>estabilidad LBB</br> de esta discretización; ver también [35,36] para una discusión de la <br>estabilidad LBB</br> de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la <br>estabilidad LBB</br> de esta discretización; ver también [35,36] para una discusión de la <br>estabilidad LBB</br> de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Newton-based solution": {
+            "translated_key": "solución basada en Newton",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the <br>Newton-based solution</br> of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "The linear systems to be solved in the course of the <br>Newton-based solution</br> of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Los sistemas lineales a resolver en el transcurso de la <br>solución basada en Newton</br> de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la <br>solución basada en Newton</br> de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "Newton iteration": {
+            "translated_key": "iteración de Newton",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the <br>Newton iteration</br>, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We note that during the first step of the <br>Newton iteration</br>, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "translated_annotated_samples": [
+                "Destacamos que durante el primer paso de la <br>iteración de Newton</br>, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la <br>iteración de Newton</br>, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "nodal coordinates": {
+            "translated_key": "coordenadas nodales",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown <br>nodal coordinates</br>, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown <br>nodal coordinates</br>, followed by the nb unknown discrete Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx <br>coordenadas nodales</br> desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx <br>coordenadas nodales</br> desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "order the discrete unknowns": {
+            "translated_key": "ordenar las incógnitas discretas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We <br>order the discrete unknowns</br> so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We <br>order the discrete unknowns</br> so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                []
+            ]
+        },
+        "saddle-point structure": {
+            "translated_key": "estructura de punto de silla",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have <br>saddle-point structure</br>,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have <br>saddle-point structure</br>,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una <br>estructura de punto de silla</br>, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una <br>estructura de punto de silla</br>, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "tangent stiffness matrix": {
+            "translated_key": "matriz de rigidez tangente",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the <br>tangent stiffness matrix</br> of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the <br>tangent stiffness matrix</br> relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the <br>tangent stiffness matrix</br> of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the <br>tangent stiffness matrix</br> relative to the systems equilibrium configuration."
+            ],
+            "translated_annotated_samples": [
+                "Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la <br>matriz de rigidez tangente</br> del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange.",
+                "Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la <br>matriz de rigidez tangente</br> relativa a la configuración de equilibrio de los sistemas."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la <br>matriz de rigidez tangente</br> del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la <br>matriz de rigidez tangente</br> relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "two off-diagonal blocks": {
+            "translated_key": "bloques fuera de la diagonal",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the <br>two off-diagonal blocks</br> Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the <br>two off-diagonal blocks</br> Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos <br>bloques fuera de la diagonal</br> Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos <br>bloques fuera de la diagonal</br> Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "unconstrained pseudo-solid problem": {
+            "translated_key": "problema pseudo-sólido no restringido",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the <br>unconstrained pseudo-solid problem</br>, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the <br>unconstrained pseudo-solid problem</br>, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del <br>problema pseudo-sólido no restringido</br>, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el vector de incógnitas, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del <br>problema pseudo-sólido no restringido</br>, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "vector of unknowns": {
+            "translated_key": "vector de incógnitas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the <br>vector of unknowns</br>, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We order the discrete unknowns so that the <br>vector of unknowns</br>, xPS=[X,L], contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Ordenamos las incógnitas discretas de manera que el <br>vector de incógnitas</br>, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el <br>vector de incógnitas</br>, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        },
+        "xPS=[X,L]": {
+            "translated_key": "vector de incógnitas",
+            "is_in_text": true,
+            "original_annotated_sentences": [
+                "We order the discrete unknowns so that the vector of unknowns, <br>xPS=[X,L]</br>, contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers.",
+                "The linear systems to be solved in the course of the Newton-based solution of Eq. (10), subject to the displacement constraint (9), then have saddle-point structure,(15)where E is the tangent stiffness matrix of the unconstrained pseudo-solid problem, and the two off-diagonal blocks Cxl and Clx=CxlT arise through the imposition of the displacement constraint by the Lagrange multipliers.",
+                "We refer to [34] for the proof of the LBB stability of this discretisation; see also [35,36] for a discussion of the LBB stability of the Lagrange-multiplier-based imposition of Dirichlet boundary conditions in related problems.",
+                "We note that during the first step of the Newton iteration, E is symmetric positive definite since it represents the tangent stiffness matrix relative to the systems equilibrium configuration."
+            ],
+            "original_annotated_samples": [
+                "We order the discrete unknowns so that the vector of unknowns, <br>xPS=[X,L]</br>, contains the nx unknown nodal coordinates, followed by the nb unknown discrete Lagrange multipliers."
+            ],
+            "translated_annotated_samples": [
+                "Ordenamos las incógnitas discretas de manera que el <br>vector de incógnitas</br>, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos."
+            ],
+            "translated_text": "Ordenamos las incógnitas discretas de manera que el <br>vector de incógnitas</br>, xPS=[X,L], contenga las nx coordenadas nodales desconocidas, seguidas de los nb multiplicadores de Lagrange discretos desconocidos. Los sistemas lineales a resolver en el transcurso de la solución basada en Newton de la Ec. (10), sujeta a la restricción de desplazamiento (9), tienen entonces una estructura de punto de silla, (15) donde E es la matriz de rigidez tangente del problema pseudo-sólido no restringido, y los dos bloques fuera de la diagonal Cxl y Clx=CxlT surgen a través de la imposición de la restricción de desplazamiento por los multiplicadores de Lagrange. Nos referimos a [34] para la demostración de la estabilidad LBB de esta discretización; ver también [35,36] para una discusión de la estabilidad LBB de la imposición de condiciones de contorno de Dirichlet basadas en multiplicadores de Lagrange en problemas relacionados. Destacamos que durante el primer paso de la iteración de Newton, E es simétrica y definida positiva ya que representa la matriz de rigidez tangente relativa a la configuración de equilibrio de los sistemas. ",
+            "candidates": [],
+            "error": [
+                [
+                    ""
+                ]
+            ]
+        }
+    }
+}
