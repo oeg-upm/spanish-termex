@@ -1,8 +1,5 @@
-# spanish-termex
-State of the art of automatic term extraction and keyword extraction for English and Spanish languages.
-This repository contains the scripts for the translation of SemEval2010 and 2017 datasets for keyword extraction into Spanish language.
-Also, the evaluation process with the main soa AKE methods implemented by the library PKE is developed.
-
+# Benchmark for Automatic Keyword Extraction in Spanish: Datasets and Methods
+Tasks such as document indexing or information retrieval still seem to heavily rely on keywords, even in the LLMs era. However, there is still a need for automatic keyword extraction works and training sets in languages other than English. To the best of our knowledge, no datasets for keyword extraction in Spanish are publicly available for training or evaluation purposes. Additionally, those innovative keyword extraction methods that rely on language models are not being adapted to language models in other languages. To palliate this situation, this work proposes a method to translate into Spanish two of the main gold standard datasets used by community, while preserving semantics and terms. Then, the main state-of-the-art methods are evaluated against the new translated datasets. The methods used for the evaluation have been configured or re-implemented for Spanish. 
 
 ## Installation
 On Python 3.9
@@ -13,6 +10,7 @@ Libraries and versions on file Requirements.txt
 Also remember the spacy model for Spanish
 
 ´´´
+
 python -m spacy download es_core_news_sm
 
 ´´´
