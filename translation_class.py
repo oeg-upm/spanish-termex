@@ -452,7 +452,7 @@ class TranslationH():
                 key.original_annotated_sentences = output_list
                 val=key.check_annotations()
 
-
+            '''
             ## Validamos una segunda vez pasar a plural. SemEval2010
             if not val:
                 plural_key= pluralize(key.key)
@@ -475,10 +475,11 @@ class TranslationH():
                     key.key = original_term
 
 
+            
+            '''
             if not val:
-                #print("Error in>>> ",self.id,key.key)
-                error=error+1
-
+                # print("Error in>>> ",self.id,key.key)
+                error = error + 1
 
 
         return error

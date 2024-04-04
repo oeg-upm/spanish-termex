@@ -42,4 +42,21 @@ def borrar_archivos_con_nombre_en_lista(carpeta, lista_nombres,carpeta_dest):
 OutputPath = 'datasets/doc_translations/OpenAI/SemEval2017/'
 OutputPath2 = 'datasets/doc_translations/OpenAI/SemEval2017_2/'
 
-borrar_archivos_con_nombre_en_lista(OutputPath, Lista,OutputPath2)
+#borrar_archivos_con_nombre_en_lista(OutputPath, Lista,OutputPath2)
+
+
+from collections import Counter
+
+def most_repeated_value(lst):
+    # Count occurrences of each element in the list
+    counts = Counter(lst)
+    # Get the most common element and its count
+    most_common = counts.most_common(1)
+    # Return the most common element
+    return most_common[0][0] if most_common else None
+
+
+my_list = [1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5]
+my_list = [1,2]
+result = most_repeated_value(my_list)
+print("Most repeated value:", result)

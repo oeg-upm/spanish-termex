@@ -64,11 +64,15 @@ def write_keys(nombre_archivo, lineas):
 
 
 
+'''
 
 InputPath1=   'datasets/source/SemEval2017/'
 InputPath2=   'datasets/doc_translations/OpenAI/SemEval2017_2ReviewedComplete/'
 OutputPath = 'datasets/target/SemEval2017_GPT3/' #'datasets/translation_test/trans'
-
+'''
+InputPath1=   'datasets/source/SemEval2010/'
+InputPath2=   'datasets/doc_translations/OpenAI/SemEval2010_Reviewed2Complete/'
+OutputPath = 'datasets/target/SemEval2010_GPT3/' #'datasets/translation_test/trans'
 
 
 PathKeys = InputPath1 + 'keys'
