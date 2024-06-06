@@ -91,7 +91,31 @@ def user_corrector(texto_original, texto_traducido, terminos,key):
     print('Final term',final_term, "\n\n\n")
     return final_term
 
+from collections import Counter
+def most_repeated_value(lst):
+    # Count occurrences of each element in the list
+    counts = Counter(lst)
+    # Get the most common element and its count
+    most_common = counts.most_common(1)
+    # Return the most common element
+    return most_common[0][0] if most_common else None
 
+def automatic_corrector(texto_original, texto_traducido, terminos,key):
+
+    final_term=''
+    print("Lista de términos:",terminos)
+    print("Keyword a traducir:: ",key)
+    # Calcular cuántas veces aparece cada término en el texto
+    apariciones = {termino: texto_traducido.count(termino) for termino in terminos}
+
+
+    if len(terminos) ==0:
+        final_term=Helsinki_translator.translate_text_original(key)
+    else:
+        final_term= most_repeated_value(terminos)
+
+
+    return final_term
 
 #InputPath='datasets/doc_translations/errors_test/'
 # InputPath = 'datasets/doc_translations/SemEval2017_GTranslate/'
@@ -102,7 +126,7 @@ InputPath='datasets/doc_translations/SemEval2010_GTranslate_Postprocessed/'
 OutputPath='datasets/doc_translations/SemEval2010_GTranslateReviewed/'
 
 InputPath =  'datasets/doc_translations/OpenAI/SemEval2010/'
-OutputPath = 'datasets/doc_translations/OpenAI/SemEval2010_Reviewed/'
+OutputPath = 'datasets/doc_translations/OpenAI/SemEval2010_Reviewed2/'
 
 sourcedocs = os.listdir(InputPath)
 targetdocs = os.listdir(OutputPath)
@@ -140,7 +164,10 @@ for ident in source_identifiers:
                     #print(translation,key )
                     #print(ident)
                     #new_term=user_corrector(data_dict['original_text'],data_dict['original_translation'],translation,key)
-                    new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'][0], key) # ARCHIVOS PABLO
+                    #new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['error'][0], key) # ARCHIVOS PABLO
+                    new_term = automatic_corrector(data_dict['original_text'], data_dict['original_translation'],
+                                              data_dict['keys'][key]['error'][0], key)  # ARCHIVOS PABLO
+
                     #new_term = user_corrector(data_dict['original_text'], data_dict['original_translation'],data_dict['keys'][key]['candidates'], key)
                     #print(ident)
                     num_errors=num_errors-1 #PABLO Y SEMEVAL2017

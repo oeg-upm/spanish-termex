@@ -69,7 +69,7 @@ def evaluate_results(keypath, respath ,f1_top):
         print('FATAL ERROR')
         return
 
-    print('Files to process:', len(keyfiles))
+    #print('Files to process:', len(keyfiles))
 
     for keyf in keyfiles:
         key_single = read_term_list_file(keys_path+keyf)
@@ -84,4 +84,5 @@ def evaluate_results(keypath, respath ,f1_top):
     straight_f1 = f1(mean_p, mean_r)
     print('Precission, recall, f1, mean_f1')
     print(mean_p, mean_r, straight_f1, mean_f1)
-    print(mean_p*100, mean_r*100, straight_f1*100)
+
+    print(format( mean_p*100, ".2f") , format( mean_r*100, ".2f") , format( straight_f1*100, ".2f") )

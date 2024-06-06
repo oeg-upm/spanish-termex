@@ -33,8 +33,8 @@ error=0
 
 for identifier in source_identifiers:
 
-    if identifier in target_identifiers:
-        continue  # si está en los ya traducidos pasamos
+    #if identifier in target_identifiers:
+     #   continue  # si está en los ya traducidos pasamos
 
     try:
 
@@ -48,7 +48,7 @@ for identifier in source_identifiers:
         error= error+ translation.generate_annotated_sentences()
 
 
-        translation.write_json(OutputPath)
+        #translation.write_json(OutputPath)
         # print("ERRORS:",translation.error_count)
 
 

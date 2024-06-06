@@ -36,17 +36,23 @@ for identifier in source_identifiers:
 
     try:
         print(identifier)
-
+        continue
         translation= TranslationH(identifier,'','')
+        file_stats = os.stat(InputPath+str(identifier)+'.json')
+
+        print(file_stats)
+        print(f'File Size in Bytes is {file_stats.st_size}')
         translation.construct_from_json(InputPath+str(identifier)+'.json')
 
-        print(translation.original_text_sentences)
+
         translation.translated_text_sentences= openaiwe.translate_text_original2(translation.original_text_sentences)
 
         translation.translated_text = " ".join(translation.translated_text_sentences)
+        print('translated')
 
         for key in translation.keys:
             #print(key.original_annotated_sentences)
+            print('key ',key)
             openaiwe.translate_keyword(key,translation.translated_text_sentences)
 
         translation.compare_annotated_keywords()
