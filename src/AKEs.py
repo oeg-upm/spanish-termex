@@ -65,7 +65,9 @@ class YakeExtractor():
 
     def extract_n_best(self,text,n):
         keywords = self.extractor.extract_keywords(text)
-        return clean_pkeresutls(keywords[:n])
+        
+        #return clean_pkeresutls(keywords[:n])
+        return keywords
 
 
 
