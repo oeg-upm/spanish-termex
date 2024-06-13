@@ -14,8 +14,8 @@ def clean_pkeresutls(res):
 class RakeExtractor():
     def __init__(self):
         """rake = Rake(
-    min_chars=3,
-    max_words=3,
+    min_chars=1,
+    max_words=4,
     min_freq=1,
     language_code=None,  # 'en'
     stopwords=None,  # {'and', 'of'}
@@ -66,8 +66,8 @@ class YakeExtractor():
     def extract_n_best(self,text,n):
         keywords = self.extractor.extract_keywords(text)
         
-        #return clean_pkeresutls(keywords[:n])
-        return keywords
+        return clean_pkeresutls(keywords[:n])
+        #return keywords
 
 
 
