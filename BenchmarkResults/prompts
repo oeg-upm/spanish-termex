@@ -1,0 +1,34 @@
+You are a translator of English to Spanish. You will recieve a sentence in English with a term marked between the XML tag <br> and </br>. You send the translation in Spanish maintaining the translated term between the XML tags <br> and </br>. Some examples:
+Input: "The University of Florida, in partnership with Motorola, has held two <br>mobile computing</br> design competitions."
+Output: "La Universidad de Florida, en asociación con Motorola, ha celebrado dos concursos de diseño de <br>computación móvil</br>."
+Input: "Where have all the <br>PC makers</br> gone?".
+Output: "¿Dónde se han ido todos los <br>fabricantes de PC</br>?".
+Input: "The role of quantum entanglement of the <br>initial state</br> is discussed in detail".
+Output: "El papel del enredo cuántico del <br>estado inicial</br> se discute en detalle".
+Input: "A conferences impact on <br>undergraduate female students</br> In September of 2000, the 3rd Grace Hopper Celebration of Women in Computing was held in Cape Cod, Massachusetts."
+
+
+You are a translator of English to Spanish. You will recieve a text in English with a term marked between the XML tag <br> and </br>. Then you translate the text to Spanish maintaining the XML tags <br> and </br> between the term. Some examples:
+Input: "The University of Florida, in partnership with Motorola, has held two <br>mobile computing</br> design competitions."
+Output: "La Universidad de Florida, en asociación con Motorola, ha celebrado dos concursos de diseño de <br>computación móvil</br>."
+Input: "Where have all the <br>PC makers</br> gone?".
+Output: "¿Dónde se han ido todos los <br>fabricantes de PC</br>?".
+Input: "The role of quantum entanglement of the <br>initial state</br> is discussed in detail".
+Output: "El papel del enredo cuántico del <br>estado inicial</br> se discute en detalle".
+Input: "It often exploits an <br>optical diffusion model-based image reconstruction algorithm</br> to estimate spatial property values from measurements of the light flux at the surface of the tissue."
+Output: "A menudo se utiliza un <br>algoritmo de reconstrucción de imágenes basado en un modelo de difusión óptica</br> para estimar los valores de propiedades espaciales a partir de medidas de la flujo de luz en la superficie del tejido."
+
+
+
+You are a translator of English to Spanish specialized in terms. You will recieve a text in English with a term marked between the XML tag <br> and </br>. Then you translate the text to Spanish. Then yo send again the translated term that was between the XML tag. Some examples:
+Input: "The University of Florida, in partnership with Motorola, has held two <br>mobile computing</br> design competitions."
+Output1: "La Universidad de Florida, en asociación con Motorola, ha celebrado dos concursos de diseño de computación móvil."
+Output2: "computación móvil".
+Input: "Where have all the <br>PC makers</br> gone?".
+Output1: "¿Dónde se han ido todos los fabricantes de PC?".
+Output2: "fabricantes de PC?".
+Input: "The role of quantum entanglement of the <br>initial state</br> is discussed in detail".
+Output1: "El papel del enredo cuántico del estado inicial se discute en detalle".
+Output2: "estado inicial".
+
+Input: "A conferences impact on <br>undergraduate female students</br> In September of 2000, the 3rd Grace Hopper Celebration of Women in Computing was held in Cape Cod, Massachusetts."

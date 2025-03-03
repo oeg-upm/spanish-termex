@@ -25,3 +25,25 @@ The main folder with results is 'datasets'. Inside the directory:
 
 
 
+## Acknowledgments 
+Para su desarrollo este código ha recibido financiación del proyecto INESData (Infraestructura para la INvestigación de ESpacios de DAtos distribuidos en UPM), un proyecto financiado en el contexto de la convocatoria UNICO I+D CLOUD del Ministerio para la Transformación Digital y de la Función Pública en el marco del PRTR financiado por Unión Europea (NextGenerationEU).
+
+
+## Paper Citation
+
+```bibtext
+@inproceedings{Calleja2024,
+  author    = {Pablo Calleja and Patricia Martín-Chozas and Elena Montiel-Ponsoda},
+  title     = {Benchmark for Automatic Keyword Extraction in Spanish: Datasets and Methods},
+  booktitle = {Poster Proceedings of the 40th Annual Conference of the Spanish Association for Natural Language Processing 2024 (SEPLN-P 2024)},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {3846},
+  pages     = {132--141},
+  year      = {2024},
+  publisher = {CEUR-WS.org},
+  address   = {Valladolid, Spain},
+  month     = {September 24-27},
+  urn       = {urn:nbn:de:0074-3846-7},
+  url       = {https://ceur-ws.org/Vol-3846/}
+}
+```
